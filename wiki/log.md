@@ -39,3 +39,46 @@ Append-only record of all wiki activity.
   - sources/2026-04-05-dodi-5000-02-2020.md
   - concepts/adaptive-acquisition-framework.md
 - Total wiki pages: 14
+
+## [2026-04-05 18:50] batch ingest: 4 new sources, all commits + pushed
+Committed as e7a41f8, pushed to Gitee → GitHub.
+
+### Source: MIL-STD-881D (2018) — Work Breakdown Structures
+- 233 pages, 12 appendices, superseded 881C
+- NDIA Recommendation #3 references this for MOSA component taxonomy
+- Key 2018 additions: Data Rights, Cybersecurity, Software Engineering elements in Appendix K
+- **Pages**: sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md
+
+### Source: FACE Technical Standard 3.2 (Aug 2023) — The Open Group
+- 592 pages, only 4x MOSA mentions (p29, p588 glossary) — significant finding
+- 5 segments: OS, I/O Services, Platform-Specific Services, Portable Components, Transport Services
+- 3 "KEY" Standardized Interfaces (MOSA open interfaces)
+- 70+ organizations, 900+ contributors, 20+ deployments
+- UoC (Unit of Conformance) model — the actual mechanism for portability
+- Conformance testing process exists — model for MOSA evaluation
+- **Pages**: sources/2026-04-05-face-technical-standard-3.2-2023.md
+
+### Source: DoDI 5000.85 (2020, Chg1 2021) — Major Capability Acquisition
+- 40 pages — the MOSA legal mandate source we'd been searching for
+- Page 26, §3C.3.a.(5): Full MOSA requirements
+  - MDAPs after 1/1/2019 "must" design/develop with MOSA to max extent practicable
+  - Acquisition strategy must describe: architecture, interfaces, IP, TDP, future evolution
+  - RFP must specify MOSA implementation and minimum component set
+- 6 acquisition pathways under AAF
+- **Pages**: sources/2026-04-05-dodi-5000-85-2020.md
+
+### Source: NDIA MOSA White Paper Recommendations (2019, Rev. D)
+- 16 pages, 38 industry + 14 gov + 5 academia members
+- Top 10 recommendations align perfectly with Shah thesis findings
+- Key: "Make MOSA a requirement — not an option — for all procurements"
+- OSMP = Open Systems Management Plan (as common as SEMP)
+- **Pages**: sources/2026-04-05-ndia-mosa-white-paper-2019.md
+
+### Key Synthesis (cross-source findings):
+1. **DoDI 5000.02 has 0 MOSA mentions** vs **DoDI 5000.85 has 11** — framework vs. mandate
+2. **FACE 3.2 barely mentions MOSA** (4x in 592 pages) — it's a spec, not a policy document
+3. **MOSA legal basis** = USC 10 §2446a + DoDI 5000.85 §3C.3.a.(5) — both say "max extent practicable"
+4. **NDIA + Shah align** on every gap: no metrics, no certification, no standardized metrics
+5. **FACE is the only MOSA standard with conformance testing** — model for others
+
+Total wiki pages: 20
