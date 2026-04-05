@@ -3,23 +3,27 @@
 > 更新规则：每次 ingest 后更新此目录
 
 ## Sources (来源)
-- [[2026-04-05-mosa-shah-thesis]] — Shah, "MOSA and US Defense Acquisition" (GWU D.Eng. 2021)
+- [[2026-04-05-mosa-shah-thesis]] — Shah, "MOSA and US Defense Acquisition" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
 
 ## Concepts (概念)
-- [[mosa-defense-acquisition]] — MOSA 定义、原则、标准、证据缺失
+- [[mosa-defense-acquisition]] — MOSA 定义、原则、6 假说验证结果、成功项目列表、研究局限与建议
 - [[vendor-lock-in]] — 国防承包商锁定问题与 MOSA 解法
+- [[face-technical-standard]] — FACE 航空电子设备标准（70 组织，900 贡献者）
+- [[open-mission-systems]] — OMS 军用任务互操作性倡议
+- [[modular-architecture-patterns]] — 模块化架构模式（跨领域）
 
 ## Entities (实体)
-- [[parth-devang-shah]] — thesis 作者背景
-- [[better-buying-power-3-0]] — MOSA 强制指令 (2015)
+- [[parth-devang-shah]] — thesis 作者，GWU D.Eng. 2021
+- [[better-buying-power-3]] — MOSA 强制指令 (2015), DoD 采购改革
 
 ## Synthesis (综合)
-- [[mosa-defense-acquisition]] — MOSA 综合条目（同上 concept，可作为主入口）
+- [[mosa-defense-acquisition]] — MOSA 综合条目（主入口）
+
+## Comparisons (对比)
+- [[karpathy-vs-implementation]] — Karpathy LLM Wiki 原版 vs 我们实现的对齐状态
 
 ## Standards
-- [[face-technical-standard]] — FACE 航空电子设备标准
-
-## Sources Count: 1 | Concepts: 2 | Entities: 2 | Synthesis: 1 | Standards: 1
+- FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, HOST, ISO/IEC/IEEE 15288
 
 ---
-*Last updated: 2026-04-05 (MOSA thesis ingest #1)*
+*Last updated: 2026-04-05 16:05 (MOSA thesis full ingest — 124 pages)*
