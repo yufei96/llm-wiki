@@ -5,6 +5,10 @@
 ## Sources (来源)
 - [[2026-04-05-mosa-shah-thesis]] — Shah, "MOSA and US Defense Acquisition" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
 - [[2026-04-05-dodi-5000-02-2020]] — DoDI 5000.02, "Operation of the Adaptive Acquisition Framework" (2020, Chg1 2022). 19 pages. Raw: `raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf`
+- [[2026-04-05-dodi-5000-85-2020]] — DoDI 5000.85, "Major Capability Acquisition" (2020, Chg1 2021). 40 pages. Raw: `raw/papers/dodi-5000.85-major-capability-acquisition-2020.pdf`
+- [[2026-04-05-ndia-mosa-white-paper-2019]] — NDIA SE Division, "MOSA White Paper — Summary Recommendations" (2019). 16 pages.
+- [[2026-04-05-mil-std-881d-wbs-defense-materiel]] — MIL-STD-881D, "WBS for Defense Materiel Items" (2018). 233 pages.
+- [[2026-04-05-face-technical-standard-3.2-2023]] — FACE Technical Standard, Edition 3.2 (Aug 2023). 592 pages.
 
 ## Concepts (概念)
 - [[mosa-defense-acquisition]] — MOSA 定义、原则、6 假说验证结果、成功项目列表、研究局限与建议
