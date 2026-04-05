@@ -1,0 +1,13 @@
+{
+  "lastPush": "2026-04-05T16:05:00+08:00",
+  "pushCount": 3,
+  "lastIngest": "2026-04-05T16:05:00+08:00",
+  "unpushedCommits": 0,
+  "pushPolicy": {
+    "pushAfterIngests": 3,
+    "pushMaxAgeHours": 8,
+    "pushOnSessionEnd": true
+  },
+  "focusTopic": "MOSA",
+  "note": "宇飞正在学习 MOSA 领域，后续 ingest 优先该方向"
+}

@@ -29,3 +29,13 @@ Append-only record of all wiki activity.
 - **New pages**: concepts/open-mission-systems.md
 - **Updated**: sources/mosa-shah-thesis.md (full 124-page results), concepts/mosa-defense-acquisition.md (complete), index.md
 - Total wiki pages: 12
+
+## [2026-04-05 17:18] ingest | DoDI 5000.02 — Operation of the Adaptive Acquisition Framework (2020, Chg1 2022)
+- Source: raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf (19 pages, 33KB)
+- **Key finding**: MOSA NOT mentioned anywhere in this document. The 2020 version was restructured; MOSA policy was in the 2015 version, but all content moved to separate child DoDIs (5000.85, 5000.80, 5000.88, 5000.89, 5000.91, 5000.95).
+- AAF has 6 pathways: Urgent (<2yr), MTA (≤5yr), Major Capability (structured), Software (agile), DBS, Services
+- MOSA search must pivot to **DoDI 5000.85** (Major Capability Acquisition) or other child instructions
+- Pages created:
+  - sources/2026-04-05-dodi-5000-02-2020.md
+  - concepts/adaptive-acquisition-framework.md
+- Total wiki pages: 14
