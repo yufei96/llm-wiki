@@ -4,7 +4,7 @@ date: 2026-04-05
 type: source_summary
 source: raw/papers/mil-std-881d-wbs-defense-materiel-2018.pdf
 author: "Department of Defense"
-tags: [MIL-STD, WBS, defense-acquisition, modularity, cost-reporting, interface-definition]
+tags: [MIL-STD, WBS, defense-acquisition, modularity, cost-reporting, mosat]
 ---
 
 # MIL-STD-881D Summary (2018)
@@ -12,114 +12,61 @@ tags: [MIL-STD, WBS, defense-acquisition, modularity, cost-reporting, interface-
 ## Document Meta
 
 - **Full name**: MIL-STD-881D — Work Breakdown Structures for Defense Materiel Items
-- **Date**: April 9, 2018 (supersedes MIL-STD-881C, October 3, 2011)
-- **Authority**: Approved for all DoD Departments and Agencies
-- **Scope**: Mandatory for all ACAT programs
+- **Date**: April 9, 2018
+- **Supersedes**: MIL-STD-881C
 - **233 pages**
-- **15 appendices**
+- **12 appendices** (A-L)
 
 ## Purpose
 
-Provides a **common classification system** for defense materiel items. Creates a Work Breakdown Structure (WBS) that:
-- Enables uniform cost/schedule reporting across programs
-- Supports consistent communication between government and industry
-- Provides the basis for cost estimation, risk analysis, and funding
+Defines **standardized work breakdown structures** for defense materiel items. Creates a common language for describing system components across DoD.
 
-## Key 2018 Changes
+## Structure
 
-a. **Appendix A**: Aircraft Systems + Unmanned Aircraft Systems merged
-b. **Appendix C**: Missile Systems + Ordnance Systems merged
-c. **Appendix D**: Now Strategic Missile Systems
-d. **Appendix F**: Space Systems — new/revised definitions
-e. **Appendix G**: Surface → Ground Vehicle Systems
-f. **Appendix J**: Automated Information → Information Systems/Defense Business Systems
-g. **Appendix K**: Common Elements — added Integrated Logistics Support, Software Engineering, Cybersecurity elements
-h. **Appendix K**: Added Contractor Logistics Support (CLS)
-i. **Appendix K**: Added Data Rights (government purchase of contractor data rights)
-j. **Appendix L**: CAPE Sustainment Cost Reporting Structure (CRS)
+The standard defines WBS at a consistent, hierarchical level:
+- **Level 1**: System (e.g., Aircraft, Ship, Missile, Vehicle)
+- **Level 2**: Major subsystems (e.g., Airframe, Propulsion, Mission Equipment)
+- **Level 3**: Components within subsystems
 
-## Relevance to MOSA
+## Key Appendices
 
-MIL-STD-881D was explicitly cited in **NDIA MOSA White Paper Recommendation #3**:
-> "Define Interfaces in Terms of MIL-STD-881D Taxonomy Levels of Detail"
+| Appendix | Coverage |
+|----------|----------|
+| A | Aircraft Systems |
+| B | Ships |
+| C | Missile/Ordnance Systems |
+| D | Strategic Missiles |
+| E | Electronics |
+| F | Space Systems |
+| G | Ground Vehicle Systems |
+| J | Information Systems / Defense Business Systems |
+| K | Common Elements |
+| L | Sustainment Cost Reporting |
 
-**Why it matters for MOSA**:
-1. **Common language**: MIL-STD-881D provides a consistent taxonomy for system hierarchy
-2. **Partitioning**: Defines the levels at which modular interfaces can be specified
-3. **Eliminates ambiguity**: Replaces vague terms like "major component" with standardized levels
-4. **Data Rights**: 2018 update added Data Rights section — directly relevant to open systems procurement
+## Significance for MOSA
 
-## Related MIL-STD-196F/G
+**NDIA Recommendation #3** explicitly calls for using MIL-STD-881D as the common language for MOSA component definition. The standard provides:
 
-MIL-STD-196F/G provides related nomenclature conventions at a finer granularity:
-- System → Subsystems → Centers → Centrals → Sets → Groups → Units
+1. **Consistent taxonomy**: Standard classification for all defense materiel across services
+2. **Component hierarchy**: Clear system → subsystem → component breakdown
+3. **Modularity definition basis**: MOSA interface points can be defined at specific WBS levels
+4. **Eliminates ambiguity**: NDIA noted that terms like "major component" and "platform level" are ambiguous without this standard
 
-## WBS Evolution
+### 2018 Key Changes (from MIL-STD-881C)
 
-Program WBS elements are organized hierarchically:
-- **Level 1**: Program Element (PE)
-- **Level 2**: Major systems/subsystems
-- **Level 3**: Components/modules
-- Each level provides increasing granularity for cost/schedule tracking
+- Added **Data Rights** sections — relevant to MOSA's open interface and technical data package requirements
+- Added **Cybersecurity** reporting elements in Common Elements (Appendix K)
+- Added **Software Engineering and Management** elements (Appendix K)
+- Added **Integrated Logistics Support** elements (Appendix K)
 
-## Appendices
-
-### Appendix A: Aircraft Systems
-WBS elements for manned and unmanned aircraft.
-
-### Appendix B: Ships
-WBS for naval vessels.
-
-### Appendix C: Missile/Ordnance Systems
-WBS for tactical missiles and munitions.
-
-### Appendix D: Strategic Missiles
-ICBMs and strategic missile systems.
-
-### Appendix E: Electronic Systems
-WBS for electronic systems.
-
-### Appendix F: Space Systems
-WBS for space-based systems.
-
-### Appendix G: Ground Vehicle Systems
-WBS for land and amphibious systems; includes family-of-systems variants.
-
-### Appendix H: Command, Control, Communications, Computers, and Intelligence (C4I) Systems
-WBS for C4I systems.
-
-### Appendix J: Information Systems/Defense Business Systems
-WBS for IS/DBS; includes sustainment structure.
-
-### Appendix K: Common Elements
-WBS elements common to all systems, including:
-- Systems Engineering
-- Program Management
-- System Test and Evaluation
-- Integrated Logistics Support
-- Software Engineering and Management
-- Cybersecurity
-- Peculiar/Common Support Equipment
-- Contractor Logistics Support (CLS)
-- Data Rights
-
-### Appendix L: CAPE Sustainment Cost Reporting Structure (CRS)
-Transition from WBS to sustainment cost reporting.
-
-## Significance for MOSA Research
-
-1. **MOSA needs standard taxonomy**: NDIA Recommendation #3 explicitly calls for using MIL-STD-881D to define MOSA interface levels, eliminating ambiguity
-2. **Common vocabulary**: "Major component," "platform level," and similar terms need standardized definitions
-3. **Cost reporting**: WBS provides the structure for cost data collection — essential for MOSA cost-effectiveness analysis
-4. **Modularity levels**: WBS defines the granularity at which modularity decisions are made
-5. **Data Rights**: The 2018 addition of Data Rights (Appendix K) directly supports MOSA's data deliverables requirements
+These additions make MIL-STD-881D increasingly relevant to MOSA, since MOSA requires addressing data rights, cybersecurity, and logistics in modular systems.
 
 ## Related Concepts
 - [[mosa-defense-acquisition]]
-- [[adaptive-acquisition-framework]]
 - [[defense-acquisition-overrun-trends]]
-- [[mil-std-196]]
+
+## Related Entities
+- [[parth-devang-shah]]
 
 ---
-
 *233 pages, April 2018, supersedes MIL-STD-881C (2011).*
