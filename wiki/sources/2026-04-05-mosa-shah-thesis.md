@@ -19,48 +19,77 @@ Almost 60% of US Major Defense Acquisition Programs (MDAPs) are over budget or d
 - **Post-2010 MDAPs**: 2.1% cost growth ($5.3B), 9-month average delay (early stages)
 - **86 MDAPs** tracked by GAO, total cost $1.66T
 - Obsolescence costs DoD **$750M/year**
-- MOSA mandated by **Better Buying Power 3.0 (2015 directive)**
 - MDAP threshold: ≥$480M per fiscal year
+- Cyber threats: ~$600B lost globally (~1% of GDP)
 
-## Document Structure
+## Problem Statement
 
-| Chapter | Content |
-|---------|---------|
-| Ch1 | Introduction: Background, Problem Statement, Research Objectives |
-| Ch2 | Literature Review: modularity concepts, historical performance, MOSA definitions, avionics case studies |
-| Ch3 | Methodology: qualitative research, 6 hypotheses tested |
-| Ch4 | Results: Army, Navy, Avionics, Global, Commercial findings |
-| Ch5 | Conclusions & Recommendations |
-| Appendix A | Cost Analysis of 2018 MDAPs |
+> "Despite a huge, multiyear investment in MOSA, its supporters are unable to demonstrate its value in a convincing way potentially threatening its continued use as a promising design and acquisition strategy."
 
-## 6 Hypotheses Tested
+## 6 Hypotheses & Results
 
-- **H1**: MOSA effects on cost and schedule
-- **H2**: MOSA as strategy implementation success
-- **H3**: US Army MOSA impact
-- **H4**: US Navy MOSA impact
-- **H5**: Global defense sector MOSA influence
-- **H6**: Commercial sector crossover impact
+| Hypothesis | Claim | Result |
+|------------|-------|--------|
+| **H1** | MOSA → good cost/schedule effects visible in program stats | **Not Supported** — Published MDAP data cannot isolate MOSA's effect. Confounding variables too numerous. |
+| **H2** | If MOSA succeeds, government programs will claim it | **Supported** — Global Hawk, MQ-9 Reaper, AH-64E Apache, HH-60W Black Hawk, U-2, F-22, B-52 |
+| **H3** | US military departments require MOSA | **Supported** — Army, Navy, Air Force all have MOSA programs and standards |
+| **H4** | Non-US governments show MOSA success | **Supported** — UK MoD (GVA), Australian DoD, Canadian Armed Forces |
+| **H5** | Commercial sector adopts MOSA | **Supported** — HForce by Airbus helicopters |
+| **H6** | Commercial sector success with MOSA | **Supported** — H125M, H145M, H225M helicopters convertible to military use |
 
-## Key Standards & Frameworks
+## Key Architecture Frameworks (from Ch4)
 
-- **FACE™** (Future Airborne Capability Environment) — The Open Group
-- **OMS** (Open Mission Systems)
-- **UCS** (Unmanned Systems Control Segment)
-- **ISO/IEC/IEEE 15288** — Systems lifecycle standard
-- **Better Buying Power 3.0** — 2015 MOSA mandate
+### UCS Architecture (Unmanned Systems Command and Control)
+- Navy: Littoral Combat Ship, Common Control Station
+- Army: Joint Multi Role Rotorcraft, Universal Ground Control Station
+- Air Force: ADM Global Hawk GCS Upgrade
 
-## Android Analogy
+### OMS (Open Mission Systems)
+- Integration of Automatic Target Recognition into OMS-compliant weapons
+- Common Operating Picture sharing between air and space operations floors
 
-Shah uses Android's open-source success as a parallel: initial skepticism → thriving ecosystem of allied developers. Argues defense should shift from hardware-based to software-based systems supporting real-time upgrades.
+### FACE (Future Airborne Capability Environment)
+- Developed 2010, standardizes open aviation architecture
+- **70 organizations, 900 individual contributors**
+- Key members: Boeing, BAE Systems, Bell Helicopter, General Electric
+- Supported by 20+ procurements across USAF, Army, Navy, Special Forces
+- Five segments: OS, I/O Services, Platform-Specific, Transport Services, Portable Components
+
+### Other Standards
+- VICTORY (Vehicular Integration for C4ISR/EW Interoperability)
+- SOSA, CMOSS, MORA (Modular Open Radio Frequency Architecture)
+- HOST (Hardware Open Systems Technologies)
+
+## Key Findings (Ch5 Conclusions)
+
+1. **No ROI study done on MOSA since 2015 mandate** — this praxis is the first holistic view
+2. **Qualitative evidence abundant, quantitative measures absent** — cannot isolate MOSA's causal effect
+3. **What to measure, how, and with what metrics remains the key challenge** — needs assessment methodology
+4. **MOSA scope must include ecosystem, not just program managers** — vendors, engineers, all stakeholders
+5. **Need for MOSA-specific training** — documentation isn't enough, people need formal education
+6. **No standard pass-fail criteria** — vendors and military need alignment
+7. **Main factor for cost/schedule failure: underestimation of initial costs** (GAO reports)
+8. **"MOSA is not the end result but rather an approach"**
+9. **Early indications suggest MOSA is on the right path** despite measurement gaps
+
+## Recommendations (Ch5.6)
+
+- Stronger modular assessment tools and better metrics
+- Compare technical vs. business approach effectiveness
+- Identify where in lifecycle MOSA has greatest impact (DoDI 5000.02 compliance chart?)
+- Quantify modularity in hardware, software, platforms against real value
+- Security and safety guidelines for open systems in defense
+- Detailed MOSA cost/schedule metrics on legacy projects
 
 ## Related Concepts
 - [[mosa-defense-acquisition]]
 - [[vendor-lock-in]]
-- [[modular-architecture-patterns]]
 - [[face-technical-standard]]
 - [[open-mission-systems]]
-- [[defense-acquisition-overrun-trends]]
+
+## Related Entities
+- [[parth-devang-shah]]
+- [[better-buying-power-3]]
 
 ---
-*Summarized from raw/mosa-us-defense-acquisition-shah-2021.pdf (full PDF, 1.3MB)*
+*Full 124-page thesis extracted via PyMuPDF. Summary created 2026-04-05.*
