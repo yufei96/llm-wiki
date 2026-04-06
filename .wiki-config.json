@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "Yufei's LLM Wiki",
+  "sources": [
+    {
+      "path": "raw/",
+      "exclude": ["wiki/", "output/", ".git"]
+    }
+  ],
+  "output": "wiki/",
+  "mode": "recommended",
+  "topic_hints": ["MOSA", "acquisition", "systems engineering", "AI agents", "OpenClaw"],
+  "link_style": "obsidian"
+}

@@ -82,3 +82,12 @@ Committed as e7a41f8, pushed to Gitee → GitHub.
 5. **FACE is the only MOSA standard with conformance testing** — model for others
 
 Total wiki pages: 20
+
+## [2026-04-06 20:40] compile | First topic compilation — MOSA
+- Adopted llm-wiki-compiler improvements: topic-based articles + standard structure + coverage tags
+- Created: `wiki/topics/mosaic-modular-open-systems-approach.md`
+- Merged: 12 sources into one topic article (all MOSA-related content)
+- Standard sections: Summary, Timeline, Current State, Key Decisions, Experiments & Results, Gotchas, Open Questions, Sources
+- Coverage tagging: `[coverage: high/medium/low]` to guide when to read raw
+- Updated: index.md with new Topics section
+- Total wiki pages: 21
