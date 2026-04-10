@@ -91,3 +91,15 @@ Total wiki pages: 20
 - Coverage tagging: `[coverage: high/medium/low]` to guide when to read raw
 - Updated: index.md with new Topics section
 - Total wiki pages: 21
+
+## [2026-04-10] migration | Migrated from OpenClaw to Hermes Agent
+- Full repository migration: all raw/, wiki/, and structure preserved
+- Updated git remote: Gitee → GitHub (public mirror)
+- LLM Wiki 存量迁移总结：
+  - 21 original pages, migrated 30 pages total (added new sources from OpenClaw ingest)
+  - 9 new source documents added: DFARS 207/227, 10 USC §4401-4403, DoDI 5000.74, DoDI 5000.87, FY2017 NDAA §805, 2025 MOSA Implementation Guidebook
+  - 2 new concepts: `mosa-five-pillars`, `topics/mosa-implementation-guidebook`
+  - All files retained full git history
+- Lint pass done: orphan pages and broken links documented, no critical issues
+
+Total wiki pages: 30
