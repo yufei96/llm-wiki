@@ -103,3 +103,25 @@ Total wiki pages: 20
 - Lint pass done: orphan pages and broken links documented, no critical issues
 
 Total wiki pages: 30
+## [2026-04-13] ingest | WOSA架构工具链分析
+   - Created: wiki/concepts/wosa-architecture-tools.md
+   - Updated: wiki/index.md
+   - Source: raw/articles/wosa-architecture-tools-analysis.md
+## [2026-04-13] ingest | 75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   - Created: wiki/concepts/unknown-tech-report-75195d4e.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   - Note: PDF转换超时，创建了占位概念页面
+## [2026-04-13] process | PDF处理完成：75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   - 已使用 mutool 提取文本内容 (1322 字符)
+   - 原始PDF保持未修改
+   - 已更新markdown文件用于LLM处理
+   - 已更新概念页面和索引
+   - 所有处理严格遵循llm-wiki原则
+## [2026-04-13] ingest | MIL-HDBK-1211(MI): Missile Flight Simulation Handbook
+   - Created: wiki/sources/mil-hdbk-1211-mi-missile-flight-simulation.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   - Text content extracted via mutool (847,337 characters)
+   - Original PDF preserved in raw/papers/
+   - Added source entry to index and concept cross-references
