@@ -24,8 +24,6 @@
     - [[dfars-part-227-patents-data-copyrights]] — DFARS Part 227: Patents, Data, and Copyrights. Covers data rights for MOSA.
 
 ## Concepts (独立概念)
-- [[technical-document-75195d4e]] — 通过mutool提取文本内容的技术文档
-- [[unknown-tech-report-75195d4e]] — 未知技术报告 (75195d4e-741e-4cee-8e1e-72ec9bc966ab)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
 - [[mosa-five-pillars]] — The five core pillars of MOSA per the 2025 Implementation Guidebook.
 - [[vendor-lock-in]] — 国防承包商锁定问题与 MOSA 解法
