@@ -99,4 +99,4 @@ Send documents (PDFs, articles, notes) to the AI assistant — it will ingest th
 
 ---
 
-*Maintained by 虾宝 🦐 — last updated 2026-04-05*
+*Maintained by 虾宝 🦐 — last updated 2026-04-13*
