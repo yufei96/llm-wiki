@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-04-19 10:58] ingest | DoDI 5000.80 — 中间采办层级（MTA）
+   - Created: wiki/sources/2026-04-19-dodi-5000-80-middle-tier-acquisition.md
+   - Source: raw/papers/dodi-5000.80-middle-tier-acquisition.pdf (19 pages, Chg1 2024, 用户提供)
+   - MOSA提及: 0次。MTA路径以速度优先，5年内完成快速原型/部署。
+   - 旧文件raw/papers/dodi_5000.80.pdf（内容实际为5000.81）已重命名为dodi_5000.80-MISNAMED-actually-5000.81.pdf
+   - AAF六条路径补全完成：5000.02/5000.74/5000.75/5000.80/5000.81/5000.85/5000.87
+
+
 ## [2026-04-19 10:48] ingest | Better Buying Power 3.0 实施指令
    - Created: wiki/sources/2026-04-19-bbp-3-0-implementation-directive.md
    - Source: raw/papers/bbp-3-implementation-directive.pdf (35 pages, 用户提供)
