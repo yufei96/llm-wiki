@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-04-19 11:17] ingest | 第二梯队技术标准：CMOSS + SOSA + VICTORY
+   - CMOSS: 32页，DEVCOM C5ISR Center，Universal A-Kit + 共享资源 + 共享服务
+   - SOSA: 214页，The Open Group联盟，传感器开放系统架构Edition 1.0 V2 Snapshot
+   - VICTORY: 案例研究+GVA对比，车辆C4ISR/EW互操作性
+   - OMS 2024概述: PDF损坏无法提取（19页）
+   - PEO Aviation FACE TIM: PDF损坏无法提取
+   - 第二梯队完成3/4（OMS待用户提供可用PDF）
+
+
 ## [2026-04-19 10:58] ingest | DoDI 5000.80 — 中间采办层级（MTA）
    - Created: wiki/sources/2026-04-19-dodi-5000-80-middle-tier-acquisition.md
    - Source: raw/papers/dodi-5000.80-middle-tier-acquisition.pdf (19 pages, Chg1 2024, 用户提供)
