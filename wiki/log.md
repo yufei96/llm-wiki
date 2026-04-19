@@ -1,5 +1,34 @@
 # Wiki Log
 
+## [2026-04-19 09:44] ingest | DoDI 5000.75 — 业务系统需求与采办
+   - Created: wiki/sources/2026-04-19-dodi-5000-75-business-systems.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/dodi_5000.75.pdf (39 pages)
+   - MOSA提及: 0次。业务系统独立采办流程（BCAC），不适用MOSA法定要求。
+   - 已纳入知识库作为AAF框架补充文档。
+
+## [2026-04-19 09:44] ingest | DoDI 5000.81 — 紧急能力采办
+   - Created: wiki/sources/2026-04-19-dodi-5000-81-urgent-capability.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/dodi_5000.81.pdf (21 pages)
+   - MOSA提及: 0次。紧急采办路径（<2年部署）明确将速度优先于模块化设计。
+   - ⚠️ raw/papers/dodi_5000.80.pdf 内容与dodi_5000.81.pdf完全相同（命名错误）。
+
+## [2026-04-19 09:44] ingest | DFARS Part 252 — 征询条款与合同条款
+   - Created: wiki/sources/2026-04-19-dfars-part-252-contract-clauses.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/dfars_part-252---solicitation-provisions-and-contract-clauses.pdf (607 pages)
+   - MOSA提及: 0次直接提及。DFARS 252.227条款群（数据权利）是MOSA合同执行机制的基础。
+   - 关键条款：252.227-7013（技术数据权利）、252.227-7014（软件权利）、252.227-7037（权利限制验证）。
+
+## [2026-04-19 09:44] ingest | HASC Report 114-102 — FY2016 NDAA 委员会报告
+   - Created: wiki/sources/2026-04-19-hasc-report-114-102-fy2016-ndaa.md
+   - Updated: wiki/index.md
+   - Source: raw/papers/hasc_report_114-102.pdf (358 pages)
+   - MOSA提及: 0次。本报告的Section 805与FY2017 NDAA Section 805（MOSA法定来源）是不同条款。
+   - 作为MOSA立法前夕的采办改革背景文档。
+
+
 ## [2026-04-19 09:35] fix | 断链修复与知识库整理
 - 删除4个重复source页面：10us-code-4401/4402/4403、dfars-part-207-acquisition-planning
 - 统一wikilink命名：better-buying-power-3→-3-0、dodi-5000-85→2026-04-05版、wosa-chain→wosa

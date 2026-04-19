@@ -22,6 +22,10 @@
     - [[2026-04-05-10usc-4401-4403-mosa-law]] — 10 U.S. Code § 4401–4403: Modular open systems approach for major weapon systems (the statute).
     - [[2026-04-05-dfars-part-207]] — DFARS Part 207: Acquisition Planning. Contains MOSA planning requirements.
     - [[dfars-part-227-patents-data-and-copyrights]] — DFARS Part 227: Patents, Data, and Copyrights. Covers data rights for MOSA.
+    - [[2026-04-19-dodi-5000-75-business-systems]] — DoDI 5000.75, Business Systems Requirements and Acquisition (2017, Chg2 2020). 39 pages.
+    - [[2026-04-19-dodi-5000-81-urgent-capability]] — DoDI 5000.81, Urgent Capability Acquisition (2019). 21 pages.
+    - [[2026-04-19-dfars-part-252-contract-clauses]] — DFARS Part 252, Solicitation Provisions and Contract Clauses (607 pages). Data rights clauses 252.227.
+    - [[2026-04-19-hasc-report-114-102-fy2016-ndaa]] — HASC Report 114-102, FY2016 NDAA Committee Report (358 pages). Pre-MOSA acquisition reform context.
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
@@ -31,8 +35,7 @@
 - [[open-mission-systems]] — OMS 军用任务互操作性倡议
 - [[adaptive-acquisition-framework]] — DoD 采购过程框架（6 条路径）
 - [[modular-architecture-patterns]] — 模块化架构模式（跨领域）
-
-- [[wosa-architecture-tools]] — WOSA架构工具链要求：开发环境、测试框架和标准化
+- [[defense-acquisition-overrun-trends]] — 国防采办项目成本超支趋势数据
 ## Entities (人物/组织/政策实体)
 - [[parth-devang-shah]] — thesis 作者，GWU D.Eng. 2021
 - [[better-buying-power-3-0]] — MOSA 强制指令 (2015), DoD 采购改革
@@ -47,4 +50,4 @@
 - FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, HOST, ISO/IEC/IEEE 15288
 
 ---
-*Last updated: 2026-04-10 (Migrated from OpenClaw to Hermes Agent, 30 pages total)*
+*Last updated: 2026-04-19 (断链修复 + 5个PDF处理, 37 pages total)*
