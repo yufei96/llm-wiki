@@ -1,5 +1,18 @@
 # Wiki Log
 
+## [2026-04-19 10:48] ingest | Better Buying Power 3.0 实施指令
+   - Created: wiki/sources/2026-04-19-bbp-3-0-implementation-directive.md
+   - Source: raw/papers/bbp-3-implementation-directive.pdf (35 pages, 用户提供)
+   - MOSA提及: **关键** — BBP 3.0首次将MOSA写入DoD政策（"Use Modular Open Systems Architecture to stimulate innovation"）
+   - 关键发现：MOSA五原则（赋能环境/模块化设计/指定接口/开放标准/一致性认证）直接演变为2025年五大支柱
+
+## [2026-04-19 10:48] ingest | GAO-24-106831 武器系统年度评估
+   - Created: wiki/sources/2026-04-19-gao-24-106831-weapon-systems.md
+   - Source: raw/papers/gao-24-106831-weapon-systems-assessment.pdf (261 pages, 用户提供)
+   - MOSA提及: 若干（MK 54鱼雷、Sentinel、F-22开放系统架构演示）
+   - 关键数据：MDAP未交付项目平均>10年、MTA项目多数未实施领先实践
+
+
 ## [2026-04-19 09:44] ingest | DoDI 5000.75 — 业务系统需求与采办
    - Created: wiki/sources/2026-04-19-dodi-5000-75-business-systems.md
    - Updated: wiki/index.md
