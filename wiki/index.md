@@ -44,13 +44,28 @@
     - [[2026-04-19-stanag-4586-ucs]] — STANAG 4586 NATO UAV控制系统标准接口 (14 pages). UCS无人系统C2标准。
     - [[2026-04-19-arsenl-usaf-standards]] — ARSENL空军架构标准工程库 (AFMC). USAF MOSA使能标准官方清单。
 
+    - [[2026-04-19-ppi-did-templates]] — PPI DID模板合集（7个数据项描述模板，合同执行层参考）
+    - [[2026-04-19-ppi-business-case-se]] — PPI系统工程投资回报论证（Halligan 2018，48页）
+    - [[2026-04-19-ppi-business-case-re]] — PPI需求工程投资回报论证（Halligan 2014，31页）
+    - [[2026-04-19-ppi-requirements-analysis]] — PPI需求分析方法论（两份文档，有效+概览）
+    - [[2026-04-19-ppi-integrating-pm-se]] — PPI项目管理与系统工程整合（Halligan 2018，48页）
+    - [[2026-04-19-ppi-requirements-quality-metrics]] — PPI需求质量度量体系（Halligan 1993/2017，10大因子+5过程度量，6页）
+    - [[2026-04-19-dod-de-strategy-2018]] — DoD数字工程战略（2018，5大目标，DE纲领文件）
+    - [[2026-04-19-incose-mbse-methodology-survey]] — INCOSE MBSE方法论调查（JPL, Estefan 2008, 70页）
+    - [[2026-04-20-omb-circular-a-130]] — OMB Circular A-130, 联邦信息资源管理政策（信息安全、隐私、IT投资）
+    - [[2026-04-19-iso-15288-2023]] — ISO/IEC/IEEE 15288:2023 系统生命周期过程（第二版）
+
 ## Concepts (独立概念)
-- [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
-- [[mosa-five-pillars]] — The five core pillars of MOSA per the 2025 Implementation Guidebook.
+- [[mosa-defense-acquisition]] — MOSA 原始概念页面
+- [[mosa-five-pillars]] — MOSA五大支柱（2025实施指南）
+- [[mosa-digital-engineering]] — MOSA与数字工程融合（DEE技术基础）
+- [[requirements-quality-mosa]] — 需求质量：MOSA的技术基础
 - [[vendor-lock-in]] — 国防承包商锁定问题与 MOSA 解法
-- [[face-technical-standard]] — FACE 航空电子设备标准（70 组织，900 贡献者）
+- [[face-technical-standard]] — FACE 航空电子设备标准
 - [[open-mission-systems]] — OMS 军用任务互操作性倡议
-- [[adaptive-acquisition-framework]] — DoD 采购过程框架（6 条路径）
+- [[adaptive-acquisition-framework]] — DoD 采办过程框架（6条路径）
+- [[middle-tier-acquisition]] — MTA中间采办层级（快速通道，5年）
+- [[ucs-control-station]] — 无人系统指挥控制标准接口（STANAG 4586）
 - [[modular-architecture-patterns]] — 模块化架构模式（跨领域）
 - [[defense-acquisition-overrun-trends]] — 国防采办项目成本超支趋势数据
 ## Entities (人物/组织/政策实体)
@@ -62,9 +77,15 @@
 
 ## Comparisons (对比分析)
 - [[karpathy-vs-implementation]] — Karpathy LLM Wiki 原版 vs 我们实现的对齐状态
+- [[mosa-five-principles-to-pillars]] — MOSA五原则→五大支柱：12年演化脉络
+- [[c5isr-standards-convergence]] — C5ISR标准生态趋同（CMOSS/SOSA/OMS）
+- [[mosa-internationalization]] — MOSA的国际化：从美国DoD到NATO联盟
+- [[speed-vs-modularity]] — 速度与模块化：MOSA在快速采办中的政策张力
+- [[mosa-implementation-stack]] — MOSA实施全栈：从法律到合同执行（五层架构）
+- [[pm-se-integration-mosa]] — PM-SE整合：MOSA实施的组织瓶颈
 
 ## Standards
-- FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, HOST, ISO/IEC/IEEE 15288
+- FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, SCA, HOST, ISO/IEC/IEEE 15288
 
 ---
-*Last updated: 2026-04-19 (断链修复 + 5个PDF处理, 37 pages total)*
+*Last updated: 2026-04-19 (PPI洞察: 3个结构性分析页, 全栈/需求质量/PM-SE整合, 64 pages, 305 links, 100%) (PPI ingest: 12个SE资源，5个source页，61 pages, 266 links, 100% integrity)*

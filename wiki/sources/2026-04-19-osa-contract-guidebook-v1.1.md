@@ -76,9 +76,11 @@ tags: [OSA, MOSA起源, 合同指南, 五原则, 供应商锁定]
 此文档还定义了**OSA与MOSA的关系**：OSA是技术方法论，MOSA是DoD对OSA的政策采纳。
 
 ## 相关内容
-- [[2026-04-19-bbp-3-0-implementation-directive]] — BBP 3.0（引用此文档）
+- [[mosa-defense-acquisition]] — MOSA核心概念（本指南为MOSA五原则原始定义文档）
 - [[mosa-five-pillars]] — 2025五大支柱（源自此处五原则）
+- [[face-technical-standard]] — FACE标准（指南引用的OSA成功案例）
 - [[vendor-lock-in]] — 供应商锁定
+- [[2026-04-19-bbp-3-0-implementation-directive]] — BBP 3.0（引用此文档）
 - [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation实施（合同模板应用）
 
 ---

@@ -69,10 +69,12 @@ tags: [PEO Aviation, MOSA实施, 合同模板, 检查清单]
 **关键发现**：这份指南直接体现了BBP 3.0中"指定关键接口"和"一致性认证"原则的合同执行方式。
 
 ## 相关内容
+- [[mosa-defense-acquisition]] — MOSA核心概念
 - [[2026-04-19-peo-aviation-mosa-industry-2022]] — PEO Aviation Industry Day
 - [[mosa-five-pillars]] — MOSA五大支柱
 - [[dfars-part-227-patents-data-and-copyrights]] — 数据权利法律基础
 - [[2026-04-05-mosa-implementation-guidebook-2025]] — 2025年MOSA指南
+- [[2026-04-19-ppi-did-templates]] — PPI DID模板（SOW/SEP基础）
 
 ---
 *23页。MOSA合同落地的实操模板集。*

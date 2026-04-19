@@ -40,6 +40,6 @@ DoDI 5000.02在2020年进行了全面重构：
 ## 与MOSA的关系
 AAF是**流程框架**（采办如何运行）。MOSA是**设计/采办策略**（构建什么样的系统）。按照AAF路径实施的项目，需要根据**优化采办购买力3.0**和**《美国法典》第10篇第2446a节**要求，纳入MOSA原则。
 ## 相关内容
-- [[mosa-defense-acquisition]]
-- [[adaptive-acquisition-framework]]
-- 国防采办体系
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[middle-tier-acquisition]] — MTA快速采办路径
+- [[2026-04-05-dodi-5000-02-2020]] — DoDI 5000.02原文

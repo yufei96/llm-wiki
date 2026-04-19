@@ -1,117 +1,121 @@
 ---
 created: 2026-04-06
-updated: 2026-04-06
-tags: [MOSA, defense-acquisition, modularity, systems-engineering, DoD]
-sources: 12 raw files
+updated: 2026-04-20
+tags: [MOSA, 国防采办, 模块化, 系统工程, DoD]
+sources: 12个原始文件
 ---
 
-# Modular Open Systems Approach (MOSA) in Defense Acquisition
+# 国防采办中的模块化开放系统方法（MOSA）
 
-## Summary [coverage: high]
+## 摘要 [覆盖率：高]
 
-**MOSA (Modular Open Systems Approach)** is a United States Department of Defense acquisition and system design strategy mandated since 2015 under the Better Buying Power 3.0 initiative. It requires weapon systems to be designed with **modular architecture** and **openly published standardized interfaces**, with the goal of preventing vendor lock-in, enabling affordable technology insertion, increasing competition, and reducing lifecycle costs.
+**MOSA（模块化开放系统方法）**是美国国防部自2015年起在"更好采购力3.0"倡议下授权的采办和系统设计策略。它要求武器系统采用**模块化架构**和**公开发布的标准化接口**设计，目标是防止供应商锁定、实现经济可承受的技术插入、增加竞争并降低生命周期成本。
 
-The core motivation is the chronic crisis in Major Defense Acquisition Programs (MDAPs): before MOSA, 62.4% of pre-2010 programs experienced cost growth totaling $542.1B, with an average delay of 35 months. Technology obsolescence alone costs the DoD $750M per year.
+核心动机是重大国防采办项目（MDAP）的长期危机：在MOSA之前，2010年前62.4%的项目经历成本增长，总计5421亿美元，平均延期35个月。仅技术过时每年就花费国防部7.5亿美元。
 
-Despite widespread mandate and qualitative success stories across all services, **quantitative evidence of MOSA's cost/schedule benefits remains elusive**. Research (Shah 2021) found that existing MDAP data cannot isolate MOSA's causal effect due to confounding variables. The field broadly agrees that the key unmet need is **standardized evaluation methodology and metrics** to assess whether a program is actually MOSA-compliant and to measure its benefits.
+尽管各军种都有广泛的授权和定性成功案例，**MOSA成本/进度效益的定量证据仍然难以获得**。研究（Shah 2021）发现，由于混杂变量，现有MDAP数据无法隔离MOSA的因果效应。该领域广泛认为关键未满足的需求是**标准化评估方法和指标**，以评估项目是否真正符合MOSA并衡量其效益。
 
-## Timeline [coverage: high]
+## 时间线 [覆盖率：高]
 
-- **2010** — DoD issues Better Buying Power 2.0, lays conceptual groundwork for open systems
-- **2015** — Under Secretary of Defense Frank Kendall issues **Better Buying Power 3.0**, formally mandates MOSA for all MDAPs (codified in USC 10 §2446a)
-- **2018** — **MIL-STD-881D** published, provides standardized WBS taxonomy critical for MOSA interface definition
-- **2019** — NDIA Systems Engineering Division publishes white paper with **Top 10 Recommendations** for MOSA implementation
-- **2020** — DoDI 5000.02 restructured into Adaptive Acquisition Framework; MOSA policy moved to separate instructions (DoDI 5000.85)
-- **2021** — Parth Devang Shah publishes GWU doctoral praxis providing the first holistic quantitative assessment, confirming the measurement gap
+- **2010年** — 国防部发布更好采购力2.0，为开放系统奠定概念基础
+- **2015年** — 国防部采办副部长Frank Kendall发布**更好采购力3.0**，正式授权所有MDAP采用MOSA（编入USC 10 §2446a）
+- **2018年** — **MIL-STD-881D**发布，提供对MOSA接口定义至关重要的标准化WBS分类法
+- **2019年** — NDIA系统工程部发布白皮书，包含MOSA实施**十大建议**
+- **2020年** — DoDI 5000.02重组为自适应采办框架；MOSA政策移至单独指令（DoDI 5000.85）
+- **2021年** — Parth Devang Shah发表GWU博士论文，提供首次整体定量评估，确认测量差距
 
-## Current State [coverage: high]
+## 当前状态 [覆盖率：高]
 
-- **Mandate**: All US Major Defense Acquisition Programs are required to adopt MOSA principles
-- **Adoption**: All three services (Army/Navy/Air Force) have active MOSA programs and standards
-- **Qualitative evidence**: Multiple successful programs (Global Hawk, MQ-9 Reaper, AH-64E Apache, F-22, B-52) demonstrate MOSA benefits in practice
-- **International adoption**: UK MoD (GVA), Australian DoD, Canadian Armed Forces all use MOSA-derived approaches
-- **Commercial adoption**: Airbus uses MOSA on its HForce military helicopter conversion program (H125M/H145M/H225M)
-- **Key gap**: No standardized evaluation/certification criteria, no agreed-upon metrics for measuring modularity or quantifying benefits
+- **授权**：所有美国重大国防采办项目必须采用MOSA原则
+- **采用**：所有三个军种（陆军/海军/空军）都有活跃的MOSA项目和标准
+- **定性证据**：多个成功项目（全球鹰、MQ-9死神、AH-64E阿帕奇、F-22、B-52）证明MOSA实际效益
+- **国际采用**：英国国防部（GVA）、澳大利亚国防部、加拿大武装部队都使用MOSA衍生方法
+- **商业采用**：空客在其HForce军用直升机改装项目（H125M/H145M/H225M）中使用MOSA
+- **关键差距**：没有标准化评估/认证标准，没有公认的衡量模块化或量化效益的指标
 
-## Key Decisions [coverage: high]
+## 关键决策 [覆盖率：高]
 
-1. **Mandate MOSA for all procurements** — OSD has made MOSA a requirement, not an option
-   - Rationale: Addresses the root causes of cost growth and vendor lock-in
-   - Status: Complete, codified in law (USC 10 §2446a)
+1. **为所有采购授权MOSA** — 国防部长办公室已将MOSA作为要求而非选项
+   - 理由：解决成本增长和供应商锁定的根本原因
+   - 状态：完成，编入法律（USC 10 §2446a）
 
-2. **Leverage existing standards** — MOSA builds upon MIL-STD-881D for component hierarchy
-   - Rationale: Eliminates ambiguity in "what level is an interface"
-   - Status: NDIA recommendation #3, broadly accepted
+2. **利用现有标准** — MOSA基于MIL-STD-881D建立组件层次结构
+   - 理由：消除"什么是接口级别"的歧义
+   - 状态：NDIA建议#3，广泛接受
 
-3. **Early strategy development** — Define MOSA partitioning before procurement
-   - Rationale: Allows industry to plan investments and compete effectively
-   - Status: NDIA recommendation #1, best practice but not uniformly enforced
+3. **早期策略制定** — 在采购前定义MOSA分区
+   - 理由：允许行业规划投资并有效竞争
+   - 状态：NDIA建议#1，最佳实践但未统一执行
 
-4. **Certification-based library approach** — Maintain a library of certified MOSA components/interfaces
-   - Rationale: Accelerates adoption by reuse of proven designs
-   - Status: Recommended but not yet implemented DoD-wide
+4. **基于认证的库方法** — 维护经过认证的MOSA组件/接口库
+   - 理由：通过重用成熟设计加速采用
+   - 状态：已推荐但尚未在全国防部实施
 
-## Experiments & Results [coverage: medium]
+## 实验与结果 [覆盖率：中]
 
-| Study/Experiment | Result | Sources |
-|------------------|--------|---------|
-| Shah (2021) — 6 Hypotheses on 86 MDAPs | H1 (measurable cost improvement) **Not Supported**; H2-H6 all **Supported** | [Shah 2021](sources/2026-04-05-mosa-shah-thesis.md) |
-| NDIA (2019) — Industry/Government Working Group | Consensus reached on 10 key recommendations; aligns with Shah's identified gaps | [NDIA 2019](sources/2026-04-05-ndia-mosa-white-paper-2019.md) |
-| FACE Consortium (aviation) | 70+ organizations, 900 contributors, 20+ productions procurements demonstrates ecosystem success | [concepts/face-technical-standard](concepts/face-technical-standard.md) |
+| 研究/实验 | 结果 | 来源 |
+|-----------|------|------|
+| Shah（2021）— 86个MDAP的6个假设 | H1（可衡量的成本改进）**不支持**；H2-H6均**支持** | [Shah 2021](sources/2026-04-05-mosa-shah-thesis.md) |
+| NDIA（2019）— 行业/政府工作组 | 就10项关键建议达成共识；与Shah识别的差距一致 | [NDIA 2019](sources/2026-04-05-ndia-mosa-white-paper-2019.md) |
+| FACE联盟（航空） | 70+组织、900贡献者、20+生产采购证明生态系统成功 | [concepts/face-technical-standard](concepts/face-technical-standard.md) |
 
-## Key Standards & Frameworks [coverage: high]
+## 关键标准与框架 [覆盖率：高]
 
-MOSA relies on several key standards for implementation:
+MOSA依靠几个关键标准进行实施：
 
-| Standard | Domain | Purpose |
-|----------|--------|---------|
-| **MIL-STD-881D** | Work Breakdown Structures | Provides common hierarchical taxonomy for system components (required by NDIA Rec #3) | [sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md](sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md) |
-| **FACE™** | Avionics | Open architecture standard for airborne capability integration | [concepts/face-technical-standard](concepts/face-technical-standard.md) |
-| **OMS** | Mission Systems | Open Mission Systems for sensor/payload interoperability | [concepts/open-mission-systems](concepts/open-mission-systems.md) |
-| **UCS** | Unmanned Systems | Command and control interoperability |  |
-| **VICTORY** | Ground Vehicles | Vehicular C4ISR/EW interoperability |  |
-| **SOSA/CMOSS** | C4ISR | Sensor Open Systems Architecture |  |
+| 标准 | 领域 | 目的 |
+|------|------|------|
+| **MIL-STD-881D** | 工作分解结构 | 为系统组件提供通用层次分类法（NDIA建议#3要求） |
+| **FACE™** | 航空电子 | 机载能力集成的开放架构标准 |
+| **OMS** | 任务系统 | 传感器/载荷互操作性的开放任务系统 |
+| **UCS** | 无人系统 | 指挥控制互操作性 |
+| **VICTORY** | 地面车辆 | 车载C4ISR/EW互操作性 |
+| **SOSA/CMOSS** | C4ISR | 传感器开放系统架构 |
 
-## Gotchas & Known Issues [coverage: medium]
+## 陷阱与已知问题 [覆盖率：中]
 
-1. **Measurement problem** — No agreed methodology to quantify MOSA compliance or its benefits. This prevents meaningful incentive structures and ROI tracking. [coverage: high]
+1. **测量问题** — 没有公认的量化MOSA合规性或其效益的方法论。这阻碍了有意义的激励结构和ROI跟踪。[覆盖率：高]
 
-2. **Data rights & IP** — Open interfaces require clear technical data rights, but IP policy is still catching up to MOSA principles. [coverage: medium]
+2. **数据权利与知识产权** — 开放接口需要清晰的技术数据权利，但知识产权政策仍在追赶MOSA原则。[覆盖率：中]
 
-3. **Confounding variables** — Even with good data, isolating MOSA's effect on cost/schedule in multi-year programs is practically difficult. Other factors (requirements creep, underestimation) dominate. [coverage: high]
+3. **混杂变量** — 即使有好的数据，在多年项目中隔离MOSA对成本/进度的影响实际上很困难。其他因素（需求蔓延、低估）占主导。[覆盖率：高]
 
-4. **Cultural change** — MOSA requires changing how government and industry do business. Incentives are not yet properly aligned in contracts. [coverage: medium]
+4. **文化变革** — MOSA要求改变政府和行业的业务方式。合同中的激励措施尚未适当调整。[覆盖率：中]
 
-5. **Software taxonomy gap** — MIL-STD-881D works well for hardware, but software lacks an equivalent standardized taxonomy for MOSA partitioning. [coverage: medium]
+5. **软件分类法差距** — MIL-STD-881D适用于硬件，但软件缺乏用于MOSA分区的等效标准化分类法。[覆盖率：中]
 
-## Open Questions [coverage: low]
+## 开放问题 [覆盖率：低]
 
-1. What quantitative metrics best capture modularity and openness in practice?
-2. How can program offices be incentivized to prioritize MOSA investment despite short-term budget pressures?
-3. Will the expected lifecycle cost savings actually materialize at scale over the next decade?
-4. How can MOSA best integrate with modern cybersecurity practices given the increased attack surface of open interfaces?
-5. What level of modularity is "enough"? Is there a point of diminishing returns?
+1. 什么定量指标最能捕捉实践中的模块化和开放性？
+2. 如何激励项目办公室在短期预算压力下优先考虑MOSA投资？
+3. 预期的生命周期成本节省是否会在未来十年大规模实现？
+4. 鉴于开放接口增加的攻击面，MOSA如何最好地与现代赛博安全实践集成？
+5. 什么程度的模块化是"足够的"？是否存在收益递减点？
 
-## Sources [coverage: n/a]
+## 来源 [覆盖率：不适用]
 
-All source materials are summarized in the wiki:
+所有来源材料都在wiki中有摘要：
 
-- [sources/2026-04-05-mosa-shah-thesis.md](sources/2026-04-05-mosa-shah-thesis.md) — Parth Devang Shah, GWU D.Eng. Praxis (2021)
-- [sources/2026-04-05-ndia-mosa-white-paper-2019.md](sources/2026-04-05-ndia-mosa-white-paper-2019.md) — NDIA SE Division (2019)
-- [sources/2026-04-05-dodi-5000-02-2020.md](sources/2026-04-05-dodi-5000-02-2020.md) — DoDI 5000.02 Adaptive Acquisition Framework (2020)
-- [sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md](sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md) — MIL-STD-881D (2018)
-- [sources/2026-04-05-face-technical-standard-3.2-2023.md](sources/2026-04-05-face-technical-standard-3.2-2023.md) — FACE 3.2 Technical Standard (2023)
-- [concepts/mosa-defense-acquisition.md](concepts/mosa-defense-acquisition.md) — Original concept page
-- [concepts/adaptive-acquisition-framework.md](concepts/adaptive-acquisition-framework.md) — AAF concept page
-- [concepts/vendor-lock-in.md](concepts/vendor-lock-in.md) — Vendor lock-in concept
-- [concepts/open-mission-systems.md](concepts/open-mission-systems.md) — OMS concept
-- [entities/parth-devang-shah.md](entities/parth-devang-shah.md) — Author entity
-- [entities/better-buying-power-3-0.md](entities/better-buying-power-3-0.md) — BBP 3.0 entity
+- [sources/2026-04-05-mosa-shah-thesis.md](sources/2026-04-05-mosa-shah-thesis.md) — Parth Devang Shah，GWU博士论文（2021）
+- [sources/2026-04-05-ndia-mosa-white-paper-2019.md](sources/2026-04-05-ndia-mosa-white-paper-2019.md) — NDIA SE部（2019）
+- [sources/2026-04-05-dodi-5000-02-2020.md](sources/2026-04-05-dodi-5000-02-2020.md) — DoDI 5000.02自适应采办框架（2020）
+- [sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md](sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md) — MIL-STD-881D（2018）
+- [sources/2026-04-05-face-technical-standard-3.2-2023.md](sources/2026-04-05-face-technical-standard-3.2-2023.md) — FACE 3.2技术标准（2023）
+- [concepts/mosa-defense-acquisition.md](concepts/mosa-defense-acquisition.md) — 原始概念页
+- [concepts/adaptive-acquisition-framework.md](concepts/adaptive-acquisition-framework.md) — AAF概念页
+- [concepts/vendor-lock-in.md](concepts/vendor-lock-in.md) — 供应商锁定概念
+- [concepts/open-mission-systems.md](concepts/open-mission-systems.md) — OMS概念
+- [entities/parth-devang-shah.md](entities/parth-devang-shah.md) — 作者实体
+- [entities/better-buying-power-3-0.md](entities/better-buying-power-3-0.md) — BBP 3.0实体
 
-## Related Topics
+## 相关主题
 
-- [[adaptive-acquisition-framework]]
-- [[vendor-lock-in]]
-- [[face-technical-standard]]
-- [[open-mission-systems]]
+- [[adaptive-acquisition-framework]] — 自适应采办框架
+- [[vendor-lock-in]] — 供应商锁定
+- [[face-technical-standard]] — FACE技术标准
+- [[open-mission-systems]] — 开放任务系统
 - 国防采办改革
+
+---
+
+*2026-04-20 翻译成简体中文*

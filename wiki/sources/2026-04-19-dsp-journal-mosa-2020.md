@@ -49,6 +49,7 @@ tags: [MOSA, CMOSS, VICTORY, MORA, 标准化, 综述]
 
 ## 相关内容
 - [[mosa-defense-acquisition]] — MOSA概念
+- [[open-mission-systems]] — OMS航空任务系统标准
 - [[2026-04-19-cmoss-overview-2022]] — CMOSS
 - [[2026-04-19-sosa-reference-architecture-v2]] — SOSA
 - [[2026-04-19-victory-ground-vehicle]] — VICTORY

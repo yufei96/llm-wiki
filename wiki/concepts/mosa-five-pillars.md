@@ -1,3 +1,11 @@
+---
+title: "MOSA五大支柱"
+created: 2026-04-05
+updated: 2026-04-19
+type: concept
+tags: [MOSA, 五大支柱, 实施, OUSD-R&E]
+sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-contract-guidebook-v1.1-rev1.pdf]
+---
 # MOSA五大支柱
 ## 来源
 2025年MOSA实施指南（OUSD(R&E)），第5-50页。详见 [[2026-04-05-mosa-implementation-guidebook-2025]]
@@ -54,9 +62,13 @@
 - 文档有效性验证
 - 模块化需求验证
 - 工具开发验证
-## 相关概念
-- [[mosa-defense-acquisition]]
-- [[mosa-defense-acquisition]]
-- 国防领域开放标准
+## 相关内容
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[2026-04-19-osa-contract-guidebook-v1.1]] — OSA合同指南（五原则原始定义文档）
+- [[2026-04-05-mosa-implementation-guidebook-2025]] — 2025年MOSA实施指南
+- [[face-technical-standard]] — FACE标准
+- [[open-mission-systems]] — OMS标准- [[pm-se-integration-mosa]] — PM-SE整合（赋能环境支柱的组织分析）
+- [[mosa-implementation-stack]] — MOSA实施全栈
+
 ## 标签
 #extracted-from-mineru #mosa #原则 #国防部政策

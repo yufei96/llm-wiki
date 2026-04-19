@@ -65,7 +65,9 @@ MTA的设计哲学是**速度优先**——5年内从概念到部署。这与MOS
 - 调整了部分流程以与最新采办改革对齐
 
 ## 相关内容
+- [[mosa-defense-acquisition]] — 模块化开放系统方法（MTA路径鼓励但不强制MOSA）
 - [[adaptive-acquisition-framework]] — AAF六条路径总览
+- [[middle-tier-acquisition]] — MTA概念详解
 - [[2026-04-05-dodi-5000-85-2020]] — 重大能力采办（MOSA法定要求所在）
 - [[2026-04-19-dodi-5000-81-urgent-capability]] — 紧急能力采办（更极端的速度路径）
 - [[2026-04-19-gao-24-106831-weapon-systems]] — GAO对MTA路径的绩效评估

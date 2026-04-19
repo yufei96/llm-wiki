@@ -1,102 +1,106 @@
 # LLM Wiki
 
-A persistent, structured knowledge base — automatically generated and maintained by an AI assistant from ingested documents (papers, policy documents, standards, articles).
+持久的、结构化的知识库——由AI助手从摄取的文档（论文、政策文件、标准、文章）自动生成和维护。
 
-Different from RAG: knowledge is compiled into structured wiki pages with cross-references, so every query benefits from all prior accumulated context.
+与RAG不同：知识被编译成带有交叉引用的结构化wiki页面，因此每次查询都能从所有先前积累的上下文中受益。
 
-## Architecture
+## 架构
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│  raw/          ← Immutable source documents         │
-│    papers/      → Academic papers, technical reports │
-│    articles/    → Articles, blog posts, notes        │
-│    repos/       → Reference repositories             │
+│  raw/          ← 不可变的源文档                      │
+│    papers/      → 学术论文、技术报告                 │
+│    articles/    → 文章、博客帖子、笔记               │
+│    repos/       → 参考仓库                          │
 │                                                     │
-│  wiki/         ← LLM-generated structured pages     │
-│    sources/     → Summaries of ingested sources      │
-│    concepts/    → Concept definitions & relationships│
-│    entities/    → People, organizations, programs    │
-│    comparisons/ → Cross-source analytical pages      │
-│    synthesis/   → Integrated knowledge pages         │
-│    index.md     → Content directory                  │
-│    log.md       → Activity timeline                  │
+│  wiki/         ← LLM生成的结构化页面                │
+│    sources/     → 已摄取来源的摘要                  │
+│    concepts/    → 概念定义与关系                    │
+│    entities/    → 人物、组织、项目                  │
+│    comparisons/ → 跨来源分析页面                    │
+│    synthesis/   → 综合知识页面                      │
+│    index.md     → 内容目录                          │
+│    log.md       → 活动时间线                        │
 │                                                     │
-│  output/       ← Delivery artifacts                 │
+│  output/       ← 交付工件                           │
 │                                                     │
-│  SCHEMA.md     ← Structure rules & conventions      │
+│  SCHEMA.md     ← 结构规则与约定                     │
 └─────────────────────────────────────────────────────┘
 ```
 
-## Workflow
+## 工作流程
 
-1. **Ingest**: Drop a document (PDF, article, note) → AI extracts key information → creates/updates wiki pages
-2. **Query**: Ask the AI about any topic → it searches the wiki and synthesizes answers from accumulated knowledge
-3. **Lint**: Check structural consistency (broken links, missing references, orphan pages)
+1. **摄取**：放入文档（PDF、文章、笔记）→ AI提取关键信息 → 创建/更新wiki页面
+2. **查询**：向AI询问任何主题 → 它搜索wiki并从积累的知识中综合答案
+3. **检查**：检查结构一致性（断开的链接、缺失的引用、孤立页面）
 
-## Design
+## 设计
 
-Based on [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+基于[Karpathy的LLM Wiki模式](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)。
 
-### Key Principles
+### 关键原则
 
-- **Sources are immutable** — once ingested, raw files never change
-- **Wiki pages are living** — updated as new sources add or contradict information
-- **Cross-references link everything** — `[[wikilinks]]` connect concepts, entities, and sources
-- **Git tracks all changes** — full edit history, no information loss
-- **Push mirrors to Gitee → GitHub** for Obsidian sync on other machines
+- **来源不可变** — 一旦摄取，原始文件永不更改
+- **Wiki页面是活的** — 随着新来源添加或矛盾信息而更新
+- **交叉引用链接一切** — `[[wikilinks]]`连接概念、实体和来源
+- **Git跟踪所有更改** — 完整的编辑历史，无信息丢失
+- **推送到Gitee → GitHub镜像** 用于其他机器上的Obsidian同步
 
-## Current Focus: MOSA (Modular Open Systems Approach)
+## 当前焦点：MOSA（模块化开放系统方法）
 
-This wiki started with MOSA research — a DoD acquisition strategy for modular architecture and open interfaces across defense systems.
+这个wiki从MOSA研究开始——国防部的一种采办策略，用于国防系统的模块化架构和开放接口。
 
-### Ingested Sources
+### 已摄取来源
 
-| # | Source | Pages | Key Finding |
-|---|--------|-------|-------------|
-| 1 | Shah, "MOSA and US Defense Acquisition" (GWU D.Eng. 2021) | 124 | 5/6 hypotheses supported; no standardized MOSA evaluation metrics |
-| 2 | DoDI 5000.02 — Operation of the AAF (2020, Chg1 2022) | 19 | **0 MOSA mentions** — framework document only |
-| 3 | DoDI 5000.85 — Major Capability Acquisition (2020, Chg1 2021) | 40 | **MOSA legal mandate** — p.26 §3C.3.a.(5), 11 MOSA mentions |
-| 4 | NDIA MOSA White Paper — Top 10 Recommendations (2019) | 16 | Industry+gov alignment; "Make MOSA a requirement, not an option" |
-| 5 | MIL-STD-881D — WBS for Defense Materiel Items (2018) | 233 | NDIA Rec #3 reference for MOSA component taxonomy |
-| 6 | FACE Technical Standard, Ed. 3.2 (Aug 2023) | 592 | Most mature MOSA practice; only 4 MOSA mentions in spec |
+| # | 来源 | 页数 | 关键发现 |
+|---|------|------|----------|
+| 1 | Shah, "MOSA and US Defense Acquisition" (GWU D.Eng. 2021) | 124 | 5/6个假设得到支持；没有标准化的MOSA评估指标 |
+| 2 | DoDI 5000.02 — 自适应采办框架操作 (2020, Chg1 2022) | 19 | **MOSA零提及** — 仅框架文档 |
+| 3 | DoDI 5000.85 — 重大能力采办 (2020, Chg1 2021) | 40 | **MOSA法定授权** — p.26 §3C.3.a.(5), MOSA提及11次 |
+| 4 | NDIA MOSA白皮书 — 十大建议 (2019) | 16 | 行业+政府共识；"将MOSA作为要求而非选项" |
+| 5 | MIL-STD-881D — 国防物资项目WBS (2018) | 233 | NDIA建议#3参考，用于MOSA组件分类 |
+| 6 | FACE技术标准，第3.2版 (2023年8月) | 592 | 最成熟的MOSA实践；规范中仅4次提及MOSA |
+| 7 | DoDI 5000.80 — 中间采办层级 (2019, Chg1 2024) | 19 | AAF快速通道路径，MOSA未强制 |
+| 8 | BBP 3.0实施指令 (2015) | 35 | MOSA首次写入国防部政策 |
+| 9 | GAO-24-106831 武器系统年度评估 (2024) | 261 | MDAP/MTA绩效数据 |
+| 10 | OMB Circular A-130 (2016修订) | 联邦信息资源管理政策 | 赛博安全与隐私框架 |
 
-### Core Knowledge Network
+### 核心知识网络
 
-- **Concepts**: MOSA, vendor lock-in, AAF, FACE, OMS, defense acquisition overrun trends
-- **Entities**: Parth Devang Shah, Ellen M. Lord, The Open Group, FACE Consortium
-- **Relationships**: 6 source documents cross-referencing the same gaps from different angles
+- **概念**：MOSA、供应商锁定、AAF、FACE、OMS、国防采办超支趋势、模块化架构模式
+- **实体**：Parth Devang Shah、Ellen M. Lord、The Open Group、FACE联盟
+- **关系**：6个来源文档从不同角度交叉引用相同的差距
 
-### Key Insight (Cross-Source Synthesis)
+### 关键洞察（跨来源综合）
 
-The same MOSA evaluation gap appears in all 6 sources: **no standardized metrics for MOSA compliance or ROI**.
-- Shah thesis: "What to measure, how to measure, and with what metrics to measure remain the key challenge."
-- NDIA: "Define MOSA metrics for various domains and SoS levels."
-- DoDI 5000.85: Requires MOSA "to the maximum extent practicable" but doesn't define what that means.
-- FACE: The *only* standard with an actual **conformance testing process** — a model others could follow.
+相同的MOSA评估差距出现在所有来源中：**没有标准化的MOSA合规性或ROI指标**。
+- Shah论文："衡量什么、如何衡量、用什么指标衡量仍然是关键挑战。"
+- NDIA："为各领域和系统之系统级别定义MOSA指标。"
+- DoDI 5000.85：要求MOSA"在最大程度可行范围内"但未定义这意味着什么。
+- FACE：*唯一*具有实际**一致性测试过程**的标准——其他标准可以效仿的模型。
 
-## Repo Structure
+## 仓库结构
 
 ```
 .
-├── README.md          ← This file
-├── SCHEMA.md          ← Wiki structure rules and conventions
-├── raw/               ← Immutable source documents (PDFs, articles)
-├── wiki/              ← LLM-generated markdown pages
-├── output/            ← Delivery artifacts (exported documents)
-└── .gitignore         ← Excludes .git-credentials
+├── README.md          ← 本文件
+├── SCHEMA.md          ← Wiki结构规则和约定
+├── raw/               ← 不可变的源文档（PDF、文章）
+├── wiki/              ← LLM生成的markdown页面
+├── output/            ← 交付工件（导出文档）
+└── .gitignore         ← 排除.git-credentials
 ```
 
-## Sync
+## 同步
 
-- **Server → Gitee**: Direct `git push` (this machine)
-- **Gitee → GitHub**: Automatic mirror via Gitee repo mirror feature
-- **GitHub → Local (Obsidian)**: Pull from GitHub for Obsidian viewing
+- **服务器 → Gitee**：直接 `git push`（本机）
+- **Gitee → GitHub**：通过Gitee仓库镜像功能自动镜像
+- **GitHub → 本地（Obsidian）**：从GitHub拉取用于Obsidian查看
 
-## Usage
+## 使用方法
 
-Send documents (PDFs, articles, notes) to the AI assistant — it will ingest them and update the wiki automatically.
+将文档（PDF、文章、笔记）发送给AI助手——它将自动摄取它们并更新wiki。
 
 ---
 
-*Maintained by 虾宝 🦐 — last updated 2026-04-13*
+*赫妹🪽 维护 — 最后更新 2026-04-20*

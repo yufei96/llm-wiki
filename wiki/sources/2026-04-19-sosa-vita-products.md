@@ -49,6 +49,7 @@ SOSA标准被2019年DoD备忘录（国防部长和军种部长联合签署）引
 - 证明了MOSA"开放接口"原则在硬件层面的可实现性
 
 ## 相关内容
+- [[mosa-defense-acquisition]] — MOSA核心概念
 - [[2026-04-19-sosa-reference-architecture-v2]] — SOSA参考架构标准
 - [[2026-04-19-cmoss-overview-2022]] — CMOSS（共享VITA标准）
 - [[modular-architecture-patterns]] — 模块化架构模式
