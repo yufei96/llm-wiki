@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-04-19 09:35] fix | 断链修复与知识库整理
+- 删除4个重复source页面：10us-code-4401/4402/4403、dfars-part-207-acquisition-planning
+- 统一wikilink命名：better-buying-power-3→-3-0、dodi-5000-85→2026-04-05版、wosa-chain→wosa
+- 修复~50处断链：实体链接转纯文本、PDF引用转wikilink、名称不匹配修正
+- 创建2个缺失概念页面：defense-acquisition-overrun-trends（4处引用）、modular-architecture-patterns（3处引用）
+- index.md同步：删除幻影链接、补充孤立页面
+- 验证：全部wikilink通过（0断链）
+- Total wiki pages: 30 (excluding index/log)
+
+
 Append-only record of all wiki activity.
 
 ## [2026-04-05 15:35] wiki structure | Aligned with Karpathy original
