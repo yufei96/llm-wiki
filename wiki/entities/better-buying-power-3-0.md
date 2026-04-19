@@ -1,28 +1,28 @@
 ---
-title: "Better Buying Power 3.0"
+title: "优化采办购买力3.0（Better Buying Power 3.0）"
 date: 2026-04-05
 type: entity
-tags: [doD, policy, acquisition]
+tags: [美国国防部, 政策, 采办]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ---
 
-# Better Buying Power 3.0
+# 优化采办购买力3.0（Better Buying Power 3.0）
 
-DoD directive (2015) that **formally mandated MOSA** across Major Defense Acquisition Programs (MDAPs).
+美国国防部2015年发布的指令，**正式要求所有重大国防采办项目（MDAP）必须采用MOSA**。
 
-## Key Mandate
-All MDAPs must use modular, open systems approach to:
-- Improve affordability
-- Encourage competition
-- Accelerate technology insertion
-- Reduce vendor lock-in
+## 核心要求
+所有重大国防采办项目必须采用模块化开放系统方法，以实现：
+- 提升经济可负担性
+- 鼓励竞争
+- 加速技术植入
+- 减少供应商锁定
 
-## Context
-Part of broader DoD acquisition reform efforts driven by chronic cost/schedule overruns (60%+ of MDAPs).
+## 背景
+是美国国防部更广泛的采办改革举措的一部分，改革的动因是长期存在的成本/进度超支问题（超过60%的重大国防采办项目存在超支/延期）。
 
-## Related
+## 相关内容
 - [[mosa-defense-acquisition]]
 - [[defense-acquisition-overrun-trends]]
 
 ---
-*From Shah 2021 D.Eng. Praxis*
+*摘自沙阿2021年工程博士实践报告*

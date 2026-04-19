@@ -12,18 +12,18 @@ The guide provides authoritative guidance on implementing MOSA in defense acquis
 
 ## Key Concepts Extracted
 - [[mosa-five-pillars]] - The five official MOSA pillars with detailed guidance
-- [[mosa-contract-language-examples]] - Sample contract language for MOSA requirements (from Appendix C)
-- [[mosa-implementation-checklist]] - Assessment criteria and verification checklist (from Appendix A)
+- 合同语言范例 — MOSA合同要求样例（Appendix C，待提取）
+- 实施检查清单 — 评估标准与验证清单（Appendix A，待提取）
 
 ## Source
-[[sources/mosa-implementation-guidebook-2025#full-document]]
+[[2026-04-05-mosa-implementation-guidebook-2025]]
 - **Location**: `qmd://wikiraw/papers/mosa-implementation-guidebook-27feb2025-cleared.pdf`
 - **Extracted using**: MinerU Document Explorer → `qmd doc-read` with precise addressing
 - **Coverage**: high (full document extracted in structured knowledge units)
 
 ## Related Topics
 - [[mosa-defense-acquisition]]
-- [[dodi-5000-85-major-capability-acquisition]]
+- [[2026-04-05-dodi-5000-85-2020]]
 - [[adaptive-acquisition-framework]]
 
 ## Tags

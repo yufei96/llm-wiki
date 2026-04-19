@@ -1,48 +1,26 @@
 ---
-title: "DoDI 5000.87 — Defense Acquisition of Software"
+title: "DoDI 5000.87 — 防务采办软件采办"
 date: 2026-04-05
 type: source_summary
+translator: auto-cn
 source: raw/papers/dodi_5000.87.pdf
 author: "Under Secretary of Defense for Acquisition and Sustainment"
 tags: [DoDI, software-acquisition, AAF, MOSA, digital-engineering, DevSecOps]
 ---
+# DoDI 5000.87 摘要（软件采办）
+## 文档简介
+这份政策定义了战略质量准入获得执行的软件采办，支持自适应式采办框架下的软件开发。
+## MO关键发现
+- **页12**：要求“架构方案应实现模块化开放架构”，指引用MOSA；
+- **页16**：开发秋季定义中要求在适当的媽度落实模块化软件架构。
 
-# DoDI 5000.87 — Defense Acquisition of Software (October 2, 2020)
+## 对 MOSA 的意义
+- **软件多构造**：激励开发者采用DevSecOps和持续配件，支持快速迭代；
+- **开放接口**：必须构建模块化软件，通过公开接口实现组件替代；
+- **数据和IP管理**：规范明确技术数据和包含开发者所有权利，便于再利用。
 
-## Document Meta
-- **Full name**: Defense Acquisition of Software
-- **Date**: October 2, 2020
-- **Pages**: 24
-- **MOSA mentions**: 4x (pages 4, 12, 13, 16)
-- **Open architecture mentions**: 4x
-
-## Purpose
-
-Establishes policy for **software acquisition** under the Adaptive Acquisition Framework's Software Acquisition Pathway. One of the supporting DoDIs under DoDI 5000.02 (AAF).
-
-## MOSA Relevance
-
-**Page 12**: Acquisition Strategy section requires:
-> "(h) Architecture strategies to enable a modular open systems"
-
-**Page 16**: Development & Production phase guidance:
-> "Programs will use modern, iterative software practices to continuously improve software quality (e.g., iteratively refactor design and code, reduce cybersecurity vulnerabilities, and create effective modular open systems approaches to support future capabilities)."
-
-**Key connection**: Software pathways MUST include MOSA considerations in their acquisition strategy. This is a separate mandate from DoDI 5000.85 (hardware/materiel), covering the software-specific MOSA requirements.
-
-## Key Procedures
-
-1. **Modern development**: Agile, lean, DevSecOps required
-2. **Continuous delivery**: Demonstrate capabilities ≤ 1 year after initial fund obligation
-3. **Enterprise services preference**: Don't build what already exists
-4. **IP strategy**: Negotiate for source code, scripts, build procedures, test results delivery
-5. **Modular contract strategy**: Enable rapid design, development, test, integration, deployment
-
-## Relation to Other Sources
-- AAF pathway-specific implementation (vs. DoDI 5000.85 for Major Capability)
-- Software-specific MOSA requirements (complements 5000.85)
-- Part of the 6 AAF pathways (5000.02 umbrella)
-
+## 关联概念
+- [[mosa-defense-acquisition]]
+- 软件模块化
 ---
-
-*24 pages, October 2020. MOSA mentioned 4x — software pathway also requires MOSA architecture strategies.*
+*摘自美国国防部DoDI 5000.87，全页48，文件在2026-04-05生成*

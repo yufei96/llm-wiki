@@ -43,7 +43,7 @@ Despite the 2015 mandate, Shah's research found **no clear qualitative evidence*
 - [[open-mission-systems]]
 - [[defense-acquisition-overrun-trends]]
 - [[vendor-lock-in]]
-- [[better-buying-power-3]]
+- [[better-buying-power-3-0]]
 
 ---
 *Generated 2026-04-05 from Shah D.Eng. thesis*

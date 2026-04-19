@@ -1,38 +1,27 @@
 ---
-title: "Vendor Lock-In in Defense"
+title: "国防领域的供应商锁定"
 date: 2026-04-05
 type: concept
-tags: [vendor-lock, defense, acquisition]
+tags: [供应商锁定, 国防, 采办]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ---
-
-# Vendor Lock-In in Defense Acquisition
-
-## Definition
-
-When a single prime contractor holds **intellectual property rights** to a defense system, preventing the DoD from switching to alternate service providers or upgrading components independently.
-
-## Impact
-
-- Systems cannot be upgraded when requirements change
-- Costs escalate as only one vendor can service/maintain
-- Technology becomes obsolete faster than planned lifecycle
-- Systems forced into early retirement despite functional performance
-
-## MOSA Solution
-
-MOSA mandates **government data rights** to interface definitions, enabling:
-- Competitive re-procurement for individual components
-- Independent vendor upgrades
-- Multi-vendor supply chains
-
-## Android Analogy
-
-Shah draws a parallel to Android's open-source model: initial skepticism → massive ecosystem. Defense systems could follow the same pattern if they shift from closed hardware to open software architectures.
-
-## Related
+# 国防采办中的供应商锁定
+## 定义
+指单一主承包商持有国防系统的**知识产权**，导致美国国防部无法切换到其他服务供应商或独立升级组件的情况。
+## 影响
+- 需求变更时系统无法升级
+- 只有单一供应商可以提供服务/维护，导致成本攀升
+- 技术过时速度快于计划生命周期
+- 尽管功能性能仍然达标，系统被迫提前退役
+## MOSA解决方案
+模块化开放系统方法（MOSA）强制要求政府拥有接口定义的**数据权利**，支持：
+- 单个组件的竞争性重新采购
+- 独立供应商升级
+- 多供应商供应链
+## 安卓类比
+Shah将其与安卓的开源模式做了类比：最初存在质疑 → 最终形成庞大生态。如果国防系统从封闭硬件转向开放软件架构，也可以遵循同样的发展路径。
+## 相关内容
 - [[mosa-defense-acquisition]]
 - [[modular-architecture-patterns]]
-
 ---
-*From Shah 2021 D.Eng. Praxis*
+*摘自Shah 2021年工程博士实践报告*

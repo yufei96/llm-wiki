@@ -1,95 +1,74 @@
 ---
-title: "Modular Open Systems Approach and Its Impact on US Defense Acquisition"
+title: "模块化开放系统方法（MOSA）及其对美国国防采办的影响"
 date: 2026-04-05
 type: source_summary
 source: raw/mosa-us-defense-acquisition-shah-2021.pdf
-author: "Parth Devang Shah (GWU, D.Eng. Praxis, 2021)"
-tags: [MOSA, defense-acquisition, modularity, systems-engineering, DoD]
+author: "帕斯·德万·沙阿（Parth Devang Shah，乔治华盛顿大学2021年工程博士实践报告）"
+tags: [MOSA, 国防采办, 模块化, 系统工程, 美国国防部]
 ---
-
-# MOSA Thesis Summary (Shah, 2021)
-
-## Abstract
-
-Almost 60% of US Major Defense Acquisition Programs (MDAPs) are over budget or delayed. The DoD mandated MOSA via Better Buying Power 3.0 (2015) to combat technology obsolescence, upgrade cohesive systems, and increase flexibility while battling cost/schedule challenges. Despite multi-year investment, there is no evidence demonstrating MOSA's success. This research provides qualitative evidence and suggests improvements.
-
-## Key Data Points
-
-- **Pre-2010 MDAPs**: 62.4% cost growth ($542.1B), 35-month average delay
-- **Post-2010 MDAPs**: 2.1% cost growth ($5.3B), 9-month average delay (early stages)
-- **86 MDAPs** tracked by GAO, total cost $1.66T
-- Obsolescence costs DoD **$750M/year**
-- MDAP threshold: ≥$480M per fiscal year
-- Cyber threats: ~$600B lost globally (~1% of GDP)
-
-## Problem Statement
-
-> "Despite a huge, multiyear investment in MOSA, its supporters are unable to demonstrate its value in a convincing way potentially threatening its continued use as a promising design and acquisition strategy."
-
-## 6 Hypotheses & Results
-
-| Hypothesis | Claim | Result |
+# 沙阿2021年MOSA博士论文摘要
+## 摘要
+近60%的美国重大国防采办项目（MDAP）存在超预算或延期问题。美国国防部2015年通过《优化采办购买力3.0》指令强制要求采用MOSA，以应对技术过时、升级一体化系统、提升灵活性，同时解决成本/进度挑战。尽管已投入多年资源，目前尚无证据证明MOSA的实施成效。本研究提供了定性证据，并提出改进建议。
+## 核心数据
+- **2010年前启动的MDAP**：成本平均上涨62.4%（总计5.421万亿美元），平均延期35个月
+- **2010年后启动的MDAP**：成本平均上涨2.1%（总计530亿美元），平均延期9个月（多数处于早期阶段）
+- 美国政府问责局（GAO）跟踪了86个MDAP项目，总成本达1.66万亿美元
+- 技术过时每年给国防部造成7.5亿美元损失
+- MDAP准入门槛：单个财年采办金额≥4.8亿美元
+- 网络威胁：全球每年损失约6000亿美元（约占全球GDP的1%）
+## 问题陈述
+> "尽管对MOSA投入了多年巨额资源，其支持者仍无法以令人信服的方式证明其价值，这可能威胁到MOSA作为一种前景良好的设计和采办策略的持续应用。"
+## 6项假设与验证结果
+| 假设 | 主张 | 验证结果 |
 |------------|-------|--------|
-| **H1** | MOSA → good cost/schedule effects visible in program stats | **Not Supported** — Published MDAP data cannot isolate MOSA's effect. Confounding variables too numerous. |
-| **H2** | If MOSA succeeds, government programs will claim it | **Supported** — Global Hawk, MQ-9 Reaper, AH-64E Apache, HH-60W Black Hawk, U-2, F-22, B-52 |
-| **H3** | US military departments require MOSA | **Supported** — Army, Navy, Air Force all have MOSA programs and standards |
-| **H4** | Non-US governments show MOSA success | **Supported** — UK MoD (GVA), Australian DoD, Canadian Armed Forces |
-| **H5** | Commercial sector adopts MOSA | **Supported** — HForce by Airbus helicopters |
-| **H6** | Commercial sector success with MOSA | **Supported** — H125M, H145M, H225M helicopters convertible to military use |
-
-## Key Architecture Frameworks (from Ch4)
-
-### UCS Architecture (Unmanned Systems Command and Control)
-- Navy: Littoral Combat Ship, Common Control Station
-- Army: Joint Multi Role Rotorcraft, Universal Ground Control Station
-- Air Force: ADM Global Hawk GCS Upgrade
-
-### OMS (Open Mission Systems)
-- Integration of Automatic Target Recognition into OMS-compliant weapons
-- Common Operating Picture sharing between air and space operations floors
-
-### FACE (Future Airborne Capability Environment)
-- Developed 2010, standardizes open aviation architecture
-- **70 organizations, 900 individual contributors**
-- Key members: Boeing, BAE Systems, Bell Helicopter, General Electric
-- Supported by 20+ procurements across USAF, Army, Navy, Special Forces
-- Five segments: OS, I/O Services, Platform-Specific, Transport Services, Portable Components
-
-### Other Standards
-- VICTORY (Vehicular Integration for C4ISR/EW Interoperability)
-- SOSA, CMOSS, MORA (Modular Open Radio Frequency Architecture)
-- HOST (Hardware Open Systems Technologies)
-
-## Key Findings (Ch5 Conclusions)
-
-1. **No ROI study done on MOSA since 2015 mandate** — this praxis is the first holistic view
-2. **Qualitative evidence abundant, quantitative measures absent** — cannot isolate MOSA's causal effect
-3. **What to measure, how, and with what metrics remains the key challenge** — needs assessment methodology
-4. **MOSA scope must include ecosystem, not just program managers** — vendors, engineers, all stakeholders
-5. **Need for MOSA-specific training** — documentation isn't enough, people need formal education
-6. **No standard pass-fail criteria** — vendors and military need alignment
-7. **Main factor for cost/schedule failure: underestimation of initial costs** (GAO reports)
-8. **"MOSA is not the end result but rather an approach"**
-9. **Early indications suggest MOSA is on the right path** despite measurement gaps
-
-## Recommendations (Ch5.6)
-
-- Stronger modular assessment tools and better metrics
-- Compare technical vs. business approach effectiveness
-- Identify where in lifecycle MOSA has greatest impact (DoDI 5000.02 compliance chart?)
-- Quantify modularity in hardware, software, platforms against real value
-- Security and safety guidelines for open systems in defense
-- Detailed MOSA cost/schedule metrics on legacy projects
-
-## Related Concepts
+| **H1** | MOSA可在项目统计数据中体现出良好的成本/进度效益 | **不支持** — 公开的MDAP数据无法隔离MOSA的单独影响，干扰变量过多 |
+| **H2** | 如果MOSA实施成功，政府项目会宣称采用了该方法 | **支持** — 已在全球鹰、MQ-9死神无人机、AH-64E阿帕奇、HH-60W黑鹰、U-2侦察机、F-22、B-52等项目中应用 |
+| **H3** | 美国军方各部门均要求采用MOSA | **支持** — 陆军、海军、空军均有MOSA相关项目和标准 |
+| **H4** | 美国以外的政府也有MOSA成功应用案例 | **支持** — 英国国防部（通用车辆架构GVA）、澳大利亚国防部、加拿大武装部队 |
+| **H5** | 商业领域也采用MOSA | **支持** — 空客直升机的HForce平台 |
+| **H6** | 商业领域MOSA应用已取得成功 | **支持** — H125M、H145M、H225M直升机可快速改装为军用构型 |
+## 核心架构框架（来自第4章）
+### 无人系统指挥与控制架构（UCS）
+- 海军：濒海战斗舰、通用控制站
+- 陆军：联合多任务旋翼机、通用地面控制站
+- 空军：ADM全球鹰地面控制站升级
+### 开放任务系统（OMS）
+- 将自动目标识别集成到符合OMS标准的武器中
+- 空中和空间作战楼层之间共享通用作战图
+### 未来机载能力环境（FACE）
+- 2010年开发，标准化开放航空架构
+- **70家机构、900名个人贡献者**参与
+- 核心成员：波音、BAE系统、贝尔直升机、通用电气
+- 已在美国空军、陆军、海军、特种部队的20多个采办项目中应用
+- 分为5个部分：操作系统、I/O服务、平台专属部分、传输服务、可移植组件
+### 其他标准
+- VICTORY（车辆C4ISR/电子战互操作性集成标准）
+- SOSA、CMOSS、MORA（模块化开放射频架构）
+- HOST（硬件开放系统技术）
+## 核心发现（第5章结论）
+1. **自2015年强制要求以来，尚未开展MOSA投资回报率研究** — 本实践报告是首个整体性研究
+2. **定性证据充足，但缺乏量化度量** — 无法隔离MOSA的因果效应
+3. **"度量什么、如何度量、用什么指标度量"仍是核心挑战** — 需要建立评估方法论
+4. **MOSA实施范围必须覆盖整个生态系统，而非仅面向项目经理** — 包括供应商、工程师等所有利益相关方
+5. **需要开展MOSA专项培训** — 仅靠文档不够，人员需要接受正式教育
+6. **缺乏标准化的通过/失败判定标准** — 供应商和军方需要对齐要求
+7. **成本/进度失败的主要因素：初始成本低估**（来自GAO报告）
+8. **"MOSA不是最终目标，而是一种实现路径"**
+9. **尽管存在度量缺口，早期迹象表明MOSA的发展方向正确**
+## 建议（第5.6节）
+- 开发更完善的模块化评估工具和更合理的度量指标
+- 对比技术方案与商业方案的有效性
+- 明确MOSA在采办生命周期中的最佳介入节点（符合DoDI 5000.02合规要求）
+- 将硬件、软件、平台的模块化程度与实际价值挂钩量化
+- 制定国防开放系统的安全和安保指南
+- 收集legacy项目的MOSA成本/进度详细度量数据
+## 相关概念
 - [[mosa-defense-acquisition]]
 - [[vendor-lock-in]]
 - [[face-technical-standard]]
 - [[open-mission-systems]]
-
-## Related Entities
+## 相关实体
 - [[parth-devang-shah]]
-- [[better-buying-power-3]]
-
+- [[better-buying-power-3-0]]
 ---
-*Full 124-page thesis extracted via PyMuPDF. Summary created 2026-04-05.*
+*124页完整论文通过PyMuPDF提取，摘要生成于2026年4月5日*

@@ -1,111 +1,111 @@
 ---
-title: "Modular Open Systems Approach (MOSA)"
+title: "模块化开放系统方法（MOSA）"
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-14
 tags: [mosa, defense-acquisition, modularity]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ---
 
-# Modular Open Systems Approach (MOSA)
+# 模块化开放系统方法（MOSA）
 
-## Definition
+## 定义
 
-A DoD acquisition and design strategy mandating **modular architecture** with **openly published interfaces**. Mandated by **Better Buying Power 3.0** directive (2015) across all Major Defense Acquisition Programs (MDAPs).
+美国国防部（DoD）的采办与设计策略，强制要求采用**模块化架构**和**公开发布的接口标准**。2015年《优化采办购买力3.0》指令要求所有重大国防采办项目（MDAP）必须采用该方法。
 
-Core purpose:
-- Prevent **vendor lock-in** (single-provider dependency)
-- Support affordable capability evolution
-- Encourage competition and innovation
-- Reduce lifecycle costs
+核心目标：
+- 避免**供应商锁定**（单一供应商依赖）
+- 支持低成本能力迭代
+- 鼓励竞争与创新
+- 降低全生命周期成本
 
-## The Problem
+## 存在的问题
 
-**MDAP performance crisis**:
-- 60%+ of programs over budget or behind schedule
-- Pre-2010 programs: **62.4% cost growth** ($542.1B total), **35-month average delays**
-- Post-2010 programs: 2.1% cost growth ($5.3B), 9-month delays (but many still in early phases)
-- Tech obsolescence costs DoD **$750M/year**
-- **$600B** lost globally to cyber threats (~1% of GDP)
+**重大国防采办项目绩效危机**：
+- 60%以上的项目超预算或延期
+- 2010年前启动的项目：成本平均上涨62.4%（总计5421亿美元），平均延期35个月
+- 2010年后启动的项目：成本平均上涨2.1%（总计53亿美元），平均延期9个月（多数仍处于早期阶段）
+- 技术过时每年给国防部造成7.5亿美元损失
+- 全球网络威胁每年造成约6000亿美元损失（约占全球GDP的1%）
 
-**Vendor lock**: Prime contractors hold IP rights, preventing the DoD from switching to alternate service providers. Systems become un-upgradable or too expensive to modify.
+**供应商锁定问题**：主承包商持有知识产权，导致国防部无法更换服务供应商，系统要么无法升级，要么改造成本过高。
 
-## MOSA Principles
+## MOSA核心原则
 
-1. **Modularity**: Divide systems into discrete, interchangeable components
-2. **Open interfaces**: Published, non-proprietary interface specifications
-3. **Competitive procurement**: Any qualified vendor can provide components
-4. **Data rights**: Government retains rights to interface definitions
-5. **Platform transformability**: Systems usable beyond original scope/lifespan
+1. **模块化**：将系统拆分为独立、可互换的组件
+2. **开放接口**：采用公开发布的非私有接口规范
+3. **竞争性采购**：所有合格供应商均可提供组件
+4. **数据权利**：政府保留接口定义的知识产权
+5. **平台可扩展性**：系统可在原始设计范围/使用寿命外继续使用
 
-## Key Standards
+## 核心标准
 
-- **FACE™** (Future Airborne Capability Environment): Avionics open architecture. 70 orgs, 900 contributors. Supported by 20+ procurements. Five segments: OS, I/O Services, Platform-Specific, Transport, Portable Components
-- **OMS** (Open Mission Systems): Sensor/payload interoperability. Examples: Automatic Target Recognition integration, Common Operating Picture sharing
-- **UCS** (Unmanned Systems Command and Control): Navy LCS, Army Joint MR Rotorcraft, Air Force Global Hawk GCS
-- **VICTORY**: Vehicular C4ISR/EW interoperability (Army)
-- **SOSA**: Sensor Open Systems Architecture (Army)
-- **CMOSS**: C4ISR Open Suite of Standards
-- **MORA**: Modular Open Radio Frequency Architecture
-- **HOST**: Hardware Open Systems Technologies
-- **ISO/IEC/IEEE 15288**: Systems engineering lifecycle standard (adopted by DoD)
+- **FACE™**（未来机载能力环境）：航电开放架构，有70家机构、900名贡献者参与，已在20多个采办项目中应用，分为5个部分：操作系统、I/O服务、平台专属部分、传输层、可移植组件
+- **OMS**（开放任务系统）：传感器/载荷互操作性标准，应用案例：自动目标识别集成、通用作战图共享
+- **UCS**（无人系统指挥控制）：海军濒海战斗舰、陆军联合多任务旋翼机、空军全球鹰地面控制系统
+- **VICTORY**：陆军车辆C4ISR/电子战互操作性标准
+- **SOSA**：陆军传感器开放系统架构
+- **CMOSS**：C4ISR开放标准套件
+- **MORA**：模块化开放射频架构
+- **HOST**：硬件开放系统技术
+- **ISO/IEC/IEEE 15288**：系统工程生命周期标准（已被国防部采纳）
 
-## Evidence Status (Shah 2021 Findings)
+## 实证研究现状（Shah 2021年研究结果）
 
-### 6 Hypotheses Tested
+### 6项假设验证结果
 
-| Hypothesis | Result |
+| 假设 | 验证结果 |
 |-----------|--------|
-| H1: MOSA → measurable cost/schedule improvement | ❌ **Not Supported** — MDAP data cannot isolate MOSA effect |
-| H2: Programs claim MOSA success | ✅ Supported — Global Hawk, MQ-9, Apache, F-22, B-52, etc. |
-| H3: US military requires MOSA | ✅ Supported — Army, Navy, Air Force programs exist |
-| H4: Non-US governments show MOSA adoption | ✅ Supported — UK MoD (GVA), Australia, Canada |
-| H5: Commercial sector adopts MOSA | ✅ Supported — Airbus HForce helicopters |
-| H6: Commercial sector success with MOSA | ✅ Supported — H125M/H145M/H225M military conversion |
+| H1：MOSA可显著改善成本/进度表现 | ❌ **不支持** — 重大国防采办项目数据无法隔离MOSA的单独影响 |
+| H2：多个项目已宣称MOSA实施成功 | ✅ 支持 — 全球鹰、MQ-9、阿帕奇、F-22、B-52等项目 |
+| H3：美军已强制要求采用MOSA | ✅ 支持 — 陆军、海军、空军均有相关项目 |
+| H4：美国以外政府也在采用MOSA | ✅ 支持 — 英国国防部（通用车辆架构GVA）、澳大利亚、加拿大 |
+| H5：商业领域也在采用MOSA | ✅ 支持 — 空客HForce直升机平台 |
+| H6：商业领域MOSA应用已取得成功 | ✅ 支持 — H125M/H145M/H225M直升机军用改装项目 |
 
-### Why H1 Failed to Support
-- Defense programs are multiyear with too many confounding variables
-- No standardized MOSA-specific metrics exist
-- Data granularity insufficient (platform vs. subsystem vs. COTS level)
-- **Worthington (2012)**: "Just as it is impractical to separate the cost savings attributable to OSA from those attributable to COTS, it is equally impossible to separate cost savings attributable to good systems engineering and effective program management."
+### H1假设不成立的原因
+- 国防项目周期长达数年，存在过多干扰变量
+- 没有标准化的MOSA专属度量指标
+- 数据粒度不足（平台/子系统/商用现货层级数据不统一）
+- **Worthington (2012)**: "正如无法将开放系统架构带来的成本节约与商用现货带来的成本节约分开一样，我们也同样无法区分良好系统工程和有效项目管理带来的成本节约。"
 
-## Successful MOSA Programs
+## MOSA成功应用项目
 
-| Branch | Programs |
+| 军种 | 项目 |
 |--------|----------|
-| **Army** | Ground Common Infrastructure, Future Vertical Lift architectures, Improved Turbine Engine Program, Modular Active Protection Systems |
-| **Navy** | Littoral Combat Ship, Virginia Class Submarine, CANES, P-8A Maritime Aircraft, Mobile User Objective System |
-| **Air Force/Aviation** | UCS, OMS, FACE Consortium (70+ orgs), Improved Data Modem OSA |
-| **Global** | UK GVA (Army vehicles), Canada CF-18 Hornet, Australian DoD |
-| **Commercial** | Airbus HForce (H125M/H145M/H225M helicopters) |
+| **陆军** | 地面通用基础设施、未来垂直升力架构、改进型涡轮发动机项目、模块化主动防护系统 |
+| **海军** | 濒海战斗舰、弗吉尼亚级核潜艇、舰载综合网络企业服务（CANES）、P-8A海上巡逻机、移动用户目标系统 |
+| **空军/航空领域** | 无人系统指挥控制（UCS）、开放任务系统（OMS）、FACE联盟（70+机构）、改进型数据调制解调器开放系统架构 |
+| **全球范围** | 英国通用车辆架构GVA（陆军车辆）、加拿大CF-18大黄蜂、澳大利亚国防部 |
+| **商业领域** | 空客HForce平台（H125M/H145M/H225M直升机） |
 
-## Research Limitations (per Shah)
-- Modularity and openness defined too broadly for consistent measurement
-- DoD programmatic information restricted for private citizens
-- Multiple confounding variables in multi-year acquisition programs
-- No MOSA-specific ROI study completed to date
-- No standard "what to measure, how, with what metrics" framework
+## 研究局限性（Shah提出）
+- 模块化和开放性的定义过于宽泛，无法统一度量
+- 国防部项目信息对普通公民保密
+- 多年期采办项目存在过多干扰变量
+- 目前尚未完成MOSA专属的投资回报率研究
+- 没有标准化的"度量内容、度量方式、度量指标"框架
 
-## Recommendations (from Ch5)
-- Develop modular assessment tools and standardized metrics
-- Compare technical vs. business approach effectiveness
-- Determine where in acquisition lifecycle MOSA has greatest impact (DoDI 5000.02)
-- Quantify modularity (hardware/software/platforms) against real dollar value
-- Establish security and safety guidelines for open systems
-- MOSA-specific training for all stakeholders (not just documentation)
-- Pass-fail criteria for vendors and military alignment
+## 建议（来自第5章）
+- 开发模块化评估工具和标准化度量指标
+- 对比技术方案与商业方案的有效性
+- 确定MOSA在采办生命周期中的最佳介入节点（符合DoDI 5000.02要求）
+- 将模块化（硬件/软件/平台）与实际货币价值挂钩量化
+- 建立开放系统的安全和安全指南
+- 为所有利益相关方提供MOSA专项培训（不仅是文档）
+- 建立供应商与军方对齐的通过/失败判定标准
 
-## Android Analogy
-Shah draws parallel to Android's open-source success model: initial skepticism → ecosystem explosion. Defense should shift from closed hardware to open software architectures enabling real-time upgrades.
+## 安卓类比
+Shah将MOSA与安卓的开源成功模式类比：初期存在质疑 → 生态爆发式增长。国防领域应从封闭硬件架构转向开放软件架构，支持实时升级。
 
-## Key Quote (Ch5.7 Conclusion)
-> "MOSA is not the end result but rather an approach that can enable innovation and is one of the many procurement strategies that can help with the DoD acquisition problem."
+## 关键引述（第5.7章结论）
+> "MOSA不是最终目标，而是一种能够促进创新的方法，是帮助解决国防部采办问题的众多采购策略之一。"
 
-> "What to measure, how to measure, and with what metrics to measure remain the key challenge."
+> "度量什么、如何度量、用什么指标度量，仍然是核心挑战。"
 
-## Related
+## 相关内容
 - [[vendor-lock-in]]
 - [[defense-acquisition-overrun-trends]]
 - [[face-technical-standard]]
 - [[open-mission-systems]]
-- [[better-buying-power-3]]
+- [[better-buying-power-3-0]]
 - [[modular-architecture-patterns]]

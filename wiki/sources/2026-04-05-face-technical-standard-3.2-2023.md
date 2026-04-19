@@ -1,90 +1,63 @@
 ---
-title: "FACE Technical Standard, Edition 3.2 (August 2023)"
+title: "FACE技术标准3.2版（2023年8月）"
 date: 2026-04-05
 type: source_summary
 source: raw/papers/face-technical-standard-edition-3.2.pdf
-author: "The Open Group — FACE Consortium"
-tags: [FACE, MOSA, avionics, open-architecture, technical-standard, airborne, UoC, conformance]
+author: "开放群组（The Open Group）——FACE联盟"
+tags: [FACE, MOSA, 航电, 开放架构, 技术标准, 机载, 一致性单元, 合规性]
 ---
-
-# FACE Technical Standard — Edition 3.2 (August 2023)
-
-## Document Meta
-
-- **Full name**: FACE™ Technical Standard, Edition 3.2
-- **Published**: The Open Group, August 2023
-- **Document number**: C232 | ISBN: 1-957866-29-1
-- **Consortium**: 70+ organizations, 900+ contributors (per Shah thesis)
-- **592 pages**
-- **Mentions**: 4x "MOSA" (p29: architecture description, p588: glossary)
-
-## Relationship to MOSA
-
-FACE is the **most mature real-world MOSA implementation** in defense. While the FACE standard only mentions MOSA twice (in architecture description and glossary), it embodies MOSA principles in the most detailed, technically prescriptive form of any open systems standard in DoD.
-
-## 5 FACE Architectural Segments
-
-The standard divides airborne software into **5 segments** connected by **3 FACE Standardized Interfaces** (aka "KEY" interfaces per MOSA). These interfaces are the **open interfaces** required by MOSA.
-
-### 1. Operating System Segment (OSS)
-- POSIX-compliant OS abstraction
-- Hardware-independent interface layer
-
-### 2. I/O Services Segment (IOSS)
-- I/O device drivers and data access
-- Hardware-specific data acquisition services
-
-### 3. Platform-Specific Services Segment (PSSS)
-- Platform-specific services (graphics, platform services)
-- System-specific services
-
-### 4. Portable Components Segment (PCS)
-- Mission application software
-- The "portable" layer — components can move between FACE-conformant systems
-
-### 5. Transport Services Segment (TSS)
-- Inter-process communication
-- Data distribution and messaging
-
-## 3 KEY Interfaces (MOSA Open Interfaces)
-
-The 3 FACE Standardized Interfaces connect the 5 segments. These are the **open, published interfaces** that enable component portability — the core mechanism by which FACE achieves MOSA.
-
-## Unit of Conformance (UoC)
-
-The atomic unit of FACE component portability:
-- Each UoC defines a software component with standardized interfaces
-- UoCs must conform to FACE specifications to be compatible
-- Enables "build once, deploy anywhere" for avionics software
-
-## Conformance Testing
-
-FACE operates a formal conformance testing program:
-- Components tested against FACE specifications
-- Third-party conformance verification
-- Conformance status recorded in FACE registry
-
-## Significance for MOSA Research
-
-1. **FACE = MOSA in practice**: While policy documents mandate MOSA abstractly, FACE implements it concretely. The 592-page standard provides exactly the **technical detail** that MOSA policy lacks.
-
-2. **Interface standardization**: FACE shows how MOSA's "open interface" requirement can be operationalized through detailed interface specifications, UoC definitions, and conformance testing.
-
-3. **Software-only focus**: FACE targets avionics software portability, not hardware modularity or business practice. This is a narrower scope than MOSA's full mandate (DoDI 5000.85 says architecture + interfaces + business practices).
-
-4. **Conformance testing addresses Shah's H1 gap**: FACE has a conformance process; most MOSA domains don't. This is a model MOSA evaluation could emulate.
-
-5. **NDIA Rec #4 (software MOSA) fulfilled**: FACE is the embodiment of NDIA's recommendation to apply MOSA to software architectures with defined taxonomy.
-
-## Related Concepts
+# FACE技术标准——3.2版（2023年8月）
+## 文档信息
+- **全称**：FACE™技术标准3.2版
+- **发布方**：开放群组，2023年8月
+- **文档编号**：C232 | ISBN：1-957866-29-1
+- **联盟构成**：70+机构、900+贡献者（来自沙阿博士论文）
+- **共592页**
+- **提及MOSA次数**：4次（第29页：架构描述，第588页：术语表）
+## 与MOSA的关系
+FACE是国防领域**最成熟的MOSA落地实践**。尽管FACE标准仅两次提及MOSA（在架构描述和术语表中），但它是美国国防部所有开放系统标准中，以最详细、最具技术指导性的形式体现MOSA原则的标准。
+## 5个FACE架构段
+本标准将机载软件划分为**5个段**，通过**3个FACE标准化接口**（即MOSA要求的"关键"接口）连接，这些接口就是MOSA要求的**开放接口**。
+### 1. 操作系统段（OSS）
+- 兼容POSIX标准的操作系统抽象层
+- 硬件无关接口层
+### 2. I/O服务段（IOSS）
+- I/O设备驱动和数据访问
+- 硬件专属的数据采集服务
+### 3. 平台专属服务段（PSSS）
+- 平台专属服务（图形、平台服务）
+- 系统专属服务
+### 4. 可移植组件段（PCS）
+- 任务应用软件
+- "可移植"层——组件可以在符合FACE标准的系统之间迁移
+### 5. 传输服务段（TSS）
+- 进程间通信
+- 数据分发和消息传递
+## 3个关键接口（MOSA开放接口）
+3个FACE标准化接口连接5个架构段，是实现组件可移植性的**开放、公开接口**——这是FACE实现MOSA目标的核心机制。
+## 一致性单元（UoC）
+FACE组件可移植性的原子单元：
+- 每个一致性单元定义了具备标准化接口的软件组件
+- 一致性单元必须符合FACE规范才能兼容
+- 实现航电软件"一次构建，随处部署"
+## 一致性测试
+FACE运行正式的一致性测试程序：
+- 对照FACE规范测试组件
+- 第三方一致性验证
+- 一致性状态记录在FACE注册表中
+## 对MOSA研究的意义
+1. **FACE=MOSA实践范本**：政策文件仅抽象要求MOSA，而FACE给出了具体实现。这份592页的标准恰好填补了MOSA政策缺失的**技术细节**。
+2. **接口标准化**：FACE展示了如何通过详细的接口规范、一致性单元定义和一致性测试，落地MOSA的"开放接口"要求。
+3. **仅聚焦软件**：FACE瞄准航电软件可移植性，不涉及硬件模块化或商业实践，这比MOSA的全部要求范围更窄（DoDI 5000.85要求架构+接口+商业实践）。
+4. **一致性测试解决沙阿H1假设的缺口**：FACE有成熟的一致性流程，而多数MOSA领域没有，这是MOSA评估可以参考的模型。
+5. **符合NDIA建议第4条（软件MOSA）**：FACE是NDIA提出的"为软件架构应用MOSA并定义分类体系"建议的具体体现。
+## 相关概念
 - [[mosa-defense-acquisition]]
 - [[open-mission-systems]]
 - [[adaptive-acquisition-framework]]
 - [[vendor-lock-in]]
-
-## Related Entities
-- [[the-open-group]]
+## 相关实体
+- The Open Group
 - [[parth-devang-shah]]
-
 ---
-*592 pages, August 2023, Edition 3.2. Only 4 MOSA mentions — FACE operates on its own terms as a technical specification.*
+*共592页，2023年8月，3.2版。仅4次提及MOSA——FACE作为技术规范有独立的运行体系。*
