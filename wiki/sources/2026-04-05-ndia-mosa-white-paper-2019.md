@@ -1,141 +1,115 @@
 ---
-title: "NDIA MOSA White Paper — Top 10 Recommendations"
+title: "美国国防工业协会（NDIA）MOSA白皮书——十大建议"
 date: 2026-04-05
 type: source_summary
 source: raw/papers/ndia-mosa-white-paper-2019.pdf
-author: "NDIA SE Division - Architecture Committee (Steve Thelin, Chair)"
-tags: [MOSA, NDIA, recommendations, systems-engineering, policy]
+author: "美国国防工业协会系统工程分会架构委员会（主席：史蒂夫·特林）"
+tags: [MOSA, NDIA, 建议, 系统工程, 政策]
 ---
-
-# NDIA MOSA White Paper Summary (2019, Rev. D, October)
-
-## Document Meta
-
-- **Author**: NDIA Systems Engineering Division — Architecture Committee, chaired by Steve Thelin
-- **Membership**: 38 Industry, 14 Government, 5 Academia
-- **Key focus on MOSA since 2017**
-- **16 pages** — presentation format, summarizing white paper recommendations
-
-## Context
-
-Government and industry need to work together to define MOSA implementation that delivers:
-- Increased competition
-- Reduced costs
-- New synergistic capabilities across product lines
-- **MOSA is the foundation** that Mission Engineering, Digital Engineering, and System Security Engineering can build on
-
-## Audience
-
-| Stakeholder | Need |
+# 美国国防工业协会2019年MOSA白皮书摘要（D修订版，10月发布）
+## 文档信息
+- **作者**：美国国防工业协会（NDIA）系统工程分会架构委员会，主席史蒂夫·特林
+- **成员构成**：38名工业界代表、14名政府代表、5名学术界代表
+- **自2017年起重点聚焦MOSA研究**
+- **共16页**，演示文稿格式，汇总白皮书核心建议
+## 背景
+政府和工业界需要协同明确MOSA的实施路径，以实现：
+- 提升竞争
+- 降低成本
+- 跨产品线实现新的协同能力
+- **MOSA是任务工程、数字工程、系统安全工程的基础支撑**
+## 受众
+| 利益相关方 | 需求 |
 |-------------|------|
-| Government | Guidance for executing contracts, producing SoS architectures |
-| Prime Contractors | Investment strategy, subcontractor impacts, IP ramifications |
-| Systems Engineers | MOSA requirements, RFP guidance, evaluation criteria |
-| NDIA Architecture Team | Planning tool for policy/guidance changes, standards development |
-
-## Top 10 Recommendations
-
-### 1. Develop MOSA Strategy Early in Acquisition Process
-- Define MOSA objectives and partitioning **above the planned procurement system level**
-- Consider: adjacent systems, mission engineering interfaces, missing standards
-- Demonstrate financial and performance justification for planned partitioning
-- Provide strategy early to allow contractors to plan technology investments
-
-### 2. Define MOSA Implementation Approach (Acquirer ↔ Supplier Roles)
-- Define level of MOSA, planned partitioning, functional analysis, interfaces to be controlled/open
-- Define MOSA objective per level: adaptability, sustainability, upgradeability, competition
-- **Consider incentives** for MOSA implementation to facilitate acceptance
-- **OSD must define Technical Data Rights and IP policy** (those impacted by MOSA)
-- Develop MOSA architecture with governance of planned open interfaces
-- Plan for design disclosure to enable second sourcing and competition
-- Identify common standards or release ICDs and other open interface documents
-
-### 3. Define Interfaces at MIL-STD-881D Taxonomy Levels
-- **MIL-STD-881D** provides consistent common language for system hierarchy
-- Eliminate ambiguous terms like "major component" and "platform level"
-- Consider **MIL-STD-196F/G** nomenclature: System → Subsystems → Centers → Centrals → Sets → Groups → Units
-- Define integration level (manual, automated) between platforms/systems/subsystems at all SoS taxonomy levels
-
-### 4. Apply MOSA in Software Architectures
-- Apply MOSA to software abstraction/reification levels, including SoS level
-- Develop **software taxonomy similar to MIL-STD-881D** to guide software MOSA
-- Define framework/lexicon for design-level partitioning at various design stages
-- Develop **common reference architecture for data model** at varying fidelity levels
-- Define modular software data rights at appropriate abstraction levels (OS vs microservices)
-
-### 5. Implement MOSA as Part of Digital Engineering Strategy
-- Models can define and communicate MOSA architectures and partitioning
-- Develop common MOSA framework/lexicon for system functions at multiple architecture levels
-- Government must articulate SoS architecture responsibility; flow down to contractors
-- Standards, common modules, and interfaces should be **categorized by taxonomy level and technology state** (old, latest, emerging)
-
-### 6. Incorporate Cybersecurity Strategy at Initial Design
-- **System Security Engineering up-front** as part of development process
-- Understand effects of modularity and open interfaces on cybersecurity
-- Identify MOSA-induced threat vectors and associated risks
-- Develop security architecture early; define risk mitigation
-
-### 7. DOD + Industry Define MOSA Evaluation & Certification
-- **Define MOSA metrics for various domains and SoS levels**
-- Establish evaluation process and criteria for proposals
-- Define what MOSA compliant means; develop standard certification objectives
-- **Emphasize measurement methodology over structure** — shipbuilding metrics may not suit aerospace
-
-### 8. Develop Enablers with Investment for Culture Change
-- **Make MOSA a requirement — not an option — for all procurements**
-- **Open Systems Management Plan (OSMP) as common as a Systems Engineering Management Plan (SEMP)**
-- MOSA incorporated into technical/management reviews
-- MOSA strategy defined at all SoS levels
-- Include MOSA as a primary consideration in **Value Engineering**
-- Government coordinate across services and weapon systems
-- Build MOSA incentives into contracts and award fee structures
-- **Embed MOSA in System/Mission/Digital Engineering and SoS processes**
-
-### 9. Create Library of MOSA Certified Systems and Interfaces
-- Maintain reusable archive of certified MOSA systems and interface types
-- Include system partitioning architecture + ICDs + standards for open interfaces
-- Include modularity objectives, how achieved, why important
-- **Accelerate MOSA adoption, speed development, increase competition**
-
-### 10. Define Method to Compare Standards and Interfaces
-- Develop common method to talk about and compare standards
-- Critical for **gap analysis**
-- Identify tool for PMs to determine appropriate standards
-- Map standards/interfaces to MIL-STD-881D
-
-## Summary: Key Benefits vs Key Enablers
-
-| Key Benefits | Key Enablers |
+| 政府部门 | 合同执行、体系架构构建的指导规范 |
+| 主承包商 | 投资策略、分包商影响、知识产权相关影响 |
+| 系统工程师 | MOSA需求、方案征求书（RFP）指导、评估标准 |
+| NDIA架构团队 | 政策/规范调整、标准制定的规划工具 |
+## 十大核心建议
+### 1. 在采办流程早期制定MOSA策略
+- 在**规划采办系统层级之上**定义MOSA目标和模块划分
+- 考虑因素：相邻系统、任务工程接口、缺失的标准
+- 证明规划模块划分的财务和性能合理性
+- 尽早发布策略，让承包商可以规划技术投资
+### 2. 明确MOSA实施路径（采办方↔供应商角色）
+- 定义MOSA层级、规划模块划分、功能分析、需要控制/开放的接口
+- 定义各层级的MOSA目标：适配性、可持续性、可升级性、竞争性
+- **考虑MOSA实施激励措施**，降低接受阻力
+- **国防部副部长办公室（OSD）必须明确技术数据权利和知识产权政策**（受MOSA影响的部分）
+- 开发MOSA架构，并对规划的开放接口进行治理
+- 规划设计披露，支持第二供应商引入和竞争
+- 明确通用标准，发布接口控制文件（ICD）和其他开放接口文档
+### 3. 基于MIL-STD-881D分类层级定义接口
+- **MIL-STD-881D**为系统层级提供了统一的通用语言
+- 消除"主要组件"、"平台层级"等模糊术语
+- 参考**MIL-STD-196F/G**命名规范：系统→子系统→中心→核心→集→组→单元
+- 定义所有体系分类层级下，平台/系统/子系统之间的集成级别（手动、自动）
+### 4. 在软件架构中应用MOSA
+- 将MOSA应用到软件抽象/实例化层级，包括体系层级
+- 开发**类似MIL-STD-881D的软件分类标准**，指导软件MOSA实施
+- 为不同设计阶段的设计层级划分制定框架/术语表
+- 开发**不同保真度层级的数据模型通用参考架构**
+- 在适当的抽象层级（操作系统vs微服务）定义模块化软件数据权利
+### 5. 将MOSA作为数字工程战略的一部分实施
+- 模型可以定义和传递MOSA架构及模块划分
+- 为多个架构层级的系统功能开发通用MOSA框架/术语表
+- 政府必须明确体系架构责任，并传递给承包商
+- 标准、通用模块和接口应**按分类层级和技术状态（旧版、最新、新兴）进行归类**
+### 6. 在初始设计阶段纳入网络安全策略
+- **预先开展系统安全工程**，作为开发流程的一部分
+- 理解模块化和开放接口对网络安全的影响
+- 识别MOSA引入的威胁向量及相关风险
+- 早期开发安全架构，定义风险缓解措施
+### 7. 国防部+工业界共同定义MOSA评估与认证体系
+- **为不同领域和体系层级定义MOSA度量指标**
+- 建立方案评估流程和标准
+- 明确MOSA合规的定义，开发标准化认证目标
+- **强调度量方法论而非固定结构** — 造船业的指标可能不适用于航空航天领域
+### 8. 投入资源开发支撑要素，推动文化变革
+- **将MOSA作为所有采办项目的强制要求，而非可选项**
+- **让开放系统管理计划（OSMP）和系统工程管理计划（SEMP）一样普及**
+- 将MOSA纳入技术/管理评审
+- 在所有体系层级定义MOSA策略
+- 将MOSA作为**价值工程**的主要考虑因素
+- 政府在各军种和武器系统之间进行协调
+- 在合同和奖励费结构中纳入MOSA激励措施
+- **将MOSA嵌入系统/任务/数字工程和体系流程中**
+### 9. 建立MOSA认证系统和接口库
+- 维护可复用的已认证MOSA系统和接口类型档案
+- 包含系统划分架构、接口控制文件、开放接口标准
+- 包含模块化目标、实现方式、重要性说明
+- **加速MOSA adoption，提升开发速度，增强竞争**
+### 10. 制定标准和接口的比较方法
+- 开发通用的标准讨论和比较方法
+- 对**差距分析**至关重要
+- 为项目经理提供工具，确定适用的标准
+- 将标准/接口映射到MIL-STD-881D分类体系
+## 总结：核心收益vs核心支撑要素
+| 核心收益 | 核心支撑要素 |
 |-------------|-------------|
-| Weapon system interoperability & scalability | Development of key standards and interfaces |
-| Technology refresh & new technology insertion | Detailed service implementation plans + consistent application |
-| Reduced cost | Formal, standard way of assessing MOSA |
-| Reduced development cycle for new capabilities | Transition to MOSA culture and environment |
-| Increased competition | |
-| Improved sustainment & life cycle costs | |
-
-## Comparison to Shah Thesis Findings
-
-| NDIA Recommendation | Shah Thesis Evidence |
+| 武器系统互操作性与可扩展性 | 核心标准和接口的开发 |
+| 技术更新与新技术植入 | 详细的军种实施计划+一致的应用 |
+| 降低成本 | 正式、标准化的MOSA评估方法 |
+| 缩短新能力开发周期 | 向MOSA文化和环境转型 |
+| 提升竞争 | |
+| 改进保障与全生命周期成本 | |
+## 与沙阿博士论文研究结果的对比
+| NDIA建议 | 沙阿论文证据 |
 |-------------------|---------------------|
-| Make MOSA a requirement for all procurements | ✅ Army, Navy, Air Force all mandated it (H3 supported) |
-| Define MOSA metrics | ❌ Shah found no standardized metrics exist (H1 not supported) |
-| MOSA incentives in contracts | Shah noted lack of quantitative evidence prevents meaningful incentives |
-| Create library of certified MOSA systems | Not yet done — major gap identified in thesis |
-| Evaluate MOSA at proposal stage | Shah found no MOSA evaluation criteria in MDAP data |
-
-The NDIA recommendations and Shah thesis findings **align perfectly** — same gaps, same needs, different perspectives (thesis = retrospective analysis, NDIA = prescriptive recommendations).
-
-## Related Concepts
+| 将MOSA作为所有采办项目的强制要求 | ✅ 陆军、海军、空军均已强制要求（假设H3验证通过） |
+| 定义MOSA度量指标 | ❌ 沙阿发现不存在标准化度量指标（假设H1未通过） |
+| 合同中纳入MOSA激励措施 | 沙阿指出缺乏量化证据，无法制定有意义的激励措施 |
+| 建立已认证MOSA系统库 | 尚未实施 — 论文中指出的重大缺口 |
+| 在方案阶段评估MOSA | 沙阿在MDAP数据中未发现MOSA评估标准 |
+NDIA的建议和沙阿论文的研究结果**完全对齐** — 识别的缺口、需求一致，仅视角不同（论文=回顾性分析，NDIA=指导性建议）。
+## 相关概念
 - [[mosa-defense-acquisition]]
 - [[adaptive-acquisition-framework]]
-- [[open-systems-management-plan]]
-- [[mil-std-881d]]
-- [[mosa-certification]]
-
-## Related Entities
-- [[national-defense-industrial-association-ndia]]
-- [[steve-thelin]]
-
+- 开放系统管理计划（OSMP）
+- [[2026-04-05-mil-std-881d-wbs-defense-materiel]]
+- MOSA认证
+## 相关实体
+- NDIA
+- Steve Thelin
 ---
-*16 pages, NDIA SE Division - Architecture Committee, Rev. D, October 2019*
+*共16页，NDIA系统工程分会架构委员会，D修订版，2019年10月*

@@ -1,37 +1,24 @@
 ---
-title: "Open Mission Systems (OMS)"
+title: "开放任务系统（OMS）"
 date: 2026-04-05
 type: concept
-tags: [oms, avionics, open-architecture, DoD]
+tags: [OMS, 传感器互操作, 开放架构]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ---
-
-# Open Mission Systems (OMS)
-
-## Definition
-
-A DoD initiative for **interoperable airborne mission systems**. Enables integration of new avionics payloads and weapons across air and space platforms by defining common interface standards.
-
-## Key Achievements (from Shah 2021)
-
-- **Automatic Target Recognition** integrated into OMS-compliant weapon systems
-- **Common Operating Picture** shared between air operations floor and space operations floor
-- Supported by USAF, Navy, and coalition forces
-
-## Relationship to FACE
-
-| Aspect | OMS | FACE |
-|--------|-----|------|
-| Scope | Mission systems (sensors, payloads, weapons) | Entire avionics software environment |
-| Segments | Focused on mission-specific interfaces | 5 segments (OS → Portable Components) |
-| Adoption | Weapon system integration | 70+ org consortium, 900 contributors |
-
-Both complement each other in the overall MOSA strategy for aviation systems.
-
-## Related
+# 开放任务系统（OMS）
+美国空军主导制定的传感器与任务系统开放架构标准，是MOSA在航空任务系统领域的核心落地规范。
+## 核心目标
+解决不同供应商的传感器、载荷、任务系统之间的互操作问题，实现传感器即插即用，不需要定制开发集成接口。
+## 核心特点
+- 标准化的传感器数据接口：所有传感器输出格式统一，支持任意系统接入
+- 服务化架构：功能以服务形式提供，支持动态组合与调用
+- 硬件无关：不依赖特定硬件平台，支持跨平台移植
+## 应用案例
+- F-35战斗机传感器集成
+- 全球鹰无人机地面控制站
+- 下一代轰炸机任务系统
+## 相关内容
 - [[mosa-defense-acquisition]]
 - [[face-technical-standard]]
-- [[ucs-architecture]]
-
 ---
-*From Shah 2021 D.Eng. Praxis, Ch4.4.3*
+*摘自Shah 2021年工程博士实践报告*

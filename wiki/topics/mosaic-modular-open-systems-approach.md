@@ -114,4 +114,4 @@ All source materials are summarized in the wiki:
 - [[vendor-lock-in]]
 - [[face-technical-standard]]
 - [[open-mission-systems]]
-- [[defense-acquisition-reform]]
+- 国防采办改革

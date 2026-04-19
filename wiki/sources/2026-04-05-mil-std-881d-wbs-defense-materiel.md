@@ -1,72 +1,54 @@
 ---
-title: "MIL-STD-881D — Work Breakdown Structures for Defense Materiel Items"
+title: "MIL-STD-881D——国防装备工作分解结构标准"
 date: 2026-04-05
 type: source_summary
 source: raw/papers/mil-std-881d-wbs-defense-materiel-2018.pdf
-author: "Department of Defense"
-tags: [MIL-STD, WBS, defense-acquisition, modularity, cost-reporting, mosat]
+author: "美国国防部"
+tags: [军用标准, WBS, 国防采办, 模块化, 成本上报, MOSA]
 ---
-
-# MIL-STD-881D Summary (2018)
-
-## Document Meta
-
-- **Full name**: MIL-STD-881D — Work Breakdown Structures for Defense Materiel Items
-- **Date**: April 9, 2018
-- **Supersedes**: MIL-STD-881C
-- **233 pages**
-- **12 appendices** (A-L)
-
-## Purpose
-
-Defines **standardized work breakdown structures** for defense materiel items. Creates a common language for describing system components across DoD.
-
-## Structure
-
-The standard defines WBS at a consistent, hierarchical level:
-- **Level 1**: System (e.g., Aircraft, Ship, Missile, Vehicle)
-- **Level 2**: Major subsystems (e.g., Airframe, Propulsion, Mission Equipment)
-- **Level 3**: Components within subsystems
-
-## Key Appendices
-
-| Appendix | Coverage |
+# MIL-STD-881D标准摘要（2018版）
+## 文档信息
+- **全称**：MIL-STD-881D——国防装备工作分解结构标准
+- **发布日期**：2018年4月9日
+- **替代版本**：MIL-STD-881C
+- **共233页**
+- **包含12个附录（A-L）**
+## 用途
+定义国防装备的**标准化工作分解结构（WBS）**，为美国国防部各部门描述系统组件提供通用语言。
+## 结构
+本标准定义了统一的层级化WBS：
+- **第1层级**：系统（如飞机、舰船、导弹、车辆）
+- **第2层级**：主要子系统（如机身、推进系统、任务设备）
+- **第3层级**：子系统内的组件
+## 核心附录
+| 附录 | 覆盖范围 |
 |----------|----------|
-| A | Aircraft Systems |
-| B | Ships |
-| C | Missile/Ordnance Systems |
-| D | Strategic Missiles |
-| E | Electronics |
-| F | Space Systems |
-| G | Ground Vehicle Systems |
-| J | Information Systems / Defense Business Systems |
-| K | Common Elements |
-| L | Sustainment Cost Reporting |
-
-## Significance for MOSA
-
-**NDIA Recommendation #3** explicitly calls for using MIL-STD-881D as the common language for MOSA component definition. The standard provides:
-
-1. **Consistent taxonomy**: Standard classification for all defense materiel across services
-2. **Component hierarchy**: Clear system → subsystem → component breakdown
-3. **Modularity definition basis**: MOSA interface points can be defined at specific WBS levels
-4. **Eliminates ambiguity**: NDIA noted that terms like "major component" and "platform level" are ambiguous without this standard
-
-### 2018 Key Changes (from MIL-STD-881C)
-
-- Added **Data Rights** sections — relevant to MOSA's open interface and technical data package requirements
-- Added **Cybersecurity** reporting elements in Common Elements (Appendix K)
-- Added **Software Engineering and Management** elements (Appendix K)
-- Added **Integrated Logistics Support** elements (Appendix K)
-
-These additions make MIL-STD-881D increasingly relevant to MOSA, since MOSA requires addressing data rights, cybersecurity, and logistics in modular systems.
-
-## Related Concepts
+| A | 飞机系统 |
+| B | 舰船 |
+| C | 导弹/军械系统 |
+| D | 战略导弹 |
+| E | 电子系统 |
+| F | 航天系统 |
+| G | 地面车辆系统 |
+| J | 信息系统/国防业务系统 |
+| K | 通用要素 |
+| L | 保障成本上报 |
+## 对MOSA的意义
+**美国国防工业协会（NDIA）建议第3条**明确要求使用MIL-STD-881D作为MOSA组件定义的通用语言，本标准提供：
+1. **统一分类体系**：为各军种所有国防装备提供标准分类
+2. **组件层级**：清晰的系统→子系统→组件划分
+3. **模块化定义基础**：MOSA接口点可以定义在特定的WBS层级
+4. **消除歧义**：NDIA指出，若无本标准，"主要组件"、"平台层级"等术语存在歧义
+### 2018版相对MIL-STD-881C的核心变更
+- 新增**数据权利**章节 — 符合MOSA开放接口和技术数据包要求
+- 在通用要素附录（附录K）中新增**网络安全**上报要素
+- 新增**软件工程与管理**要素（附录K）
+- 新增**综合后勤保障**要素（附录K）
+这些新增内容让MIL-STD-881D与MOSA的相关性越来越高，因为MOSA要求在模块化系统中考虑数据权利、网络安全和后勤保障问题。
+## 相关概念
 - [[mosa-defense-acquisition]]
 - [[defense-acquisition-overrun-trends]]
-
-## Related Entities
+## 相关实体
 - [[parth-devang-shah]]
-
 ---
-*233 pages, April 2018, supersedes MIL-STD-881C (2011).*
+*共233页，2018年4月发布，替代2011版MIL-STD-881C*

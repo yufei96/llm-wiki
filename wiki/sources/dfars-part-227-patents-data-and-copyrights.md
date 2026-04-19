@@ -1,34 +1,17 @@
-# dfars-part-227-patents-data-and-copyrights
-
-## Source
-[[sources/dfars-part-227-patents-data-and-copyrights.pdf]]
-
-## Text Content
-This DFARS part deals with patents, data, and copyrights in government contracts.
-
-While not MOSA-specific, this part is relevant to MOSA implementation because:
-- MOSA implementations often involve significant software and technical data
-- Data rights are critical to MOSA's modularity and interchangeability goals
-- Contract clauses in this part affect how technical data and software can be shared, modified, and reused
-
-## MOSA Relevance
-For MOSA to work effectively, the government needs sufficient data rights to:
-- Enable module replacement/upgrades from different suppliers
-- Allow technology insertion and refresh
-- Support interoperability testing and validation
-- Facilitate competition based on open interfaces
-
-Specific sections that may impact MOSA:
-- Regulations on technical data rights
-- Computer software copyright provisions
-- Data delivery requirements
-- Licensing and use restrictions
-
-## Related Concepts
+---
+title: "DFARS第227部分：专利、数据及版权"
+date: 2026-04-05
+type: source
+tags: [DFARS, 数据权, 专利, 联邦通信]
+---
+# DFARS第227部分：专利、数据及版权
+本部分关于专利、数据及版权，在政府合同中聚焦数据权利。其中规定与MOSA相关的核心内容包括：
+- **技术数据权利**：支持模块化替代既定供应，使用方便及经济高效；
+- **软件版权**：在联邦通信架构中保护开发者的IP；
+- **数据交付要求**：确保模块可以安全互联互换；
+- **联邦服务优先**：借鉴已存在的开源解决方案。
+## 相关联系
 - [[mosa-defense-acquisition]]
-- [[data-rights-importance-mosa]]
-- [[technical-data-management]]
-- [[software-modularity]]
-
-## Tags
-#dfars #data-rights #mosa-relevance #patents-copyright
+- MOSA数据权利
+---
+*摘自美国国防部DFARS官方公开文本*

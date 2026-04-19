@@ -1,80 +1,62 @@
-# mosa-five-pillars
-
-## Source
-[[sources/mosa-implementation-guidebook-27feb2025-cleared.pdf#page:5-50]]
-
-## Overview
-OUSD(R&E)-led MOSA working groups developed the **five pillars of MOSA** to ensure DoD programs have an effective approach for MOSA implementation.
-
-## The Five Pillars
-
-### 1. Enabling Environment
-By establishing and maintaining an enabling environment that supports MOSA, the DoD can ensure the development of modular, interoperable, and adaptable systems that meet evolving defense needs efficiently and effectively.
-
-This pillar involves:
-- Setting clear MOSA goals that expand capabilities and interoperability
-- Transforming requirements, business, management, technical, and acquisition practices to align with MOSA principles
-- Updating contracts, data, licenses, property rights; plans; and other key areas to support modularity and openness
-- Embracing an Agile Development Culture with frequent small releases based on continuous feedback
-- Deploying automation with CI/CD for continuous operations
-- Aligning organization structure with system design (Conway's Law)
-- Adopting Digital Engineering Practices to capture MOSA elements in models
-
-### 2. Modular Design
-To accomplish the acquirer's business and technical objectives, the acquiring organization should **identify the required functionality of the modular system components before issuing the RFP**.
-
-Benefits of effective modular design:
-- Acquirers/developers can upgrade or change functions rapidly, with limited/no impact to the rest of the system
-- Isolates functionality during design to simplify development, maintenance, changes, and upgrades
-- Modules can be independent of technology choices → easier substitution when technologies evolve
-- Immutable and disposable → deploy the same code everywhere
-
-Key design principles:
-- Separates components into scalable, reusable, self-contained functional elements
-- Architectural failure isolation → when one module fails, the rest of the system remains available
-
-### 3. Designated Interfaces
-By designating modular system interfaces, the DoD can ensure that systems are flexible, interoperable, and easily upgradeable.
-
-This pillar focuses on **decoupling interface and service implementation** to allow components to follow separate life cycles.
-
-Best practices for interface management:
-1. **Identify Modular Interfaces**: Conduct thorough analysis, define boundaries/characteristics, rank by criticality
-2. **Develop and Implement an Interface Management Plan (IMP)**: Include processes, responsibilities, procedures for upgrading standards
-3. **Assign Interface Ownership**: Control definition/development/implementation to ensure compliance
-4. **Create Unique Identifiers**: Consistent naming for each interface
-5. **Trace Requirements**: Ensure traceability from MOSA/operational requirements to interface specifications
-6. **Document Interfaces**: Maintain detailed records in Interface Requirement Specifications (IRS)
-
-### 4. Consensus-Based Open Standards
-By standardizing modular system interfaces through consensus-based standards, the DoD can ensure systems are flexible, interoperable, and easily repairable/upgradeable.
-
-Key practices:
-- Prioritize consensus-based international/government standards to maximize interoperability
-- Select appropriate standards tailored for your program
-- Ensure proper implementation to avoid interoperability issues
-- Standardize interfaces to the maximum extent feasible
-- Document and manage interface specifications
-- Enable competition by keeping interfaces open
-
-### 5. Certifying Conformance
-Developers must verify and validate MOSA implementation/requirements, ensuring conformance to selected internal/external open interface standards.
-
-Certification guarantees:
-- Modularity and openness objectives are met
-- Ultimately supports program success and system sustainability
-
-Verification activities include:
-- Checklists guiding self-assessment
-- Defined criteria and verification methods
-- Documentation validation
-- Modularity requirements verification
-- Tool development validation
-
-## Related Concepts
+# MOSA五大支柱
+## 来源
+2025年MOSA实施指南（OUSD(R&E)），第5-50页。详见 [[2026-04-05-mosa-implementation-guidebook-2025]]
+## 概述
+由美国国防部研究与工程副部长办公室（OUSD(R&E)）牵头的MOSA工作组制定了**MOSA五大支柱**，确保国防部项目采用有效的方法实施模块化开放系统方法。
+## 五大支柱
+### 1. 赋能环境
+通过建立和维护支持MOSA的赋能环境，国防部可以确保开发出模块化、可互操作、可适配的系统，高效满足不断变化的国防需求。
+本支柱涵盖：
+- 设定清晰的MOSA目标，扩展能力和互操作性
+- 改造需求、业务、管理、技术和采办实践，与MOSA原则对齐
+- 更新合同、数据、许可、产权、计划和其他关键领域，支持模块化和开放性
+- 拥抱敏捷开发文化，基于持续反馈进行频繁的小版本发布
+- 部署CI/CD（持续集成/持续交付）自动化，支持持续运营
+- 组织结构与系统设计对齐（康威定律）
+- 采用数字工程实践，在模型中捕获MOSA要素
+### 2. 模块化设计
+为实现采办方的业务和技术目标，采办组织应**在发布方案征求书（RFP）前明确模块化系统组件的所需功能**。
+有效模块化设计的收益：
+- 采办方/开发方可以快速升级或变更功能，对系统其他部分影响有限/无影响
+- 设计阶段隔离功能，简化开发、维护、变更和升级
+- 模块可以独立于技术选型 → 技术迭代时更容易替换
+- 不可变且可丢弃 → 可以在任意环境部署相同代码
+核心设计原则：
+- 将组件拆分为可扩展、可复用、自包含的功能单元
+- 架构故障隔离 → 单个模块故障时，系统其余部分仍可正常运行
+### 3. 指定接口
+通过指定模块化系统接口，国防部可以确保系统具备灵活性、互操作性，且易于升级。
+本支柱重点是**解耦接口与服务实现**，允许组件遵循独立的生命周期。
+接口管理最佳实践：
+1. **识别模块化接口**：开展充分分析，定义边界/特性，按关键程度排序
+2. **制定并实施接口管理计划（IMP）**：包含升级标准的流程、职责、程序
+3. **指定接口所有权**：控制定义/开发/实施，确保合规性
+4. **创建唯一标识符**：每个接口采用统一命名
+5. **需求追溯**：确保从MOSA/作战需求到接口规范的可追溯性
+6. **接口文档化**：在接口需求规范（IRS）中维护详细记录
+### 4. 基于共识的开放标准
+通过基于共识的标准标准化模块化系统接口，国防部可以确保系统具备灵活性、互操作性，且易于维修/升级。
+核心实践：
+- 优先采用基于共识的国际/政府标准，最大化互操作性
+- 选择适配项目需求的适当标准
+- 确保正确实施，避免互操作性问题
+- 最大可行程度下标准化接口
+- 文档化并管理接口规范
+- 保持接口开放，促进竞争
+### 5. 一致性认证
+开发方必须验证和确认MOSA实施/需求，确保符合选定的内部/外部开放接口标准。
+认证保障：
+- 模块化和开放性目标得到满足
+- 最终支撑项目成功和系统可持续性
+验证活动包括：
+- 指导自评的检查清单
+- 明确的判定标准和验证方法
+- 文档有效性验证
+- 模块化需求验证
+- 工具开发验证
+## 相关概念
 - [[mosa-defense-acquisition]]
-- [[modular-open-systems-approach]]
-- [[open-standards-importance-defense]]
-
-## Tags
-#extracted-from-mineru #mosa #principles #dod-policy
+- [[mosa-defense-acquisition]]
+- 国防领域开放标准
+## 标签
+#extracted-from-mineru #mosa #原则 #国防部政策

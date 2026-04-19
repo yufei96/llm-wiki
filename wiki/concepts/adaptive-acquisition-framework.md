@@ -1,63 +1,45 @@
 ---
-title: "Adaptive Acquisition Framework (AAF)"
+title: "自适应采办框架（AAF）"
 date: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-14
 type: concept
-tags: [AAF, defense-acquisition, DoD, pathways]
+tags: [AAF, 国防采办, 美国国防部, 采办路径]
 sources: [raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf]
 ---
-
-# Adaptive Acquisition Framework (AAF)
-
-## Definition
-
-Established by **DoDI 5000.02** (2020, Change 1 2022), the AAF is DoD's acquisition process framework with **6 pathways** tailored to different capability types.
-
-## Purpose (per 5000.02, §1.3)
-
-> "Deliver effective, suitable, survivable, sustainable, and affordable solutions to the end user in a timely manner."
-
-**Key innovation**: MDAs, DAs, and PMs have **broad authority** to plan and manage programs consistent with sound business practice. No longer a single rigid process — match pathway to capability characteristics.
-
-## 6 Pathways
-
-| Pathway | Purpose | Timeline | Reference |
+# 自适应采办框架（AAF）
+## 定义
+由**国防部指令DoDI 5000.02**（2020年发布，2022年修订1版）建立，是美国国防部的采办流程框架，包含**6条适配不同能力类型的采办路径**。
+## 目标（依据DoDI 5000.02第1.3节）
+> "及时向最终用户交付有效、适用、可生存、可持续且经济可负担的解决方案。"
+**核心创新**：里程碑决策当局（MDA）、决策当局（DA）和项目管理器（PM）拥有**广泛权限**，可以按照合理商业实践规划和管理项目。不再采用单一刚性流程，而是根据能力特性匹配采办路径。
+## 6条采办路径
+| 路径 | 用途 | 时间要求 | 参考依据 |
 |---------|---------|----------|-----------|
-| **Urgent Capability** | Unforeseen threats, quick reaction | < 2 years | DoDI 5000.81 |
-| **MTA** (Middle Tier) | Rapid prototyping / rapid fielding | Prototype ≤ 5yr; Field ≤ 6mo start, 5yr complete | DoDI 5000.80 |
-| **Major Capability** | Enduring military-unique capability | Structured lifecycle (analyze→design→develop→test→produce→support) | DoDI 5000.85 |
-| **Software Acquisition** | Agile software development | Iterative, capability releases | DoDI 5000.87 |
-| **DBS** (Defense Business Systems) | Business/IT systems | Business case-driven | DoDI 5000.84 |
-| **Acquisition of Services** | Service procurements | Service-specific | DoDI 5000.74 |
-
-## Decision Hierarchy
-
-- **MDA/DA**: Milestone Decision Authority — program decision authority, tailors pathway
-- **PEO**: Program Executive Officer — portfolio management
-- **PM**: Program Manager — execution
-- **Product Support Manager**: Lifecycle sustainment strategy
-
-## 2015 → 2020 Restructuring
-
-DoDI 5000.02 was completely restructured in 2020:
-- **2015**: Single monolithic instruction covering all acquisition topics
-- **2020**: Framework-only document; detailed topics split into separate DoDIs (5000.85, 5000.80, 5000.88, 5000.89, 5000.91, 5000.95)
-
-**Implication**: MOSA-specific policy was in the 2015 version but is **nowhere in the 2020 AAF document**. Search moved to **DoDI 5000.85 (Major Capability Acquisition)** for MOSA content.
-
-## Key Principles
-
-1. **Tailoring-in**: PMs identify and customize regulatory documentation (not "tailoring-out")
-2. **Multi-pathway**: PMs may combine pathways; must define transition points
-3. **Cybersecurity**: Address early and continuously — not an afterthought
-4. **Data rights**: Procure data deliverables and license rights for competitive sustainment
-5. **Risk management**: PM establishes program; determines mitigate vs. accept
-
-## Relationship to MOSA
-
-AAF is the **process framework** (how acquisition works). MOSA is the **design/acquisition strategy** (what kind of systems to build). Programs following AAF pathways are required to incorporate MOSA principles per **Better Buying Power 3.0** and **USC 10 §2446a**.
-
-## Related
+| **紧急能力采办** | 应对不可预见威胁，快速响应 | < 2年 | DoDI 5000.81 |
+| **中间层采办（MTA）** | 快速原型开发/快速列装 | 原型开发≤5年；列装从启动起≤6个月，5年内完成 | DoDI 5000.80 |
+| **重大能力采办** | 持久的军用特有能力 | 结构化生命周期（分析→设计→开发→测试→生产→保障） | DoDI 5000.85 |
+| **软件采办** | 敏捷软件开发 | 迭代式、增量能力发布 | DoDI 5000.87 |
+| **国防业务系统（DBS）** | 业务/IT系统 | 商业案例驱动 | DoDI 5000.84 |
+| **服务采办** | 服务采购 | 服务特定要求 | DoDI 5000.74 |
+## 决策层级
+- **MDA/DA**：里程碑决策当局 — 项目决策权限，负责裁剪采办路径
+- **PEO**：项目执行官 — 组合管理
+- **PM**：项目经理 — 执行落地
+- **产品保障经理**：全生命周期保障策略
+## 2015→2020年架构调整
+DoDI 5000.02在2020年进行了全面重构：
+- **2015版**：单一整体式指令，覆盖所有采办主题
+- **2020版**：仅作为框架性文档；详细内容拆分到单独的国防部指令中（5000.85、5000.80、5000.88、5000.89、5000.91、5000.95）
+**影响**：2015版中包含MOSA相关政策，但**2020版AAF文档中完全没有相关内容**。MOSA相关内容已迁移到**DoDI 5000.85（重大能力采办）**中。
+## 核心原则
+1. **正向裁剪**：项目经理识别并定制监管文档（而非"反向裁剪"去掉要求）
+2. **多路径组合**：项目经理可以组合多条采办路径，必须定义转换节点
+3. **网络安全**：尽早并持续考虑网络安全 — 而非事后补充
+4. **数据权利**：采购数据交付物和许可权利，支持竞争性保障
+5. **风险管理**：项目经理建立项目管理机制，决定风险缓解/接受策略
+## 与MOSA的关系
+AAF是**流程框架**（采办如何运行）。MOSA是**设计/采办策略**（构建什么样的系统）。按照AAF路径实施的项目，需要根据**优化采办购买力3.0**和**《美国法典》第10篇第2446a节**要求，纳入MOSA原则。
+## 相关内容
 - [[mosa-defense-acquisition]]
-- [[defense-acquisition-pathways]]
-- [[dod-defense-acquisition-system]]
+- [[adaptive-acquisition-framework]]
+- 国防采办体系
