@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-04-19 11:49] ingest | 第二/三梯队补充：DSP Journal + PEO Aviation + DSB
+   - DSP Journal MOSA专刊 (40页): MOSA/CMOSS/VICTORY/MORA/SOSA综述，标准生态最佳入门
+   - PEO Aviation Industry Day 2022 (79 slides): 9条MOSA工作线、EAF框架、行业协作
+   - PEO Aviation MOSA实施指南 (23页): 合同模板(SOW/PWS/SPS/TEMP)、软件检查清单、BCA模板
+   - DSB数字工程报告 (66页): MOSA作为数字工程生态系统(DEE)的技术基础
+   - 第二梯队完成: 4/4 ✅（CMOSS/SOSA/VICTORY/OMS-PEO Aviation替代）
+   - 第三梯队完成: 3/4 ✅（PEO Aviation×2/DSB/DSP Journal），WOSA原始标准待补充
+
+
 ## [2026-04-19 11:17] ingest | 第二梯队技术标准：CMOSS + SOSA + VICTORY
    - CMOSS: 32页，DEVCOM C5ISR Center，Universal A-Kit + 共享资源 + 共享服务
    - SOSA: 214页，The Open Group联盟，传感器开放系统架构Edition 1.0 V2 Snapshot

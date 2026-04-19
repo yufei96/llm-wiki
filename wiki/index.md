@@ -32,6 +32,10 @@
     - [[2026-04-19-cmoss-overview-2022]] — CMOSS Overview (DEVCOM C5ISR Center, 2022). 32 pages. C5ISR/EW模块化开放标准套件。
     - [[2026-04-19-sosa-reference-architecture-v2]] — SOSA Reference Architecture Edition 1.0 V2 Snapshot (The Open Group, 2019). 214 pages. 传感器开放系统架构。
     - [[2026-04-19-victory-ground-vehicle]] — VICTORY案例研究 + GVA对比 (Curtiss-Wright). 车辆C4ISR/EW互操作性标准。
+    - [[2026-04-19-dsp-journal-mosa-2020]] — DSP Journal MOSA专刊 (DSPO, 2020). 40 pages. MOSA/CMOSS/VICTORY/MORA/SOSA综述。
+    - [[2026-04-19-peo-aviation-mosa-industry-2022]] — PEO Aviation MOSA Industry Day 2022 (79 slides). 9条MOSA工作线+EAF框架。
+    - [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation MOSA实施指南 (2021, 23 pages). 合同模板+检查清单。
+    - [[2026-04-19-dsb-digital-engineering-2024]] — DSB数字工程报告 (2024, 66 pages). MOSA作为DEE技术基础。
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
