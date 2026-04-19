@@ -31,7 +31,9 @@
     - [[2026-04-19-dodi-5000-80-middle-tier-acquisition]] — DoDI 5000.80, Middle Tier of Acquisition (2019, Chg1 2024). 19 pages. AAF快速通道路径。
     - [[2026-04-19-cmoss-overview-2022]] — CMOSS Overview (DEVCOM C5ISR Center, 2022). 32 pages. C5ISR/EW模块化开放标准套件。
     - [[2026-04-19-sosa-reference-architecture-v2]] — SOSA Reference Architecture Edition 1.0 V2 Snapshot (The Open Group, 2019). 214 pages. 传感器开放系统架构。
-    - [[2026-04-19-victory-ground-vehicle]] — VICTORY案例研究 + GVA对比 (Curtiss-Wright). 车辆C4ISR/EW互操作性标准。
+    - [[2026-04-19-victory-ground-vehicle]] — VICTORY案例研究 (Curtiss-Wright). 车辆C4ISR/EW互操作性标准。
+    - [[2026-04-19-sosa-vita-products]] — SOSA产品技术概览 (Elma). VITA/OpenVPX硬件产品映射。
+    - [[2026-04-19-victory-gva-whitepaper]] — VICTORY/GVA地面车辆现代化白皮书 (Curtiss-Wright). VICTORY vs GVA对比。
     - [[2026-04-19-dsp-journal-mosa-2020]] — DSP Journal MOSA专刊 (DSPO, 2020). 40 pages. MOSA/CMOSS/VICTORY/MORA/SOSA综述。
     - [[2026-04-19-peo-aviation-mosa-industry-2022]] — PEO Aviation MOSA Industry Day 2022 (79 slides). 9条MOSA工作线+EAF框架。
     - [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation MOSA实施指南 (2021, 23 pages). 合同模板+检查清单。
