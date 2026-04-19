@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-04-19 14:17] ingest | 用户补充缺口文档：MORA + OSA指南 + DoDI 5000.97 + UCS + ARSENL
+   - MORA (8页): 射频架构标准，CMOSS的RF组件，从VICTORY衍生，v2.3
+   - OSA Contract Guidebook v1.1 (223页): **MOSA五原则原始定义文档**，2013年USD(AT&L)发布
+   - DoDI 5000.97 (数字工程指令): MOSA列为数字工程九大要素之一
+   - STANAG 4586 (14页): NATO UAV控制系统标准接口，UCS标准
+   - ARSENL (4页): USAF MOSA使能标准官方清单，发现SCA/REDHAWK/CoPaIS三个新标准领域
+   - IRENE (297页): AFRL辐射环境模型，与MOSA无关，未创建source页
+
+
 ## [2026-04-19 11:49] ingest | 第二/三梯队补充：DSP Journal + PEO Aviation + DSB
    - DSP Journal MOSA专刊 (40页): MOSA/CMOSS/VICTORY/MORA/SOSA综述，标准生态最佳入门
    - PEO Aviation Industry Day 2022 (79 slides): 9条MOSA工作线、EAF框架、行业协作

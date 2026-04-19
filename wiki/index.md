@@ -38,6 +38,11 @@
     - [[2026-04-19-peo-aviation-mosa-industry-2022]] — PEO Aviation MOSA Industry Day 2022 (79 slides). 9条MOSA工作线+EAF框架。
     - [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation MOSA实施指南 (2021, 23 pages). 合同模板+检查清单。
     - [[2026-04-19-dsb-digital-engineering-2024]] — DSB数字工程报告 (2024, 66 pages). MOSA作为DEE技术基础。
+    - [[2026-04-19-mora-modular-open-rf]] — MORA模块化开放射频架构 (NDIA GVSETS 2019, 8 pages). CMOSS的RF组件标准。
+    - [[2026-04-19-osa-contract-guidebook-v1.1]] — OSA合同指南v1.1 (USD(AT&L), 2013, 223 pages). MOSA五原则原始定义文档。
+    - [[2026-04-19-dodi-5000-97-digital-engineering]] — DoDI 5000.97 Digital Engineering (2023). MOSA列为数字工程九大要素之一。
+    - [[2026-04-19-stanag-4586-ucs]] — STANAG 4586 NATO UAV控制系统标准接口 (14 pages). UCS无人系统C2标准。
+    - [[2026-04-19-arsenl-usaf-standards]] — ARSENL空军架构标准工程库 (AFMC). USAF MOSA使能标准官方清单。
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
