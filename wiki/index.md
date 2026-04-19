@@ -26,6 +26,8 @@
     - [[2026-04-19-dodi-5000-81-urgent-capability]] — DoDI 5000.81, Urgent Capability Acquisition (2019). 21 pages.
     - [[2026-04-19-dfars-part-252-contract-clauses]] — DFARS Part 252, Solicitation Provisions and Contract Clauses (607 pages). Data rights clauses 252.227.
     - [[2026-04-19-hasc-report-114-102-fy2016-ndaa]] — HASC Report 114-102, FY2016 NDAA Committee Report (358 pages). Pre-MOSA acquisition reform context.
+    - [[2026-04-19-bbp-3-0-implementation-directive]] — Better Buying Power 3.0 Implementation Directive (2015, 35 pages). MOSA首次写入DoD政策。
+    - [[2026-04-19-gao-24-106831-weapon-systems]] — GAO-24-106831, 武器系统年度评估 (2024, 261 pages). MDAP/MTA绩效数据。
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面（已合并到 topic）
