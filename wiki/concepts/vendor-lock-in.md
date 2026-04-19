@@ -21,7 +21,10 @@ sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ## 安卓类比
 Shah将其与安卓的开源模式做了类比：最初存在质疑 → 最终形成庞大生态。如果国防系统从封闭硬件转向开放软件架构，也可以遵循同样的发展路径。
 ## 相关内容
-- [[mosa-defense-acquisition]]
-- [[modular-architecture-patterns]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[modular-architecture-patterns]] — 模块化架构模式
+- [[better-buying-power-3-0]] — BBP 3.0（MOSA强制令）
+- [[2026-04-19-hasc-report-114-102-fy2016-ndaa]] — HASC报告（采购改革背景）
+- [[2026-04-19-dodi-5000-75-business-systems]] — 业务系统采办
 ---
 *摘自Shah 2021年工程博士实践报告*

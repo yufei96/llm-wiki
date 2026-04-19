@@ -92,6 +92,7 @@ BBP 3.0涵盖**九大改革领域**：
 - [[better-buying-power-3-0]] — Entity页
 - [[mosa-defense-acquisition]] — MOSA概念
 - [[mosa-five-pillars]] — 2025五大支柱（源自此处五原则）
+- [[face-technical-standard]] — FACE标准（MOSA成功案例）
 - [[2026-04-05-fy2017-ndaa-section-805]] — MOSA法定化
 - [[2026-04-05-mosa-shah-thesis]] — MOSA实证研究
 

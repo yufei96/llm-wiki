@@ -57,6 +57,7 @@ SOSA与FACE构成了MOSA标准层的**双支柱**：
 
 ## 相关内容
 - [[mosa-defense-acquisition]] — MOSA概念
+- [[modular-architecture-patterns]] — 模块化架构模式
 - [[face-technical-standard]] — FACE航电标准
 - [[2026-04-19-cmoss-overview-2022]] — CMOSS（与SOSA高度重叠）
 - [[open-mission-systems]] — OMS（传感器软件接口标准）

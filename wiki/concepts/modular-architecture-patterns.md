@@ -43,10 +43,12 @@ MOSA将模块化架构上升为政策要求：
 - **组织对齐**（康威定律）：系统架构受组织结构制约
 
 ## 相关内容
-- [[mosa-defense-acquisition]]
-- [[vendor-lock-in]]
-- [[face-technical-standard]]
-- [[adaptive-acquisition-framework]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[vendor-lock-in]] — 供应商锁定问题
+- [[face-technical-standard]] — FACE航电标准
+- [[adaptive-acquisition-framework]] — 自适应采办框架
+- [[2026-04-19-sosa-reference-architecture-v2]] — SOSA参考架构
+- [[2026-04-19-victory-ground-vehicle]] — VICTORY车辆标准
 
 ---
 *概念提取自MOSA相关文献及通用系统工程知识*

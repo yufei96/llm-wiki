@@ -34,10 +34,16 @@ wiki-project/
     └── reports/
 ```
 
+## Language Convention
+
+- **内容语言**：所有wiki页面正文使用**简体中文**
+- **保留原文**：文件名保持英文，代码块保留原文，关键英文缩写（MOSA、DoDI、AAF等）保留不翻译
+- **Source页摘要**：即使原文是英文，摘要用中文撰写
+
 ## Naming Conventions
 
 - **Filenames**: kebab-case, e.g., `mosa-defense-acquisition`, `vendor-lock-in`
-- **Titles**: Consistent language preference (Chinese recommended for readability)
+- **Titles**: 使用简体中文标题，英文缩写保留（如"模块化开放系统方法（MOSA）"）
 - **YAML frontmatter** on every wiki page: `created`, `updated`, `tags`, `source`
 
 ## Page Format
@@ -74,11 +80,13 @@ Free-form notes, contradictions, caveats.
 Drop a new source into `raw/`, tell the LLM to process it:
 
 1. Read the source and discuss key takeaways with the user
-2. Write a summary page in `wiki/sources/`
-3. Create/update concept pages in `wiki/concepts/`
+2. Write a summary page in `wiki/sources/`（含完整YAML front matter）
+3. Create/update concept pages in `wiki/concepts/`（新概念若被3+处引用则建独立页）
 4. Create/update entity pages in `wiki/entities/`
-5. Update `wiki/index.md` (content catalog)
-6. Append entry to `wiki/log.md`: `## [YYYY-MM-DD] ingest | Source Title`
+5. **补双向交叉引用**：source页加`## 相关内容`链接相关concept，concept页加对应source链接
+6. Update `wiki/index.md`（content catalog）
+7. Append entry to `wiki/log.md`: `## [YYYY-MM-DD] ingest | Source Title`
+8. **验证完整性**：跑一次wikilink断链检查，确保新增链接目标存在
 
 A single source might touch 10-15 wiki pages. Stay involved — read summaries and guide emphasis.
 
@@ -95,17 +103,29 @@ Good answers should be filed back into the wiki as new pages — explorations co
 
 ### Lint
 
-Periodically health-check the wiki:
+Periodically review the wiki for both health and emergent structure:
+
+**Health检查：**
 
 1. Read `wiki/log.md` for last Lint timestamp
 2. Scan all wiki pages for:
    - Contradictions between pages
    - Stale claims superseded by newer sources
    - Orphan pages with no inbound links
-   - Important concepts mentioned but lacking their own page
    - Missing cross-references
-   - Data gaps fillable by web search
-3. Report findings, suggest new questions to investigate
+3. Run wikilink integrity check (all `[[page]]` targets exist)
+
+**模式发现（Synthesize）：**
+
+4. After accumulating 5+ new sources, review the corpus as a whole:
+   - What patterns emerge across sources that no single page captures?
+   - What connections exist between standards/policies/concepts?
+   - What concepts are evolving (policy versions, expanding scope)?
+   - What tensions or contradictions exist in the material?
+5. Save emergent insights as new pages in `wiki/comparisons/` or `wiki/topics/`
+6. Report findings and suggest new questions to investigate
+
+This is the Zettelkasten "emergent structure" step — knowledge isn't planned, it surfaces when accumulated density reaches a threshold.
 
 ## Index and Log
 

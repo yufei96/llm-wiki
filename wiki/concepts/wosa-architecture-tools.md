@@ -18,6 +18,9 @@ sources: [raw/articles/wosa-architecture-toolset.md]
 - 验收阶段的MOSA达标验证
 ## 相关内容
 - [[2026-04-05-mosa-implementation-guidebook-2025]]
-- [[mosa-five-pillars]]
+- [[mosa-five-pillars]]- [[2026-04-19-ppi-did-templates]] — PPI DID模板（一致性认证载体）
+- [[2026-04-19-ppi-requirements-analysis]] — 需求分析方法
+- [[requirements-quality-mosa]] — 需求质量（WOSA的功能对应需求质量维度）
+
 ---
 *摘自美国国防部开放架构办公室公开技术文档*

@@ -19,8 +19,8 @@ tags: [DoDI, software-acquisition, AAF, MOSA, digital-engineering, DevSecOps]
 - **开放接口**：必须构建模块化软件，通过公开接口实现组件替代；
 - **数据和IP管理**：规范明确技术数据和包含开发者所有权利，便于再利用。
 
-## 关联概念
-- [[mosa-defense-acquisition]]
-- 软件模块化
+## 相关内容
+- [[mosa-defense-acquisition]] — MOSA概念
+- [[adaptive-acquisition-framework]] — 自适应采办框架
 ---
 *摘自美国国防部DoDI 5000.87，全页48，文件在2026-04-05生成*

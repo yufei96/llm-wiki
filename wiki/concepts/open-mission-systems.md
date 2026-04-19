@@ -18,7 +18,8 @@ sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 - 全球鹰无人机地面控制站
 - 下一代轰炸机任务系统
 ## 相关内容
-- [[mosa-defense-acquisition]]
-- [[face-technical-standard]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[face-technical-standard]] — FACE航电标准
+- [[ucs-control-station]] — 无人系统指挥控制标准
 ---
 *摘自Shah 2021年工程博士实践报告*

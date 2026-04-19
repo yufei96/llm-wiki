@@ -1,49 +1,53 @@
 ---
-title: "MOSA (Modular Open Systems Approach) in Defense Acquisition"
-date: 2026-04-05
+title: "模块化开放系统方法（MOSA）在国防采办中的应用"
+created: 2026-04-05
+updated: 2026-04-20
 type: concept
-tags: [MOSA, defense, acquisition, modularity]
+tags: [MOSA, 采办, 模块化, 系统工程, DoD]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 ---
 
-# MOSA — Modular Open Systems Approach
+# MOSA — 模块化开放系统方法
 
-## Definition
-A **DoD acquisition strategy** mandating modular design, openly published interfaces, and government data rights. Designed to enable competitive procurement, reduce vendor lock-in, accelerate technology insertion, and lower lifecycle costs.
+## 定义
 
-Mandated by **Better Buying Power 3.0 (2015)**.
+**国防部采办策略**，要求模块化设计、公开发布接口和政府数据权利。旨在实现竞争性采购、减少供应商锁定、加速技术插入和降低生命周期成本。
 
-## Core Problem It Solves
+由**更好采购力3.0（2015年）**授权。
 
-Before MOSA:
-- Systems built as monolithic, vendor-specific designs
-- IP ownership locked DoD into single service provider
-- Systems could not be upgraded independently
-- 60%+ of MDAPs over budget or delayed
-- $1.66T total cost across 86 tracked programs
-- $750M/year on technology obsolescence alone
+## 解决的核心问题
 
-## Key Principles
+在MOSA之前：
+- 系统构建为单体、供应商特定设计
+- 知识产权所有权将国防部锁定在单一服务提供商
+- 系统无法独立升级
+- 60%以上的重大国防采办项目（MDAP）超预算或延期
+- 86个跟踪项目总成本1.66万亿美元
+- 仅技术过时每年就花费7.5亿美元
 
-1. **Vendor lock prevention**: IP rights allow switching providers
-2. **Platform transformability**: systems usable beyond original scope/lifespan
-3. **Competitive procurement**: open interfaces enable multiple bidders
-4. **Rapid technology insertion**: modular components upgraded independently
+## 关键原则
 
-## Thesis Evidence Gap
+1. **防止供应商锁定**：知识产权允许更换供应商
+2. **平台可转换性**：系统可在原始范围/寿命之外使用
+3. **竞争性采购**：开放接口允许多个投标人
+4. **快速技术插入**：模块化组件独立升级
 
-Despite the 2015 mandate, Shah's research found **no clear qualitative evidence** demonstrating MOSA's success on reducing cost/schedule overruns at scale — suggesting either:
-- Implementation gaps across individual programs
-- Insufficient measurement frameworks
-- MOSA benefits not yet realized (many programs still early-stage)
+## 论文证据差距
 
-## Related Entities
-- [[parth-devang-shah]]
-- [[face-technical-standard]]
-- [[open-mission-systems]]
-- [[defense-acquisition-overrun-trends]]
-- [[vendor-lock-in]]
-- [[better-buying-power-3-0]]
+尽管2015年已有授权，Shah的研究发现**没有明确的定性证据**证明MOSA在大规模减少成本/进度超支方面成功——这表明可能存在：
+- 个别项目实施差距
+- 测量框架不足
+- MOSA效益尚未实现（许多项目仍处于早期阶段）
+
+## 相关实体
+
+- [[parth-devang-shah]] — 论文作者
+- [[face-technical-standard]] — FACE航电标准
+- [[open-mission-systems]] — OMS开放任务系统
+- [[defense-acquisition-overrun-trends]] — 采办超支趋势
+- [[vendor-lock-in]] — 供应商锁定问题
+- [[better-buying-power-3-0]] — 更好采购力3.0
 
 ---
-*Generated 2026-04-05 from Shah D.Eng. thesis*
+
+*2026-04-05 从Shah博士论文生成，2026-04-20 翻译成简体中文*
