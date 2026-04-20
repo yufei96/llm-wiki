@@ -79,7 +79,7 @@ PM和SE共同审查技术成熟度+项目状态，避免"技术说能做、PM说
 - [[speed-vs-modularity]] — 速度与模块化张力
 - [[mosa-implementation-stack]] — MOSA实施全栈
 - [[requirements-quality-mosa]] — 需求质量（SE侧基础）
-- [[2026-04-19-ppi-integrating-pm-se]] — PPI PM-SE整合方法
-- [[2026-04-19-ppi-business-case-se]] — SE投资回报论证
-- [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation合同模板（PM-SE整合案例）
+- [[ppi-integrating-pm-se]] — PPI PM-SE整合方法
+- [[ppi-business-case-se]] — SE投资回报论证
+- [[peo-aviation-mosa-impl-guide]] — PEO Aviation合同模板（PM-SE整合案例）
 - [[adaptive-acquisition-framework]] — AAF框架

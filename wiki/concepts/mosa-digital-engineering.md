@@ -57,9 +57,9 @@ MOSA为数字工程提供**互操作基础**：
 
 ## 已补充材料
 
-- ✅ ASD(R&E) 2018数字工程战略 — `[[2026-04-19-dod-de-strategy-2018]]`
-- ✅ MBSE方法论调查 — `[[2026-04-19-incose-mbse-methodology-survey]]`
-- ✅ ISO/IEC/IEEE 15288:2023 — `[[2026-04-19-iso-15288-2023]]`
+- ✅ ASD(R&E) 2018数字工程战略 — `[[dod-de-strategy-2018]]`
+- ✅ MBSE方法论调查 — `[[incose-mbse-methodology-survey]]`
+- ✅ ISO/IEC/IEEE 15288:2023 — `[[iso-15288-2023]]`
 
 ## 仍待补充
 
@@ -70,11 +70,11 @@ MOSA为数字工程提供**互操作基础**：
 ## 相关内容
 
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[2026-04-19-dodi-5000-97-digital-engineering]] — DoDI 5000.97 source页
-- [[2026-04-19-dsb-digital-engineering-2024]] — DSB数字工程报告source页
+- [[dodi-5000-97-digital-engineering]] — DoDI 5000.97 source页
+- [[dsb-digital-engineering-2024]] — DSB数字工程报告source页
 - [[wosa-architecture-tools]] — WOSA工具链
 - [[modular-architecture-patterns]] — 模块化架构模式
-- [[2026-04-19-dod-de-strategy-2018]] — DoD数字工程战略（2018纲领文件）
-- [[2026-04-19-incose-mbse-methodology-survey]] — MBSE方法论调查
-- [[2026-04-19-iso-15288-2023]] — ISO/IEC/IEEE 15288系统生命周期过程
-- [[2026-04-19-osa-contract-guidebook-v1.1]] — OSA合同指南
+- [[dod-de-strategy-2018]] — DoD数字工程战略（2018纲领文件）
+- [[incose-mbse-methodology-survey]] — MBSE方法论调查
+- [[iso-15288-2023]] — ISO/IEC/IEEE 15288系统生命周期过程
+- [[osa-contract-guidebook-v1.1]] — OSA合同指南

@@ -8,7 +8,7 @@ sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-cont
 ---
 # MOSA五大支柱
 ## 来源
-2025年MOSA实施指南（OUSD(R&E)），第5-50页。详见 [[2026-04-05-mosa-implementation-guidebook-2025]]
+2025年MOSA实施指南（OUSD(R&E)），第5-50页。详见 [[mosa-implementation-guidebook-2025]]
 ## 概述
 由美国国防部研究与工程副部长办公室（OUSD(R&E)）牵头的MOSA工作组制定了**MOSA五大支柱**，确保国防部项目采用有效的方法实施模块化开放系统方法。
 ## 五大支柱
@@ -64,8 +64,8 @@ sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-cont
 - 工具开发验证
 ## 相关内容
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[2026-04-19-osa-contract-guidebook-v1.1]] — OSA合同指南（五原则原始定义文档）
-- [[2026-04-05-mosa-implementation-guidebook-2025]] — 2025年MOSA实施指南
+- [[osa-contract-guidebook-v1.1]] — OSA合同指南（五原则原始定义文档）
+- [[mosa-implementation-guidebook-2025]] — 2025年MOSA实施指南
 - [[face-technical-standard]] — FACE标准
 - [[open-mission-systems]] — OMS标准- [[pm-se-integration-mosa]] — PM-SE整合（赋能环境支柱的组织分析）
 - [[mosa-implementation-stack]] — MOSA实施全栈

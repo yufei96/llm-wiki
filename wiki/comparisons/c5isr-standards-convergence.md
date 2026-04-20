@@ -70,9 +70,9 @@ OMS（开放任务系统）保持了相对独立——它定义的是**应用层
 ## 相关内容
 
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[2026-04-19-cmoss-overview-2022]] — CMOSS source页
-- [[2026-04-19-sosa-reference-architecture-v2]] — SOSA source页
-- [[2026-04-19-dsp-journal-mosa-2020]] — DSP Journal综述
-- [[2026-04-19-mora-modular-open-rf]] — MORA source页
+- [[cmoss-overview-2022]] — CMOSS source页
+- [[sosa-reference-architecture-v2]] — SOSA source页
+- [[dsp-journal-mosa-2020]] — DSP Journal综述
+- [[mora-modular-open-rf]] — MORA source页
 - [[open-mission-systems]] — OMS概念页
 - [[modular-architecture-patterns]] — 模块化架构模式

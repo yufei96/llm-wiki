@@ -1,144 +1,174 @@
 # LLM Wiki Schema
 
-## Overview
+## 概述
+持久的、结构化的、相互链接的Markdown知识库，由LLM增量维护。不是RAG——知识编译一次后保持最新，随时间积累。
 
-Persistent, structured, interlinked Markdown knowledge base maintained incrementally by the LLM. Not RAG — knowledge is compiled once and kept current, accumulated over time.
+## 架构（Karpathy, 2025）
+三层结构：
 
-## Architecture (Karpathy, 2025)
+| 层 | 角色 | 规则 |
+|----|------|------|
+| **raw/** | 不可变的源文档（文章、论文、图像、数据） | LLM只读，永不写入。真实来源。 |
+| **wiki/** | LLM生成的Markdown页面（摘要、概念、实体、对比） | LLM完全拥有此层。只读。 |
+| **output/** | 派生可交付物（Marp幻灯片、图表、报告） | 从wiki生成，可归档回wiki。 |
 
-Three layers:
-
-| Layer | Role | Rule |
-|-------|------|------|
-| **raw/** | Immutable source documents (articles, papers, images, data) | LLM reads only, never writes here. Source of truth. |
-| **wiki/** | LLM-generated Markdown pages (summaries, concepts, entities, comparisons) | LLM owns this layer entirely. Read only. |
-| **output/** | Derived deliverables (Marp slides, charts, reports) | Generated from wiki, can be filed back into wiki. |
-
-## Directory Structure
-
+## 目录结构
 ```
-wiki-project/
-├── raw/                      # Immutable source documents
+wiki/                           # 项目根目录（git仓库）
+├── SCHEMA.md                   # 本文件 — 约定和工作流程
+├── README.md                   # Gitee展示用
+├── raw/                        # 不可变的源文档
 │   ├── articles/
 │   ├── papers/
-│   ├── assets/               # Downloaded images, attachments
+│   ├── assets/                 # 下载的图像、附件
 │   └── repos/
-├── wiki/                     # LLM-owned wiki layer
-│   ├── SCHEMA.md             # This file — conventions and workflow
-│   ├── index.md              # Content catalog (all pages, by category)
-│   ├── log.md                # Chronological, append-only activity log
-│   ├── concepts/             # Topic/concept pages
-│   ├── entities/             # Entity pages (people, organizations, products)
-│   ├── comparisons/          # Comparison and synthesis pages
-│   └── sources/              # Summaries/indexes of raw documents
-└── output/                   # Derived deliverables
+├── wiki/                       # LLM拥有的wiki层
+│   ├── overview.md             # 知识库综合叙事："我现在知道什么"
+│   ├── index.md                # 内容目录（所有页面，按类别）
+│   ├── log.md                  # 按时间顺序、仅追加的活动日志
+│   ├── concepts/               # 概念定义（What）— 单一概念的定义和解释
+│   ├── entities/               # 实体页面（人物、组织、政策）
+│   ├── topics/                 # 主题综合（How）— 跨来源综合文章、实施指南
+│   ├── comparisons/            # 对比分析（Comparison）— 跨来源对比、演化、张力
+│   └── sources/                # 原始文档的摘要/索引
+└── output/                     # 派生可交付物
     ├── slides/
     ├── charts/
     └── reports/
 ```
 
-**Note**: The actual root directory name can be anything (e.g., `wiki/`, `llm-wiki/`, `rocket-ep/`). What matters is the three-layer separation: raw → wiki → output.
+## 语言约定
 
-## Naming Conventions
+- **内容语言**：所有wiki页面正文使用**简体中文**
+- **保留原文**：文件名保持英文，代码块保留原文，关键英文缩写（MOSA、DoDI、AAF等）保留不翻译
+- **Source页摘要**：即使原文是英文，摘要用中文撰写
 
-- **Filenames**: kebab-case, e.g., `mosa-defense-acquisition`, `vendor-lock-in`
-- **Titles**: Consistent language preference (Chinese recommended for readability)
-- **YAML frontmatter** on every wiki page: `created`, `updated`, `tags`, `source`
+## 命名约定
 
-## Page Format
+- **文件名**：kebab-case，如 `mosa-defense-acquisition`、`vendor-lock-in`
+- **Source文件名**：不加日期前缀，直接用文档标识符（如 `dodi-5000-85-2020`、`mosa-shah-thesis`），日期在YAML frontmatter中记录
+- **标题**：使用简体中文标题，英文缩写保留（如"模块化开放系统方法（MOSA）"）
+- **YAML frontmatter**在每个wiki页面上：`created`、`updated`、`tags`、`source`
+
+## 页面格式
 
 ```markdown
 ---
-title: "Page Title"
+title: "页面标题"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-tags: [tag1, tag2]
-source: [raw/source-file.md]
+tags: [标签1, 标签2]
+source: [raw/源文件.md]
 ---
 
-# [Title]
+# [标题]
 
-## Summary
-One-paragraph overview.
+## 摘要
+一段概述。
 
-## Key Points
+## 要点
 - ...
 
-## Related
-- [[related-page-1]]
-- [[related-page-2]]
+## 相关内容
+- [[相关页面-1]]
+- [[相关页面-2]]
 
-## Notes
-Free-form notes, contradictions, caveats.
+## 笔记
+自由格式的笔记、矛盾、注意事项。
 ```
 
-## Operations
+## 操作
 
-### Ingest
+### 摄取（Ingest）
 
-Drop a new source into `raw/`, tell the LLM to process it:
+将新来源放入 `raw/`，告诉LLM处理它：
 
-1. Read the source and discuss key takeaways with the user
-2. Write a summary page in `wiki/sources/`
-3. Create/update concept pages in `wiki/concepts/`
-4. Create/update entity pages in `wiki/entities/`
-5. Update `wiki/index.md` (content catalog)
-6. Append entry to `wiki/log.md`: `## [YYYY-MM-DD] ingest | Source Title`
+1. 阅读来源，与用户讨论关键要点
+2. 在 `wiki/sources/` 写一个摘要页面（含完整YAML frontmatter）
+3. **摄取后检查清单**（强制执行 — 必须逐项检查）：
 
-A single source might touch 10-15 wiki pages. Stay involved — read summaries and guide emphasis.
+| 文件夹 | 检查内容 | 触发条件 |
+|--------|----------|----------|
+| **entities/** | 新组织/人物/政策？ | 核心实体或2+来源提及 |
+| **concepts/** | 新概念或显著扩展？ | 详细描述或3+来源提及 |
+| **comparisons/** | 张力/演化/趋同？ | 连接2+现有页面 |
+| **topics/** | 跨来源综合？ | 5+来源覆盖连贯主题 |
+| **overview.md** | 改变大局观？ | 基础性文件摄取 |
 
-### Query
+4. 更新 `wiki/index.md`（内容目录）
+5. 追加条目到 `wiki/log.md`：`## [YYYY-MM-DD] ingest | 来源标题`
+6. 更新 `wiki/overview.md`（若来源改变大局观）
 
-Ask questions against the wiki:
+一个来源可能涉及10-15个wiki页面。保持参与——阅读摘要并指导重点。
 
-1. Read `wiki/index.md` to find relevant pages
-2. Read the relevant pages in detail
-3. Synthesize an answer with citations
-4. If the query produces valuable analysis (comparisons, connections), save it as a new page in `wiki/comparisons/` or `wiki/synthesis/`
+**禁止行为**：只创建source页就停。source页是最没价值的输出——下游页面（entities、concepts、comparisons、topics）才是复利所在。
 
-Good answers should be filed back into the wiki as new pages — explorations compound just like ingested sources.
+### 查询（Query）
 
-### Lint
+针对wiki提问：
 
-Periodically health-check the wiki:
+1. 阅读 `wiki/index.md` 找到相关页面
+2. 详细阅读相关页面
+3. 综合答案并引用来源
+4. 如果查询产生有价值的分析（对比、连接），保存为 `wiki/comparisons/` 或 `wiki/topics/` 中的新页面
 
-1. Read `wiki/log.md` for last Lint timestamp
-2. Scan all wiki pages for:
-   - Contradictions between pages
-   - Stale claims superseded by newer sources
-   - Orphan pages with no inbound links
-   - Important concepts mentioned but lacking their own page
-   - Missing cross-references
-   - Data gaps fillable by web search
-3. Report findings, suggest new questions to investigate
+好的答案应该归档回wiki作为新页面——探索像摄取的来源一样复合增长。
 
-## Index and Log
+### 检查（Lint）
 
-**index.md** — Content-oriented catalog. Every wiki page listed with link, one-line summary, and category. Organized by type (entities, concepts, sources, etc.). Updated on every ingest. At moderate scale (~100 sources, ~hundreds of pages) this works well instead of embedding-based RAG.
+定期审查wiki的健康状况和涌现结构：
 
-**log.md** — Chronological, append-only record. Each entry: `## [YYYY-MM-DD] operation | Title`. Parseable with Unix tools: `grep "^## \[" wiki/log.md | tail -5`.
+**健康检查：**
 
-## Output Formats
+1. 阅读 `wiki/log.md` 获取上次检查时间戳
+2. 扫描所有wiki页面：
+   - 页面之间的矛盾
+   - 被新来源取代的过时声明
+   - 没有入站链接的孤立页面
+   - 缺失的交叉引用
+3. 运行wikilink完整性检查（所有 `[[page]]` 目标存在）
 
-Query answers can take different forms, all filed back into the wiki:
-- **Markdown page** (default) — for concepts, entities, notes
-- **Comparison table** — for side-by-side analysis
-- **Marp slides** — for presentations (markdown-based)
-- **Matplotlib chart** — for data visualization
+**模式发现（综合）：**
 
-## Tips
+4. 累积5+新来源后，整体审查语料库：
+   - 跨来源出现但没有单一页面捕捉的模式？
+   - 标准/政策/概念之间存在什么连接？
+   - 概念正在如何演化（政策版本、范围扩展）？
+   - 材料中存在什么张力或矛盾？
+5. 将涌现洞察保存为 `wiki/comparisons/` 或 `wiki/topics/` 中的新页面
+6. 报告发现并建议新问题进行调查
 
-- Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase
-- Download images to `raw/assets/` so the LLM can view them directly
-- Obsidian graph view shows wiki shape — connections, hubs, orphans
-- The wiki is just a git repo — version history, branching, collaboration
-- Good questions to investigate are as valuable as the answers
+这是Zettelkasten的"涌现结构"步骤——知识不是计划的，当累积密度达到阈值时浮现。
 
-## Red Flags
+## 索引和日志
 
-- Ingest without updating `index.md`
-- Ingest without appending to `log.md`
-- Source files modified by the LLM (raw should be immutable)
-- Query results discarded after chat instead of saved as wiki pages
-- Contradictions between pages left unmarked
-- Orphan pages growing without review
+**index.md** — 面向内容的目录。每个wiki页面列出链接、一行摘要和类别。按类型组织（实体、概念、来源等）。每次摄取时更新。在中等规模（~100个来源，~数百个页面）下，这比嵌入式RAG效果更好。
+
+**log.md** — 按时间顺序、仅追加的记录。每个条目：`## [YYYY-MM-DD] 操作 | 标题`。可用Unix工具解析：`grep "^## \\[" wiki/log.md | tail -5`。
+
+## 输出格式
+
+查询答案可以采用不同形式，全部归档回wiki：
+- **Markdown页面**（默认） — 用于概念、实体、笔记
+- **对比表格** — 用于并排分析
+- **Marp幻灯片** — 用于演示（基于markdown）
+- **Matplotlib图表** — 用于数据可视化
+
+## 提示
+
+- Obsidian是IDE；LLM是程序员；wiki是代码库
+- 下载图像到 `raw/assets/` 以便LLM直接查看
+- Obsidian图形视图显示wiki形状——连接、中心、孤立
+- wiki只是一个git仓库——版本历史、分支、协作
+- 值得调查的好问题与答案一样有价值
+
+## 危险信号
+
+- 摄取后不更新 `index.md`
+- 摄取后不追加到 `log.md`
+- 摄取后不检查下游文件夹（entities、concepts、comparisons、topics）
+- LLM修改源文件（raw应不可变）
+- 查询结果在聊天后丢弃而不是保存为wiki页面
+- 页面之间的矛盾未标记
+- 孤立页面增长未审查
+- 基础性文件摄取后未更新overview.md

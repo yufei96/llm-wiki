@@ -25,14 +25,14 @@ sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-cont
 - 实施检查清单 — 评估标准与验证清单（附录A，待提取）
 
 ## 来源
-[[2026-04-05-mosa-implementation-guidebook-2025]]
+[[mosa-implementation-guidebook-2025]]
 - **位置**：`qmd://wikiraw/papers/mosa-implementation-guidebook-27feb2025-cleared.pdf`
 - **提取工具**：MinerU Document Explorer → `qmd doc-read`精确寻址
 - **覆盖率**：高（全文以结构化知识单元提取）
 
 ## 相关主题
 - [[mosa-defense-acquisition]] — MOSA国防采办
-- [[2026-04-05-dodi-5000-85-2020]] — 重大能力采办
+- [[dodi-5000-85-2020]] — 重大能力采办
 - [[adaptive-acquisition-framework]] — 自适应采办框架
 
 ## 标签

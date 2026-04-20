@@ -21,7 +21,7 @@ MOSA的实施不是一个文件能覆盖的——它需要**五层架构**从法
 - 性质：强制性法律要求
 - 受众：国防部所有采办项目
 - 局限：模糊的"practicable"豁免条款
-- 知识库页面：`[[2026-04-05-10usc-4401-4403-mosa-law]]`
+- 知识库页面：`[[10usc-4401-4403-mosa-law]]`
 
 ### 第2层：政策（DoD）
 **DoDI 5000.85 + BBP 3.0 + 2025 MOSA实施指南**
@@ -29,7 +29,7 @@ MOSA的实施不是一个文件能覆盖的——它需要**五层架构**从法
 - 性质：DoD内部政策，将法律转化为操作要求
 - 受众：项目管理办公室、里程碑决策当局
 - 关键输出：MOSA五大支柱、采办路径适配要求
-- 知识库页面：`[[better-buying-power-3-0]]`、`[[mosa-five-pillars]]`、`[[2026-04-05-dodi-5000-85-2020]]`
+- 知识库页面：`[[better-buying-power-3-0]]`、`[[mosa-five-pillars]]`、`[[dodi-5000-85-2020]]`
 
 ### 第3层：标准（行业/军种）
 **FACE、OMS、CMOSS、SOSA、VICTORY、MORA**
@@ -45,7 +45,7 @@ MOSA的实施不是一个文件能覆盖的——它需要**五层架构**从法
 - 性质：合同条款模板，将MOSA写入可执行的合同要求
 - 受众：合同经理、项目经理
 - 关键输出：SOW中的MOSA任务、PWS中的接口要求、TEMP中的验证计划
-- 知识库页面：`[[2026-04-19-osa-contract-guidebook-v1.1]]`、`[[2026-04-19-peo-aviation-mosa-impl-guide]]`
+- 知识库页面：`[[osa-contract-guidebook-v1.1]]`、`[[peo-aviation-mosa-impl-guide]]`
 
 ### 第5层：文档模板（交付级）
 **PPI DID模板 — CONOPS/SEP/SOW/SSDD/SyRS**
@@ -53,7 +53,7 @@ MOSA的实施不是一个文件能覆盖的——它需要**五层架构**从法
 - 性质：数据项描述模板，规定供应商必须交付什么格式的文档
 - 受众：供应商工程师、文档编制人员
 - 关键输出：接口定义文档、系统设计描述、需求规范
-- 知识库页面：`[[2026-04-19-ppi-did-templates]]`
+- 知识库页面：`[[ppi-did-templates]]`
 
 ## 层间传递机制
 
@@ -88,7 +88,7 @@ DID模板(CONOPS/SEP/SSDD)
 - [[mosa-defense-acquisition]] — MOSA核心概念
 - [[mosa-five-pillars]] — 第2层核心文档
 - [[c5isr-standards-convergence]] — 第3层标准趋同
-- [[2026-04-19-osa-contract-guidebook-v1.1]] — 第4层合同指南
-- [[2026-04-19-ppi-did-templates]] — 第5层DID模板
-- [[2026-04-19-ppi-integrating-pm-se]] — PM-SE整合（层级间协调）
+- [[osa-contract-guidebook-v1.1]] — 第4层合同指南
+- [[ppi-did-templates]] — 第5层DID模板
+- [[ppi-integrating-pm-se]] — PM-SE整合（层级间协调）
 - [[speed-vs-modularity]] — 速度张力（第2层内部矛盾）
