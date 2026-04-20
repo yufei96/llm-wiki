@@ -1,6 +1,7 @@
 ---
 title: "DSP Journal 2020 — MOSA专刊"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/dsp-journal-mosa-200101.pdf
 author: "Defense Standardization Program Office (DSPO)"

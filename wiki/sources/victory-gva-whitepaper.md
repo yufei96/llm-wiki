@@ -1,6 +1,7 @@
 ---
 title: "VICTORY与GVA：地面车辆现代化白皮书"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/victory-gva-vehicle-modernization.pdf
 author: "Curtiss-Wright Defense Solutions"

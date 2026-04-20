@@ -1,6 +1,7 @@
 ---
 title: "模块化开放系统方法（MOSA）及其对美国国防采办的影响"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source_summary
 source: raw/mosa-us-defense-acquisition-shah-2021.pdf
 author: "帕斯·德万·沙阿（Parth Devang Shah，乔治华盛顿大学2021年工程博士实践报告）"
@@ -70,5 +71,16 @@ tags: [MOSA, 国防采办, 模块化, 系统工程, 美国国防部]
 ## 相关实体
 - [[parth-devang-shah]]
 - [[better-buying-power-3-0]]
+## 相关内容
+
+- [[bbp-3-0-implementation-directive]]
+- [[better-buying-power-3-0]]
+- [[face-technical-standard]] — FACE航空电子标准
+- [[gao-24-106831-weapon-systems]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[open-mission-systems]] — OMS军用任务互操作性
+- [[parth-devang-shah]]
+- [[vendor-lock-in]] — 供应商锁定问题
+
 ---
 *124页完整论文通过PyMuPDF提取，摘要生成于2026年4月5日*

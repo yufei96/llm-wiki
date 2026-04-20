@@ -1,6 +1,7 @@
 ---
 title: "CMOSS（C5ISR/EW模块化开放标准套件）概述"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/cmoss-overview-2022.pdf
 author: "Jason Dirner, DEVCOM C5ISR Center"

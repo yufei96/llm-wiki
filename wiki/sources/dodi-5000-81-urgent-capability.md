@@ -1,6 +1,7 @@
 ---
 title: "DoDI 5000.81 — 紧急能力采办"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/dodi_5000.81.pdf
 author: "USD(A&S)"

@@ -38,6 +38,14 @@ sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-cont
 ## 标签
 #使用mineru提取 #mosa #实施指南 #国防部政策 #全文
 
+## 相关内容
+
+- [[adaptive-acquisition-framework]] — DoD自适应采办框架
+- [[dodi-5000-85-2020]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[mosa-five-pillars]] — MOSA五大支柱
+- [[mosa-implementation-guidebook-2025]]
+
 ---
 
 *2026-04-20 翻译成简体中文*

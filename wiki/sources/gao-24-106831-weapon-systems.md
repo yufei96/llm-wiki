@@ -1,6 +1,7 @@
 ---
 title: "GAO-24-106831 — 武器系统年度评估"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/gao-24-106831-weapon-systems-assessment.pdf
 author: "美国政府问责署（GAO）"

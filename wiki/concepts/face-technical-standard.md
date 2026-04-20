@@ -1,6 +1,7 @@
 ---
 title: "FACE™ 技术标准"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: concept
 tags: [FACE, 航空电子, 开放架构]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]

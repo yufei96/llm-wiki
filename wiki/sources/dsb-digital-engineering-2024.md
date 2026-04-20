@@ -1,6 +1,7 @@
 ---
 title: "DSB数字工程能力报告 — 自动化测试与评估"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/dsb-digital-engineering-2024.pdf
 author: "Defense Science Board"

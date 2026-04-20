@@ -80,6 +80,16 @@ MOSA从美国DoD扩展到联盟体系（[[mosa-internationalization]]）：
 - **商业MOSA案例**: Airbus HForce之外的案例
 - **MOSA成本效益数据**: GAO报告有框架但缺归因数据
 
+## 相关内容
+
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[mosa-five-pillars]] — MOSA五大支柱
+- [[adaptive-acquisition-framework]] — DoD自适应采办框架
+- [[digital-engineering-ecosystem]] — 数字工程生态系统概述
+- [[c5isr-standards-convergence]] — C5ISR标准生态趋同
+- [[mosa-implementation-stack]] — MOSA实施全栈
+- [[mosa-internationalization]] — MOSA国际化
+
 ---
 
 *本文件是知识库的"我现在知道什么"总览。每次摄取重大来源或发现新模式后更新。*

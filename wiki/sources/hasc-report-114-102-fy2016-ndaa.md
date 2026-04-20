@@ -1,6 +1,7 @@
 ---
 title: "HASC Report 114-102 — FY2016 NDAA 委员会报告"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/hasc_report_114-102.pdf
 author: "众议院军事委员会"

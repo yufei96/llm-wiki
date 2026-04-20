@@ -1,6 +1,7 @@
 ---
 title: "DoDI 5000.80 — 中间采办层级（MTA）"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/dodi-5000.80-middle-tier-acquisition.pdf
 author: "USD(A&S)"

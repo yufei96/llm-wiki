@@ -1,6 +1,7 @@
 ---
 title: "WOSA架构工具集"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: concept
 tags: [WOSA, 工具链, 架构评估]
 sources: [raw/articles/wosa-architecture-toolset.md]

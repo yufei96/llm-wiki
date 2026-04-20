@@ -1,6 +1,22 @@
 
 ---
 
+## 2026-04-20 — 知识库全面质量检查与修复
+
+**操作**：扫描77个内容页面，发现47个有问题，全部修复
+
+**修复内容**：
+1. **37个页面**补充frontmatter created/updated字段
+2. **15个页面**补充## 相关内容章节
+3. **dfars-part-227**用PDF原文重写（从17行扩展到100+行，含Subpart 227.71全文摘要）
+4. **karpathy-vs-implementation**更新为当前状态（含post-ingest checklist、topics/）
+5. **mosaic-modular-open-systems-approach**补充frontmatter title
+6. 修复1处断链（SCHEMA.md wikilink）
+
+**验证**：77个页面，0 frontmatter缺失，0 缺少相关内容，0断链
+
+---
+
 ## 2026-04-20 — source文件名去掉日期前缀
 
 **操作**：批量重命名sources/下43个文件，去掉YYYY-MM-DD-前缀

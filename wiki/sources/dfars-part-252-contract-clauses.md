@@ -1,6 +1,7 @@
 ---
 title: "DFARS Part 252 — 征询条款与合同条款"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/dfars_part-252---solicitation-provisions-and-contract-clauses.pdf
 author: "国防联邦采办条例补充"
