@@ -65,6 +65,6 @@ MOSA国际化趋势意味着：
 
 - [[ucs-control-station]] — UCS概念页
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[2026-04-19-stanag-4586-ucs]] — STANAG 4586 source页
+- [[stanag-4586-ucs]] — STANAG 4586 source页
 - [[open-mission-systems]] — OMS概念页
 - [[mosa-digital-engineering]] — MOSA与数字工程

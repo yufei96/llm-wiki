@@ -145,10 +145,10 @@ MOSA = 接口标准化 = 模型互操作的技术基础
 ## 相关内容
 
 - [[mosa-digital-engineering]] — MOSA与数字工程概念页
-- [[dodi-5000.97-digital-engineering]] — 数字工程指令
-- [[2026-04-19-dod-de-strategy-2018]] — DoD数字工程战略
-- [[2026-04-19-incose-mbse-methodology-survey]] — INCOSE MBSE方法论调查
-- [[2026-04-19-dsb-digital-engineering-2024]] — DSB数字工程报告
+- [[dodi-5000-97-digital-engineering]] — 数字工程指令
+- [[dod-de-strategy-2018]] — DoD数字工程战略
+- [[incose-mbse-methodology-survey]] — INCOSE MBSE方法论调查
+- [[dsb-digital-engineering-2024]] — DSB数字工程报告
 - [[cybersecurity-vs-mosa-openness]] — 赛博安全与MOSA开放接口的张力
 - [[mosa-five-pillars]] — MOSA五大支柱（赋能环境支柱）
 

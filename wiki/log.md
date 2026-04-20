@@ -1,6 +1,85 @@
 
 ---
 
+## 2026-04-20 — source文件名去掉日期前缀
+
+**操作**：批量重命名sources/下43个文件，去掉YYYY-MM-DD-前缀
+
+**改名规则**：`2026-04-19-dodi-5000-75-business-systems.md` → `dodi-5000-75-business-systems.md`
+
+**原因**：
+- 日期前缀与YAML frontmatter的created字段冗余
+- wikilink引用时容易漏前缀导致断链
+- 文件名更简洁易记
+
+**处理**：
+- 43个source文件改名
+- 60个wiki文件更新wikilink引用
+- 验证：0断链
+
+---
+
+## 2026-04-20 上午 — 知识库机制改进
+
+**问题**：摄取文章后entities/topics/comparisons经常不更新，Karpathy原版overview.md缺失
+
+**修复内容**：
+
+1. **修复7处断链**：
+   - `dodi-5000.97-digital-engineering` → `2026-04-19-dodi-5000-97-digital-engineering`（6处）
+   - `ppi-integrating-pm-se` → `2026-04-19-ppi-integrating-pm-se`（1处）
+   - `ppi-requirements-analysis` → `2026-04-19-ppi-requirements-analysis`（1处）
+
+2. **更新llm-wiki skill**：
+   - 新增⑦ **POST-INGEST MANDATORY CHECKLIST**：每次ingest后必须检查5个下游文件夹
+   - 新增overview.md章节：定义了overview.md的定位、更新时机、结构
+   - 更新架构图：加入overview.md
+   - 更新orientation步骤：加入读取overview.md
+
+3. **更新SCHEMA.md**：
+   - 目录结构加入overview.md、topics/
+   - Ingest操作加入post-ingest checklist
+   - Red Flags加入"未检查下游文件夹"和"未更新overview.md"
+
+4. **创建overview.md**：
+   - 知识库"我现在知道什么"总览
+   - 5条核心故事线：MOSA演化、DEE、C5ISR标准、合同框架、国际化
+   - 待填补空白清单
+
+**统计数据**：76个wiki页面，7条断链已修复，0孤儿页面待处理（17个中大部分是新增entities/topics，自然状态）
+
+**补充操作**：
+- 删除 `~/wiki/wiki/synthesis/` 空目录（方案A已合并到topics）
+- 合并两个SCHEMA.md：根目录`~/wiki/SCHEMA.md`改为项目说明指针，权威版在`~/wiki/wiki/SCHEMA.md`
+- 权威SCHEMA.md加入post-ingest checklist、overview.md定义、updated Red Flags
+
+---
+
+## 2026-04-20 上午 — 补充entities和topics
+
+**操作**：根据新摄取内容补充entities和topics，理顺synthesis/topics关系
+
+**决策**：采用方案A，保留topics，明确定位：
+- concepts：定义层（What）
+- topics：实践层（How）— 跨来源主题综合
+- comparisons：分析层（Comparison）
+
+**新建entities（4个）**：
+- `omb` — 管理和预算办公室（OMB Circular A-130发布机构）
+- `incose` — 国际系统工程委员会（MBSE方法论调查发布组织）
+- `dsb` — 国防科学委员会（数字工程报告发布机构）
+- `ppi` — 国际项目绩效公司（DID模板、SE/RE投资回报研究）
+
+**新建topics（1个）**：
+- `digital-engineering-ecosystem` — 数字工程生态系统（DEE）概述（综合5个来源）
+
+**更新index.md**：
+- 新增4个entities条目
+- 新增1个topics条目
+- 删除Synthesis部分（已合并到topics）
+
+---
+
 ## 2026-04-20 早晨 — 新增2个结构性comparison
 
 **操作**：基于用户需求，创建2个新的对比分析页面

@@ -72,8 +72,8 @@ WOSA架构工具链的四个核心功能可对应需求质量维度：
 - [[mosa-defense-acquisition]] — MOSA核心概念
 - [[mosa-five-pillars]] — 一致性认证支柱
 - [[wosa-architecture-tools]] — WOSA工具链（自动化需求质量检查）
-- [[2026-04-19-ppi-requirements-analysis]] — PPI需求分析方法论
-- [[2026-04-19-ppi-requirements-quality-metrics]] — Halligan需求质量度量体系（十大因子+五种过程度量）
-- [[2026-04-19-ppi-business-case-re]] — 需求工程投资回报
-- [[2026-04-19-ppi-did-templates]] — PPI DID模板（SyRS/SSDD/IRS）
+- [[ppi-requirements-analysis]] — PPI需求分析方法论
+- [[ppi-requirements-quality-metrics]] — Halligan需求质量度量体系（十大因子+五种过程度量）
+- [[ppi-business-case-re]] — 需求工程投资回报
+- [[ppi-did-templates]] — PPI DID模板（SyRS/SSDD/IRS）
 - [[speed-vs-modularity]] — 速度与模块化张力

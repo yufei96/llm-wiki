@@ -63,8 +63,8 @@ MOSA的实施框架经历了从**技术五原则**（2013）到**管理五大支
 
 ## 相关内容
 
-- [[2026-04-19-osa-contract-guidebook-v1.1]] — OSA合同指南v1.1（五原则原始定义）
+- [[osa-contract-guidebook-v1.1]] — OSA合同指南v1.1（五原则原始定义）
 - [[mosa-five-pillars]] — MOSA五大支柱概念页
-- [[2026-04-05-mosa-implementation-guidebook-2025]] — 2025年实施指南
+- [[mosa-implementation-guidebook-2025]] — 2025年实施指南
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[2026-04-19-peo-aviation-mosa-impl-guide]] — PEO Aviation合同模板应用
+- [[peo-aviation-mosa-impl-guide]] — PEO Aviation合同模板应用

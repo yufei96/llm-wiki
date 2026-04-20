@@ -50,5 +50,5 @@ MTA路径中**MOSA不是强制要求**，但DoDI 5000.02鼓励MTA项目在可行
 - [[adaptive-acquisition-framework]]
 - [[mosa-defense-acquisition]]
 - [[defense-acquisition-overrun-trends]]
-- [[2026-04-19-dodi-5000-80-middle-tier-acquisition]]
-- [[2026-04-19-gao-24-106831-weapon-systems]]
+- [[dodi-5000-80-middle-tier-acquisition]]
+- [[gao-24-106831-weapon-systems]]

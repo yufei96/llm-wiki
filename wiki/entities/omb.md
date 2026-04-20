@@ -1,0 +1,39 @@
+---
+title: "管理和预算办公室（OMB）"
+created: 2026-04-20
+updated: 2026-04-20
+type: entity
+tags: [联邦机构, 信息管理, 政策, 预算]
+sources: [raw/papers/a130revised.pdf]
+---
+
+# 管理和预算办公室（OMB）
+
+## 概述
+
+管理和预算办公室（Office of Management and Budget, OMB）是美国总统行政办公室的核心组成部分，负责协助总统监督联邦预算、协调跨部门政策、评估政府项目绩效。
+
+## 核心职能
+
+- **预算编制**：编制总统年度预算提案
+- **政策协调**：发布跨部门政策指导（如Circular A-130）
+- **项目评估**：评估联邦项目绩效和效率
+- **信息管理**：制定联邦信息资源管理政策
+
+## 与MOSA知识库的关联
+
+OMB Circular A-130是联邦信息资源管理的顶层政策文件，涉及：
+- 信息安全要求
+- 隐私保护框架
+- IT投资管理
+
+这些要求与MOSA开放接口设计形成张力——参见[[cybersecurity-vs-mosa-openness]]。
+
+## 相关内容
+
+- [[omb-circular-a-130]] — OMB Circular A-130政策文件
+- [[cybersecurity-vs-mosa-openness]] — 赛博安全与MOSA开放接口的张力
+
+---
+
+*2026-04-20 创建*

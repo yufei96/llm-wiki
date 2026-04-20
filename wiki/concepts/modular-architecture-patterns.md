@@ -47,8 +47,8 @@ MOSA将模块化架构上升为政策要求：
 - [[vendor-lock-in]] — 供应商锁定问题
 - [[face-technical-standard]] — FACE航电标准
 - [[adaptive-acquisition-framework]] — 自适应采办框架
-- [[2026-04-19-sosa-reference-architecture-v2]] — SOSA参考架构
-- [[2026-04-19-victory-ground-vehicle]] — VICTORY车辆标准
+- [[sosa-reference-architecture-v2]] — SOSA参考架构
+- [[victory-ground-vehicle]] — VICTORY车辆标准
 
 ---
 *概念提取自MOSA相关文献及通用系统工程知识*
