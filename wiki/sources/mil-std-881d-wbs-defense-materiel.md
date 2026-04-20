@@ -1,6 +1,7 @@
 ---
 title: "MIL-STD-881D——国防装备工作分解结构标准"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source_summary
 source: raw/papers/mil-std-881d-wbs-defense-materiel-2018.pdf
 author: "美国国防部"
@@ -50,5 +51,12 @@ tags: [军用标准, WBS, 国防采办, 模块化, 成本上报, MOSA]
 - [[defense-acquisition-overrun-trends]]
 ## 相关实体
 - [[parth-devang-shah]]
+## 相关内容
+
+- [[defense-acquisition-overrun-trends]] — 国防采办成本超支趋势
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[ndia-mosa-white-paper-2019]]
+- [[parth-devang-shah]]
+
 ---
 *共233页，2018年4月发布，替代2011版MIL-STD-881C*

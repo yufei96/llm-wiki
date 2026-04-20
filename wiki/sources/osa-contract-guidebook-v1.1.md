@@ -1,6 +1,7 @@
 ---
 title: "OSA合同指南v1.1 — 项目经理开放系统架构合同指南"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/osa-contract-guidebook-v1.1-2013.pdf
 author: "USD(AT&L)"

@@ -1,6 +1,7 @@
 ---
 title: "FACE技术标准3.2版（2023年8月）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source_summary
 source: raw/papers/face-technical-standard-edition-3.2.pdf
 author: "开放群组（The Open Group）——FACE联盟"
@@ -59,5 +60,14 @@ FACE运行正式的一致性测试程序：
 ## 相关实体
 - The Open Group
 - [[parth-devang-shah]]
+## 相关内容
+
+- [[adaptive-acquisition-framework]] — DoD自适应采办框架
+- [[face-technical-standard]] — FACE航空电子标准
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[open-mission-systems]] — OMS军用任务互操作性
+- [[parth-devang-shah]]
+- [[vendor-lock-in]] — 供应商锁定问题
+
 ---
 *共592页，2023年8月，3.2版。仅4次提及MOSA——FACE作为技术规范有独立的运行体系。*

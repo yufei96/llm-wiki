@@ -1,6 +1,7 @@
 ---
 title: "自适应采办框架（AAF）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 updated: 2026-04-14
 type: concept
 tags: [AAF, 国防采办, 美国国防部, 采办路径]

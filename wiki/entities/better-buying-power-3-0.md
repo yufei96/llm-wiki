@@ -1,6 +1,7 @@
 ---
 title: "优化采办购买力3.0（Better Buying Power 3.0）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: entity
 tags: [美国国防部, 政策, 采办]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]

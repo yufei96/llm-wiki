@@ -1,6 +1,7 @@
 ---
 title: "SOSA产品技术概览与产品指南"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/sosa-vita-products-capabilities.pdf
 author: "Elma Electronic"

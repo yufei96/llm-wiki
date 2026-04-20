@@ -1,6 +1,7 @@
 ---
 title: "DoDI 5000.87 — 防务采办软件采办"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source_summary
 translator: auto-cn
 source: raw/papers/dodi_5000.87.pdf

@@ -1,6 +1,7 @@
 ---
 title: "PEO Aviation MOSA Industry Day 2022"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/peo-aviation-mosa-industry-2022.pdf
 author: "Matt Sipe, PEO Aviation MOSA Transformation Director"

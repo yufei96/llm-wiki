@@ -1,6 +1,7 @@
 ---
 title: "PEO Aviation MOSA实施指南（精简版）"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/peo-aviation-mosa-implementation-guide.pdf
 author: "PEO Aviation MOSA Transformation Office"

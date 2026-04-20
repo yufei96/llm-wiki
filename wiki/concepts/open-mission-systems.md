@@ -1,6 +1,7 @@
 ---
 title: "开放任务系统（OMS）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: concept
 tags: [OMS, 传感器互操作, 开放架构]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]

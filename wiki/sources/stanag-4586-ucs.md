@@ -1,6 +1,7 @@
 ---
 title: "STANAG 4586 — NATO UAV控制系统标准接口（UCS）"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/stanag-4586-ucs.pdf
 author: "NATO / Mário Monteiro Marques"

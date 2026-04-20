@@ -1,6 +1,7 @@
 ---
 title: "SOSA传感器开放系统架构参考架构技术标准"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/sosa-reference-architecture-v2.pdf
 author: "The Open Group SOSA Consortium"

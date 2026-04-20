@@ -1,6 +1,7 @@
 ---
 title: "VICTORY — 车辆C4ISR/EW互操作性标准"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/victory-armored-vehicle-case-study.pdf
 author: "Curtiss-Wright Defense Solutions"

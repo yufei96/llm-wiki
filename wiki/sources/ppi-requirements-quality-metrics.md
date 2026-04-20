@@ -5,6 +5,14 @@ updated: 2026-04-19
 type: source
 tags: [requirements-engineering, metrics, quality, systems-engineering]
 sources: [raw/papers/ppi-requirements-quality-metrics.pdf]
+## 相关内容
+
+- [[adaptive-acquisition-framework]] — DoD自适应采办框架
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[ppi-integrating-pm-se]]
+- [[ppi-requirements-analysis]]
+- [[requirements-quality-mosa]] — 需求质量与MOSA
+
 ---
 
 # Requirements Quality Metrics: The Basis of Informed Requirements Engineering Management

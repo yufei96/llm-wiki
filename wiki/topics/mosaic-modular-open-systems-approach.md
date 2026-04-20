@@ -1,4 +1,5 @@
 ---
+title: "模块化开放系统方法（MOSA）综述"
 created: 2026-04-06
 updated: 2026-04-20
 tags: [MOSA, 国防采办, 模块化, 系统工程, DoD]
@@ -115,6 +116,13 @@ MOSA依靠几个关键标准进行实施：
 - [[face-technical-standard]] — FACE技术标准
 - [[open-mission-systems]] — 开放任务系统
 - 国防采办改革
+
+## 相关内容
+
+- [[adaptive-acquisition-framework]] — DoD自适应采办框架
+- [[face-technical-standard]] — FACE航空电子标准
+- [[open-mission-systems]] — OMS军用任务互操作性
+- [[vendor-lock-in]] — 供应商锁定问题
 
 ---
 

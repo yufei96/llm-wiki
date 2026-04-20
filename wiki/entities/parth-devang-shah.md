@@ -1,6 +1,7 @@
 ---
 title: "帕斯·德万·沙阿（Parth Devang Shah）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: entity
 tags: [人物, 研究员, 系统工程]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
@@ -17,6 +18,12 @@ sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
 
 ### 研究方向
 对美国陆军、海军、航空电子、全球国防和商业领域的MOSA实施有效性进行定性分析。
+
+## 相关内容
+
+- [[face-technical-standard-3.2-2023]]
+- [[mil-std-881d-wbs-defense-materiel]]
+- [[mosa-shah-thesis]]
 
 ---
 *摘自沙阿2021年工程博士实践报告*

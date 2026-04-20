@@ -1,6 +1,7 @@
 ---
 title: "FY2017 NDAA — Section 805：MOSA 立法源"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source_summary
 translator: auto-cn
 source: raw/papers/fy_2017_national_defense_authorization_act.pdf
@@ -28,5 +29,12 @@ tags: [NDAA, legislation, MOSA, 10 USC, legal-origin, FY2017]
 ## 关联概念
 - [[mosa-defense-acquisition]]
 - 10 USC Chapter 327
+## 相关内容
+
+- [[10usc-4401-4403-mosa-law]]
+- [[bbp-3-0-implementation-directive]]
+- [[hasc-report-114-102-fy2016-ndaa]]
+- [[mosa-defense-acquisition]] — MOSA核心概念
+
 ---
 *摘自美国公律114-328，集体码114-328，文件在2026-04-05生成*

@@ -1,6 +1,7 @@
 ---
 title: "国防领域的供应商锁定"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: concept
 tags: [供应商锁定, 国防, 采办]
 sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]

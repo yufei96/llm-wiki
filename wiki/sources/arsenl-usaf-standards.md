@@ -1,6 +1,7 @@
 ---
 title: "ARSENL — 空军架构标准与工程库"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/arsenl.pdf
 author: "AFMC / AFLCMC"

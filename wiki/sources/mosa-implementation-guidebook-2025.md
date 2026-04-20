@@ -1,6 +1,7 @@
 ---
 title: "MOSA实施指南（2025版）"
-date: 2026-04-05
+created: 2026-04-05
+updated: 2026-04-05
 type: source
 tags: [实施指南, 2025, 流程规范]
 sources: [raw/sources/mosa-implementation-guidebook-2025.pdf]

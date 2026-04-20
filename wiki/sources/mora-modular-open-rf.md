@@ -1,6 +1,7 @@
 ---
 title: "MORA — 模块化开放射频架构"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/mora-modular-open-rf-architecture.pdf
 author: "Jason Broczkowski, Derek Bailey, Troy Ryder, Jason Dirner"

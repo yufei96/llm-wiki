@@ -1,6 +1,7 @@
 ---
 title: "Better Buying Power 3.0 — 实施指令"
-date: 2026-04-19
+created: 2026-04-19
+updated: 2026-04-19
 type: source_summary
 source: raw/papers/bbp-3-implementation-directive.pdf
 author: "Frank Kendall, USD(AT&L)"
