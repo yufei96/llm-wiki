@@ -83,6 +83,8 @@
 - [[speed-vs-modularity]] — 速度与模块化：MOSA在快速采办中的政策张力
 - [[mosa-implementation-stack]] — MOSA实施全栈：从法律到合同执行（五层架构）
 - [[pm-se-integration-mosa]] — PM-SE整合：MOSA实施的组织瓶颈
+- [[cybersecurity-vs-mosa-openness]] — 赛博安全与MOSA开放接口：攻击面扩大与信息安全的政策张力
+- [[digital-engineering-mosa-convergence]] — 数字工程与MOSA融合：从采办策略到工程方法论的质变
 
 ## Standards
 - FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, SCA, HOST, ISO/IEC/IEEE 15288
