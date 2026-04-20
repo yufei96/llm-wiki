@@ -28,8 +28,7 @@
 - `a130revised.pdf` (537 KB) — OMB Circular A-130 "Managing Information as a Strategic Resource"，未处理
 
 **新建source页（1个）**：
-- `omb-circular-a-130` — 联邦信息资源管理顶层政策（信息安全、隐私保护、IT投资管理）
-  - 用户标记为"赛博分系统"，表明赛博安全/信息系统管理领域重要性
+  - 联邦信息资源管理顶层政策（信息安全、隐私保护、IT投资管理）
   - 与MOSA知识库关联：开放接口的隐私风险、数据权利、IT投资框架
 
 **更新index.md**：新增OMB Circular A-130条目
