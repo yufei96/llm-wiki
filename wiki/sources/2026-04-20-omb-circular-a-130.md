@@ -78,6 +78,4 @@ sources: [raw/papers/a130revised.pdf]
 - [[dfars-part-227-patents-data-and-copyrights]] — 数据权利条款与A-130信息管理互补
 - [[dodi-5000.97-digital-engineering]] — 数字工程战略中的信息安全要求
 
----
 
-*注: 该文件被用户标记为"赛博分系统"，表明其在赛博安全/信息系统管理领域的重要性。*
