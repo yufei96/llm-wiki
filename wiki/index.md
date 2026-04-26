@@ -11,6 +11,10 @@
 - [[digital-engineering-ecosystem]] — 数字工程生态系统（DEE）概述：DoD战略、DoDI 5000.97、MBSE、DSB报告
 - [[wosa-architecture-tools]] — WOSA架构工具链分析：开发环境、测试框架和标准化要求
 
+- [[mosa-software-acquisition]] — MOSA在软件采办中的实施：DoDI 5000.87路径下的模块化开放架构实践
+- [[middle-tier-acquisition-mosa-tension]] — 中间层采办与MOSA的张力：速度优先路径中的政策矛盾与解决方案
+- [[digital-engineering-tools-comparison]] — 数字工程工具链对比：MBSE工具、数字孪生平台的MOSA支持能力评估
+
 ## Sources (来源摘要)
     - [[mil-hdbk-1211-mi-missile-flight-simulation]] — MIL-HDBK-1211(MI): Missile Flight Simulation Handbook (1995). Guidance for surface-to-air missile simulation models. Raw: `raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf`
     - [[mosa-shah-thesis]] — Shah, \"MOSA and US Defense Acquisition\" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
@@ -46,7 +50,17 @@
     - [[osa-contract-guidebook-v1.1]] — OSA合同指南v1.1 (USD(AT&L), 2013, 223 pages). MOSA五原则原始定义文档。
     - [[dodi-5000-97-digital-engineering]] — DoDI 5000.97 Digital Engineering (2023). MOSA列为数字工程九大要素之一。
     - [[stanag-4586-ucs]] — STANAG 4586 NATO UAV控制系统标准接口 (14 pages). UCS无人系统C2标准。
-    - [[arsenl-usaf-standards]] — ARSENL空军架构标准工程库 (AFMC). USAF MOSA使能标准官方清单。
+    - [[arsenl-usaf-standards]] — ARSENL空军架构标准工程库 (AFMC). USAF MOSA使能标准官方清单
+
+    - [[gaor-25-106931-mosa-review]] — GAO-25-106931: MOSA专项审查报告(2025)
+    - [[b21-raider-mosa]] — B-21 Raider MOSA实施案例
+    - [[flraa-mv75-mosa]] — FLRAA/MV-75 MOSA数字工程探路者
+    - [[xm30-micv-mosa]] — XM-30 MICV MOSA设计
+    - [[sda-pwsa-mosa]] — SDA PWSA太空域MOSA
+    - [[prsm-mosa]] — PrSM精确打击导弹MOSA
+    - [[e-hel-mosa]] — E-HEL定向能武器MOSA
+    - [[ndaa-2020-2021-mosa-expansion]] — 2020/2021 NDAA MOSA扩展条款
+    - [[dfars-2021-d005-mosa]] — DFARS 2021-D005 MOSA合同条款
 
     - [[ppi-did-templates]] — PPI DID模板合集（7个数据项描述模板，合同执行层参考）
     - [[ppi-business-case-se]] — PPI系统工程投资回报论证（Halligan 2018，48页）
@@ -72,6 +86,9 @@
 - [[ucs-control-station]] — 无人系统指挥控制标准接口（STANAG 4586）
 - [[modular-architecture-patterns]] — 模块化架构模式（跨领域）
 - [[defense-acquisition-overrun-trends]] — 国防采办项目成本超支趋势数据
+- [[dews-mosa-reference-architecture]] — DEWS MOSA参考架构
+- [[mosa-brownfield-vs-greenfield]] — MOSA遗留系统改造挑战
+- [[mosa-five-pillars-assessment]] — MOSA五大支柱评估框架
 ## Entities (人物/组织/政策实体)
 - [[parth-devang-shah]] — Shah论文作者，GWU D.Eng. 2021
 - [[better-buying-power-3-0]] — MOSA强制指令 (2015), DoD采购改革
@@ -79,6 +96,15 @@
 - [[incose]] — 国际系统工程委员会（MBSE方法论调查发布组织）
 - [[dsb]] — 国防科学委员会（数字工程报告发布机构）
 - [[ppi]] — 国际项目绩效公司（DID模板、SE/RE投资回报研究）
+
+- [[northrop-grumman]] — Northrop Grumman (B-21, SiAW, AARGM-ER)
+- [[lockheed-martin]] — Lockheed Martin (F-35, PrSM)
+- [[space-development-agency]] — Space Development Agency (PWSA)
+
+- [[dod-department-of-defense]] — 美国国防部：MOSA政策制定者、最大客户和标准推动者
+- [[the-open-group]] — The Open Group：SOSA和FACE标准的行业联盟制定者
+- [[nato]] — 北大西洋公约组织：联盟互操作标准（STANAG）的协调者
+- [[gao]] — 美国政府问责署：国防采办独立监察和MOSA执行评估者
 
 ## Comparisons (对比分析)
 - [[karpathy-vs-implementation]] — Karpathy LLM Wiki 原版 vs 我们实现的对齐状态
@@ -90,9 +116,11 @@
 - [[pm-se-integration-mosa]] — PM-SE整合：MOSA实施的组织瓶颈
 - [[cybersecurity-vs-mosa-openness]] — 赛博安全与MOSA开放接口：攻击面扩大与信息安全的政策张力
 - [[digital-engineering-mosa-convergence]] — 数字工程与MOSA融合：从采办策略到工程方法论的质变
+- [[siaw-aargm-er-mosa-contrast]] — SiAW vs AARGM-ER MOSA对比
+- [[mosa-implementation-status-matrix]] — MOSA实施状态矩阵(20项目)
 
 ## Standards
 - FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, SCA, HOST, ISO/IEC/IEEE 15288
 
 ---
-*Last updated: 2026-04-19 (PPI洞察: 3个结构性分析页, 全栈/需求质量/PM-SE整合, 64 pages, 305 links, 100%) (PPI ingest: 12个SE资源，5个source页，61 pages, 266 links, 100% integrity)*
+*Last updated: 2026-04-26 (MOSA国防应用案例批量摄取: 9 sources, 3 entities, 3 concepts, 2 comparisons — 17 new pages. Total: 100 pages)*

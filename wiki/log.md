@@ -472,3 +472,58 @@ Total wiki pages: 30
 - `requirements-quality-mosa` — 添加对新source页的wikilink
 
 **最终状态**：raw/papers 全部55个PDF处理完成，0个待处理
+
+---
+
+## 2026-04-23 — 补充topics和entities
+
+**操作**：根据overview.md待填补清单，创建3个topic和4个entity
+
+**新增Topics**：
+1. [[mosa-software-acquisition]] — DoDI 5000.87路径下MOSA在软件采办中的实施（DevSecOps、开放接口、数据权利）
+2. [[middle-tier-acquisition-mosa-tension]] — MTA与MOSA的速度vs模块化政策张力（GAO数据、两种观点、解决方案）
+3. [[digital-engineering-tools-comparison]] — MBSE工具和数字孪生平台对比（MagicDraw/Capella/Rhapsody、AFSIM/Ansys）
+
+**新增Entities**：
+1. [[dod-department-of-defense]] — DoD在MOSA中的三重角色（政策制定者/最大客户/标准推动者）
+2. [[the-open-group]] — SOSA/FACE标准联盟（商业标准vs政府标准、争议）
+3. [[nato]] — 联盟互操作标准（STANAG体系、与DoD MOSA的核心差异）
+4. [[gao]] — 国会监察机构（年度武器评估、MOSA合规审计建议）
+
+**更新**：
+- index.md：添加7个新页面链接
+- overview.md：更新待填补清单、统计数字（76→83页）
+
+**未执行**（用户要求）：不更新README，不推送Gitee
+
+---
+
+## [2026-04-26] ingest | MOSA国防应用案例批量摄取
+- 原始资料下载: 9份（GAO-25-106931, NDAA 2020/2021, CRS IF12094, DFARS RFI, NDIA白皮书, ABA文章, Curtiss-Wright, MITRE DEWS）
+- Source页创建: 9个
+- Entity页创建: 3个（Northrop Grumman, Lockheed Martin, SDA）
+- Concept页创建: 3个（DEWS RA, Brownfield挑战, 五大支柱评估）
+- Comparison页创建: 2个（SiAW vs AARGM-ER, 实施状态矩阵）
+- 来源: GAO-25-106931深度调研14个JSON结果
+
+## [2026-04-26] update | GAO-25-106931 PDF全文摄取
+- 用户提供GAO-25-106931 PDF原文（6.2MB, 74页）
+- mutool转换为文本（155KB, 4165行）
+- 原始PDF保存: raw/papers/gao-25-106931-mosa-review.pdf
+- 转换文本保存: raw/articles/gao-25-106931-mosa-review-full.txt
+- 更新: sources/gaor-25-106931-mosa-review.md — 补充完整Table 1数据（20项目状态）和14条建议全文
+- 更新: comparisons/mosa-implementation-status-matrix.md — 修正sources引用和日期
+
+## [2026-04-26] fix | 断链修复 + 补充资料 + SCHEMA更新
+- 断链修复: 6个raw文章从JSON创建, 1个引用路径修正(.md→.pdf)
+- 补充资料: sosa-updated-standards-afcea.md, sosa-2025-special-edition.md, f35-tr3-lockheed-update.md
+- .mil域名拦截: NAVAIR/DOT&E/AFMC/SAM.gov均不可达, ABMS/JADC2暂时无法获取
+- SCHEMA.md: 洞察综合步骤增加原始资料缺口分析(断链检查+知识空白+可补充vs政策空白)
+
+## [2026-04-26] ingest | 用户提供5份.mil域名PDF补充资料
+- 来源: 用户手动下载的被拦截.mil/.gov页面PDF
+- PDF保存: raw/papers/ (navair-mosa-overview, dote-fy2024-abms, afmc-abms-article, sam-abms-baa, mitre-dews-mosa-ra)
+- 新增raw文章: 5个
+- 新增source页: 5个 (navair-mosa-overview, dote-fy2024-abms, afmc-abms-distributed-connectivity, sam-abms-baa, mitre-dews-mosa-ra-full)
+- 更新concept页: dews-mosa-reference-architecture.md (从幻灯片升级为完整文档)
+- 洞察: ABMS核心问题是CBC2软件不成熟而非架构问题; 海军有MOSA战略但无正式指南; DEWS RA全文含完整数据模型
