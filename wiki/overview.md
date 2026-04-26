@@ -1,14 +1,14 @@
 ---
 title: "MOSA & 数防采办知识库总览"
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-23
 type: overview
 ---
 
 # MOSA 与数字工程知识库总览
 
 > 本知识库覆盖模块化开放系统方法（MOSA）在美国国防采办中的演化、数字工程生态系统、以及相关的技术标准和政策框架。
-> 共76个wiki页面，覆盖45个一手来源。
+> 共83个wiki页面，覆盖45个一手来源。
 
 ## 核心故事线
 
@@ -76,9 +76,11 @@ MOSA从美国DoD扩展到联盟体系（[[mosa-internationalization]]）：
 
 - **WOSA原始标准**: 已有工具链分析，缺少WOSA标准本身
 - **OMS最新版**: PDF损坏，需可用来源
-- **更多NATO标准**: 目前只有STANAG 4586
-- **商业MOSA案例**: Airbus HForce之外的案例
+- **更多NATO标准**: 目前只有STANAG 4586，需补充STANAG 4694/5602
+- **商业MOSA案例**: Airbus HForce之外的案例（已创建entities框架，待补充PDF）
 - **MOSA成本效益数据**: GAO报告有框架但缺归因数据
+- **topics深度**: 已补充3个topics，需持续积累软件采办、MTA、工具链的实证数据
+- **entities完整度**: 已补充DoD/The Open Group/NATO/GAO，需补充主要承包商实体页
 
 ## 相关内容
 
