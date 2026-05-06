@@ -3,7 +3,7 @@ title: "DoDI 5000.97 — 数字工程"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dodi-5000.97-digital-engineering.pdf
+sources: [raw/papers/dodi-5000.97-digital-engineering.pdf, raw/articles/dodi-5000.97-digital-engineering.md]
 author: "USD(R&E)"
 tags: [DoDI, 数字工程, MOSA, 模型驱动, DEE]
 ---

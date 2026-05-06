@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [ABMS, AFMC, 分布式作战管理, DAF_BATTLE_NETWORK, TOC-L, 数字基础设施, PEO_C3BM]
-sources: [raw/papers/afmc-abms-article.pdf]
+sources: [raw/articles/afmc-abms-distributed-connectivity.md, raw/papers/afmc-abms-article.pdf]
 ---
 
 # AFMC ABMS：分布式连接制胜

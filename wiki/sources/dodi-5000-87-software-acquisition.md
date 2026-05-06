@@ -4,7 +4,7 @@ created: 2026-04-05
 updated: 2026-04-05
 type: source_summary
 translator: auto-cn
-source: raw/papers/dodi_5000.87.pdf
+sources: [raw/papers/dodi_5000.87.pdf, raw/articles/dodi_5000.87.md]
 author: "Under Secretary of Defense for Acquisition and Sustainment"
 tags: [DoDI, software-acquisition, AAF, MOSA, digital-engineering, DevSecOps]
 ---

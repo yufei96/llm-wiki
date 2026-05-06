@@ -43,11 +43,14 @@ MOSA将模块化架构上升为政策要求：
 - **组织对齐**（康威定律）：系统架构受组织结构制约
 
 ## 相关内容
+- [[open-architecture-hierarchy]] — 开放架构四层体系总览
 - [[mosa-defense-acquisition]] — MOSA核心概念
+- [[interface-engineering-evolution]] — 接口工程三层演进
+- [[nasa-se-handbook-rev2]] — NASA SE Handbook（架构定义与接口管理）
 - [[vendor-lock-in]] — 供应商锁定问题
 - [[face-technical-standard]] — FACE航电标准
 - [[adaptive-acquisition-framework]] — 自适应采办框架
-- [[sosa-reference-architecture-v2]] — SOSA参考架构
+- [[sosa-sensor-open-systems-architecture]] — SOSA传感器架构
 - [[victory-ground-vehicle]] — VICTORY车辆标准
 
 ---

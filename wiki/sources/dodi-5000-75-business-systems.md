@@ -3,7 +3,7 @@ title: "DoDI 5000.75 — 业务系统需求与采办"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dodi_5000.75.pdf
+sources: [raw/papers/dodi_5000.75.pdf, raw/articles/dodi_5000.75.md]
 author: "USD(A&S)"
 tags: [DoDI, 业务系统, BCAC, 采办框架]
 ---

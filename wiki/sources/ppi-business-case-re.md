@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [PPI, 需求工程, 投资回报, 成本效益, Robert-Halligan]
-sources: [raw/papers/ppi-business-case-re.pdf]
+sources: [raw/papers/ppi-business-case-re.pdf, raw/articles/ppi-business-case-re.md]
 ---
 
 # PPI — 需求工程投资回报论证

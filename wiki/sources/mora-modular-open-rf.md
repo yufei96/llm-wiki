@@ -3,7 +3,7 @@ title: "MORA — 模块化开放射频架构"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/mora-modular-open-rf-architecture.pdf
+sources: [raw/papers/mora-modular-open-rf-architecture.pdf, raw/articles/mora-modular-open-rf-architecture.md]
 author: "Jason Broczkowski, Derek Bailey, Troy Ryder, Jason Dirner"
 tags: [MORA, 射频, CMOSS, VICTORY, GVSETS]
 ---

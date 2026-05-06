@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [PPI, 需求分析, 方法论, 系统工程, Robert-Halligan]
-sources: [raw/papers/ppi-requirements-analysis-that-works.pdf, raw/papers/ppi-requirements-analysis-overview.pdf]
+sources: [raw/papers/ppi-requirements-analysis-that-works.pdf, raw/papers/ppi-requirements-analysis-overview.pdf, raw/articles/ppi-requirements-analysis-that-works.md, raw/articles/ppi-requirements-analysis-overview.md]
 ---
 
 # PPI — 需求分析方法论

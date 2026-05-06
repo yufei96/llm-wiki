@@ -64,11 +64,14 @@ sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-cont
 - 工具开发验证
 ## 相关内容
 - [[mosa-defense-acquisition]] — MOSA核心概念
+- [[interface-engineering-evolution]] — 接口工程三层演进
+- [[nist-cyber-resilience-mosa-security]] — NIST设计原则作为MOSA安全架构
 - [[osa-contract-guidebook-v1.1]] — OSA合同指南（五原则原始定义文档）
 - [[mosa-implementation-guidebook-2025]] — 2025年MOSA实施指南
 - [[face-technical-standard]] — FACE标准
 - [[open-mission-systems]] — OMS标准- [[pm-se-integration-mosa]] — PM-SE整合（赋能环境支柱的组织分析）
 - [[mosa-implementation-stack]] — MOSA实施全栈
+- [[mosa-architecture-vulnerabilities]] — MOSA架构脆弱性结构性分析
 
 ## 标签
 #extracted-from-mineru #mosa #原则 #国防部政策

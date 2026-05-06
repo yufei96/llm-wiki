@@ -3,7 +3,7 @@ title: "DoDI 5000.80 — 中间采办层级（MTA）"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dodi-5000.80-middle-tier-acquisition.pdf
+sources: [raw/papers/dodi-5000.80-middle-tier-acquisition.pdf, raw/articles/dodi-5000.80-middle-tier-acquisition.md]
 author: "USD(A&S)"
 tags: [DoDI, MTA, 快速原型, 快速部署, 采办框架, AAF]
 ---

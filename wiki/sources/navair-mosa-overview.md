@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [MOSA, NAVAIR, Navy, 开放架构, FACE, SOSA, HOST, OMS, PMA-209]
-sources: [raw/papers/navair-mosa-overview.pdf]
+sources: [raw/papers/navair-mosa-overview.pdf, raw/articles/navair-mosa-overview.md]
 ---
 
 # NAVAIR MOSA官方页面

@@ -1,0 +1,48 @@
+---
+title: "空军生命周期管理中心（AFLCMC）"
+created: 2026-04-29
+updated: 2026-04-29
+type: entity
+tags: [AFLCMC, AFMC, 生命周期管理, 采办, 系统工程, 数字化转型]
+sources: [raw/papers/Chris-Garrett-Presentation-Sep-2024.pdf]
+---
+
+# 空军生命周期管理中心（AFLCMC）
+
+## 摘要
+
+空军生命周期管理中心（Air Force Life Cycle Management Center, AFLCMC）是[[afmc|AFMC]]下属的采办和生命周期管理机构，负责空军武器系统的全生命周期管理——从需求定义到退役。AFLCMC是政府参考架构（GRA）和数字化物资管理（DMM）的主要执行机构。
+
+## 要点
+
+- **隶属关系**：[[afmc|AFMC]]下属
+- **使命**：空军武器系统的采办、开发、测试、部署、维护和现代化
+- **关键下属机构**：
+  - **AFLCMC/EN**：系统工程局（[[chris-garrett|Chris Garrett]]主管）
+  - **AFLCMC/WA**：战斗机和先进飞机局（CCA CONOPS开发）
+  - **AFLCMC/XA**：架构与集成局（ABMS相关）
+  - **AFLCMC/C3**：指挥、控制、通信作战管理
+- **MOSA相关**：
+  - 开发CCA（[[collaborative-combat-aircraft|协作作战飞机]]）CONOPS
+  - 建设AV GRA（飞行器政府参考架构）
+  - 发布ABMS BAA（广泛机构公告）
+  - ARSENL空军架构标准工程库
+- **数字化转型**：
+  - DMM框架执行
+  - MBSE参考模型库建设（79文档→36模型）
+  - 数字生态系统（PLM/FENCES/CLOUDONE/PLATFORMONE）
+
+## 相关内容
+
+- [[afmc]] — 空军装备司令部（上级机构）
+- [[chris-garrett]] — Chris Garrett（AFLCMC/EN系统工程主管）
+- [[collaborative-combat-aircraft]] — CCA协作作战飞机
+- [[digital-materiel-management]] — DMM数字化物资管理
+- [[arsenl-usaf-standards]] — ARSENL空军架构标准
+- [[sam-abms-baa]] — ABMS广泛机构公告
+- [[digital-engineering-ecosystem]] — 数字工程生态系统
+
+## 笔记
+
+- AFLCMC在wiki中被广泛引用（PEO Aviation、ABMS BAA、ARSENL等来源），但此前无独立实体页面
+- AFLCMC/WA是CCA项目的主要采办办公室

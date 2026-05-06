@@ -1,0 +1,33 @@
+---
+title: "Nickolas H. Guertin — 海军助理部长（研发与采办）"
+created: 2026-04-26
+updated: 2026-04-26
+type: entity
+tags: [人物, 海军, 采办, MOSA, NAVAIR]
+sources: [raw/papers/Naval-MOSA-Implementation-Guide-V1.0.pdf, raw/articles/defense-news-open-standards-2024.md]
+---
+
+# Nickolas H. Guertin
+
+## 基本信息
+
+- **职务**：Assistant Secretary of the Navy for Research, Development and Acquisition (ASN RD&A)
+- **签署文件**：海军 MOSA 实施指南 V1.0（序言作者）、三军联合备忘录（2024.12，联合签署人）
+- **公开发表**：Defense News 评论文章（2024.12.09，与 Jacob Glassman 联名）
+
+## 关键立场
+
+- 将 MOSA 定位为**关键作战能力**而非仅仅是采办策略
+- 强调 MOSA 对扩大工业基础、支持小企业参与国防模块化生产的作用
+- 推动海军内部撰写开放系统管理计划（OSMP），而非依赖承包商
+
+## 关键引用
+
+> "MOSA is an answer to these critical elements of warfare, enabling a rapid sharing of capability, reduction of redundant development, and the distribution of our industrial base."
+
+## 相关页面
+
+- [[naval-mosa-guide-v1]] — 海军 MOSA 实施指南（Guertin 作序）
+- [[defense-news-open-standards-2024]] — Guertin 署名文章
+- [[tri-service-memo-2024]] — 三军联合备忘录
+- [[navair-mosa-overview]] — NAVAIR MOSA 官方页面

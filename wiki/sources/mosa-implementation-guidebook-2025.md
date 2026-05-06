@@ -4,7 +4,7 @@ created: 2026-04-05
 updated: 2026-04-05
 type: source
 tags: [实施指南, 2025, 流程规范]
-sources: [raw/sources/mosa-implementation-guidebook-2025.pdf]
+sources: [raw/papers/mosa-implementation-guidebook-27feb2025-cleared.pdf, raw/articles/mosa-implementation-guidebook-27feb2025-cleared.md]
 ---
 # MOSA实施指南（2025版）
 美国国防部2025年发布的最新MOSA落地操作指南，是所有重大国防采办项目必须遵循的流程规范。

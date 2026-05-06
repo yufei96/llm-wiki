@@ -3,7 +3,7 @@ title: "美国国防工业协会（NDIA）MOSA白皮书——十大建议"
 created: 2026-04-05
 updated: 2026-04-05
 type: source_summary
-source: raw/papers/ndia-mosa-white-paper-2019.pdf
+sources: [raw/papers/ndia-mosa-white-paper-2019.pdf, raw/articles/ndia-mosa-white-paper-2020.md]
 author: "美国国防工业协会系统工程分会架构委员会（主席：史蒂夫·特林）"
 tags: [MOSA, NDIA, 建议, 系统工程, 政策]
 ---

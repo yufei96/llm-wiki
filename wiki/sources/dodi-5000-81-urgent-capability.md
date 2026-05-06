@@ -3,7 +3,7 @@ title: "DoDI 5000.81 — 紧急能力采办"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dodi_5000.81.pdf
+sources: [raw/papers/dodi_5000.81.pdf, raw/articles/dodi_5000.81.md]
 author: "USD(A&S)"
 tags: [DoDI, 紧急采办, UON, 快速响应, 采办框架]
 ---

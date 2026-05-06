@@ -3,7 +3,7 @@ title: "DoDI 5000.74 — 服务采办"
 created: 2026-04-05
 updated: 2026-04-20
 type: source_summary
-source: raw/papers/dodi_5000.74.pdf
+sources: [raw/papers/dodi_5000.74.pdf, raw/articles/dodi_5000.74.md]
 author: "国防部采办与维持副部长"
 tags: [DoDI, 服务采办, AAF, 国防采办]
 ---

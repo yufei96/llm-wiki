@@ -18,6 +18,7 @@ sources: [raw/articles/wosa-architecture-toolset.md]
 - 设计阶段的合规性检查
 - 验收阶段的MOSA达标验证
 ## 相关内容
+- [[wosa-weapons-open-systems-architecture]] — WOSA武器系统架构（概念页）
 - [[mosa-implementation-guidebook-2025]]
 - [[mosa-five-pillars]]- [[ppi-did-templates]] — PPI DID模板（一致性认证载体）
 - [[ppi-requirements-analysis]] — 需求分析方法

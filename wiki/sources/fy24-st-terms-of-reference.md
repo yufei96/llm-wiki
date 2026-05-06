@@ -1,0 +1,93 @@
+---
+title: "FY2024 DAF SAB S&T审查职权范围（CCA/DEW/SWD）"
+created: 2026-04-29
+updated: 2026-04-29
+type: source
+tags: [SAB, AFRL, CCA, DEW, SWD, S&T审查, 大国竞争, AFMC, 开放任务系统]
+sources: [raw/papers/FY24_ST_ToRs_-_for_public_release.pdf, raw/articles/FY24_ST_ToRs_-_for_public_release.md]
+---
+
+# FY2024 DAF SAB S&T审查职权范围
+
+## 摘要
+
+本文档为美国空军部（DAF）科学咨询委员会（SAB）FY2024年度三项科学技术（S&T）审查发布的职权范围（Terms of Reference, ToR），由空军部长（SECAF）授权，经SAF/PA公开发布（2024-1151号）。三项审查均针对空军研究实验室（AFRL）的关键技术项目，评估其面向大国竞争（GPC）的作战影响力和成本效益。
+
+三项审查主题：
+1. **协作作战飞机（CCA）任务系统** — 无人半自主作战飞机的任务系统技术
+2. **定向能武器（DEW）** — 高能激光和高功率微波武器及对抗技术
+3. **频谱战主导权（SWD）** — 电磁频谱作战（EMSO）技术
+
+## 要点
+
+### 一、协作作战飞机（CCA）任务系统审查
+
+- **目标**：独立评估AFRL的CCA技术努力
+- **CCA定位**：无人飞机，与五代/六代有人飞机协同作战，半自主执行飞行员指令
+- **规模**：DAF计划近期开发、测试和制造至少1000架CCA，2028年首次列装，2030年形成早期作战能力
+- **成本要求**：显著低于有人平台，实现经济可承受的大规模部署
+- **技术基础**：利用AFRL在[[open-mission-systems]]框架内开发下一代任务系统的成果，软件定义能力
+- **C-SWaP约束**：低成本、小尺寸、重量和功耗的任务系统
+- **评估范围**：
+  - DAF CCA概念作战（CONOPS），包括AFLCMC/WA的CCA CONOPS
+  - CCA任务系统需求（尺寸、重量、功耗、热管理、成本、性能）
+  - AFRL关键技术：架构、自主性、武器、处理器、任务系统
+  - 技术转化路线图，优先考虑GPC作战影响力
+  - 中长期R&D路线图
+- **参与技术处**：AFRL STO、RH、RI、RQ、RS、RW、RY；AFOSR、AFWERX
+
+### 二、定向能武器（DEW）审查
+
+- **背景**：DEW技术国内外快速发展，盟国和对手国均已部署DEW系统
+- **DEW优势**：深弹匣、近瞬时交战、可调节效果（可逆至任务杀伤）、广泛的攻击特性
+- **关键基础**：经济可承受的激光和高功率微波源、发射器、火控、加固电力系统
+- **双向需求**：蓝方DEW进攻能力和蓝方平台反DEW防护能力（不同技术基础，均为必需）
+- **评估范围**：
+  - DEW和反DEW（C-DEW）任务与作战概念
+  - AFRL近期技术差距：高价值资产防护、基地防御、反无人机系统
+  - 中远期R&D路线图：HEL、HPM、自适应补偿、瞄准/跟踪
+  - 基础C-DEW技术：材料/制造、DEW损伤/效果
+  - DAF作战有效性DEW和C-DEW的实验与演示
+- **参与技术处**：AFRL STO、RD、RX、RY、RV、RW、RQ、RS；711th Human Performance Wing、AFOSR
+
+### 三、频谱战主导权（SWD）审查
+
+- **范围限定**：聚焦电磁频谱作战（EMSO），依据AFDP 3-85（2023年12月）
+- **EMSO定义**：利用电磁频谱支持多域杀伤网，实现探测、利用、欺骗、拒绝、干扰、降级、摧毁和防护效果
+- **技术超越性**：技术优势不仅在于物理传感器和武器系统的性能，还在于信息融合利用、对抗环境控制、干扰对手决策的能力
+- **评估范围**：
+  - 威胁DAF作战和频谱利用的关键外国系统
+  - 利用EMSO破坏外国杀伤网的机会（侧重射频频谱）
+  - AFRL近期项目：地面/空中/太空系统和作战管理
+  - 技术可行性、作战可行性和成本效益评估
+  - 对外国EMSO威胁的韧性，特别是安全和经济可承受的数据链路
+  - 中远期R&D路线图和快速转化方法
+  - 认知支持EMSO任务自主性的创新研究
+- **参与技术处**：AFRL STO、RY、RI、RS、RW、RV、RQ；AFOSR、AFWERX S&T
+
+### 共同特征
+
+- **法律依据**：联邦咨询委员会法（FACA）和SAB章程
+- **交付物**：向SECAF、SAF/AQ、SAF/SQ、USSF/CTIO、AFMC/CC、AFRL/CC汇报；SAB主席向SECAF提交报告
+- **GPC导向**：三项审查均以大国竞争为优先框架，评估作战影响力和成本效益
+- **AFRL核心**：三项审查均聚焦AFRL技术项目和转化路线图
+
+## 相关内容
+
+- [[collaborative-combat-aircraft]] — CCA协作作战飞机概念
+- [[dews-mosa-reference-architecture]] — 定向能武器MOSA参考架构（MITRE DEWS RA）
+- [[open-mission-systems]] — 开放任务系统框架（CCA技术基础）
+- [[adaptive-acquisition-framework]] — 自适应采办框架
+- [[daf-sab]] — DAF科学咨询委员会
+- [[afmc]] — 空军装备司令部
+- [[digital-materiel-management]] — 数字物资管理（AFMC数字化转型）
+- [[modular-architecture-patterns]] — 模块化架构模式
+- [[dod-department-of-defense]] — 美国国防部
+
+## 笔记
+
+- CCA明确使用AFRL的Open Mission Systems框架，是MOSA在无人作战飞机领域的重大应用
+- 三项审查均强调"快速转化"（rapid transition），与[[speed-vs-modularity]]张力相关
+- SWD审查特别提到"认知支持EMSO任务自主性"，与CCA的半自主性形成技术呼应
+- 参与技术处重叠度高（STO、RW、RQ、RS在三项审查中均出现），表明AFRL技术处的跨领域角色
+- CCA 2028年列装时间线极为紧迫，需要快速技术成熟和转化

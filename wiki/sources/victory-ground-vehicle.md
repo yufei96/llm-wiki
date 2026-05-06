@@ -3,7 +3,7 @@ title: "VICTORY — 车辆C4ISR/EW互操作性标准"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/victory-armored-vehicle-case-study.pdf
+sources: [raw/papers/victory-armored-vehicle-case-study.pdf, raw/articles/victory-armored-vehicle-case-study.md]
 author: "Curtiss-Wright Defense Solutions"
 tags: [VICTORY, 车辆, C4ISR, 互操作性, 陆军]
 ---
@@ -49,10 +49,12 @@ VICTORY是MOSA在**地面车辆领域**的具体实施。当MOSA要求"模块化
 VICTORY与CMOSS/SOSA的关系：VICTORY关注**车辆平台**，CMOSS关注**C5ISR通用套件**，SOSA关注**传感器**——三者在不同的抽象层级上实现MOSA原则。
 
 ## 相关内容
+- [[open-architecture-hierarchy]] — 开放架构四层体系（VICTORY为设备级）
 - [[mosa-defense-acquisition]] — MOSA概念
 - [[cmoss-overview-2022]] — CMOSS（与VICTORY共享MORA射频标准）
-- [[sosa-reference-architecture-v2]] — SOSA传感器架构
+- [[sosa-sensor-open-systems-architecture]] — SOSA传感器架构
 - [[modular-architecture-patterns]] — 模块化架构模式
+- [[xm30-micv-mosa]] — XM-30地面车辆MOSA设计案例
 
 ---
 *案例研究2页 + GVA对比白皮书。VICTORY是地面车辆MOSA实施的参考案例。*

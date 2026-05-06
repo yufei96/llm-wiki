@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [requirements-engineering, metrics, quality, systems-engineering]
-sources: [raw/papers/ppi-requirements-quality-metrics.pdf]
+sources: [raw/papers/ppi-requirements-quality-metrics.pdf, raw/articles/ppi-requirements-quality-metrics.md]
 ## 相关内容
 
 - [[adaptive-acquisition-framework]] — DoD自适应采办框架

@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [ABMS, BAA, 采办, JADC2, AFLCMC, 开放架构, OT原型, 行业参与]
-sources: [raw/papers/sam-abms-baa.pdf]
+sources: [raw/papers/sam-abms-baa.pdf, raw/articles/sam-abms-baa.md]
 ---
 
 # SAM.gov ABMS广泛机构公告（BAA）

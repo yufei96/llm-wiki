@@ -9,6 +9,14 @@
 | 层 | 角色 | 规则 |
 |----|------|------|
 | **raw/** | 不可变的源文档（文章、论文、图像、数据） | LLM只读，永不写入。真实来源。 |
+
+### raw/papers vs raw/articles
+
+- `raw/papers/` — 原始 PDF 文件（权威来源，学术引用用这个）
+- `raw/articles/` — mutool 转换的完整文本（LLM 可读版本）
+
+**source 页引用规则**：两者都写。格式 `sources: [raw/papers/xxx.pdf, raw/articles/xxx.md]`。
+例外：网页来源（无 PDF）只写 article。
 | **wiki/** | LLM生成的Markdown页面（摘要、概念、实体、对比） | LLM完全拥有此层。只读。 |
 | **output/** | 派生可交付物（Marp幻灯片、图表、报告） | 从wiki生成，可归档回wiki。 |
 

@@ -14,14 +14,18 @@
 - [[mosa-software-acquisition]] — MOSA在软件采办中的实施：DoDI 5000.87路径下的模块化开放架构实践
 - [[middle-tier-acquisition-mosa-tension]] — 中间层采办与MOSA的张力：速度优先路径中的政策矛盾与解决方案
 - [[digital-engineering-tools-comparison]] — 数字工程工具链对比：MBSE工具、数字孪生平台的MOSA支持能力评估
+- [[nist-cyber-resilience-mosa-security]] — NIST赛博弹性设计原则作为MOSA安全性架构框架（7/11项原则直接映射）
+- [[sysml-v2-transition-bottleneck]] — SysML v1→v2过渡作为MOSA数字工程落地的基础设施瓶颈（15,000+模型迁移）
+- [[three-se-handbooks-complement]] — 三本SE手册互补（NASA/INCOSE/ISO三层参考体系）
 
 ## Sources (来源摘要)
+## Sources (来源摘要)
     - [[mil-hdbk-1211-mi-missile-flight-simulation]] — MIL-HDBK-1211(MI): Missile Flight Simulation Handbook (1995). Guidance for surface-to-air missile simulation models. Raw: `raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf`
-    - [[mosa-shah-thesis]] — Shah, \"MOSA and US Defense Acquisition\" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
-    - [[dodi-5000-02-2020]] — DoDI 5000.02, \"Operation of the Adaptive Acquisition Framework\" (2020, Chg1 2022). 19 pages. Raw: `raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf`
-    - [[dodi-5000-85-2020]] — DoDI 5000.85, \"Major Capability Acquisition\" (2020, Chg1 2021). 40 pages. Raw: `raw/papers/dodi-5000.85-major-capability-acquisition-2020.pdf`
-    - [[ndia-mosa-white-paper-2019]] — NDIA SE Division, \"MOSA White Paper — Summary Recommendations\" (2019). 16 pages.
-    - [[mil-std-881d-wbs-defense-materiel]] — MIL-STD-881D, \"WBS for Defense Materiel Items\" (2018). 233 pages.
+    - [[mosa-shah-thesis]] — Shah, \\\"MOSA and US Defense Acquisition\\\" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
+    - [[dodi-5000-02-2020]] — DoDI 5000.02, \\\"Operation of the Adaptive Acquisition Framework\\\" (2020, Chg1 2022). 19 pages. Raw: `raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf`
+    - [[dodi-5000-85-2020]] — DoDI 5000.85, \\\"Major Capability Acquisition\\\" (2020, Chg1 2021). 40 pages. Raw: `raw/papers/dodi-5000.85-major-capability-acquisition-2020.pdf`
+    - [[ndia-mosa-white-paper-2019]] — NDIA SE Division, \\\"MOSA White Paper — Summary Recommendations\\\" (2019). 16 pages.
+    - [[mil-std-881d-wbs-defense-materiel]] — MIL-STD-881D, \\\"WBS for Defense Materiel Items\\\" (2018). 233 pages.
     - [[face-technical-standard-3.2-2023]] — FACE Technical Standard, Edition 3.2 (Aug 2023). 592 pages.
     - [[dodi-5000-74-services]] — DoDI 5000.74, Defense Acquisition of Services (2020).
     - [[dodi-5000-87-software-acquisition]] — DoDI 5000.87, Software Acquisition Pathway (2020).
@@ -53,6 +57,11 @@
     - [[arsenl-usaf-standards]] — ARSENL空军架构标准工程库 (AFMC). USAF MOSA使能标准官方清单
 
     - [[gaor-25-106931-mosa-review]] — GAO-25-106931: MOSA专项审查报告(2025)
+    - [[tri-service-memo-2024]] — 三军联合备忘录：MOSA强制实施(2024.12)
+    - [[naval-mosa-guide-v1]] — 海军MOSA实施指南V1.0
+    - [[navair-host-5.0-release]] — NAVAIR HOST 5.0标准发布(2023.2)
+    - [[defense-news-open-standards-2024]] — 开放开发标准是保持美军优势的关键(2024.12)
+    - [[military-embedded-navy-osmp-2025]] — 海军将更多控制开放架构开发(2025.8)
     - [[b21-raider-mosa]] — B-21 Raider MOSA实施案例
     - [[flraa-mv75-mosa]] — FLRAA/MV-75 MOSA数字工程探路者
     - [[xm30-micv-mosa]] — XM-30 MICV MOSA设计
@@ -72,6 +81,9 @@
     - [[incose-mbse-methodology-survey]] — INCOSE MBSE方法论调查（JPL, Estefan 2008, 70页）
     - [[omb-circular-a-130]] — OMB Circular A-130, 联邦信息资源管理政策（信息安全、隐私、IT投资）
     - [[iso-15288-2023]] — ISO/IEC/IEEE 15288:2023 系统生命周期过程（第二版）
+    - [[fy24-st-terms-of-reference]] — FY2024 DAF SAB S&T审查职权范围：CCA任务系统/定向能武器/频谱战主导权 (6 pages). Raw: `raw/papers/FY24_ST_ToRs_-_for_public_release.pdf`
+    - [[chris-garrett-presentation-2024]] — Chris Garrett AFMC数字化转型演示 (19 slides). DMM/GRA/MBSE模型库/数字生态系统. Raw: `raw/papers/Chris-Garrett-Presentation-Sep-2024.pdf`
+    - [[peo-aviation-face-tim-2021]] — PEO Aviation FACE TIM 2021开放系统演示 (56 pages). 20家公司×29软件产品×8 TSS产品集成. Raw: `raw/papers/peo-avn-face-tim-2021-presentation.pdf`
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面
@@ -85,10 +97,26 @@
 - [[middle-tier-acquisition]] — MTA中间采办层级（快速通道，5年）
 - [[ucs-control-station]] — 无人系统指挥控制标准接口（STANAG 4586）
 - [[modular-architecture-patterns]] — 模块化架构模式（跨领域）
+- [[host-hardware-open-systems]] — 硬件开放系统技术（HOST）
 - [[defense-acquisition-overrun-trends]] — 国防采办项目成本超支趋势数据
 - [[dews-mosa-reference-architecture]] — DEWS MOSA参考架构
+- [[ams-gra-agile-mission-suite]] — AMS GRA 敏捷任务套件政府参考架构
+- [[a-gra-autonomy-reference-architecture]] — A-GRA 自主政府参考架构
+- [[abms-gra-advanced-battle-management]] — ABMS GRA 先进战斗管理系统
+- [[pnt-gra-r-egi]] — PNT GRA / R-EGI 弹性嵌入式GPS/INS
+- [[coarps-radar-architecture]] — COARPS 通用开放架构雷达规范
+- [[scars-simulator-architecture]] — SCARS 模拟器通用架构需求标准
+- [[nc3-gra-nuclear-c3]] — NC3 GRA 核指挥控制通信
+- [[sentinel-gra-icbm]] — Sentinel GRA 洲际弹道导弹
+- [[sosa-sensor-open-systems-architecture]] — SOSA 传感器开放系统架构
+- [[mora-modular-open-rf-architecture-concept]] — MORA 模块化开放射频架构
+- [[wosa-weapons-open-systems-architecture]] — WOSA 武器开放系统架构
 - [[mosa-brownfield-vs-greenfield]] — MOSA遗留系统改造挑战
 - [[mosa-five-pillars-assessment]] — MOSA五大支柱评估框架
+- [[collaborative-combat-aircraft]] — 协作作战飞机（CCA）：无人半自主作战飞机，1000+架计划
+- [[digital-materiel-management]] — 数字化物资管理（DMM）：AFMC数字化转型框架
+- [[government-reference-architectures]] — 政府参考架构（GRA）模式：政府拥有架构定义权
+- [[software-defined-capabilities]] — 软件定义能力：硬件标准化+软件可替换+能力通过软件配置
 ## Entities (人物/组织/政策实体)
 - [[parth-devang-shah]] — Shah论文作者，GWU D.Eng. 2021
 - [[better-buying-power-3-0]] — MOSA强制指令 (2015), DoD采购改革
@@ -118,9 +146,36 @@
 - [[digital-engineering-mosa-convergence]] — 数字工程与MOSA融合：从采办策略到工程方法论的质变
 - [[siaw-aargm-er-mosa-contrast]] — SiAW vs AARGM-ER MOSA对比
 - [[mosa-implementation-status-matrix]] — MOSA实施状态矩阵(20项目)
+- [[interface-engineering-evolution]] — 接口工程三层演进：从NASA ICD到MOSA标准化到SysML v2模型驱动
+- [[incose-resilience-vs-nist-cyber-resilience]] — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
+- [[digital-ecosystem-platforms]] — 数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE
+- [[open-architecture-hierarchy]] — 开放架构层次体系：21种实现的四层结构（平台→分系统→设备→部组件）
+- [[mosa-cca-application]] — MOSA在CCA中的应用
+- [[six-validated-mosa-standards]] — 三军已验证开放标准生态（6大标准）
+- [[gra-ecosystem-evolution]] — GRA生态演进：从单一标准到四层架构体系
+
+## Standards
+## Entities
+- [[cae-usa]] — CAE USA（SCARS主承包商）
+- [[general-atomics]] — General Atomics / GA-ASI（CCA YFQ-42A）
+- [[anduril]] — Anduril Industries（CCA YFQ-44A）
+- [[shield-ai]] — Shield AI（CCA自主供应商）
+- [[collins-aerospace]] — Collins Aerospace / RTX（CCA自主供应商）
+- [[is4s]] — IS4S（R-EGI设计代理）
+- [[afgsc]] — 空军全球打击司令部（AFGSC）
+- [[stratcom]] — 美国战略司令部（US STRATCOM）
+- [[daniel-hetzema]] — Daniel Hettema（DEM&S 主任）
+- [[ousd-re]] — OUSD(R&E) 研究与工程副部长办公室
+- [[dems]] — DEM&S 数字工程、建模与仿真团队
 
 ## Standards
 - FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, SCA, HOST, ISO/IEC/IEEE 15288
 
 ---
-*Last updated: 2026-04-26 (MOSA国防应用案例批量摄取: 9 sources, 3 entities, 3 concepts, 2 comparisons — 17 new pages. Total: 100 pages)*
+*Last updated: 2026-04-26 (全库审计修复: +3 entities, +1 comparison, 14 cross-ref fixes, 1 orphan fixed. Total: 129 pages)*
+    - [[nasa-hdbk-7009a]] — NASA建模与仿真手册HDBK-7009A (2019, 157页). M&S全生命周期管理、V&V体系、置信度评估.
+    - [[ieee-nasa-de-journey-2024]] — IEEE Aerospace Conference: NASA数字工程转型之旅 (2024, 18页). MBSE部署状态、692用户、工具链集成.
+    - [[nasa-hdbk-1004]] — NASA数字工程采办框架HDBK-1004 (2020, 217页). DRD模板、合同语言、MBE计划、互操作性.
+    - [[nasa-hdbk-1009a]] — NASA系统建模手册HDBK-1009A (2025 Rev A, 88页). SysML元模型、SE引擎对齐、MBSE Grid.
+    - [[nasa-se-handbook-rev2]] — NASA系统工程手册 Rev 2 (接口管理体系，MOSA工程实践参考)
+*Last updated: 2026-04-29 (软件定义能力+数字生态系统平台+OMS/CCA扩展: +2 concepts, +1 comparison, 扩展4页. Total: 158 pages)*

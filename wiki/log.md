@@ -1,6 +1,145 @@
 
 ---
 
+## 2026-05-06 — 开放架构层次体系扩展：从10种到21种实现
+
+**触发**：用户指出"其他的各种开放系统架构的实现也应该归入这个分类结构"，要求补全美国所有开放架构实现
+
+**操作**：
+- 新建13个wiki source pages（AMS GRA, A-GRA, ABMS GRA, NC3 GRA, Sentinel GRA, COARPS, R-EGI, SCARS, CFW ICD, OSMP, NG InSight, DAU Next Gen Acquisition, Senate Hunter Testimony）
+- 下载14个.mil/.gov PDF/DOCX到raw/papers/，mutool转换到raw/articles/
+- 下载11个web文章到raw/articles/
+- 更新层次总览页open-architecture-hierarchy.md：从10种→21种实现
+- 更新index.md、交叉引用
+
+**新建source pages**：
+- wiki/sources/dau-next-gen-acquisition-2024.md — DAU演示（全GRA清单）
+- wiki/sources/senate-defense-hunter-testimony-2024.md — Senate证词（AMS GRA/A-GRA）
+- wiki/sources/ng-insight-open-processor.md — NG InSight处理器（AMS-GRA合规）
+- wiki/sources/afrc-a-gra-cca-validation-2025.md — A-GRA/CCA验证
+- wiki/sources/crs-nc3-if11697.md — NC3 CRS入门
+- wiki/sources/dtic-nc3-architecture-ada619949.md — NC3 GAO审查
+- wiki/sources/crs-sentinel-icbm-if11681.md — Sentinel CRS入门
+- wiki/sources/afgsc-sentinel-gbsd.md — AFGSC Sentinel部署
+- wiki/sources/dvids-r-egi-pnt-flight-2024.md — R-EGI飞行演示
+- wiki/sources/usaf-coarps-rfi-2021.md — COARPS RFI
+- wiki/sources/ntsa-scars-stcf-2025.md — SCARS 2025简报
+- wiki/sources/ndia-cfw-icd-wright-2015.md — CFW ICD NDIA演示
+- wiki/sources/navair-osmp-guide-v1-2025.md — OSMP实施指南
+
+**新增raw/papers/**：
+- dau-next-gen-acquisition-2024.pdf, dtic-nc3-architecture-ada619949.pdf, afrc-a-gra-cca-validation-2025.pdf, senate-defense-hunter-testimony-2024.pdf, dvids-r-egi-pnt-flight-2024.pdf, crs-sentinel-icbm-if11681.pdf, crs-nc3-if11697.pdf, ng-insight-open-processor.pdf, navair-osmp-guide-v1-2025.pdf, usaf-coarps-rfi-2021.docx, samgov-uai-rfi.pdf, ntsa-scars-stcf-2025.pdf, afgsc-sentinel-gbsd.pdf, ndia-cfw-icd-wright-2015.pdf
+
+**更新**：
+- wiki/comparisons/open-architecture-hierarchy.md — 21种实现四层结构，链接到concept pages
+- wiki/index.md — 新增11个concept pages + 3个comparison pages
+- wiki/log.md — 本条目
+
+**新建concept pages**：
+- wiki/concepts/ams-gra-agile-mission-suite.md — AMS GRA
+- wiki/concepts/a-gra-autonomy-reference-architecture.md — A-GRA
+- wiki/concepts/abms-gra-advanced-battle-management.md — ABMS GRA
+- wiki/concepts/pnt-gra-r-egi.md — PNT GRA/R-EGI
+- wiki/concepts/coarps-radar-architecture.md — COARPS
+- wiki/concepts/scars-simulator-architecture.md — SCARS
+- wiki/concepts/nc3-gra-nuclear-c3.md — NC3 GRA
+- wiki/concepts/sentinel-gra-icbm.md — Sentinel GRA
+
+**Mission Planning GRA**：公开信息极少（仅Garrett演示一行），待后续补充
+
+**POST-INGEST分析**：
+- 新建8个entity pages：CAE USA、General Atomics、Anduril、Shield AI、Collins Aerospace、IS4S、AFGSC、STRATCOM
+- 新建1个topic page：gra-ecosystem-evolution（GRA生态演进：从单一标准到四层架构体系）
+- 更新overview.md：新增第4节"GRA生态：21种开放架构的四层体系"
+- 更新index.md：新增entity pages和topic page
+
+---
+
+## 2026-04-29 — 软件定义能力+数字生态系统平台+OMS/CCA扩展
+
+**新增概念页面（2个）**：
+- `software-defined-capabilities.md` — 软件定义能力：CCA和ABMS的核心设计理念（硬件标准化+软件可替换+能力通过软件配置），与OMS/FACE/MOSA的关系
+- `digital-ecosystem-platforms.md` — 数字生态系统四大平台对比：PLM（数据管理）、FENCES（网络安全）、CLOUDONE（云基础设施）、PLATFORMONE（DevSecOps）
+
+**扩展页面（4个）**：
+- `open-mission-systems.md` — 大幅扩展：新增GRA目标架构中OMS作为"抽象服务总线（ASB）隔离器"角色、CCA关联、FACE TIM 2021集成实践、Chris Garrett演示数据
+- `speed-vs-modularity.md` — 新增CCA作为最新案例（2028 MTA时间线 vs MOSA合规）、SAB ToR隐含审查、平衡策略（GRA复用、标准堆栈预集成）
+- `c5isr-standards-convergence.md` — 新增FACE TIM 2021实证数据（20公司×29产品×8 TSS集成规模、多版本FACE互操作、TSS桥接机制、遗留系统融入、容器适航性差距）
+- `digital-engineering-practice.md` — 新增NASA三层DE实施体系（HDBK-1004采办框架217页 + HDBK-1009A系统建模88页 + HDBK-7009A M&S质量157页）、实施数据（692用户/1100+模型）、与DoD体系对比
+
+**来源**：
+- Chris Garrett AFMC演示 (2024.9, 19页)
+- FY2024 SAB S&T审查ToR (6页)
+- PEO Aviation FACE TIM 2021 (56页)
+
+**更新index.md**：+2 concepts, +1 comparison
+
+---
+
+## 2026-04-26 — 数字工程×MOSA交叉领域补充
+
+**新增source页面**：
+- `nist-sp-800-160-v2-cyber-resilience.md` — NIST赛博弹性系统开发（310页，含11项结构性设计原则，与MOSA模块化高度对齐）
+- `sysml-v2-specification.md` — SysML v2规范（2025年6月OMG正式采纳，MOSA接口建模的下一代语言基础）
+- `ousd-sysml-v2-transition-guidance.md` — OUSD(R&E) SysML v1→v2 过渡指导（官方规划大纲）
+- `ndia-sysml-v2-transition-2023.md` — NDIA 2023 SysML v2 过渡指南项目简报（Daniel Hettema）
+- `nasa-se-handbook-rev2.md` — NASA系统工程手册 Rev 2（接口管理体系，MOSA工程实践参考）
+- `incose-se-handbook-v5.md` — INCOSE SE Handbook V5（系统工程权威参考，与ISO 15288对齐）
+
+**新增实体**：
+- `daniel-hetzema.md` — Daniel Hettema（DEM&S 主任，SysML v2 过渡推动者）
+- `ousd-re.md` — OUSD(R&E) 研究与工程副部长办公室
+- `dems.md` — DEM&S 数字工程、建模与仿真团队
+
+**新增对比页**：
+- `three-se-handbooks-detailed-comparison.md` — 三本SE手册逐维度对比（NASA/INCOSE/ISO）
+
+**交叉引用修复**（14个页面）：
+- `digital-engineering-ecosystem` — +INCOSE/NASA/NIST
+- `three-se-handbooks-detailed-comparison` — +NIST
+- `three-se-handbooks-complement` — +NIST
+- `iso-15288-2023` — +INCOSE
+- `digital-engineering-mosa-convergence` — +INCOSE
+- `incose-mbse-methodology-survey` — +INCOSE/NASA
+- `sysml-v2-specification` — +INCOSE
+- `nist-sp-800-160-v2-cyber-resilience` — +NASA
+- `incose-se-handbook-v5` — +INCOSE entity
+- `ppi` / `ppi-business-case-se` / `ppi-integrating-pm-se` / `ppi-did-templates` — +INCOSE
+- `ppi-requirements-quality-metrics` — +NASA
+
+**概念/主题页修复**（12个页面）：
+- 概念 高密度 6个: `requirements-quality-mosa` / `mosa-five-pillars` / `mosa-defense-acquisition` / `modular-architecture-patterns` / `mosa-brownfield-vs-greenfield` / `dews-mosa-reference-architecture` — +接口演进
+- 概念 中密度 4个: `mosa-digital-engineering` / `mosa-five-pillars-assessment` / `host-hardware-open-systems` / `ucs-control-station` — +接口演进
+- 主题 2个: `digital-engineering-ecosystem` +SysML / `three-se-handbooks-complement` +SysML
+
+**洞察综合（5+新source后执行）**：
+- `interface-engineering-evolution.md` — 接口工程三层演进（NASA ICD → MOSA标准化 → SysML v2模型驱动）
+- `nist-cyber-resilience-mosa-security.md` — NIST赛博弹性设计原则作为MOSA安全性架构框架（7/11项原则直接映射）
+- `sysml-v2-transition-bottleneck.md` — SysML v1→v2过渡作为MOSA数字工程落地的基础设施瓶颈（15,000+模型迁移）
+- `incose-resilience-vs-nist-cyber-resilience.md` — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
+- `three-se-handbooks-complement.md` — 三本SE手册互补（NASA/INCOSE/ISO三层参考体系）
+
+**更新页面**：
+- `cybersecurity-vs-mosa-openness.md` — 新增NIST赛博弹性框架作为MOSA安全性的解决方案
+- `digital-engineering-tools-comparison.md` — 新增SysML v2引用
+- `digital-engineering-ecosystem.md` — 新增NIST和SysML v2来源
+- `incose.md` — 新增SysML v2标准化活动
+- `mosa-digital-engineering.md` — 新增NIST和SysML v2引用
+
+**已下载原始资料**：
+- `NIST.SP.800-160v2r1.pdf` (5.0M, 42273行) — 赛博弹性工程
+- `SysML-v2-Basics-2024.pdf` (1.5M, 974行) — SysML v2概述
+- `raw/repo/sysml-v2-release/` — SysML v2官方repo（含KerML 454页、SysML v2 691页、API 107页、v1→v2转换 661页、图形表示法 123页，共5个规范PDF + BNF语法定义）
+- `SysML-Info-Sheet-Jan2025.pdf` (893K, 2页) — OUSD(R&E) SysML v2 技术亮点
+- `SysML-v2-TransitionOutline-1.1.pdf` (360K) — OUSD(R&E) SysML v1→v2 过渡规划大纲 v1.1
+- `Thurs_1560710_Stirk.pdf` (2.0M) — NDIA 2023 SysML v2 过渡指南项目简报
+- `NASA-SP-2016-6105-Rev2.pdf` (4.0M, 21030行) — NASA系统工程手册 Rev 2
+- `INCOSE-SE-Handbook-V5.pdf` (8.8M, 22329行) — INCOSE SE Handbook V5
+
+**待手动下载**（服务器不可达）：
+- ~~INCOSE SE Handbook V5（付费书）~~ ✅ 已由用户手动下载
+
+---
 ## 2026-04-20 — 知识库全面质量检查与修复
 
 **操作**：扫描77个内容页面，发现47个有问题，全部修复
@@ -527,3 +666,82 @@ Total wiki pages: 30
 - 新增source页: 5个 (navair-mosa-overview, dote-fy2024-abms, afmc-abms-distributed-connectivity, sam-abms-baa, mitre-dews-mosa-ra-full)
 - 更新concept页: dews-mosa-reference-architecture.md (从幻灯片升级为完整文档)
 - 洞察: ABMS核心问题是CBC2软件不成熟而非架构问题; 海军有MOSA战略但无正式指南; DEWS RA全文含完整数据模型
+
+## [2026-04-26] ingest | NAVAIR MOSA生态补充（5个来源 + 3个PDF OCR）
+
+**新增来源：**
+- 三军联合备忘录 (2024.12) — Nickolas Guertin等三军部长联合签署，MOSA强制化标志
+- 海军MOSA实施指南V1.0 — 海军定制版，含网络安全集成和企业推广策略
+- NAVAIR HOST 5.0发布新闻 (2023.2) — HOST标准官方发布
+- Defense News评论文章 (2024.12) — Guertin署名，MOSA→作战能力叙事转变
+- Military Embedded报道 (2025.8) — 海军OSMP内生化
+
+**新增页面：**
+- entities: nickolas-guertin, pma-209
+- concepts: host-hardware-open-systems
+- comparisons: six-validated-mosa-standards
+- sources: 5个新source页
+
+**洞察：**
+1. 三军备忘录首次在最高政策层面确认6大标准（OMS/UCI, SOSA, AMS GRA, WOSA, FACE, VICTORY），AMS GRA此前wiki未覆盖
+2. WOSA在备忘录中被定义为武器系统接口标准（非工具），需更新现有概念页
+3. 海军OSMP内生化是MOSA从"外包文档"到"内生能力"的标志性转变
+4. HOST是NAVAIR自研硬件标准，与6大标准互补而非重叠
+
+**待补：**
+- WOSA概念页需更新（从工具描述改为标准描述）
+- AMS GRA可考虑新建概念页
+
+---
+
+## [2026-04-29] ingest | PEO Aviation PDF替换：Industry Day 2022 + FACE TIM 2021
+
+**操作**：处理2个PEO Aviation PDF（替换此前损坏的版本）
+
+**更新source页（1个）**：
+- `peo-aviation-mosa-industry-2022.md` — 更新sources引用指向正确PDF（`PEO_Aviation_MOSA_TO_Industry_Days_2022.pdf`），大幅扩展摘要内容（新增EAF/EPA/CSM/MCC/EPS/AMCE/CDC详细描述），补充交叉引用
+
+**新建source页（1个）**：
+- `peo-aviation-face-tim-2021.md` — PEO Aviation FACE TIM 2021开放系统演示（56页，20家公司+9个DoD组织+29个软件产品+8个TSS产品的大规模FACE集成演示）
+
+**更新index.md**：
+- 新增 `peo-aviation-face-tim-2021` 条目
+- 更新 `peo-aviation-mosa-industry-2022` 描述
+
+**POST-INGEST检查清单**：
+- [x] entities/ — 无新核心实体（PEO Aviation已在多个页面中引用，无需独立实体页）
+- [x] concepts/ — FACE TIM 2021暴露的概念（TSS桥接、容器适航性、多版本FACE互操作）已由现有`face-technical-standard`概念覆盖
+- [x] comparisons/ — 无新张力/演化需要创建（现有`c5isr-standards-convergence`已覆盖CMOSS/SOSA/CMOSS互操作主题）
+- [x] topics/ — 无新跨来源综合需要（2个source均为PEO Aviation内部演示，已由现有主题覆盖）
+- [x] overview.md — 非基础性文件，不改变大局观
+
+**关键发现**：
+- Industry Day 2022新PDF比旧版内容更完整：新增EPS CSM、AMCE架构、通信模块化路线图、CSM开发挑战详细反馈
+- FACE TIM 2021是FACE生态最大规模集成演示的完整技术文档，此前因PDF损坏无法处理
+- 两个PDF互为补充：Industry Day侧重业务/治理/框架，FACE TIM侧重技术集成/实现
+
+## [2026-04-29] ingest | 数字工程补充材料：NASA手册×4 + FY24 S&T + Chris Garrett
+
+**操作**：处理6个新增PDF（用户"补充资料.zip"），覆盖NASA数字工程框架、空军数字化转型
+
+**新建source页（6个）**：
+- `nasa-hdbk-7009a.md` — NASA建模与仿真手册HDBK-7009A（157页，M&S全生命周期管理、V&V体系、置信度评估框架）
+- `nasa-hdbk-1004.md` — NASA数字工程采办框架HDBK-1004（217页，DRD模板、合同语言、MBE计划、互操作性要求）
+- `nasa-hdbk-1009a.md` — NASA系统建模手册HDBK-1009A Rev A（88页，SysML元模型、SE引擎对齐、MBSE Grid架构）
+- `ieee-nasa-de-journey-2024.md` — IEEE NASA数字工程转型之旅（18页，MBSE部署692用户、工具链集成经验）
+- `fy24-st-terms-of-reference.md` — FY2024 DAF SAB S&T审查职权范围（6页，CCA/定向能/频谱战主导权）
+- `chris-garrett-presentation-2024.md` — Chris Garrett AFMC数字化转型演示（19页，DMM/GRA/MBSE模型库/数字生态系统）
+
+**更新index.md**：新增6个条目
+
+**POST-INGEST检查清单**：
+- [x] entities/ — Chris Garrett (AFMC数字化转型主任) 可考虑创建实体页，但目前仅1个来源提及，不满足阈值
+- [x] concepts/ — NASA数字工程框架(7009A/1004/1009A)形成完整体系，可考虑创建综合概念页，但需更多来源支撑
+- [x] comparisons/ — NASA vs DoD数字工程路径对比有潜力（NASA HDBK 1004 vs DoDI 5000.97），待后续综合
+- [x] topics/ — 4个NASA手册可扩展 `digital-engineering-ecosystem` 主题，但需人工审阅后决定
+- [x] overview.md — NASA数字工程体系的补充填补了"系统韧性量化"部分空白，待整体review后更新
+
+**关键发现**：
+- NASA HDBK 7009A/1004/1009A 形成完整的数字工程三层体系：M&S管理→采办框架→建模语言
+- Chris Garrett演示揭示AFMC正在建立"数字生态系统"（Digital Ecosystem），与MOSA数字工程融合路径一致
+- FY24 S&T Terms of Reference 聚焦CCA任务系统/定向能/频谱战，是MOSA在下一代武器系统中的应用场景

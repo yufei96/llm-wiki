@@ -3,7 +3,7 @@ title: "OSA合同指南v1.1 — 项目经理开放系统架构合同指南"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/osa-contract-guidebook-v1.1-2013.pdf
+sources: [raw/papers/osa-contract-guidebook-v1.1-2013.pdf, raw/articles/osa-contract-guidebook-v1.1-2013.md]
 author: "USD(AT&L)"
 tags: [OSA, MOSA起源, 合同指南, 五原则, 供应商锁定]
 ---

@@ -3,7 +3,7 @@ title: "DSB数字工程能力报告 — 自动化测试与评估"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dsb-digital-engineering-2024.pdf
+sources: [raw/papers/dsb-digital-engineering-2024.pdf, raw/articles/dsb-digital-engineering-2024.md]
 author: "Defense Science Board"
 tags: [DSB, 数字工程, MOSA, DEE, 模型驱动]
 ---

@@ -116,7 +116,9 @@ Track消息数据对象包含详细API定义：
 
 ## 相关内容
 
-- [[sosa-reference-architecture-v2]] — SOSA参考架构，DEWS RA整合的核心标准
+- [[open-architecture-hierarchy]] — 开放架构四层体系（DEWS RA为分系统级）
+- [[wosa-weapons-open-systems-architecture]] — WOSA武器系统架构（常规武器分系统标准）
+- [[sosa-sensor-open-systems-architecture]] — SOSA传感器架构，DEWS RA整合的核心标准
 - [[cmoss-overview-2022]] — CMOSS标准概述，与SOSA同属开放标准体系
 - [[mosaic-modular-open-systems-approach]] — MOSA总体方法论
 - [[mosa-five-pillars-assessment]] — OUSD(R&E) MOSA五大支柱评估框架
