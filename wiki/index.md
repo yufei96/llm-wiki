@@ -19,7 +19,6 @@
 - [[three-se-handbooks-complement]] — 三本SE手册互补（NASA/INCOSE/ISO三层参考体系）
 
 ## Sources (来源摘要)
-## Sources (来源摘要)
     - [[mil-hdbk-1211-mi-missile-flight-simulation]] — MIL-HDBK-1211(MI): Missile Flight Simulation Handbook (1995). Guidance for surface-to-air missile simulation models. Raw: `raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf`
     - [[mosa-shah-thesis]] — Shah, \\\"MOSA and US Defense Acquisition\\\" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
     - [[dodi-5000-02-2020]] — DoDI 5000.02, \\\"Operation of the Adaptive Acquisition Framework\\\" (2020, Chg1 2022). 19 pages. Raw: `raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf`
@@ -152,10 +151,20 @@
 - [[open-architecture-hierarchy]] — 开放架构层次体系：21种实现的四层结构（平台→分系统→设备→部组件）
 - [[mosa-cca-application]] — MOSA在CCA中的应用
 - [[six-validated-mosa-standards]] — 三军已验证开放标准生态（6大标准）
+- [[cae-usa]] — CAE USA（SCARS主承包商）
+- [[general-atomics]] — General Atomics / GA-ASI（CCA YFQ-42A）
+- [[anduril]] — Anduril Industries（CCA YFQ-44A）
+- [[shield-ai]] — Shield AI（CCA自主供应商）
+- [[collins-aerospace]] — Collins Aerospace / RTX（CCA自主供应商）
+- [[is4s]] — IS4S（R-EGI设计代理）
+- [[afgsc]] — 空军全球打击司令部（AFGSC）
+- [[stratcom]] — 美国战略司令部（US STRATCOM）
+- [[daniel-hetzema]] — Daniel Hettema（DEM&S 主任）
+- [[ousd-re]] — OUSD(R&E) 研究与工程副部长办公室
+- [[dems]] — DEM&S 数字工程、建模与仿真团队
 - [[gra-ecosystem-evolution]] — GRA生态演进：从单一标准到四层架构体系
 
-## Standards
-## Entities
+
 - [[cae-usa]] — CAE USA（SCARS主承包商）
 - [[general-atomics]] — General Atomics / GA-ASI（CCA YFQ-42A）
 - [[anduril]] — Anduril Industries（CCA YFQ-44A）
@@ -170,12 +179,3 @@
 
 ## Standards
 - FACE, OMS, UCS, VICTORY, SOSA, CMOSS, MORA, SCA, HOST, ISO/IEC/IEEE 15288
-
----
-*Last updated: 2026-04-26 (全库审计修复: +3 entities, +1 comparison, 14 cross-ref fixes, 1 orphan fixed. Total: 129 pages)*
-    - [[nasa-hdbk-7009a]] — NASA建模与仿真手册HDBK-7009A (2019, 157页). M&S全生命周期管理、V&V体系、置信度评估.
-    - [[ieee-nasa-de-journey-2024]] — IEEE Aerospace Conference: NASA数字工程转型之旅 (2024, 18页). MBSE部署状态、692用户、工具链集成.
-    - [[nasa-hdbk-1004]] — NASA数字工程采办框架HDBK-1004 (2020, 217页). DRD模板、合同语言、MBE计划、互操作性.
-    - [[nasa-hdbk-1009a]] — NASA系统建模手册HDBK-1009A (2025 Rev A, 88页). SysML元模型、SE引擎对齐、MBSE Grid.
-    - [[nasa-se-handbook-rev2]] — NASA系统工程手册 Rev 2 (接口管理体系，MOSA工程实践参考)
-*Last updated: 2026-04-29 (软件定义能力+数字生态系统平台+OMS/CCA扩展: +2 concepts, +1 comparison, 扩展4页. Total: 158 pages)*
