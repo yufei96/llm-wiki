@@ -3,7 +3,7 @@ title: "DFARS第207部分 — 采办规划（MOSA）"
 created: 2026-04-05
 updated: 2026-04-20
 type: source_summary
-source: raw/papers/dfars_part-207---acquisition-planning.pdf
+sources: [raw/papers/dfars_part-207---acquisition-planning.pdf, raw/articles/dfars_part-207---acquisition-planning.md]
 author: "国防联邦采办条例补充"
 tags: [DFARS, 采办规划, MOSA, 开放架构, 国防采办]
 ---

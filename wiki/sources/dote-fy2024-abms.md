@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [ABMS, DOT&E, 测试评估, CBC2, AFOTEC, 作战测试]
-sources: [raw/papers/dote-fy2024-abms.pdf]
+sources: [raw/papers/dote-fy2024-abms.pdf, raw/articles/dote-fy2024-abms.md]
 ---
 
 # DOT&E FY2024年度报告 — ABMS章节

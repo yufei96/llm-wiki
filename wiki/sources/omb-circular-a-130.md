@@ -4,7 +4,7 @@ created: 2026-04-20
 updated: 2026-04-20
 type: source
 tags: [联邦政策, 信息管理, 信息安全, 隐私, IT投资, 赛博安全]
-sources: [raw/papers/a130revised.pdf]
+sources: [raw/papers/a130revised.pdf, raw/articles/a130revised.md]
 ---
 
 # OMB Circular A-130 摘要

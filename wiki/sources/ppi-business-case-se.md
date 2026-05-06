@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [PPI, 系统工程, 投资回报, 成本效益, Robert-Halligan]
-sources: [raw/papers/ppi-business-case-se.pdf]
+sources: [raw/papers/ppi-business-case-se.pdf, raw/articles/ppi-business-case-se.md]
 ---
 
 # PPI — 系统工程投资回报论证

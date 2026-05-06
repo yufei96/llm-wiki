@@ -3,7 +3,7 @@ title: "SOSA传感器开放系统架构参考架构技术标准"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/sosa-reference-architecture-v2.pdf
+sources: [raw/papers/sosa-reference-architecture-v2.pdf, raw/articles/sosa-reference-architecture-v2.md]
 author: "The Open Group SOSA Consortium"
 tags: [SOSA, 传感器, C4ISR, 开放架构, The Open Group]
 ---

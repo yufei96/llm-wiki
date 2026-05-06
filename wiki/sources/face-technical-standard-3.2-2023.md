@@ -3,7 +3,7 @@ title: "FACE技术标准3.2版（2023年8月）"
 created: 2026-04-05
 updated: 2026-04-05
 type: source_summary
-source: raw/papers/face-technical-standard-edition-3.2.pdf
+sources: [raw/papers/face-technical-standard-edition-3.2.pdf, raw/articles/face-technical-standard-edition-3.2.md]
 author: "开放群组（The Open Group）——FACE联盟"
 tags: [FACE, MOSA, 航电, 开放架构, 技术标准, 机载, 一致性单元, 合规性]
 ---

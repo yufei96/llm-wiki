@@ -3,7 +3,7 @@ title: "ARSENL — 空军架构标准与工程库"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/arsenl.pdf
+sources: [raw/papers/arsenl.pdf, raw/articles/arsenl.md]
 author: "AFMC / AFLCMC"
 tags: [ARSENL, MOSA标准, USAF, 标准库, 参考架构]
 ---

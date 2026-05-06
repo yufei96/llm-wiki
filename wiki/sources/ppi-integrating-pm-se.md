@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [PPI, 项目管理, 系统工程, 整合, PM-SE]
-sources: [raw/papers/ppi-integrating-pm-se.pdf]
+sources: [raw/papers/ppi-integrating-pm-se.pdf, raw/articles/ppi-integrating-pm-se.md]
 ---
 
 # PPI — 项目管理与系统工程整合

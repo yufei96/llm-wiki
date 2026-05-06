@@ -3,7 +3,7 @@ title: "MIL-STD-881D——国防装备工作分解结构标准"
 created: 2026-04-05
 updated: 2026-04-05
 type: source_summary
-source: raw/papers/mil-std-881d-wbs-defense-materiel-2018.pdf
+sources: [raw/papers/mil-std-881d-wbs-defense-materiel-2018.pdf, raw/articles/mil-std-881d-wbs-defense-materiel-2018.md]
 author: "美国国防部"
 tags: [军用标准, WBS, 国防采办, 模块化, 成本上报, MOSA]
 ---

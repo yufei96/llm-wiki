@@ -4,7 +4,7 @@ created: 2026-04-05
 updated: 2026-04-05
 type: source_summary
 translator: auto-cn
-source: raw/papers/fy_2017_national_defense_authorization_act.pdf
+sources: [raw/papers/fy_2017_national_defense_authorization_act.pdf, raw/articles/fy_2017_national_defense_authorization_act.md]
 author: "114th Congress, Public Law 114-328"
 tags: [NDAA, legislation, MOSA, 10 USC, legal-origin, FY2017]
 ---

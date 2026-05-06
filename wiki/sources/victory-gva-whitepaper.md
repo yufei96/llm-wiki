@@ -3,7 +3,7 @@ title: "VICTORY与GVA：地面车辆现代化白皮书"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/victory-gva-vehicle-modernization.pdf
+sources: [raw/papers/victory-gva-vehicle-modernization.pdf, raw/articles/victory-gva-vehicle-modernization.md]
 author: "Curtiss-Wright Defense Solutions"
 tags: [VICTORY, GVA, 车辆, 以太网, COTS]
 ---

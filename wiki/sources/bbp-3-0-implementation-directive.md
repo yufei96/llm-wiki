@@ -3,7 +3,7 @@ title: "Better Buying Power 3.0 — 实施指令"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/bbp-3-implementation-directive.pdf
+sources: [raw/papers/bbp-3-implementation-directive.pdf, raw/articles/bbp-3-implementation-directive.md]
 author: "Frank Kendall, USD(AT&L)"
 tags: [BBP, MOSA起源, 采办改革, Frank Kendall, 实施指令]
 ---

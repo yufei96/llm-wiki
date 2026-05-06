@@ -3,7 +3,7 @@ title: "DSP Journal 2020 — MOSA专刊"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/dsp-journal-mosa-200101.pdf
+sources: [raw/papers/dsp-journal-mosa-200101.pdf, raw/articles/dsp-journal-mosa-200101.md]
 author: "Defense Standardization Program Office (DSPO)"
 tags: [MOSA, CMOSS, VICTORY, MORA, 标准化, 综述]
 ---

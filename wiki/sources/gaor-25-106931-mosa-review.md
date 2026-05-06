@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [MOSA, GAO审查, 采办政策, 成本效益分析, 国防采办, 5000系列指令]
-sources: [raw/papers/gao-25-106931-mosa-review.pdf, raw/papers/gao-25-106931-mosa-review.pdf]
+sources: [raw/papers/gao-25-106931-mosa-review.pdf, raw/articles/gao-25-106931-mosa-review.md]
 ---
 
 # GAO-25-106931 MOSA专项审查报告

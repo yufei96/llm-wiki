@@ -3,7 +3,7 @@ title: "SOSA产品技术概览与产品指南"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/sosa-vita-products-capabilities.pdf
+sources: [raw/papers/sosa-vita-products-capabilities.pdf, raw/articles/sosa-vita-products-capabilities.md]
 author: "Elma Electronic"
 tags: [SOSA, VITA, OpenVPX, 硬件, 产品指南]
 ---

@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [数字工程, DEE, DoD战略, 2018, ASD-R&E, 五大目标]
-sources: [raw/papers/dod-digital-engineering-strategy-2018.pdf]
+sources: [raw/papers/dod-digital-engineering-strategy-2018.pdf, raw/articles/dod-digital-engineering-strategy-2018.md]
 ---
 
 # DoD数字工程战略（2018）

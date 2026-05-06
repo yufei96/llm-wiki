@@ -3,7 +3,7 @@ title: "MIL-HDBK-1211(MI)：导弹飞行仿真手册"
 created: 2026-04-13
 updated: 2026-04-14
 tags: [导弹仿真, 国防手册, 空气动力学, 制导控制]
-source: [raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf]
+sources: [raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf, raw/articles/75195d4e-741e-4cee-8e1e-72ec9bc966ab.md]
 ---
 
 # MIL-HDBK-1211(MI)：导弹飞行仿真手册

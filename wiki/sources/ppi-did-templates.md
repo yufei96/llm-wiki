@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [PPI, DID, 模板, 系统工程, 需求, 设计, 合同]
-sources: [raw/papers/ppi-did-conops-osd.pdf, raw/papers/ppi-did-sep.pdf, raw/papers/ppi-did-sow.pdf, raw/papers/ppi-did-ssdd.pdf, raw/papers/ppi-did-syrs.pdf, raw/papers/ppi-sem-definitions.pdf]
+sources: [raw/papers/ppi-did-conops-osd.pdf, raw/papers/ppi-did-sep.pdf, raw/papers/ppi-did-sow.pdf, raw/papers/ppi-did-ssdd.pdf, raw/papers/ppi-did-syrs.pdf, raw/papers/ppi-sem-definitions.pdf, raw/articles/ppi-did-conops-osd.md, raw/articles/ppi-did-sep.md, raw/articles/ppi-did-sow.md, raw/articles/ppi-did-ssdd.md, raw/articles/ppi-did-syrs.md, raw/articles/ppi-sem-definitions.md]
 ---
 
 # PPI数据项描述（DID）模板合集

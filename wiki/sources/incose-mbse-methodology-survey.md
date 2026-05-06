@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: source
 tags: [MBSE, INCOSE, 方法论, 系统工程, SysML, 模型驱动]
-sources: [raw/papers/mbse-methodology-survey-revb.pdf]
+sources: [raw/papers/mbse-methodology-survey-revb.pdf, raw/articles/mbse-methodology-survey-revb.md]
 ---
 
 # INCOSE MBSE方法论调查

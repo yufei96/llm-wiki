@@ -4,7 +4,7 @@ created: 2026-04-19
 updated: 2026-04-19
 type: concept
 tags: [MOSA, 数字工程, DEE, MBSE, 数字孪生, 基于模型]
-sources: [raw/papers/dodi-5000-97-digital-engineering-2023.pdf, raw/papers/dsb-digital-engineering-2024.pdf]
+sources: [raw/papers/dodi-5000.97-digital-engineering-2023.pdf, raw/papers/dsb-digital-engineering-2024.pdf, raw/papers/NIST.SP.800-160v2r1.pdf, raw/papers/SysML-v2-Basics-2024.pdf]
 ---
 
 # MOSA与数字工程
@@ -66,6 +66,8 @@ MOSA为数字工程提供**互操作基础**：
 - DoDI 5000.02 Section 3.10 — AAF框架中的DE政策要求
 - 各军种DE实施计划（Army/Navy/Air Force）
 - SysML v2标准原文
+- [[sysml-v2-specification]] — SysML v2规范（MOSA接口建模的下一代语言基础）
+- [[nist-sp-800-160-v2-cyber-resilience]] — NIST赛博弹性框架（MOSA安全性维度）
 
 ## 相关内容
 
@@ -76,5 +78,6 @@ MOSA为数字工程提供**互操作基础**：
 - [[modular-architecture-patterns]] — 模块化架构模式
 - [[dod-de-strategy-2018]] — DoD数字工程战略（2018纲领文件）
 - [[incose-mbse-methodology-survey]] — MBSE方法论调查
+- [[interface-engineering-evolution]] — 接口工程三层演进
 - [[iso-15288-2023]] — ISO/IEC/IEEE 15288系统生命周期过程
 - [[osa-contract-guidebook-v1.1]] — OSA合同指南

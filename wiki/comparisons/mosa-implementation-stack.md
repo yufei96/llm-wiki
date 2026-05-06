@@ -92,3 +92,4 @@ DID模板(CONOPS/SEP/SSDD)
 - [[ppi-did-templates]] — 第5层DID模板
 - [[ppi-integrating-pm-se]] — PM-SE整合（层级间协调）
 - [[speed-vs-modularity]] — 速度张力（第2层内部矛盾）
+- [[mosa-architecture-vulnerabilities]] — MOSA架构脆弱性结构性分析

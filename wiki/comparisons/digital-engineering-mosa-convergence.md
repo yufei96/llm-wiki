@@ -4,7 +4,7 @@ created: 2026-04-20
 updated: 2026-04-20
 type: comparison
 tags: [MOSA, 数字工程, DEE, MBSE, 数字孪生, DoDI 5000.97, INCOSE]
-sources: [raw/papers/dod-digital-engineering-strategy-2018.pdf, raw/papers/dodi-5000.97-digital-engineering.pdf, raw/papers/mbse-methodology-survey-revb.pdf, raw/papers/dsb-digital-engineering-2024.pdf]
+sources: [raw/papers/dod-digital-engineering-strategy-2018.pdf, raw/papers/dodi-5000.97-digital-engineering.pdf, raw/papers/mbse-methodology-survey-revb.pdf, raw/papers/dsb-digital-engineering-2024.pdf, raw/papers/NIST.SP.800-160v2r1.pdf, raw/papers/SysML-v2-Basics-2024.pdf]
 ---
 
 # 数字工程与MOSA融合：从采办策略到工程方法论的质变
@@ -143,6 +143,9 @@ MOSA = 接口标准化 = 模型互操作的技术基础
 4. **文化变革是真正瓶颈**：技术可以解决，组织惯性难以克服
 
 ## 相关内容
+- [[sysml-v2-specification]] — SysML v2规范（MOSA接口建模的下一代语言基础）
+- [[nist-sp-800-160-v2-cyber-resilience]] — NIST赛博弹性框架（MOSA安全性维度）
+- [[incose-se-handbook-v5]] — INCOSE SE Handbook V5（系统工程最佳实践）
 
 - [[mosa-digital-engineering]] — MOSA与数字工程概念页
 - [[dodi-5000-97-digital-engineering]] — 数字工程指令

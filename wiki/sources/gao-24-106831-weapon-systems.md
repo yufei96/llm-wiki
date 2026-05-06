@@ -3,7 +3,7 @@ title: "GAO-24-106831 — 武器系统年度评估"
 created: 2026-04-19
 updated: 2026-04-19
 type: source_summary
-source: raw/papers/gao-24-106831-weapon-systems-assessment.pdf
+sources: [raw/papers/gao-24-106831-weapon-systems-assessment.pdf, raw/articles/gao-24-106831-weapon-systems-assessment.md]
 author: "美国政府问责署（GAO）"
 tags: [GAO, MDAP, MTA, 成本超支, 进度延误, 采办绩效]
 ---

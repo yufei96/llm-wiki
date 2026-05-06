@@ -1,0 +1,85 @@
+---
+title: "数字化物资管理（DMM）"
+created: 2026-04-29
+updated: 2026-04-29
+type: concept
+tags: [DMM, AFMC, 数字化转型, 数字工程, MBSE, GRA, 数据驱动, DAF]
+sources: [raw/papers/Chris-Garrett-Presentation-Sep-2024.pdf, raw/articles/Chris-Garrett-Presentation-Sep-2024.md]
+---
+
+# 数字化物资管理（DMM）
+
+## 摘要
+
+数字化物资管理（Digital Materiel Management, DMM）是美国空军装备司令部（[[afmc|AFMC]]）推动的数字化转型框架，旨在通过数字采办和物资管理加速武器系统能力交付。DMM的愿景是建立DAF数字生态系统和充分赋能的数字劳动力，以前所未有的政企协作水平交付集成、创新和可信的能力。
+
+## 要点
+
+### 终端状态
+
+- **目标**：通过数字采办和物资管理加速能力交付
+- **愿景**：DAF数字生态系统，充分赋能的数字劳动力，前所未有的政企协作
+- **目的**：采办企业的速度、灵活性和敏捷性；更快交付制胜能力
+
+### 六大战略方向
+
+1. **制定数字战略**：摒弃陈旧实践，为敏捷采办和保障铺路
+2. **灌输数字优先文化**：在不断变化的威胁环境中革新AFMC业务方式
+3. **提供DMM工具访问**：为数字作战配备动态工具箱
+4. **现代化IT基础设施**：持续支持快速企业解决方案
+5. **培训数字劳动力**：在全数字生态系统中与合作伙伴协作
+6. **结构化和安全化数据**：低摩擦的跨组织团队合作和决策
+
+### AQ数字采办优先事项
+
+1. 实施[[modular-architecture-patterns|开放系统标准和参考架构]]
+2. 确保项目"天生数字化"或在生命周期内数字化适应
+3. 扩展企业解决方案，拥抱基于云的协作环境
+4. 制度化敏捷软件开发和软件密集型系统流程
+
+### 数字化生态系统
+
+- **使能平台**：PLM / FENCES / CLOUDONE / PLATFORMONE
+- **组成**：参考架构模型、标准、工具、培训、数据架构
+- **核心实践**：MBSE模型库、[[government-reference-architectures|政府参考架构（GRA）]]、数据驱动决策
+
+### 关键挑战
+
+- **供应商锁定**：工具互操作性和软件供应商锁定（直接映射[[vendor-lock-in|MOSA反锁定目标]]）
+- **数据标准**：数据标准、格式、建模风格指南的统一
+- **军种集成**：USAF vs USSF vs DAF的集成和共性
+- **遗留过渡**：遗留项目和流程的数字化过渡
+- **安全扩展**：跨域解决方案/多级安全（CDS/MLS）的可扩展性
+- **合同机制**：数据项描述、合同数据需求清单、IP/数据权利、实时数据访问
+
+### 与MOSA的关系
+
+DMM和MOSA在多个层面交叉：
+- **开放系统标准**：DMM的AQ优先事项#1直接要求实施开放系统标准和参考架构
+- **反锁定**：DMM的供应商锁定挑战与MOSA的核心关切一致
+- **架构驱动**：GRA体系是MOSA在架构层面的具体实施
+- **数字工程**：DMM是[[digital-engineering-ecosystem|DEE]]在AFMC层面的实施
+
+## 相关内容
+
+- [[afmc]] — 空军装备司令部
+- [[aflcmc]] — 空军生命周期管理中心
+- [[chris-garrett]] — Chris Garrett（DMM推动者）
+- [[chris-garrett-presentation-2024]] — AFMC数字化转型演示
+- [[digital-engineering-ecosystem]] — 数字工程生态系统（DEE）
+- [[digital-engineering-mosa-convergence]] — 数字工程与MOSA融合
+- [[government-reference-architectures]] — 政府参考架构
+- [[mosa-digital-engineering]] — MOSA与数字工程融合
+- [[vendor-lock-in]] — 供应商锁定
+- [[modular-architecture-patterns]] — 模块化架构模式
+- [[model-based-systems-engineering]] — MBSE
+- [[dod-de-strategy-2018]] — DoD数字工程战略
+- [[dodi-5000-97-digital-engineering]] — DoDI 5000.97数字工程指令
+
+## 笔记
+
+- DMM是AFMC层面的框架，DEE是DoD层面的框架——两者互补但视角不同
+- DMM特别强调"文化变革"（数字优先文化），这是DEE五大目标之一在组织层面的落地
+- DMM的挑战清单（供应商锁定、数据标准、遗留过渡）是MOSA实施障碍在数字化领域的映射
+- 中国"无DoD 5000流程"的对比突出了DMM的紧迫性：美国需要通过数字化弥补流程劣势
+- GRA体系（79文档→36模型）是DMM最具操作性的成果之一
