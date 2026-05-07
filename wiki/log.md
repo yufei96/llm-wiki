@@ -1,7 +1,82 @@
      1|
      2|---
      3|
-     4|## 2026-05-06 — 开放架构层次体系扩展：从10种到21种实现
+     4|## 2026-05-07 — 知识库全量 Lint 修复
+
+**触发**：用户要求对知识库做 lint 分析并全部解决
+
+**修复前状态**：
+- 29 处断链、7 个孤立页面、overview 统计 4 项不准确
+
+**修复内容**：
+- 修复 overview.md 4 项统计：concepts 27→39, entities 21→22, comparisons 18→20, total pages 准确
+- 移除 2 个 placeholder wikilink（c-v2x-communication, cloud-control-platform → 纯文本"待补充"）
+- 修复 1 个 meta 链接（karpathy-vs-implementation: [[overview]] → wiki/overview）
+- 修复 1 个命名不一致（wosa-defense-acquisition → wosa-weapons-open-systems-architecture）
+- 移除 4 个不存在的目标链接（data-rights, resilience-engineering×2, resilience-metrics）
+- 创建 8 个缺失的 entity 页面：afgsc, anduril, cae-usa, collins-aerospace, general-atomics, is4s, shield-ai, stratcom
+- 创建 22 个缺失的 source stub 页面（gao-25-106931, dau-next-gen-acquisition 等）
+- 补齐 7 个孤立页面到 index：acquisition-practices, afmc-abms, dote-fy2024, mitre-dews, nickolas-guertin, pma-209, system-integration
+- 新建 comparison 页面 `china-vs-us-open-architecture.md`：中美开放架构十维对比
+- 加强交叉引用：system-integration + pla/china 双向链接
+
+**修复后状态**：214 页，0 有效断链（仅 [[overview]] 引用 meta 页的已知 false positive），所有页面有入站链接或已编入 index
+
+---
+
+## 2026-05-07 — 补充：驭空戟-1000开放架构实践案例
+
+**触发**：用户要求补充凌空天行驭空戟-1000导弹的开放系统架构实践
+
+**操作**：
+- 新建1个raw/article、1个source页：`lingkong-tianxing-ykj-1000`
+- 更新 `pla-open-system-architecture.md` topic页：新增案例补充章节
+- 四维开放架构对应分析：商用标准替代军用专标 / 供应链解耦 / 模块化升级 / 成本验证
+
+**关键洞察**：凌空天行未使用"开放架构"术语，但其车规级芯片+汽车产线+民用建材的实践是最生动的开放架构原则演示——成本降至1/10的实证
+
+---
+
+## 2026-05-07 — 解放军开放系统架构扩展
+
+**触发**：用户询问解放军是否有应用开放系统架构的报道
+
+**操作**：
+- 新建6个raw/article文件、5个source页、1个topic页
+- topic: `pla-open-system-architecture.md` — 解放军开放系统架构实践。五层级分析：体系层（MII松耦合架构+即插即用）、标准层（宇航学报2025以MOSA为参照建标）、武器层（即插即用武器综合2013）、通信层（软件无线电已部署）、编制层（合成旅模块化2008起）
+- 与美军MOSA七维对比表（法律/政策/标准/验证/透明度/部署）
+
+**新建source pages**：
+- wiki/sources/pla-mii-open-architecture-2022.md
+- wiki/sources/jamestown-pla-modularity-2008.md
+- wiki/sources/spacejournal-open-embedded-computer-standards.md
+- wiki/sources/researching-pnp-weapon-integration-2013.md
+- wiki/sources/pla-software-defined-radio-open-arch.md
+
+**关键发现**：中国军方公开材料中2025年宇航学报论文是首次直接引用MOSA作为参照建标的证据；但总体透明度远低于美军
+
+---
+
+## 2026-05-07 — 中国智能网联汽车与无人机开放生态扩展
+
+**触发**：用户要求搜索国内车路云一体化战略、华为车辆开放生态、大疆开放无人机架构标准并加入知识库
+
+**操作**：
+- 新建3个topic页面：
+  - `china-vehicle-road-cloud-integration.md` — 中国车路云一体化战略：云控平台两级架构（边缘云+区域云）、标准体系8部分、63项推荐标准、十大功能场景、跨域协同行动计划
+  - `huawei-vehicle-open-ecosystem.md` — 华为车辆开放生态：鸿蒙智行联盟、iDVP数字底座、HarmonySpace 6座舱、Car Kit开放API、三种合作模式演化
+  - `dji-open-drone-architecture.md` — 大疆开放无人机架构标准：Mobile SDK/Payload SDK/Onboard SDK/Edge SDK/Cloud API五层开放体系，抽象组件化设计实现即插即用
+- 更新index.md：添加3个topic条目
+- 更新overview.md：新增第10条核心故事线"中国智能网联汽车与无人机开放生态"
+
+**来源**：
+- 中信科联智、世界智能网联汽车大会、国汽智联等官方发布
+- 华为官网、鸿蒙智行官网、华为开发者文档
+- 大疆开发者平台、GitHub开源仓库
+
+---
+
+## 2026-05-06 — 开放架构层次体系扩展：从10种到21种实现
      5|
      6|**触发**：用户指出"其他的各种开放系统架构的实现也应该归入这个分类结构"，要求补全美国所有开放架构实现
      7|
@@ -746,3 +821,47 @@
    746|- Chris Garrett演示揭示AFMC正在建立"数字生态系统"（Digital Ecosystem），与MOSA数字工程融合路径一致
    747|- FY24 S&T Terms of Reference 聚焦CCA任务系统/定向能/频谱战，是MOSA在下一代武器系统中的应用场景
    748|
+## 2026-05-07 — 柔性武器设计方法入库
+
+**触发**：用户要求加入符合WOSA要求的柔性武器设计方法相关材料
+
+**新增内容**：
+- `raw/papers/flexible-weapons-architecture-purdue-2015.pdf` — Purdue大学硕士论文PDF（1009KB）
+- `raw/articles/flexible-weapons-architecture-purdue-2015.txt` — 论文全文提取（256KB, 6525行）
+- `raw/articles/flexible-weapons-architecture-purdue-2015.md` — 论文摘要
+- `raw/articles/afrl-flexible-weapons-2014.md` — AFRL柔性武器概念（SPIE论文摘要）
+- `raw/articles/composable-weapons-raytheon.md` — Raytheon可组合武器架构
+
+**Wiki页面**：
+- `wiki/sources/flexible-weapons-architecture-purdue-2015.md` — Purdue论文来源页
+- `wiki/sources/afrl-flexible-weapons-2014.md` — AFRL概念来源页
+- `wiki/sources/composable-weapons-raytheon.md` — Raytheon实践来源页
+- `wiki/topics/flexible-weapons-design-methodology.md` — 柔性武器设计方法主题综合
+
+**关键发现**：
+- AFRL（2014）提出柔性武器概念：模块化"即插即用"、开放架构、UAI接口
+- Purdue（2015）论证五个关键架构因素：毁伤机制、引信、重量、制导、推进
+- Raytheon（2024）实现可组合武器架构：标准化九类子系统组件
+- 三者共同构成符合WOSA要求的完整方法论体系
+
+**注意**：AFRL SPIE论文PDF需付费获取，当前仅使用网页摘要
+
+## 2026-05-07 — 2019年三军部长MOSA备忘录入库
+
+**触发**：用户询问知识库是否包含2019年三军部长备忘录
+
+**发现**：raw/papers已有PDF（26MB，实际是误下载的Curtiss-Wright文件），已删除。原件托管于dsp.dla.mil（.mil域名不可达），从MITRE DEWS RA演示和DSP Journal文章中还原核心内容。
+
+**新增**：
+- `wiki/sources/tri-service-memo-2019.md` — 2019年1月7日三军部长备忘录source页
+- 更新 `index.md` 添加条目
+- 更新 `mosa-history-timeline.md` 第三阶段添加2019年条目
+
+**关键事实**：
+- 2019年1月7日签署，签署人为海军、陆军、空军部长
+- 主题："Modular Open Systems Approaches for our Weapon Systems is a Warfighting Imperative"
+- 首次将MOSA从"采办策略"升格为"作战必要条件"
+- 明确列举4个标准：OMS/UCI, SOSA, FACE, VICTORY
+- 直接催生2020 NDAA Section 840和2024年12月升级版三军备忘录
+
+**注意**：原件PDF不可达，source页注明内容从二级来源还原

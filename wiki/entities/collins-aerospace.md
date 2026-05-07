@@ -1,0 +1,18 @@
+---
+title: "柯林斯宇航（Collins Aerospace / RTX）"
+created: 2026-05-07
+updated: 2026-05-07
+tags: [CCA, 自主系统, RTX]
+---
+
+# 柯林斯宇航（Collins Aerospace / RTX）
+
+## 摘要
+
+雷神技术（RTX）旗下子公司，在协作作战飞机（CCA）项目中作为自主系统供应商参与竞争。与Shield AI在CCA自主算法赛道上直接竞争。
+
+## 相关内容
+
+- [[collaborative-combat-aircraft]] — 协作作战飞机（CCA）
+- [[shield-ai]] — Shield AI（CCA自主供应商）
+- [[open-mission-systems]] — 开放任务系统（OMS）

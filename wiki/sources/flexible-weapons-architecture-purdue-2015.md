@@ -1,0 +1,60 @@
+---
+title: "Flexible Weapons Architecture Design (Purdue Thesis)"
+created: 2026-05-07
+updated: 2026-05-07
+type: source
+source_type: thesis
+institution: Purdue University
+author: William C. Pyant
+date: 2015
+tags: [WOSA, 柔性武器, 模块化设计, 开放架构, 武器系统]
+sources:
+  - raw/papers/flexible-weapons-architecture-purdue-2015.pdf
+  - raw/articles/flexible-weapons-architecture-purdue-2015.md
+  - raw/articles/flexible-weapons-architecture-purdue-2015.txt
+---
+
+# Flexible Weapons Architecture Design (Purdue Thesis)
+
+## 来源信息
+
+- **机构**：Purdue University
+- **作者**：William C. Pyant
+- **导师**：Daniel A. DeLaurentis (Chair), James Dietz, William A. Crossley
+- **学位**：Master of Science in Aeronautics and Astronautics
+- **日期**：Spring 2015
+- **链接**：https://docs.lib.purdue.edu/open_access_theses/597
+
+## 核心内容
+
+本论文研究柔性武器（Flexible Weapons）架构设计方法，提出使用开放架构"外壳"实现武器模块化设计的概念。
+
+### 核心观点
+
+1. **问题定义**：当前空投武器采用封闭架构，无法为单次交战定制武器，迫使武器规划人员让目标适应武器
+2. **解决方案**：柔性武器使用开放架构"外壳"，可插入不同模块实现任务定制
+3. **架构因素**：毁伤机制、引信、武器重量、制导、推进五个因素对武器性能有显著影响
+4. **算法构建**：开发了基于模块化组件为特定目标类别设计武器集的算法
+
+### 架构设计因素
+
+- **毁伤机制**：不同战斗部类型（破片、聚能、侵彻等）
+- **引信**：触发、近炸、时间延迟等
+- **武器重量**：影响射程、机动性、载荷能力
+- **制导**：GPS/INS、激光、红外、雷达等
+- **推进**：固体火箭、冲压发动机、滑翔等
+
+## 与WOSA的关系
+
+本论文研究的柔性武器架构设计方法符合WOSA核心原则：
+- 模块化设计：武器分解为可替换模块
+- 开放接口：标准化接口实现模块互换
+- 竞争性采购：模块级供应商竞争
+- 平台可扩展性：新模块可增量集成
+
+## 关联页面
+
+- [[wosa-weapons-open-systems-architecture]] — WOSA标准
+- [[afrl-flexible-weapons]] — AFRL柔性武器概念
+- [[composable-weapons-raytheon]] — Raytheon可组合武器实践
+- [[mosa-defense-acquisition]] — MOSA核心概念

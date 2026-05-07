@@ -17,9 +17,17 @@
 - [[nist-cyber-resilience-mosa-security]] — NIST赛博弹性设计原则作为MOSA安全性架构框架（7/11项原则直接映射）
 - [[sysml-v2-transition-bottleneck]] — SysML v1→v2过渡作为MOSA数字工程落地的基础设施瓶颈（15,000+模型迁移）
 - [[three-se-handbooks-complement]] — 三本SE手册互补（NASA/INCOSE/ISO三层参考体系）
+- [[china-vehicle-road-cloud-integration]] — 中国车路云一体化战略：云平台架构、测试评价体系、跨行业跨区域联合标准
+- [[huawei-vehicle-open-ecosystem]] — 华为车辆开放生态：鸿蒙智行、iDVP数字底座、HarmonySpace座舱、Car Kit开放
+- [[dji-open-drone-architecture]] — 大疆开放无人机架构标准：MSDK/PSDK/OSDK/Edge SDK/Cloud API多层开放体系
+- [[pla-open-system-architecture]] — 解放军开放系统架构实践：军事信息基础设施、开放化嵌入式标准、即插即用武器综合
+- [[flexible-weapons-design-methodology]] — 柔性武器设计方法：符合WOSA要求的学术研究与工业实践
 
 ## Sources (来源摘要)
     - [[mil-hdbk-1211-mi-missile-flight-simulation]] — MIL-HDBK-1211(MI): Missile Flight Simulation Handbook (1995). Guidance for surface-to-air missile simulation models. Raw: `raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf`
+    - [[afrl-flexible-weapons-2014]] — AFRL Flexible Weapons Concept (2014). 模块化"即插即用"武器概念，支持开放架构和UAI接口.
+    - [[flexible-weapons-architecture-purdue-2015]] — Purdue University硕士论文，Flexible Weapons Architecture Design (2015). 柔性武器架构设计方法. Raw: `raw/papers/flexible-weapons-architecture-purdue-2015.pdf`
+    - [[composable-weapons-raytheon]] — Raytheon Composable Weapons Architecture. 可组合武器架构，标准化九类子系统组件.
     - [[mosa-shah-thesis]] — Shah, \\\"MOSA and US Defense Acquisition\\\" (GWU D.Eng. 2021). 124 pages. Raw: `raw/papers/mosa-us-defense-acquisition-shah-2021.pdf`
     - [[dodi-5000-02-2020]] — DoDI 5000.02, \\\"Operation of the Adaptive Acquisition Framework\\\" (2020, Chg1 2022). 19 pages. Raw: `raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf`
     - [[dodi-5000-85-2020]] — DoDI 5000.85, \\\"Major Capability Acquisition\\\" (2020, Chg1 2021). 40 pages. Raw: `raw/papers/dodi-5000.85-major-capability-acquisition-2020.pdf`
@@ -57,6 +65,7 @@
 
     - [[gaor-25-106931-mosa-review]] — GAO-25-106931: MOSA专项审查报告(2025)
     - [[tri-service-memo-2024]] — 三军联合备忘录：MOSA强制实施(2024.12)
+    - [[tri-service-memo-2019]] — 三军部长备忘录：MOSA是作战必要条件(2019.1)
     - [[naval-mosa-guide-v1]] — 海军MOSA实施指南V1.0
     - [[navair-host-5.0-release]] — NAVAIR HOST 5.0标准发布(2023.2)
     - [[defense-news-open-standards-2024]] — 开放开发标准是保持美军优势的关键(2024.12)
@@ -83,6 +92,20 @@
     - [[fy24-st-terms-of-reference]] — FY2024 DAF SAB S&T审查职权范围：CCA任务系统/定向能武器/频谱战主导权 (6 pages). Raw: `raw/papers/FY24_ST_ToRs_-_for_public_release.pdf`
     - [[chris-garrett-presentation-2024]] — Chris Garrett AFMC数字化转型演示 (19 slides). DMM/GRA/MBSE模型库/数字生态系统. Raw: `raw/papers/Chris-Garrett-Presentation-Sep-2024.pdf`
     - [[peo-aviation-face-tim-2021]] — PEO Aviation FACE TIM 2021开放系统演示 (56 pages). 20家公司×29软件产品×8 TSS产品集成. Raw: `raw/papers/peo-avn-face-tim-2021-presentation.pdf`
+    - [[dji-developer-platform-overview]] — DJI开发者平台：SDK体系概览（Mobile SDK/Payload SDK/Edge SDK/Onboard SDK/UX SDK/Windows SDK）
+    - [[hima-harmony-intelligent-mobility]] — 鸿蒙智行官网：HIMA联盟与核心技术
+    - [[huawei-car-kit-developer-guide]] — 华为Car Kit开发者文档：出行服务API
+    - [[china-icv-cictci-vehicle-road-cloud-2024]] — 中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布
+    - [[wicvc-pilot-results-2025]] — 2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果
+    - [[pla-mii-open-architecture-2022]] — 军桥网：新型军事信息基础设施体系开放松耦合架构
+    - [[jamestown-pla-modularity-2008]] — Jamestown: PLA模块化合成旅编制改革
+    - [[spacejournal-open-embedded-computer-standards]] — 宇航学报：开放化嵌入式智能计算机标准体系（军方预研资助）
+    - [[researching-pnp-weapon-integration-2013]] — 即插即用武器综合技术（电光与控制，2013）
+    - [[pla-software-defined-radio-open-arch]] — 中国军工软件无线电开放式体系结构
+    - [[lingkong-tianxing-ykj-1000]] — 凌空天行驭空戟-1000：民企高超音速导弹的商用标准实践
+    - [[afmc-abms-distributed-connectivity]] — AFMC ABMS：分布式连接制胜
+    - [[dote-fy2024-abms]] — DOT&E FY2024年度报告 ABMS章节
+    - [[mitre-dews-mosa-ra-full]] — MITRE DEWS MOSA参考架构完整文档
 
 ## Concepts (独立概念)
 - [[mosa-defense-acquisition]] — MOSA 原始概念页面
@@ -149,6 +172,9 @@
 - [[incose-resilience-vs-nist-cyber-resilience]] — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
 - [[digital-ecosystem-platforms]] — 数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE
 - [[open-architecture-hierarchy]] — 开放架构层次体系：21种实现的四层结构（平台→分系统→设备→部组件）
+- [[acquisition-practices]] — 采办实践与SysML v2过渡
+- [[system-integration]] — 系统集成
+- [[china-vs-us-open-architecture]] — 中美开放系统架构路径对比：法律强制vs工程共识
 - [[mosa-cca-application]] — MOSA在CCA中的应用
 - [[six-validated-mosa-standards]] — 三军已验证开放标准生态（6大标准）
 - [[cae-usa]] — CAE USA（SCARS主承包商）
@@ -160,6 +186,8 @@
 - [[afgsc]] — 空军全球打击司令部（AFGSC）
 - [[stratcom]] — 美国战略司令部（US STRATCOM）
 - [[daniel-hetzema]] — Daniel Hettema（DEM&S 主任）
+- [[nickolas-guertin]] — Nickolas Guertin 海军助理部长（研发与采办）
+- [[pma-209]] — PMA-209 空战电子办公室
 - [[ousd-re]] — OUSD(R&E) 研究与工程副部长办公室
 - [[dems]] — DEM&S 数字工程、建模与仿真团队
 - [[gra-ecosystem-evolution]] — GRA生态演进：从单一标准到四层架构体系

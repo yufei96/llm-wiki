@@ -3,7 +3,7 @@ title: "MOSA架构脆弱性分析"
 created: 2026-04-26
 type: concept
 tags: [mosa, vulnerability, structural-analysis, conservation-law, defense-acquisition]
-sources: [gaao-mosa-assessment, dodi-5000-85, better-buying-power-3-0, mosa-implementation-stack]
+sources: [gao-25-106931-mosa-review, dodi-5000-85, better-buying-power-3-0, mosa-implementation-stack]
 ---
 
 # MOSA 架构脆弱性分析
@@ -129,7 +129,7 @@ MOSA 合规性可审计度 × 采办速度 = 常数
 - [[interface-engineering-evolution]] — 接口工程演进（边界赌注的技术背景）
 - [[sysml-v2-transition-bottleneck]] — SysML v2 过渡瓶颈（接口冻结的当代案例）
 - [[modular-architecture-patterns]] — 模块化架构模式（边界划分的方法论）
-- [[gaao-mosa-assessment]] — GAO MOSA 评估（缺乏成本效益数据的来源）
+- [[gao-25-106931-mosa-review]] — GAO-25-106931 MOSA 专项审查（缺乏成本效益数据的来源）
 
 ---
 
