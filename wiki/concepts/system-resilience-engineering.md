@@ -101,14 +101,12 @@ INCOSE系统工程手册V5将弹性视为系统的**涌现属性**（emergent pr
 - DoDI 8510.01（RMF）中赛博弹性要求的映射
 - 各军种赛博弹性实施案例
 - 弹性指标与度量方法（定量评估）
-- [[resilience-metrics]] — 弹性量化指标体系
 
 ## 相关内容
 
 - [[nist-sp-800-160-v2-cyber-resilience]] — NIST赛博弹性框架source页
 - [[incose-se-handbook-v5]] — INCOSE系统工程手册V5 source页
 - [[nist-cyber-resilience-mosa-security]] — NIST赛博弹性与MOSA安全性
-- [[resilience-engineering]] — 弹性工程基础概念
 - [[architecture-framework]] — 架构框架
-- [[wosa-defense-acquisition]] — WOSA与国防采办
+- [[wosa-weapons-open-systems-architecture]] — WOSA武器开放系统架构
 - [[interface-engineering-evolution]] — 接口工程演进

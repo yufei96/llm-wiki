@@ -1,0 +1,60 @@
+# Flexible Weapons Architecture Design (Purdue Thesis, 2015)
+
+**来源**：Purdue University Master's Thesis
+**作者**：William C. Pyant
+**导师**：Daniel A. DeLaurentis (Chair), James Dietz, William A. Crossley
+**学位**：Master of Science in Aeronautics and Astronautics
+**日期**：Spring 2015
+**链接**：https://docs.lib.purdue.edu/open_access_theses/597
+
+## 摘要
+
+本论文研究柔性武器（Flexible Weapons）架构设计方法。当前空投武器采用封闭架构，几乎没有能力为单次交战定制武器。封闭架构要求武器规划人员让目标适应武器，而非让武器适应目标。
+
+柔性武器概念旨在使用开放架构"外壳"实现武器模块化设计，规划人员可以为每次任务插入不同模块，以实现所需的目标毁伤效果，同时降低成本和平民伤亡。
+
+论文证明以下架构设计因素对提升武器性能目标具有显著意义，并可从模块化中获益：
+- **毁伤机制**（Damage Mechanism）
+- **引信**（Fusing）
+- **武器重量**（Weapons Weight）
+- **制导**（Guidance）
+- **推进**（Propulsion）
+
+论文还构建了一个算法，可基于这些模块化组件为特定目标类别设计武器集。
+
+## 核心概念
+
+### 柔性武器定义
+柔性武器是一种采用开放架构"外壳"的武器设计方法。外壳内可插入不同模块，根据任务需求定制武器配置。核心思想是让武器适应目标，而非让目标适应武器。
+
+### 架构设计因素
+1. **毁伤机制**：不同战斗部类型（破片、聚能、侵彻等）
+2. **引信**：触发、近炸、时间延迟等
+3. **武器重量**：影响射程、机动性、载荷能力
+4. **制导**：GPS/INS、激光、红外、雷达等
+5. **推进**：固体火箭、冲压发动机、滑翔等
+
+### 模块化优势
+- 降低采购成本（通用组件批量生产）
+- 缩短研发周期（复用已有模块）
+- 提升任务适应性（按需组合）
+- 简化后勤保障（通用备件）
+
+## 与WOSA的关系
+
+本论文研究的柔性武器架构设计方法符合WOSA（武器开放系统架构）的核心原则：
+- **模块化设计**：武器分解为可替换模块
+- **开放接口**：标准化接口实现模块互换
+- **竞争性采购**：模块级供应商竞争
+- **平台可扩展性**：新模块可增量集成
+
+## 关键词
+
+Military Studies, Systems Science, Flexible Weapons, Open Architecture, Modular Design, Weapon Systems
+
+## 关联
+
+- [[wosa-weapons-open-systems-architecture]] — WOSA标准
+- [[mosa-defense-acquisition]] — MOSA核心概念
+- [[composable-weapons-raytheon]] — Raytheon可组合武器实践
+- [[afrl-flexible-weapons]] — AFRL柔性武器概念

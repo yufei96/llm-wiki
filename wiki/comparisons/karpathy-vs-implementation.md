@@ -60,4 +60,4 @@ sources: [gist:442a6bf555914893e9891c11519de94f]
 
 ## 相关内容
 
-- [[overview]] — 知识库总览
+- [[wiki/overview]] — 知识库总览

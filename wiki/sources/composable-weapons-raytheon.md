@@ -1,0 +1,61 @@
+---
+title: "Raytheon Composable Weapons Architecture"
+created: 2026-05-07
+updated: 2026-05-07
+type: source
+source_type: industry_practice
+institution: RTX/Raytheon Advanced Technology
+date: 2024
+tags: [WOSA, 可组合武器, Raytheon, 模块化设计, 开放架构, 导弹]
+sources:
+  - raw/articles/composable-weapons-raytheon.md
+---
+
+# Raytheon Composable Weapons Architecture
+
+## 来源信息
+
+- **机构**：RTX/Raytheon Advanced Technology
+- **标题**：Composable Weapons
+- **链接**：https://www.rtx.com/raytheon/what-we-do/advanced-technology/composable-weapons
+
+## 核心内容
+
+Raytheon先进技术团队开创的革命性导弹开发方法——可组合武器（Composable Weapons），使用可扩展、可复用的基础组件大幅缩短开发周期。
+
+### 核心原则
+
+1. **模块化与开放性**：使用经过验证的模块化硬件，定义开放接口
+2. **软件定义**：通过软件修改实现快速能力升级
+3. **标准化工程**：使用MBSE创建跨项目共享的集成系统模型
+
+### 标准化子系统组件
+
+- **机体**（Airframes）：提供外壳
+- **航电**（Avionics）：管理系统飞行
+- **执行机构**（Actuators）：控制气动面
+- **传感器**（Sensors）：精确识别目标
+- **软件**（Software）：集成和操作所有子系统
+- **推进**（Propulsion）：将系统送达目标
+- **电源系统**（Power Systems）：调节功率和管理电子设备
+- **有效载荷**（Payloads）：提供所需效果
+- **通信**（Communication）：实现更新和协作
+
+### 战略背景
+
+可组合武器和软件定义孔径响应了对防御系统的需求——更快、更智能，在由高超音速武器和无人机群重塑的战场上保持领先。
+
+## 与WOSA的关系
+
+Raytheon的可组合武器架构是WOSA原则的工业实践：
+- **模块化设计**：标准化子系统组件
+- **开放接口**：通用接口实现跨项目复用
+- **竞争性采购**：模块级供应商竞争
+- **平台可扩展性**：新能力通过软件升级快速部署
+
+## 关联页面
+
+- [[wosa-weapons-open-systems-architecture]] — WOSA标准
+- [[flexible-weapons-architecture-purdue-2015]] — Purdue大学柔性武器架构论文
+- [[afrl-flexible-weapons]] — AFRL柔性武器概念
+- [[mosa-defense-acquisition]] — MOSA核心概念

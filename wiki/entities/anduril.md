@@ -1,0 +1,18 @@
+---
+title: "安杜里尔工业（Anduril Industries）"
+created: 2026-05-07
+updated: 2026-05-07
+tags: [CCA, 国防科技, 无人系统]
+---
+
+# 安杜里尔工业（Anduril Industries）
+
+## 摘要
+
+美国国防科技初创公司，成立于2017年，以软件驱动的自主系统为核心竞争力。在协作作战飞机（CCA）项目中获得YFQ-44A无人作战平台合同，是打破传统国防承包商格局的代表性企业。
+
+## 相关内容
+
+- [[collaborative-combat-aircraft]] — 协作作战飞机（CCA）
+- [[open-mission-systems]] — 开放任务系统（OMS）
+- [[general-atomics]] — 通用原子（CCA YFQ-42A）

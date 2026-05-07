@@ -1,0 +1,33 @@
+---
+title: "CRS IF11681 — Sentinel LGM-35A ICBM入门"
+created: 2026-05-07
+updated: 2026-05-07
+tags: [Sentinel, ICBM, CRS, 国会研究服务]
+source:
+  - raw/papers/crs-sentinel-icbm-if11681.pdf
+  - raw/articles/crs-sentinel-icbm-if11681.md
+---
+
+# CRS IF11681 — Sentinel LGM-35A ICBM入门
+
+## 摘要
+
+美国国会研究服务处（CRS）发布的Sentinel（LGM-35A）ICBM入门报告（IF11681），概述Sentinel项目背景、技术方案、预算和争议。Sentinel是美军下一代陆基洲际弹道导弹，总成本估计超过1400亿美元，是美军史上最昂贵的核现代化项目之一。
+
+## 关键信息
+
+- 替代LGM-30G民兵III
+- 计划采购659枚（400枚部署+259枚测试/备件）
+- 涉及重大成本超支争议（Nunn-McCurdy违规）
+- 246行原文
+
+## 原文来源
+
+- https://www.congress.gov/crs_external_products/IF/PDF/IF11681/IF11681.25.pdf
+- 原始文件: `raw/papers/crs-sentinel-icbm-if11681.pdf`, `raw/articles/crs-sentinel-icbm-if11681.md`
+
+## 相关内容
+
+- [[sentinel-gra-icbm]] — Sentinel GRA 洲际弹道导弹
+- [[afgsc]] — 空军全球打击司令部
+- [[nc3-gra-nuclear-c3]] — NC3 GRA 核指挥控制通信
