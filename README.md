@@ -8,7 +8,7 @@
 
 ### 🌐 在线浏览
 
-**[wiki.yourdomain.com](https://wiki.yourdomain.com)**（部署中）
+**[wiki.05132024.xyz](https://wiki.05132024.xyz)**
 
 ### 📥 下载使用
 
