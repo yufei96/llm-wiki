@@ -101,7 +101,7 @@ llm-wiki/
 
 ## 许可证
 
-本知识库采用 [MIT 许可证](LICENSE)。
+本知识库采用 [CC BY-SA 4.0 许可证](LICENSE)。
 
 ## 相关项目
 
