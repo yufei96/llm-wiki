@@ -52,7 +52,6 @@ tags: [MOSA, 开放架构, 中美对比, 国际比较]
 |---------|------------|
 | Modular Open Systems Approach | "三化"（通用化/系列化/组合化） |
 | Modular design with loosely coupled interfaces | "开放式松耦合体系架构" |
-| Plug-and-play | "即插即用" |
 | Consensus-based standards | "统一标准" |
 | Vendor-agnostic interfaces | "打破烟囱式信息孤岛" |
 | Software-defined capabilities | "软件定义" |
@@ -82,7 +81,6 @@ tags: [MOSA, 开放架构, 中美对比, 国际比较]
 ## 相关内容
 
 - [[mosa-defense-acquisition]] — MOSA核心概念
-- [[pla-open-system-architecture]] — 解放军开放系统架构实践
 - [[china-vehicle-road-cloud-integration]] — 中国车路云一体化战略
 - [[huawei-vehicle-open-ecosystem]] — 华为车辆开放生态
 - [[dji-open-drone-architecture]] — 大疆开放无人机架构

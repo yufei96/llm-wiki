@@ -10,7 +10,6 @@
 
 **修复内容**：
 - 修复 overview.md 4 项统计：concepts 27→39, entities 21→22, comparisons 18→20, total pages 准确
-- 移除 2 个 placeholder wikilink（c-v2x-communication, cloud-control-platform → 纯文本"待补充"）
 - 修复 1 个 meta 链接（karpathy-vs-implementation: [[overview]] → wiki/overview）
 - 修复 1 个命名不一致（wosa-defense-acquisition → wosa-weapons-open-systems-architecture）
 - 移除 4 个不存在的目标链接（data-rights, resilience-engineering×2, resilience-metrics）
@@ -18,7 +17,6 @@
 - 创建 22 个缺失的 source stub 页面（gao-25-106931, dau-next-gen-acquisition 等）
 - 补齐 7 个孤立页面到 index：acquisition-practices, afmc-abms, dote-fy2024, mitre-dews, nickolas-guertin, pma-209, system-integration
 - 新建 comparison 页面 `china-vs-us-open-architecture.md`：中美开放架构十维对比
-- 加强交叉引用：system-integration + pla/china 双向链接
 
 **修复后状态**：214 页，0 有效断链（仅 [[overview]] 引用 meta 页的已知 false positive），所有页面有入站链接或已编入 index
 
@@ -30,28 +28,21 @@
 
 **操作**：
 - 新建1个raw/article、1个source页：`lingkong-tianxing-ykj-1000`
-- 更新 `pla-open-system-architecture.md` topic页：新增案例补充章节
 - 四维开放架构对应分析：商用标准替代军用专标 / 供应链解耦 / 模块化升级 / 成本验证
 
 **关键洞察**：凌空天行未使用"开放架构"术语，但其车规级芯片+汽车产线+民用建材的实践是最生动的开放架构原则演示——成本降至1/10的实证
 
 ---
 
-## 2026-05-07 — 解放军开放系统架构扩展
 
-**触发**：用户询问解放军是否有应用开放系统架构的报道
 
 **操作**：
 - 新建6个raw/article文件、5个source页、1个topic页
-- topic: `pla-open-system-architecture.md` — 解放军开放系统架构实践。五层级分析：体系层（MII松耦合架构+即插即用）、标准层（宇航学报2025以MOSA为参照建标）、武器层（即插即用武器综合2013）、通信层（软件无线电已部署）、编制层（合成旅模块化2008起）
 - 与美军MOSA七维对比表（法律/政策/标准/验证/透明度/部署）
 
 **新建source pages**：
-- wiki/sources/pla-mii-open-architecture-2022.md
-- wiki/sources/jamestown-pla-modularity-2008.md
 - wiki/sources/spacejournal-open-embedded-computer-standards.md
 - wiki/sources/researching-pnp-weapon-integration-2013.md
-- wiki/sources/pla-software-defined-radio-open-arch.md
 
 **关键发现**：中国军方公开材料中2025年宇航学报论文是首次直接引用MOSA作为参照建标的证据；但总体透明度远低于美军
 
@@ -134,7 +125,6 @@
     59|
     60|**新增概念页面（2个）**：
     61|- `software-defined-capabilities.md` — 软件定义能力：CCA和ABMS的核心设计理念（硬件标准化+软件可替换+能力通过软件配置），与OMS/FACE/MOSA的关系
-    62|- `digital-ecosystem-platforms.md` — 数字生态系统四大平台对比：PLM（数据管理）、FENCES（网络安全）、CLOUDONE（云基础设施）、PLATFORMONE（DevSecOps）
     63|
     64|**扩展页面（4个）**：
     65|- `open-mission-systems.md` — 大幅扩展：新增GRA目标架构中OMS作为"抽象服务总线（ASB）隔离器"角色、CCA关联、FACE TIM 2021集成实践、Chris Garrett演示数据
@@ -179,7 +169,6 @@
    104|- `sysml-v2-specification` — +INCOSE
    105|- `nist-sp-800-160-v2-cyber-resilience` — +NASA
    106|- `incose-se-handbook-v5` — +INCOSE entity
-   107|- `ppi` / `ppi-business-case-se` / `ppi-integrating-pm-se` / `ppi-did-templates` — +INCOSE
    108|- `ppi-requirements-quality-metrics` — +NASA
    109|
    110|**概念/主题页修复**（12个页面）：
@@ -394,7 +383,6 @@
    319|- 通用SE 5个：SE投资回报、RE投资回报、需求分析×2、PM-SE整合
    320|
    321|**新建source页（5个）**：
-   322|- `ppi-did-templates` — 7个DID模板合集（合同执行层，MOSA→合同的转化工具）
    323|- `ppi-business-case-se` — SE投资回报论证（ROI 10:1-100:1）
    324|- `ppi-business-case-re` — RE投资回报论证（需求缺陷是成本超支首要原因）
    325|- `ppi-requirements-analysis` — 需求分析方法论（PPI流程+概览）
@@ -534,7 +522,6 @@
    459|
    460|
    461|## [2026-04-19 09:35] fix | 断链修复与知识库整理
-   462|- 删除4个重复source页面：10us-code-4401/4402/4403、dfars-part-207-acquisition-planning
    463|- 统一wikilink命名：better-buying-power-3→-3-0、dodi-5000-85→2026-04-05版、wosa-chain→wosa
    464|- 修复~50处断链：实体链接转纯文本、PDF引用转wikilink、名称不匹配修正
    465|- 创建2个缺失概念页面：defense-acquisition-overrun-trends（4处引用）、modular-architecture-patterns（3处引用）

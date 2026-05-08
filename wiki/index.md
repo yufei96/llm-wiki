@@ -20,7 +20,6 @@
 - [[china-vehicle-road-cloud-integration]] — 中国车路云一体化战略：云平台架构、测试评价体系、跨行业跨区域联合标准
 - [[huawei-vehicle-open-ecosystem]] — 华为车辆开放生态：鸿蒙智行、iDVP数字底座、HarmonySpace座舱、Car Kit开放
 - [[dji-open-drone-architecture]] — 大疆开放无人机架构标准：MSDK/PSDK/OSDK/Edge SDK/Cloud API多层开放体系
-- [[pla-open-system-architecture]] — 解放军开放系统架构实践：军事信息基础设施、开放化嵌入式标准、即插即用武器综合
 - [[flexible-weapons-design-methodology]] — 柔性武器设计方法：符合WOSA要求的学术研究与工业实践
 - [[mosa-lifecycle-application]] — 美军全寿命周期MOSA应用分析（MSA→TMRR→EMD→P&D→O&S）
 
@@ -40,7 +39,6 @@
     - [[fy2017-ndaa-section-805]] — FY2017 National Defense Authorization Act, Section 805 (codified MOSA in law).
     - [[mosa-implementation-guidebook-2025]] — USD(R&E) MOSA Implementation Guidebook (Feb 2025). Declassified public version.
     - [[10usc-4401-4403-mosa-law]] — 10 U.S. Code § 4401–4403: Modular open systems approach for major weapon systems (the statute).
-    - [[dfars-part-207]] — DFARS Part 207: Acquisition Planning. Contains MOSA planning requirements.
     - [[dfars-part-227-patents-data-and-copyrights]] — DFARS Part 227: Patents, Data, and Copyrights. Covers data rights for MOSA.
     - [[dodi-5000-75-business-systems]] — DoDI 5000.75, Business Systems Requirements and Acquisition (2017, Chg2 2020). 39 pages.
     - [[dodi-5000-81-urgent-capability]] — DoDI 5000.81, Urgent Capability Acquisition (2019). 21 pages.
@@ -91,7 +89,6 @@
     - [[ndaa-2020-2021-mosa-expansion]] — 2020/2021 NDAA MOSA扩展条款
     - [[dfars-2021-d005-mosa]] — DFARS 2021-D005 MOSA合同条款
 
-    - [[ppi-did-templates]] — PPI DID模板合集（7个数据项描述模板，合同执行层参考）
     - [[ppi-business-case-se]] — PPI系统工程投资回报论证（Halligan 2018，48页）
     - [[ppi-business-case-re]] — PPI需求工程投资回报论证（Halligan 2014，31页）
     - [[ppi-requirements-analysis]] — PPI需求分析方法论（两份文档，有效+概览）
@@ -104,16 +101,12 @@
     - [[fy24-st-terms-of-reference]] — FY2024 DAF SAB S&T审查职权范围：CCA任务系统/定向能武器/频谱战主导权 (6 pages). Raw: `raw/papers/FY24_ST_ToRs_-_for_public_release.pdf`
     - [[chris-garrett-presentation-2024]] — Chris Garrett AFMC数字化转型演示 (19 slides). DMM/GRA/MBSE模型库/数字生态系统. Raw: `raw/papers/Chris-Garrett-Presentation-Sep-2024.pdf`
     - [[peo-aviation-face-tim-2021]] — PEO Aviation FACE TIM 2021开放系统演示 (56 pages). 20家公司×29软件产品×8 TSS产品集成. Raw: `raw/papers/peo-avn-face-tim-2021-presentation.pdf`
-    - [[dji-developer-platform-overview]] — DJI开发者平台：SDK体系概览（Mobile SDK/Payload SDK/Edge SDK/Onboard SDK/UX SDK/Windows SDK）
     - [[hima-harmony-intelligent-mobility]] — 鸿蒙智行官网：HIMA联盟与核心技术
     - [[huawei-car-kit-developer-guide]] — 华为Car Kit开发者文档：出行服务API
     - [[china-icv-cictci-vehicle-road-cloud-2024]] — 中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布
     - [[wicvc-pilot-results-2025]] — 2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果
-    - [[pla-mii-open-architecture-2022]] — 军桥网：新型军事信息基础设施体系开放松耦合架构
-    - [[jamestown-pla-modularity-2008]] — Jamestown: PLA模块化合成旅编制改革
     - [[spacejournal-open-embedded-computer-standards]] — 宇航学报：开放化嵌入式智能计算机标准体系（军方预研资助）
     - [[researching-pnp-weapon-integration-2013]] — 即插即用武器综合技术（电光与控制，2013）
-    - [[pla-software-defined-radio-open-arch]] — 中国军工软件无线电开放式体系结构
     - [[lingkong-tianxing-ykj-1000]] — 凌空天行驭空戟-1000：民企高超音速导弹的商用标准实践
     - [[afmc-abms-distributed-connectivity]] — AFMC ABMS：分布式连接制胜
     - [[dote-fy2024-abms]] — DOT&E FY2024年度报告 ABMS章节
@@ -182,7 +175,6 @@
 - [[mosa-implementation-status-matrix]] — MOSA实施状态矩阵(20项目)
 - [[interface-engineering-evolution]] — 接口工程三层演进：从NASA ICD到MOSA标准化到SysML v2模型驱动
 - [[incose-resilience-vs-nist-cyber-resilience]] — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
-- [[digital-ecosystem-platforms]] — 数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE
 - [[open-architecture-hierarchy]] — 开放架构层次体系：21种实现的四层结构（平台→分系统→设备→部组件）
 - [[mosa-standards-by-scope]] — 开放架构标准分类：三军共用（6种，三军备忘录确认）vs 军种内推广（16种）
 - [[acquisition-practices]] — 采办实践与SysML v2过渡
