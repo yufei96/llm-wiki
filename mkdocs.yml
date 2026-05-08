@@ -7,19 +7,18 @@ docs_dir: site/content
 site_dir: site/build
 
 nav:
+  - 首页: index.md
   - 概览: overview.md
-  - 索引: index.md
   - 概念:
-    - concepts/
+    - 概念: concepts/
   - 来源:
-    - sources/
+    - 来源: sources/
   - 实体:
-    - entities/
+    - 实体: entities/
   - 主题:
-    - topics/
+    - 主题: topics/
   - 对比:
-    - comparisons/
-  - 日志: log.md
+    - 对比: comparisons/
 
 theme:
   name: material
