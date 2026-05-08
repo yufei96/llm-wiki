@@ -10,44 +10,44 @@
 
 **[wiki.05132024.xyz](https://wiki.05132024.xyz)**
 
+无需安装，直接浏览所有知识库页面。
+
 ### 📥 下载使用
 
-#### 方式 1：Obsidian（推荐）
+```bash
+git clone https://gitee.com/yufei96/llm-wiki.git
+cd llm-wiki
+```
+
+#### 方式 1：Obsidian 本地浏览
+
+1. 用 [Obsidian](https://obsidian.md) 打开克隆的文件夹
+2. 直接浏览和编辑，所有 `[[wiki-links]]` 自动生效
+3. 适合深度研究和内容贡献
+
+#### 方式 2：导入 IMA Copilot
 
 1. 克隆仓库
-   ```bash
-   git clone https://gitee.com/yufei96/llm-wiki.git
-   ```
-2. 用 Obsidian 打开 `llm-wiki` 文件夹
-3. 直接浏览和编辑，所有 `[[wiki-links]]` 自动生效
-
-#### 方式 2：导入 IMA（智能军械手册）
-
-```bash
-# 下载 raw 目录（PDF 原文）
-git clone --depth 1 https://gitee.com/yufei96/llm-wiki.git
-cd llm-wiki
-# 导入到 IMA
-ima import raw/papers/*.pdf
-```
+2. 在 [IMA Copilot](https://ima.qq.com) 中导入 `raw/` 目录下的 PDF 文件
+3. IMA 自动生成知识图谱和问答
 
 #### 方式 3：导入 NotebookLM
 
-1. 下载仓库
+1. 克隆仓库
 2. 上传 `wiki/` 目录到 [NotebookLM](https://notebooklm.google.com)
-3. 自动生成知识图谱和问答
+3. 自动生成知识图谱和对话式问答
 
 #### 方式 4：Agent 交互
 
-```bash
-# 使用 Hermes Agent
-hermes skill view llm-wiki-operations
+克隆仓库后，用支持知识库的 AI Agent 进行交互式问答：
 
-# 或直接对话
+```
 "帮我查一下 MOSA 的五原则是什么"
 "对比 FACE 和 SOSA 标准"
 "总结 DOTE 2025 报告中 LTAMDS 的测试结果"
 ```
+
+适用的 Agent 工具：Hermes Agent、Claude、ChatGPT 等支持文件上传的 LLM。
 
 ## 仓库结构
 
@@ -82,16 +82,6 @@ llm-wiki/
 - 军事标准文档（FACE、SOSA、OMS）
 - 学术论文（NDIA、AIAA、NPS）
 - 开源情报和新闻报道
-
-## 使用场景
-
-| 场景 | 推荐方式 |
-|------|----------|
-| 快速查询概念 | 在线浏览 |
-| 深度研究 | Obsidian 本地浏览 |
-| 批量导入 | IMA 或 NotebookLM |
-| 交互式问答 | Agent 对话 |
-| 内容贡献 | Git clone + PR |
 
 ## 贡献指南
 

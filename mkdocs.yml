@@ -3,8 +3,23 @@ site_description: Modular Open Systems Approach (MOSA) 与数字工程知识库 
 repo_url: https://gitee.com/yufei96/llm-wiki
 repo_name: llm-wiki
 
-docs_dir: wiki
+docs_dir: site/content
 site_dir: site/build
+
+nav:
+  - 概览: overview.md
+  - 索引: index.md
+  - 概念:
+    - concepts/
+  - 来源:
+    - sources/
+  - 实体:
+    - entities/
+  - 主题:
+    - topics/
+  - 对比:
+    - comparisons/
+  - 日志: log.md
 
 theme:
   name: material

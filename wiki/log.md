@@ -865,3 +865,130 @@
 - 直接催生2020 NDAA Section 840和2024年12月升级版三军备忘录
 
 **注意**：原件PDF不可达，source页注明内容从二级来源还原
+
+## 2026-05-08 — 陆军 IAMD/LTAMDS/Aegis 补充资料入库
+
+**触发**：用户询问 wiki 中是否有美三军开发升级中应用 MOSA 的资料，特别是陆军 IBCS+LTAMDS+SM-6、空军 NGAD、海军宙斯盾
+
+**发现**：
+- 海军 MOSA 指南 V1.0 已存在（raw/papers/Naval-MOSA-Implementation-Guide-V1.0.pdf），但 wiki 页面多处仍写"海军完全没有 MOSA 指南手册"——已修正
+- NGAD/CCA 资料较充分（AMS GRA、A-GRA 等）
+- IBCS+LTAMDS 和 Aegis 的 MOSA 分析资料不足
+
+**新增文件**：
+- `raw/papers/2025ltamds.pdf` — DOT&E FY2025 LTAMDS 测试评估（668KB）
+- `raw/papers/2025aegis.pdf` — DOT&E FY2025 Aegis 现代化测试评估（1MB）
+- `raw/papers/ensuring-war-winning.pdf` — Army Line of Departure 2023 AMD 专题（633KB）
+- `raw/papers/u-s-army-portfolio-2024.pdf` — 陆军采办项目组合 2024（19MB）
+- `raw/articles/2025ltamds.md` — LTAMDS 文本提取（200行）
+- `raw/articles/2025aegis.md` — Aegis 文本提取（302行）
+- `raw/articles/ensuring-war-winning.md` — AMD 专题文本提取（236行）
+- `raw/articles/u-s-army-portfolio-2024.md` — 陆军项目组合文本提取（8203行）
+
+**新增 wiki 页面**：
+- `wiki/sources/dote-fy2025-ltamds.md` — LTAMDS 测试评估
+- `wiki/sources/dote-fy2025-aegis.md` — Aegis 现代化测试评估
+- `wiki/sources/army-line-of-departure-amd-2023.md` — 陆军 AMD 专题
+- `wiki/sources/army-acquisition-portfolio-2024.md` — 陆军采办项目组合
+
+**修正**：
+- `wiki/comparisons/siaw-aargm-er-mosa-contrast.md` — 3 处"海军完全没有 MOSA 指南手册"改为准确表述
+- `wiki/comparisons/mosa-implementation-status-matrix.md` — 2 处海军 MOSA 指南描述修正
+
+**关键发现**：
+- LTAMDS 2025年4月达到 Milestone C，转入重大能力采办路径
+- LTAMDS 与 IBCS 集成，支持 PAC-2/PAC-3 全能力
+- Aegis ACB 16 有 6 个基线版本（9.2.0 到 9.3），SPY-6 集成是关键升级
+- 陆军采办项目组合中防空反导域有 13 个项目，IBCS/LTAMDS/Sentinel 是核心
+
+## 2026-05-08 — 美军全寿命周期MOSA应用分析
+
+**触发**：用户要求分析美军全寿命周期MOSA应用，涵盖MSA、TMRR、EMD、P&D、O&S五个阶段
+
+**资料来源**：
+- MOSA实施指南（2025年2月）— 各阶段MOSA文件要求
+- DoDI 5000.85（2020年8月）— 重大能力采办程序
+- GAO-25-106931（2025年1月）— 20项目MOSA实施状态
+- 陆军采办项目组合2024 — 各阶段定义和项目案例
+- 具体项目案例：PrSM、FLRAA、B-21、LTAMDS、SiAW/AARGM-ER、XM-30
+
+**新增**：
+- `wiki/topics/mosa-lifecycle-application.md` — 全寿命周期MOSA应用分析（9KB）
+
+**关键发现**：
+- MOSA法定要求适用于2019年后里程碑A/B批准的所有MDAP
+- MSA阶段：AoA中需完整评估每个备选方案的MOSA实施方式
+- TMRR阶段：竞争性原型验证+GRA定义开放接口+数字工程验证
+- EMD阶段：里程碑B审查确保RFP描述MOSA，ICD/IRS定义接口
+- P&D阶段：MOSA支持竞争性生产，降低供应链风险
+- O&S阶段：模块化支持组件独立升级，延长系统寿命
+- 陆军100%实施率证明全面落地可行，海军指南缺失是最大障碍
+- 无标准化MOSA评估方法，20个项目无一进行正式成本效益分析
+
+## 2026-05-08 — 开放架构标准分类：三军共用 vs 军种内推广
+
+**触发**：用户提供美军开放架构标准的另一种分类方式
+
+**分类内容**：
+- 三军共用（6种，2024年12月三军备忘录确认）：OMS/UCI、SOSA、FACE、VICTORY、AMS GRA、WOSA
+- 军种内推广（16种）：
+  - 陆军：GARA、R-EGI
+  - 海军：Raging Crow、Big Iron、SPEAD、TOSA、CoPaIS
+  - 空军：COARPS、COBRA、HOST、MI-COARPS、MORA
+  - 跨军种但军种主导：UAI、UCS
+
+**新增**：
+- `wiki/comparisons/mosa-standards-by-scope.md` — 开放架构标准分类（6.5KB）
+
+**关键发现**：
+- 三军共用标准更"硬"：有法定要求和联合备忘录背书
+- 军种内推广标准更"灵活"：军种可根据需求定制
+- 陆军最积极（FACE、VICTORY、GARA、R-EGI）
+- 海军标准最分散（电子战/测试标准各自独立）
+- 空军主导雷达/武器域（COARPS、MORA、UAI）
+- 与四层结构分类互补：一个看层级，一个看推广范围
+
+## 2026-05-08 — MOATEL弹药开放架构试验鉴定实验室入库
+
+**触发**：用户询问MOATEL仿真环境如何评估WOSA符合性
+
+**资料来源**：
+- AFRL官方文章（2022年4月28日）：AFMC utilizes MOATEL as verification resource
+
+**新增文件**：
+- `raw/articles/moatel-afmc-verification-2022.md` — MOATEL原始文章（42行）
+
+**新增wiki页面**：
+- `wiki/sources/moatel-wosa-verification.md` — MOATEL资料整理
+
+**关键发现**：
+- MOATEL位于AFRL弹药局，Eglin空军基地
+- WOSA三大支柱：标准维护、专业知识、验证支持
+- MOATEL是验证支柱的核心实体
+- 填补开放架构几十年来缺乏独立验证的空白
+- 核心功能：弹药组件符合性验证、数字模型验证、WOSA通信图分析、仿真加速测试
+- 已批准为SiAW和未来高超音速项目进行验证
+- 海军已表达兴趣，讨论进行中
+- 支持机构：Space Dynamics Laboratory、Cummings Aerospace、SAIC
+
+## 2026-05-08 — 高优先级原始资料补充入库
+
+**触发**：用户要求补充知识库缺口中的高优先级原始资料
+
+**新增文件**：
+- `raw/papers/UAI-IQPC-Overview.pdf` — UAI通用武器接口概述（5.8MB）
+- `raw/papers/SM6-SAR-Dec2023.pdf` — SM-6采办报告（896KB）
+- `raw/papers/AMDR-SPY6-SAR-Dec2023.pdf` — AMDR/SPY-6采办报告（1.6MB）
+- `raw/papers/Poland-IBCS-Patriot-2024.pdf` — 波兰IBCS军售案（133KB）
+
+**新增wiki页面**：
+- `wiki/sources/uai-universal-armament-interface.md` — UAI标准概述
+- `wiki/sources/sm6-sar-dec2023.md` — SM-6采办报告
+- `wiki/sources/amdr-spy6-sar-dec2023.md` — AMDR/SPY-6采办报告
+- `wiki/sources/poland-ibcs-patriot-2023.md` — 波兰IBCS军售案
+
+**关键发现**：
+- UAI是WOSA的接口标准基础，标准化LAR流程使平台LAR可通过任务数据更新无需OFP更新
+- SM-6有未来Block升级需求，Raytheon为sole source
+- SPY-6与Aegis BL10有设计共依赖，需要进一步软件工作实现集成
+- 波兰是IBCS首个国际用户，40亿美元军售规模显示战略价值
