@@ -1,0 +1,67 @@
+site_name: MOSA 知识库
+site_description: Modular Open Systems Approach (MOSA) 与数字工程知识库 — 国防开放系统架构、智能网联汽车、军事开放标准
+repo_url: https://gitee.com/yufei96/llm-wiki
+repo_name: llm-wiki
+
+docs_dir: wiki
+site_dir: site/build
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      title: 目录
+  - meta
+
+extra:
+  social:
+    - icon: fontawesome/brands/git-alt
+      link: https://gitee.com/yufei96/llm-wiki
+  generator: false
+
+copyright: Copyright &copy; 2024-2026 MOSA Knowledge Base

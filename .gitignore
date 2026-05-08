@@ -28,3 +28,6 @@ raw/articles/crs-sentinel-icbm-if11681.md
 raw/articles/dvids-r-egi-pnt-flight-2024.md
 raw/articles/samgov-uai-rfi.md
 raw/articles/afgsc-sentinel-gbsd.md
+
+# MkDocs build output
+site/
