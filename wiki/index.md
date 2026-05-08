@@ -22,6 +22,7 @@
 - [[dji-open-drone-architecture]] — 大疆开放无人机架构标准：MSDK/PSDK/OSDK/Edge SDK/Cloud API多层开放体系
 - [[pla-open-system-architecture]] — 解放军开放系统架构实践：军事信息基础设施、开放化嵌入式标准、即插即用武器综合
 - [[flexible-weapons-design-methodology]] — 柔性武器设计方法：符合WOSA要求的学术研究与工业实践
+- [[mosa-lifecycle-application]] — 美军全寿命周期MOSA应用分析（MSA→TMRR→EMD→P&D→O&S）
 
 ## Sources (来源摘要)
     - [[mil-hdbk-1211-mi-missile-flight-simulation]] — MIL-HDBK-1211(MI): Missile Flight Simulation Handbook (1995). Guidance for surface-to-air missile simulation models. Raw: `raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf`
@@ -67,6 +68,16 @@
     - [[tri-service-memo-2024]] — 三军联合备忘录：MOSA强制实施(2024.12)
     - [[tri-service-memo-2019]] — 三军部长备忘录：MOSA是作战必要条件(2019.1)
     - [[naval-mosa-guide-v1]] — 海军MOSA实施指南V1.0
+    - [[dote-fy2025-ltamds]] — DOT&E FY2025 LTAMDS测试评估
+    - [[dote-fy2025-aegis]] — DOT&E FY2025 Aegis现代化测试评估
+    - [[army-line-of-departure-amd-2023]] — 陆军AMD现代化专题（IBCS+LTAMDS）
+    - [[army-acquisition-portfolio-2024]] — 陆军采办项目组合2024（防空反导全景）
+    - [[uai-universal-armament-interface]] — UAI通用武器接口标准
+    - [[sm6-sar-dec2023]] — SM-6采办报告（2023年12月）
+    - [[amdr-spy6-sar-dec2023]] — AMDR/SPY-6采办报告（2023年12月）
+    - [[poland-ibcs-patriot-2023]] — 波兰IBCS爱国者系统军售案（40亿美元）
+    - [[germany-aegis-spy6-f127-2026]] — 德国Aegis/SPY-6 F127护卫舰军售案（119亿美元）
+    - [[sm6-ltamds-ibcs-valiant-shield-2024]] — SM-6与LTAMDS/IBCS联合集成验证
     - [[navair-host-5.0-release]] — NAVAIR HOST 5.0标准发布(2023.2)
     - [[defense-news-open-standards-2024]] — 开放开发标准是保持美军优势的关键(2024.12)
     - [[military-embedded-navy-osmp-2025]] — 海军将更多控制开放架构开发(2025.8)
@@ -76,6 +87,7 @@
     - [[sda-pwsa-mosa]] — SDA PWSA太空域MOSA
     - [[prsm-mosa]] — PrSM精确打击导弹MOSA
     - [[e-hel-mosa]] — E-HEL定向能武器MOSA
+    - [[moatel-wosa-verification]] — MOATEL弹药开放架构试验鉴定实验室（WOSA符合性验证）
     - [[ndaa-2020-2021-mosa-expansion]] — 2020/2021 NDAA MOSA扩展条款
     - [[dfars-2021-d005-mosa]] — DFARS 2021-D005 MOSA合同条款
 
@@ -172,6 +184,7 @@
 - [[incose-resilience-vs-nist-cyber-resilience]] — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
 - [[digital-ecosystem-platforms]] — 数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE
 - [[open-architecture-hierarchy]] — 开放架构层次体系：21种实现的四层结构（平台→分系统→设备→部组件）
+- [[mosa-standards-by-scope]] — 开放架构标准分类：三军共用（6种，三军备忘录确认）vs 军种内推广（16种）
 - [[acquisition-practices]] — 采办实践与SysML v2过渡
 - [[system-integration]] — 系统集成
 - [[china-vs-us-open-architecture]] — 中美开放系统架构路径对比：法律强制vs工程共识
