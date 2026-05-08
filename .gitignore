@@ -29,5 +29,10 @@ raw/articles/dvids-r-egi-pnt-flight-2024.md
 raw/articles/samgov-uai-rfi.md
 raw/articles/afgsc-sentinel-gbsd.md
 
-# MkDocs build output
-site/
+# MkDocs build output (keep scripts/config, exclude generated HTML)
+site/build/
+
+# Build artifacts
+site/content/
+site/__pycache__/
+*.zip
