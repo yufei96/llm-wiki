@@ -68,10 +68,7 @@ extra:
 copyright: Copyright &copy; 2024-2026 MOSA Knowledge Base
 
 nav:
-  - 首页: index.md
-  - "MOSA & 数防采办知识库总览": overview.md
-  - log: log.md
-  - MOSA/数字工程周报 — 观察列表: log-watchlist.md
+  - 首页: overview.md
   - 主题:
       - index: topics/index.md
       - 中国车路云一体化战略: topics/china-vehicle-road-cloud-integration.md
