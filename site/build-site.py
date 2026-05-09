@@ -162,6 +162,12 @@ def main():
     print("Generating section indexes...")
     generate_section_indexes(BUILD_DIR)
 
+    # Use overview.md as homepage
+    overview = BUILD_DIR / "overview.md"
+    if overview.exists():
+        shutil.copy2(overview, BUILD_DIR / "index.md")
+        print("Copied overview.md → index.md (homepage)")
+
     # Build index and convert
     page_index = build_page_index(BUILD_DIR)
     print(f"Index: {len(page_index)} pages")
@@ -220,7 +226,7 @@ def main():
     # Count output
     if SITE_OUT.exists():
         file_count = sum(1 for _ in SITE_OUT.rglob("*") if _.is_file())
-        size_mb = sum(f.stat().st_size for f in SITE_OUT.rglob("*") if _.is_file()) / 1024 / 1024
+        size_mb = sum(f.stat().st_size for f in SITE_OUT.rglob("*") if f.is_file()) / 1024 / 1024
         print(f"✓ Site built: {SITE_OUT}")
         print(f"  {file_count} files, {size_mb:.1f} MB")
     else:
