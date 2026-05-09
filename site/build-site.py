@@ -210,10 +210,17 @@ def main():
         print(result.stderr[-2000:] if len(result.stderr) > 2000 else result.stderr)
         sys.exit(1)
 
+    # Copy static root files (e.g. WeChat verification) to build output
+    for f in ROOT.glob("*.txt"):
+        if f.name.startswith(".") or f.name == "requirements.txt":
+            continue
+        shutil.copy2(f, SITE_OUT / f.name)
+        print(f"  Copied root file: {f.name}")
+
     # Count output
     if SITE_OUT.exists():
         file_count = sum(1 for _ in SITE_OUT.rglob("*") if _.is_file())
-        size_mb = sum(f.stat().st_size for f in SITE_OUT.rglob("*") if f.is_file()) / 1024 / 1024
+        size_mb = sum(f.stat().st_size for f in SITE_OUT.rglob("*") if _.is_file()) / 1024 / 1024
         print(f"✓ Site built: {SITE_OUT}")
         print(f"  {file_count} files, {size_mb:.1f} MB")
     else:
