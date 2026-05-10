@@ -1,0 +1,124 @@
+source_id	source_label	category	input_mode	raw_dir	adapter_name
+amdr-spy6雷达选定采购报告2023年12月	AMDR/SPY-6 采办报告（MSAR 2023年12月）	core_builtin	file	raw/papers	builtin
+arsenl空军标准	ARSENL — 空军架构标准与工程库	core_builtin	file	raw/papers	builtin
+b-21突袭者mosa案例	B-21 Raider突袭者轰炸机MOSA实施案例	core_builtin	file	raw/articles	builtin
+bbp-3.0实施指令	Better Buying Power 3.0 — 实施指令	core_builtin	file	raw/papers	builtin
+cae公司scars项目	CAE SCARS Program	core_builtin	file	raw/articles	builtin
+cmoss概述2022	CMOSS（C5ISR/EW模块化开放标准套件）概述	core_builtin	file	raw/papers	builtin
+crs报告-nc3-if11697	CRS IF11697 — 核指挥控制通信入门	core_builtin	file	raw/papers	builtin
+crs报告-哨兵洲际导弹if11681	CRS IF11681 — Sentinel LGM-35A ICBM入门	core_builtin	file	raw/papers	builtin
+csis-mosa责任分担报告2025	CSIS：通过模块化开放系统方法分担负担	core_builtin	file	raw/articles	builtin
+dau下一代采办2024	DAU Next Generation Acquisition Model — Open Architectures	core_builtin	file	raw/papers	builtin
+dfars-2021-mosa信息征求	DFARS Case 2021-D005: 模块化开放系统方法合同条款	core_builtin	file	raw/articles	builtin
+dfars第207部分	DFARS第207部分 — 采办规划（MOSA）	core_builtin	file	raw/papers	builtin
+dfars第227部分-专利数据与版权	DFARS第227部分：专利、数据及版权	core_builtin	file	raw/papers	builtin
+dfars第252部分-合同条款	DFARS Part 252 — 征询条款与合同条款	core_builtin	file	raw/papers	builtin
+dodi-5000.74-服务	DoDI 5000.74 — 服务采办	core_builtin	file	raw/papers	builtin
+dodi-5000.75-业务系统	DoDI 5000.75 — 业务系统需求与采办	core_builtin	file	raw/papers	builtin
+dodi-5000.80中间层采办	DoDI 5000.80 — 中间采办层级（MTA）	core_builtin	file	raw/papers	builtin
+dodi-5000.81紧急能力	DoDI 5000.81 — 紧急能力采办	core_builtin	file	raw/papers	builtin
+dodi-5000.87软件采办	DoDI 5000.87 — 防务采办软件采办	core_builtin	file	raw/papers	builtin
+dodi-5000.97数字工程	DoDI 5000.97 — 数字工程	core_builtin	file	raw/papers	builtin
+dot&e-fy2024-abms评估	DOT&E FY2024年度报告 - ABMS章节	core_builtin	file	raw/papers	builtin
+dot&e-fy2025低层防空反导评估	DOT&E FY2025 - Lower Tier Air and Missile Defense Sensor (LTAMDS)	core_builtin	file	raw/papers	builtin
+dot&e-fy2025宙斯盾评估	DOT&E FY2025 - Aegis Modernization Program	core_builtin	file	raw/papers	builtin
+dsp期刊-mosa方法2001	DSP Journal: MOSA概述与努力（2020）	core_builtin	file	raw/papers	builtin
+dsp期刊-mosa方法2020	DSP Journal 2020 — MOSA专刊	core_builtin	file	raw/papers	builtin
+dtic-nc3架构ada619949	NC3 Architecture Update — DTIC ADA619949	core_builtin	file	raw/papers	builtin
+dvids-r-egi导航飞行测试2024	R-EGI PNT Systems Flight Demonstrations — DVIDS	core_builtin	file	raw/papers	builtin
+e-hel直升机mosa案例	E-HEL持久高能激光定向能武器MOSA实施	core_builtin	file	raw/articles	builtin
+face技术标准3.2-2023	FACE技术标准3.2版（2023年8月）	core_builtin	file	raw/papers	builtin
+flraa-mv75-mosa案例	FLRAA MV-75未来远程突击飞行器MOSA数字工程实施	core_builtin	file	raw/articles	builtin
+fy2017-ndaa第805节	FY2017 NDAA — Section 805：MOSA 立法源	core_builtin	file	raw/papers	builtin
+fy24科学技术参考条款	FY2024 DAF SAB S&T审查职权范围（CCA/DEW/SWD）	core_builtin	file	raw/papers	builtin
+gao-24-106831武器系统	GAO-24-106831 — 武器系统年度评估	core_builtin	file	raw/papers	builtin
+gao-25-106931-mosa审查	GAO-25-106931: MOSA专项审查报告	core_builtin	file	raw/papers	builtin
+gao-r-25-106931-mosa审查	GAO-25-106931 MOSA专项审查报告：武器系统采办——国防部需要更好的规划以获取模块化开放系统方法的收益	core_builtin	file	raw/papers	builtin
+hasc报告114-102	HASC Report 114-102 — FY2016 NDAA 委员会报告	core_builtin	file	raw/papers	builtin
+hima和谐智能出行	鸿蒙智行官网：HIMA联盟与核心技术	core_builtin	file	raw/articles	builtin
+icnews-coarps信息征求	Air Force Posts COARPS RFI	core_builtin	file	raw/articles	builtin
+ieee-nasa数字工程之旅2024	IEEE Aerospace Conference: NASA数字工程转型之旅（2024）	core_builtin	file	raw/papers	builtin
+incose-mbse方法论调查	INCOSE MBSE方法论调查	core_builtin	file	raw/papers	builtin
+incose系统工程手册v5	INCOSE SE Handbook V5 — 系统工程手册第五版	core_builtin	file	raw/papers	builtin
+is4s-r-egi-c12j飞行测试	R-EGI Takes Flight on Military C-12J Test Aircraft	core_builtin	file	raw/articles	builtin
+iso-15288-2023系统工程	ISO/IEC/IEEE 15288:2023 — 系统生命周期过程	core_builtin	file	raw/papers	builtin
+insidegnss-r-egi里程碑2024	R-EGI Program Achieves Key Milestone	core_builtin	file	raw/articles	builtin
+mil-hdbk-1211导弹飞行仿真	MIL-HDBK-1211(MI)：导弹飞行仿真手册	core_builtin	file	raw/papers	builtin
+mil-std-881d国防物资工作分解结构	MIL-STD-881D——国防装备工作分解结构标准	core_builtin	file	raw/papers	builtin
+mitre-dews-mosa参考架构全文	MITRE DEWS MOSA参考架构完整文档	core_builtin	file	raw/papers	builtin
+moatel-wosa验证	MOATEL：弹药开放架构试验鉴定实验室	core_builtin	file	raw/articles	builtin
+mora模块化开放射频	MORA — 模块化开放射频架构	core_builtin	file	raw/papers	builtin
+mosa与美国国防采办-shah论文	模块化开放系统方法（MOSA）及其对美国国防采办的影响	core_builtin	file	raw/papers	builtin
+nasa手册1004	NASA-HDBK-1004: NASA数字工程采办框架手册	core_builtin	file	raw/papers	builtin
+nasa手册1009a	NASA-HDBK-1009A: NASA系统建模手册（系统工程用）	core_builtin	file	raw/papers	builtin
+nasa手册7009a	NASA-HDBK-7009A: 建模与仿真手册——NASA-STD-7009A实施指南	core_builtin	file	raw/papers	builtin
+nasa系统工程手册修订2	NASA/SP-2016-6105 Rev 2 — NASA系统工程手册	core_builtin	file	raw/papers	builtin
+navair-host-5.0发布	海军推广最新硬件开放架构技术标准HOST 5.0（NAVAIR新闻 2023年2月）	core_builtin	file	raw/papers	builtin
+navair-mosa概述	NAVAIR MOSA官方页面	core_builtin	file	raw/papers	builtin
+navair-osmp指南v1-2025	NAVAIR OSMP Implementation Description Guide v1.0 2025	core_builtin	file	raw/papers	builtin
+ndaa-2020-2021-mosa扩展	2020/2021财年国防授权法案MOSA扩展条款	core_builtin	file	raw/articles	builtin
+ndia-sysml-v2过渡2023	NDIA 2023 — DoD SysML v2 过渡指南项目简报	core_builtin	file	raw/papers	builtin
+ndia-cfw-icd赖特2015	NDIA — Constructing Common Fire Control Across Weapon Platforms	core_builtin	file	raw/papers	builtin
+ndia-mosa白皮书2019	美国国防工业协会（NDIA）MOSA白皮书——十大建议	core_builtin	file	raw/papers	builtin
+nist特别出版物800-160-v2网络韧性	NIST SP 800-160 Vol. 2 Rev. 1 — 赛博弹性系统开发	core_builtin	file	raw/papers	builtin
+ntsa-scars简报2025	NTSA SCARS STCF Brief 2025	core_builtin	file	raw/papers	builtin
+omb通告a-130	OMB Circular A-130 — 将信息作为战略资源管理	core_builtin	file	raw/papers	builtin
+osd-sysml-v2过渡指导	OUSD(R&E) SysML v1→v2 过渡指导	core_builtin	file	raw/papers	builtin
+osjtf宪章1994	开放系统联合特别工作组（OSJTF）宪章与MOSA起源	core_builtin	file	raw/papers	builtin
+ppi-did模板	PPI数据项描述（DID）模板合集	core_builtin	file	raw/papers	builtin
+ppi-集成项目管理与系统工程	PPI — 项目管理与系统工程整合	core_builtin	file	raw/papers	builtin
+ppi业务案例-系统工程	PPI — 系统工程投资回报论证	core_builtin	file	raw/papers	builtin
+ppi业务案例-需求工程	PPI — 需求工程投资回报论证	core_builtin	file	raw/papers	builtin
+ppi需求分析方法论	PPI — 需求分析方法论（有效 + 概览）	core_builtin	file	raw/papers	builtin
+ppi需求质量度量	PPI: Requirements Quality Metrics (Halligan 1993)	core_builtin	file	raw/papers	builtin
+rntfnd-r-egi导航系统2024	The future of navigation (MOSA) is happening — USAF R-EGI Project	core_builtin	file	raw/articles	builtin
+sam-abms广泛机构公告	SAM.gov ABMS广泛机构公告（BAA）	core_builtin	file	raw/papers	builtin
+sam.gov-uai信息征求	SAM.gov UAI/CFW ICD RFI	core_builtin	file	raw/papers	builtin
+sda太空作战架构mosa案例	太空发展局增殖型作战人员太空架构（PWSA）MOSA实施	core_builtin	file	raw/articles	builtin
+sm-6选定采购报告2023年12月	SM-6 采办报告（MSAR 2023年12月）	core_builtin	file	raw/papers	builtin
+sm6-ltamds-ibcs英勇之盾2024	SM-6与LTAMDS/IBCS联合集成验证（Valiant Shield 24）	core_builtin	file	raw/articles	builtin
+sosa-vita产品	SOSA产品技术概览与产品指南	core_builtin	file	raw/papers	builtin
+sosa参考架构v2	SOSA传感器开放系统架构参考架构技术标准	core_builtin	file	raw/papers	builtin
+stanag-4586无人机控制站	STANAG 4586 — NATO UAV控制系统标准接口（UCS）	core_builtin	file	raw/papers	builtin
+sysml-v2规范	SysML v2 规范 — 下一代系统建模语言	core_builtin	file	raw/papers	builtin
+uai通用武器接口	通用武器接口（UAI）概述	core_builtin	file	raw/papers	builtin
+victory-gva白皮书	VICTORY与GVA：地面车辆现代化白皮书	core_builtin	file	raw/papers	builtin
+victory地面车辆	VICTORY — 车辆C4ISR/EW互操作性标准	core_builtin	file	raw/papers	builtin
+wicvc试点成果2025	2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果	core_builtin	file	raw/articles	builtin
+xm30-micv-mosa案例	XM-30机械化步兵战车MOSA设计案例	core_builtin	file	raw/articles	builtin
+三军备忘录2019	三军部长备忘录：武器系统的模块化开放系统方法是作战必要条件（2019年1月）	core_builtin	file	raw/papers	builtin
+三军备忘录2024	三军联合备忘录：国防部武器系统模块化开放系统方法（2024年12月）	core_builtin	file	raw/papers	builtin
+中国智能网联汽车车路云一体化2024	中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布	core_builtin	file	raw/articles	builtin
+克里斯-加勒特演讲2024	Chris Garrett AFMC数字化转型演示	core_builtin	file	raw/papers	builtin
+军事嵌入-海军osmp-2025	海军将更多控制开放架构开发（Military Embedded 报道）	core_builtin	file	raw/articles	builtin
+华为车机套件开发者指南	华为Car Kit开发者文档：出行服务API	core_builtin	file	raw/articles	builtin
+参议院hunter证词2024	参议院拨款委员会听证——Hunter证词（空军采购）	core_builtin	file	raw/articles	builtin
+可组合武器-雷神公司	Raytheon Composable Weapons Architecture	core_builtin	file	raw/articles	builtin
+国防部mosa实施指南2025	MOSA实施指南（2025版）	core_builtin	file	raw/papers	builtin
+国防部指令5000.02-2020	DoDI 5000.02 — 自适应采办框架操作	core_builtin	file	raw/papers	builtin
+国防部指令5000.85-2020	DoDI 5000.85 — 重大能力收购	core_builtin	file	raw/papers	builtin
+国防部数字工程战略2018	DoD数字工程战略（2018）	core_builtin	file	raw/papers	builtin
+国防部监察长-osjtf审计2000	DoD IG审计报告：武器系统开放系统方法的使用（2000）	core_builtin	file	raw/papers	builtin
+大疆开发者平台概述	DJI开发者平台：SDK体系概览	core_builtin	file	raw/articles	builtin
+开放系统架构合同指南v1.1	OSA合同指南v1.1 — 项目经理开放系统架构合同指南	core_builtin	file	raw/papers	builtin
+德国宙斯盾spy6-f127-2026	德国Aegis/SPY-6 F127护卫舰军售案（2026年4月）	core_builtin	file	raw/articles	builtin
+波兰ibcs爱国者系统2023	波兰IBCS爱国者系统军售案（2023年9月）	core_builtin	file	raw/papers	builtin
+海军mosa指南v1	海军模块化开放系统方法实施指南 V1.0	core_builtin	file	raw/papers	builtin
+灵活武器架构-普渡大学2015	Flexible Weapons Architecture Design (Purdue Thesis)	core_builtin	file	raw/papers	builtin
+科学委员会数字工程2024	DSB数字工程能力报告 — 自动化测试与评估	core_builtin	file	raw/papers	builtin
+空军coarps信息征求2021	USAF COARPS RFI June 2021	core_builtin	file	raw/papers	builtin
+空军全球打击司令部-哨兵gbsd	AFGSC Sentinel GBSD Overview	core_builtin	file	raw/papers	builtin
+空军研究实验室-灵活武器2014	AFRL Flexible Weapons Concept (2014)	core_builtin	file	raw/articles	builtin
+空军装备司令部-abms分布式连接	AFMC ABMS：分布式连接制胜	core_builtin	file	raw/papers	builtin
+空军预备役-a-gra-cca验证2025	Air Force Validates A-GRA Open Architecture for CCA	core_builtin	file	raw/papers	builtin
+突破防务-scars报道2024	现代军事模拟的开放系统架构	core_builtin	file	raw/articles	builtin
+精确打击导弹mosa案例	精确打击导弹（PrSM）MOSA实施案例	core_builtin	file	raw/articles	builtin
+维基百科-lgm-35哨兵导弹	Wikipedia: LGM-35 Sentinel	core_builtin	file	raw/articles	builtin
+美国法典第10编4401-4403-mosa法	10 U.S.C. §§4401–4403 — MOSA法定要求	core_builtin	file	raw/papers	builtin
+航空peo-face-tim-2021	PEO Aviation FACE TIM 2021 Open Systems Demonstration	core_builtin	file	raw/papers	builtin
+航空peo-mosa实施指南	PEO Aviation MOSA实施指南（精简版）	core_builtin	file	raw/papers	builtin
+航空peo-mosa行业交流2022	PEO Aviation MOSA Transformation Office Industry Day 2022	core_builtin	file	raw/papers	builtin
+诺格公司-洞察开放处理器	Northrop Grumman InSight开放系统处理器数据手册	core_builtin	file	raw/articles	builtin
+防务新闻-开放标准2024	开放开发标准是保持美军优势的关键（Defense News 评论文章）	core_builtin	file	raw/articles	builtin
+陆军出发线-amd-2023	Army Line of Departure - Ensuring War-Winning Future Readiness for AMD Forces	core_builtin	file	raw/papers	builtin
+陆军采办投资组合2024	U.S. Army Acquisition Program Portfolio 2024	core_builtin	file	raw/papers	builtin

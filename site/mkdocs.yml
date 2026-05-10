@@ -22,6 +22,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到亮色模式
+  font: false
   features:
     - navigation.tabs
     - navigation.sections
@@ -69,246 +70,243 @@ copyright: Copyright &copy; 2024-2026 MOSA Knowledge Base
 
 nav:
   - 首页: index.md
-  - "MOSA & 数防采办知识库总览": overview.md
-  - log: log.md
-  - MOSA/数字工程周报 — 观察列表: log-watchlist.md
   - 主题:
       - index: topics/index.md
-      - 中国车路云一体化战略: topics/china-vehicle-road-cloud-integration.md
-      - 数字工程生态系统（DEE）概述: topics/digital-engineering-ecosystem.md
-      - 数字工程实践：NASA/INCOSE框架、SysML v2使能与OUSD过渡时间线: topics/digital-engineering-practice.md
-      - 数字工程工具链对比: topics/digital-engineering-tools-comparison.md
-      - 大疆开放无人机架构标准: topics/dji-open-drone-architecture.md
-      - 柔性武器设计方法：符合WOSA要求的学术研究与工业实践: topics/flexible-weapons-design-methodology.md
-      - GRA生态演进：从单一标准到四层架构体系: topics/gra-ecosystem-evolution.md
-      - 华为车辆开放生态: topics/huawei-vehicle-open-ecosystem.md
-      - 中间层采办与MOSA的张力: topics/middle-tier-acquisition-mosa-tension.md
-      - MOSA发展历程：从OSJTF到法定要求的30年: topics/mosa-history-timeline.md
-      - MOSA实施指南（2025版）主题综合: topics/mosa-implementation-guidebook.md
-      - 美军全寿命周期MOSA应用分析: topics/mosa-lifecycle-application.md
-      - MOSA在软件采办中的实施: topics/mosa-software-acquisition.md
-      - 模块化开放系统方法（MOSA）综述: topics/mosaic-modular-open-systems-approach.md
-      - NIST赛博弹性设计原则作为MOSA安全性架构框架: topics/nist-cyber-resilience-mosa-security.md
-      - SysML v1→v2过渡：MOSA数字工程落地的基础设施瓶颈: topics/sysml-v2-transition-bottleneck.md
-      - 三本SE手册互补：NASA机构实现 vs INCOSE国际最佳实践 vs ISO标准: topics/three-se-handbooks-complement.md
+      - "GRA生态演进：从单一标准到四层架构体系": topics/GRA生态演进.md
+      - "模块化开放系统方法（MOSA）综述": topics/MOSAIC方法.md
+      - "美军全寿命周期MOSA应用分析": topics/MOSA全生命周期应用.md
+      - "MOSA发展历程：从OSJTF到法定要求的30年": topics/MOSA历史时间线.md
+      - "MOSA实施指南（2025版）主题综合": topics/MOSA实施手册.md
+      - "MOSA在软件采办中的实施": topics/MOSA软件采办.md
+      - "NIST赛博弹性设计原则作为MOSA安全性架构框架": topics/NIST网络韧性与MOSA安全.md
+      - "SysML v1→v2过渡：MOSA数字工程落地的基础设施瓶颈": topics/SysML v2过渡瓶颈.md
+      - "三本SE手册互补：NASA机构实现 vs INCOSE国际最佳实践 vs ISO标准": topics/三本系统工程手册互补.md
+      - "中国车路云一体化战略": topics/中国车路云一体化.md
+      - "中间层采办与MOSA的张力": topics/中间层采办与MOSA张力.md
+      - "华为车辆开放生态": topics/华为车辆开放生态.md
+      - "大疆开放无人机架构标准": topics/大疆开放无人机架构.md
+      - "数字工程实践：NASA/INCOSE框架、SysML v2使能与OUSD过渡时间线": topics/数字工程实践.md
+      - "数字工程工具链对比": topics/数字工程工具对比.md
+      - "数字工程生态系统（DEE）概述": topics/数字工程生态.md
+      - "柔性武器设计方法：符合WOSA要求的学术研究与工业实践": topics/灵活武器设计方法论.md
   - 概念:
       - index: concepts/index.md
-      - "自主政府参考架构（A-GRA）": concepts/a-gra-autonomy-reference-architecture.md
-      - 先进战斗管理系统政府参考架构（ABMS GRA）: concepts/abms-gra-advanced-battle-management.md
-      - 采办实践与SysML v2过渡: concepts/acquisition-practices.md
-      - 自适应采办框架（AAF）: concepts/adaptive-acquisition-framework.md
-      - 敏捷任务套件政府参考架构（AMS GRA）: concepts/ams-gra-agile-mission-suite.md
-      - 架构框架: concepts/architecture-framework.md
-      - 通用开放架构雷达程序规范（COARPS）: concepts/coarps-radar-architecture.md
-      - 协作作战飞机（CCA）: concepts/collaborative-combat-aircraft.md
-      - 国防采办项目成本超支趋势: concepts/defense-acquisition-overrun-trends.md
-      - 定向能武器系统MOSA参考架构（DEWS MOSA RA）: concepts/dews-mosa-reference-architecture.md
-      - 数字化物资管理（DMM）: concepts/digital-materiel-management.md
-      - FACE™ 技术标准: concepts/face-technical-standard.md
-      - 政府参考架构（GRA）模式: concepts/government-reference-architectures.md
-      - 硬件开放系统技术（HOST）: concepts/host-hardware-open-systems.md
-      - 中间采办层级（MTA）: concepts/middle-tier-acquisition.md
-      - 基于模型的系统工程（MBSE）: concepts/model-based-systems-engineering.md
-      - 模块化架构模式: concepts/modular-architecture-patterns.md
-      - 模块化开放射频架构（MORA）: concepts/mora-modular-open-rf-architecture-concept.md
-      - MOSA架构脆弱性分析: concepts/mosa-architecture-vulnerabilities.md
-      - MOSA棕地改造与绿地新建（Brownfield vs Greenfield）: concepts/mosa-brownfield-vs-greenfield.md
-      - 模块化开放系统方法（MOSA）: concepts/mosa-defense-acquisition.md
-      - MOSA与数字工程: concepts/mosa-digital-engineering.md
-      - "OUSD(R&E) MOSA五大支柱评估框架": concepts/mosa-five-pillars-assessment.md
-      - MOSA五大支柱: concepts/mosa-five-pillars.md
-      - NASA数字工程实施体系：三层手册架构: concepts/nasa-de-implementation-system.md
-      - 核指挥控制通信政府参考架构（NC3 GRA）: concepts/nc3-gra-nuclear-c3.md
-      - 开放任务系统（OMS）: concepts/open-mission-systems.md
-      - "PNT政府参考架构 / 弹性嵌入式GPS/INS（R-EGI）": concepts/pnt-gra-r-egi.md
-      - 需求质量：MOSA的技术基础: concepts/requirements-quality-mosa.md
-      - 模拟器通用架构需求标准（SCARS）: concepts/scars-simulator-architecture.md
-      - Sentinel洲际弹道导弹政府参考架构（Sentinel GRA）: concepts/sentinel-gra-icbm.md
-      - 软件定义能力: concepts/software-defined-capabilities.md
-      - 传感器开放系统架构（SOSA）: concepts/sosa-sensor-open-systems-architecture.md
-      - 系统集成: concepts/system-integration.md
-      - 系统弹性工程: concepts/system-resilience-engineering.md
-      - 无人系统指挥控制标准接口（UCS）: concepts/ucs-control-station.md
-      - 国防领域的供应商锁定: concepts/vendor-lock-in.md
-      - WOSA架构工具集: concepts/wosa-architecture-tools.md
-      - 武器开放系统架构（WOSA）: concepts/wosa-weapons-open-systems-architecture.md
+      - "自主政府参考架构（A-GRA）": concepts/A-GRA自主参考架构.md
+      - "先进战斗管理系统政府参考架构（ABMS GRA）": concepts/ABMS-GRA先进战斗管理.md
+      - "敏捷任务套件政府参考架构（AMS GRA）": concepts/AMS-GRA敏捷任务套件.md
+      - "通用开放架构雷达程序规范（COARPS）": concepts/COARPS雷达架构.md
+      - "定向能武器系统MOSA参考架构（DEWS MOSA RA）": concepts/DEWS-MOSA参考架构.md
+      - "FACE™ 技术标准": concepts/FACE技术标准.md
+      - "模块化开放射频架构（MORA）": concepts/MORA模块化开放射频架构概念.md
+      - "模块化开放系统方法（MOSA）": concepts/MOSA与国防采办.md
+      - "MOSA与数字工程": concepts/MOSA与数字工程.md
+      - "MOSA五大支柱": concepts/MOSA五支柱.md
+      - "OUSD(R&E) MOSA五大支柱评估框架": concepts/MOSA五支柱评估.md
+      - "MOSA架构脆弱性分析": concepts/MOSA架构脆弱性.md
+      - "MOSA棕地改造与绿地新建（Brownfield vs Greenfield）": concepts/MOSA棕地与绿地对比.md
+      - "需求质量：MOSA的技术基础": concepts/MOSA需求质量.md
+      - "NASA数字工程实施体系：三层手册架构": concepts/NASA数字工程实施体系.md
+      - "核指挥控制通信政府参考架构（NC3 GRA）": concepts/NC3-GRA核指挥控制.md
+      - "PNT政府参考架构 / 弹性嵌入式GPS/INS（R-EGI）": concepts/PNT-GRA-R-EGI导航.md
+      - "模拟器通用架构需求标准（SCARS）": concepts/SCARS仿真器架构.md
+      - "传感器开放系统架构（SOSA）": concepts/SOSA传感器开放系统架构.md
+      - "Sentinel洲际弹道导弹政府参考架构（Sentinel GRA）": concepts/Sentinel-GRA洲际导弹.md
+      - "无人系统指挥控制标准接口（UCS）": concepts/UCS控制站.md
+      - "WOSA架构工具集": concepts/WOSA架构工具.md
+      - "武器开放系统架构（WOSA）": concepts/WOSA武器开放系统架构.md
+      - "中间采办层级（MTA）": concepts/中间层采办.md
+      - "国防领域的供应商锁定": concepts/供应商锁定.md
+      - "协作作战飞机（CCA）": concepts/协同作战飞机.md
+      - "国防采办项目成本超支趋势": concepts/国防采办超支趋势.md
+      - "基于模型的系统工程（MBSE）": concepts/基于模型的系统工程.md
+      - "硬件开放系统技术（HOST）": concepts/宿主硬件开放系统.md
+      - "开放任务系统（OMS）": concepts/开放任务系统.md
+      - "政府参考架构（GRA）模式": concepts/政府参考架构.md
+      - "数字化物资管理（DMM）": concepts/数字装备管理.md
+      - "架构框架": concepts/架构框架.md
+      - "模块化架构模式": concepts/模块化架构模式.md
+      - "系统集成": concepts/系统集成.md
+      - "系统弹性工程": concepts/系统韧性工程.md
+      - "自适应采办框架（AAF）": concepts/自适应采办框架.md
+      - "软件定义能力": concepts/软件定义能力.md
+      - "采办实践与SysML v2过渡": concepts/采办实践.md
   - 对比:
       - index: comparisons/index.md
-      - C5ISR标准生态趋同: comparisons/c5isr-standards-convergence.md
-      - 中美开放系统架构路径对比: comparisons/china-vs-us-open-architecture.md
-      - 赛博安全与MOSA开放接口：攻击面扩大与信息安全的政策张力: comparisons/cybersecurity-vs-mosa-openness.md
-      - 数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE: comparisons/digital-ecosystem-platforms.md
-      - 数字工程与MOSA融合：从采办策略到工程方法论的质变: comparisons/digital-engineering-mosa-convergence.md
-      - DMM与DEE趋同：AFMC数字化转型与DoD数字工程的互补关系: comparisons/dmm-vs-dee-convergence.md
-      - INCOSE韧性 vs NIST赛博弹性：通用框架与赛博特化的关系: comparisons/incose-resilience-vs-nist-cyber-resilience.md
-      - 接口工程三层演进：从NASA ICD到MOSA标准化到SysML v2模型驱动: comparisons/interface-engineering-evolution.md
-      - Karpathy LLM Wiki原版 vs 我们的实现: comparisons/karpathy-vs-implementation.md
-      - MOSA在CCA中的应用：模块化开放系统方法与协作作战飞机: comparisons/mosa-cca-application.md
-      - MOSA五原则→五大支柱：12年演化脉络: comparisons/mosa-five-principles-to-pillars.md
-      - MOSA实施全栈：从法律到合同执行: comparisons/mosa-implementation-stack.md
-      - MOSA实施状态矩阵（20项目汇总）: comparisons/mosa-implementation-status-matrix.md
-      - MOSA的国际化：从美国DoD到NATO联盟: comparisons/mosa-internationalization.md
-      - 美军开放架构标准分类：三军共用 vs 军种内推广: comparisons/mosa-standards-by-scope.md
-      - 开放架构层次体系：从平台到部组件的四层结构: comparisons/open-architecture-hierarchy.md
-      - "PM-SE整合：MOSA实施的组织瓶颈": comparisons/pm-se-integration-mosa.md
-      - "SiAW vs AARGM-ER MOSA对比分析": comparisons/siaw-aargm-er-mosa-contrast.md
-      - 三军已验证开放标准生态（6大标准）: comparisons/six-validated-mosa-standards.md
-      - 速度与模块化：MOSA在快速采办路径中的政策张力: comparisons/speed-vs-modularity.md
-      - "三本SE手册对比：NASA SP-2016-6105 vs INCOSE V5 vs ISO 15288": comparisons/three-se-handbooks-detailed-comparison.md
+      - "C5ISR标准生态趋同": comparisons/C5ISR标准融合.md
+      - "DMM与DEE趋同：AFMC数字化转型与DoD数字工程的互补关系": comparisons/DMM与DEE融合.md
+      - "INCOSE韧性 vs NIST赛博弹性：通用框架与赛博特化的关系": comparisons/INCOSE韧性与NIST网络韧性对比.md
+      - "Karpathy LLM Wiki原版 vs 我们的实现": comparisons/Karpathy理论与实践对比.md
+      - "MOSA五原则→五大支柱：12年演化脉络": comparisons/MOSA五原则到五支柱.md
+      - "MOSA的国际化：从美国DoD到NATO联盟": comparisons/MOSA国际化.md
+      - "MOSA在CCA中的应用：模块化开放系统方法与协作作战飞机": comparisons/MOSA在CCA中的应用.md
+      - "MOSA实施全栈：从法律到合同执行": comparisons/MOSA实施栈.md
+      - "MOSA实施状态矩阵（20项目汇总）": comparisons/MOSA实施状态矩阵.md
+      - "SiAW vs AARGM-ER MOSA对比分析": comparisons/SIAW与AARGM-ER模块化对比.md
+      - "三本SE手册对比：NASA SP-2016-6105 vs INCOSE V5 vs ISO 15288": comparisons/三本系统工程手册详细对比.md
+      - "中美开放系统架构路径对比": comparisons/中美开放架构对比.md
+      - "三军已验证开放标准生态（6大标准）": comparisons/六项已验证的MOSA标准.md
+      - "开放架构层次体系：从平台到部组件的四层结构": comparisons/开放架构层级.md
+      - "美军开放架构标准分类：三军共用 vs 军种内推广": comparisons/按范围分类的MOSA标准.md
+      - "接口工程三层演进：从NASA ICD到MOSA标准化到SysML v2模型驱动": comparisons/接口工程演进.md
+      - "数字工程与MOSA融合：从采办策略到工程方法论的质变": comparisons/数字工程与模块化融合.md
+      - "数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE": comparisons/数字生态平台对比.md
+      - "赛博安全与MOSA开放接口：攻击面扩大与信息安全的政策张力": comparisons/网络安全与模块化开放性.md
+      - "速度与模块化：MOSA在快速采办路径中的政策张力": comparisons/速度与模块化权衡.md
+      - "PM-SE整合：MOSA实施的组织瓶颈": comparisons/项目管理与系统工程集成.md
   - 实体:
       - index: entities/index.md
-      - 空军全球打击司令部（AFGSC）: entities/afgsc.md
-      - 空军生命周期管理中心（AFLCMC）: entities/aflcmc.md
-      - 空军装备司令部（AFMC）: entities/afmc.md
-      - 安杜里尔工业（Anduril Industries）: entities/anduril.md
-      - 优化采办购买力3.0（Better Buying Power 3.0）: entities/better-buying-power-3-0.md
-      - CAE USA: entities/cae-usa.md
-      - Chris Garrett — AFLCMC系统工程主管: entities/chris-garrett.md
-      - 柯林斯宇航（Collins Aerospace / RTX）: entities/collins-aerospace.md
-      - 空军部科学咨询委员会（DAF SAB）: entities/daf-sab.md
-      - "Daniel Hettema — DEM&S 主任": entities/daniel-hetzema.md
-      - "DEM&S — 数字工程、建模与仿真团队": entities/dems.md
-      - 美国国防部（DoD）: entities/dod-department-of-defense.md
-      - 国防科学委员会（DSB）: entities/dsb.md
-      - 美国政府问责署（GAO）: entities/gao.md
-      - "通用原子（General Atomics / GA-ASI）": entities/general-atomics.md
-      - 国际系统工程委员会（INCOSE）: entities/incose.md
-      - IS4S: entities/is4s.md
-      - 洛克希德·马丁（Lockheed Martin）: entities/lockheed-martin.md
-      - 北大西洋公约组织（NATO）: entities/nato.md
-      - Nickolas H. Guertin — 海军助理部长（研发与采办）: entities/nickolas-guertin.md
-      - 诺斯罗普·格鲁曼（Northrop Grumman）: entities/northrop-grumman.md
-      - 管理和预算办公室（OMB）: entities/omb.md
-      - "OUSD(R&E) — 研究与工程副部长办公室": entities/ousd-re.md
-      - 帕斯·德万·沙阿（Parth Devang Shah）: entities/parth-devang-shah.md
-      - "PMA-209 空战电子办公室": entities/pma-209.md
-      - 国际项目绩效公司（PPI）: entities/ppi.md
-      - Shield AI: entities/shield-ai.md
-      - 太空发展局（Space Development Agency / SDA）: entities/space-development-agency.md
-      - 美国战略司令部（US STRATCOM）: entities/stratcom.md
-      - The Open Group: entities/the-open-group.md
+      - "CAE USA": entities/CAE美国公司.md
+      - "IS4S": entities/IS4S公司.md
+      - "PMA-209 空战电子办公室": entities/PMA-209项目办公室.md
+      - "国际项目绩效公司（PPI）": entities/PPI公司.md
+      - "Shield AI": entities/Shield AI公司.md
+      - "Daniel Hettema — DEM&S 主任": entities/丹尼尔-赫策马.md
+      - "Chris Garrett — AFLCMC系统工程主管": entities/克里斯-加勒特.md
+      - "北大西洋公约组织（NATO）": entities/北约.md
+      - "国防科学委员会（DSB）": entities/国防科学委员会.md
+      - "OUSD(R&E) — 研究与工程副部长办公室": entities/国防部研究与工程副部长办公室.md
+      - "国际系统工程委员会（INCOSE）": entities/国际系统工程理事会.md
+      - "太空发展局（Space Development Agency / SDA）": entities/太空发展局.md
+      - "安杜里尔工业（Anduril Industries）": entities/安杜里尔工业.md
+      - "Nickolas H. Guertin — 海军助理部长（研发与采办）": entities/尼古拉斯-格廷.md
+      - "帕斯·德万·沙阿（Parth Devang Shah）": entities/帕思-德旺-沙阿.md
+      - "The Open Group": entities/开放集团.md
+      - "美国战略司令部（US STRATCOM）": entities/战略司令部.md
+      - "美国政府问责署（GAO）": entities/政府问责署.md
+      - "DEM&S — 数字工程、建模与仿真团队": entities/数字工程现代化战略.md
+      - "优化采办购买力3.0（Better Buying Power 3.0）": entities/更好购买力3.0.md
+      - "柯林斯宇航（Collins Aerospace / RTX）": entities/柯林斯航空航天.md
+      - "洛克希德·马丁（Lockheed Martin）": entities/洛克希德-马丁.md
+      - "空军全球打击司令部（AFGSC）": entities/空军全球打击司令部.md
+      - "空军生命周期管理中心（AFLCMC）": entities/空军生命周期管理中心.md
+      - "空军部科学咨询委员会（DAF SAB）": entities/空军科学咨询委员会.md
+      - "空军装备司令部（AFMC）": entities/空军装备司令部.md
+      - "管理和预算办公室（OMB）": entities/管理和预算办公室.md
+      - "美国国防部（DoD）": entities/美国国防部.md
+      - "诺斯罗普·格鲁曼（Northrop Grumman）": entities/诺斯罗普-格鲁曼.md
+      - "通用原子（General Atomics / GA-ASI）": entities/通用原子.md
   - 来源:
       - index: sources/index.md
-      - 10 U.S.C. §§4401–4403 — MOSA法定要求: sources/10usc-4401-4403-mosa-law.md
-      - "DSP Journal: MOSA概述与努力（2020）": sources/DSP-Journal-MOSA-2001.md
-      - DoD IG审计报告：武器系统开放系统方法的使用（2000）: sources/DoD-IG-OSJTF-Audit-2000.md
-      - 开放系统联合特别工作组（OSJTF）宪章与MOSA起源: sources/OSJTF-Charter-1994.md
-      - AFGSC Sentinel GBSD Overview: sources/afgsc-sentinel-gbsd.md
-      - AFMC ABMS：分布式连接制胜: sources/afmc-abms-distributed-connectivity.md
-      - "Air Force Validates A-GRA Open Architecture for CCA": sources/afrc-a-gra-cca-validation-2025.md
-      - AFRL Flexible Weapons Concept (2014): sources/afrl-flexible-weapons-2014.md
-      - "AMDR/SPY-6 采办报告（MSAR 2023年12月）": sources/amdr-spy6-sar-dec2023.md
-      - U.S. Army Acquisition Program Portfolio 2024: sources/army-acquisition-portfolio-2024.md
-      - "Army Line of Departure - Ensuring War-Winning Future Readiness for AMD Forces": sources/army-line-of-departure-amd-2023.md
-      - ARSENL — 空军架构标准与工程库: sources/arsenl-usaf-standards.md
-      - "B-21 Raider突袭者轰炸机MOSA实施案例": sources/b21-raider-mosa.md
-      - Better Buying Power 3.0 — 实施指令: sources/bbp-3-0-implementation-directive.md
-      - 现代军事模拟的开放系统架构: sources/breaking-defense-scars-2024.md
-      - CAE SCARS Program: sources/cae-scars-program.md
-      - 中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布: sources/china-icv-cictci-vehicle-road-cloud-2024.md
-      - Chris Garrett AFMC数字化转型演示: sources/chris-garrett-presentation-2024.md
-      - CMOSS（C5ISR/EW模块化开放标准套件）概述: sources/cmoss-overview-2022.md
-      - Raytheon Composable Weapons Architecture: sources/composable-weapons-raytheon.md
-      - CRS IF11697 — 核指挥控制通信入门: sources/crs-nc3-if11697.md
-      - "CRS IF11681 — Sentinel LGM-35A ICBM入门": sources/crs-sentinel-icbm-if11681.md
-      - CSIS：通过模块化开放系统方法分担负担: sources/csis-mosa-burden-sharing-2025.md
-      - DAU Next Generation Acquisition Model — Open Architectures: sources/dau-next-gen-acquisition-2024.md
-      - 开放开发标准是保持美军优势的关键（Defense News 评论文章）: sources/defense-news-open-standards-2024.md
-      - "DFARS Case 2021-D005: 模块化开放系统方法合同条款": sources/dfars-2021-d005-mosa.md
-      - DFARS第207部分 — 采办规划（MOSA）: sources/dfars-part-207.md
-      - DFARS第227部分：专利、数据及版权: sources/dfars-part-227-patents-data-and-copyrights.md
-      - DFARS Part 252 — 征询条款与合同条款: sources/dfars-part-252-contract-clauses.md
-      - DJI开发者平台：SDK体系概览: sources/dji-developer-platform-overview.md
-      - DoD数字工程战略（2018）: sources/dod-de-strategy-2018.md
-      - DoDI 5000.02 — 自适应采办框架操作: sources/dodi-5000-02-2020.md
-      - DoDI 5000.74 — 服务采办: sources/dodi-5000-74-services.md
-      - DoDI 5000.75 — 业务系统需求与采办: sources/dodi-5000-75-business-systems.md
-      - DoDI 5000.80 — 中间采办层级（MTA）: sources/dodi-5000-80-middle-tier-acquisition.md
-      - DoDI 5000.81 — 紧急能力采办: sources/dodi-5000-81-urgent-capability.md
-      - DoDI 5000.85 — 重大能力收购: sources/dodi-5000-85-2020.md
-      - DoDI 5000.87 — 防务采办软件采办: sources/dodi-5000-87-software-acquisition.md
-      - DoDI 5000.97 — 数字工程: sources/dodi-5000-97-digital-engineering.md
-      - "DOT&E FY2024年度报告 - ABMS章节": sources/dote-fy2024-abms.md
-      - "DOT&E FY2025 - Aegis Modernization Program": sources/dote-fy2025-aegis.md
-      - "DOT&E FY2025 - Lower Tier Air and Missile Defense Sensor (LTAMDS)": sources/dote-fy2025-ltamds.md
-      - DSB数字工程能力报告 — 自动化测试与评估: sources/dsb-digital-engineering-2024.md
-      - DSP Journal 2020 — MOSA专刊: sources/dsp-journal-mosa-2020.md
-      - NC3 Architecture Update — DTIC ADA619949: sources/dtic-nc3-architecture-ada619949.md
-      - "R-EGI PNT Systems Flight Demonstrations — DVIDS": sources/dvids-r-egi-pnt-flight-2024.md
-      - "E-HEL持久高能激光定向能武器MOSA实施": sources/e-hel-mosa.md
-      - FACE技术标准3.2版（2023年8月）: sources/face-technical-standard-3.2-2023.md
-      - Flexible Weapons Architecture Design (Purdue Thesis): sources/flexible-weapons-architecture-purdue-2015.md
-      - "FLRAA MV-75未来远程突击飞行器MOSA数字工程实施": sources/flraa-mv75-mosa.md
-      - FY2017 NDAA — Section 805：MOSA 立法源: sources/fy2017-ndaa-section-805.md
-      - "FY2024 DAF SAB S&T审查职权范围（CCA/DEW/SWD）": sources/fy24-st-terms-of-reference.md
-      - "GAO-24-106831 — 武器系统年度评估": sources/gao-24-106831-weapon-systems.md
-      - "GAO-25-106931: MOSA专项审查报告": sources/gao-25-106931-mosa-review.md
-      - "GAO-25-106931 MOSA专项审查报告：武器系统采办——国防部需要更好的规划以获取模块化开放系统方法的收益": sources/gaor-25-106931-mosa-review.md
-      - "德国Aegis/SPY-6 F127护卫舰军售案（2026年4月）": sources/germany-aegis-spy6-f127-2026.md
-      - "HASC Report 114-102 — FY2016 NDAA 委员会报告": sources/hasc-report-114-102-fy2016-ndaa.md
-      - 鸿蒙智行官网：HIMA联盟与核心技术: sources/hima-harmony-intelligent-mobility.md
-      - 华为Car Kit开发者文档：出行服务API: sources/huawei-car-kit-developer-guide.md
-      - Air Force Posts COARPS RFI: sources/icnews-coarps-rfi.md
-      - "IEEE Aerospace Conference: NASA数字工程转型之旅（2024）": sources/ieee-nasa-de-journey-2024.md
-      - INCOSE MBSE方法论调查: sources/incose-mbse-methodology-survey.md
-      - INCOSE SE Handbook V5 — 系统工程手册第五版: sources/incose-se-handbook-v5.md
-      - "R-EGI Program Achieves Key Milestone": sources/insidegnss-r-egi-milestone-2024.md
-      - "R-EGI Takes Flight on Military C-12J Test Aircraft": sources/is4s-r-egi-c12j-flight.md
-      - "ISO/IEC/IEEE 15288:2023 — 系统生命周期过程": sources/iso-15288-2023.md
-      - "MIL-HDBK-1211(MI)：导弹飞行仿真手册": sources/mil-hdbk-1211-mi-missile-flight-simulation.md
-      - "MIL-STD-881D——国防装备工作分解结构标准": sources/mil-std-881d-wbs-defense-materiel.md
-      - 海军将更多控制开放架构开发（Military Embedded 报道）: sources/military-embedded-navy-osmp-2025.md
-      - MITRE DEWS MOSA参考架构完整文档: sources/mitre-dews-mosa-ra-full.md
-      - MOATEL：弹药开放架构试验鉴定实验室: sources/moatel-wosa-verification.md
-      - MORA — 模块化开放射频架构: sources/mora-modular-open-rf.md
-      - MOSA实施指南（2025版）: sources/mosa-implementation-guidebook-2025.md
-      - 模块化开放系统方法（MOSA）及其对美国国防采办的影响: sources/mosa-shah-thesis.md
-      - "NASA-HDBK-1004: NASA数字工程采办框架手册": sources/nasa-hdbk-1004.md
-      - "NASA-HDBK-1009A: NASA系统建模手册（系统工程用）": sources/nasa-hdbk-1009a.md
-      - "NASA-HDBK-7009A: 建模与仿真手册——NASA-STD-7009A实施指南": sources/nasa-hdbk-7009a.md
-      - "NASA/SP-2016-6105 Rev 2 — NASA系统工程手册": sources/nasa-se-handbook-rev2.md
-      - 海军推广最新硬件开放架构技术标准HOST 5.0（NAVAIR新闻 2023年2月）: sources/navair-host-5.0-release.md
-      - NAVAIR MOSA官方页面: sources/navair-mosa-overview.md
-      - NAVAIR OSMP Implementation Description Guide v1.0 2025: sources/navair-osmp-guide-v1-2025.md
-      - 海军模块化开放系统方法实施指南 V1.0: sources/naval-mosa-guide-v1.md
-      - 2020/2021财年国防授权法案MOSA扩展条款: sources/ndaa-2020-2021-mosa-expansion.md
-      - NDIA — Constructing Common Fire Control Across Weapon Platforms: sources/ndia-cfw-icd-wright-2015.md
-      - 美国国防工业协会（NDIA）MOSA白皮书——十大建议: sources/ndia-mosa-white-paper-2019.md
-      - NDIA 2023 — DoD SysML v2 过渡指南项目简报: sources/ndia-sysml-v2-transition-2023.md
-      - Northrop Grumman InSight开放系统处理器数据手册: sources/ng-insight-open-processor.md
-      - "NIST SP 800-160 Vol. 2 Rev. 1 — 赛博弹性系统开发": sources/nist-sp-800-160-v2-cyber-resilience.md
-      - NTSA SCARS STCF Brief 2025: sources/ntsa-scars-stcf-2025.md
-      - "OMB Circular A-130 — 将信息作为战略资源管理": sources/omb-circular-a-130.md
-      - OSA合同指南v1.1 — 项目经理开放系统架构合同指南: sources/osa-contract-guidebook-v1.1.md
-      - "OUSD(R&E) SysML v1→v2 过渡指导": sources/ousd-sysml-v2-transition-guidance.md
-      - PEO Aviation FACE TIM 2021 Open Systems Demonstration: sources/peo-aviation-face-tim-2021.md
-      - PEO Aviation MOSA实施指南（精简版）: sources/peo-aviation-mosa-impl-guide.md
-      - PEO Aviation MOSA Transformation Office Industry Day 2022: sources/peo-aviation-mosa-industry-2022.md
-      - 波兰IBCS爱国者系统军售案（2023年9月）: sources/poland-ibcs-patriot-2023.md
-      - PPI — 需求工程投资回报论证: sources/ppi-business-case-re.md
-      - PPI — 系统工程投资回报论证: sources/ppi-business-case-se.md
-      - PPI数据项描述（DID）模板合集: sources/ppi-did-templates.md
-      - PPI — 项目管理与系统工程整合: sources/ppi-integrating-pm-se.md
-      - PPI — 需求分析方法论（有效 + 概览）: sources/ppi-requirements-analysis.md
-      - "PPI: Requirements Quality Metrics (Halligan 1993)": sources/ppi-requirements-quality-metrics.md
-      - 精确打击导弹（PrSM）MOSA实施案例: sources/prsm-mosa.md
-      - "The future of navigation (MOSA) is happening — USAF R-EGI Project": sources/rntfnd-r-egi-mosa-2024.md
-      - SAM.gov ABMS广泛机构公告（BAA）: sources/sam-abms-baa.md
-      - SAM.gov UAI/CFW ICD RFI: sources/samgov-uai-rfi.md
-      - 太空发展局增殖型作战人员太空架构（PWSA）MOSA实施: sources/sda-pwsa-mosa.md
-      - 参议院拨款委员会听证——Hunter证词（空军采购）: sources/senate-defense-hunter-testimony-2024.md
-      - "SM-6与LTAMDS/IBCS联合集成验证（Valiant Shield 24）": sources/sm6-ltamds-ibcs-valiant-shield-2024.md
-      - "SM-6 采办报告（MSAR 2023年12月）": sources/sm6-sar-dec2023.md
-      - SOSA传感器开放系统架构参考架构技术标准: sources/sosa-reference-architecture-v2.md
-      - SOSA产品技术概览与产品指南: sources/sosa-vita-products.md
-      - STANAG 4586 — NATO UAV控制系统标准接口（UCS）: sources/stanag-4586-ucs.md
-      - SysML v2 规范 — 下一代系统建模语言: sources/sysml-v2-specification.md
-      - 三军部长备忘录：武器系统的模块化开放系统方法是作战必要条件（2019年1月）: sources/tri-service-memo-2019.md
-      - 三军联合备忘录：国防部武器系统模块化开放系统方法（2024年12月）: sources/tri-service-memo-2024.md
-      - 通用武器接口（UAI）概述: sources/uai-universal-armament-interface.md
-      - USAF COARPS RFI June 2021: sources/usaf-coarps-rfi-2021.md
-      - VICTORY — 车辆C4ISR/EW互操作性标准: sources/victory-ground-vehicle.md
-      - VICTORY与GVA：地面车辆现代化白皮书: sources/victory-gva-whitepaper.md
-      - 2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果: sources/wicvc-pilot-results-2025.md
-      - "Wikipedia: LGM-35 Sentinel": sources/wikipedia-lgm35-sentinel.md
-      - "XM-30机械化步兵战车MOSA设计案例": sources/xm30-micv-mosa.md
+      - "AMDR/SPY-6 采办报告（MSAR 2023年12月）": sources/AMDR-SPY6雷达选定采购报告2023年12月.md
+      - "ARSENL — 空军架构标准与工程库": sources/ARSENL空军标准.md
+      - "B-21 Raider突袭者轰炸机MOSA实施案例": sources/B-21突袭者MOSA案例.md
+      - "Better Buying Power 3.0 — 实施指令": sources/BBP-3.0实施指令.md
+      - "CAE SCARS Program": sources/CAE公司SCARS项目.md
+      - "CMOSS（C5ISR/EW模块化开放标准套件）概述": sources/CMOSS概述2022.md
+      - "CRS IF11697 — 核指挥控制通信入门": sources/CRS报告-NC3 IF11697.md
+      - "CRS IF11681 — Sentinel LGM-35A ICBM入门": sources/CRS报告-哨兵洲际导弹IF11681.md
+      - "CSIS：通过模块化开放系统方法分担负担": sources/CSIS-MOSA责任分担报告2025.md
+      - "DAU Next Generation Acquisition Model — Open Architectures": sources/DAU下一代采办2024.md
+      - "DFARS Case 2021-D005: 模块化开放系统方法合同条款": sources/DFARS 2021 MOSA信息征求.md
+      - "DFARS第207部分 — 采办规划（MOSA）": sources/DFARS第207部分.md
+      - "DFARS第227部分：专利、数据及版权": sources/DFARS第227部分-专利数据与版权.md
+      - "DFARS Part 252 — 征询条款与合同条款": sources/DFARS第252部分-合同条款.md
+      - "DoDI 5000.74 — 服务采办": sources/DODI 5000.74-服务.md
+      - "DoDI 5000.75 — 业务系统需求与采办": sources/DODI 5000.75-业务系统.md
+      - "DoDI 5000.80 — 中间采办层级（MTA）": sources/DODI 5000.80中间层采办.md
+      - "DoDI 5000.81 — 紧急能力采办": sources/DODI 5000.81紧急能力.md
+      - "DoDI 5000.87 — 防务采办软件采办": sources/DODI 5000.87软件采办.md
+      - "DoDI 5000.97 — 数字工程": sources/DODI 5000.97数字工程.md
+      - "DOT&E FY2024年度报告 - ABMS章节": sources/DOT&E FY2024 ABMS评估.md
+      - "DOT&E FY2025 - Lower Tier Air and Missile Defense Sensor (LTAMDS)": sources/DOT&E FY2025低层防空反导评估.md
+      - "DOT&E FY2025 - Aegis Modernization Program": sources/DOT&E FY2025宙斯盾评估.md
+      - "DSP Journal: MOSA概述与努力（2020）": sources/DSP期刊-MOSA方法2001.md
+      - "DSP Journal 2020 — MOSA专刊": sources/DSP期刊-MOSA方法2020.md
+      - "NC3 Architecture Update — DTIC ADA619949": sources/DTIC-NC3架构ADA619949.md
+      - "R-EGI PNT Systems Flight Demonstrations — DVIDS": sources/DVIDS-R-EGI导航飞行测试2024.md
+      - "E-HEL持久高能激光定向能武器MOSA实施": sources/E-Hel直升机MOSA案例.md
+      - "FACE技术标准3.2版（2023年8月）": sources/FACE技术标准3.2-2023.md
+      - "FLRAA MV-75未来远程突击飞行器MOSA数字工程实施": sources/FLRAA-MV75 MOSA案例.md
+      - "FY2017 NDAA — Section 805：MOSA 立法源": sources/FY2017 NDAA第805节.md
+      - "FY2024 DAF SAB S&T审查职权范围（CCA/DEW/SWD）": sources/FY24科学技术参考条款.md
+      - "GAO-24-106831 — 武器系统年度评估": sources/GAO-24-106831武器系统.md
+      - "GAO-25-106931: MOSA专项审查报告": sources/GAO-25-106931 MOSA审查.md
+      - "GAO-25-106931 MOSA专项审查报告：武器系统采办——国防部需要更好的规划以获取模块化开放系统方法的收益": sources/GAO-R-25-106931 MOSA审查.md
+      - "HASC Report 114-102 — FY2016 NDAA 委员会报告": sources/HASC报告114-102.md
+      - "鸿蒙智行官网：HIMA联盟与核心技术": sources/HIMA和谐智能出行.md
+      - "Air Force Posts COARPS RFI": sources/ICNews-COARPS信息征求.md
+      - "IEEE Aerospace Conference: NASA数字工程转型之旅（2024）": sources/IEEE-NASA数字工程之旅2024.md
+      - "INCOSE MBSE方法论调查": sources/INCOSE MBSE方法论调查.md
+      - "INCOSE SE Handbook V5 — 系统工程手册第五版": sources/INCOSE系统工程手册V5.md
+      - "R-EGI Takes Flight on Military C-12J Test Aircraft": sources/IS4S-R-EGI C12J飞行测试.md
+      - "ISO/IEC/IEEE 15288:2023 — 系统生命周期过程": sources/ISO 15288-2023系统工程.md
+      - "R-EGI Program Achieves Key Milestone": sources/InsideGNSS-R-EGI里程碑2024.md
+      - "MIL-HDBK-1211(MI)：导弹飞行仿真手册": sources/MIL-HDBK-1211导弹飞行仿真.md
+      - "MIL-STD-881D——国防装备工作分解结构标准": sources/MIL-STD-881D国防物资工作分解结构.md
+      - "MITRE DEWS MOSA参考架构完整文档": sources/MITRE DEWS-MOSA参考架构全文.md
+      - "MOATEL：弹药开放架构试验鉴定实验室": sources/MOATEL-WOSA验证.md
+      - "MORA — 模块化开放射频架构": sources/MORA模块化开放射频.md
+      - "模块化开放系统方法（MOSA）及其对美国国防采办的影响": sources/MOSA与美国国防采办-Shah论文.md
+      - "NASA-HDBK-1004: NASA数字工程采办框架手册": sources/NASA手册1004.md
+      - "NASA-HDBK-1009A: NASA系统建模手册（系统工程用）": sources/NASA手册1009A.md
+      - "NASA-HDBK-7009A: 建模与仿真手册——NASA-STD-7009A实施指南": sources/NASA手册7009A.md
+      - "NASA/SP-2016-6105 Rev 2 — NASA系统工程手册": sources/NASA系统工程手册修订2.md
+      - "海军推广最新硬件开放架构技术标准HOST 5.0（NAVAIR新闻 2023年2月）": sources/NAVAIR HOST 5.0发布.md
+      - "NAVAIR MOSA官方页面": sources/NAVAIR-MOSA概述.md
+      - "NAVAIR OSMP Implementation Description Guide v1.0 2025": sources/NAVAIR-OSMP指南V1 2025.md
+      - "2020/2021财年国防授权法案MOSA扩展条款": sources/NDAA 2020-2021 MOSA扩展.md
+      - "NDIA 2023 — DoD SysML v2 过渡指南项目简报": sources/NDIA SysML v2过渡2023.md
+      - "NDIA — Constructing Common Fire Control Across Weapon Platforms": sources/NDIA-CFW ICD赖特2015.md
+      - "美国国防工业协会（NDIA）MOSA白皮书——十大建议": sources/NDIA-MOSA白皮书2019.md
+      - "NIST SP 800-160 Vol. 2 Rev. 1 — 赛博弹性系统开发": sources/NIST特别出版物800-160 v2网络韧性.md
+      - "NTSA SCARS STCF Brief 2025": sources/NTSA-SCARS简报2025.md
+      - "OMB Circular A-130 — 将信息作为战略资源管理": sources/OMB通告A-130.md
+      - "OUSD(R&E) SysML v1→v2 过渡指导": sources/OSD SysML v2过渡指导.md
+      - "开放系统联合特别工作组（OSJTF）宪章与MOSA起源": sources/OSJTF宪章1994.md
+      - "PPI数据项描述（DID）模板合集": sources/PPI-DID模板.md
+      - "PPI — 项目管理与系统工程整合": sources/PPI-集成项目管理与系统工程.md
+      - "PPI — 系统工程投资回报论证": sources/PPI业务案例-系统工程.md
+      - "PPI — 需求工程投资回报论证": sources/PPI业务案例-需求工程.md
+      - "PPI — 需求分析方法论（有效 + 概览）": sources/PPI需求分析方法论.md
+      - "PPI: Requirements Quality Metrics (Halligan 1993)": sources/PPI需求质量度量.md
+      - "The future of navigation (MOSA) is happening — USAF R-EGI Project": sources/RNTFND R-EGI导航系统2024.md
+      - "SAM.gov ABMS广泛机构公告（BAA）": sources/SAM-ABMS广泛机构公告.md
+      - "SAM.gov UAI/CFW ICD RFI": sources/SAM.gov-UAI信息征求.md
+      - "太空发展局增殖型作战人员太空架构（PWSA）MOSA实施": sources/SDA太空作战架构MOSA案例.md
+      - "SM-6 采办报告（MSAR 2023年12月）": sources/SM-6选定采购报告2023年12月.md
+      - "SM-6与LTAMDS/IBCS联合集成验证（Valiant Shield 24）": sources/SM6-LTAMDS-IBCS英勇之盾2024.md
+      - "SOSA产品技术概览与产品指南": sources/SOSA VITA产品.md
+      - "SOSA传感器开放系统架构参考架构技术标准": sources/SOSA参考架构V2.md
+      - "STANAG 4586 — NATO UAV控制系统标准接口（UCS）": sources/STANAG 4586无人机控制站.md
+      - "SysML v2 规范 — 下一代系统建模语言": sources/SysML v2规范.md
+      - "通用武器接口（UAI）概述": sources/UAI通用武器接口.md
+      - "VICTORY与GVA：地面车辆现代化白皮书": sources/Victory-GVA白皮书.md
+      - "VICTORY — 车辆C4ISR/EW互操作性标准": sources/Victory地面车辆.md
+      - "2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果": sources/WICVC试点成果2025.md
+      - "XM-30机械化步兵战车MOSA设计案例": sources/XM30 MICV MOSA案例.md
+      - "三军部长备忘录：武器系统的模块化开放系统方法是作战必要条件（2019年1月）": sources/三军备忘录2019.md
+      - "三军联合备忘录：国防部武器系统模块化开放系统方法（2024年12月）": sources/三军备忘录2024.md
+      - "中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布": sources/中国智能网联汽车车路云一体化2024.md
+      - "Chris Garrett AFMC数字化转型演示": sources/克里斯-加勒特演讲2024.md
+      - "海军将更多控制开放架构开发（Military Embedded 报道）": sources/军事嵌入-海军OSMP 2025.md
+      - "华为Car Kit开发者文档：出行服务API": sources/华为车机套件开发者指南.md
+      - "参议院拨款委员会听证——Hunter证词（空军采购）": sources/参议院Hunter证词2024.md
+      - "Raytheon Composable Weapons Architecture": sources/可组合武器-雷神公司.md
+      - "MOSA实施指南（2025版）": sources/国防部MOSA实施指南2025.md
+      - "DoDI 5000.02 — 自适应采办框架操作": sources/国防部指令5000.02-2020.md
+      - "DoDI 5000.85 — 重大能力收购": sources/国防部指令5000.85-2020.md
+      - "DoD数字工程战略（2018）": sources/国防部数字工程战略2018.md
+      - "DoD IG审计报告：武器系统开放系统方法的使用（2000）": sources/国防部监察长-OSJTF审计2000.md
+      - "DJI开发者平台：SDK体系概览": sources/大疆开发者平台概述.md
+      - "OSA合同指南v1.1 — 项目经理开放系统架构合同指南": sources/开放系统架构合同指南V1.1.md
+      - "德国Aegis/SPY-6 F127护卫舰军售案（2026年4月）": sources/德国宙斯盾SPY6-F127-2026.md
+      - "波兰IBCS爱国者系统军售案（2023年9月）": sources/波兰IBCS爱国者系统2023.md
+      - "海军模块化开放系统方法实施指南 V1.0": sources/海军MOSA指南V1.md
+      - "Flexible Weapons Architecture Design (Purdue Thesis)": sources/灵活武器架构-普渡大学2015.md
+      - "DSB数字工程能力报告 — 自动化测试与评估": sources/科学委员会数字工程2024.md
+      - "USAF COARPS RFI June 2021": sources/空军COARPS信息征求2021.md
+      - "AFGSC Sentinel GBSD Overview": sources/空军全球打击司令部-哨兵GBSD.md
+      - "AFRL Flexible Weapons Concept (2014)": sources/空军研究实验室-灵活武器2014.md
+      - "AFMC ABMS：分布式连接制胜": sources/空军装备司令部-ABMS分布式连接.md
+      - "Air Force Validates A-GRA Open Architecture for CCA": sources/空军预备役-A-GRA CCA验证2025.md
+      - "现代军事模拟的开放系统架构": sources/突破防务-SCARS报道2024.md
+      - "精确打击导弹（PrSM）MOSA实施案例": sources/精确打击导弹MOSA案例.md
+      - "Wikipedia: LGM-35 Sentinel": sources/维基百科-LGM-35哨兵导弹.md
+      - "10 U.S.C. §§4401–4403 — MOSA法定要求": sources/美国法典第10编4401-4403 MOSA法.md
+      - "PEO Aviation FACE TIM 2021 Open Systems Demonstration": sources/航空PEO FACE TIM 2021.md
+      - "PEO Aviation MOSA实施指南（精简版）": sources/航空PEO-MOSA实施指南.md
+      - "PEO Aviation MOSA Transformation Office Industry Day 2022": sources/航空PEO-MOSA行业交流2022.md
+      - "Northrop Grumman InSight开放系统处理器数据手册": sources/诺格公司-洞察开放处理器.md
+      - "开放开发标准是保持美军优势的关键（Defense News 评论文章）": sources/防务新闻-开放标准2024.md
+      - "Army Line of Departure - Ensuring War-Winning Future Readiness for AMD Forces": sources/陆军出发线-AMD 2023.md
+      - "U.S. Army Acquisition Program Portfolio 2024": sources/陆军采办投资组合2024.md
