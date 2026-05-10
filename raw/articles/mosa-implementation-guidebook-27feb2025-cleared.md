@@ -1,21 +1,30 @@
  
  
+
 Implementing a Modular Open Systems Approach in 
 Department of Defense Programs 
+
  
  
+
+ 
+
  
  
- 
+
 February 2025 
  
   
  
  
+
 Office of Systems Engineering and Architecture 
+
  
+
 Office of the Under Secretary of Defense for 
 Research and Engineering 
+
  
  
  
@@ -31,10 +40,14 @@ Research and Engineering
  
 Distribution Statement A. Approved for public release. Distribution is unlimited.   
  
+
+
  
  
  
+
  
+
  
  
  
@@ -80,20 +93,63 @@ https://www.cto.mil/sea
 Distribution Statement A. Approved for public release. Distribution is unlimited.  
 DOPSR Case # 25-T-1210. 
  
+
+
  
+
  
 Implementing a MOSA in DoD Programs 
 iii 
+
 Approved by 
+
 Principal Deputy Executive Director for Systems Engineering and Architecture 
+
 Office of the Under Secretary of Defense for Research and Engineering 
+
 February 2025 
+
  
+
 Implementing a MOSA in Department of Defense Programs  
+
 Change Record 
-Date 
-Change 
-Rationale 
+
+Date
+Change
+Rationale
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+
  
  
  
@@ -115,108 +171,144 @@ Rationale
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
 This page is intentionally blank. 
+
  
+
+
 Contents 
  
+
  
 Implementing a MOSA in DoD Programs 
 v 
+
 Contents 
+
 1 Introduction.............................................................................................................................................. 1 
+
 1.1 MOSA Definition and Purpose........................................................................................................... 1 
+
 1.2 Congressional Direction ..................................................................................................................... 2 
+
 1.3 Defense Federal Acquisition Regulation (DFARS) MOSA Policy .................................................... 3 
+
 2 MOSA Overview ..................................................................................................................................... 5 
+
 2.1 MOSA Pillars ..................................................................................................................................... 5 
+
 2.2 MOSA Benefits .................................................................................................................................. 6 
+
 3 DoD Considerations for Implementing MOSA ....................................................................................... 9 
+
 3.1 Program Management Considerations ................................................................................................ 9 
+
 3.1.1 Plan ............................................................................................................................................. 10 
 3.1.2 Modularize .................................................................................................................................. 10 
 3.1.3 Identify Interfaces ....................................................................................................................... 10 
 3.1.4 Define Interfaces ......................................................................................................................... 11 
 3.1.5 Standardize Interfaces ................................................................................................................. 11 
 3.1.6 MOSA-Related Acquisition Activities and Documentation ....................................................... 11 
+
 3.2 Technical Considerations ................................................................................................................. 14 
+
 3.2.1 Work Breakdown Structure as a Taxonomy for a MOSA Architecture ..................................... 14 
 3.2.2 Requirements Involving MOSA ................................................................................................. 17 
 3.2.3 MOSA-Enabling Standards and Specifications .......................................................................... 18 
 3.2.4 Software-Specific Considerations .............................................................................................. 20 
 3.2.5 Cybersecurity Considerations in a MOSA Solution ................................................................... 21 
 3.2.6 Commercial Off-the-Shelf Components ..................................................................................... 22 
+
 3.3 Assessing a Modular Open Systems Approach ................................................................................ 22 
+
 3.4 MOSA and Technology Change ....................................................................................................... 23 
+
 3.5 Product and Technology Roadmaps and Management .................................................................... 24 
+
 4 MOSA Requirements for DoD Acquisition Pathways .......................................................................... 26 
+
 4.1 Major Capability Acquisition Pathway ............................................................................................ 26 
+
 4.2 Other Acquisition Pathways ............................................................................................................. 27 
+
 5 Conclusion ............................................................................................................................................. 29 
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools ................................................................. 30 
+
 Appendix B: Industry Recommendations to Implement a MOSA ............................................................. 34 
+
 Appendix C: Contracting Considerations and Sample Contract Language ................................................ 38 
+
+
 Contents 
  
+
  
 Implementing a MOSA in DoD Programs 
 vi 
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations .................................................. 46 
+
 Appendix E: Workforce Development and Training for a MOSA ............................................................. 58 
+
 Glossary ...................................................................................................................................................... 62 
+
 Acronyms .................................................................................................................................................... 69 
+
 References ................................................................................................................................................... 72 
+
  
 Figures 
+
 Figure 1-1. MOSA Statutory and Regulatory Timeline ................................................................................ 3 
+
 Figure 2-1. A Representation of the MOSA Pillars and Benefits ................................................................. 7 
+
 Figure 3-1. MOSA Planning Framework ...................................................................................................... 9 
+
 Figure 3-2. Integrating MOSA Requirements into a Capability Solution ................................................... 18 
+
 Figure 3-3. Security and Cyber Resilience in a MOSA .............................................................................. 22 
+
 Figure 4-1. MOSA Technical and Business Requirements for the MCA Pathway .................................... 27 
+
 Figure D-1. Example MOSA Quantitative Process Summary of MOSA Assessment Tools ..................... 57 
+
  
+
 Tables 
+
 Table 3-1. Steps to Align a MOSA to a WBS ............................................................................................ 15 
+
 Table A-1. Business and Technical Areas to Review by the OAAT .......................................................... 31 
+
 Table C-1. Configuration Items (HWCI)/Computer Software Configuration Items (CSCI) ...................... 43 
+
 Table D-1. MOSA Conformance Criteria and Verification Methods ......................................................... 55 
+
 Table E-1. DAU CLE 019 Course Structure ............................................................................................... 59 
+
 Table E-2. Courses, Workshops, and Webinars .......................................................................................... 60 
  
+
+
 1. Introduction 
+
  
 Implementing a MOSA in DoD Programs 
 1 
+
 1 
 Introduction 
+
 This guidebook provides the Department of Defense (DoD) community, including Military 
 Services, civilians, and DoD support contractors with information to help ensure programs 
 incorporate a modular open systems approach (MOSA) as part of the defense acquisition 
 program life cycle.  The intended audience includes decision makers, program management 
 offices (PMOs), program managers (PMs), and program lead systems engineers responsible for 
 implementing and evaluating MOSA in defense programs. 
+
 Although MOSA has long been incorporated into DoD programs, this guidebook describes 
 statute and DoD policy that now impose requirements to use MOSA.  This guidebook provides 
 best practices for planning, implementing, and evaluating MOSA, including implementation 
@@ -225,29 +317,39 @@ and industry.  It includes recommendations to consider when developing requests 
 (RFPs) and evaluating planned approaches for implementing MOSA.  The appendices provide 
 supplemental information on the background efforts that have helped inform the DoD MOSA 
 community. 
+
 The Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&E)) 
 Systems Engineering and Architecture (SE&A) prepared this guidebook and will continue to 
 review, update, and incorporate feedback to acknowledge advances in the field. 
+
 1.1 MOSA Definition and Purpose 
+
 MOSA is an acquisition and design approach consisting of a technical and business architecture 
 that supports using system interfaces compliant with widely supported and consensus-based 
 standards, to the extent that standards are available and suitable.  A MOSA system structure 
 allows for severable components to be incrementally added, removed, or replaced throughout the 
 life cycle to afford opportunities for enhanced efficiency, competition, and innovation. 
+
 MOSA integrates technical requirements with contracting mechanisms and legal considerations 
 to support a more rapid evolution of technologies and capabilities throughout the product life 
 cycle using architecture modularity, open systems standards, and appropriate business practices 
 (10 U.S.C 4401).  DoD MOSA is intended to allow the Department to achieve competitive and 
 affordable acquisition and sustainment of a new or legacy system or component of hardware, 
 software, or an integrated assembly of both. 
+
 This guidebook focuses on the technical (including programmatic) aspect of MOSA.  In this 
 document, a plan to implement MOSA refers primarily to a program’s strategy to incorporate 
 and support MOSA in the technical system structure. 
+
+
 1. Introduction 
+
  
 Implementing a MOSA in DoD Programs 
 2 
+
 1.2 Congressional Direction 
+
 In FY 2016, the House Armed Services Committee (HASC) asserted the conventional DoD 
 acquisition system was “not sufficiently agile to support warfighter demands” (HASC Report 
 114-102).  The FY 2017 National Defense Authorization Act (NDAA) began to address this 
@@ -255,6 +357,7 @@ issue by updating Title 10 of the United States Code (U.S.C.).  Specifically, Co
 DoD to implement MOSA in any Major Defense Acquisition Program (MDAP) receiving 
 Milestone A or Milestone B approval after January 1, 2019, and introduced critical terms such as 
 “major system component” and “major system interface.” 
+
 In the 2021 NDAA, Section 804, MOSA was amplified and somewhat reconceptualized with the 
 new term “modular system interface” and included a greater focus on interface data, interface 
 repositories, and the Government defining its modularity requirements within this new 
@@ -263,6 +366,7 @@ establish MOSA interface repositories and (2) issue regulations and guidance for
 U.S. Government-authorized access and use of those interfaces to enable implementation of 
 MOSA statutory objectives.  Most important, the FY 2021 NDAA directed the DoD to expand 
 its use of MOSA to all defense acquisition programs (to the maximum extent practicable): 
+
 “…defense acquisition programs shall also be designed and developed, to the 
 maximum extent practicable, with a modular open systems approach to enable 
 incremental 
@@ -273,13 +377,18 @@ competition,
 innovation, 
 and 
 interoperability” (10 U.S.C. 4401). 
+
 MOSA is now a requirement for all DoD acquisition programs (to the maximum extent 
 practicable) in accordance with 10 U.S.C. 4401-4403: 
+
 • 4401. Requirement for MOSA in major defense acquisition programs; definitions. 
+
 • 4402. Requirement to address MOSA in program capabilities development and 
 acquisition weapon system design. 
+
 • 4403. Requirements relating to availability of modular system interfaces and support for 
 MOSA. 
+
 10 U.S.C. requires a program’s modular system interfaces to comply with publicly disclosed or 
 widely known standards, or the interfaces be delivered in accordance with Government 
 requirements and with machine-readable documentation.  The interfaces should contain 
@@ -288,26 +397,39 @@ documentation in Government interface repositories.  In addition, the data right
 sufficient to use them for the intended purpose pursuant to Defense Federal Acquisition 
 Regulation Supplement (DFARS) 252.227.  The objective is to ensure the Government has 
 defense systems and components that are modular and are readily interoperable with each other 
+
+
 1. Introduction 
+
  
 Implementing a MOSA in DoD Programs 
 3 
+
 or with new or improved systems and components and not constrained by proprietary 
 connections.  See Figure 1-1 for an overview of the MOSA statutory and regulatory timeline. 
+
  
+
 Figure 1-1. MOSA Statutory and Regulatory Timeline 
+
 1.3 Defense Federal Acquisition Regulation (DFARS) MOSA Policy 
+
 In addition to 10 U.S.C. 4401–4403, the Defense Federal Acquisition Regulation Supplement 
 (DFARS) establishes policy and requirements for MOSA.  Specifically, Part 207.106 requires 
 the “use of modular, open architectures to enable competition for upgrades.”  Part 227.7203-2 
 states, “The assessment of life-cycle needs should consider alternatives to the delivery of source 
 code and related software design details for privately developed computer software as necessary 
+
+
 1. Introduction 
+
  
 Implementing a MOSA in DoD Programs 
 4 
+
 to meet the Government’s needs, such as technical data and computer software sufficient to 
 implement a modular open system approach or a similar approach.” 
+
 The DFARS also codifies common terminology and vocabulary in DFARS rulemaking case 
 2021-D005, affecting DFARS 252.227-7013, 252.227-7015, and 252.227-7018.  The DFARS 
 rulemaking case seeks to provide revisions to implement section 804 of the National Defense 
@@ -316,6 +438,7 @@ Authorization Act (NDAA) for FY 2021 (Pub. L. 116-283), section 809 of the NDAA 
 804, 809, and 815 amended 10 U.S.C. 2320 (currently 10 U.S.C. 3771), and section 804 
 amended 10 U.S.C. 2446a (currently 10 U.S.C. 4401).  MOSA practitioners and PMs should be 
 mindful of this evolving landscape and closely monitor updates to the DFARS. 
+
 While the use of non-statutory terms is not prohibited in contracts or other agreements, those 
 implementing MOSA should ensure that such terms, if used, are related to statutory terms to 
 ensure MOSA efforts and MOSA-compliant systems meet legally mandated requirements.  For 
@@ -323,18 +446,26 @@ example, the term “key interface” is of historical and practical value; howe
 in current law or congressional statute.  Not all interfaces are key and not all interfaces are 
 modular system interfaces.  When using such terms in contracts or other agreements, it is critical 
 to define the terms and connect them to statutory MOSA requirements. 
+
  
+
+
 2. MOSA Overview 
+
  
 Implementing a MOSA in DoD Programs 
 5 
+
 2 
 MOSA Overview 
+
 The DoD seeks to develop critical and adaptable warfighting capabilities to meet growing 
 threats.  MOSA contributes to meeting this need by facilitating the interoperability and rapid 
 transition and sharing of advanced capability.  The following is a discussion of DoD MOSA 
 pillars and MOSA benefits. 
+
 2.1 MOSA Pillars 
+
 OUSD(R&E)-led working groups developed the following MOSA pillars to ensure DoD 
 programs have an effective strategy in place to meet MOSA goals.  The Military Department 
 Secretaries highlighted the pillars in an update to a joint tri-Service memorandum (December 
@@ -342,34 +473,43 @@ Secretaries highlighted the pillars in an update to a joint tri-Service memorand
 pillars and can realize significant benefits by including the pillars in their program strategy.  
 Appendix D provides a detailed list of considerations PMs can use when implementing the 
 pillars. 
+
 • Establish Enabling Environment:  By establishing and maintaining an enabling 
 environment that supports MOSA, the DoD can ensure the development of modular, 
 interoperable, and adaptable systems that meet evolving defense needs efficiently and 
 effectively.  This MOSA pillar involves establishing requirements, business practices, 
 development strategies, acquisition approaches, T&E methods, and overall strategies that 
 support MOSA. 
+
 • Employ a Modular Design: To accomplish the acquirer’s business and technical 
 objectives, the acquiring organization should identify the required functionality of the 
 modular system components before issuing the RFP.  Acquirers or developers who 
 design modular systems can upgrade or change functions rapidly, with limited or no 
 impact to the rest of the system.  This pillar isolates functionality during the design 
 process to simplify development, maintenance, changes, and upgrades. 
+
 • Designate Modular Interfaces: By designating modular system interfaces, the DoD can 
 ensure that systems are flexible, interoperable, and easily upgradeable.  Developers can 
 manage changes effectively, maintain backward compatibility, and leverage open 
 standards to achieve long-term system sustainability and effectiveness following this 
 approach.  This MOSA pillar focuses on decoupling the interface and service 
 implementation of components to allow them to follow separate life cycles. 
+
 • Leverage Consensus-Based Open Standards: By standardizing modular system 
 interfaces through open standards, the DoD can ensure systems are flexible, 
 interoperable, and easily upgradeable.  Employing consensus-based standards and 
+
+
 2. MOSA Overview 
+
  
 Implementing a MOSA in DoD Programs 
 6 
+
 managing Government-owned interface repositories enables developers to leverage 
 commercially developed technologies, which fosters increased competition, faster 
 upgrades, and reduced costs. 
+
 • Certify Conformance: Developers need to verify and validate the implementation of 
 MOSA and its requirements, ensuring conformance to selected internal and external open 
 interface standards.  Certification ensures the system conforms to both internal and 
@@ -380,34 +520,48 @@ success and system sustainability.  By rigorously assessing conformance through 
 criteria and verification activities, the DoD can ensure the modular and open systems 
 achieve their intended benefits, enhancing system flexibility, maintainability, and overall 
 mission effectiveness. 
+
 2.2 MOSA Benefits 
+
 Statute and DoD policy require MOSA because it provides several benefits including a potential 
 competitive edge over adversaries.  The Department places great value in the following primary 
 benefits: 
+
 • Improves interoperability by allowing severable software and hardware modules to be 
 changed independently, ensuring seamless integration and communication between 
 different system components. 
+
 • Enhances competition by adopting an open architecture with severable modules, 
 enabling components to be openly competed among a diverse range of suppliers, which 
 fosters innovation and drives down costs. 
+
 • Facilitates technology refresh by allowing the delivery of new capabilities or 
 replacement technologies without requiring changes to all components within the system, 
 thus ensuring systems remain up-to-date and effective. 
+
 • Incorporates innovation by providing the operational flexibility to configure and 
 reconfigure available assets quickly, meet rapidly changing operational requirements, and 
 adapt to new threats. 
+
 • Enables cost savings/cost avoidance/schedule reduction by promoting the reuse of 
 technology, modules, and components from any supplier across the acquisition life cycle, 
 reducing the need for redundant development efforts, reducing test requirements, and 
 leveraging existing investments efficiently. 
+
+
 2. MOSA Overview 
+
  
 Implementing a MOSA in DoD Programs 
 7 
+
 Figure 2-1 provides an overview of the MOSA pillars and the primary benefits MOSA brings to 
 acquisition programs. 
+
  
+
 Figure 2-1. A Representation of the MOSA Pillars and Benefits 
+
 In addition to the primary benefits, implementing MOSA offers several additional benefits that 
 aid system performance and operational efficiency.  One of the main advantages is plug-and-
 play capability, which ensures different modules and systems can effectively communicate and 
@@ -416,23 +570,30 @@ together seamlessly, promoting flexibility and reducing vendor lock-in.  Reusabi
 significant benefit, as MOSA encourages the design of components that can be reused across 
 different systems or projects.  Reusability not only reduces development time and costs but also 
 allows for the reuse of test data, leading to substantial life cycle cost savings. 
+
 Scalability is also a key benefit of MOSA that enables systems to be easily scaled up or down 
 based on requirements.  New modules can be added, or existing ones can be replicated, to meet 
 changing needs without significant disruptions.  Vendor independence is another benefit, as 
 MOSA’s use of consensus-based standards and modular design reduces dependency on specific 
 vendors.  This fosters a competitive environment where different suppliers can provide 
 compatible components, enhancing options and preventing vendor lock-in. 
+
 Flexibility and adaptability are crucial for the DoD as MOSA systems can more easily 
 accommodate changes in technology, requirements, or mission profiles.  This feature ensures 
 that systems remain relevant and effective over time without requiring complete overhauls.  
 MOSA provides strategic flexibility, allowing for the rapid integration of new technologies and 
+
+
 2. MOSA Overview 
+
  
 Implementing a MOSA in DoD Programs 
 8 
+
 capabilities, and operational flexibility, enabling agile mission groups to configure and 
 reconfigure assets to meet rapidly changing operational requirements.  In addition, MOSA 
 fosters commercial flexibility, facilitating value and innovation in procurement. 
+
 Another benefit is commonality, as MOSA encourages the use of common components and 
 interfaces across different systems.  This promotes consistency, reduces development time, and 
 simplifies training and maintenance.  Having fewer unique parts also leads to a simplified 
@@ -440,30 +601,42 @@ logistics chain.  MOSA enhances security and cyber resilience by promoting conse
 open standards and modularity.  This resilience allows security patches and updates to be applied 
 to specific modules without affecting the entire system.  Government-controlled interfaces can 
 supersede consensus-based open standards in instances requiring heightened operational security. 
+
 These advantages collectively ensure DoD systems are adaptable, competitive, and cost-
 effective, ultimately supporting mission readiness and operational superiority. 
+
  
+
  
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 9 
+
 3 
 DoD Considerations for Implementing MOSA 
+
 Implementing a MOSA requires careful planning and coordination among the PMO staff, from 
 aligning with Acquisition Strategies and managing risk to balancing technical requirements and 
 integrating standards to optimize program performance.  Addressing these factors early and 
 throughout the program life cycle enhances the benefits of MOSA.   
+
 Programs should carefully evaluate the costs and benefits of implementing MOSA to ensure 
 long-term advantages are not overlooked.  Systems engineers and PMOs should employ a cost-
 benefit analysis that incorporates a thorough discussion of risks and potential impacts on 
 program costs and schedules. In addition, programs should include analysis that aids decision 
 making by identifying and evaluating alternative courses of action.  A cost analysis can help 
 reduce costs and risks, leading to more affordable programs and less costly systems. 
+
 This section addresses the technical areas, including programmatic requirements, assessment 
 tools, and technology changes practitioners should be aware of when implementing MOSA in 
 their acquisition programs. 
+
 3.1 Program Management Considerations 
+
 Before implementing a MOSA, the acquisition program should use a basic framework to plan, 
 identify, define, manage, and ensure the compliance of system interfaces.  Each program should 
 develop its own method for documenting or modeling the framework.  This section provides an 
@@ -471,13 +644,20 @@ overview of recommended steps to include (Figure 3-1).  The framework should hel
 PMs capture all internal and external interface requirements in accordance with the program’s 
 Acquisition Strategy.  The framework should be implemented and consistently maintained 
 throughout the acquisition life cycle. 
+
  
+
 Figure 3-1. MOSA Planning Framework 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 10 
+
 3.1.1 Plan 
+
 Planning the implementation of MOSA requires a clear definition of objectives that align with 
 both technical and business goals.  The PMO should establish specific, measurable, and 
 achievable objectives that address the key benefits of MOSA, such as enhancing system 
@@ -490,7 +670,9 @@ procedures to guide the development and integration of modular components, ensur
 consistency and interoperability across the system.  By setting clear objectives and carefully 
 planning the implementation of MOSA, organizations can create a robust foundation for 
 achieving their desired outcomes and maintaining competitive advantage. 
+
 3.1.2 Modularize 
+
 Decomposing system capabilities into functional modules is a critical step.  PMOs and systems 
 engineers should break down the system into smaller, self-contained modules, each responsible 
 for a specific function or capability.  By isolating these functions, the PMO and systems 
@@ -503,7 +685,9 @@ maintainability and adaptability, enabling the system to evolve in response to c
 requirements or advancements in technology.  Through careful analysis and structured 
 decomposition, organizations can create a modular architecture that supports efficient, cost-
 effective, and sustainable system development. 
+
 3.1.3 Identify Interfaces 
+
 Identifying interfaces is a crucial aspect of implementing a MOSA as it determines how different 
 functional modules within a system interact and communicate.  An interface serves as the 
 boundary through which modules exchange data, signals, or commands, making it essential for 
@@ -512,15 +696,21 @@ engineers identify interfaces, it is important to define clear, standardized spe
 compatible with open standards, enabling modules to work together regardless of their origin or 
 design.  These interfaces should be robust enough to handle the necessary data flow and flexible 
 enough to accommodate future upgrades or changes in system requirements.  Properly identified 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 11 
+
 and well-defined interfaces not only streamline the integration process but also reduce the impact 
 of incompatibility and facilitate easier maintenance and scalability.  By focusing on the careful 
 identification and standardization of interfaces, organizations can ensure their modular systems 
 remain cohesive, adaptable, and capable of evolving with technological advancements. 
+
 3.1.4 Define Interfaces 
+
 After identifying interfaces, systems engineers should define them to establish clear protocols 
 and data formats that adhere to open standards, allowing for interoperability across different 
 vendors and systems.  This standardization ensures that modules can be independently 
@@ -529,7 +719,9 @@ well-defined interfaces should be both robust and flexible, capable of accommoda
 enhancements or modifications to the system.  By carefully defining interfaces, organizations can 
 create a modular architecture that is not only cohesive and functional but also scalable and 
 adaptable to changing technological and operational needs. 
+
 3.1.5 Standardize Interfaces 
+
 Standardizing interface specifications is fundamental to creating systems that are future-proof 
 and adaptable to ongoing technological advancements.  By establishing consistent, open 
 standards for how modules within a system interact, organizations ensure that these modules can 
@@ -543,32 +735,41 @@ extends the system’s life cycle, as it can be continually updated with the lat
 without the need for extensive modifications.  In essence, standardized interface specifications 
 create a flexible and resilient framework that supports long-term modernization and keeps 
 systems at the cutting edge of technology. 
+
 3.1.6 MOSA-Related Acquisition Activities and Documentation 
+
 MOSA should be a consideration for potential materiel solutions even before a formal program 
 and program office are established.  MOSA implementation should be integrated into the Joint 
 Capabilities Integration and Development System (JCIDS) process, which ensures the 
 capabilities required by the joint warfighter are identified, along with their associated operational 
 performance criteria (requirements) to successfully execute the mission.  The JCIDS process 
 supports the acquisition process by allowing an organization to identify and assess capability 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 12 
+
 needs and associated performance criteria.  MOSA implementation for a potential acquisition 
 should be integrated with the JCIDS process to ensure the strategy is consistently applied to the 
 acquisition from inception and across all mission elements.  MOSA implementation should be 
 well-defined in the outputs of the JCIDS process including the Capabilities-Based Assessment 
 (CBA), the Initial Capabilities Document (ICD), and the Capability Development Document 
 (CDD) (CJCSI 5123.01). 
+
 Once the formal program is established and the PM completes the planning framework, the PM 
 is required to include MOSA and its accompanying strategy in the acquisition and contracting 
 process to ensure that requirements are translated into formal contract obligations, interests of 
 Government and industry are balanced, and the Government’s goals for capability acquisition 
 and industry goals are met (see Appendix B for a list of industry recommendations on 
 implementing MOSA). 
+
 In accordance with 10 U.S.C. 4401–4403, DoD Instruction (DoDI) 5000.85, and DoDI 5000.88, 
 the DoD Components and PMs are required to include MOSA in the following acquisition 
 activities and documents: 
+
 • Analysis of Alternatives (AoA) (10 U.S.C. 4402, paragraph (b)) or Economic Analysis 
 for Decision Making.  An AoA or Economic Analysis is an analytical comparison of the 
 operational effectiveness, suitability, and life-cycle cost of alternatives that satisfy 
@@ -580,6 +781,7 @@ the analysis study.  It is important for the program’s MOSA implementation to 
 integral part of the analysis to ensure alternate approaches include a complete assessment 
 of how the MOSA would be implemented for that alternative (DoDI 5000.85; DoDI 
 5000.84; DoDI 7041.03). 
+
 • Request for Proposal (RFP) (10 U.S.C. 4402, paragraph (d)).  An RFP is a solicitation 
 used by an organization to obtain proposals or bids from a potential supplier(s) to satisfy 
 a set of customer requirements.  The RFP describes the needs and requirements of the 
@@ -589,12 +791,17 @@ technical tenets of the MOSA implementation needs to be well-defined to potentia
 bidders so their offerings can be aligned to the needs of the MOSA implementation.  
 Each of the key materials supplied to potential bidders as part of the RFP needs to 
 communicate the appropriate level of detail from the MOSA implementation and should 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 13 
+
 be consistent with its intent.  Appendix C contains contracting considerations and sample 
 contract language to assist in the contracting process. 
+
 • Systems Engineering Plan (SEP) (DoDI 5000.88, paragraph 3.4.a).  The purpose of the 
 SEP is to guide PMs in the development, communication, and management of the overall 
 systems engineering approach and technical activities of a program.  The SEP should 
@@ -603,19 +810,27 @@ includes a MOSA to the maximum extent practicable.  Architectures should be desc
 and should include all hardware and software defined modular system interfaces.  The 
 SEP should provide rationale if MOSA is not feasible or cost-effective.  Additional 
 information can be found in the SEP Outline Version 4.1 and DoDI 5000.88. 
+
 • Acquisition Strategy (DoDI 5000.85 paragraph 3C.3.a.(5)).  The Acquisition Strategy1 
 should describe: 
+
 o How MOSA is intended to be used, including business and technical considerations. 
+
 o The differentiation between the major system platform and major system components 
 being developed under the program, as well as major system components developed 
 outside the program that are intended to be integrated into the MDAP. 
+
 o The evolution of capabilities that are planned to be added, removed, or replaced in 
 future increments. 
+
 o The additional major system components that may be added later in the life cycle. 
+
 o How intellectual property (IP) and related issues, such as technical data deliverables, 
 are planned to be addressed. 
+
 o The system integration and system-level configuration management approach to 
 ensure the system can operate in the applicable cyber threat environment. 
+
 • Program Capability Document (10 U.S.C. 4402, paragraph (a)).  A Program Capability 
 Document, also referred to as a CDD (Capability Development Document, including the 
 Information System (IS) CDD variant), specifies capability requirements in terms of 
@@ -624,152 +839,232 @@ Additional Performance Attributes (APAs), and other related information necessar
 support development of one or more increments of a materiel capability solution.  This 
 document should describe MOSA as an enabler to achieve the system’s KSAs, KPPs, 
 and APAs. 
+
  
+
 1 The Defense Acquisition University website provides guidance on tailoring the Adaptive Acquisition Pathways 
 and planning documents (https://aaf.dau.edu/) including incorporating MOSA into the Major Capability Acquisition 
 (MCA) Acquisition Strategy (https://aaf.dau.edu/aaf/mca/acquisition-strategy/).  
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 14 
+
 Additional program documents that should address MOSA as appropriate: 
+
 • Product Support Strategy (PSS) (10 U.S.C. 4324: Life cycle management and product 
+
 support).  The PSS should ensure sustainment activities, logistics, and life-cycle 
 management align with the goals of MOSA. 
+
 • Life Cycle Sustainment Plan (LCSP) (10 U.S.C. 4324: Life cycle management and 
+
 product support).  The LCSP should detail product support plan that supports the goals of 
 MOSA, including sustainment metrics, risks, costs, and analysis. 
+
 • Performance Specifications: System Performance Specification (sometimes called 
+
 System Requirements Document (SRD)) and System/Subsystem Specification (S/SS).  
 The SRD and S/SS should define clear, measurable standards for system operation. 
+
 • System Architecture Products: Systems Architecture Model, System/Segment Design 
+
 Document, Software Architecture Description, Software Design Document, Architecture 
 views, and Reference Architecture/Government Reference Architecture.  These artifacts 
 should provide the plan for managing the system architecture and should include an 
 understanding of how the major system components (MSCs) relate to the system’s 
 MOSA. 
+
 • Contract Documents: Contractor Work Breakdown Structure (CWBS), Contract Data 
+
 Requirements Lists (CDRLs), Interface Design Description (IDD) CDRLs, Software 
 Requirements Specification (SRS) CDRLs, Software Test Report CDRLs, and 
 Verification/Validation Checklists.  Contract documents should align and support the 
 MOSA. 
+
 • Interface Documents: Interface Control Document (ICD) and Interface Requirements 
+
 Specification (IRS).  The ICD and IRS are extremely important in describing MOSA 
 details and define how different system components interact using standardized 
 interfaces. 
+
 3.2 Technical Considerations 
+
 Implementing a MOSA requires PMs to evaluate both the management processes and the 
 program’s overall technical approach.  This section highlights technical areas to consider when 
 implementing MOSA. 
+
 3.2.1 Work Breakdown Structure as a Taxonomy for a MOSA Architecture 
+
 One way to help the program achieve these benefits is to prepare a Work Breakdown Structure 
 (WBS).  The WBS should be created by the PM or the lead systems engineer and takes a step-
 by-step approach to break down projects into smaller components.  The WBS is defined, 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 15 
+
 developed, and maintained throughout the system life cycle based on a disciplined application of 
 the systems engineering process. 
+
 The WBS should be based on a system architecture that allows severable major system 
 components and modular systems at the appropriate level to be incrementally added, removed, or 
 replaced throughout the life cycle of a major system platform.  This approach can be applied to 
 hardware, software, or an integrated assembly of both.  See Table 3-1 for additional details. 
+
 Table 3-1. Steps to Align a MOSA to a WBS 
-Process 
-Process Details 
+
+Process
+Process Details
+
 Align the end goals of the 
 program and the MOSA 
 principles that support it 
+
 Identify the key principles of MOSA, such as: 
+
 • Modularity 
+
 • Openness 
+
 • Scalability 
+
 • Flexibility 
+
 • Reusability 
+
 Review and refine the WBS 
 Review the existing WBS to ensure it is comprehensive, accurate, 
 and up to date. 
 Refine the WBS to include the following: 
+
 • Modular components: identify the modules that are to be used to 
 build the system. 
+
 • Interfaces: define the interfaces between modules and external 
 systems 
+
 • Data exchange: identify the data exchange requirements. 
+
 • Testing and validation: include testing and validation activities 
+
 Identify and prioritize modules 
 Identify modules for the system's functionality and prioritize them 
 accordingly 
+
 Define module boundaries and 
 interfaces 
+
 Define the boundaries and interfaces for each module, including: 
+
 • Input/output requirements 
+
 • Data formats and protocols 
+
 • APIs and software development kits 
+
 • Testing and validation requirements 
+
 Allocate tasks and resources 
 to modules 
+
 Allocate tasks and resources to each module, including: 
+
 • Development tasks 
+
 • Testing and validation 
+
 • Resource allocation 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 16 
-Process 
-Process Details 
+
+Process
+Process Details
+
 Establish a modular 
 development process 
+
 Establish a modular development process that includes: 
+
 • Agile development methodologies 
+
 • Continuous integration and continuous delivery (CI/CD) 
+
 • Modular testing and validation 
+
 Monitor and control module 
 development 
+
 Monitor and control module development, including: 
+
 • Tracking module development progress 
+
 • Identifying and addressing module dependencies 
+
 • Managing module risks 
+
 Integrate and test modules 
 Integrate and test modules to support system validation against 
 business and technical requirements. 
+
 MIL-STD-881F, Work Breakdown Structures for Defense Materiel Items, addresses mandatory 
 procedures for all programs subject to DoDI 5000.02, Operation of the Adaptive Acquisition 
 Framework.  The standard can assist the PMO or lead systems engineer in determining the 
 proper system hierarchy and architecture.  Applying MIL-STD-881F helps the PMO or lead 
 systems engineer identify proper interface points for hardware, software, or an integrated 
 assembly of both. 
+
 Implementing MIL-STD-881F can provide significant value as the WBS assists the program 
 with systems engineering activities including the functional decomposition of the system and 
 data flow traces. 
+
 MOSA objectives, characteristics, measures of merit, and potential acquisition requirements may 
 vary based on the system’s location within the DoD enterprise or the DoD system of systems 
 (SoS) (e.g., mission or functional modules for a composable task force versus composable 
 vehicles and computer programs).  The structure is related to the product-oriented WBS of MIL-
 STD-881F. 
+
 A PMO capturing interfaces and modules in this context helps increase traceability through the 
 system life cycle.  In addition to technical criteria, the PMO should consider programmatic 
 consequences ranging from IP to the product supply chain at all levels of the system hierarchy 
 along with respective modularity and interface decisions.  The WBS should articulate the level of 
 modularity required to support competition and technical refresh to ensure the program identifies 
 proper architectural components and interfaces. 
+
 Successful MOSA implementations should have defined levels of taxonomy and modularity.  A 
 system taxonomy breakdown, as presented in MIL-STD-196G (i.e., System, Subsystems, 
 Centers, Centrals, Sets, Group, Units), is useful for identifying the appropriate taxonomic 
 conventions.  Another aspect of a successful MOSA implementation involves defined levels of 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 17 
+
 integration (i.e., manual, automation type, etc.) expected between various participants in the 
 SoS’s taxonomy (e.g., platforms, systems, subsystems, and components). 
+
 3.2.2 Requirements Involving MOSA 
+
 Requirements for modularity and openness can influence both technical solutions and business 
 strategies on a program.  From the technical perspective, a MOSA leads to changes in the way 
 system requirements are introduced in a specification.  Whether the requirements are at the SoS 
 level, system level, subsystem level, or below, they are still fundamental requirements the PMO 
 and systems engineers should address in the system architecture and design process. 
+
 Integrating MOSA-related requirements into the complete design specification allows the PMO 
 and systems engineers to manage them as any other type of requirement.  How those 
 requirements are expressed and their composition parameters, however, depend on the specific 
@@ -779,30 +1074,44 @@ constraints that a given design or design driver already has.  Through the cours
 design reviews, MOSA success may be verified and validated at each technical baseline.  For 
 more information regarding MOSA requirements and verification at technical design reviews, 
 see the Systems Engineering Guidebook (2022). 
+
 Figure 3-2 presents an iterative process to define a system with MOSA attributes built in and not 
 added on.  The outer blue border represents the constraints placed on the design based on known 
 SE, MOSA, and business processes.  Starting at the top, the figure presents an iterative dual path 
 development process in which MOSA is integrated into the design.  The bottom row shows the 
 path for funding the system. 
+
  
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 18 
+
  
+
 Figure 3-2. Integrating MOSA Requirements into a Capability Solution 
+
 3.2.3 MOSA-Enabling Standards and Specifications 
+
 Standardization supports the achievement of compatibility, interchangeability, commonality, and 
 interoperability of parts and processes within the DoD and U.S. allies and partners.  It promotes 
 safety, provides for life cycle sustainment, and allows for rapid, cost-effective technology 
 insertion by system interfaces compliant with widely supported and consensus-based standards 
 and modular open systems.  The use of standards and specifications in a MOSA is foundational, 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 19 
+
 as standards enable the core attributes of modularity, interoperability and flexibility for a system 
 implementing a MOSA. 
+
 Except for several standards required by law (primarily addressing life, safety, transportation of 
 hazardous materials, treaty obligations, and environmental considerations), PMs and systems 
 engineers can select from a range of standards that best meet the program’s requirements.  
@@ -813,18 +1122,21 @@ specifications and standards, military handbooks, commercial item descriptions, 
 descriptions, and related technical documents.  The ASSIST Modular and Open Standards and 
 Specifications (MOSS) area contains MOSA-specific guidance for use in DoD acquisition 
 programs. 
+
 Many PMOs and systems engineers implementing a MOSA require multiple standards and 
 specifications from industry and military.  PMOs and systems engineers should tailor these 
 standards to ensure maximum interoperability and follow any available conformance 
 requirements these standards may provide.  When multiple standards and specifications are in 
 use, a PMO and systems engineers should develop a profile that identifies and limits the 
 variability that may impede interoperability. 
+
 Appropriate selection and application of standards at key system interfaces can contribute to 
 healthy competition among suppliers throughout the acquisition life cycle.  Many standards are 
 available for Government programs to choose.  Assessing and selecting appropriate standards 
 can be challenging, as most were developed to solve a specific problem set.  Therefore, PMs and 
 systems engineers should be careful to use the appropriate standards within contracts, tailored for 
 each system. 
+
 PMOs implementing MOSA into their system design with sufficient standardization at 
 interfaces, allow greater flexibility and agility to reconfigure components to address evolving 
 threats and emerging technology.  Developers of DoD systems require appropriate business 
@@ -834,25 +1146,34 @@ which multiple combinations are possible, but once selected they may not interop
 implementations of the same standard.  In addition, standards may serve as methods or processes 
 for meeting a business or technical objective, and some process standards may influence the 
 architecture process and support business implementation. 
+
 Multiple options, as well as inconsistent availability of information to verify standard 
 implementation, can lead to interoperability problems.  Therefore, standards guidance should 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 20 
+
 provide details on implementation and conformance, including which organizations provide 
 verification.  Programs should provide a test plan, procedures, and verification methods across 
 the life cycle to ensure compliance. 
+
 3.2.4 Software-Specific Considerations 
+
 Programs should develop modularity in software with the same engineering rigor in design as 
 hardware and should use the same modular approach as its corresponding hardware component 
 so both can be replaced and/or upgraded concurrently.  Program engineers should concisely and 
 accurately define software interfaces to decrease complexity during technology refresh. 
+
 Poor software development practices may obscure modular components.  Programs should 
 ensure they employ foundational engineering practices of modularity and interface transparency 
 in software and hardware development.  These practices highlight a rediscovery of and focus on 
 two engineering fundamentals: (1) modularity and (2) designating and identifying modular 
 system interfaces, with an emphasis on software and software-dependent systems. 
+
 Software application partitioning begins at higher levels of capability but drives down to specific 
 domains, with uniqueness in the domains emerging and evidenced in the various data and 
 artifacts produced for that domain.  MOSA-specific considerations involve software design 
@@ -864,6 +1185,7 @@ It also imparts more responsibility in managing the functional configurations an
 functional modules that individually and collectively implement the system behavior and 
 produce the associated data.  The more participants in the software development activities, the 
 more challenges that emerge in the development and maintenance process. 
+
 When designing software architectures for a system implementing MOSA, it is essential that a 
 PMO develop an Application Programming Interface (API) approach, which emphasizes 
 modularity, scalability, and reusability.  By adopting this approach, a PMO places priority on the 
@@ -872,13 +1194,18 @@ information can be found in SE&A’s API Technical Guidance (July 2024 or latest
 and openness features of a system design implemented in software require considerations not 
 only for the product but also for the frameworks and processes used for establishing, maturing, 
 and maintaining the design. 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 21 
+
 Systems and digital engineering processes, including DevSecOps toolchains, can promote 
 building things correctly, but a larger issue is how to choose to build the appropriate things, 
 particularly those containing modularity and openness features. 
+
 General considerations for MOSA in software involve a software architectural lexicon or 
 reference architecture that portrays the levels of software decomposition needed through the 
 course of enabling system functionality and behavior.  MOSA requirements appropriate to 
@@ -890,17 +1217,21 @@ applicability of partitions in the various DoD domains.  Critical to the interes
 suppliers alike, modular software data rights should be declared at appropriate levels of modular 
 abstraction.  See DoDI 5000.87, Operation of the Software Acquisition Pathway, for more 
 information. 
+
 3.2.5 Cybersecurity Considerations in a MOSA Solution 
+
 Hardware cybersecurity considerations, such as cross-domain guards, firewalls, and 
 encrypt/decrypt chips, can be addressed from a MOSA perspective through multiple suppliers of 
 form-fit-function solutions to hardware items associated with meeting cybersecurity 
 requirements for the system. 
+
 Software cybersecurity can be challenging in a MOSA solution.  Historically, industry has 
 adopted an approach that employs proprietary transport services (or similarly defined interface 
 APIs) to implement cybersecure interactions between different modules of procurement.  This 
 approach can continue to work, but only if there are multiple competing proprietary transport 
 service solutions that do not incur major costs for re-integration.  See Figure 3-3 for security and 
 cyber resilience in a MOSA system. 
+
 A novel approach to software cybersecurity with MOSA leverages the features of a life cycle 
 DevSecOps toolchain adopting model-based systems engineering (MBSE), prescriptive 
 consensus-based standards for integration (e.g., Future Airborne Capability Environment® 
@@ -908,15 +1239,24 @@ consensus-based standards for integration (e.g., Future Airborne Capability Envi
 integration/continuous delivery (CI/CD) and containers.  This approach allows software 
 cybersecurity requirements to be modeled, and the DevSecOps toolchain can convert those 
 models to transport service or equivalent functionality. 
+
  
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 22 
+
  
+
  
+
 Figure 3-3. Security and Cyber Resilience in a MOSA 
+
 3.2.6 Commercial Off-the-Shelf Components 
+
 When Commercial Off-the-Shelf (COTS) components or existing systems are adapted with 
 MOSA-based features, the challenges with using or modifying the existing products should be 
 adequately understood first.  Industry recommends using a business case analysis in determining 
@@ -927,63 +1267,83 @@ is” configuration, commercial standards, time-limited manufacturing support, a
 security susceptibility.  For situations with COTS implementations, design changes may trigger 
 substantial regression testing or even recertification of the base platform, thus negating any 
 projected benefits from a MOSA-related design. 
+
 3.3 Assessing a Modular Open Systems Approach 
+
 The implementing organization may evaluate the proposed architecture on a pass/fail basis, 
 unless a specific MOSA implementation is evaluated with appropriate mechanisms in place (e.g., 
 a WBS exists, desired MOSA features identified). 
+
 Metrics should be aligned with the following MOSA benefits: (1) Interoperability, (2) 
 Technology Refresh, (3) Enhance Competition, (4) Innovation, and (5) Cost Avoidance/Cost 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 23 
+
 Savings.  Most metrics should fit in one or more of those benefit classes.  The collection of 
 metrics needed for the broad number of MOSA use cases, levels of a system design, and specific 
 phase of maturity can be reduced to the necessary few MOSA metrics for a given MOSA 
 application. 
+
 The PMO establishes the metrics for the most likely use cases by drawing on guidance from the 
 DoD, Services, and other relevant Government sources, along with industry practices and 
 existing metrics sources.  Most existing general metrics for engineering practice may be adapted 
 to the needs of MOSA implementations and therefore may be used to evaluate MOSA 
 characteristics. 
+
 Appendix A identifies criteria and describes a methodology for PMOs and PMs to use to assess 
 MOSA in a program or system.  The specific metrics needed for a case depends on the primary 
 stakeholder’s MOSA implementation along with the benefits that are desired or expected from 
 the MOSA implementation. 
+
 3.4 MOSA and Technology Change 
+
 Successful technology management is vital to the acquisition and maintenance of a complex 
 system throughout its life cycle.  MOSA can be one important approach to managing technology 
 as it supports technology updates and integration.  This process involves adopting cutting-edge 
 technologies to improve reliability, lower sustainment costs, and enhance warfighting 
 capabilities to meet evolving demands. 
+
 Technology insertion and refreshment efforts can be complicated by Diminishing Manufacturing 
 Sources and Material Shortages (DMSMS) issues.  To mitigate DMSMS issues, it is essential to 
 involve DMSMS management practitioners in the technology insertion and refreshment planning 
 process.  By collaborating with program offices, DMSMS experts can help identify potential 
 issues and develop strategies to address them. 
+
 The use of consensus-based open standards and interfaces in MOSA enables the integration of 
 components from multiple vendors, facilitating the development of alternative sources for critical 
 components and reducing dependence on a single supplier.  By using consensus-based open 
 standards, MOSA ensures systems and components can interoperate seamlessly, even if they are 
 from different vendors, which enables the substitution of components with equivalent ones from 
 other suppliers, mitigating DMSMS risks. 
+
 MOSA implementation reduces vendor lock-in, making it easier to switch to alternative suppliers 
 if a vendor discontinues support or goes out of business, and promotes competition among 
 vendors, encouraging innovation and reducing the likelihood of single-source dependencies.  
 MOSA also simplifies maintenance and upgrades, as individual components can be replaced or 
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 24 
+
 upgraded without affecting the entire system.  Overall, MOSA helps build a more resilient 
 supply chain by promoting the use of multiple suppliers and open standards, reducing the risk of 
 DMSMS, and ensuring the continued availability of critical components. 
+
 By adopting a MOSA, organizations can reduce the risks associated with DMSMS, improve 
 system maintainability and upgradability, and increase overall system resilience.  This approach 
 enables organizations to stay ahead of the curve in terms of technology and innovation while also 
 minimizing the risks associated with obsolete or hard-to-find components.  As a result, MOSA is 
 an effective way to mitigate DMSMS issues and ensure the long-term sustainability of complex 
 systems. 
+
 Furthermore, PMOs should coordinate DMSMS planning with the Under Secretary of Defense 
 for Acquisition and Sustainment (USD(A&S)) to ensure that DMSMS issues are addressed at the 
 highest level.  The USD(A&S) provides oversight and guidance on acquisition and sustainment 
@@ -991,7 +1351,9 @@ policies, including DMSMS management.  By coordinating with the USD(A&S), progra
 offices can ensure that their DMSMS plans align with DoD-wide policies and initiatives and that 
 they are leveraging best practices and resources to mitigate DMSMS risks.  For more 
 information on DMSMS, see DoDI 4245.15, SD-19, SD-22, and SD-26. 
+
 3.5 Product and Technology Roadmaps and Management 
+
 Product and technology roadmaps are useful tools for managing MOSA by isolating (through 
 modularity) technology areas that are expected to rapidly evolve over time or may offer 
 opportunities to improve a capability.  A product roadmap (e.g., AAF Software Product 
@@ -999,32 +1361,49 @@ Roadmap)2 illustrates high-level, adaptable target value delivered over a design
 time based on technology insertion, as indicated in the accompanying technology roadmap.  
 Product and technology roadmaps help programs identify capability improvements, safety 
 enhancements, or other new requirements by considering the following: 
+
 • When new capabilities need to be in place. 
+
 • When the technology needed to achieve the new capability requirements needs to be 
 demonstrated successfully in relevant or operational environments. 
+
 • When the associated hardware and software changes are to be producible. 
+
 • Planned funding. 
+
 • Mission profile changes. 
+
  
+
 2 DoD Adaptive Acquisition Framework (AAF) Software Product Roadmap, Defense Acquisition University AAF 
 website, https://aaf.dau.edu/aaf/software/product-roadmap/.     
+
+
 3. DoD Considerations for Implementing MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 25 
+
 MOSA and technology management are mutually beneficial practices.  MOSA can improve 
 technology management because identifying modular system interfaces makes it easier to 
 substitute alternative and newer technologies, potentially reducing challenges and, therefore, the 
 time and cost to integrate technology.  MOSA can influence the type, extent, and timing of 
 technology change and improvements throughout the life cycle, and technology refreshment and 
 insertion plans can inform a priority scheme for MOSA implementation. 
+
  
+
+
 4. MOSA Requirements for the Acquisition Pathways 
+
  
 Implementing a MOSA in DoD Programs 
 26 
+
 4 
 MOSA Requirements for DoD Acquisition Pathways 
+
 The DoD Adaptive Acquisition Framework (AAF) defines the acquisition pathways and supports 
 the Defense Acquisition System with the objective of delivering effective, suitable, survivable, 
 sustainable, and affordable solutions to the end user in a timely manner.  The AAF includes six 
@@ -1033,42 +1412,60 @@ Acquisition (DoDI 5000.80), Major Capability Acquisition (DoDI 5000.85), Softwar
 Acquisition (DoDI 5000.87), Defense Business Systems (DoDI 5000.75), and Acquisition of 
 Services (DoDI 5000.74).  Statute and policy require the PM to apply a MOSA to the maximum 
 extent practicable regardless of the acquisition pathway. 
+
 4.1 Major Capability Acquisition Pathway 
+
 Pursuant to Title 10, U.S.C. 4401, PMs are responsible for evaluating and implementing MOSA 
 to the maximum extent feasible.  In the Major Capability Acquisition (MCA) pathway, MOSA is 
 intended to enable incremental development and enhance competition, innovation, and 
 interoperability.  MDAPs that receive Milestone A or B approval after January 1, 2019, shall be 
 designed and developed with MOSA.  The Acquisition Strategy for a system should identify 
 where, why, and how MOSA is to be used in the program as described in Section 3.1.6. 
+
 The Milestone Decision Authority for an MDAP that uses MOSA needs to ensure the RFPs for 
 the Engineering and Manufacturing Development (EMD) phase and the Production and 
 Deployment (P&D) phase describe the MOSA and the minimum set of major system 
 components that are to be included in the system design. 
+
 Figure 4-1 provides a summary of key technical and business requirements for the MCA 
 pathway.  Additional information about using MOSA appears on the DAU website (DoD AAF 
 https://www.dau.edu/aaf).  Additional information about the MCA can be found in DoDI 
 5000.85. 
+
+
 4. MOSA Requirements for the Acquisition Pathways 
+
  
 Implementing a MOSA in DoD Programs 
 27 
+
  
+
 Figure 4-1. MOSA Technical and Business Requirements for the MCA Pathway 
+
 4.2 Other Acquisition Pathways 
+
 PMOs shall apply MOSA to the other acquisition pathways to the maximum extent practicable 
 pursuant to 10 U.S.C. 4401.  Regardless of the pathway, all programs should employ and would 
 benefit from employing a MOSA.  Below are the requirements and importance for implementing 
 a MOSA for the indicated pathways: 
+
 • Urgent Capabilities Acquisition (DoDI 5000.81): Although MOSA is not formally 
+
 required for urgent capability programs, using components with modular open interfaces 
 can improve the speed of development and employment while reducing the risk of 
 problems interfacing to other systems in the battlefield.  Using components and systems 
 with widely accepted standards also would provide additional ease of employment. 
+
+
 4. MOSA Requirements for the Acquisition Pathways 
+
  
 Implementing a MOSA in DoD Programs 
 28 
+
 • Middle Tier of Acquisition (DoDI 5000.80): The Middle Tier of Acquisition pathway 
+
 consists of the rapid prototyping path and the rapid fielding path.  Although rapid 
 prototyping programs are not required to implement a MOSA, they should use MOSA if 
 practical to facilitate the interface and integration with existing systems as part of 
@@ -1077,7 +1474,9 @@ are fielded with minimal development.  If these technologies were not developed 
 modular standardized interfaces, the PM should understand and manage the increased 
 risk with a less modular system and the potential integration and operational issues that 
 may arise as a result. 
+
 • Software Acquisition (DoDI 5000.87): It is extremely important for software systems to 
+
 be designed and developed with a MOSA.  DoDI 5000.87 requires software pathway 
 programs to develop and implement architecture strategies to enable a MOSA that is 
 interoperable with required systems.  Also described in DoDI 5000.87, PMs, as much as 
@@ -1087,62 +1486,90 @@ interfaces to allow for technology insertion and to support the use of MOSA.  Pr
 are required to use modern, iterative software practices and continuously improve 
 software quality, including using MOSA to support future capabilities.  Programs are 
 required to integrate IP considerations with other program strategies that include MOSA. 
+
 • Defense Business Systems Acquisition (DoDI 5000.75): In accordance with DoDI 
+
 5000.75, functional and acquisition leadership need to use COTS and government off-
 the-shelf (GOTS) solutions to the extent practicable.  Although DoDI 5000.75 does not 
 specifically require a MOSA, development and integration of COTS and GOTS solutions 
 should maximize openness and modularity. 
+
  
+
+
 5. Conclusion 
+
  
 Implementing a MOSA in DoD Programs 
 29 
+
 5 
 Conclusion 
+
 MOSA represents a significant shift in the design and development of complex systems, 
 emphasizing interoperability, flexibility, and sustainability.  By adopting MOSA, organizations 
 can unlock numerous benefits, including increased flexibility, improved interoperability, and 
 enhanced sustainability. 
+
 Key takeaways from the DoD’s MOSA implementation efforts include the importance of 
 modularity, consensus-based standards, and a holistic approach to system design, as well as the 
 need for commitment, collaboration, and a forward-thinking mind-set among stakeholders. 
+
 The DoD has taken a proactive approach to implementing MOSA, establishing the Modular 
 Open Systems Working Group (MOSWG) to lead guidance efforts, and developing coursework 
 and training (see Appendix E).  The MOSWG, in collaboration with the DoD MOSA Technical 
 Standards Working Group (TSWG), has worked to identify common standards, barriers, and 
 enablers to MOSA adoption. 
+
 For more information on MOSA and the DoD's priorities for its implementation, visit the SE&A 
 MOSA web page (https://www.cto.mil/sea/mosa/).  By working together to implement MOSA 
 and leveraging resources like the MOSA web page, the DoD can unlock the full potential of this 
 approach and create a more flexible, responsive, and effective defense enterprise. 
+
  
+
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools 
+
  
 Implementing a MOSA in DoD Programs 
 30 
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools 
+
 PMOs should measure modularity and openness via specifically developed MOSA metrics and 
 tools.  The specific metrics depend on the primary stakeholder’s MOSA implementation along 
 with the benefits that are desired or expected to be received from the MOSA implementation.  
 This appendix presents an overview of a variety of tools for assessing modularity. 
+
 Modular Open Systems Approach Program Assessment Tool (PART) 
+
 PART was adapted from the former Office of Management and Budget Program Assessment 
 Rating Tool (PART) and is referenced in the Army’s Modular Open Systems Approach (MOSA) 
 Implementation Guide as its assessment tool. 
+
 PART presents the user with a list of 24 questions for consideration and scoring.  These 
 questions assist PMs and their teams by prompting consideration of MOSA planning, 
 implementation, self-assessment, and reporting.  Each question is scored and recorded in four 
 categories: 
+
 • Progress or Status (Planned, Achieved, or N/A) 
+
 • Extent to which each is achieved (None, Little, Moderate, Large) 
+
 • Rational or Explanation (Narrative of the status evaluation) 
+
 • Supporting Evidence or Date 
+
 PART helps PMs identify the degree of their MOSA implementations according to the Open 
 Systems Joint Task Force five key MOSA pillars: Modular Design, Key Interfaces, Open 
 Standards, Conformance, and Enabling Environment. 
+
 The tool provides instruction on its use, prompts to assist with scoring and recording assessment 
 justifications, and citations of objective quality evidence in support of the scoring. 
+
 Open Architecture Assessment Tool (OAAT) 
+
 OAAT is a tool designed to help Navy PMs assess the openness of their programs.  It aligns to 
 the Open Architecture Assessment Model (OAAM) as approved by ASN (RDA) and provides a 
 reproducible and objective method of conducting program assessments.  The OAAT is used to 
@@ -1151,107 +1578,156 @@ specific weapon system program and its systems.  Openness refers to both busines
 characteristics of weapon systems that support modular design, interoperability, and commercial 
 standards.  More openness both supports weapon system programs in terms of competition for 
 development and support, as well as facilitates rapid technology insertion. 
+
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools 
+
  
 Implementing a MOSA in DoD Programs 
 31 
+
 The OAAT is used to respond to a set of interrelated questions to provide program officers with 
 an objective and evidence-based assessment of the degree that a program exhibits openness 
 along two areas: Business/Programmatic and Technical.  The business/programmatic dimension 
 criteria and programmatic questions refer to the processes and documentation employed to 
 acquire and manage systems and are outlined in Table A-1. 
+
 Table A-1. Business and Technical Areas to Review by the OAAT 
+
 Business/Programmatic Areas 
- 
 Technical Areas 
+
 Open Systems Approach 
 Design Tenet: Interoperability 
+
 Open Architecture 
 Design Tenet: Maintainability 
+
 Modular Open Design 
 Design Tenet: Extensibility 
+
 Interface Design and Management 
 Design Tenet: Composability 
+
 Treatment of Proprietary Elements 
 Design Tenet: Reusability 
+
 Open Business Practices 
 General Design Tenet 
+
 Peer Review Rights 
  
+
 Technical Insertion 
  
+
 Commercial Standards 
  
+
 Compliance 
  
+
 The technical dimension criteria cover the essential OA design tenets of Interoperability, 
 Maintainability, Extensibility, Composability, and Reusability.  The technical questions refer to 
 the technical features of computing environments and application software.  The technical areas 
 measured are described below:  
+
 • Interoperability: How readily can the program’s separate systems exchange information 
 and appropriately use each other’s functional capabilities? 
+
 • Maintainability: What architectural characteristics address obsolescence and provide for 
 timely technology refresh, fixes, and upgrades? 
+
 • Extensibility: Does the program follow a well-defined SE process for implementing 
 capability extension? 
+
 • Composability: Are the program’s systems capable of being highly modular and having 
 minimal dependencies (loosely coupled) so they can be readily combined with other 
 modules to provide new types of functionalities? 
+
 • Reusability: Are the assemblies that are candidates for reuse readily available, certified 
 for reliability and performance, and easily obtained for reuse? 
+
 • MOSA: What is the program’s level of MOSA Compliance? 
+
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools 
+
  
 Implementing a MOSA in DoD Programs 
 32 
+
 The OAAT provides an OA Assessment Model (OAAM) that displays the program’s current 
 state with respect to business/programmatic and technical degrees of openness.  Each of these 
 areas (business and technical) is rated on a scale of 0 to 4. 
+
 The scores for these two dimensions are plotted on the OAAM, which provides a graphical 
 depiction of the current state of OA maturity and identifies the progression toward higher levels 
 of openness.  The PM then uses the results of the OAAT assessment to help improve the program 
 with respect to Naval Open Architecture.  Using the OAAM, a program’s degree of openness can 
 be rated using the business/programmatic and technical levels shown below: 
+
 Business/Programmatic Levels 
+
 • 4: Open and Net-Centric 
+
 • 3: Common 
+
 • 2: Migrating to Openness 
+
 • 1: Connected 
+
 • 0: Isolated 
+
 Technical Levels 
+
 • 4: Enterprise 
+
 • 3: Common 
+
 • 2: Layered and Open 
+
 • 1: Layered 
+
 • 0: Closed 
+
 Key Open Subsystem (KOSS) Tool 
+
 The Naval Air Systems Command (NAVAIR) developed the Key Open Subsystems (KOSS) tool 
 to evaluate which system components may be most susceptible to vendor lock because of 
 proprietary interfaces.  This tool offers one method for determining the most important 
 subsystems/components for which the program office should seek license rights. 
+
 The KOSS tool can identify important system components that may become obsolete or require 
 upgrades more often than others.  This tool can help a program to evaluate which key system 
 components may prove most susceptible to the negative impacts of a vendor-locked situation.  If 
 only one vendor can replace or upgrade those key components, that de facto monopolist may be 
 able to exert excess negotiating leverage over replacement or upgrade prices.  Furthermore, the 
 monopolist vendor’s solutions may be inferior to those on the open market. 
+
+
 Appendix A: Assessing MOSA and MOSA Assessment Tools 
+
  
 Implementing a MOSA in DoD Programs 
 33 
+
 To combat these problems, the KOSS tool may help the Government identify any key 
 component interfaces that follow proprietary standards and should be modified to use open 
 standards, thus ensuring other qualified vendors can provide replacement components.  By 
 highlighting these key components, KOSS allows a program to focus its efforts on acquiring IP 
 rights only for those highly volatile areas of the system and to conserve resources by 
 disregarding IP for other, less important system components. 
+
 Air Force Systems Engineering Assessment Model (SEAM) 
+
 The primary purpose of SEAM is to promote the application and use of standard systems 
 engineering processes across the Air Force and to conduct continuous process improvement 
 (CPI).  The Air Force developed SEAM to support both self-assessment and independent 
 validation of systems engineering process implementation.  While the tool assesses the existence 
 of SE process work products (CONOPS, plans, technical documents, etc.), it does not assess the 
 outcomes delivered to the customer. 
+
 SEAM is a systems engineering model based on a set of best practices developed by 
 representatives from Air Force acquisition programs.  It is a self-assessment tool to ensure a 
 consistent understanding of systems engineering, ensure core systems engineering processes are 
@@ -1261,6 +1737,7 @@ reduce technical risk.  SEAM is not an appraisal of product quality or a report 
 the organization.  It defines 10 standard systems engineering process areas, lists associated 
 goals under each process area, and provides associated specific and generic practices.  These 
 include: 
+
 1. Configuration Management 
 2. Decision Analysis 
 3. Design 
@@ -1271,13 +1748,20 @@ include:
 8. Transition, Fielding, and Sustainment 
 9. Tech Management and Control 
 10. Verification and Validation 
+
  
+
+
 Appendix B: Industry Recommendations to Implement a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 34 
+
 Appendix B: Industry Recommendations to Implement a MOSA 
+
 Solicitation and Selecting MOSA Contract Partners 
+
 Industry needs awareness of the Government’s MOSA vision and roadmap, including near-term 
 and long-term considerations.  The PM should relay the required level of industry support that 
 may be requested over time in the MOSA implementation.  This information supports the 
@@ -1288,6 +1772,7 @@ what is the minimum viable content acceptable in the MOSA solution?  Answers to 
 such as these help address complexity matters as well as better address affordability 
 requirements in the solution.  Instructions to offerors should include the assigned value for the 
 MOSA requested in the solicitation. 
+
 In selecting the appropriate MOSA-infused solution, the proposed architectures should be 
 evaluated in the context of the ability, challenges, and opportunities for achieving the desired 
 MOSA benefits through architectural attributes (i.e., responsiveness, scalability, modularity, 
@@ -1297,23 +1782,31 @@ open system architecture solution at the component, product, and system-of-syste
 Application of the MOSA tenets is required but is not sufficient unless the application of those 
 tenets addresses the business and technical requirements needed to achieve the desired MOSA 
 benefits within the available resources and program constraints. 
+
 The PM can use Requests for Information (RFIs) and hold industry days to help identify 
 opportunities for achieving MOSA benefits.  This collaboration provides both fairness to the 
 bidders and insights to the Government regarding appropriate evaluation criteria that can be used 
 to discriminate between competitors.  Criteria should address the ability to achieve the desired 
 MOSA benefits or reduce risk.  Such collaboration also makes it easier to measure MOSA in 
 RFP responses and throughout a contracted development effort. 
+
 Flowing MOSA Requirements and Model Components Down to Suppliers 
+
 The modeling conventions for both hardware and software need to instruct suppliers on what and 
 how to provide content to the acquirer so it can be used for evaluation and validation of a 
 supplier’s response.  This content includes (1) modeling patterns; (2) domain overlay (DO) 
+
+
 Appendix B: Industry Recommendations to Implement a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 35 
+
 profiles;3 (3) interface definitions; (4) analysis definitions; (5) templates and schemas; 
 (6) evaluation criteria and scoring; (7) CDRLs and DIDs for document generation from models; 
 and (8) requirements schemas. 
+
 Industry has mechanisms in place to work with its supply bases.  These mechanisms are 
 contractual, business, and technical, not only for specific programs but strategically when a 
 single supplier contributes to multiple programs performed by a single integrator or original 
@@ -1323,16 +1816,21 @@ practices of supply management implemented by integrators and OEMs with heighten
 considerations of MOSA concerns.  Concerns include exposing interface boundaries and 
 providing solutions that do not rely on producer-unique development tools or proprietary 
 approaches needed to enable modular system interfaces. 
+
 Defining/Executing Statements of Work Involving MOSA 
+
 A Statement of Work (SOW) that includes MOSA considerations should accommodate the 
 appropriate MOSA specifications and standards along with the expected measures and controls.  
 These planning elements should be incorporated into the offeror’s proposal and be used to 
 evaluate and guide the program for the life of the system acquisition. 
+
 MOSA-based SOWs should contain language that represents a flow-down from Title 10 U.S.C. 
 law to DoD-wide implementations, to Service-specific guidance regarding how a MOSA 
 approach is implemented across the Service, to PEO-specific implementation guidance flowed to 
 their program acquisition offices. 
+
 Evaluation of a MOSA Implementations 
+
 MOSA implementations should be evaluated with a method that is appropriate for the specific 
 application of modularity and openness.  MOSA implementation success depends on applying 
 the proper modularity and openness principles at the appropriate level of design implementation 
@@ -1341,20 +1839,27 @@ depends on traceability to metrics that are as objective as possible.  A contrac
 contain metrics that measure progress and achievement of MOSA objectives, implementation 
 activities, and risk mitigations, according to the overall technical management and program 
 reporting approach. 
+
  
+
 3 DO profiles, extended from the earlier term called Aspect Profiles, codify a domain’s concern used to capture 
 required data, analysis, visualization, and regulations addressing that concern along with specific metrics (e.g., 
 MOSA, Cyber, Safety, Certifications). 
+
+
 Appendix B: Industry Recommendations to Implement a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 36 
+
 Both modularity and openness need to be equated relative to the contract-stated goals and 
 metrics associated with the specific project and design.  MOSA metrics used to evaluate the 
 solution should accommodate each case.  In both cases, adherence to standards is a prerequisite.  
 How well a design is modular or open can be evaluated through specifically developed MOSA 
 metrics, providing decision support for assessment in execution and leading to achievement of 
 the desired MOSA objectives.  In short, what gets measured, analyzed, and acted upon gets done. 
+
 From an industry perspective, supply-side decisions involving MOSA are critical.  Industry often 
 employs Product Line Approaches (PLAs), or Product Line Engineering, with some 
 commonality and reuse considerations already in their integrated solutions.  These PLAs rely on 
@@ -1363,6 +1868,7 @@ stakeholders strive to lower costs and reduce cycle times for both industry comp
 to help the Government achieve their MOSA objectives.  This modularity alignment, where 
 supply is adequately balanced to meet expected demand, involves strategic business decisions by 
 each party for mutually beneficial outcomes. 
+
 Digital engineering, including MBSE, can support streamlined development and delivery of 
 solutions following a MOSA acquisition.  Strategically, the goal for this process dimension of a 
 MOSA acquisition is the compatibility of delivered products and artifacts between digital 
@@ -1372,6 +1878,7 @@ inherent assets used by industry members for competitive advantage pursuant to D
 252.227.  These considerations may be prevalent at every level of design and supply chain 
 source in the system integration.  Primary areas of concern include management of the interfaces, 
 transportation layer, and data exchanges. 
+
 When a MOSA implementation involves a significant number of off-the-shelf components or 
 even full systems (e.g., complete air vehicles), acquirers should minimize or eliminate adverse 
 effects involving design changes to an existing system that may undergo substantial 
@@ -1382,25 +1889,37 @@ design modification.  The Federal Aviation Administration (FAA) Commercial Off-t
 risks.  Effective mitigation strategies include development and maintenance of flexible 
 performance requirements suited to COTS products, COTS product testing capabilities, and 
 strong configuration management practices. 
+
 To be successful in implementing MOSA, acquirers need to understand the constraints, 
 opportunities, and risks of the industry contractors and suppliers involved.  All members of a 
 healthy defense industrial base compete to deliver balanced designs that satisfy requirements, 
+
+
 Appendix B: Industry Recommendations to Implement a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 37 
+
 meet user needs, and achieve customer objectives at fair and affordable prices.  The shifting of 
 business models to align with the new realities of MOSA (vision and benefits), however, 
 necessitates additional alignment of Government and industry objectives to the greatest extent 
 possible and allowable under law.  These new paradigms should include the supply-driven 
 considerations of the defense industrial base. 
+
  
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 38 
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
 MOSA in Contracts 
+
 Including MOSA in contracts is vital to the success of the program and requires diligence by the 
 PM to ensure it is properly accounted for.  To include MOSA in a contract, it is important to 
 include statements in the contract’s technical specifications and contract language.  These 
@@ -1409,7 +1928,9 @@ interfaces, and the ability for the system to be easily repaired, upgraded, and 
 technologies throughout its life cycle.  This appendix provides PMs with areas to consider when 
 developing contract documents and sample contract language, which can be modified for a 
 specific use case. 
+
 Intellectual Property Rights 
+
 Acquisition of data and associated IP rights and MOSA go hand in hand.  MOSA cannot be 
 implemented in a contract without acquisition of necessary interface data and IP rights, in 
 accordance with an IP strategy.  Acquisition of data and associated rights without any thought to 
@@ -1417,32 +1938,42 @@ MOSA is possible but may lead to higher costs and reduced benefits of MOSA.  Whe
 by other technical performance requirements, designs should optimize to recognize and protect 
 private investments and associated IP rights and provide the Government with maximum 
 flexibility to replace or interchange modular components efficiently. 
+
 When systems are designed with modularity in mind, the ability to segregate data rights can be 
 applied efficiently and in a way that proportionately and equitably protects private proprietary 
 rights and return on private investments, while also allowing the Government to maintain 
 necessary flexibility to ensure operational readiness, facilitate capability upgrades, and field 
 resilient and adaptive operational capability. 
+
 Government-Desired Modularity and Defined Architectures 
+
 The term ‘‘desired modularity’’ means the desired degree to which weapon systems, components 
 within a weapon system, and components across weapon systems can function as modules that 
 can communicate across component boundaries and through interfaces and can be separated and 
 recombined to achieve various effects, missions, or capabilities, as determined by the program 
 officer for such weapon system (NDAA FY 2021 Section 804(d)(f)(2)). 
+
 The term “default configuration” is not further defined statutorily.  In practice, this leaves 
 requiring activities or their parent organizations a great deal of discretion in defining default 
 configurations.  A popular approach is for DoD organizations to adopt one or more standardized 
 architectures, sometimes called a Government Reference Architecture (GRA), for use at a 
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 39 
+
 subsystem, system, program, enterprise, or other level.  Examples include Future Airborne 
 Capability Environment (FACE)®, a government-industry collaboration, or DoD proponent 
 architectures such as the Ground Combat Systems Common Infrastructure Architecture (GCIA).  
 The GRA should be included as part of the Government’s specification for its desired level of 
 modularity and identification of modular system interfaces.  Such architectures and their use are 
 described further in MOSA Reference Frameworks in Defense Acquisition Programs (2020). 
+
 Interface Data Rights 
+
 Per 10 U.S.C. 3771, modular system interfaces need to be identified in its contractor solicitations 
 and contracts to ensure its ability to acquire Government purpose rights in technical data 
 pertaining to the interfaces developed exclusively at private expense or with mixed funding.  The 
@@ -1452,6 +1983,7 @@ still include the identification of desired modularity and modular system interf
 be implemented with available data rights tools such as rules regarding rights in form, fit, and 
 function data; rights in data necessary for operation, maintenance, installation, and training; and 
 the development funding test. 
+
 Program and acquisition activities choosing to use non-Federal Acquisition Regulation (FAR) 
 acquisition tools such as Other Transaction Authorities (OTAs) should bear in mind that none of 
 these DFARS tools for data rights, including rights in interface data, are automatically included 
@@ -1459,7 +1991,9 @@ or available in non-FAR acquisitions, while requirements to implement MOSA apply
 nonetheless.  Systems engineering, requirements, and acquisition planning personnel should be 
 mindful of this and the need to incorporate or create data requirements and agreement terms that 
 enable the implementation of MOSA regardless of the type of agreement used. 
+
 Acquisition Strategy and IP Strategy 
+
 Planning and choices regarding desired modularity and desired modular system interfaces 
 require coordination of the SEP and the Acquisition Strategy, including an IP strategy and 
 sustainment strategy, and a cost-benefit analysis.  For a given level of desired modularity and 
@@ -1471,11 +2005,16 @@ flexibility for upgrades or supportability, or future cost savings.  An integrat
 Strategy and IP strategy is valuable to the PMO as it analyzes cost-benefit, trade-off, or 
 risk/issue/opportunity to determine the desired modularity, interface configuration, and 
 affordability. 
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 40 
+
 Solicitation and Evaluation Criteria Development 
+
 In formal contracting under the FAR, at a higher level, contracting to develop and/or acquire a 
 system starts with a set of technical requirements or a System Performance Specification along 
 with a set of proposed contractor tasks in a SOW or Performance Work Statement (PWS) and a 
@@ -1486,8 +2025,11 @@ prospective offerors what the Government is looking to have accomplished or deli
 sections communicate how the Government plans to evaluate a prospective offeror’s capacity to 
 meet those objectives and the asking price, and they indicate what information the Government 
 needs to make its assessment and award one or more contracts. 
+
 Recommended Parts of a Solicitation Necessary to Implement MOSA 
+
 Deliverable Data – Contract Data Requirements Lists (CDRLs) – Usual Exhibits 
+
 CDRLs supported by Data Item Descriptions (DIDs) are the formal mechanism DoD uses to 
 identify data that needs to be delivered to the Government under any agreement, FAR or non-
 FAR.  DIDs provide a means for standardization of deliverable data content and format.  Use of 
@@ -1498,31 +2040,43 @@ and DIDs may put a program at risk of not receiving needed data and, in the case
 FAR/DFARS contracts, of not being able to apply and rely upon DFARS data rights contract 
 clause terms.  Program and contracting personnel should consult with acquisition legal counsel 
 or DoD IP Cadre subject matter experts for more information. 
+
 CDRLs should identify all data (including technical data, computer software, and any other type 
 of data) necessary to implement MOSA fully.  See also the paragraph on Statement of Work 
 (SOW) or Performance Work Statement (PWS). 
+
 Program Work Breakdown Structure (WBS) 
+
 The WBS helps the Government understand a system in a hierarchical framework.  This includes 
 describing the desired level of modularity and identifying modular system interfaces to enable 
 MOSA.  Furthermore, using a WBS in the acquisition process allows the PM to formulate the 
 scope of the project, improve communication between stakeholders, identify resource 
 requirements and shortfalls, identify risks, and effectively track progress. 
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 41 
+
 System Requirements Document (SRD) 
+
 Using an SRD in the contracting process provides several benefits, including a clear 
 communication of project expectations, minimizing confusion between key stakeholders, and 
 establishing a solid foundation for project planning.  When implementing MOSA, requirements 
 specifications need to include and describe the desired level of modularity and identification of 
 modular system interfaces.  See A Guide to Program Management Business Processes (DAU 
 2022) for more information on the requirements development process. 
+
 Systems Engineering Plan (SEP) 
+
 When the RFP is issued to potential bidders for an acquisition, it should include the SEP.  The 
 bidders are required to include a SEP-aligned Systems Engineering Management Plan (SEMP) 
 with their proposal.  The SEMP DID is DI-SESS-81785. 
+
 Statement of Work (SOW) or Performance Work Statement (PWS) 
+
 The SOW template language provided below should be tailored for each program, based upon 
 the MOSA requirements contained in that program’s CDD, SEP, Acquisition Strategy, 
 intelligence threat inputs/supportability considerations, and product support strategy as described 
@@ -1530,31 +2084,41 @@ in the program’s Life Cycle Sustainment Plan (LCSP).  (See 10 U.S.C. 4211(c), 
 4402, DoDD 5000.1, DoDI 5000.61, DoDI 5000.82, DoDI 5000.85, DoDI 5000.86, DoDI 
 5000.87, DoDI 5000.88, DoDI 5000.89, DoDI 5000.90, DoDI 5010.44, AFPD63-1/20-1, AFI63-
 101/20-101, DAFPAM63-128, and AFGM2018-63-146-01.) 
+
 The WBS and GRA depict the physical, logical, and functional decomposition of the weapon 
 system.  Accordingly, the SOW should include tasking statements that identify what CDRL 
 deliverables the development, production, or sustainment contractor needs to deliver to the 
 Government written to the appropriate WBS element(s) and GRA graphical node levels of 
 indenture for specific Hardware Configuration Items (HWCI) and Computer Software 
 Configuration Items (CSCI) that reside in the “modular system platform’s” system architecture. 
+
 To use this SOW template language, the program office should establish a properly staffed cross-
 functional team (consisting of system engineers, software engineers, logisticians, contracting 
 officers, and program counsel) that has the knowledge and expertise necessary to:  
+
 (i) Populate the fill-ins and tailor the language as necessary before including it into the 
 Request for Proposals (RFP), 
+
 (ii) Properly evaluate offerors’ proposed levels of system modularity during source 
 selection (assuming express MOSA evaluation criteria are included in Section M of 
 the RFP), and 
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 42 
+
 (iii) Properly verify/validate the contractor’s “major system platform” features the level 
 of system modularity required by the populated SOW language prior to accepting 
 (DD Form 250) that “major system platform”. 
+
 The text proposed below assumes the existence of a GRA to serve as the foundation upon which 
 the contractor’s delivered Digital System Model (DI-SESS-82364) (digital twin) is based.  The 
 SOW should contain additional Digital Engineering tasks the contractor needs to perform, the 
 scope of which are beyond this template. 
+
 Terms in bold italics are defined in 10 U.S.C. § 4401.  Terms associated with various CDRLs 
 are, in almost all cases, DID titles.  Listed DIDs when specified in DD Form 1423 Contract Data 
 Requirements Lists (CDRL) incorporated as Exhibits in RFPs and contracts may assist in 
@@ -1566,8 +2130,11 @@ https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=36026.  Notional Work
 Breakdown Structures (WBS) for various DoD platforms may be found in MIL-STD-881F.  The 
 terms “internal block diagram”, “diagram frame heading name”, “graphical node”, and 
 “graphical path” are defined in SysML™ V1.6, available at https://sysml.org/sysml-specs/. 
+
 Sample SOW Language 
+
 X.X.X. Modular Open Systems Approach 
+
 X.X.X.1 The contractor shall design, develop, produce, and deliver 
 the __[fill-in w/ name of major system platform being procured]__ in 
 accordance with Modular Open System Approach design principles. 
@@ -1576,126 +2143,166 @@ name of major system platform being procured]__ shall implement those
 principles to the levels of indenture of the contract Work Breakdown 
 Structure (WBS) and Digital System Model (DSM) identified in Table 
 C-1.  
+
 X.X.X.2. All functionality to be provided by the modular systems 
 (MS) and major system components (MSC) listed in the table residing 
 within the __[fill-in w/ name of major system platform being procured]__ 
 shall be partitioned into discrete, cohesive, and self-contained 
 (encapsulated) units. 
+
  
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 43 
+
 Table C-1. Configuration Items (HWCI)/Computer Software Configuration Items (CSCI) 
-Modular Systems (MS) 
-HWCI 
-CSCI 
-Name 
+
+Modular Systems (MS)
+
+HWCI
+CSCI
+
+Name
 Contract WBS 
+
 Element No. 
+
 Digital System 
 Model (DSM) 
 Internal Block 
+
 Diagram - 
+
 Diagram Frame 
-Heading Name 
-Name 
+Heading Name
+
+Name
 Contract WBS 
+
 Element No. 
+
 Digital System 
 Model (DSM) 
 Internal Block 
+
 Diagram - 
+
 Diagram Frame 
-Heading Name 
+Heading Name
+
 ___[Fill-in 
 with name of 
 hardware 
 MS]___ 
+
 ___[Fill-in with 
 corresponding 
 WBS Element 
 Number]___ 
+
 ___[Fill-in with 
 corresponding 
 DSM Internal 
 Block Diagram 
 Diagram Frame 
 Heading 
-Name]___ 
+Name]___
+
 ___[Fill-in 
 with name of 
 CSCI or 
 software unit 
+
 MS]___ 
+
 ___[Fill-in with 
 corresponding 
 WBS Element 
 Number]___ 
+
 ___[Fill-in with 
 corresponding 
 DSM Internal 
 Block Diagram 
 Diagram Frame 
 Heading 
-Name]___ 
- 
- 
- 
- 
- 
- 
-Major System Components (MSC) 
-HWCI 
-CSCI 
-Name 
+Name]___
+
+Major System Components (MSC)
+
+HWCI
+CSCI
+
+Name
 Contract WBS 
+
 Element No. 
+
 DSM Internal 
 Block Diagram 
 Diagram Frame 
 Heading Name 
-Name 
+
+Name
 Contract WBS 
+
 Element No. 
+
 Internal Block 
+
 Diagram 
+
 DSM Diagram 
 Frame Heading 
-Name 
+
+Name
+
 ___[Fill-in 
 with name of 
 hardware 
 MSC]___ 
+
 ___[Fill-in with 
 corresponding 
 WBS Element 
 Number]___ 
+
 ___[Fill-in with 
 corresponding 
 DSM Internal 
 Block Diagram 
 Diagram Frame 
 Heading 
-Name]___ 
+Name]___
+
 ___[Fill-in 
 with name of 
 CSCI or 
 software unit 
+
 MSC]___ 
+
  
+
 ___[Fill-in with 
 corresponding 
 WBS Element 
 Number]___ 
+
 ___[Fill-in with 
 corresponding 
 DSM Internal 
 Block Diagram 
 Diagram Frame 
 Heading 
-Name]___ 
+Name]___
+
  
+
 X.X.X.3 The contractor shall develop, produce, and deliver the following technical data and 
 computer software to the Government: CDRL A0__[insert number]__ (Contract Work 
 Breakdown Structure), CDRL A0__[insert number]__ (Software Architecture Document), 
@@ -1707,25 +2314,33 @@ A0__[insert number]__ (Interface Requirements Specification), CDRL A0__[insert n
 A0__[insert number]__ (Software Test Description), CDRL A0__[insert number]__ (Software 
 Test Report), CDRL A0__[insert number]__ (Test Plan), CDRL A0__[insert number]__ 
 (Test/Inspection Report), CDRL A0__[insert number]__ (Software Product Specification).  
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 44 
+
 X.X.Y. Digital Engineering (DE) 
  
+
 X.X.Y.1. The contractor shall develop and deliver a Digital System Model 
 (DSM) that accurately reflects the logical, functional, and physical configuration 
 of each __[fill-in w/ name of major system platform being procured]__ (CDRL 
 A0__[insert number]__.)  [Note: The DD Form 1423 for this deliverable must: 
  
+
 (1) invoke DI-SESS-82364; 
 (2) identify what modeling language (e.g., SysML™) and modeling 
 software (e.g., Dassault Cameo/Magi System of Systems, Sparx 
 Systems Enterprise Architect, IBM Rational Rhapsody) the contractor 
 must use to develop its DSM, 
+
 (3) state the DSM must accurately reflect the logical, functional, and 
 physical configuration of each __[fill-in w/ name of major system 
 platform being procured]__, 
+
 (4) state that the modeling software’s style sheet content must feature a 
 scriptable Application Program Interface (API) that permits use of 
 full SysML™ implementation such that that API can access all model 
@@ -1733,17 +2348,22 @@ elements so that all information contained in the DSM can be
 imported into and exported from the modeling language and 
 modeling software the program used to create the Government 
 Reference Architecture (GRA), 
+
 (5) state the DSM must not modify any of the model elements within the 
 GRA that identify all HWCIs/CSCIs the Government has designated 
 as MSs and MSCs, and 
+
 (6) state the DSM must not modify any of the graphical paths in the GRA 
 that identify the modular system interfaces.] 
+
 Open System Management Plan (OSMP) 
+
 To implement a MOSA most effectively and ensure that the intended modular open system 
 complies with statutory requirements, the Government should specify its desired level of 
 modularity and identify modular system interfaces when releasing a solicitation.  This best 
 practice requires critical thinking and decision making around desired levels of modularity prior 
 to RFP release, which differs from historical OSMP delivery and evaluation. 
+
 The OSMP as described in the DID (DI-MGMT-82099) captures the offeror’s approach to 
 modular, open design; intercomponent dependencies; design information documentation; 
 technology insertion; life cycle-sustainability; interface design and management; treatment of 
@@ -1752,15 +2372,22 @@ of proprietary elements.  However, this deliverable is most often received and e
 Government after the contract award.  An alternative approach to align with the best practice is 
 to use proposal instructions that request a draft or initial OSMP and evaluate how closely it 
 aligns with the Government’s desired modularity and modular system interfaces. 
+
+
 Appendix C: Contracting Considerations and Sample Contract Language 
+
  
 Implementing a MOSA in DoD Programs 
 45 
+
 Source Selection and Contract Award 
+
 See the DoD Source Selection Procedures (2011) for more information on source selection using 
 FAR contracts.  See the DoD Other Transaction Guide (2023) for information on selecting 
 industry partners in Other Transaction Agreements. 
+
 Monitoring Contract Performance 
+
 Monitoring contract performance is essential when implementing MOSA in defense systems to 
 ensure compliance with standards and architectures in use, to control costs and schedules, and to 
 ensure appropriate risk management.  It helps verify that systems remain flexible for future 
@@ -1769,22 +2396,33 @@ Monitoring also ensures contractors fulfill their obligations, delivering the ex
 modularity while preventing issues like vendor lock or system obsolescence.  PMOs and systems 
 engineers should include the following activities during key milestones and following any 
 contractual changes:  
+
 • Inspection and Acceptance of Data Deliverables for MOSA.  Changes to the contract 
 should address the impact on systems design with respect to modularity in major systems 
 and/or major components including the impact on IP and Data Rights (DR). 
+
 • Technical Monitoring and Validation of modularity.  Ensure the system architecture 
 maintains severable major system components at the appropriate level to accomplish PM 
 MOSA objectives including the following: 
+
 o Highly cohesive and loosely coupled architecture goals are maintained. 
+
 o Demonstration, analysis, testing, inspection of interfaces and standards confirm 
 openness goals are maintained. 
+
  
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 46 
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
 Five MOSA Pillars 
+
 A PMO team needs to establish requirements, business practices, development, acquisition, test, 
 and evaluation (T&E), and strategies that support MOSA.  The team should then accurately 
 isolate functionality during the design process.  Isolating the functionality simplifies 
@@ -1792,21 +2430,30 @@ development, maintenance, changes, and upgrades.  Developers who design modular 
 can upgrade or change functions rapidly, with limited or no impact to the rest of the system.  
 They need to sufficiently decouple the interface and service implementation so they can maintain 
 separate life cycles. 
+
 Consensus-based standards, if available and suitable, need to be selected to allow developers to 
 leverage commercially developed technologies, increasing competition.  In addition, they offer 
 faster upgrades at reduced cost and complexity.  Fielded systems are more affordable and 
 maintainable.  Finally, developers should verify and validate their MOSA implementation and 
 requirements, ensuring conformance to selected internal and external open interface standards.  
 A checklist may be used for this verification. 
+
 OUSD(R&E)-led MOSA working groups developed the five pillars of MOSA to ensure DoD 
 programs have an effective approach for MOSA implementation in place for the life cycle of a 
 product or service. 
+
 1. Enabling Environment 
+
 2. Modular Design 
+
 3. Designated Interfaces 
+
 4. Consensus-Based Open Standards  
+
 5. Certifying Conformance 
+
 Establish Enabling Environment 
+
 By establishing and maintaining an enabling environment that supports MOSA, the DoD can 
 ensure the development of modular, interoperable, and adaptable systems that meet evolving 
 defense needs efficiently and effectively.  Creating an enabling environment is fundamental for 
@@ -1815,107 +2462,169 @@ PMOs and systems engineers should establish requirements, business practices, de
 strategies, acquisition approaches, T&E methods, and overall strategies that support MOSA.  The 
 following items ensure a PMO is taking the correct steps to create an enabling environment for 
 MOSA: 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 47 
+
 1. Establish MOSA Goals: 
+
 • Set clear MOSA goals that function on expanding capabilities and interoperability. 
+
 • Define MOSA life cycle costs and continuous development, release, monitoring, and 
 performance goals to ensure the system evolves with technological advancements. 
+
 2. Adopt MOSA Practices: 
+
 • Transform requirements, business, management, technical, and acquisition practices, 
 estimation methods, and end-user engagement strategies to align with MOSA principles. 
+
 • Update contracts, data, licenses, and property rights; plans; and other key areas to support 
 modularity and openness. 
+
 3. Integrate MOSA in Contracts and Data Rights Planning: 
+
 • Incorporate MOSA considerations into contracts and data rights planning to improve cost 
 reduction. 
+
 • Ensure necessary data rights are obtained to support long-term system maintenance and 
 upgrades.  
+
 4. Embrace an Agile Development Culture: 
+
 • Plan and implement agile development methodologies. 
+
 • Deploy functionality in frequent, small releases based on continuous feedback from 
 sponsors and end users, allowing for rapid adaptation to changing requirements. 
+
 5. Embrace Automation: 
+
 • Use automated development and testing pipelines to enable continuous integration, 
 continuous delivery (CI/CD) and continuous operations. 
+
 • Ensure communication structures and team arrangements facilitate the creation of 
 modular and interoperable systems. 
+
 6. Structure the Organization for Openness and Modularity: 
+
 • Align organizational structure with systems design. 
+
 • Ensure the organization’s communication and collaboration patterns reflect the desired 
 system architecture.  This principle is based on Conway’s Law (1968), which states that 
 systems will mirror the communication structures of the organizations that design them. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 48 
+
 7. Adopt Digital Engineering Practices: 
+
 • Use digital engineering practices necessary to capture, assess, and support MOSA 
 elements in product development to promote modularity and openness using data and 
 models throughout the life cycle. 
+
 • Follow the guidelines established in the DoD Digital Engineering policy (DoDI 5000.97) 
 by adopting the use of models and data to support life cycle activities, ensuring that 
 organizational structures and processes are aligned with the principles of modular system 
 design and digital transformation. 
+
 • By integrating digital engineering, organizations can enhance collaboration, streamline 
 communication, improve decision making, and ensure that system designs are aligned 
 with modularity and openness principles. 
+
 8. Document MOSA in the Acquisition Strategy: 
+
 • Collaborate with capability owners to commit to developing and implementing MOSA. 
+
 • Identify business and technical objectives and life cycle characteristics that guide the 
 system’s evolution, ensuring these goals are reflected in the system’s design and 
 implementation. 
+
 9. Identify and Derive MOSA Functional Life Cycle Characteristics: 
+
 • Ensure MOSA addresses life cycle requirements such as affordability, interoperability, 
 maintainability, and replaceability.  
+
 • Consider the quality attributes that are critical for the system’s long-term success such as 
 safety, reusability, scalability, etc. 
+
 10. Trace MOSA from User Requirements: 
+
 • Derive modularity and openness objectives from operational and life cycle requirements. 
+
 • Ensure MOSA objectives are included in System Requirements Document and reflected 
 in T&E activities. 
+
 11. Manage Architecture Requirements: 
+
 • Establish architecture constraints that drive system development, ensuring developers 
 meet MOSA requirements alongside operational and performance objectives. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 49 
+
 12. Develop and Implement Intellectual Property and Data Rights Strategy: 
+
 • Create a strategy for IP and data rights that supports MOSA objectives. 
+
 • Ensure the necessary technical data and computer software rights are obtained to 
 facilitate modular open system approaches. 
+
 13. Incorporate MOSA in Contracting and Deliverables: 
+
 • Include MOSA requirements in RFPs, SOWs, Statements of Objectives, and CDRLs. 
+
 • Ensure contracts support the acquisition of services and products aligned with MOSA 
 objectives. 
+
 14. Enable and Empower the Team: 
+
 • Maintain a disciplined approach and enable a team that understands program objectives.  
 Assign MOSA implementation responsibilities to the Lead System Integrator (LSI) and 
 ensure the Systems Engineering Integrated Product Team (SE IPT) addresses MOSA 
 objectives across the program life cycle. 
+
 15. Record MOSA Intent and Expectations: 
+
 • Document the program-specific plans, milestones, and expected outcomes clearly.  
 Ensure communication and accountability through a MOSA-enabled SEP or Simplified 
 Acquisition Management Plan (SAMP). 
+
 16. Plan for Life Cycle Sustainment: 
+
 • Begin planning life cycle sustainment early, ensuring MOSA objectives support 
 enhanced product support, technology insertion, and innovation throughout sustainment 
 and modernization. 
+
 17. Include MOSA in Technical Risk Management: 
+
 • Use widely accepted, consensus-based standards, and standardized interfaces to mitigate 
 identified technical risks. 
+
 • Consider the full spectrum of technology, engineering, and integration risk of the 
 program’s MOSA requirements. 
+
 • The Defense Technical Risk Assessment Methodology: Criteria Volume 6.3, 30 
 September 2020, provides evaluation criteria and assessment framework for use in 
 conducting technical risk assessments of the maturity of planning and execution of 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 50 
+
 defense acquisition programs for 1) Independent Technical Risk Assessments (ITRA) as 
 directed by statute and policy, 2) Test and Evaluation Sufficiency Assessments, 3) 
 informing readiness for milestone decisions, 4) the adequacy of Systems Engineering 
@@ -1925,149 +2634,225 @@ Plans, and Program Protection Plans).  This methodology is applicable to all DoD
 Components and Office of the Secretary of Defense in the conduct of all technical 
 assessments (to include technology and manufacturing) of programs, prototypes, and 
 systems, regardless of acquisition pathway, in the Defense Acquisition System (DAS). 
+
 18. Execute and Record MOSA Implementation: 
+
 • Ensure conformance to MOSA requirements through system integration and design 
 documentation.  Include provisions for T&E and configuration management (CM) to 
 verify and maintain MOSA implementation. 
+
 Employ Modular Design 
+
 To accomplish the acquirer’s business and technical objectives, the acquiring organization 
 should identify the required functionality of the modular system components before issuing the 
 RFP.  Acquirers or developers who design modular systems can upgrade or change functions 
 rapidly, with limited or no impact to the rest of the system.  Modular design isolates functionality 
 during the design process to simplify development, maintenance, changes, and upgrades and 
 includes five sub-functions: 
+
 1. The design separates components into scalable, reusable modules consisting of self-
 contained functional elements. 
+
 2. The architecture provides failure isolation.  When a module fails, the rest of the system 
 remains available except for the single service provided by the failing module. 
+
 3. Modules can be independent of technology choices.  Developers can use or change each 
 module to different technologies without affecting others.  The only constant between the 
 modules is the interface. 
+
 4. Modules are immutable and disposable.  Developers can deploy the same module into 
 any environment, knowing it consists of the same code everywhere. 
+
 5. Modules can run as unprivileged users.  Services and data calls avoid requiring 
 administrative privileges, providing just enough permissions to run the service or to 
 query or update a particular data set the user can access. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 51 
+
 Designate Key Interfaces 
+
 By designating modular system interfaces, the DoD can ensure that systems are flexible, 
 interoperable, and easily upgradeable.  Developers can manage changes effectively, maintain 
 backward compatibility, and leverage open standards to achieve long-term system sustainability 
 and effectiveness following this approach. 
+
 This MOSA tenet focuses on decoupling the interface and service implementation of components 
 to allow them to follow separate life cycles.  Decoupling the inner workings of components 
 while retaining their approved capabilities enables developers to expose openly available key 
 modular system interfaces to other components. 
+
 Designating modular system interfaces enhances flexibility, improves interoperability, and 
 facilitates ease of upgrades when considering the following best practices: 
+
 1. Identify Modular Interfaces: 
+
 • Conduct a thorough analysis of all interfaces required by the modular design.  Define the 
 interface boundaries, including physical, syntactic, semantic, and behavioral 
 characteristics.  Rank interfaces by criticality based on the module’s function and 
 information needs. 
+
 2. Develop and Implement an Interface Management Plan (IMP): 
+
 • Create an IMP that outlines interface management processes, responsibilities, and 
 procedures for upgrading interface standards.  
+
 • Include certifications and tests applicable to each interface or standard. 
+
 3. Assign Interface Ownership: 
+
 • Assign ownership for key interfaces to control their definition, design, development, and 
 implementation, ensuring compliance throughout system development and production. 
+
 4. Create Unique Identifiers for Modular System Interfaces: 
+
 • Develop and apply a consistent naming convention to uniquely identify each system 
 interface, facilitating easier identification and management of interfaces. 
+
 5. Trace Interface Requirements: 
+
 • Ensure traceability from MOSA and operational requirements to key interface 
 specifications.  Document requirements that influence interface characteristics and 
 constraints to support modular design. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 52 
+
 6. Document Key Interfaces: 
+
 • Maintain detailed records of key interfaces in Interface Control Documents (ICDs), 
 including physical, syntactic, semantic, behavioral, and temporal parameters at the 
 module boundary. 
+
 • Document interfaces in corresponding Interface Requirement Specifications (IRS). 
+
 7. Adopt an Integrated Business and Technical Strategy: 
+
 • Use a modular approach that separates the system into major functions and elements, 
 working together across interfaces based on consensus-based standards supporting 
 modular design. 
+
 8. Facilitate Technology Refresh and Interoperability: 
+
 • Employ MOSA to enable the sharing of modular components across weapon systems, 
 easing sustainment and parts procurement, and facilitating technology refresh and 
 interoperability. 
+
 • The use of extensible and exportable features can ease the integration of advanced 
 technology and modifications to mission capabilities. 
+
 9. Collaborate Among Stakeholders by Establishing Interface Control Working Groups 
 (ICWGs): 
+
 • Effective MOSA implementation requires collaboration among multiple stakeholders, 
 including technical design, standards selection, acquisition business processes, and legal 
 means.  This collaboration ensures supportive elements are aligned with system 
 objectives.  
+
 • Create an ICWG to manage interface coordination and control to conduct the following: 
+
  Expose the design and drivers for all interfaces to an open forum. 
+
  Ensure internal interface synchronization across teams. 
+
  Engage with external organizations to maintain interface compliance. 
+
 Select Open Standards When Available and Suitable 
+
 By standardizing modular system interfaces through these practices, the DoD can ensure systems 
 are flexible, interoperable, and easily repairable/upgradeable.  Employing consensus-based 
 standards and managing Government-owned interface repositories enable developers to leverage 
 commercially developed technologies, fostering increased competition, faster upgrades, and 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 53 
+
 reduced costs.  Implementing MOSA standardization best practices contributes to the 
 affordability and maintainability of fielded systems. 
+
 The following elements are paramount in using consensus-based standards at modular system 
 interfaces: 
+
 1. Prioritize Consensus-based Standards: 
+
 • Use standards from internationally recognized groups or Government-owned repositories 
 to ensure broad acceptance and compatibility, creating an environment conducive to 
 interoperability and collaboration. 
+
 2. Select Appropriate Standards: 
+
 • Prudently assess and select standards tailored for DoD at modular interfaces to open 
 systems to competition among suppliers, enhancing flexibility and agility to address 
 evolving threats and emerging technologies. 
+
 3. Ensure Proper Standards Implementation: 
+
 • Correctly implement standards to avoid interoperability problems, ensuring that modular 
 design principles are effectively applied. 
+
 4. Standardize Modular System Interfaces: 
+
 • Standardize modular interfaces to the maximum extent feasible to support interoperability 
 using non-proprietary, widely accepted, consensus-based standards for hardware and 
 software functional boundaries. 
+
 5. Document and Manage Interface Specifications for Modular System Interfaces: 
+
 • Document, define, and control modular system interfaces using an Interface Requirement 
 Specification (IRS) to identify interfaces and associated modules, including external data 
 exchange, data flow items, and interface constraints. 
+
 6. Engage in Cooperative Efforts: 
+
 • Participate in cooperative efforts or consortiums to shape standards development that 
 addresses domain or community-wide technological issues, ensuring the use of 
 consensus-based open standards. 
+
 7. Expose Software and Data Services via Application Programming Interfaces (APIs): 
+
 • Use APIs to expose software and data services while maintaining security and integrity, 
 fostering an environment in which data and services are accessible yet protected. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 54 
+
 8. Obtain and Manage Data Rights: 
+
 • Secure necessary data rights by statute, negotiate beneficial data rights, and review 
 license agreements to ensure appropriate use in Government systems, creating a clear and 
 legally sound environment. 
+
 9. Choose the Appropriate Security Standards at Interfaces: 
+
 • Implement secure interfaces using Federal Information Processing Standard (FIPS) 140-
 2-certified encryption standards to ensure robust security measures and to create a safe, 
 secure environment for system operations. 
+
 10. Align Information Technology Standards with the DoD Information Technology Standards 
 Registry (DISR): 
+
 • Ensure IT standards align with DISR to provide a cohesive framework for technology 
 integration and interoperability within DoD systems, facilitating a standardized 
 environment. 
+
 Certify Conformance 
+
 Developers need to verify and validate the MOSA implementation and requirements, ensuring 
 conformance to selected internal and external open interface standards.  This certification 
 ensures that the system conforms to both internal and external open interface standards, 
@@ -2077,121 +2862,184 @@ ultimately supporting program success and system sustainability.  By rigorously 
 conformance through these criteria and verification activities, the DoD can ensure that the 
 modular and open systems achieve their intended benefits, enhancing system flexibility, 
 maintainability, and overall mission effectiveness. 
+
 The following factors are required to certify conformance: 
+
 1. MOSA Measures of Effectiveness (MOEs) and Measures of Performance (MOPs): 
+
 • Establish relevant MOEs and MOPs to track and evaluate the effectiveness of the MOSA 
 implementation for supporting program success.  These metrics help in assessing whether 
 the system meets its intended modularity and openness goals. 
+
 2. Checklists for Verification: 
+
 • Use checklists to assist developers in verifying conformance to the MOSA standards.  
 Checklists can aid developers with verification ensuring that all aspects of modularity and 
 openness are addressed and validated systematically. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 55 
+
 3. Conformance Criteria and Verification (Table D-1): 
+
 • Establish specific criteria where T&E results indicate the following: 
+
 Table D-1. MOSA Conformance Criteria and Verification Methods 
+
 Conformance 
-Criteria 
-Verification 
+
+Criteria
+
+Verification
+
 MOSA objectives 
 Demonstrate severable modular components in accordance with operational and 
 performance requirements. 
+
 Key Interfaces 
 Demonstrate modular system interfaces are designed, implemented, and traceable 
 to requirements. 
+
 Standards 
 Compliance 
+
 Confirm that widely used, consensus-based standards selected for modular system 
 interfaces are properly implemented. 
+
 MOSA Modules 
 Show that MOSA modules implement minimal functions, are functionally 
 independent, encapsulated, and traceable to requirements. 
+
 Modularity  
 Ensure that MOSA components adhere to modular design principles, such as being 
 encapsulated, cohesive, loosely coupled, and organized into functional categories. 
+
 Openness  
 Ensure MOSA components have standardized modular system interfaces 
 implementing widely used, consensus-based standards, enabling interchangeability 
 without negatively impacting performance. 
+
 Life Cycle 
 Characteristics 
+
 Ensure MOSA components conform to life cycle characteristics such as being 
 severable, replaceable, interoperable, and allowing for competition and technology 
 insertions. 
+
 MOSA 
 Conformance 
+
 Demonstrate the program’s ability to certify conformance to MOSA. 
+
 4. Verification and Validation (V&V) Mechanisms: 
+
 • Prepare mechanisms for verifying and validating the program’s MOSA-related 
 requirements.  V&V includes integrating these requirements into test strategies and plans 
 to evaluate conformance to standards and operational performance needs.  Key V&V 
 activities include: 
+
 • Documentation Validation: 
+
 o Ensure all MOSA-related documentation is accurate, complete, and up to date. 
+
 o Validate that the documentation supports the verification of modularity and openness 
 objectives. 
+
 • Modularity Requirements Verification: 
+
 o Confirm that the system’s modular components are designed and implemented 
 according to the defined modularity criteria.  
+
 o Verify the functional independence and encapsulation of each module. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 56 
+
 • Tool Development Verification: 
+
 o Validate the tools and processes used for developing and maintaining the MOSA 
 components, ensuring they support continuous integration and deployment practices. 
+
 5. Documentation and Interface Management: 
+
 • Maintain thorough documentation and management of interfaces to ensure transparency 
 and accountability.  Managing the documentation to support interfaces involves 
 specifying deliverables in contracts to ensure that vendors provide necessary artifacts for 
 verifying conformance. 
+
 6. Testing and Evaluation Planning: 
+
 • Incorporate MOSA requirements into T&E plans, ensuring that the use and 
 implementation of standards, key interfaces, and modular designs are thoroughly tested.  
 Evaluation should cover all life cycle characteristics, including affordability, 
 interoperability, maintainability, and replaceability. 
+
 Ask the following questions: 
+
 • Identify accountability for the disposition of, access to, release of and control of the 
 technical baselines. 
+
 • Establish and maintain plans for managing the configuration of the product. 
+
 • Identify the configuration items and related work products that should be placed under 
 configuration management. 
+
 • To what extent are relevant MOSA MOEs/MOPs developed, tracked, and used to support 
 senior leader cost, schedule, and performance decisions? 
+
 OUSD(R&E) also recommends using a Multi-Attribute Utility Theory (MAUT) for scoring.  
 MAUT is a structured methodology designed to handle the trade-offs among multiple objectives.  
 Many MOSA models/tools used by the services today use this process to provide a quantitative 
 MOSA evaluation of their program(s).  Although several COTS tools are available to conduct 
 MAUT, a simple Excel spreadsheet is often the preferred tool. 
+
 Figure D-1 shows an example spreadsheet using a subset of the criteria categories.  The example 
 shows the pillars equally weighted.  This is not always the case, and pillars should be weighted 
 according to service and program needs. 
+
+
 Appendix D: MOSA Pillars and MOSA Implementation Considerations 
+
  
 Implementing a MOSA in DoD Programs 
 57 
+
  
+
 Source: “OUSD(R&E) MOSA Assessment Criteria” May 2022 (https://www.cto.mil/sea/pg). 
+
 Figure D-1. Example MOSA Quantitative Process Summary of MOSA Assessment Tools 
+
 The example shows only the benefit (or performance) of a particular program’s MOSA 
 compliance.  To completely evaluate a program, the reviewer should conduct a cost/benefit 
 analysis using the program’s calculated performance versus its life cycle cost.  OUSD(R&E) 
 conducted a proof-of-concept assessment by using this spreadsheet to assess a current, active 
 program. 
+
  
+
+
 Appendix E: Workforce Development and Training for a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 58 
+
 Appendix E: Workforce Development and Training for a MOSA 
+
 As congressional requirements continue to emphasize the implementation of MOSA, it is 
 imperative to provide guidance and training for the defense workforce regarding the 
 implementation, evaluation, and use of MOSA (from both acquirer and supplier perspectives) 
 throughout the systems engineering and design process. 
+
 Workforce training for MOSA should describe the principles from a business and a technical 
 perspective.  The training should provide program examples of successful MOSA 
 implementation as well as sources that can assist an organization in implementing MOSA.  
@@ -2201,134 +3049,192 @@ standards, Government and commercial standards, and other widely supported conse
 standards.  MOSA implementations should identify the benefits of MOSA sought in the 
 program, and training should demonstrate how and when to adopt MOSA.  It should describe the 
 importance of MOSA for IP, data, and data rights. 
+
 The Defense Acquisition University (DAU) has created the training course Continuous Learning 
 Education (CLE) 019 Modular Open Systems Approach.  The course provides examples of how 
 to use MOSA, a trade study demonstrating the risks and benefits of implementing MOSA, and a 
 demonstration of data rights that the Government needs to implement MOSA.  The course also 
 describes the potential benefits of MOSA and highlights applicable DoD policy for the 
 acquisition and management of MOSA and its importance to IP, data, and data rights. 
+
 The DAU CLE 019 course structure may provide guidance for programs to develop future 
 MOSA training (Table E-1). 
+
 In addition to CLE 019, DAU manages the following webinar series, workshops, and courses 
 with MOSA educational information (Table E-2). 
+
+ 
+
  
  
- 
+
+
 Appendix E: Workforce Development and Training for a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 59 
+
 Table E-1. DAU CLE 019 Course Structure 
-DAU CLE 019 – Modular Open Systems Approach 
-Units of Instruction 
-TLOs 
-Description 
+
+DAU CLE 019 – Modular Open Systems Approach
+
+Units of Instruction
+TLOs
+Description
+
 CLE 019.U01 – Introduction 
 to a Modular Open Systems 
 Approach (MOSA) 
+
 CLE019.U01.01 
 Show how MOSA has evolved 
+
 CLE019.U01.02 
 Discuss MOSA as defined in law, policy, and 
 guidance 
+
 CLE019.U01.03 
 Explain when MOSA is and not practicable to use 
+
 CLE 019.U02 
+
 CLE 019.U02.01 
 Define the use of an architecture in MOSA 
+
 CLE 019.U02.02 
 Discuss interfaces as a significant characteristic of 
 MOSA 
+
 CLE 019.U02.03 
 Explain the use of key open standards in MOSA 
+
 CLE 019.U03 
+
 CLE 019.U03.01 
 Summarize MOSA benefits and impacts to technical 
 design and business approaches 
+
 CLE 019.U03.02 
 Identify MOA enablers Lesson Topics 
+
 CLE 019.U03.03 
 MOSA Benefits 
+
 CLE 019.U03.04 
 MOSA Enablers 
+
 CLE 019.U04 
+
 CLE 019.U04.01 
 Show how MOSA can be implemented in a System 
+
 CLE 019.U04.02 
 Understand how MOSA fits into Digital Engineering 
 (DE) 
+
 CLE 019.U04.03 
 Explain MOSA trade space considerations 
+
 CLE 019.U04.04 
 Summarize Government and commercial interface 
 standards 
+
 CLE 019.U05 
+
 CLE 019.U05.01 
 Identify technical data and computer software 
 needed to implement MOSA 
+
 CLE 019.U05.02 
+
 Explain delivery requirement considerations for 
 technical data (TD) and computer software needed 
 to implement MOSA 
+
 CLE 019.U05.03 
+
 Describe what is required in a Request for Proposal 
 (RFP) for MOSA to be used effectively in 
 development 
+
 CLE 019.U06 – Assessing 
 MOSA 
+
 CLE 019.U06.01 
 Identify the major aspects of assessing MOSA 
+
 CLE 019.U06.02 
 Summarize assessment of MOSA implementation 
 Lesson Topics 
+
 CLE 019.U06.03 
 Aspects of MOSA Assessment 
+
 CLE 019.U06.04 
 MOSA Implementation Assessment 
+
+ 
+
  
  
- 
+
+
 Appendix E: Workforce Development and Training for a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 60 
+
 Table E-2. Courses, Workshops, and Webinars 
+
 Course/Workshop/Webinar Title 
 Course/Workshop/Webinar Description 
+
 Let’s Be Modular and Open 
 Webinar Series 
+
 A playlist of recorded presentations containing business and 
 technical information on MOSA and MOSA implementations 
+
 ETM 1020 Mission and Systems 
 Thinking Fundamentals 
+
 This Online Training (OLT) course provides members of the 
 Engineering and Technical Management (ETM) Functional Area 
 with essential foundational knowledge on the universal aspects of 
 approaching technical projects with a mission and systems 
 thinking perspective. 
+
 ETM 1040 Technical Management 
 Fundamentals 
+
 This is an entry level Online Training (OLT) course that 
 introduces students to the eight Technical Management process 
 of the systems engineering “vee” model.  This course provides 
 the essential foundations needed for systems engineers and 
 others to effectively participate in the management of DoD 
 Systems Engineering processes and their related activities. 
+
 ETM 1050 Design Considerations 
 Fundamentals 
+
 This is an Online Learning Training (OLT) course.  Learners will 
 explore the 24 Design Considerations at the foundational level.  
 Learners will understand why program teams need to consider 
 and document all statutory and regulatory requirements, as well 
 as other design considerations, in order to: 
+
 • 
 Translate the end-user desired capabilities into a structured 
 system of interrelated design specifications that support 
 delivery of required operational capability. 
+
 • 
 Enable trade-offs among the design considerations in 
 support of achieving desired mission effectiveness within 
 cost and schedule constraints. 
+
 • 
 Incorporate design considerations into the set of system 
 requirements, as some are mandated by laws, regulations, 
@@ -2336,8 +3242,10 @@ or treaties, while others are mandated by the domain or
 DoD Component or Agency; these mandates should be 
 incorporated during the Requirements Analysis process to 
 achieve balance across all system requirements. 
+
 ETM 1070 Digital Literacy 
 Fundamentals 
+
 This Online Training (OLT) course introduces digital literacy 
 concept and strategies.  Students will understand digital 
 behaviors and practices to support implementations of digital 
@@ -2347,22 +3255,30 @@ information when operating within a digital environment.
 Students learn digital approaches that use authoritative sources 
 of systems’ data and models as a continuum across disciplines to 
 support life cycle activities from concept through disposal. 
+
 ETM 2020 Mission and Systems 
 Thinking for Practitioners 
+
 This virtual instructor-led training (VILT) course provides students 
 with the opportunity to apply what they learned in ETM 1020 via 
 several individual and team exercise scenarios.  The scenarios 
 allow the student to exercise the universal aspects of 
 approaching technical projects with a mission and systems 
 thinking perspective. 
+
+
 Appendix E: Workforce Development and Training for a MOSA 
+
  
 Implementing a MOSA in DoD Programs 
 61 
+
 Course/Workshop/Webinar Title 
 Course/Workshop/Webinar Description 
+
 ETM 2040 Technical Management 
 for Practitioners 
+
 This virtual instructor-led training (VILT) course offers an 
 opportunity to apply the concepts covered in ETM 1040, 
 Technical Management Fundamentals, in practical exercise 
@@ -2370,8 +3286,10 @@ scenarios.  The student will evaluate the scenario and implement
 appropriate Technical Management activities in developing 
 designs, assessing risks, and managing requirements, data, and 
 configurations. 
+
 ETM 2050 Design Considerations 
 for Practitioners  
+
 This virtual instructor-led training (VILT) course is on the 24 
 Design Considerations.  Learners will participate in one or more 
 synchronous, instructor led interventions that will provide 
@@ -2379,8 +3297,10 @@ instruction, afford learners the opportunity to seek clarity from an
 instructor, engage in collaborative activities and projects with 
 other learners, and enable learners to receive immediate, 
 constructive feedback. 
+
 ETM 2070 Digital Literacy for 
 Practitioners 
+
 This Virtual Instructor-Led Training (VILT) course builds upon 
 ETM 1070 Digital Literacy Fundamentals.  Students learn how to 
 apply digital engineering behaviors and practices to support 
@@ -2394,8 +3314,10 @@ concept through disposal.  As a group, students discuss best
 practices and lessons learned that will help them overcome 
 barriers when implementing digital concepts within their own 
 organizations. 
+
 TST 2040 Test and Evaluation for 
 Practitioners  
+
 This classroom (CLRM) course builds upon professionals' 
 knowledge, skills, and on-the-job experience relating to DoD test 
 and evaluation (T&E) policies, processes, and practices.  Several 
@@ -2405,19 +3327,27 @@ T&E in systems acquisition; T&E planning and T&E strategy; T&E
 master plan development; managing a T&E program; and 
 planning, preparation for, executing, analyzing, evaluating, and 
 reporting the results of T&E events. 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 62 
+
 Glossary 
-Term 
-Definition 
-Source 
+
+Term
+Definition
+Source
+
 Architecture 
 The structure of components, their relationships, and 
 the principles and guidelines governing their design 
 and evolution over time. 
+
 DAU Glossary 
+
 Design Interface 
 The integration of the quantitative design 
 characteristics of systems engineering (reliability, 
@@ -2431,7 +3361,9 @@ system requirements.  Product support requirements
 are derived to ensure the system meets its availability 
 goals, and to effectively balance design and support 
 costs of the system.  
+
 DAU Glossary 
+
 Desired Modularity 
 The desired degree to which weapon systems, 
 components within a weapon system, and 
@@ -2441,35 +3373,47 @@ boundaries and through interfaces and can be
 separated and recombined to achieve various effects, 
 missions, or capabilities, as determined by the 
 program officer for such weapon system 
+
 P.L. 116-283 (FY21 
 NDAA); Sec. 804(f)(2) 
+
 Digital 
 Engineering 
+
 A means of using and integrating digital models and 
 the underlying data to support the development, test 
 and evaluation, and sustainment of a system. 
+
 DoD Instruction 5000.97 
 Digital Engineering 
+
 Department of 
 Defense 
 Architecture 
 Framework StdV-1 
+
 StdV‐1 Standards Profile – standards, specifications, 
 guidance, policy applying to elements of the preferred 
 alternative (solution) architectures. 
+
 OSD Mission 
 Engineering (ME) Guide 
+
 Intellectual 
 Property (IP) 
+
 Includes inventions, trademarks, patents, industrial 
 designs, copyrights, and technical information 
 including software, data designs, technical know-how, 
 manufacturing information and know-how, 
 techniques, Technical Data Packages (TDPs), 
 manufacturing data packages, and trade secrets. 
+
 DAU Glossary 
+
 Intellectual 
 Property Strategy  
+
 Strategy to identify and manage the full spectrum of 
 IP (e.g., technical data and computer software 
 deliverables, patented technologies, and appropriate 
@@ -2479,15 +3423,21 @@ program management will assess program needs for,
 and acquire competitively, when possible, IP 
 deliverables and associated license rights needed for 
 competitive, affordable acquisition and sustainment 
+
 DAU Glossary 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 63 
-Term 
-Definition 
-Source 
-over the life cycle.  The IP Strategy is updated 
+
+Term
+Definition
+Source
+
+over the life cycle. The IP Strategy is updated 
 throughout the life cycle, summarized in the 
 Acquisition Strategy, and in the Life-Cycle 
 Sustainment Plan during the Operations and Support 
@@ -2498,6 +3448,7 @@ a consistent IP Strategy. This approach integrates
 technical requirements, contracting mechanisms, and 
 legal considerations to support continuous multiple 
 competitive alternatives throughout the life cycle. 
+
 Interchangeability 
 A condition that exists when two or more items 
 possess such functional and physical characteristics 
@@ -2506,7 +3457,9 @@ capable of being exchanged one for the other without
 alteration on the items themselves or of adjoining 
 items, except for adjustment, and without selection 
 for fit and performance. 
+
 DAU Glossary 
+
 Interface 
 The functional and physical characteristics required 
 to exist at a common boundary or connection 
@@ -2517,9 +3470,12 @@ boundary or service that is necessary for the other
 system to perform its mission in a degraded mode, 
 e.g., a system that supplies power, cooling, heating, 
 air services, or input signals. 
+
 DAU Glossary 
+
 Interface Control 
 Agreement 
+
 Describes the relationship between two components 
 of a system in terms of data items and messages 
 passed, protocols observed and the timing and 
@@ -2529,10 +3485,13 @@ software components and hardware devices or two
 different software components.  Data to meet the 
 needs of the ICA can be extracted from the Interface 
 Control Document and/or the supporting architecture. 
+
 DAU Glossary 
+
 Interface 
 Requirements 
 Specification (IRS) 
+
 1. Documentation that specifies requirements for 
 interfaces between or among systems and 
 components. 
@@ -2542,19 +3501,27 @@ Software Item (SI) in the allocated baseline, the
 requirements for which are described by a Software 
 Requirement Specification (SRS). 
 The IRS is frequently combined with the SRS. 
+
 DAU Glossary 
+
 Interoperability 
 The ability of systems, units, or forces to provide 
 data, information, materiel, and services to, and 
 accept the same from, other systems, units, or forces, 
+
 DAU Glossary 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 64 
-Term 
-Definition 
-Source 
+
+Term
+Definition
+Source
+
 and to use the data, information, materiel, and 
 services exchanged to enable them to operate 
 effectively together.  Information Technology (IT) 
@@ -2566,45 +3533,60 @@ is more than just information exchange.  It includes
 systems, processes, procedures, organizations, and 
 missions over the life cycle and must be balanced 
 with cybersecurity. 
+
 Joint Interface 
 An Information Technology (IT) interface that passes 
 or is used to pass information between systems and 
 equipment operated by two or more combatant 
 commanders, Services, or agencies. 
+
 DAU Glossary 
+
 Life Cycle 
 Management 
+
 A management process applied throughout the life of 
 a product that bases all programmatic decisions on 
 the anticipated usage and economic benefits derived 
 over the life of the product. 
+
 TA-STD-0017, Product 
 Support Analysis 
+
 Logistics Product 
 Data 
+
 That portion of Product Support Analysis (PSA) 
 documentation consisting of detailed data pertaining 
 to the identification of Product Support resource 
 requirements of a product.  See GEIA-STD-0007 for 
 LPD data element definitions. 
+
 TA-STD-0017, Product 
 Support Analysis 
+
 Machine-readable 
 Format 
+
 A format that can be easily processed by a computer 
 without human intervention. 
+
 P.L. 116-283 (FY21 
 NDAA), Sec. 804(f)(3) 
+
 Maintainability 
 The ability of a product to be retained in, or restored 
 to, a specified condition when maintenance is 
 performed by personnel having specified skill levels, 
 using prescribed procedures and resources at each 
 prescribed level of maintenance and repair. 
+
 TA-STD-0017, Product 
 Support Analysis 
+
 Major System 
 Component 
+
 (A) a high-level subsystem or assembly, including 
 hardware, software, or an integrated assembly of 
 both, that can be mounted or installed on a major 
@@ -2616,23 +3598,32 @@ change because of evolving technology or threat, is
 needed for interoperability, facilitates incremental 
 deployment of capabilities, or is expected to be 
 replaced by another major system component. 
+
 10 U.S.C. § 4401(b)(3) 
+
 Modular System 
 Interface 
+
 (A) a shared boundary between a major system 
 platform and a major system component, between 
 major system components, or between major system 
 platforms, defined by various physical, logical, and 
+
 10 U.S.C. § 2446a.(b) 
 (Updated by 10 U.S.C. 
 § 4401 (b)(4)) 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 65 
-Term 
-Definition 
-Source 
+
+Term
+Definition
+Source
+
 functional characteristics, such as electrical, 
 mechanical, fluidic, optical, radio frequency, data, 
 networking, or software elements; and 
@@ -2640,36 +3631,48 @@ networking, or software elements; and
 and the content that flows across the interface in 
 order to enable technological innovation, incremental 
 improvements, integration, and interoperability 
+
 Major System 
 Platform 
+
 The highest-level structure of a major weapon system 
 that is not physically mounted or installed onto a 
 higher-level structure and on which a major system 
 component can be physically mounted or installed. 
+
 10 U.S.C. § 4401(b)(2) 
+
 Mission 
 Engineering 
+
 An interdisciplinary process encompassing the entire 
 technical effort to analyze, design, and integrate 
 current and emerging operational needs and 
 capabilities to achieve desired mission outcomes. 
+
 OSD Mission 
 Engineering (ME) Guide 
+
 Mission 
 Integration 
 Management 
 (MIM) 
+
 The management, synchronization, and coordination 
 of concepts, activities, technologies, requirements, 
 programs, and budget plans to guide key decisions 
 focused on the end-to-end mission. 
+
 https://ac.cto.mil/mission-
 engineering/ 
+
 Modular Open 
 Systems 
 Approach 
+
 See Section 1.1 
 10 U.S.C. § 4401.(b) (1)  
+
 Modular System 
 A weapon system or weapon system component 
 that— 
@@ -2682,35 +3685,49 @@ and through interfaces; and
 recombined, and connected with other weapon 
 systems or weapon system components in order to 
 achieve various effects, missions, or capabilities. 
+
 10 U.S.C. § 4401 (b)(5) 
+
 Modular System 
 Interface 
+
 A shared boundary between major systems, major 
 system components, or modular systems, defined by 
 various physical, logical, and functional 
 characteristics, such as electrical, mechanical, fluidic, 
 optical, radio frequency, data, networking, or software 
 elements. 
+
 10 U.S.C. § 4401 (b)(4) 
+
 Module 
 An independently compliable software component 
 made up of one or more procedures or routines or a 
 combination of procedures and routines. 
+
 DAU Glossary 
+
 Open Architecture 
 A technical architecture that adopts open standards 
 supporting a modular, loosely coupled and highly 
 cohesive system structure that includes publishing of 
+
 DAU Glossary 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 66 
-Term 
-Definition 
-Source 
+
+Term
+Definition
+Source
+
 key interfaces within the system and full design 
 disclosure. 
+
 Open Interface 
 A public standard for connecting hardware to 
 hardware and software to software. With hardware, it 
@@ -2720,21 +3737,26 @@ interface. With software, it implies that more than one
 program exists to interface with the application that 
 has the open interface or that a program can be 
 readily written to communicate with it. 
+
 OSA Contract Guidebook 
 for Program Managers, 
 v1.1, June 2013 
+
 Open 
 Specification 
+
 Refers to a set of documented requirements to be 
 satisfied by a material, design, product, or service.  In 
 acquisition, it is a type of technical standard.  An 
 Open Specification is publicly available and has 
 various rights to use associated with it and may also 
 have various properties of how it was created. 
+
 Form and Style of 
 Standards, ASTM Blue 
 Book (PDF). ASTM 
 International. 2012 
+
 Open Standards 
 Widely accepted and supported standards set by 
 recognized standards organizations or the 
@@ -2742,7 +3764,9 @@ marketplace.  These standards support
 interoperability, portability, and scalability and are 
 equally available to the public at no cost or with a 
 moderate license fee. 
+
 DAU Glossary 
+
 Open System 
 A system whose technical architecture adopts open 
 standards and supports a modular, loosely coupled, 
@@ -2750,10 +3774,13 @@ and highly cohesive system structure.  This modular
 open architecture includes publishing of key 
 interfaces within the system and relevant design 
 disclosure. 
+
 DAU Glossary 
+
 Open Systems 
 Acquisition of 
 Weapon Systems 
+
 An integrated technical and business strategy that 
 defines key interfaces for a system (or a piece of 
 equipment under development) in accordance with 
@@ -2763,46 +3790,65 @@ specifications and standards, or commonly accepted
 (de facto) standards (both company proprietary and 
 non-proprietary) if they facilitate use of multiple 
 suppliers. 
+
 DAU Glossary 
+
 Open Systems 
 Architecture 
+
 A characteristic of a system which uses a technical 
 architecture that adopts consensus-based standards 
 supporting a modular, loosely coupled, and highly 
 cohesive system structure that includes the 
 publishing of key interfaces within the system and 
 relevant design disclosure. 
+
 DAU Glossary 
+
 Program 
 Capability 
 Document 
+
 With respect to a major defense acquisition program, 
 a document that specifies capability requirements for 
+
 10 U.S.C. § 4401 (b) (6) 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 67 
-Term 
-Definition 
-Source 
+
+Term
+Definition
+Source
+
 the program, such as a capability development 
 document or a capability production document. 
+
 Reference 
 Architecture 
+
 An authoritative source of information about a specific 
 subject area that guides and constrains the 
 instantiations of multiple architectures and solutions 
+
 OSD Mission 
 Engineering (ME) Guide 
+
 Reference Model 
 An abstract framework or domain-specific ontology 
 consisting of an interlinked set of clearly defined 
 concepts produced by an expert or body of experts in 
 order to encourage clear communication. 
+
 OASIS Reference Model 
+
 Standards 
 Viewpoint 
+
 Models within the Standards Viewpoint are the set of 
 rules governing the arrangement, interaction, and 
 interdependence of parts or elements of the 
@@ -2813,7 +3859,9 @@ description depicts only those rules pertinent to the
 architecture described.  Its purpose is to ensure that 
 a solution satisfies a specified set of operational or 
 capability requirements. 
+
 DAU Glossary 
+
 Standardization 
 The process by which members achieve the closest 
 practicable cooperation — the most efficient use of 
@@ -2826,48 +3874,65 @@ common, compatible, or interchangeable supplies,
 components, or equipment; and (4) common or 
 compatible doctrine with corresponding 
 organizational compatibility. 
+
 TA-STD-0017, Product 
 Support Analysis 
+
 Subsystem 
 A functional grouping of components that combine to 
 perform a major function within an element such as 
 electrical power, attitude control, and propulsion. 
+
 DAU Glossary 
+
 Supportability 
 A key component of availability.  It includes design, 
 technical support data, and maintenance procedures 
 to facilitate detection, isolation, and timely repair 
 and/or replacement of product anomalies. 
+
 TA-STD-0017, Product 
 Support Analysis 
+
 Systems 
 An aggregation of system elements and enabling 
 system elements to achieve a given purpose or 
 provide a needed capability. 
+
 DAU Glossary 
+
 Systems 
 Engineering 
 Management Plan 
+
 Contractor-developed plan for the conduct, 
 management, and control of the integrated 
 engineering effort.  It should be consistent with the 
 Government Systems Engineering Plan (SEP) to 
 ensure that Government and contractor technical 
+
 DAU Glossary 
+
+
 Glossary 
+
  
 Implementing a MOSA in DoD Programs 
 68 
-Term 
-Definition 
-Source 
-plans are aligned.  The SEMP should define the 
+
+Term
+Definition
+Source
+
+plans are aligned. The SEMP should define the 
 contractor technical planning and how technical work 
 is accomplished from the contractor perspective.  It 
 articulates details of the contractor's processes, tools, 
 and organization. 
+
 Systems 
 Engineering Plan 
+
 An acquisition program’s primary technical planning 
 document to help program managers develop, 
 communicate, and manage the overall systems 
@@ -2885,7 +3950,9 @@ cycle.  The SEP is a living document in which SE
 planning should be kept current and fidelity should 
 evolve as the program progresses through each 
 acquisition phase. 
+
 DAU Glossary 
+
 Technical Data 
 Recorded information, regardless of the form or 
 method of the recording, of a scientific or technical 
@@ -2894,9 +3961,12 @@ The term does not include computer software or
 financial, administrative, cost or pricing, or 
 management information, or information incidental to 
 contract administration. 
+
 DFARS 252.227-7013 
+
 Technical Data 
 Package 
+
 The authoritative technical description of an item.  
 This technical description supports the acquisition, 
 production, inspection, engineering, and logistics 
@@ -2909,426 +3979,627 @@ engineering design data, associated lists,
 specifications, standards, performance requirements, 
 quality assurance provisions, software documentation 
 and packaging details. 
+
 MIL-STD 31000 
+
  
+
+
 Acronyms 
+
  
 Implementing a MOSA in DoD Programs 
 69 
+
 Acronyms 
-API 
-Application Programming Interface 
-AS/AP 
-Acquisition Strategy/Plan 
-ASSIST 
-Acquisition Streamlining and Standardization Information System 
-C4 
-Command, Control, Communication, Computers 
-C5 
-Command, Control, Communication, Computers, Cyber 
-C5ISR/EW 
+
+API
+Application Programming Interface
+
+AS/AP
+Acquisition Strategy/Plan
+
+ASSIST
+Acquisition Streamlining and Standardization Information System
+
+C4
+Command, Control, Communication, Computers
+
+C5
+Command, Control, Communication, Computers, Cyber
+
+C5ISR/EW
 Command, Control, Computers Communication, Computers, Cyber 
 Intelligence, Surveillance, and Reconnaissance and Electronic Warfare 
-CAC 
-Common Access Card 
-CDD 
-Capability Development Document 
-CDRL 
-Contract Data Requirements List 
-CI/CD 
-Continuous Integration/Continuous Delivery 
-COTS 
-Commercial Off-the Shelf 
-CSCI 
-Computer Software Configuration Item 
-CWBS 
-Contractor Work Breakdown Structure 
-DAS 
-Defense Acquisition System 
-DID 
-Data Item Description 
-DAU 
-Defense Acquisition University 
-DFARS 
-Defense Federation Acquisition Regulation Supplement 
-DevSecOps 
-Development Security Operations 
-DRFP 
-Draft Request for Proposal 
-DE 
-Digital Engineering 
-DISR 
-Defense Information Technology Standards Registry 
-DMSMS 
-Diminishing Manufacturing Sources and Material Shortages 
-DoD 
-Department of Defense 
-DO 
-Domain Overlay 
-DSC 
-Defense Standardization Council 
-DSPO 
-Defense Standardization Program Office 
-FAA 
-Federal Aviation Administration 
+
+CAC
+Common Access Card
+
+CDD
+Capability Development Document
+
+CDRL
+Contract Data Requirements List
+
+CI/CD
+Continuous Integration/Continuous Delivery
+
+COTS
+Commercial Off-the Shelf
+
+CSCI
+Computer Software Configuration Item
+
+CWBS
+Contractor Work Breakdown Structure
+
+DAS
+Defense Acquisition System
+
+DID
+Data Item Description
+
+DAU
+Defense Acquisition University
+
+DFARS
+Defense Federation Acquisition Regulation Supplement
+
+DevSecOps
+Development Security Operations
+
+DRFP
+Draft Request for Proposal
+
+DE
+Digital Engineering
+
+DISR
+Defense Information Technology Standards Registry
+
+DMSMS
+Diminishing Manufacturing Sources and Material Shortages
+
+DoD
+Department of Defense
+
+DO
+Domain Overlay
+
+DSC
+Defense Standardization Council
+
+DSPO
+Defense Standardization Program Office
+
+FAA
+Federal Aviation Administration
+
+
 Acronyms 
+
  
 Implementing a MOSA in DoD Programs 
 70 
-FACE 
-Future Airborne Capability Environment 
-FAR 
-Federal Acquisition Regulation 
-FIPS 
-Federal Information Processing Standard 
-FY 
-Fiscal Year 
-GFE 
-Government Furnished Equipment 
-GAO 
-Government Accountability Office 
-GRA 
-Government Reference Architecture 
-HWCI 
-Hardware Configuration Item 
-ICD 
-Initial Capabilities Document 
-ICD 
-Interface Control Document 
-IDD 
-Interface Design Description  
-IDL 
-Interface Definition Language 
-IP 
-Intellectual Property 
-IRS 
-Interface Requirements Specifications 
-ISR 
-Intelligence, Surveillance and Reconnaissance 
-ITAR 
-International Traffic in Arms Regulations 
-MAUT 
-Multi-Attribute Utility Theory 
-MDAP 
-Major Defense Acquisition Program 
-MIL-STD 
-Military Standard 
-MMO 
-MOSA Management Office 
-MOA 
-Memorandum of Agreement 
-MOE 
-Measure of Effectiveness 
-MOP 
-Measure of Performance 
-MOSA 
-Modular Open Systems Approach 
-MOSS 
-Modular and Open Standards and Specifications 
-MOSWG 
-Modular Open Systems Working Group 
-NDAA 
-National Defense Authorization Act 
-NDIA 
-National Defense Industrial Association 
-NII 
-Networks & Information Integration 
+
+FACE
+Future Airborne Capability Environment
+
+FAR
+Federal Acquisition Regulation
+
+FIPS
+Federal Information Processing Standard
+
+FY
+Fiscal Year
+
+GFE
+Government Furnished Equipment
+
+GAO
+Government Accountability Office
+
+GRA
+Government Reference Architecture
+
+HWCI
+Hardware Configuration Item
+
+ICD
+Initial Capabilities Document
+
+ICD
+Interface Control Document
+
+IDD
+Interface Design Description 
+
+IDL
+Interface Definition Language
+
+IP
+Intellectual Property
+
+IRS
+Interface Requirements Specifications
+
+ISR
+Intelligence, Surveillance and Reconnaissance
+
+ITAR
+International Traffic in Arms Regulations
+
+MAUT
+Multi-Attribute Utility Theory
+
+MDAP
+Major Defense Acquisition Program
+
+MIL-STD
+Military Standard
+
+MMO
+MOSA Management Office
+
+MOA
+Memorandum of Agreement
+
+MOE
+Measure of Effectiveness
+
+MOP
+Measure of Performance
+
+MOSA
+Modular Open Systems Approach
+
+MOSS
+Modular and Open Standards and Specifications
+
+MOSWG
+Modular Open Systems Working Group
+
+NDAA
+National Defense Authorization Act
+
+NDIA
+National Defense Industrial Association
+
+NII
+Networks & Information Integration
+
+
 Acronyms 
+
  
 Implementing a MOSA in DoD Programs 
 71 
-OASD 
-Office of the Assistant Secretary of Defense 
-OEM 
-Original Equipment Manufacturer  
-OMS 
-Open Mission System 
-OPSEC 
-Operations Security 
-OSA 
-Open Systems Architecture 
-OUSD(A&S) 
+
+OASD
+Office of the Assistant Secretary of Defense
+
+OEM
+Original Equipment Manufacturer 
+
+OMS
+Open Mission System
+
+OPSEC
+Operations Security
+
+OSA
+Open Systems Architecture
+
+OUSD(A&S)
 Office of the Under Secretary of Defense for Acquisition and 
 Sustainment  
-OUSD(R&E) 
-Office of the Under Secretary of Defense for Research and Engineering 
-PEO 
-Program Executive Office  
-PSS 
-Product Support Strategy 
-RFI 
-Request for Information 
-RFP 
-Request for Proposal 
-S/SS 
-System/Subsystem Specification 
-SEP 
-Systems Engineering Plan 
-SRS 
-Software Requirements Specifications 
-STD 
-Standard 
-TSWG 
-Technical Standards Working Group 
-U.S. 
-United States 
-U.S.G. 
-United States Government 
-UCI 
-Universal Command and Control Interface  
-UCS 
-Unified Command Suite 
-UML 
-United Modeling Language 
-U.S.C. 
-United States Code 
-VICTORY 
+
+OUSD(R&E)
+Office of the Under Secretary of Defense for Research and Engineering
+
+PEO
+Program Executive Office 
+
+PSS
+Product Support Strategy
+
+RFI
+Request for Information
+
+RFP
+Request for Proposal
+
+S/SS
+System/Subsystem Specification
+
+SEP
+Systems Engineering Plan
+
+SRS
+Software Requirements Specifications
+
+STD
+Standard
+
+TSWG
+Technical Standards Working Group
+
+U.S.
+United States
+
+U.S.G.
+United States Government
+
+UCI
+Universal Command and Control Interface 
+
+UCS
+Unified Command Suite
+
+UML
+United Modeling Language
+
+U.S.C.
+United States Code
+
+VICTORY
 Vehicle Integration for Command, Control, Computers Communication, 
 and Computers, Cyber Intelligence, Surveillance, and Reconnaissance 
 and Electronic Warfare Interoperability 
-WBS 
-Work Breakdown Structure 
+
+WBS
+Work Breakdown Structure
+
  
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 72 
+
 References 
+
 10 U.S.C. 244, “Undefinitized Contractual Actions.” 
+
 https://uscode.house.gov/view.xhtml?path=/prelim@title10/subtitleA/part5/subpartC/chapter
 244&edition=prelim\  
+
 10 U.S.C. 2446a, “Requirement for Modular Open System Approach in Major Defense 
 Acquisition Programs.” 
 https://www.govinfo.gov/app/details/USCODE-2016-title10/USCODE-2016-title10-
 subtitleA-partIV-chap144B-subchapI-sec2446a  
+
 10 U.S.C. 2446b, “Requirement to Address Modular Open System Approach in Program 
 Capabilities Development and Acquisition Weapon System Design.” 
 https://www.govinfo.gov/app/details/USCODE-2016-title10/USCODE-2016-title10-
 subtitleA-partIV-chap144B-subchapI-sec2446b  
+
 10 U.S.C. 3771, “Rights in technical data: regulations” 
+
 https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-
 section3771&num=0&edition=prelim  
+
 10 U.S.C. 4401, “Requirement for Modular Open System Approach in Major Defense 
 Acquisition Programs; Definitions” 
 https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-
 section4401&num=0&edition=prelim  
+
 10 U.S.C. 4402, “Requirement to Address Modular Open System Approach in Program 
 Capabilities Development and Acquisition Weapon System Design.” 
 https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-
 section4402&num=0&edition=prelim 
+
 10 U.S.C. 4403, “Requirements Relating to Availability of Major System Interfaces and Support 
 for Modular Open System Approach.” 
 https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-
 section4403&num=0&edition=prelim  
+
 Acquisition Agility Act (AAA). In National Defense Authorization Act for FY 2017. 
+
 AAF. DoD Adaptive Acquisition Framework (AAF). Website. Fort Belvoir, Va.: Defense 
 Acquisition University. 
 https://aaf.dau.edu/  
+
 AAF Software Product Roadmap. DoD Adaptive Acquisition Framework (AAF). Website. Fort 
 Belvoir, Va.: Defense Acquisition University. 
  https://aaf.dau.edu/aaf/software/product-roadmap/   
+
 AFPD63-1/20-1. Air Force Policy Directive 63-1; Air Force Policy Directive 20-1. 
 Acquisition/Logistics. Integrated Life Cycle Management. Secretary of the Air Force.  
 https://static.e-publishing.af.mil/production/1/saf_aq/publication/afpd63-1/afpd63-1.pdf    
+
 AFI63-101/20-101, “Integrated Life Cycle Management” https://static.e-
+
 publishing.af.mil/production/1/saf_aq/publication/dafi63-101_20-101/dafi63-101_20-101.pdf  
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 73 
+
 AFGM2018-63-146-01, United States Air Force Acquisition Annual Report Fiscal Year 2018 
 Cost-effective Modernization. 
 https://www.af.mil/Portals/1/documents/5/FY18_AQReport.pdf  
+
 Air Force Materiel Command (AFMC) Guidebook for Implementing MOSA in Weapon 
 Systems. V2.0, 2023. 
+
 Application Programming Interface Technical Guidance. Office of Systems Engineering and 
 Architecture, Office of the Under Secretary of Defense for Research and Engineering. 
 https://www.cto.mil/sea/pg | Software Engineering 
 https://www.cto.mil/wp-content/uploads/2024/08/API-Tech-Guidance-MVCR1-July2024-
 Cleared.pdf  
+
 Architecture Committee Meeting. MOSA Metrics Sub-Committee, NDIA Systems Engineering 
 Architecture Committee, March 2022. 
+
 ASSIST. Database for Military Specifications and Military Standards. Defense Logistics 
 Agency. https://assist.dla.mil/  
+
 Burnside, Bruce. “Enabling Modular Open Systems Approach (MOSA).” Tiger Team report, 
 March 2021. 
+
 CJCSI 5123.01. “Charter Of the Joint Requirements Oversight Council and Implementation of 
 the Joint Capabilities Integration and Development System.” Joint Staff, October 30, 2021.  
+
 Conway, Melvin E. “How Do Committees Invent?” Datamation 14(5):28–31 (April 1968). 
+
 DAFPAM63-128. Department of the Air Force Pamphlet 63-128. Acquisition. Integrated Life 
 Cycle Management. Acquisition. Secretary of the Air Force, February 3, 2021. 
 https://static.e-publishing.af.mil/production/1/saf_aq/publication/dafpam63-128/dafpam63-
 128.pdf  
+
 DAU. A Guide to Program Management Business Processes. Defense Systems Management 
 College, Defense Acquisition University (DAU), August 4, 2022, Fort Belvoir, Virginia. 
 https://aaf.dau.edu/storage/2023/09/A-Guide-to-DoD-Program-Management-Business-
 Processes.pdf.  
+
 Defense Standardization Program: Making Systems Work Together. “What Is MOSA?”  
+
 https://www.dsp.dla.mil/Programs/MOSA/  
+
 Department of Defense Standard Practice. Joint Electronics Type Designation Automated 
 System. Defense Logistics Agency, May 30, 2018. 
 https://quicksearch.dla.mil/Transient/651C3F87EE9341F4A2E9A5E9E0807C9C.pdf  
+
 DoD Adaptive Acquisition Framework (AAF). Website. Fort Belvoir, Va.: Defense Acquisition 
 University. 
 https://aaf.dau.edu/ 
+
 DoD Instruction 4245.15, Diminishing Manufacturing Sources and Material Shortages 
 Management. Office of the Under Secretary of Defense for Acquisition and Sustainment, 
 November 5, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/424515p.PDF  
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 74 
+
 DoD Directive 5000.01, The Defense Acquisition System (DAS). Office of the Under Secretary 
 of Defense for Acquisition and Sustainment, September 9, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/500001p.pdf  
+
 DoD Directive 5000.2-R, Mandatory Procedures for Major Defense Acquisition Programs 
 (MDAPs) and Major Automated Information System (MAIS) Acquisition Programs. Office 
 of the Under Secretary of Defense for Acquisition, Technology, and Logistics, April 5, 2002, 
 https://www.acqnotes.com/Attachments/DoD%20Directive%205000-2-R-new.pdf  
+
 DoD Instruction 5000.02, Operation of the Adaptive Acquisition Framework. Office of the 
 Under Secretary of Defense for Acquisition and Sustainment, January 23, 2020.  
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500002p.pdf  
+
 DoD Instruction 5000.61, DoD Modeling and Simulation Verification, Validation, and 
 Accreditation, Office of the Under Secretary of Defense for Research and Engineering, 
 September 17, 2024.  
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500061p.pdf  
+
 DoD Instruction 5000.74, Defense Acquisition of Services, Office of the Under Secretary of 
 Defense for Acquisition and Sustainment, January 10, 2020, Change 1, June 24, 2021. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500074p.pdf  
+
 DoD Instruction 5000.75, Defense Business Systems. Office of the Under Secretary of Defense 
 for Acquisition and Sustainment, February 2, 2017, Change 1 January 24, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500075p.PDF    
+
 DoD Instruction 5000.80, Operation of the Middle Tier of Acquisition, Office of the Under 
 Secretary of Defense for Acquisition and Sustainment, December 30, 2019, Change 1 
 November 25, 2024 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500080p.PDF  
+
 DoD Instruction 5000.81, Urgent Capability Acquisition, Office of the Under Secretary of 
 Defense for Acquisition and Sustainment, December 31, 2019. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500081p.PDF  
+
 DoD Instruction 5000.82, Requirements for the Acquisition of Digital Capabilities. Office of the 
 DoD Chief Information Officer, June 1, 2023. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500082p.pdf  
+
 DoD Instruction 5000.84, Analysis of Alternatives. Office of the Director, Cost Assessment and 
 Program Evaluation, August 4, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500084p.pdf  
+
 DoD Instruction 5000.85, Major Capability Acquisition. Office of the Under Secretary of 
 Defense for Acquisition and Sustainment, August 6, 2020, Change 1, November 4, 2021. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500085p.pdf  
+
 DoD Instruction 5000.86, Acquisition Intelligence. Office of the Under Secretary of Defense for 
 Acquisition and Sustainment and Office of the Under Secretary of Defense for Intelligence 
 and Security, September 11, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500086p.PDF  
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 75 
+
 DoD Instruction 5000.87, Operation of the Software Acquisition Pathway. Office of the Under 
 Secretary of Defense for Acquisition and Sustainment, October 2, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500087p.PDF  
+
 DoD Instruction 5000.88, Engineering of Defense Systems. Office of the Under Secretary of 
 Defense for Research and Engineering, November 18, 2020. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500088p.PDF  
+
 DoD Instruction 5000.89, Test and Evaluation. Office of the Under Secretary of Defense for 
 Research and Engineering and Office of the Director, Operational Test and Evaluation 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500089p.PDF  
+
 DoD Instruction 5000.91, Product Support Management for the Adaptive Acquisition 
 Framework, Under Secretary of Defense for Acquisition and Sustainment, November 4, 
 2021. https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/500091p.PDF  
+
 DoD Instruction 5010.44, Intellectual Property (IP) Acquisition and Licensing. Office of the 
 Under Secretary of Defense for Acquisition and Sustainment, October 16, 2019. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/501044p.pdf  
+
 DoD Instruction 7041.03, Economic Analysis for Decision-making. Director, Cost Assessment 
 and Program Evaluation, September 9, 2015, Change 1, October 2, 2017. 
 https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/704103p.pdf  
+
 DoD Open Systems Architecture Contract Guidebook for Program Managers. Version 1.1. DoD 
 Open Systems Architecture Data Rights Team, May 2013. 
  https://acc.dau.mil/osaguidebook  
+
 DoD Reference Architecture Description. OASD/NII, 2010.  
+
 DoD Source Selection Procedures, OUSD(AT&L), March 2011. Washington, D.C. 
+
 https://www.acq.osd.mil/dpap/policy/policyvault/usa007183-10-dpap.pdf 
+
 DoD TWSG Report 2016 
+
 Engineering of Defense Systems. Office of the Under Secretary of Defense for Research and 
 Engineering, 2022. 
+
 FAA COTS Risk Mitigation Guide: Practical Methods for Effective COTS Acquisition and Life 
 Cycle Support, V 3.1, June 21, 2002 
+
 HASC Report 114-102. Accompanying National Defense Authorization Act (NDAA) FY 2016. 
 House Committee on Armed Services (HASC), December 2015. 
+
 Implementing Modular Open Systems Approach in Army Acquisition Programs and Middle Tier 
 of Acquisition Efforts. Policy Memorandum. Department of the Army, Office of the 
 Assistant Secretary of the Army, Acquisition, Logistics, and Technology, March 2020. 
+
 Major Capability Acquisition (MCA) Acquisition Strategy. Web page. Fort Belvoir, Va.: 
 Defense Acquisition University [Accessed January 2025]. 
 https://aaf.dau.edu/aaf/mca/acquisition-strategy/  
+
 MIL-STD-196. Joint Electronics Type Designation Automated System. U.S. Army Combat 
 Capabilities Development Command, C5ISR Center 
 https://quicksearch.dla.mil/ 
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 76 
+
 MIL-STD-881. Work Breakdown Structures for Defense Materiel Items. Office of the Under 
 Secretary of Defense for Acquisition and Sustainment, Acquisition Data & Analytics  
 https://quicksearch.dla.mil/  
+
 “Modular Open System Architecture Considerations Impacting Both Acquirer and Supplier 
 Adoption.” Arlington, Va.: National Defense Industrial Association, 2020. 
 https://www.ndia.org/-/media/sites/ndia/divisions/systems-engineering/se-monthly-
 meetings/division-papers/ndia-mosa-white-paper-final-release--ndia-architecture-committee-
 -2020.pdf?download=1  
+
 Modular Open Systems Approach (MOSA) Implementation Guide. Version 1.1. Office of the 
 Chief Systems Engineer, ASA(ALT)/OCSE, June 2020. 
+
 Modular Open Systems Approach (MOSA) Reference Frameworks in Defense Acquisition 
 Programs. Office of the Under Secretary of Defense for Research and Engineering, May 
 2020. https://www.cto.mil/wp-content/uploads/2023/06/MOSA-Framework-2020.pdf  
+
 Modular Open Systems Working Group (MOSWG) Meeting. Slides 25-34. February 2022. 
+
 William M. (Mac) Thornberry National Defense Authorization Act for Fiscal Year 2021. 
+
 https://www.af.mil/Portals/1/documents/5/FY18_AQReport.pdf . 
+
 National Defense Industrial Association (NDIA). “Modular Open System Architecture 
 Considerations Impacting Both Acquirer and Supplier Adoption.” White paper. Arlington, 
 Va.: NDIA, 2020. 
+
 Naval Open Systems Architecture Questionnaire and Guidance. Open Architecture Enterprise 
 Team, June 2014. 
+
 Organizational Transformation. Military Departments Can Improve Their Enterprise 
 Architecture Programs. Government Accountability Office, September 2011. 
+
 Other Transaction Guide, Office of the Under Secretary of Defense for Acquisition and 
 Sustainment, July 2023. 
 https://www.acq.osd.mil/asda/dpc/cp/policy/docs/guidebook/TAB%20A1%20%20DoD%20
 OT%20Guide%20JUL%202023_final.pdf  
+
 “OUSD(R&E) MOSA Assessment Criteria.” Office of the Under Secretary of Defense for 
 Research and Engineering, Systems Engineering, May 2022. 
 https://www.cto.mil/wp-content/uploads/2023/06/MOSA-Assess-2022.pdf  
+
 SD-19, Parts Management Guide. Defense Standardization Program Office, December 2013. 
+
 https://www.dla.mil/Portals/104/Documents/LandAndMaritime/V/VA/PSMC/Documents/L
 M_SD19FINAL_151030.pdf 
+
 SD-22, Diminishing Manufacturing Sources and Material Shortages: A Guidebook of Best 
 Practices for Implementing a Robust DMSMS Management Program. Defense 
 Standardization Program Office, March 2024. https://www.dau.edu/sites/default/files/2024-
 04/SD-22%20DMSMS%20Guidebook%2C%20March%202024.pdf 
+
 SD-26, Diminishing Manufacturing Sources and Material Shortage and Parts Management 
 Contracting Guide. Defense Standardization Program Office, June 2023. 
 https://quicksearch.dla.mil/qsdocdetails.aspx?ident_number=283456  
+
+
 References 
+
   
 Implementing a MOSA in DoD Programs  
 77 
+
 Software Product Roadmap. DoD Adaptive Acquisition Framework (AAF). Website. Fort 
 Belvoir, Va.: Defense Acquisition University. 
  https://aaf.dau.edu/aaf/software/product-roadmap/   
+
 Systems Engineering Guidebook, Office of the Under Secretary of Defense for Research and 
 Engineering, February 2022.  
 https://www.cto.mil/wp-content/uploads/2024/05/SE-Guidebook-Feb2022.pdf  
+
 Systems Engineering Guide for Systems of Systems, Version 1.0. Office of the Under Secretary 
 of Defense for Research and Engineering, August 2008. https://www.cto.mil/wp-
 content/uploads/2024/06/DoD-SE-for-SoS-2008.pdf.  
+
 Systems Engineering Plan Outline, Version 4.1. Office of the Under Secretary of Defense for 
 Research and Engineering. 
 https://www.cto.mil/wp-content/uploads/2023/06/SEP-Outline-4.1.pdf   
+
 Tri-Service Memorandum for Service Acquisition Executives and Program Executive Officers: 
 “Modular Open Systems Approach for Department of Defense Weapon Systems,” December 
 17, 2024. 
 https://www.cto.mil/wp-content/uploads/2024/12/Tri-Service-Memo-Signed-17Dec2024.pdf  
+
 Weapon Systems Requirements: Details Systems Engineering Prior to Product Development 
 Positions Programs for Success. Government Accountability Office (GAO), 2016. 
+
+ 
+
+
+ 
+
+ 
+
  
  
  
@@ -3363,10 +4634,9 @@ Positions Programs for Success. Government Accountability Office (GAO), 2016.
  
  
  
- 
- 
- 
+
 Implementing a Modular Open Systems Approach in Department of Defense Programs 
+
 February 2025 
  
 Office of Systems Engineering and Architecture 
@@ -3378,3 +4648,5 @@ https://www.cto.mil/sea
  
 Distribution Statement A. Approved for public release. Distribution is unlimited.  
 DOPSR Case # 25-T-1210.  
+
+

@@ -2,17 +2,23 @@ PPA-005330-11
 31 May 2017 
 © Copyright Project Performance (Australia) Pty Ltd 1993-2017 
 Page 1 of 6 
+
 Requirements Quality Metrics:  The 
 Basis of Informed Requirements Engineering Management *
+
 Robert J. Halligan FIE Aust CPEng IntPE(Aus) 
+
 Project Performance (Australia) Pty Ltd 
 2 Parkgate Drive 
 Ringwood North  Vic  3134  Australia 
 Ph: 61-3-9876-7345 
 Email: rhalligan@ppi-int.com 
+
 Presented at the 1993 Complex Systems Engineering Synthesis and Assessment Technology Workshop 
 (CSESAW ’93), Calvados, MD, USA 
+
 Abstract 
+
 Available 
 data 
 demonstrates 
@@ -43,8 +49,10 @@ metrics
 collection 
 is 
 presented. 
+
 1.
 Introduction
+
 Requirements engineering deals with the capture, 
 analysis, 
 expression 
@@ -76,8 +84,10 @@ requirements engineering process) or both? How
 can requirements metrics be used to help the 
 project team satisfy project success criteria? These 
 and related issues are addressed below. 
+
 2.
 The State of the Requirements Art
+
 Data from TRW developed in the early 1980s 
 showed that, on a range of representative projects, 
 30 per cent of design problems requiring 
@@ -128,7 +138,10 @@ lower-level
 elements, 
 product 
 interfaces and functional interfaces. 
+
+
  
+
 PPA-005330-11 
  
 31 May 2017 
@@ -140,8 +153,10 @@ Page 2 of 6
  
  
  
+
 3. 
 Users of Requirements 
+
  Since requirements define the product or process 
 to be realized, it is axiomatic that the success of 
 any program is closely linked to the adequacy of 
@@ -163,8 +178,10 @@ contractor rely on requirements as an
 expression of what they are to deliver to their 
 respective internal customers. 
  
+
 4. 
 Requirements Quality 
+
  Requirements, to satisfy their users, must, in their 
 expression, exhibit certain attributes. We refer to 
 these attributes as requirements quality factors. 
@@ -189,6 +206,7 @@ conflict with any other requirement, nor with any
 element of its own structure. 
  Clarity requires that the requirement be readily 
 understandable without semantic analysis. 
+
  Non-Ambiguity requires that there be only one  
 semantic interpretation of the requirement. 
  Connectivity refers to the property whereby all of 
@@ -221,8 +239,10 @@ c.
 within all other absolute constraints applying 
 to the project. 
  
+
 5. 
 A Requirements Structural Model 
+
  Requirements are most commonly expressed as 
 natural language statements, although graphical 
 and formal mathematical requirements languages 
@@ -243,31 +263,46 @@ requirement statements is illustrated in figure 1
 requirement parsed into the template. 
  
  
+
 Element 
 Text 
+
 1   Actor 
  an HQ Switch, 
+
 2   Conditions for Action 
  In the Combat Zone 
+
 3   Action 
  shall be given 
+
 4   Object of action 
  two (2) independent links 
+
 5   Constraints of Action 
- 
+
 6   Refinement of Object 
- 
+
 7   Refinement of Action 
  to at least two (2) other nodes in the network. 
+
 8   Other 
  which is identical to a trunk node switch,   
+
 Figure 1 - Requirement Structural Template 
+ 
+
 Original Requirements: 
+
  
 In the Combat Zone, an HQ Switch, which is identical to a trunk node switch, shall be 
   
 given two (2) independent links to at least two (2) other nodes in the network. 
  
+
+
+ 
+
 PPA-005330-11 
  
 31 May 2017 
@@ -279,6 +314,7 @@ Page 3 of 6
  
  
  
+
  Elements of the template are defined, generally in 
 accordance with Fuji [5], as below: 
  Actor.  This is the subject of the sentence - the 
@@ -307,7 +343,9 @@ with IEEE 802.11g”, “to DISCON”.
  Other. This element collects non-requirements 
 material. 
  
+
 6. Requirements Quality Metrics 
+
  A strong requirement will have each applicable 
 element of the requirement, and the requirement 
 overall, satisfying each of the quality factors 
@@ -317,6 +355,7 @@ Figure 2 illustrates the construction of a set of
 metrics based on parsing of a requirement into the 
 template. 
 These metrics are defined below. 
+
 IRQ  
 Individual Requirement Quality 
 This metric for a single requirement is a number 
@@ -359,6 +398,7 @@ c.
 calculating the metric by dividing the sum of 
 the applicable element values into the sum of 
 the element scores. 
+
 IQF1-IQF10 
 Individual Quality Metrics 
 Ten individual (requirement) quality metrics 
@@ -396,7 +436,9 @@ IQF10
 Feasibility 
  
  
+
 0
+
 Structural Element
 Applicability
 Score
@@ -460,10 +502,15 @@ Omission Ratio
 Feasibility
 IQF10
 1
+
 0
+
  
 Figure 2 - Construction of Requirement Quality Metrics 
+
+
  
+
 PPA-005330-11 
  
 31 May 2017 
@@ -475,6 +522,7 @@ Page 4 of 6
  
  
  
+
 These 
 metrics 
 assume, 
@@ -509,29 +557,38 @@ suggested by the requirement that is present were
 pursued to resolution. The omission ratio must be 
 constructed such as to support aggregation of 
 requirements having different omission ratios. 
+
 The quality metrics for sets of requirements 
 correspond to, and are produced from, the 
 individual metrics, as follows (for n requirements): 
  
 RQ Requirements Quality 
+
  
  
+
  
 QF1 Correctness 
+
  
  
+
  
 QF2 Completeness 
+
  
  
+
 Note that completeness may have a negative 
 value. 
  
 QF3 to QF10 are derived as for QF1. 
  
+
 7. 
 Application of Requirements Quality 
 Metrics  
+
 A metric is only of value if it assists in decision 
 making. 
 Areas of application of the metrics described above 
@@ -539,47 +596,68 @@ are summarized in Table 1.
 Metrics should only be used where they contribute 
 positively to the degree of satisfaction of project 
 goals, including cost goals. 
+
  
+
 Table 1 - Application of Requirements Quality Metrics 
+
 Metric 
 Application 
+
 RQ Requirements Quality 
 • 
 estimation of requirements-related bidding risk/opportunity (depending on 
 the type of contract) 
+
 • 
 estimation of requirements-related contract risk/opportunity 
+
 • 
 determination of the skills and level of resources required for requirements 
 analysis 
+
 • 
 measurement of the quality of the product of requirements analysis, in 
 relation to decisions such as: 
+
 a. 
 termination of formal requirements analysis; 
+
 b.  whether the project is ready for System Requirements Review (SRR), 
 Software Specification Reviews (SSR) and other requirements reviews; 
+
 c. 
 whether system requirements are sufficiently mature for establishment 
 of the functional baseline; 
+
 d.  whether CI requirements are sufficiently mature for establishment of 
 the allocated baseline; 
+
 • 
 assessment of the specification writing skill levels of project team members 
+
 • 
 estimation of requirements-related subcontract risk/opportunity 
+
 • 
 use as a Technical Performance Measurement (TPM) parameter 
+
 QF1-QF10 Requirements Quality 
 Factors 
+
 • 
 identification of aspects of requirements which are unsatisfactory 
+
 • 
 identification of requirements-related skills in which training of project 
 personnel is needed 
+
 • 
 use as a TPM parameter 
+
+
  
+
 PPA-005330-11 
  
 31 May 2017 
@@ -591,15 +669,19 @@ Page 5 of 6
  
  
  
+
 8. 
 Typical Values of Requirements Quality 
 Metrics 
+
 Our experience in use of the metrics suggests the 
 typical relationships between values of the metrics 
 and requirements quality shown in Table 2. 
  
+
 9. 
 Requirements Process Metrics 
+
 Table 1 indicated the application of requirements 
 quality metrics. We have also found it beneficial to 
 use, for engineering management purposes, 
@@ -638,6 +720,7 @@ to
 other 
 individuals, 
 organizations or phases for resolution of missing 
+
 information.  
  
 RCOM 
@@ -689,14 +772,19 @@ a
 Technical 
 Performance 
 Measurement (TPM) program [2].  
+
  
+
 Metric 
+
  
+
 Very poor set of 
 requirements,  
 requiring 
  substantial 
  development 
+
 Fair set of 
 requirements, may 
 just be suitable for 
@@ -705,14 +793,17 @@ solicitation,
 depending on the 
 SOW and type of 
 contract envisaged 
+
 Requirements at 
 SRR suitable for 
 carrying forward into 
 development 
+
 Requirements 
 suitable for 
 Critical 
 Development 
+
 RQ- 
  
 QF1-Correctness 
@@ -725,6 +816,7 @@ QF7-Singularity
 QF8-Testablity 
 QF9-Modifiability 
 QF10-Feasibility 
+
 0.01-0.3 
  
 0.9 
@@ -737,6 +829,7 @@ QF10-Feasibility
 0.1 
 0.1 
 0.95 
+
 0.3-0.7 
  
 0.98 
@@ -749,6 +842,7 @@ QF10-Feasibility
 0.7 
 0.5 
 0.99 
+
 0.85-0.99 
  
 0.99 
@@ -761,6 +855,7 @@ QF10-Feasibility
 0.99 
 0.99 
 0.99+ 
+
 0.99+ 
  
 0.99+ 
@@ -773,8 +868,12 @@ QF10-Feasibility
 0.99+ 
 0.99+ 
 0.99+ 
+
 Table 2 - Typical Values of Requirements Quality Metrics 
+
+
  
+
 PPA-005330-11 
  
 31 May 2017 
@@ -786,12 +885,14 @@ Page 6 of 6
  
  
  
+
 10. 
 Computer 
 Support 
 to 
 Metrics 
 Generation 
+
 Requirements management benefits substantially 
 from the use of computer based tools which 
 facilitate, in particular, efficient text handling, 
@@ -804,6 +905,7 @@ traceability
 purposes. Metrics prove to be most easily 
 calculated where a CASE environment is in use for 
 those other aspects of requirements management.  
+
 One CASE tool for requirements management with 
 which the author has experience is Document 
 Director ReqMgr, produced by Bruce G. Jackson & 
@@ -813,12 +915,15 @@ requirements quality and process data and which
 progressively builds up requirements quality and 
 process metrics has been built for use with 
 Document Director ReqMgr. 
+
 Proprietary tools known to the author are also 
 being utilized in a similar way by other 
 organizations. 
  
+
 11. 
 Conclusions 
+
 Numerous best practice standards (ISO 9001, 
 Software Engineering Institute criteria, MIL-STD-
 499B) emphasize a closed loop process as a key to 
@@ -826,6 +931,7 @@ effective technical management. The metrics
 described in this paper are a means of 
 implementing closed loop control over the 
 requirements engineering process. 
+
 The cost of implementing these metrics within a 
 suitable, existing CASE environment appears to be 
 around two percent of the cost of the total 
@@ -835,6 +941,7 @@ will exceed this cost. Sufficient data to conclusively
 answer this question has not yet been developed 
 by the author, nor has it been identified from other 
 sources. 
+
 Assessment of the cost-effectiveness of the use of 
 requirements metrics must therefore, for the 
 present, 
@@ -854,6 +961,7 @@ of
 complex 
 systems 
 development. 
+
 Greatest leverage is obtained where sampling 
 techniques are used in metric development. Such 
 sampling 
@@ -864,6 +972,7 @@ say,
 every 
 nth 
 requirement, or on areas of perceived risk. 
+
  
 References 
 [1] B.W. 
@@ -899,7 +1008,10 @@ notes
 on 
 Independent 
 Verification and Validation, 1989 
+
+
  
+
 PPA-005330-11 
  
 31 May 2017 
@@ -911,6 +1023,7 @@ PPA-005330-11
  
  
  
+
 ADDENDUM A 
  
 Addendum to the above paper: Estimating the Percentage of Completeness of Requirements 
@@ -981,3 +1094,5 @@ factored in at zero. This second metric is used as the overall indicator of requ
 applications of the metric. 
  
  
+
+

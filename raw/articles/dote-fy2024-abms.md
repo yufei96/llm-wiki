@@ -1,10 +1,3 @@
----
-title: "DOT&E FY2024 ABMS Report"
-source_url: "https://www.dote.osd.mil/Portals/97/pub/reports/FY2024/af/2024abms.pdf"
-downloaded: 2026-04-26
-type: raw_text
----
-
 ABMS 
 293
 

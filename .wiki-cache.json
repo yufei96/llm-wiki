@@ -1,0 +1,947 @@
+{
+  "version": 1,
+  "created": "2026-05-10",
+  "last_updated": "2026-05-10",
+  "files": {
+    "概述.md": {
+      "size": 10540,
+      "modified": "2026-05-10 19:44:37"
+    },
+    "日志-监控列表.md": {
+      "size": 2311,
+      "modified": "2026-05-08 19:56:02"
+    },
+    "索引.md": {
+      "size": 22606,
+      "modified": "2026-05-10 19:39:21"
+    },
+    "日志.md": {
+      "size": 61720,
+      "modified": "2026-05-10 19:46:29"
+    },
+    "待处理问题.md": {
+      "size": 1050,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "concepts/模块化架构模式.md": {
+      "size": 2375,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/自适应采办框架.md": {
+      "size": 3342,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/SCARS仿真器架构.md": {
+      "size": 7698,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "concepts/系统韧性工程.md": {
+      "size": 4863,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/国防采办超支趋势.md": {
+      "size": 1809,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/软件定义能力.md": {
+      "size": 9396,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/PNT-GRA-R-EGI导航.md": {
+      "size": 6879,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/架构框架.md": {
+      "size": 4619,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/WOSA武器开放系统架构.md": {
+      "size": 4102,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/COARPS雷达架构.md": {
+      "size": 7473,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/Sentinel-GRA洲际导弹.md": {
+      "size": 8246,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "concepts/采办实践.md": {
+      "size": 5967,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "concepts/MOSA需求质量.md": {
+      "size": 3599,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "concepts/MOSA与数字工程.md": {
+      "size": 3734,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/MOSA五支柱.md": {
+      "size": 4276,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/MORA模块化开放射频架构概念.md": {
+      "size": 3232,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/NASA数字工程实施体系.md": {
+      "size": 7721,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "concepts/SOSA传感器开放系统架构.md": {
+      "size": 4454,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/供应商锁定.md": {
+      "size": 1384,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "concepts/WOSA架构工具.md": {
+      "size": 1228,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/宿主硬件开放系统.md": {
+      "size": 2459,
+      "modified": "2026-05-09 22:56:13"
+    },
+    "concepts/MOSA与国防采办.md": {
+      "size": 7561,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/MOSA五支柱评估.md": {
+      "size": 4579,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "concepts/UCS控制站.md": {
+      "size": 2473,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/DEWS-MOSA参考架构.md": {
+      "size": 7075,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "concepts/协同作战飞机.md": {
+      "size": 3434,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/ABMS-GRA先进战斗管理.md": {
+      "size": 9140,
+      "modified": "2026-05-10 19:36:29"
+    },
+    "concepts/政府参考架构.md": {
+      "size": 4197,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/MOSA架构脆弱性.md": {
+      "size": 7762,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "concepts/中间层采办.md": {
+      "size": 2130,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/数字装备管理.md": {
+      "size": 4254,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/A-GRA自主参考架构.md": {
+      "size": 7986,
+      "modified": "2026-05-10 19:36:29"
+    },
+    "concepts/基于模型的系统工程.md": {
+      "size": 6086,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "concepts/AMS-GRA敏捷任务套件.md": {
+      "size": 7217,
+      "modified": "2026-05-10 19:36:29"
+    },
+    "concepts/MOSA棕地与绿地对比.md": {
+      "size": 5129,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "concepts/FACE技术标准.md": {
+      "size": 1259,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/开放任务系统.md": {
+      "size": 6888,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/系统集成.md": {
+      "size": 6023,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "concepts/NC3-GRA核指挥控制.md": {
+      "size": 7237,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/HIMA和谐智能出行.md": {
+      "size": 1622,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/ICNews-COARPS信息征求.md": {
+      "size": 904,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/MIL-HDBK-1211导弹飞行仿真.md": {
+      "size": 2105,
+      "modified": "2026-05-10 19:40:08"
+    },
+    "sources/DSP期刊-MOSA方法2020.md": {
+      "size": 2128,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/E-Hel直升机MOSA案例.md": {
+      "size": 3140,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/NASA系统工程手册修订2.md": {
+      "size": 3914,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/PPI需求分析方法论.md": {
+      "size": 2421,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/国防部指令5000.02-2020.md": {
+      "size": 4738,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/空军研究实验室-灵活武器2014.md": {
+      "size": 2044,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DOT&E FY2024 ABMS评估.md": {
+      "size": 2952,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/CMOSS概述2022.md": {
+      "size": 2731,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/RNTFND R-EGI导航系统2024.md": {
+      "size": 974,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/NASA手册1004.md": {
+      "size": 6297,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "sources/精确打击导弹MOSA案例.md": {
+      "size": 2590,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/开放系统架构合同指南V1.1.md": {
+      "size": 3434,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/NDAA 2020-2021 MOSA扩展.md": {
+      "size": 3337,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/CRS报告-哨兵洲际导弹IF11681.md": {
+      "size": 1201,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/SDA太空作战架构MOSA案例.md": {
+      "size": 2618,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/FACE技术标准3.2-2023.md": {
+      "size": 3777,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/MOSA与美国国防采办-Shah论文.md": {
+      "size": 5425,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/DAU下一代采办2024.md": {
+      "size": 1266,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/SOSA参考架构V2.md": {
+      "size": 2869,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/维基百科-LGM-35哨兵导弹.md": {
+      "size": 940,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/NASA手册1009A.md": {
+      "size": 6312,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "sources/克里斯-加勒特演讲2024.md": {
+      "size": 7383,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/MIL-STD-881D国防物资工作分解结构.md": {
+      "size": 2599,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/PPI需求质量度量.md": {
+      "size": 5439,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/波兰IBCS爱国者系统2023.md": {
+      "size": 1530,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DVIDS-R-EGI导航飞行测试2024.md": {
+      "size": 1001,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/德国宙斯盾SPY6-F127-2026.md": {
+      "size": 2119,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "sources/航空PEO-MOSA实施指南.md": {
+      "size": 2565,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/SAM.gov-UAI信息征求.md": {
+      "size": 1027,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/CSIS-MOSA责任分担报告2025.md": {
+      "size": 1130,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DODI 5000.81紧急能力.md": {
+      "size": 2487,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/SM-6选定采购报告2023年12月.md": {
+      "size": 1658,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/突破防务-SCARS报道2024.md": {
+      "size": 907,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DODI 5000.80中间层采办.md": {
+      "size": 3683,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/WICVC试点成果2025.md": {
+      "size": 2010,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/DOT&E FY2025宙斯盾评估.md": {
+      "size": 2467,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/国防部MOSA实施指南2025.md": {
+      "size": 1270,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/NDIA-CFW ICD赖特2015.md": {
+      "size": 1145,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/HASC报告114-102.md": {
+      "size": 2725,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/XM30 MICV MOSA案例.md": {
+      "size": 3003,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/GAO-24-106831武器系统.md": {
+      "size": 4150,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/美国法典第10编4401-4403 MOSA法.md": {
+      "size": 3487,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/FLRAA-MV75 MOSA案例.md": {
+      "size": 3191,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/三军备忘录2019.md": {
+      "size": 3669,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/CAE公司SCARS项目.md": {
+      "size": 899,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/DFARS第207部分.md": {
+      "size": 1377,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/FY24科学技术参考条款.md": {
+      "size": 5478,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/空军COARPS信息征求2021.md": {
+      "size": 994,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/BBP-3.0实施指令.md": {
+      "size": 4420,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/灵活武器架构-普渡大学2015.md": {
+      "size": 2364,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/NASA手册7009A.md": {
+      "size": 5269,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "sources/DODI 5000.87软件采办.md": {
+      "size": 1221,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/DOT&E FY2025低层防空反导评估.md": {
+      "size": 2598,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/IEEE-NASA数字工程之旅2024.md": {
+      "size": 7029,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "sources/GAO-25-106931 MOSA审查.md": {
+      "size": 1307,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/NDIA-MOSA白皮书2019.md": {
+      "size": 6795,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/INCOSE系统工程手册V5.md": {
+      "size": 4803,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/MOATEL-WOSA验证.md": {
+      "size": 4103,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/国防部监察长-OSJTF审计2000.md": {
+      "size": 2781,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/MORA模块化开放射频.md": {
+      "size": 2253,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/陆军采办投资组合2024.md": {
+      "size": 2908,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/DODI 5000.74-服务.md": {
+      "size": 988,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/国防部数字工程战略2018.md": {
+      "size": 3704,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/SysML v2规范.md": {
+      "size": 4513,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/中国智能网联汽车车路云一体化2024.md": {
+      "size": 1709,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/陆军出发线-AMD 2023.md": {
+      "size": 2197,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/参议院Hunter证词2024.md": {
+      "size": 2724,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/防务新闻-开放标准2024.md": {
+      "size": 2331,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DTIC-NC3架构ADA619949.md": {
+      "size": 987,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/NAVAIR-MOSA概述.md": {
+      "size": 4062,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/诺格公司-洞察开放处理器.md": {
+      "size": 2660,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/PPI业务案例-系统工程.md": {
+      "size": 1972,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/SM6-LTAMDS-IBCS英勇之盾2024.md": {
+      "size": 2092,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/InsideGNSS-R-EGI里程碑2024.md": {
+      "size": 921,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/SAM-ABMS广泛机构公告.md": {
+      "size": 3243,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/NAVAIR-OSMP指南V1 2025.md": {
+      "size": 1309,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/空军预备役-A-GRA CCA验证2025.md": {
+      "size": 1215,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/ISO 15288-2023系统工程.md": {
+      "size": 3343,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/NTSA-SCARS简报2025.md": {
+      "size": 911,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/航空PEO-MOSA行业交流2022.md": {
+      "size": 6046,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/军事嵌入-海军OSMP 2025.md": {
+      "size": 1814,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/PPI业务案例-需求工程.md": {
+      "size": 1746,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/OSD SysML v2过渡指导.md": {
+      "size": 3411,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/B-21突袭者MOSA案例.md": {
+      "size": 2582,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/空军全球打击司令部-哨兵GBSD.md": {
+      "size": 1156,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/航空PEO FACE TIM 2021.md": {
+      "size": 5453,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/SOSA VITA产品.md": {
+      "size": 2144,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/OMB通告A-130.md": {
+      "size": 2706,
+      "modified": "2026-05-10 19:31:30"
+    },
+    "sources/PPI-DID模板.md": {
+      "size": 4300,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/GAO-R-25-106931 MOSA审查.md": {
+      "size": 4467,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/CRS报告-NC3 IF11697.md": {
+      "size": 1125,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/NIST特别出版物800-160 v2网络韧性.md": {
+      "size": 6019,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/Victory-GVA白皮书.md": {
+      "size": 2748,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/DFARS 2021 MOSA信息征求.md": {
+      "size": 4340,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/DODI 5000.75-业务系统.md": {
+      "size": 2406,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/ARSENL空军标准.md": {
+      "size": 2165,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/可组合武器-雷神公司.md": {
+      "size": 2307,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DSP期刊-MOSA方法2001.md": {
+      "size": 2017,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/科学委员会数字工程2024.md": {
+      "size": 2134,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/三军备忘录2024.md": {
+      "size": 2158,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "sources/OSJTF宪章1994.md": {
+      "size": 4092,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/海军MOSA指南V1.md": {
+      "size": 2026,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "sources/NDIA SysML v2过渡2023.md": {
+      "size": 2674,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/Victory地面车辆.md": {
+      "size": 2863,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/UAI通用武器接口.md": {
+      "size": 2479,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/STANAG 4586无人机控制站.md": {
+      "size": 2078,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/NAVAIR HOST 5.0发布.md": {
+      "size": 1680,
+      "modified": "2026-05-09 22:56:13"
+    },
+    "sources/国防部指令5000.85-2020.md": {
+      "size": 2219,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/DFARS第227部分-专利数据与版权.md": {
+      "size": 6128,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/AMDR-SPY6雷达选定采购报告2023年12月.md": {
+      "size": 2065,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/INCOSE MBSE方法论调查.md": {
+      "size": 2887,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/PPI-集成项目管理与系统工程.md": {
+      "size": 2457,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/华为车机套件开发者指南.md": {
+      "size": 1300,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/FY2017 NDAA第805节.md": {
+      "size": 2057,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/空军装备司令部-ABMS分布式连接.md": {
+      "size": 3602,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "sources/MITRE DEWS-MOSA参考架构全文.md": {
+      "size": 6124,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "sources/DODI 5000.97数字工程.md": {
+      "size": 2449,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/DFARS第252部分-合同条款.md": {
+      "size": 3560,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "sources/大疆开发者平台概述.md": {
+      "size": 1728,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "sources/IS4S-R-EGI C12J飞行测试.md": {
+      "size": 896,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "entities/国际系统工程理事会.md": {
+      "size": 1841,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/柯林斯航空航天.md": {
+      "size": 571,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/太空发展局.md": {
+      "size": 3823,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "entities/国防部研究与工程副部长办公室.md": {
+      "size": 1698,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "entities/Shield AI公司.md": {
+      "size": 562,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/IS4S公司.md": {
+      "size": 436,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/帕思-德旺-沙阿.md": {
+      "size": 954,
+      "modified": "2026-05-09 22:56:49"
+    },
+    "entities/诺斯罗普-格鲁曼.md": {
+      "size": 3833,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "entities/空军装备司令部.md": {
+      "size": 2342,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "entities/洛克希德-马丁.md": {
+      "size": 3491,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "entities/PPI公司.md": {
+      "size": 1604,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/通用原子.md": {
+      "size": 627,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/CAE美国公司.md": {
+      "size": 439,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/美国国防部.md": {
+      "size": 2004,
+      "modified": "2026-05-09 22:56:13"
+    },
+    "entities/更好购买力3.0.md": {
+      "size": 906,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/北约.md": {
+      "size": 2323,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/数字工程现代化战略.md": {
+      "size": 1713,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "entities/空军全球打击司令部.md": {
+      "size": 587,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/PMA-209项目办公室.md": {
+      "size": 1475,
+      "modified": "2026-05-09 22:56:13"
+    },
+    "entities/空军科学咨询委员会.md": {
+      "size": 2173,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/尼古拉斯-格廷.md": {
+      "size": 1369,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "entities/战略司令部.md": {
+      "size": 629,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/丹尼尔-赫策马.md": {
+      "size": 1336,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "entities/空军生命周期管理中心.md": {
+      "size": 2096,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "entities/开放集团.md": {
+      "size": 2570,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "entities/国防科学委员会.md": {
+      "size": 1363,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "entities/克里斯-加勒特.md": {
+      "size": 1835,
+      "modified": "2026-05-09 22:37:34"
+    },
+    "entities/政府问责署.md": {
+      "size": 2626,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "entities/安杜里尔工业.md": {
+      "size": 634,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "entities/管理和预算办公室.md": {
+      "size": 1145,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/MOSA实施手册.md": {
+      "size": 1458,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "topics/三本系统工程手册互补.md": {
+      "size": 5220,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "topics/MOSA软件采办.md": {
+      "size": 3387,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "topics/SysML v2过渡瓶颈.md": {
+      "size": 4544,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/MOSAIC方法.md": {
+      "size": 7853,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/NIST网络韧性与MOSA安全.md": {
+      "size": 5022,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "topics/MOSA历史时间线.md": {
+      "size": 7866,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "topics/数字工程生态.md": {
+      "size": 11337,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "topics/华为车辆开放生态.md": {
+      "size": 5101,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/MOSA全生命周期应用.md": {
+      "size": 8979,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "topics/数字工程工具对比.md": {
+      "size": 5065,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "topics/大疆开放无人机架构.md": {
+      "size": 5801,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/中间层采办与MOSA张力.md": {
+      "size": 4215,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "topics/灵活武器设计方法论.md": {
+      "size": 3598,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "topics/中国车路云一体化.md": {
+      "size": 6796,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "topics/GRA生态演进.md": {
+      "size": 5174,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "topics/数字工程实践.md": {
+      "size": 17864,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "comparisons/SIAW与AARGM-ER模块化对比.md": {
+      "size": 4607,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "comparisons/DMM与DEE融合.md": {
+      "size": 4014,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/数字生态平台对比.md": {
+      "size": 8072,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/C5ISR标准融合.md": {
+      "size": 7722,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/Karpathy理论与实践对比.md": {
+      "size": 3468,
+      "modified": "2026-05-10 19:37:14"
+    },
+    "comparisons/项目管理与系统工程集成.md": {
+      "size": 3941,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/MOSA在CCA中的应用.md": {
+      "size": 6012,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/中美开放架构对比.md": {
+      "size": 4563,
+      "modified": "2026-05-10 19:45:43"
+    },
+    "comparisons/三本系统工程手册详细对比.md": {
+      "size": 5947,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/MOSA实施状态矩阵.md": {
+      "size": 5683,
+      "modified": "2026-05-09 22:58:31"
+    },
+    "comparisons/速度与模块化权衡.md": {
+      "size": 7124,
+      "modified": "2026-05-10 19:30:59"
+    },
+    "comparisons/MOSA五原则到五支柱.md": {
+      "size": 3221,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/按范围分类的MOSA标准.md": {
+      "size": 6369,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/网络安全与模块化开放性.md": {
+      "size": 4419,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/六项已验证的MOSA标准.md": {
+      "size": 2403,
+      "modified": "2026-05-09 22:23:39"
+    },
+    "comparisons/数字工程与模块化融合.md": {
+      "size": 6055,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/MOSA国际化.md": {
+      "size": 2766,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/INCOSE韧性与NIST网络韧性对比.md": {
+      "size": 3429,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/接口工程演进.md": {
+      "size": 4661,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/MOSA实施栈.md": {
+      "size": 4004,
+      "modified": "2026-05-09 22:57:39"
+    },
+    "comparisons/开放架构层级.md": {
+      "size": 17201,
+      "modified": "2026-05-10 19:30:59"
+    }
+  }
+}

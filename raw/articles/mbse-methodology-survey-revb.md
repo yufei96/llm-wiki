@@ -1,20 +1,27 @@
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 1 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
+
 Survey of Model-Based Systems Engineering (MBSE) 
 Methodologies 
+
  
 Jeff A. Estefan 
 Jet Propulsion Laboratory 
 California Institute of Technology 
 Pasadena, California, U.S.A. 
+
 Jeffrey.A.Estefan@jpl.nasa.gov 
  
+
 1. Introduction 
+
 1.1 Purpose 
+
 The purpose of this report is to provide a cursory description of some of the leading Model-
 Based Systems Engineering (MBSE) methodologies used in industry today.  It is intended 
 that the material described herein provides a direct response to the INCOSE MBSE Roadmap 
@@ -27,7 +34,9 @@ based” or “model-driven” context.  The intent of this survey is to educate
 the various candidate MBSE methodologies that are commercially available as well as the 
 control- and state-based MBSE methodology that has been developed at NASA’s Jet 
 Propulsion Laboratory (JPL), which has been published in the open literature. 
+
 1.2 Scope 
+
 This memo describes the result of a MBSE methodology survey only; it is not a methodology 
 assessment.  The material contained herein is expected to be reviewed and shared by the 
 INCOSE MBSE Initiative team and its governing leaders.  It should be noted that this is a 
@@ -50,13 +59,17 @@ MBSE methodologies.
  
 As will be described, tools are an important element of any MBSE methodology; however, a 
 survey of MBSE tools is beyond the scope of this report.  It is expected that during an 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 2 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 organization’s candidate MBSE methodology assessment process (including impact to native 
 processes and procedures), a tool survey and assessment will occur concurrently or shortly 
 thereafter, followed by selection and piloting of relevant tools.  This latter effort requires 
@@ -66,7 +79,9 @@ that is the community that will most heavily be using the tools.
 It is intended that this report be a living document and updated on a periodic basis based 
 on feedback and input by not only members of the INCOSE MBSE Initiative team but also by 
 members of the INCOSE community at large. 
+
 1.3 Overview 
+
 This report is organized as follows: Section 2 characterizes the difference between 
 methodologies and processes, methods, and lifecycle models (development, acquisition, and 
 systems engineering).  Also described is the role of models in the systems engineering 
@@ -81,8 +96,10 @@ of systems engineering.  In addition, the Executable UML Foundation is briefly i
 Section 6 provides a list of references used in preparation of this survey report and for the 
 benefit of the reader.  Finally, Section 7 provides a list of acronyms and abbreviations used 
 in this report. 
+
 2. Differentiating Methodologies from Processes, Methods, and 
 Lifecycle Models 
+
 In order to better understand key features of the various leading MBSE methodologies 
 surveyed in this study, it is critically important to establish the terminology associated with 
 processes, methods, and methodology, and to acknowledge the myriad lifecycle models 
@@ -90,34 +107,44 @@ used in the acquisition and development of large-scale, complex systems.  Withou
 grounding, it will be extremely difficult to map any assessment and selection of candidate 
 MBSE methodologies into the fabric of the systems engineering environment within a 
 particular organization. 
+
 2.1 Process, Method, Tool, Methodology, and Environment Defined 
+
 The word methodology is often erroneously considered synonymous with the word process.  
 For purposes of this study, the following definitions from Martin [2] are used to distinguish 
 methodology from process, methods, and tools: 
- A Process (P) is a logical sequence of tasks performed to achieve a particular 
+
+� A Process (P) is a logical sequence of tasks performed to achieve a particular 
 objective.  A process defines “WHAT” is to be done, without specifying “HOW” each 
 task is performed.  The structure of a process provides several levels of aggregation 
 to allow analysis and definition to be done at various levels of detail to support 
 different decision-making needs. 
- A Method (M) consists of techniques for performing a task, in other words, it defines 
+
+� A Method (M) consists of techniques for performing a task, in other words, it defines 
 the “HOW” of each task.  (In this context, the words “method,” “technique,” 
 “practice,” and “procedure” are often used interchangeably.)  At any level, process 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 3 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 tasks are performed using methods.  However, each method is also a process itself, 
 with a sequence of tasks to be performed for that particular method.  In other words, 
 the “HOW” at one level of abstraction becomes the “WHAT” at the next lower level. 
- A Tool (T) is an instrument that, when applied to a particular method, can enhance 
+
+� A Tool (T) is an instrument that, when applied to a particular method, can enhance 
 the efficiency of the task; provided it is applied properly and by somebody with 
 proper skills and training.  The purpose of a tool should be to facilitate the 
 accomplishment of the “HOWs.”  In a broader sense, a tool enhances the “WHAT” 
 and the “HOW.”  Most tools used to support systems engineering are computer- or 
 software-based, which also known as Computer Aided Engineering (CAE) tools. 
+
 Based on these definitions, a methodology can be defined as a collection of related 
 processes, methods, and tools.  A methodology is essentially a “recipe” and can be thought 
 of as the application of related processes, methods, and tools to a class of problems that all 
@@ -135,7 +162,9 @@ A visual graphic that depicts the relationship between the so-called “PMTE” 
 (Process, Methods, Tools, and Environment) is illustrated in Figure 2-1 along with the 
 effects of technology and people on the PMTE elements. 
  
+
  
+
 Figure 2-1.  The PMTE Elements and Effects of Technology and People. 
  
 As stated by Martin [2], the capabilities and limitations of technology must be considered 
@@ -145,14 +174,19 @@ technology.”  Technology can either help or hinder systems engineering efforts
 when choosing the right mix of PMTE elements, one must consider the knowledge, skills and 
 abilities (KSA) of the people involved [2].  When new PMTE elements are used, often the 
 KSAs of the people must be enhanced through special training and special assignments. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 4 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 2.2 Lifecycle Development Models 
+
 A number of lifecycle development models have been created and applied to large-scale 
 system and software development projects used in government, industry, and academia, 
 but most are grounded in one of three seminal models.  These are 1) Royce’s Waterfall 
@@ -171,7 +205,9 @@ serve as metamodels for lifecycle development.  In other words, they provide the
 development templates on which project- or domain-specific plans are built.  This will be 
 more evident during the review of the various MBSE methodologies described in Section 3, 
 many of which leverage one of these three lifecycle development models. 
+
 2.3 Acquisition Lifecycle Models 
+
 U.S. Government departments and agencies such as the U.S. Department of Defense (DoD) 
 and the National Aeronautics and Space Administration (NASA) are responsible for 
 managing billions of tax payer dollars annually in the development and acquisition of large-
@@ -197,16 +233,21 @@ contains key lifecycle phases as well as decision milestones and gate reviews.
 Similar to the DoD acquisition lifecycle model, the NASA lifecycle model has a set of key 
 lifecycle phases as well as decision milestones and gate reviews (see Figure 2-4). 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 5 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
  
  
+
  
  
  
@@ -214,24 +255,33 @@ INCOSE MBSE Initiative
 (a) 
 (b) 
  
+
  
  
 (c) 
+
 Figure 2-2.  Seminal Lifecycle Development Models:  (a) Waterfall, 
 (b) Spiral, (c) “Vee”. 
  
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 6 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Figure 2-3.  DoD Lifecycle Framework. 
  
+
  
+
 Figure 2-4.  NASA Project Lifecycle. 
  
 NASA best practices for acquisition are rooted in NASA policy directives and requirements; 
@@ -251,13 +301,17 @@ One of the reasons for describing acquisition models as part of this MBSE survey
 acknowledge the heritage of these traditional, document-driven, programmatic reviews and 
 the challenge organizations face when attempting to adopt more advanced, electronic- or 
 model-driven techniques such as MBSE.  Traditionally, acquisition program reviews have 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 7 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 relied on paper documents, because that was the state-of-the-art at the time government 
 acquisition lifecycle models were first initiated [16].  Advances in information technology 
 over the last decade or so have afforded the opportunity to create “electronic” documents 
@@ -271,7 +325,9 @@ foreseeable future.  Therefore, whatever MBSE methodology and approach that is a
 and utilized by an organization will have to ultimately map back to the organization’s project 
 lifecycle and decision milestones and gates (and subsequently gate products) as part of the 
 programmatic review process.  
+
 2.4 Systems Engineering Process Standards and Capability Models 
+
 A systems engineering (SE) process is a process model that defines the primary activities 
 (“WHAT”) that must be performed to implement systems engineering.  SE processes are 
 related to the phases in an acquisition lifecycle model in that the process usually begins at 
@@ -309,57 +365,79 @@ framework for developing and supporting a universal SE discipline for both defen
 commercial environments.  ANSI/EIA 632 was intended to be a top-tier standard further 
 defined to lower-level tier standards that define specific practices.  IEEE 1220 is a second-
 tier standard that implements ANSI/EIA 632 by defining one way to practice systems 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 8 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 engineering.  ISO/IEC 15288, on the other hand, defines system lifecycle processes for the 
 international set, plus for any domain (i.e., transportation, medical, commercial, et al.).” 
  
+
  
+
 Figure 2-5.  Heritage of Systems Engineering Process Standards and 
+
 Capability Models.1 
  
  
+
  
+
 Figure 2-6.  Breadth and Depth of Leading SE Process Standards. 
  
 As seen in Figure 2-6, the ISO/IEC 15288 standard follows more closely the acquisition 
 lifecycle models that were described in Section 2.3.  The 15288 Std. system lifecycle is 
+
                                            
 1 Note that the status of some of these SE process standards and maturity models is somewhat dated 
 since the source of this diagram was extracted from a G. Roedler briefing dated Sep. 17, 2002 [17].  
 In ISO/IEC terms, PDTR stands for Preliminary Draft Technical Report and FDIS stands for Final Draft 
 Technical Standard; ISO/IEC 19760 has since been released as a final technical report [Source: 
 Michael Gayle, Jet Propulsion Laboratory (private communication), Mar. 16, 2007]. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 9 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 shown in Figure 2-7 while system lifecycle process elements of the 15288 Std. are captured 
 in Figure 2-8. 
  
  
+
  
 Figure 2-7.  ISO/IEC 15288 System Lifecycle. 
  
  
  
+
  
+
 Figure 2-8.  ISO/IEC 15288 Process Elements. 
  
 The purpose of each major SE process model standard can be summarized as follows [17]: 
- ISO/IEC 15288 – Establish a common framework for describing the lifecycle of 
+
+� ISO/IEC 15288 – Establish a common framework for describing the lifecycle of 
+
 systems. 
- ANSI/EIA 632 – Provide an integrated set of fundamental processes to aid a 
+
+� ANSI/EIA 632 – Provide an integrated set of fundamental processes to aid a 
+
 developer in the engineering or re-engineering of a system. 
- IEEE 1220 – Provide a standard for managing a system. 
+
+� IEEE 1220 – Provide a standard for managing a system. 
  
 Indeed, the IEEE 1220 provides useful guidance on developing a Systems Engineering 
 Management Plan (SEMP), and a template is provided in Annex B of the standard.  The 
@@ -370,14 +448,19 @@ activities, how the project will be organized to accomplish the activities, and 
 schedule associated with accomplishing the activities.”  Relative to the NASA acquisition 
 lifecycle, the SEMP is used to “establish the technical content of the engineering work early 
 in the Formulation Phase for each project and updated throughout the project life cycle.” 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 10 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 2.5 Models in Support of SE Processes 
+
 In a nutshell, model-based engineering (MBE) is about elevating models in the engineering 
 process to a central and governing role in the specification, design, integration, validation, 
 and operation of a system.  For many organizations, this is a paradigm shift from traditional 
@@ -392,7 +475,9 @@ not identify with the fact that various MBE process models and supporting method
 are intended to show emphasis rather than be purely waterfall, and that the entire system 
 model grows over time (see Figure 2-9).2 
  
+
  
+
 Figure 2-9.  Generic SE Process and Integrated Model (Entire Model grows over 
 Time, Not “Pure” Waterfall). 
  
@@ -401,19 +486,24 @@ design (MDSD) and contrast the model-driven approach with standard SE process mo
 in this case, the SE process model specified by the IEEE 1220 standard.3  The authors 
 suggest that basic sub-processes apply to each of the major development phases of a 
 project (i.e., system definition, preliminary design, detailed design, and design qualification) 
+
                                            
 2 Joseph Skipper, Jet Propulsion Laboratory (private communication), California Institute of 
 Technology, Apr. 6, 2007. 
 3 Some authors use the term “MDSD” (Model-Driven System Design) and other use MBSE (Model-
 Based Systems Engineering).  While subtleties exist between the two terms, the latter is primarily 
 used in this report and any reference to MDSD is intended to be synonymous with MBSE. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 11 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 and that MDSD the basic sub-processes are repeated as many times as necessary.  An 
 illustration of the basic sub-processes for MDSD is shown in Figure 2-10. 
  
@@ -421,32 +511,45 @@ The authors proceed to describe various distinctive features of MDSD for each of
 major development phases of the project.  The interested reader is encouraged to review 
 these features in the cited reference as they will not be repeated here. 
  
+
  
 Figure 2-10.  Sub-Processes for MDSD. 
  
 Another important concept that is introduced in the Baker et al. paper [24] is the notion of 
 an information model for MDSD, which is illustrated in Figure 2-11. 
  
+
  
+
 Figure 2-11.  Information Model for MDSD. 
  
 Boxes show kinds of information, lines represent relationships, arrows show the direction of 
 the relationship (not the direction of information flow), and bullets show a “many” 
 relationship.  The diagram elements can be interpreted as follows: 
- Requirements specify Components 
- Requirements may be decomposed into other Requirements 
- Components may be decomposed into other Components 
+
+� Requirements specify Components 
+
+� Requirements may be decomposed into other Requirements 
+
+� Components may be decomposed into other Components 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 12 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
- Design Alternates satisfy Requirements 
- Design Alternates represent Components 
- Models execute Design Alternates 
- Models represent Components 
+
+� Design Alternates satisfy Requirements 
+
+� Design Alternates represent Components 
+
+� Models execute Design Alternates 
+
+� Models represent Components 
  
 An information model is a very important part of MDSD as it facilitates the ability to view 
 MDSD from the kinds of “information” to be used in such an approach and their 
@@ -456,7 +559,9 @@ making; eventually, models become sufficiently faithful for compliance assessmen
  
 Also described in the cited paper is a useful and insightful contrast between document-
 centered system design and MDSD. 
+
 2.6 Mathematical Foundation of MBSE 
+
 It is difficult to cover the subject of MBSE and not acknowledge the seminal contributions of 
 A. Wayne Wymore to the mathematical foundations of systems science and systems 
 engineering [25].  Although the mathematical theory described in Wymore’s early work is 
@@ -492,13 +597,17 @@ engineering as well as a non-mathematical description of systems engineering pro
 before embarking on the core mathematical theory.  The mathematical theory presented is 
 restricted to discrete time system models were chosen primarily for pedagogical reasons.  
 According to Wymore’s autobiographical account, “restrict[ing] all of MBSE to discrete time 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 13 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 and that the basic set of system models would be the set of sequential machines with Moore 
 readout functions.  These decisions freed me from topological considerations occasioned by 
 aspects of continuous time to allow me to concentrate on the mathematical structures of the 
@@ -506,12 +615,15 @@ objects of interest to systems engineers” [27].
  
 A brief review of the book and its organization is described by Klir [30].  According to the 
 Preface, “The material in the text was chosen to attain three principal objectives: 
- to provide the system theoretic foundations necessary to the study and practice of 
+
+� to provide the system theoretic foundations necessary to the study and practice of 
 systems engineering,  
- to explicate mathematical system theory as the basis for the development of models 
+
+� to explicate mathematical system theory as the basis for the development of models 
 and designs of large-scale, complex systems consisting of personnel, machine and 
 software, and 
- to introduce the student to the tricotyledon theory of system design (T3SD) and to 
+
+� to introduce the student to the tricotyledon theory of system design (T3SD) and to 
 the considerations involved in applying the theory to the design of real systems.” 
  
 The phrase tricotyledon theory was chosen by Wymore to name the specific mathematical 
@@ -530,13 +642,20 @@ introduction of T3SD and identification of the six core categories of system des
 requirements (SDR), which he defines as follows: 
  
 SDR = (IOR, TYR, PR, CR, TR, STR) where 
+
 IOR is the I/O requirement, 
+
 TYR is the technology requirement, 
+
 PR is the performance requirement, 
+
 CR is the cost requirement, 
+
 TR is the trade-off requirement, and 
+
 STR is the system test requirement. 
  
+
                                            
 4 The term cotyledon (as opposed to tricotyledon) is actually a botanical term used to represent 
 structure in the embryo of a seed plant that may form a leaf after germination, what is commonly 
@@ -547,13 +666,17 @@ suggested use of the term “cotyledons” (or seed leaves) because they were ge
 statement of the problem of the design of a system and the ultimate system design would eventually 
 “flower” from these cotyledons.  Since there are three basic spaces of system designs, the theory 
 came to be known as the tricotyledon theory of system design, or T3SD for short. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 14 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 According to Wymore, across all projects, the system has to verify that these six conditions 
 are met.  This has direct relevance to the discipline of systems engineering.  Systems 
 engineering considers as many alternative implementable system designs as possible and 
@@ -571,6 +694,7 @@ system tests items, denoted ISTISR, associated with the STR as generated by the 
 the TYR [26],[29].  A visual representation of ISTISR and its relation to the three system 
 design spaces that comprise the tricodyledon is illustrated in Figure 2-12. 
  
+
  
 Figure 2-12.  The system test requirement anchors the system design problem to 
 the real world.5 
@@ -579,23 +703,30 @@ In summary, although Wymore’s roots as a pure mathematician with a background 
 topological algebra and functional analysis are clearly visible in his work on formulating the 
 mathematical theory behind systems science and systems engineering (including MBSE), 
 the value of his seminal work and its applicability to the discipline of systems engineering 
+
                                            
 5 FSR, BSR, and ISR represent the functionality, buildability, and implementability cotyledons, 
 respectively.  The contours within FSR represent equivalent functional system designs, generated by 
 the performance requirement PR.  Similarly, contours within the BSR represent equivalent buildable 
 system designs, generated by the cost requirement CR.  And contours within the ISR represent 
 equivalent implementable system designs, generated by the trade-off requirement TR. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 15 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 should not be overlooked.  We will continue to monitor the progress of Dr. Wymore’s 
 research and future publications centered on Phase 2 of MBSE (MBSE2) and any other 
 aspects related to MBSE. 
+
 3. Leading MBSE Methodologies 
+
 The following is a cursory review of some of the more notable MBSE methodologies that 
 have received attention in the various industry forums and publications and are intended to 
 serve as candidates for adoption and tailoring to an organization’s SE practices and 
@@ -607,14 +738,19 @@ some providers refer to or name their methodology a “process”—an unfortuna
 consequence that often leads to confusion.  For purposes of this survey, methodology is 
 implied, even if the formal offering uses the term “process” to describe or name the 
 methodology. 
+
 3.1 IBM Telelogic Harmony-SE 
+
 3.1.1. Overview 
+
 Harmony-SE is a subset of a larger integrated systems and software development process 
 known as Harmony® [32].  Development of Harmony-SE and Harmony® originated at I-
 Logix, Inc., formerly a leading provider of modeling tools for the embedded market.6  Figure 
 3-1 graphically depicts the Harmony integrated systems and software development process. 
  
+
  
+
 Figure 3-1.  Harmony® Integrated Systems and Software Development Process. 
                                            
 6 I-Logix was acquired by Telelogic AB in March 2006.  More recently, Telelogic AB was acquired by 
@@ -624,13 +760,17 @@ due to the I-Logix acquisition by the former Telelogic AB but also its acquisiti
 which included the System Architect tool that is widely used within the DoD acquisition community.  
 IBM Telelogic is perhaps best known for its DOORS® product suite for requirements management and 
 tracking. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 16 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
 The Harmony process was designed to be tool- and vendor-neutral, although elements of 
 the process are supported by the Telelogic Rhapsody model-driven development 
@@ -642,9 +782,11 @@ are maintained in a centralized model/requirements repository.
 The systems engineering component of Harmony shown in the upper left corner of Figure 
 3-1 (i.e., Harmony-SE) has the following stated key objectives: 
  
- Identify / derive required system functionality. 
- Identify associated system states and modes. 
- Allocate system functionality / modes to a physical architecture. 
+� Identify / derive required system functionality. 
+
+� Identify associated system states and modes. 
+
+� Allocate system functionality / modes to a physical architecture. 
  
 Harmony-SE uses a “service request-driven” modeling approach along with Object 
 Management Group™ Systems Modeling Language™ (OMG SysML™) artifacts [33].  In the 
@@ -659,9 +801,11 @@ service request-driven approach is shown in Figure 3-2.
 Task flow and work products (artifacts) in the Harmony-SE process include the following 
 three top-level process elements: 
  
- Requirements analysis 
- System functional analysis 
- Architectural design 
+� Requirements analysis 
+
+� System functional analysis 
+
+� Architectural design 
  
 Figure 3-3 better illustrates these process elements along with the flow of some of the 
 primary work products: 
@@ -679,43 +823,63 @@ Analysis process element is illustrated in Figure 3-4.  Similarly, an example of
 and associated work products for the Subsystem Architectural Design sub-process of the 
 Architectural Design process is depicted in Figure 3-5. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 17 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Figure 3-2.  OMG SysML™ Representation of Service Request-Driven Approach. 
  
  
  
+
  
+
 Figure 3-3.  Harmony-SE Process Elements. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 18 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
  
+
 Figure 3-4.  System Functional Analysis Task Flow and Work Products. 
  
  
  
+
  
+
 Figure 3-5.  Subsystem Architectural Design Task Flow and Work Products. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 19 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 3.1.2. Tool Support 
+
 No process framework tool exists from IBM Telelogic or a third-party provider for Harmony-
 SE or the integrated systems and software engineering process, Harmony. 
  
@@ -723,12 +887,17 @@ Recall that the Harmony-SE and Harmony were created as tool- and vendor-neutral,
 based methodologies.  Tool support for MBSE that supports the methods specified by 
 Harmony-SE and Harmony is, of course, provided by IBM Telelogic via the Telelogic Tau and 
 Telelogic Rhapsody product offerings. 
+
 3.1.3. Offering/Availability 
+
 As stated earlier, a Harmony-SE/SysML Deskbook has been published to help guide the 
 systems engineer and project manager through the entire MBSE methodology [22].  In 
 addition, IBM Telelogic offers professional services to support methodology adoption. 
+
 3.2 INCOSE Object-Oriented Systems Engineering Method (OOSEM) 
+
 3.2.1. Overview 
+
 The Object-Oriented Systems Engineering Method (OOSEM) integrates a top-down, model-
 based approach that uses OMG SysML™ to support the specification, analysis, design, and 
 verification of systems.  OOSEM leverages object-oriented concepts in concert with more 
@@ -748,31 +917,42 @@ entitled Practical Guide to SysML:  Systems Modeling Language by Fridenthal, Moo
 Steiner [38].  An introduction to the methodology is also available as a full day tutorial [39]. 
  
 The OOSEM objectives are the following: 
- Capture and analysis of requirements and design information to specify complex 
+
+� Capture and analysis of requirements and design information to specify complex 
 systems. 
- Integration with object-oriented (OO) software, hardware, and other engineering 
+
+� Integration with object-oriented (OO) software, hardware, and other engineering 
 methods. 
- Support for system-level reuse and design evolution. 
+
+� Support for system-level reuse and design evolution. 
  
 As stated above, OOSEM is a hybrid approach that leverages object-oriented techniques and 
 a systems engineering foundation.  It also introduces some unique techniques as indicated 
 in see Figure 3-6. 
+
                                            
 7 Sanford Friedenthal, Lockheed Martin Corporation (private communication), Apr. 4, 2007. 
 8 David Griffith, Northrop Grumman Corporation (private communication), Mar. 15, 2007. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 20 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Figure 3-6.   Foundation of OOSEM. 
  
 The OOSEM supports a SE process as illustrated in Figure 3-7. 
  
+
  
+
 Figure 3-7.  OOSEM Activities in the Context of the System Development Process. 
  
 The core tenets of OOSEM include recognized practices essential to systems engineering 
@@ -790,19 +970,29 @@ communications, and 2) a recursive “Vee” lifecycle process model that is app
 multiple level of the system hierarchy. 
  
 As shown in Figure 3-8, OOSEM includes the following development activities: 
- Analyze Stakeholder Needs 
- Define System Requirements 
- Define Logical Architecture 
- Synthesize Candidate Allocated Architectures 
- Optimize and Evaluate Alternatives 
- Validate and Verify System 
+
+� Analyze Stakeholder Needs 
+
+� Define System Requirements 
+
+� Define Logical Architecture 
+
+� Synthesize Candidate Allocated Architectures 
+
+� Optimize and Evaluate Alternatives 
+
+� Validate and Verify System 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 21 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
 These activities are consistent with typical systems engineering “Vee” process that can be 
 recursively and iteratively applied at each level of the system hierarchy.  Fundamental 
@@ -818,11 +1008,14 @@ can also be refined and reused in other applications to support product line and
 development approaches.  A summary description of the activities and artifacts is provided 
 on the following pages [37]. 
  
+
  
+
 Figure 3-8.  OOSEM Activities and Modeling Artifacts. 
  
  
 Analyze Stakeholder Needs 
+
 This activity captures the “as-is” systems and enterprise, their limitations and potential 
 improvement areas.  The results of the “as-is” analysis is used to develop the to-be 
 enterprise and associated mission requirements.  An enterprise model depicts the 
@@ -832,14 +1025,19 @@ causal analysis techniques to determine its limitations, and used as a basis for
 mission requirements and to-be enterprise model.  The mission requirements are specified 
 in terms of the mission / enterprise objectives, measures of effectiveness, and top-level use 
 cases.  The use cases and scenarios capture the enterprise functionality. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 22 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Define System Requirements 
+
 This activity is intended to specify the system requirements that support the mission 
 requirements.  The system is modeled as a black box that interacts with the external 
 systems and users represented in the enterprise model.  The system-level use cases and 
@@ -857,6 +1055,7 @@ system to accommodate the potential change.  A typical example may be a system i
 that is likely to change or a performance requirement that is expected to increase. 
  
 Define Logical Architecture 
+
 This activity includes decomposing and partitioning the system into logical components that 
 interact to satisfy the system requirements.  The logical components capture the system 
 functionality.  Examples may include a user interface that is realized by a web browser, or 
@@ -871,6 +1070,7 @@ such as cohesion, coupling, design for change, reliability, performance, and oth
 considerations.  
  
 Synthesize Candidate Allocated Architectures 
+
 The allocated architecture describes relationship among the physical components of the 
 system including hardware, software, data and procedures.  The system nodes define the 
 distribution of resources. Each logical component is first mapped to a system node to 
@@ -882,23 +1082,29 @@ relationships.  The requirements for each component are traced to the system req
 and maintained in the requirements management database. 
  
 Optimize and Evaluate Alternatives  
+
 This activity is invoked throughout all other OOSEM activities to optimize the candidate 
 architectures and conduct trade studies to select the preferred architecture.  Parametric 
 models for modeling performance, reliability, availability, life-cycle cost, and other specialty 
 engineering concerns, are used to analyze and optimize the candidate architectures to the 
 level needed to compare the alternatives.  The criteria and weighting factors used to 
 perform the trade studies are traceable to the system requirements and measures of 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 23 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 effectiveness.  This activity also includes the monitoring of technical performance measures 
 and identifies potential risks. 
  
 Validate and Verify System 
+
 This activity is intended to verify that the system design satisfies its requirements and to 
 validate that the requirements meet the stakeholder needs.  It includes the development of 
 verification plans, procedures, and methods (e.g., inspection, demonstration, analysis, 
@@ -911,7 +1117,9 @@ verification methods, test cases, and results.
  
 The full description of each OOSEM activity and process flows are provided in the cited book 
 by Friedenthal, Moore, and Steiner [38] and the referenced OOSEM tutorial [39]. 
+
 3.2.2. Tool Support 
+
 A dedicated process framework tool for OOSEM does not exist; however, tool support for 
 OOSEM can be provided by COTS-based OMG SysML tools and associated requirements 
 management tools.  Other tools required to support the full system lifecycle should be 
@@ -920,16 +1128,21 @@ management, performance modeling, and verification tools.
  
 A more complete set of OOSEM tool requirements is provided in the referenced OOSEM 
 tutorial [39]. 
+
 3.2.3. Offering/Availability 
+
 The OOSEM tutorial and training materials can be made available by contacting the INCOSE 
 OOSEM Working Group to gain access through the INCOSE Connect collaboration space.  
 Unlike other industry-provided MBSE methodologies, OOSEM is not a formal offering that 
 can be purchased from any specific vendor, including professional services.  Support 
 services may be available by contacting representatives of the INCOSE OOSEM Working 
 Group.9 
+
 3.3 IBM Rational Unified Process for Systems Engineering (RUP SE) for Model-
 Driven Systems Development (MDSD) 
+
 3.3.1. Overview 
+
 The Rational Unified Process for Systems Engineering (RUP SE) is a derivative of the 
 Rational Unified Process® (RUP®).  RUP is a methodology that is both a process framework 
 and process product from IBM Rational and has been used extensively in government and 
@@ -939,15 +1152,20 @@ RUP SE was created to specifically address the needs of systems engineering proj
 [41],[42].  The objective for its creation was to apply the discipline and best practices of the 
 RUP for software development to the challenges of system specification, analysis, design, 
 and development.  Its goal is to help organizations save time, cut costs, reduce risk, and 
+
                                            
 9 L. Mark Walker, Lockheed Martin Corporation (private communication), Apr. 19, 2007. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 24 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 improve the quality of the systems they build.  According to Cantor,10 in current parlance, 
 “RUP SE is the extension of the Rational Unified Process [RUP] to support Model-Driven 
 Systems Development [MDSD].”  The spirit of MDSD as envisioned by key IBM systems 
@@ -962,40 +1180,58 @@ how specific development goals are achieved.  A graphical depiction of the RUP p
 framework is shown in Figure 3-9 [40] sometimes referred to in the industry as the “whale 
 chart.” 
  
+
  
 Figure 3-9. The Rational Unified Process® (RUP®) (“Whale Chart”). 
  
 The main content elements of the RUP are the following: 
- Roles (“WHO”) – A role defines a set of related skills, competencies, and 
+
+� Roles (“WHO”) – A role defines a set of related skills, competencies, and 
 responsibilities.  
- Work Products (“WHAT”) – A work product represents something resulting from a 
+
+� Work Products (“WHAT”) – A work product represents something resulting from a 
 task, including all the documents and models produced while working through the 
 process.  
- Tasks (“HOW”) – A task describes a unit of work assigned to a role that provides a 
+
+� Tasks (“HOW”) – A task describes a unit of work assigned to a role that provides a 
 meaningful result.  
  
 Within each iteration, the tasks are categorized into a total of nine (9) disciplines: 
  
+
                                            
 10 Murray Cantor, IBM Corporation (private communication), Feb. 27, 2007. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 25 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Engineering Disciplines: 
+
 1. Business modeling 
+
 2. Requirements 
+
 3. Analysis and design 
+
 4. Implementation 
+
 5. Test 
+
 6. Deployment 
  
 Supporting Disciplines: 
+
 7. Configuration and change management 
+
 8. Project management 
+
 9. Environment 
  
 The RUP lifecycle is an implementation of the spiral model for iterative and incremental 
@@ -1005,28 +1241,38 @@ structure (WBS), which can be customized to address the specific needs of a proj
 RUP lifecycle organizes the tasks into phases and iterations. 
  
 A project has four phases: 
- Inception 
- Elaboration 
- Construction 
- Transition 
+
+� Inception 
+
+� Elaboration 
+
+� Construction 
+
+� Transition 
  
 A typical project profile showing the relative sizes of the four phases is shown in Figure 3-10 
 [40]. 
  
+
  
+
 Figure 3-10.  Typical Profile Showing Relative Sizes of the Four RUP Phases. 
  
 Because RUP SE is derived from RUP, it retains RUP’s cornerstone principles, which have 
 been refined and extended to enhance their utility for systems engineering efforts.  RUP SE 
 brings the RUP style of concurrent design and iterative development to systems engineering 
 (as illustrated in Figure 3-11) [43].  In addition, it provides the highly configurable discipline 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 26 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 (workflow) templates required to identify the hardware, software, and worker role 
 components that comprise a systems engineering project. 
  
@@ -1037,34 +1283,43 @@ deemed a success relative to cost or business objectives.
  
 Key elements in RUP SE that extend the RUP to systems engineering include the following: 
  
- New roles.  In RUP SE, the development team includes system engineers in addition 
+� New roles.  In RUP SE, the development team includes system engineers in addition 
 to worker roles such as architects, developers, testers, etc.  The role of the system 
 engineer is primarily concerned with the specification of the overall system and 
 deployment thereof, and to help address overall system requirements. 
  
+
  
+
 Figure 3-11.  Illustration of RUP SE lifecycle. 
  
- New artifacts and workflows. RUP includes full support for software system 
+
+� New artifacts and workflows. RUP includes full support for software system 
 concerns, such as usability, maintainability, performance, and scalability.  RUP SE 
 adds artifacts and workflows that address additional concerns in the systems 
 engineering domain, such as security, training, and logistics support. 
- An emphasis on business modeling. Whatever kind of system being architected, 
+
+� An emphasis on business modeling. Whatever kind of system being architected, 
 it is important to understand the business purpose it will serve.  Otherwise, system 
 requirements will not accurately reflect business activities.  RUP SE does not include 
 changes to the business modeling features of RUP.  However, RUP SE users are 
 strongly encouraged to create business use cases with the associated identification of 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 27 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 business actors and the flow of business events, in order to adequately define 
 system requirements. Furthermore, the RUP SE use-case flowdown activity is applied 
 to derive system requirements from business requirements. 
- Viewpoints for systems engineering. An architecture framework for RUP SE has 
+
+� Viewpoints for systems engineering. An architecture framework for RUP SE has 
 been developed that contains the elements of model levels, viewpoints, and views 
 (see Table 3-1).  The concept of viewpoints and views used in the RUP SE 
 architecture framework is consistent with industry standard definitions as articulated 
@@ -1072,10 +1327,13 @@ by the ISO/ITU 10746 standard Reference Model for Open Distributed Processing
 (RM-ODP) [44] and the ANSI/IEEE 1471-2000 standard Recommended Practice for 
 Architectural Description of Software-Intensive Systems [45].  The cells in RUP SE 
 architecture framework represent views. 
+
 RUP SE supports domain-specific viewpoints common to system architectures, such 
 as safety, security, and mechanical.  Modeling levels are similar for most systems 
 regardless of their complexity. 
+
 Table 3-1.  The RUP SE architecture framework. 
+
 Model Viewpoints 
 Model 
 Levels 
@@ -1085,23 +1343,28 @@ Information
 Distribution 
 Process 
 Geometric 
+
 Context 
 Role 
 definition, 
 activity 
 modeling 
+
 Use case 
 diagram 
 specification 
+
 Enterprise 
 data view 
 Domain-
 dependent 
 views 
+
  
 Domain-
 dependent 
 views 
+
 Analysis 
 Partitioning 
 of system 
@@ -1110,24 +1373,29 @@ decomposition
 Product data 
 conceptual 
 schema 
+
 Product 
 locality view 
 Product 
 process 
 view 
+
 Layouts 
+
 Design 
 Operator 
 instructions 
 Software 
 component 
 design 
+
 Product data 
 schema 
 ECM 
 (electronic 
 control media 
 design) 
+
 Timing 
 diagrams 
 MCAD 
@@ -1135,8 +1403,10 @@ MCAD
 computer-
 assisted 
 design) 
+
 Implementation 
 Hardware and software configuration 
+
  
 Note: The Distribution viewpoint describes how the functionality of the system is 
 distributed across physical resources.  At the analysis level, it is necessary to describe 
@@ -1152,13 +1422,17 @@ quality attributes in order to specify their physical realization at the design 
 RUP SE distribution diagram showing two localities and a connection between them is 
 illustrated in Figure 3-12. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 28 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
 Figure 3-12.  Two Localities and a Connection. 
  
@@ -1168,20 +1442,27 @@ technology choices.  Model levels are not levels of abstraction; in fact, a mode
 may contain multiple levels of abstraction.  Model levels are elements designed to 
 group artifacts with a similar level of detail (see Table 3-2). 
  
+
 Table 3-2.  Model levels in the RUP SE architecture framework. 
+
 Model Level 
 Expresses 
+
 Context 
 System black box—the system and its actors (through this is a black-box view 
 for the system, it is a white-box view for the enterprise containing the system. 
+
 Analysis 
 System white box—initial system partitioning in each viewpoint that establishes 
 the conceptual approach. 
+
 Design 
 Realization of the analysis level in hardware, software, and people 
+
 Implementation 
 Realization of the design model into specific configurations 
- Scalability enhancements. Once design decisions have been captured in 
+
+� Scalability enhancements. Once design decisions have been captured in 
 viewpoints and specified via model levels, the system architecture is captured in a 
 set of OMG™ UML®/SysML™ diagrams; these further describe it from the various 
 viewpoints and model levels.  Although many of these artifacts are similar across 
@@ -1190,7 +1471,8 @@ new artifacts allow you to break the system down (1) by subsystems, and (2) by t
 localities where processing takes place.  Each subsystem coupled with its locality has 
 its own derived requirements in RUP SE, enabling the process to scale to meet the 
 needs of even the largest and most complex projects. 
- Allocated versus derived requirements. RUP SE encompasses two types of 
+
+� Allocated versus derived requirements. RUP SE encompasses two types of 
 system requirements: use-cases, which capture functional requirements; and 
 supplementary requirements, which cover non-functional (quality) attributes like 
 reliability and maintainability (see Figure 3-13) [43].  With respect to the 
@@ -1200,43 +1482,58 @@ A locality or subsystem requirement is allocated if a locality or subsystem is a
 sole responsibility for fulfilling a system requirement.  A locality or subsystem 
 requirement is derived if it is identified by studying how the subsystem or locality 
 collaborates with others to meet a system requirement. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 29 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
- Subsystem-level flowdown activity. RUP SE derives system requirements from 
+
+� Subsystem-level flowdown activity. RUP SE derives system requirements from 
 business requirements via use-case flowdown activities.  However, RUP SE departs 
 from the RUP in that it also specifies a flow of events in a subsystem-level, "white 
 box" view that references specific architectural elements.11  This extra step is 
 necessary in order to make decisions about where events are hosted, and to relate 
 processes to events. 
- Support for designing additional components.  The design-level specification of 
+
+� Support for designing additional components.  The design-level specification of 
 system components with RUP SE is similar to its software-only counterpart in RUP.  
 The key difference, as previously mentioned, is that systems engineering typically 
 entails additional types of components than software engineering, such as hardware.  
 Delineation of these components is supported via analysis of the RUP SE subsystem 
 and locality use-case surveys that are generated prior to specifying component 
 designs. 
+
  
+
  
+
  
+
 Figure 3-13.  RUP SE Requirements Allocation/Derivation Method. 
+
                                            
 11 The classical notion of a “white box” (the elements or parts that make up a system) and “black box” 
 (characteristics of the system as a whole: the services it provides, the requirements it meets) 
 characterization of a system is consistent with the IBM Model-Driven Systems Development (MDSD) 
 approach and is described as part of the RUP SE methodology [16]. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 30 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 3.3.2. Tool Support 
+
 Unlike most of the other MBSE methodologies surveyed, a process framework tool does 
 exist to support RUP SE and is available via the RUP SE plugin for the Rational Method 
 Composer (RMC) product offering from IBM Rational® software.  At the time of this writing, 
@@ -1254,7 +1551,9 @@ is a third party offering from EmbeddedPlus Engineering.
  
 Most of these tools mentioned, including RMC, are supported on the Eclipse™ open source 
 platform managed under the auspices of the Eclipse Foundation, Inc. 
+
 3.3.3. Offering/Availability 
+
 As stated in Section 3.3.2, RUP SE tool support is provided by the RUP SE plugin for 
 Rational® Method Composer (RMC); however, it is recommended that adoption and tailoring 
 of the RUP SE methodology be supported through IBM professional services; specifically, 
@@ -1262,8 +1561,11 @@ IBM Software Services.  A textbook by Kruchten exist for the baseline RUP® meth
 that details core tenets and elements of the methodology and provides tailoring guidelines 
 [40].  Such a companion text does not yet exist for RUP SE, at least not at the time of this 
 survey report. 
+
 3.4 Vitech Model-Based System Engineering (MBSE) Methodology 
+
 3.4.1. Overview 
+
 Vitech Corporation, providers of the CORE® product suite, offer a MBSE methodology via a 
 set of tutorials developed and offered by Vitech CEO and Chief Methodologist James (“Jim”) 
 E. Long [46].  A variation of the tutorial has been delivered at a number of INCOSE 
@@ -1274,14 +1576,19 @@ tool set.
 The Vitech MBSE methodology is based on four primary concurrent SE activities that are 
 linked and maintained through a common System Design Repository (see Figure 3-14). 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 31 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Figure 3-14.  Vitech MBSE Primary SE Activities. 
  
 Each of these primary SE activities is linked within the context of associated “domains” as 
@@ -1298,43 +1605,59 @@ developers, and providing a structure for the graphic view generators, report ge
 scripts, and consistency checkers.12  An example of a Vitech-specified MBSE SDL is 
 illustrated in Table 3-3.  Vitech MBSE System Definition Language (SDL). and based on and 
 Entity-Relationship-Attribute (ERA) model. 
+
                                            
 12 Many of these features of an MBSE SDL are targeted at the MBSE tool that interacts with or hosts 
 the system design repository and is beyond the scope of other key elements of MBSE methodologies 
 such as processes and methods.  Nevertheless, the importance of specifying, owning, and utilizing an 
 MBSE information model is acknowledged and a factor that is not explicitly called out in the literature 
 of other MBSE methodologies surveyed in this study. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 32 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
  
+
 Figure 3-15.  Vitech MBSE Primary SE Domains. 
  
 Five core tenets help drive the Vitech MBSE methodology: 
+
 1. Model via modeling “language” the problem and the solution space; include 
 semantically-meaningful graphics to stay explicit and consistent.  This helps facilitate 
 model traceability, consistent graphics, automatic documentation and artifacts, 
 dynamic validation and simulation, and promotes more precise communication. 
+
 2. Utilize a MBSE system design repository. 
+
 3. Engineer the system horizontally before vertically, i.e., do it in complete, converging 
 layers. 
+
 4. Use tools to do the “perspiration stuff” and your brain to do the “inspiration stuff.” 
  
 To support tenet #3 above, the Vitech MBSE utilizes an incremental SE process known as 
 the “Onion Model,” which allows complete interim solutions at increasing levels of detail 
 during the system specification process [50].  A visual representation of the Onion Model is 
 illustrated in Figure 3-16. 
+
 Table 3-3.  Vitech MBSE System Definition Language (SDL). 
+
 SDL 
 Language* 
+
 English 
 Equivalent 
+
 MBSE Example 
+
 Element 
 Noun 
 • 
@@ -1343,19 +1666,24 @@ Requirement: Place Orders
 Function: Cook Burgers 
 • 
 Component: Cooks 
+
 Relationship 
 Verb 
 • 
 Requirement basis of Functions 
 • 
 Functions are allocated to Components 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 33 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Attribute 
 Adjective 
 • 
@@ -1364,6 +1692,7 @@ Creator
 Creation Date 
 • 
 Description 
+
 Attribute of 
 Relationship 
 Adverb 
@@ -1373,15 +1702,20 @@ Resource consumed by Function
 Amount (of Resource) 
 • 
 Acquire Available (Priority) 
+
 Structure 
 N/A 
 • 
 Viewed as Enhanced Function Flow Block Diagram (EFFBD) or 
 FFBD 
+
 *Mapped to model element property sheets in Vitech CORE® 
+
  
  
+
  
+
 Figure 3-16.  Vitech MBSE "Onion Model." 
  
 The Onion Model iterates the primary concurrent SE activities at each layer.  According to 
@@ -1402,27 +1736,37 @@ as system design breakage that occurs in several layers lower in the iterative p
 adversely impact cost and schedule.  Guidance for determining completeness at each layer 
 is provided in Table 3-4. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 34 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Table 3-4.  Completion Criteria for Each Layer of the "Onion Model." 
+
 Process Element 
 Completion Criteria 
+
 1. Originating Requirements 
 1. Agreement on Acceptance Criteria. 
+
 2. Behavior/Functional Architecture 
 2. Each function is uniquely allocated to at most 
 one component. 
+
 3. Physical Architecture Definition 
 3. Segment/component specs are complete 
 requirements documents. 
+
 4. Qualification 
 4.  V&V requirements have been traced to test 
 system components. 
+
  
 The Onion Model is supported by two sets of SE activities timelines that are intend to apply 
 to each layer of the “Onion;” one for a top down process (Figure 3-17a) and one for reverse 
@@ -1432,18 +1776,26 @@ Note that schedule is read as increasing in time from left to right in these SE 
 timelines  and the activity bars represent movement of the “center of gravity” of the SE 
 team.  Further, it is important to re-iterate that concurrent engineering is assumed. 
  
+
  
+
 (a) 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 35 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 (b) 
+
 Figure 3-17.  Vitech MBSE Activities Timeline - Top Down (a) and 
 (b) Reverse Engineering. 
  
@@ -1463,15 +1815,19 @@ and Analysis and Architecture/Synthesis are shown in Table 3-5.  Additional deta
 methods associated with the Vitech MBSE methodology are also described by Baker and 
 Long [49], although described in the context to what the authors refer to as the “System 
 Logic Modeling (SLM)” Process. 
+
 Table 3-5.  Learning Objectives and Sub-Activities for Vitech MBSE Top-Level SE 
 Activities of Source Requirements Analysis and Architecture/Synthesis. 
+
  
 Source Requirements & Analysis 
 Architecture/Synthesis 
+
 Objective 
 Identify structure and analyze 
 requirements from a source. 
 Expand our understanding of the system. 
+
 Activities 
 1. 
 Identify and extract 
@@ -1483,6 +1839,7 @@ Analyze requirements
 3.1 
 Discover and identify 
 issues 
+
 1. 
 Define: 
 1.1 
@@ -1494,13 +1851,17 @@ Preliminary physical architecture
 components 
 1.4 
 Preliminary functionality 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 36 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 3.2 
 Discover and identify risks 
 4. 
@@ -1512,6 +1873,7 @@ graphically
 6. 
 Generate the requirements and 
 related information in a table 
+
 2. 
 Maintain traceability to originating 
 requirements 
@@ -1521,6 +1883,7 @@ Identify performance factors
 Identify constraints 
 5. 
 Continue to mitigate issues and risks 
+
  
 Methods used in the Vitech MBSE methodology to support the Functional/Behavior Analysis 
 top-level activity is based on a set of visual behavior models and constructs in an 
@@ -1541,54 +1904,73 @@ extraction and analysis phase.  Test threads are also described with test paths 
 derived from system behavior.  Software testing methods are highlighted as well as system 
 testing methods.  The primary system testing methods described by the MBSE methodology 
 are summarized in Table 3-6. 
+
 Table 3-6.  System Testing Methods Defined in the Vitech MBSE Methodology. 
+
 Functional Testing 
 Test conditions are set up to ensure that the correct outputs are 
 produced, based upon the inputs of the test conditions.  Focus is on 
 whether the outputs are correct given the inputs (also called “black box” 
 testing). 
+
 Structural Testing 
 Examines the structure of the system and its proper functioning.  Includes 
 such elements as performance, recovery, stress, security, safety, 
 availability.  Some of the less obvious elements are described below. 
+
 Performance 
 Examination of the system performance under a range of nominal 
 conditions, ensures system is operational as well. 
+
 Recovery 
 Various failure modes are created and the system’s ability to return to an 
 operational mode is determined. 
+
 Interface 
 Examination of all interface conditions associated with the system’s 
 reception of inputs and sending of outputs. 
+
 Stress Testing 
 Above-normal loads are placed on the system to ensure that the system 
 can handle them; these above-normal loads are increased to determine 
 the system’s breaking point; these tests proceed for a long period of time 
 in an environment as close to real as possible. 
+
 3.4.2. Tool Support 
+
 There is no process framework tool offered by Vitech Corporation or third party provider 
 that supports the Vitech MBSE methodology.  Vitech does offer an MBSE tool set via its 
 CORE® product suite. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 37 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 3.4.3. Offering/Availability 
+
 In the past, a half-day tutorial on the Vitech MBSE methodology was offered at various 
 INCOSE International Workshops and Symposia [47].  This tutorial was entitled “H0D: 
 Model Based Systems Engineering for Project Success: The Complete Process (PM)” and was 
 taught by James (“Jim”) E. Long.  More detailed, multi-day courses are offered through the 
 Vitech training services (see http://vitechcorp.com/services/). 
+
 3.5 JPL State Analysis (SA) 
+
 3.5.1. Overview 
+
 State Analysis (SA) is a JPL-developed MBSE methodology that leverages a model- and 
 state-based control architecture (see Figure 3-18), where state is defined to be “a 
 representation of the momentary condition of an evolving system,” and models describe 
 how state evolves [40]. 
+
  
+
 Figure 3-18.  Model- and State-Based Control Architecture ("Control Diamond"). 
  
 SA provides a process for capturing system and software requirements in the form of 
@@ -1607,13 +1989,17 @@ is the value of its state variables at the time of interest.  Together, state an
 what is needed to operate a system, predict future state, control toward a desired state, 
 and assess performance. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 38 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Note:  State defined in the context of SA extends the classical control theory definition of 
 state (e.g., spacecraft position and attitude and corresponding rates) to include all aspects 
 of the system that the system engineer is interested in for the purpose of control, and that 
@@ -1623,36 +2009,44 @@ volatile memory) and any other “care abouts” for purposes of control [53].
  
 Given the above definitions of state and state variables, it is useful to articulate the key 
 features of the “Control Diamond” illustrated in Figure 3-18: 
- State is explicit. The full knowledge of the state of the system under control is 
+
+� State is explicit. The full knowledge of the state of the system under control is 
 represented in a collection of state variables. 
- State estimation is separate from state control. Estimation and control are 
+
+� State estimation is separate from state control. Estimation and control are 
 coupled only through state variables.  Keeping these two tasks separate promotes 
 objective assessment of system state, ensures consistent use of state across the 
 system, simplifies the design, promotes modularity, and facilitates implementation in 
 software. 
- Hardware adapters provide the sole interface between the system under 
+
+� Hardware adapters provide the sole interface between the system under 
 control and the control system.  They form the boundary of the state 
 architecture, provide all the measurement and command abstractions used for 
 control and estimation, and are responsible for translating and managing raw 
 hardware input and output. 
- Models are ubiquitous throughout the architecture.  Models are used both for 
+
+� Models are ubiquitous throughout the architecture.  Models are used both for 
 the execution (estimating and controlling state) and higher-level planning (e.g., 
 resource management).  SA requires that the models be documented explicitly, in 
 whatever form is most convenient for the given application. 
- The architecture emphasizes goal-directed closed-loop operation.  Instead of 
+
+� The architecture emphasizes goal-directed closed-loop operation.  Instead of 
 specifying desired behavior in terms of low-level open-loop commands, SA uses 
 goals, which are constraints on state variables over a time interval. 
- The architecture provides a straightforward mapping into software.  The 
+
+� The architecture provides a straightforward mapping into software.  The 
 control diamond elements can be mapped directly into components in a modular 
 software architecture, such as Mission Data System (MDS).13 
  
 In addition to these features of the model- and state-based control architecture on which SA 
 is based, there are a set of three core tenets that serve as guiding principles behind the SA 
 methodology: 
- Control subsumes all aspects of the system operation.  It can be understood and 
+
+� Control subsumes all aspects of the system operation.  It can be understood and 
 exercised intelligently only through models of the system under control.  Therefore, a 
 clear distinction must be made between the control system and the system under 
 control.14 
+
                                            
 13 MDS is an embedded software architecture intended to provide multi-mission information and 
 control architecture for robotic exploration spacecraft [54].  The regular structure of SA is replicated in 
@@ -1662,18 +2056,23 @@ implementation.
 system is aware of the state of the system under control, and it has a model of how the system under 
 control behaves.  The premise of SA is that this knowledge of state and its behavior is complete, i.e., 
 no other information is required to control a system [53]. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 39 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
- Models of the system under control must be explicitly identified and used in a way 
+
+� Models of the system under control must be explicitly identified and used in a way 
 that assures consensus among systems engineers.  Understanding state if 
 fundamental to successful modeling.  Everything we need to know and everything we 
 want to do can be expressed in terms of the state of the system under control. 
- The manner in which models inform software design and operation should be direct, 
+
+� The manner in which models inform software design and operation should be direct, 
 requiring minimal translation. 
  
 The SA methodology defines an iterative process for state discovery and modeling, which 
@@ -1682,10 +2081,13 @@ the State Database compiles information that is traditionally documented in a va
 systems engineering artifacts [55].)   In addition, mechanisms are specified by which the 
 models are used to design software and operations artifacts.  In summary then, SA provides 
 a methodical and rigorous approach for the following three primary activities: 
+
 1. State-based behavioral modeling. Modeling behavior in terms of system state 
 variables and the relationships between them. 
+
 2. State-based software design. Describing the methods by which objectives will be 
 achieved. 
+
 3. Goal-directed operations engineering.  Capturing mission objectives in detailed 
 scenarios motivated by operator intent. 
  
@@ -1707,6 +2109,7 @@ to functional analysis; both approaches add value and reduce risk in the develop
 complex systems. 
  
 Relation to Functional Analysis & Decomposition 
+
 In support of a JPL internal research and development (R&D) activity entitled Model-Based 
 Engineering Design (MBED) with the intent of demonstrating infusion of model-based 
 concepts to engineering design applied to the formulation phase of a space system project 
@@ -1719,48 +2122,68 @@ traditional functional analysis & decomposition that ultimately results in a hie
 functions, physical components (product breakdown structure) and requirements and the 
 linkages between the functional, physical, and requirements hierarchies [58]. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 40 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 What Ingham and his colleagues showed as part of the MBED FY06 effort was that it was 
 possible to augment the functional analysis schema used by the Vitech CORE® MBSE tool 
 (which is patterned after the linkages and elements shown in Figure 3-19, consistent with 
 traditional functional analysis) with the SA elements of state variables, commands, and 
 measurements (see Figure 3-20). 
+
  
+
 Figure 3-19.  Conceptual Layout of Requirements, Functions, and Physical 
 Components.  (Operational Scenarios are also Shown.) 
  
+
  
+
  
+
  
 (a) 
 (b) 
+
 Figure 3-20.  (a) Functional Analysis Elements and Relationships, (b) Elements 
 and Relationships of State Analysis Synthesized with Functional Analysis.15 
  
 This ability to synthesize functional and state analysis as demonstrated under the MBED 
 R&D task for the FY06 year highlighted the complementary nature of these two MBSE 
 methodologies and promises to yield significant benefits, including: 
- Better understanding and documentation of designed behavior 
- Earlier identification of unexpected design challenges 
- Improved traceability to developed software 
- More robust fault protection in the design system 
+
+� Better understanding and documentation of designed behavior 
+
+� Earlier identification of unexpected design challenges 
+
+� Improved traceability to developed software 
+
+� More robust fault protection in the design system 
+
                                            
 15 Although the SA element of goals, is shown as part of the integrated schema in Figure 3-20b, the 
 goal-based operations engineering aspect of SA was not demonstrated. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 41 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Relation to Hazard Analysis 
+
 At the heart of the discipline of system safety is a practice known as Hazard Analysis, where 
 hazard is defined as “a state or set of conditions that, together, with other conditions in the 
 environment, may lead to an accident (loss event)” [59].16  Hazard Analysis is used for 
@@ -1804,22 +2227,30 @@ Specifications [63] and component-based systems engineering [64]] used in concer
 hazard analysis techniques such as STPA provide an integrated approach to system, 
 software, and safety engineering for complex, safety-critical systems [59]. 
  
+
                                            
 16 An accident, as defined by Leveson [60], is “an undesired and unplanned (but not necessarily 
 unexpected) [loss] event that results in (at least) a specified level of loss.”  Safety, in this context, is 
 defined as “freedom from accidents or losses.”  System safety can be measured on a continuum where 
 a system is considered to be either safe (no loss) or at some increasing level of loss. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 42 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Figure 3-21. Integrated Approach to Design for Safety. 
  
+
 3.5.2. Tool Support 
+
 Tool support for State Analysis (SA) is provided by the State Database [55], which utilizes a 
 Structured Query Language (SQL)-compliant relational database management system 
 (RDBMS) such as Oracle® with a front end user interface.  This tool supports developing, 
@@ -1831,7 +2262,9 @@ Specifications, commercial tools such as Specifications Tool and Requirements Me
 (SpecTRM) and the formal requirements language used in that tool, SpecTRM-RL, as well as 
 SpecTRM-GSC (Generic Spacecraft Component) are available from Safeware Engineering 
 (see http://safeware-eng.com/). 
+
 3.5.3. Offering/Availability 
+
 State Analysis (SA) is a JPL-developed MBSE methodology and the offering is available by 
 means of a series of courseware and tutorials offered by SA experts.  These courses are 
 offered through JPL Professional Development on a periodic, as-needed basis, or through 
@@ -1840,15 +2273,21 @@ exercises, access to the State Database tool and supporting training in use of t
 provided.  In March 2008, a full-day tutorial as well as a distilled evening session entitled 
 “State Analysis for Systems Engineers” was offered to members of the Los Angeles Chapter 
 of INCOSE in collaboration with JPL and the California Institute of Technology [65]. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 43 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 3.6 Dori Object-Process Methodology (OPM) 
+
 3.6.1. Overview 
+
 Dori defines the Object-Process Methodology (OPM) as a formal paradigm to systems 
 development, lifecycle support, and evolution [66].  It combines formal yet simple visual 
 models known as Object-Process Diagrams (OPDs) with constrained natural language 
@@ -1863,10 +2302,13 @@ The premise of OPM is that everything in the universe is ultimately either an ob
 process.  At the modeling level, OPM is built on top of three types of entities: objects, 
 processes, and states, with objects and processes being the higher-level building blocks, 
 collectively called things.  OPM formally defines these entities as follows: 
- An object is a thing that exists or has the potential of existence, physically or 
+
+� An object is a thing that exists or has the potential of existence, physically or 
 mentally. 
- A process is a pattern of transformation that an object undergoes. 
- A state is a situation an object can be at. 
+
+� A process is a pattern of transformation that an object undergoes. 
+
+� A state is a situation an object can be at. 
  
 Objects exist, and processes transform the objects by generating, consuming, or affecting 
 them.  States are used to describe (stateful) objects, and are not standalone things.  At any 
@@ -1878,27 +2320,41 @@ indicating they are active, dynamic things.  The symbol for state is a “roundt
 letter.  An elementary example that illustrates a simple OPD and OPL sentences, adapted 
 from the OPM textbook [66], is illustrated in Figure 3-22 below. 
  
+
 OPD 
+
  
+
 OPL 
+
 Person can be single or married. 
+
 Marrying changes Person from single to 
 married. 
+
 Man and Woman are Persons. 
+
 Marrying yields Couple. 
+
 Couple consists of Man and Woman. 
+
  
+
 Figure 3-22.  Simple OPD and OPL Modeling the Process of Marrying, which Yields 
 Couple, which Consists of Man and Woman (in the Traditional Sense), Each Being a 
 Specialization of Person. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 44 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 In this simple visual OPD model, the open triangle that links Person to Man and Woman 
 represents specialization, whereas the filled-in triangle that links Couple to Man and 
 Woman represents aggregation.  Lines with closed arrowheads represent an input-output 
@@ -1947,16 +2403,21 @@ software engineering, the software process, or shortly, process [66].  In OPM, t
 “process” is a reserved word and has a very specific semantics of a thing that transforms 
 and object; hence, OPM refers to the entire lifecycle of systems as system evolution rather 
 than process.  It has a name, however, that retains the word process—“OPM system 
+
                                            
 17 Dori defines system as “an object that carries out or supports a significant function (as opposed to a 
 non-significant function).”   
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 45 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 process,” which prescribes the development and lifecycle support of not just software 
 systems, but systems in general, where software may be a component or a subsystem. 
  
@@ -1982,6 +2443,7 @@ certain concepts.
  
  
 ________________  
+
  
 The System Diagram, which is labeled SD and shown in Figure 3-23, is the top-level 
 specification of the OPM metamodel.  It specifies Ontology, Notation, and the System 
@@ -1997,38 +2459,55 @@ physical and external (environmental) object that controls (is the agent of) the
 This process also requires Ontology and Notation as instruments (inputs) in order to 
 create a System. 
  
+
                                            
 18 Dov Dori, Technion, Israel Institute of Technology (private communication), May 21, 2008. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 46 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 SD 
+
  
+
  
+
 OPM exhibits Ontology and Notation, as 
 well as System Developing. 
+
  
 Notation represents Ontology 
+
  
 System Developing requires 
  
 Notation and Ontology. 
+
  
 System Developing yields 
  
 System. 
+
 User is environmental and physical. 
+
 User handles System Developing. 
+
 Figure 3-23.  The Top Level Specification of the OPM Metamodel. 
  
  
+
 SD1 
+
  
 Figure 3-24.  Zooming into System Developing. 
+
 Note: The thick ellipses used to model key processes (i.e., System Developing and its sub-
 processes Requirement Specifying, Analyzing & Designing, and Implementing) denote in-
 zoomed processes or processes which are in-zoomed in a lower level OPD.19 
@@ -2039,13 +2518,17 @@ their specifications by inspecting the OPL sentences.  These sentences are autom
 generated on the fly in response to the user's graphic input which creates the OPDs [69].  
                                            
 19 Ibid. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 47 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Due to space limitations and the equivalence of OPM graphical and textual notations, we use 
 only the OPD notation in the rest of the paper. 
   
@@ -2060,7 +2543,9 @@ System, which, at this point, consists only of a Requirement Document.  The term
 of Requirement Specifying starts Analyzing & Designing, the next sub-process of 
 System Developing. 
  
+
 The Requirements Specifying Stage 
+
 In SD1.1 (Figure 3-25), Requirement Specifying is zoomed into, showing its four 
 subprocesses.  First, the System Architect and the Client define the problem to be solved 
 by the system (or project).  This Problem Defining step creates the Problem Definition 
@@ -2098,13 +2583,17 @@ in-zoomed process defines the execution order. The sub-processes of a sequential
 depicted in the in-zoomed frame of the process stacked on top of each other with the earlier process 
 on top of a later one.  Analogously, subprocesses of a parallel process appear in the OPD side by side, 
 at the same height. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 48 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Finally, the Requirement Adding process results in the Boolean object “Is Backtracking 
 Required?”, which determines whether System Developing should be restarted.  If so, 
 Development Process Backtracking invokes the entire System Developing.  Otherwise, 
@@ -2112,10 +2601,13 @@ Requirement Specifying terminates, enabling the Analyzing & Designing process to
 begin. 
  
 SD1.1 
+
  
+
 Figure 3-25.  Zooming into Requirement Specifying. 
  
 The Analyzing and Designing Stage 
+
 During the Analyzing & Designing stage, shown in SD1.2 (Figure 3-26), a skeleton of an 
 OPL Script is created from the Requirement Document for the current system.  As 
 noted, in order to make this stage as effective and as automatic as possible, the 
@@ -2135,19 +2627,25 @@ changes OPL Script according to the new OPD-set.  Conversely, OPL Updating (also
 the System Architect) affects the OPL Script, which invokes OPD Generating, reflecting 
 the OPL changes in the OPD-set. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 49 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 SD1.2 
+
  
 Figure 3-26.  Zooming into Analyzing & Designing. 
  
  
 SD1.2.1 
+
  
 Figure 3-27.  Zooming into Analysis & Design Improving. 
  
@@ -2155,13 +2653,17 @@ Since OPM enables modeling system dynamics and control structures, such as event
 conditions, branching, and loops, System Animating simulates an OPD-set, enabling 
 System Architects to dynamically examine the system at any stage of its development.  
 Presenting live animated demonstrations of system behavior reduces the number of design 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 50 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 errors percolated to the implementation phase.  Both static and dynamic testing help detect 
 discrepancies, inconsistencies, and deviations from the intended goal of the system.  As part 
 of the dynamic testing, the simulation enables designers to track each of the system 
@@ -2175,6 +2677,7 @@ Upon termination of the Analysis & Design Improving stage, if needed, the entire
 System Developing process can restart or the Implementing stage begins. 
  
 The Implementing Stage 
+
 The Implementing stage, in-zoomed in SD1.3 (Figure 3-28), begins by defining the 
 Implementation Profile, which includes the target Language (e.g., Java, C++, or SQL) 
 and a default Directory for the artifacts.  Then, the Implementation Skeleton 
@@ -2196,20 +2699,28 @@ requirements that are eventually used when the next generation of the system is 
 A built-in mechanism for recording new requirements in OPM format while using the system 
 would greatly facilitate the evolution of the next system generation [66]. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 51 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 SD1.3 
+
  
 Figure 3-28.  Zooming into Implementing. 
+
  
  
 ____________________________  
+
 3.6.2. Tool Support 
+
 The latest revision of the commercial version at the time of this writing is OPCAT v3.0.  This 
 product supports the concepts described in this section related to the OPM metamodel for 
 the system development process, including modeling support of the System Diagram (SD).  
@@ -2226,19 +2737,26 @@ http://www.opcat.com/downloads/restricted/
 Information about the commercial version of OPCAT as well as product documentation and 
 support and contact information can be found under the official OPCAT website at: 
 http://www.opcat.com/ 
+
 3.6.3. Offering/Availability 
+
 Commercial OPCAT software for OPM systems modeling, systems engineering and lifecycle 
 support, as well as professional services, and education & training can be obtained via: 
 http://www.opcat.com/ 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 52 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 4. Role of OMG™ UML®/SysML™ 
+
 The Unified Modeling Language™ (UML®) and Systems Modeling Language™ (OMG SysML™) 
 are visual modeling language standards managed under the auspices of the Object 
 Management Group™ (OMG™); an open membership, not-for-profit consortium that 
@@ -2253,7 +2771,9 @@ system components.  Together, UML and SysML go a long way to help unify what has
 historically been a communication chasm between the systems and software engineering 
 communities. 
  
+
  
+
 Figure 4-1.  UML 2 and OMG SysML. 
  
 It is important to note that the UML and SysML are not software or systems methodologies 
@@ -2277,15 +2797,21 @@ that more-and-more junior engineers in the discipline of systems and software en
 will be versed in one or both of these visual modeling standards in the coming years. 
  
 Additional information about UML and OMG SysML can be found at the following web sites: 
- http://www.uml.org/ 
- http://www.omgsysml.org/ 
+
+� http://www.uml.org/ 
+
+� http://www.omgsysml.org/ 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 53 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
 Relevance to State Analysis 
  
@@ -2318,8 +2844,11 @@ activity diagrams and state diagrams.  Bock [73],[74] has documented how both UM
 2 specifically) and SysML can be used for activity modeling and how these standards can 
 extended to fully support EFFBDs. 
  
+
 5. Role of OMG™ MDA® and Executable UML Foundation 
+
 5.1 Model-Driven Architecture 
+
 An area of active research in the software architecture modeling community is the OMG’s 
 Model-Driven Architecture® (MDA®) initiative.  MDA reflects OMG’s approach to using 
 models in software development to help achieve the vision of integrated systems and 
@@ -2335,58 +2864,76 @@ As an architectural framework, MDA prescribes certain kinds of models to be used
 those models may be prepared and the relationships of different kinds of models.  To be 
 more precise, these models are actually viewpoint models or views that represent a system 
 from the perspective of a chosen viewpoint.  The MDA framework specifies three viewpoints 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 54 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 on a system, a computation independent viewpoint, a platform21 independent viewpoint, and 
 a platform specific viewpoint [75].  The three viewpoint models (views) that are associated 
 with these viewpoints are briefly described below: 
- Computation Independent Model (CIM) – A view of a system from the computation 
+
+� Computation Independent Model (CIM) – A view of a system from the computation 
 independent viewpoint.  A CIM does not show details of the structure of systems.  A 
 CIM is sometimes called a domain model and a vocabulary that is familiar to the 
 practitioners of the domain in question is used in its specification. 
- Platform Independent Model (PIM) – A view of a system from the platform 
+
+� Platform Independent Model (PIM) – A view of a system from the platform 
 independent viewpoint.  A PIM exhibits a specified degree of platform independence 
 so as to be suitable for use with a number of different platforms of similar type. 
- Platform Specific Model (PSM) – A view of a system from the platform specific 
+
+� Platform Specific Model (PSM) – A view of a system from the platform specific 
 viewpoint.  A PSM combines the specifications in the PIM with the details that specify 
 how that system uses a particular type of platform. 
  
 A graphic depiction of a typical software lifecycle process in applying MDA and how these 
 models relate is depicted in Figure 5-1 [78]. 
  
+
  
  
+
 Figure 5-1.  Applying MDA: Typical (Software) Process. 
   
 As an architectural approach, MDA provides for, and enables tools to be provided for: 
- Specifying a system independently of the platform that supports it 
- Specifying platforms 
- Choosing a particular platform for the system 
- Transforming the system specification into one for a particular platform 
+
+� Specifying a system independently of the platform that supports it 
+
+� Specifying platforms 
+
+� Choosing a particular platform for the system 
+
+� Transforming the system specification into one for a particular platform 
  
                                            
 21 OMG MDA defines a platform as a set of subsystems and technologies that provide a coherent set of 
 functionality through interfaces and specified usage patterns, which any application supported by that 
 platform can use without concern for the details of how the functionality provided by the platform is 
 implemented. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 55 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 There is a great deal more to OMG MDA including metamodeling, model transformation, and 
 pervasive services.  The interested reader is also encouraged to review plethora of white 
 papers, presentations, online materials, and textbooks on the subject. 
  
 A link to the official OMG MDA website can be found at: 
- http://www.omg.org/mda/ 
+
+� http://www.omg.org/mda/ 
  
 More recently, there has been an effort led by Cloutier [78],[79] to investigate the 
 applicability of OMG MDA to the discipline of systems engineering; specifically, model-based 
@@ -2402,6 +2949,7 @@ process is shown in Figure 5-2 along with the various artifacts and deliverables
 with each MDA view, and the applicability of a common model repository and configuration 
 and release tools that would comprise a MBSE tool suite [78]. 
  
+
  
 Figure 5-2.  Applying MDA: Systems Engineering Process. 
  
@@ -2414,13 +2962,17 @@ Also to be considered as part of the CIM view are the system goals, system requi
 (in context), system stakeholder needs, and business rules that impact the system.  This is 
 not an exhaustive list of models that comprise the MBSE CIM view, but some of the more 
 notable ones.  It is expected that an OMG SysML-compliant MBSE tool would be used 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 56 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 capture use case diagrams, and sequence diagrams or activity diagrams that model the 
 mission use cases and mission scenarios. 
  
@@ -2449,7 +3001,9 @@ Cloutier and his colleagues are also investigating emerging patterns for systems
 systems architecture that will enable the application of a high level of system pattern to the 
 CIM view, and the decomposition of that pattern applied at the PIM view.  References to 
 that body of work are cited in the Cloutier paper [79]. 
+
 5.2 Executable UML Foundation 
+
 Another area of active research is Executable UML; technically, Executable UML Foundation 
 [80],[81].  At the time of this writing, this work is managed under the auspices of the 
 OMG’s Analysis and Design (A&D) Platform Task Force, an OMG Platform Technology 
@@ -2469,16 +3023,21 @@ compact subset of UML 2.0 to be known as an “Executable UML Foundation,” alo
 full specification of the execution semantics of this subset.  Here, “computationally 
 complete” means that the subset shall be sufficiently expressive to allow definition of 
 models that can be executed on a computer either through interpretation or as equivalent 
+
                                            
 22 Nicolas Rouquette, Jet Propulsion Laboratory, California Institute of Technology (private 
 communication), Apr. 18, 2008. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 57 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 computer programs generated from models through some kind of transformations.  And 
 “compact subset” means that the selected metamodel should include as small a subset of 
 the UML concepts as is practicable to achieve computational completeness. 
@@ -2502,7 +3061,9 @@ domain-specific engineering analysis.
 Progress on this emerging OMG specification and eventual standard for Executable UML 
 Foundation will be monitored and reported in a future revision of this MBSE methodology 
 survey report. 
+
 6. References 
+
 Additional information regarding the content of this report, including resources that describe 
 the various candidate MBSE methodologies described herein, can be found in this section. 
  
@@ -2542,13 +3103,17 @@ Electronics Engineers, Vol. 1, Issue 1, Jan/Feb 1999.
 [6] 
 MBASE home page, Center for Systems and Software Engineering, University of 
 Southern California, Los Angeles, CA, Aug. 13, 2003. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 58 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 http://sunset.usc.edu/research/MBASE/index.html 
  
 [7] 
@@ -2626,13 +3191,17 @@ Commission, Nov. 15, 2003.
 IEEE Std 15288™-2004, Systems Engineering – System Life Cycle Processes, 
 Institute for Electrical and Electronic Engineers, June 8, 2005. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 59 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 [22] 
 Haskins, Cecilia (ed.), INCOSE Systems Engineering Handbook: A Guide for System 
 Life Cycle Processes and Activities, v. 3, INCOSE-TP-2003-002-03, International 
@@ -2703,13 +3272,17 @@ Hoffmann, Hans-Peter, “Harmony-SE/SysML Deskbook: Model-Based Systems
 Engineering with Rhapsody,” Rev. 1.51, Telelogic/I-Logix white paper, Telelogic AB, 
 May 24, 2006. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 60 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 [35] 
 Lykins, Howard, Friedenthal, Sanford and Abraham Meilich, “Adapting UML for an 
 Object-Oriented Systems Engineering Method (OOSEM),” Proceedings of the INCOSE 
@@ -2782,13 +3355,17 @@ slides, Vitech Corporation, Vienna, VA, Mar. 2007.
 [49] 
 Baker, Loyd Jr. and James E. Long, “Role of System Engineering Across The System 
 Life Cycle,” Vitech white paper, Vitech Corporation, Vienna, VA, Jul. 15, 2000. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 61 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
 [50] 
 Childers, Susan Rose and James E. Long, “A Concurrent Methodology for the System 
@@ -2860,13 +3437,17 @@ NASA Software Safety Standard, NASA Technical Standard, NASA-STD-8719.13B
 w/Change 1, National Aeronautics and Space Administration, Washington, D.D., Jul. 
 8, 2004. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 62 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 [63] 
 Leveson, Nancy G., “Intent Specifications: An Approach to Building Human-Centered 
 Specifications,” IEEE Transactions on Software Engineering, 26, No. 1, Jan. 2000. 
@@ -2931,13 +3512,17 @@ Kleppe, Anneke, Warmer, Jos, and Wim Bast, MDA Explained: The Model-Driven
 Architecture: Practice and Promise, The Addison-Wesley Object Technology Series, 
 Addison-Wesley Professional: Boston, MA, 2003. 
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 63 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 [77] 
 Mellor, Stephen J., Scott, Kendall, Uhl, Axel, and Dirk Weise, MDA Distilled, The 
 Addison-Wesley Object Technology Series, Addison-Wesley Professional: Boston, MA, 
@@ -2962,133 +3547,194 @@ Models, Initial Submission, OMG document ad/06-05-02, Needham, MA, May 27,
 Mellor, Stephen J. and Marc J. Balcer, Executable UML: A Foundation for Model-
 Driven Architecture, The Addison-Wesley Object Technology Series, Addison-Wesley 
 Professional: Boston, MA, 2002. 
+
 7. Acronyms and Abbreviations 
+
 ANSI 
 American National Standards Institute 
+
 CAE 
 Computer Aided Engineering 
+
 CMMI 
 Capability Maturity Model Integrated 
+
 COTS 
 Commercial Off-The-Shelf 
+
 DoD 
 Department of Defense 
+
 DoDD 
 Department of Defense Directive 
+
 DoDI 
 Department of Defense Instruction 
+
 EFFBD 
 Extended Function Flow Block Diagram 
+
 EIA 
 Electronic Industries Alliance 
+
 FDD 
 Functional Design Description 
+
 FDIS 
 Final Draft International Standard 
+
 FMECA 
 Failure Modes and Effects Criticality Analysis 
+
 FOC 
 Full Operational Capability 
+
 FTA 
 Fault Tree Analysis 
+
 IEC 
 International Electrotechnical Commission 
+
 IEEE 
 Institute for Electrical and Electronic Engineers 
+
 INCOSE 
 International Council on Systems Engineering 
+
 IOC 
 Initial Operational Capability 
+
 IPD 
 Integrated Product Development 
+
 IPPD 
 Integrated Product and Process Development 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 64 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 ISO 
 International Organization for Standardization 
+
 ITU 
 International Telecommunication Union 
+
 JPL 
 Jet Propulsion Laboratory 
+
 KSA 
 Knowledge, Skills, and Abilities 
+
 MBED 
 Model-Based Engineering Design 
+
 MBSE 
 Model-Based Systems Engineering 
+
 MDS 
 Mission Data System 
+
 MDSD 
 Model-Driven Systems Development 
+
 NASA 
 National Aeronautics and Space Administration 
+
 NPD 
 NASA Policy Directive 
+
 NPR 
 NASA Procedural Requirement 
+
 OMG 
 Object Management Group 
+
 OOSEM 
 Object-Oriented Systems Engineering Method 
+
 OPM 
 Object-Process Methodology 
+
 PMTE 
 Process, Methods, Tools, and Environment 
+
 RMC 
 Rational Method Composer 
+
 RUP 
 Rational Unified Process 
+
 RUP SE 
 Rational Unified Process for Systems Engineering 
+
 SA 
 State Analysis 
+
 SE 
 Systems Engineering 
+
 SEMP 
 Systems Engineering Management Plan 
+
 STAMP 
 Systems Theoretic Accident Modeling and Process 
+
 STPA 
 STAMP-based Hazard Analysis 
+
 SysML 
 Systems Modeling Language 
+
 UML 
 Unified Modeling Language 
+
 V&V 
 Verification and Validation 
+
 WBS 
 Work Breakdown Structure 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 65 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Appendix 
+
 Main Object-Process Methodology (OPM) concepts, their symbols, and their meaning 
 (adapted from [70]). 
  
  
+
 Table A-1.  ENTITIES 
  
+
 Name  
 Symbol 
 OPL 
 Definition 
+
 Things 
+
 Object 
  
  
  
  
 Process
+
  
 B is physical. 
 (shaded rectangle) 
@@ -3105,6 +3751,7 @@ F is physical and
 environmental. 
 (shaded dashed ellipse) 
  
+
 An object is a thing that 
 exists. 
   
@@ -3116,7 +3763,9 @@ Transformation is object
 generation or consumption, 
 or effect—a change in the 
 state of an object. 
+
 State 
+
 A is s1. 
  
  
@@ -3127,6 +3776,7 @@ C can be s1, s2,
 or s3. 
 s1 is initial. 
 s3 is final. 
+
 A state is situation an object 
 can be at or a value it can 
 assume.  
@@ -3135,41 +3785,61 @@ States are always within an
 object. 
  
 States can be initial or final. 
+
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 66 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
  
+
 Table A-2.  STRUCTURAL LINKS AND 
+
 COMPLEXITY MANAGEMENT 
  
+
 Name  
 Symbol 
 OPL 
 Semantics 
+
  
+
 A consists of 
 B and C. 
+
 Aggregation-
 Participation 
+
  
+
 A consists of 
 B and C. 
+
 A is the whole, B and C are 
 parts. 
+
  
+
 A exhibits B, 
 as well as C.  
+
 Exhibition- 
 Characterizati
 on  
+
  
+
 A exhibits B, 
 as well as C. 
+
 Object B is an attribute of A 
 and process C is its operation 
 (method). 
@@ -3177,34 +3847,46 @@ and process C is its operation
 A can be an object or a 
 process. 
  
+
  
+
 B is an A. 
 C is an A.  
+
 Generalization
 - 
 Specialization 
+
 B is A.  
 C is A. 
+
 A specializes into B and C. 
  
 A, B, and C can be either all 
 objects or all processes. 
+
 Fundamental Structural Relations 
+
 Classification-
 Instantiation 
+
  
+
 B is an 
 instance of A.
 C is an 
 instance of A.
+
 Object A is the class, for which 
 B and C are instances. 
 Applicable to processes too. 
+
 Unidirectional & 
 bidirectional 
 tagged structural 
 links  
   
+
 A relates to 
 B. 
 (for 
@@ -3214,219 +3896,300 @@ A and C are
 related. 
 (for 
 bidirectional) 
+
 A user-defined textual tag 
 describes any structural 
 relation between two objects or 
 between two processes. 
+
 In-zooming 
 A exhibits C. 
 A consists of 
 B. 
 A zooms into 
 B, as well as 
+
 Zooming into process A, B is its 
 part and C is its attribute. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 67 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 C.  
  
+
 A exhibits C. 
 A consists of 
 B. 
 A zooms into 
 B, as well as 
 C.  
+
 Zooming into object A, B is its 
 part and C is its operation. 
+
  
  
+
 Table A-3.  ENABLING AND TRANSFORMING 
+
 PROCEDURAL LINKS 
  
+
 Name  
 Symbol 
 OPL 
 Semantics 
+
 Agent Link 
+
  
+
 A handles 
 B. 
+
 Denotes that the object is a 
 human operator.  
+
 Instrumen
 t Link 
+
  
+
 B requires 
 A. 
+
 "Wait until" semantics: 
 Process B cannot happen if 
 object A does not exist.  
+
 Enabling links 
+
 State-
 Specified  
 Instrumen
 t Link 
  
+
 B requires 
 s1 A. 
+
 "Wait until" semantics: 
 Process B cannot happen if 
 object A is not at state s1. 
+
 Consumpti
 on Link 
  
+
 B consumes 
 A.  
+
 Process B consumes Object 
 A. 
+
 State-
 Specified  
 Consumpti
 on Link 
  
+
 B consumes 
 s1 A. 
+
 Process B consumes Object 
 A when it is at State s1. 
+
 Result Link
+
  
+
 B yields A. 
 Process B creates Object A. 
+
 State-
 Specified 
 Result Link
+
  
  
+
 B yields s1 
 A. 
+
 Process B creates Object A 
 at State s1. 
+
 Transforming links 
+
 Input-
 Output 
 Link Pair 
+
  
+
 B changes 
 A from s1 
 to s2. 
+
 Process B changes the state 
 of Object A from State s1 to 
 State s2. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 68 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Effect Link 
+
  
+
 B affects A. 
+
 Process B changes the state 
 of Object A; the details of 
 the effect may be added at 
 a lower level.  
+
  
  
+
 Table A-4.  EVENT, CONDITION, AND 
+
 INVOCATION PROCEDURAL LINKS 
  
+
 Name 
 Symbol 
 OPL 
 Semantics 
+
 Instrument 
 Event Link 
  
+
 A triggers B. 
 B triggers A. 
+
 Existence or generation of object 
 A will attempt to trigger process 
 B once. Execution will proceed if 
 the triggering failed. 
+
 State-
 Specified  
 Instrument 
 Event Link 
  
+
 A triggers B. 
 when it 
 enters s1. 
 B requires s1 
 A. 
+
 Entering state s1 will attempt to 
 trigger the process once. 
 Execution will proceed if the 
 triggering failed. 
+
 Consumpti
 on  
 Event Link  
+
 A triggers B.  
 B consumes 
 A. 
+
 Existence or generation of object 
 A will attempt to trigger process 
 B once. If B is triggered, it will 
 consume A. Execution will 
 proceed if the triggering failed. 
+
 State-
 Specified 
 Consumpti
 on Event 
 Link 
+
 A triggers B 
 when it 
 enters s2.  
 B consumes 
 s2 A. 
+
 Entering state s2 will attempt to 
 trigger the process once. If B is 
 triggered, it will consume A. 
 Execution will proceed if the 
 triggering failed. 
+
 Condition 
 Link 
+
 B occurs if A 
 exists. 
+
 Existence of object A is a 
 condition to the execution of B.  
 If object A does not exist, then 
 process B is skipped and regular 
 system flow continues. 
+
 State-
 Specified 
 Condition 
 Link 
+
 B occurs if A 
 is s1. 
+
 Existence of object A at state s2 
 is a condition to the execution of 
 B.  
 If object A does not exist, then 
 process B is skipped and regular 
 system flow continues. 
+
 Invocation 
 Link  
+
  
+
 B invokes C. 
+
 Execution will proceed if the 
 triggering failed (due to failure 
 to fulfill one or more of the 
 conditions in the precondition 
 set). 
+
  
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 69 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Acknowledgments 
  
 The author would like to thank Joseph Skipper, Mark Kordon, Ross Jones, Kenny Meyer, 
@@ -3440,23 +4203,30 @@ SE, OOSEM, RUP-SE, Vitech MBSE, and OPM methodologies, respectively.
 The work carried out in this report was carried out at the Jet Propulsion Laboratory, 
 California Institute of Technology under a contract with the National Aeronautics and Space 
 Administration. 
+
+
 INCOSE MBSE Initiative 
+
 Survey of Candidate Model-Based Engineering (MBSE) Methodologies 
 Page 70 of 70 
 Rev. B 
 May 23, 2008 
 INCOSE MBSE Initiative 
  
+
 Document Change Record 
  
+
 Date 
 Revision 
 Description 
 Author(s) 
+
 May 23, 2007 
 A 
 Initial revision. 
 Jeff A. Estefan 
+
 May 23, 2008 
 B 
 1. Updated scope section. 
@@ -3471,5 +4241,9 @@ Dori OPM methodology.
 OMG MDA and Executable UML 
 Foundation. 
 6. Minor editorial updates. 
+
 Jeff A. Estefan 
+
  
+
+

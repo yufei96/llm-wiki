@@ -1,10 +1,3 @@
----
-title: "NAVAIR MOSA Overview"
-source_url: "https://www.navair.navy.mil/MOSA"
-downloaded: 2026-04-26
-type: raw_text
----
-
  is an integrated
 
 business and technical strategy designed to achieve

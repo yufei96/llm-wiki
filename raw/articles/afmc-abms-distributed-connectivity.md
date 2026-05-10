@@ -1,10 +1,3 @@
----
-title: "AFMC ABMS Distributed Connectivity"
-source_url: "https://www.afmc.af.mil/News/Article-Display/Article/4137120/"
-downloaded: 2026-04-26
-type: raw_text
----
-
 Advanced Battle Management System: victory through distributed connectivity
 
 

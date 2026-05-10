@@ -1,10 +1,3 @@
----
-title: "SAM.gov ABMS BAA"
-source_url: "https://sam.gov/workspace/contract/opp/a2b62ff8bd8a4da7996793aacba84ad2/view"
-downloaded: 2026-04-26
-type: raw_text
----
-
 SAM.gov
 
 24 Apr 2024 Call 005, Call Sensors & Cyber Electro Magnetic

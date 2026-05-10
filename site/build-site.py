@@ -163,7 +163,9 @@ def main():
     generate_section_indexes(BUILD_DIR)
 
     # Use overview.md as homepage
-    overview = BUILD_DIR / "overview.md"
+    overview = BUILD_DIR / "概述.md"
+    if not overview.exists():
+        overview = BUILD_DIR / "overview.md"
     if overview.exists():
         shutil.copy2(overview, BUILD_DIR / "index.md")
         print("Copied overview.md → index.md (homepage)")

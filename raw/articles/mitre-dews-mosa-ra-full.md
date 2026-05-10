@@ -1,10 +1,3 @@
----
-title: "MITRE DEWS MOSA Reference Architecture"
-source_url: "https://apps.dtic.mil/sti/trecms/pdf/AD1214114.pdf"
-downloaded: 2026-04-26
-type: raw_text
----
-
 REPORT DOCUMENTATION PAGE
 
 Standard Form 298 (Rev. 8/98) 

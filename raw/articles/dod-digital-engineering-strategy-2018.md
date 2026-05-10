@@ -1,37 +1,62 @@
+  
+
+D I G I TA L  
+
+ E N G I N E E R I N G   
  
-D I G I TA L 
- E N G I N E E R I N G  	
-	
+
  S T R AT E G Y
+
 D E P A R T M E N T  O F  D E F E N S E
+
 J U N E  2 0 1 8
+
 arrows
+
 wings
-Office of the Deputy Assistant Secretary of Defense 
+
+Office of the Deputy Assistant Secretary of Defense  
+
 for Systems Engineering
+
 Washington, D.C.
-ii 	
-	
+
+
+ii  
+ 
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 D E P A R T M E N T  O F  D E F E N S E
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 J U N E  2 0 1 8 
 
-Office of the Deputy Assistant Secretary 
+ 
+Office of the Deputy Assistant Secretary  
 of Defense for Systems Engineering
-Deputy Assistant Secretary of Defense
-Systems Engineering
-3030 Defense Pentagon
-3C167
+
+Deputy Assistant Secretary of Defense 
+Systems Engineering 
+3030 Defense Pentagon 
+3C167 
 Washington, DC 20301-3030
-E-mail: osd.atl.asd-re.se@mail.mil
+
+E-mail: osd.atl.asd-re.se@mail.mil 
 Website: www.acq.osd.mil/se
-Distribution Statement A: 
+
+Distribution Statement A:  
 Approved for public release. Distribution is unlimited. 
-	
-	
+
+ 
+ 
 iii
+
+
 Foreword 
+
 In the Department of Defense (DoD) National Defense Strategy of 2018, Secretary 
 of Defense James Mattis encouraged all of us to adopt new practices to achieve 
 greater performance and affordability to meet current and future challenges. 
@@ -41,6 +66,7 @@ that has legacy systems irrelevant to the defense of our people.  In order to me
 the National Defense Strategy’s lines of effort, we must modernize our defense 
 systems and prioritize speed of delivery to be able to fight and win the wars of 
 the future.
+
 One way we can do this is by incorporating the use of digital computing, 
 analytical capabilities, and new technologies to conduct engineering in more 
 integrated virtual environments to increase customer and vendor engagement, 
@@ -49,6 +75,7 @@ of documentation, and impact sustainment affordability. These comprehensive
 engineering environments will allow DoD and its industry partners to evolve 
 designs at the conceptual phase, reducing the need for expensive mock-ups, 
 premature design lock, and physical testing. 
+
 This DoD Digital Engineering Strategy outlines the Department’s five strategic 
 goals for the digital engineering initiative. The goals promote the use of digital 
 representations of systems and components and the use of digital artifacts 
@@ -57,118 +84,175 @@ The strategy addresses a range of disciplines involved in the acquisition and
 procurement of national defense systems, and it encourages innovation in the way 
 we build, test, field, and sustain our national defense systems and how we train 
 and shape the workforce to use these practices.  
+
 This strategy is the result of extensive research and collaboration among the 
 DoD Components and academic partners, as well as interactions with industry, 
 professional societies, and defense acquisition associations. The possibilities these 
 digital practices bring arise from years of effort and advancements in technical, 
 legal, and social sciences. The practices have demonstrated their usefulness in 
 engineering-related tasks and in many areas of DoD operations. 
+
 This strategy describes the “what” necessary to foster the use of digital 
 engineering practices. Those implementing the practices must develop the 
 “how” — the implementation steps necessary to apply digital engineering in 
 each enterprise. The Services should develop corresponding digital engineering 
 implementation plans during 2018 to ensure the Department advances this timely 
 and imperative effort.
-Michael D. Griffin 
+
+Michael D. Griffin  
 Under Secretary of Defense for Research and Engineering
+
 arrows
+
 wings
+
 Michael D. Griffin
+
 Under Secretary of 
 Defense for Research 
 and Engineering
 U.S. Department of 
 Defense
-iv 	
-	
+
+iv  
+ 
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 Ms. Kristen Baldwin
+
 Acting Deputy Assistant Secretary of Defense for 
 Systems Engineering (DASD(SE))
+
 Mr. Jeff Stanley
+
 Deputy Assistant Secretary of the Air Force for 
-Science, Technology, and Engineering, 
+Science, Technology, and Engineering,  
 Office of the Assistant Secretary of the Air Force for 
 Acquisition and Logistics
+
 COL Robert H. Kewley Jr.
-Acting Executive Director,
-Office of the Chief Systems Engineer
-HQDA Assistant Secretary of the Army 
+
+Acting Executive Director, 
+Office of the Chief Systems Engineer 
+HQDA Assistant Secretary of the Army  
 (Acquisition, Logistics and Technology) (ASA(ALT))
+
 Mr. William Bray
+
 Deputy Assistant Secretary of the Navy for 
 Research, Development, Test and Evaluation 
 (DASN(RDT&E))
-	
-	
+
+ 
+ 
 v
+
 “Advancements in computing, modeling, data management, and analytical capabilities offer great 
 opportunities for the engineering practice. Applying these tools and methods, we are shifting 
 toward a dynamic digital engineering ecosystem. This digital engineering transformation is 
 necessary to meet new threats, maintain overmatch, and leverage technology advancements.”
-“Digital Engineering is the fundamental component to enable the U.S. Air Force to rapidly 
-make informed decisions to facilitate agile acquisition and Rapid fielding of dominant 
+
+“Digital Engineering is the fundamental component to enable the U.S. Air Force to rapidly  
+make informed decisions to facilitate agile acquisition and Rapid fielding of dominant  
 weapon systems for the warfighter.”
+
 “Rapidly evolving threats, warfighting concepts, and technologies require us to innovate, 
 engineer, and integrate quickly. Authoritative and accessible data, models, and architectures 
 must underpin modernization.”
+
 “Digital engineering approaches and methods are a key enabler to delivery of affordable 
-capability to the warfighter with speed and lethality. The Department of the Navy has 
-proactively embraced digital engineering and believes it is the way we must execute 
+capability to the warfighter with speed and lethality. The Department of the Navy has  
+proactively embraced digital engineering and believes it is the way we must execute  
 business in the 21st century.”
-vi 	
-	
+
+
+vi  
+ 
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 CONTENTS
-	
-I.	 Introduction........................................................................................................................................ 1	
-	 II.	 Purpose................................................................................................................................................ 2	
-	 III.	 Vision.................................................................................................................................................... 3	
-	 IV.	 Goal Summary...................................................................................................................................4	
-	 V.	 Goals and Focus Areas.................................................................................................................. 5
-1.	 Formalize the development, integration 
-and use of models to inform enterprise 
-and program decision making............................................................................................. 5
-2.	 Provide an enduring, authoritative 
-source of truth............................................................................................................................ 8
-3.	 Incorporate technological innovation 
-to improve the engineering practice................................................................................12
-4.	 Establish a supporting infrastructure 
-and environments to perform activities, 
-collaborate, and communicate across 
-stakeholders...............................................................................................................................15
-5.	 Transform the culture and workforce to 
-adopt and support digital engineering 
-across the lifecycle..................................................................................................................19
-	VI.	 Next Steps........................................................................................................................................24
-	VII.	 Conclusion........................................................................................................................................25
-	
-	 Appendix – Summary of Goals and 
-	
-	 Focus Areas......................................................................................................................................26
+
+ 
+I. Introduction ........................................................................................................................................ 1 
+
+ II. Purpose ............................................................................................................................................... 2 
+ III. Vision .................................................................................................................................................... 3 
+ IV. Goal Summary ..................................................................................................................................4 
+ V. Goals and Focus Areas ................................................................................................................. 5
+
+1. Formalize the development, integration  
+
+and use of models to inform enterprise  
+and program decision making ............................................................................................. 5
+
+2. Provide an enduring, authoritative  
+
+source of truth ........................................................................................................................... 8
+
+3. Incorporate technological innovation  
+
+to improve the engineering practice ...............................................................................12
+
+4. Establish a supporting infrastructure  
+
+and environments to perform activities,  
+collaborate, and communicate across  
+stakeholders ..............................................................................................................................15
+
+5. Transform the culture and workforce to  
+
+adopt and support digital engineering  
+across the lifecycle ..................................................................................................................19
+
+ VI. Next Steps ........................................................................................................................................24
+
+ VII. Conclusion .......................................................................................................................................25
+
+ 
+ Appendix – Summary of Goals and  
+
+ 
+ Focus Areas .....................................................................................................................................26
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 vii
-viii  	
-	
-viii  	
-	
-	
-	
+
+
+viii   
+ 
+viii   
+ 
+
+
+ 
+ 
 1
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 1
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 I. INTRODUCTION
+
 T
-	he U.S. Department of Defense (DoD) 
+
+ he U.S. Department of Defense (DoD) 
 requires robust engineering practices 
 to develop the weapon systems 
+
 the Nation needs to maintain superiority 
 against threats from adversaries 
 worldwide. Traditionally, the Department 
@@ -189,6 +273,7 @@ engineering methods hinder meeting
 the demands of exponential technology 
 growth, complexity, and access to 
 information. 
+
 To help ensure continued U.S. 
 technological superiority, the Department 
 is transforming its engineering practices 
@@ -196,10 +281,12 @@ to digital engineering, incorporating
 technological innovations into an 
 integrated, digital, model-based approach. 
 The Department seeks to advance the 
+
 state of engineering practice to support 
 lifecycle activities while shaping the 
 culture and workforce to innovate, 
 experiment, and work more efficiently. 
+
 Digital technologies have revolutionized 
 business across most major industries, 
 and our personal life activities. Through 
@@ -213,6 +300,7 @@ approach can enable DoD programs to
 prototype, experiment, and test decisions 
 and solutions in a virtual environment 
 before they are delivered to the warfighter. 
+
 Digital engineering will require new 
 methods, processes, and tools, which 
 will change the way the engineering 
@@ -226,14 +314,21 @@ transformation offers similar positive
 changes for business operations including 
 acquisition practices, legal requirements, 
 and contracted activities.
+
 arrows
+
 wings
-2  	
-	
+
+
+2   
+ 
+
 T
-	he DoD Office of the Deputy 
+
+ he DoD Office of the Deputy 
 Assistant Secretary of Defense for 
 Systems Engineering (ODASD(SE)) 
+
 developed this strategy in cooperation 
 with stakeholders across government, 
 industry, and academia. The strategy 
@@ -247,6 +342,7 @@ and external to the DoD, including the
 Defense Industrial Base, to maintain 
 communication and alignment on the 
 implementation of this strategy.
+
 The strategy is intended to guide 
 the planning, development, and 
 implementation of the digital engineering 
@@ -255,6 +351,7 @@ DoD Components continue to make
 progress  in digital engineering, this 
 document will help align implementation 
 efforts across the Department. 
+
 This strategy does not intend to be 
 prescriptive. It is designed to foster 
 shared vision and ignite timely and 
@@ -265,36 +362,63 @@ plans, which will provide a roadmap
 and objectives for achieving the goals. 
 ODASD(SE) will lead and coordinate 
 actions shown in Figure 1.
-II.	 PURPOSE
+
+II. PURPOSE
+
 Figure 1: ODASD(SE) Digital Engineering Leadership Role
-	
-	
+
+
+ 
+ 
 3
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 T
-	he DoD vision for digital engineering 
+
+ he DoD vision for digital engineering 
 is to modernize how the Department 
 designs, develops, delivers, operates, 
+
 and sustains systems. DoD defines digital 
+
 engineering as an integrated digital 
+
 approach that uses authoritative sources 
+
 of system data and models as a continuum 
+
 across disciplines to support lifecycle 
+
 activities from concept through disposal. 
+
 DoD’s approach is to securely and safely 
+
 connect people, processes, data, and 
+
 capabilities across an end-to-end digital 
+
 enterprise. This will enable the use of 
+
 models throughout the lifecycle to digitally 
+
 represent the system of interest (i.e., system 
+
 of systems, systems, processes, equipment, 
+
 products, parts) in the virtual world. DoD 
+
 will incorporate technologies such as 
+
 advanced computing, big data analytics, 
-artificial intelligence, autonomous 
+
+artificial intelligence, autonomous  
+
 systems, and robotics to improve the 
+
 engineering practice. 
+
 Digital engineering will enable 
 stakeholders to interact with digital 
 technologies and solve problems in new 
@@ -318,15 +442,22 @@ communication, increased understanding
 of and confidence in the system design, 
 and a more efficient engineering process 
 (Figure 2).
+
 III. VISION
+
 Figure 2: Digital Engineering Expected Benefits
-4  	
-	
+
+
+4   
+ 
+
 IV. GOAL SUMMARY
-4.	Establish a supporting infrastructure 
+
+4. Establish a supporting infrastructure 
+
 and environments to perform 
 activities, collaborate, and 
-communicate across stakeholders. 
+communicate across stakeholders.  
 This goal promotes the establishment of 
 robust infrastructure and environments 
 to support the digital engineering 
@@ -335,24 +466,30 @@ technology (IT) infrastructure and
 advanced methods, processes, and 
 tools, as well as collaborative trusted 
 systems that enforce protection of 
-intellectual property, cybersecurity, 
+intellectual property, cybersecurity,  
 and security classification. 
-5.	 Transform the culture and workforce to 
+
+5. Transform the culture and workforce to 
+
 adopt and support digital engineering 
-across the lifecycle. 
+across the lifecycle.  
 The final goal incorporates best 
-practices of change management 
+practices of change management  
 and strategic communications to 
 transform the culture and workforce. 
-Focused efforts are needed to lead 
+Focused efforts are needed to lead  
 and execute the change, and support 
-the organization’s transition to 
+the organization’s transition to  
 digital engineering.
+
 F
-	igure 3 illustrates the five goals 
-	that make up the digital engineering 	
-	strategy. 
-1.	 Formalize the development, 
+
+ igure 3 illustrates the five goals  
+ that make up the digital engineering  
+ strategy. 
+
+1. Formalize the development, 
+
 integration, and use of models to 
 inform enterprise and program 
 decision making. The first goal 
@@ -361,13 +498,15 @@ development and use of models as an
 integral part of performing engineering 
 activities as a continuum across the 
 lifecycle. Such ubiquitous use of 
-models will result in a continuous 
+models will result in a continuous  
 end-to-end digital representation of 
-the system of interest. This will 
+the system of interest. This will  
 support consistent analysis and 
 decision making for programs and 
 across the enterprise.
-2.	Provide an enduring, authoritative 
+
+2. Provide an enduring, authoritative 
+
 source of truth. This goal moves the 
 primary means of communication from 
 documents to digital models and data. 
@@ -378,7 +517,9 @@ digital models and data. As a result,
 authorized stakeholders have the 
 current, authoritative, and consistent 
 information for use over the lifecycle. 
-3.	Incorporate technological innovation 
+
+3. Incorporate technological innovation 
+
 to improve the engineering practice. 
 This goal extends beyond the 
 traditional model-based approaches 
@@ -388,12 +529,17 @@ engineering approaches also supports
 rapid implementation of innovations 
 within a connected digital end-to-end 
 enterprise.
+
 Figure 3: Digital Engineering Goals
-	
-	
+
+
+ 
+ 
 5
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 Models can provide a precise and versatile 
 representation of a system, phenomenon, 
 entity, or process. In early phases of the 
@@ -403,6 +549,7 @@ them. Over a solution’s lifecycle, models
 mature and can become useful replicates 
 to physical counterparts for virtual testing 
 and logistics sustainment support.
+
 This goal focuses on the formalized 
 application of modeling to support all 
 the system lifecycle phases from concept 
@@ -418,11 +565,15 @@ discarding and redeveloping models, the
 collection of models evolves from one 
 phase to the next. As a result, models live 
 throughout the life span of the system.
+
  
-1.1	 Formalize the planning for 
+
+1.1 Formalize the planning for 
+
 models to support engineering 
 activities and decision making 
 across the lifecycle
+
 DoD organizations will develop formal 
 plans for model creation, curation, 
 integration, and related program 
@@ -432,16 +583,26 @@ describe how models will be realized in
 a coherent and effective manner as work 
 activities are performed, and as analyses 
 and decisions are supported.
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
-G O A L  1 :
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+G O A L  1 : 
+
 Formalize the Development, Integration, and Use of Models to Inform 
+
 Enterprise and Program Decision Making
-Figure 4: Examples of Models Connected 
+
+Figure 4: Examples of Models Connected  
+
 via the Authoritative Source of Truth
-6  	
-	
+
+
+6   
+ 
+
 Formally develop plans to digitally 
 represent the system of interest
+
 DoD organizations will formally develop 
 and implement plans to digitally 
 represent the system of interest. This 
@@ -458,26 +619,36 @@ the foundational quality standards and
 rules (e.g., syntax, semantics, lexicons, 
 standards, etc.) that model development 
 will be expected to adhere to.
+
 USS Ford (CVN-78) 
 is the first ship to 
 be fully designed 
 using a full-scale 
 three-dimensional 
 (3-D) product model. 
+
 During the design process, the 
 shipbuilders, with the integration and 
 use of 3-D models, found hidden value 
 in every square inch of the ship, saving 
 the Navy a projected $4 billion in 
-ownership costs over the ship’s 
+ownership costs over the ship’s  
 50-year lifespan.
-Next Generation Aircraft Carriers – 
+
+Next Generation Aircraft Carriers –  
+
 USS Ford (CVN-78)
+
 EXAMPLE: Formalize Development, 
+
 Integration and Use of Models (Goal 1)
+
 U . S .  N A V Y
-1.2	 Formally develop, integrate, 
+
+1.2 Formally develop, integrate,  
+
 and curate models 
+
 DoD organizations will use model 
 formalisms to aid in the development, 
 integration, and curation of models. 
@@ -488,8 +659,10 @@ identify and maintain an approach that
 integrates models generated by all 
 stakeholders to digitally represent the 
 system of interest throughout the lifecycle.
+
 Develop and ensure models are accurate, 
 complete, trusted, and reusable
+
 Models will be developed according to 
 policy, guidance, standards, and model 
 formalisms. The DoD organizations will 
@@ -501,9 +674,11 @@ reviews, audits, and trust, based on
 validation and verification attributes, are 
 essential to effective collaboration and 
 the system of interest’s evolution. 
+
 Integrate and curate models across 
 disciplines to support cohesive model-
 driven lifecycle activities
+
 The collaborative lifecycle efforts will be 
 supported by an integrated set of models. 
 Models will be constructed to become 
@@ -513,16 +688,24 @@ from concept through disposal. Model
 integration and curation should adhere 
 to plans to capture and communicate 
 information to decision makers.
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 7
+
 USS Ford (CVN-78)
-1.3	 Use models to support 
+
+1.3 Use models to support 
+
 engineering activities and 
 decision making across the 
 lifecycle
+
 Models will be used as the basis for 
 defining, evaluating, comparing, and 
 optimizing alternatives and making 
@@ -530,9 +713,11 @@ decisions. The models will span all
 disciplines and will provide a unified 
 representation that enables concurrent 
 engineering and other program activities.
+
 Use models to communicate, 
 collaborate, and perform model-driven 
 lifecycle activities
+
 Models are used to answer questions, 
 reason about the solution, support 
 decisions, and communicate clearly and 
@@ -546,8 +731,11 @@ and automated transformations,
 whenever possible. Instructions will be 
 prepared in support of collaboration to 
 ensure accurate use and operation.
-8  	
-	
+
+
+8   
+ 
+
 This goal provides the authoritative 
 source of truth for stakeholders across 
 organizations to access, manage, 
@@ -565,8 +753,11 @@ ability to collaboratively work within and
 through the authoritative source of truth 
 using shared knowledge and resources 
 across the lifecycle. 
-2.1	 Define the authoritative source 
+
+2.1 Define the authoritative source 
+
 of truth
+
 The authoritative source of truth captures 
 the current state and the history of the 
 technical baseline. It serves as the central 
@@ -581,6 +772,7 @@ source of truth will propagate throughout
 the digital design model to all affected 
 systems and functions.  Properly 
 maintaining the authoritative source 
+
 of truth will mitigate the risk of using 
 inaccurate model data, and support 
 effective control of the current and 
@@ -588,8 +780,10 @@ historic configuration data files. The goal
 is to enable delivery of the right data to 
 the right person for the right use at the 
 right time. 
+
 Plan and develop the authoritative 
 source of truth
+
 The realization of the authoritative 
 source of truth requires up-front planning 
 and use of models addressed in Goal 1. 
@@ -612,16 +806,25 @@ In addition, the authoritative source of
 truth will provide the technical elements 
 for creating, updating, retrieving, and 
 integrating models and data. 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
-G O A L  2 :
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+G O A L  2 : 
+
 Provide an Enduring, Authoritative Source of Truth 
-	
-	
+
+
+ 
+ 
 9
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-2.2	Govern the authoritative 
+
+2.2 Govern the authoritative  
+
 source of truth
+
 Organizations will establish policies and 
 procedures to ensure proper use of the 
 authoritative source of truth. Governance 
@@ -637,10 +840,13 @@ compliance with the organization and
 business rules. Governance processes 
 will help stakeholders resolve issues, 
 ensure consistency and accuracy of the 
+
 authoritative source of truth, and enable 
 stakeholders to make data-driven decisions.
+
 Establish access and controls for the 
 authoritative source of truth
+
 Establishing access and controls is 
 necessary to ensure authorized users have 
 access to the right information at the right 
@@ -654,11 +860,16 @@ from unauthorized users.  Maintaining
 access and control criteria can ensure 
 information will be appropriately created, 
 managed, protected, and retained.
+
 Figure 5: Authoritative Source of Truth
-10  	
-	
+
+
+10   
+ 
+
 Execute governance of the authoritative 
 source of truth
+
 An effective and robust governance 
 process involves responsibilities at 
 various levels. Managing policies, 
@@ -669,8 +880,11 @@ quality across the lifecycle. Executing
 governance should result in increased 
 stakeholder confidence in the integrity of 
 the authoritative source of truth.
-2.3	Use the authoritative source of 
+
+2.3 Use the authoritative source of 
+
 truth across the lifecycle
+
 The authoritative source of truth will 
 be used to develop, manage, and 
 communicate information about systems 
@@ -682,8 +896,10 @@ artifacts. The authoritative source of truth
 will equip programs with enterprise-wide 
 knowledge needed to plan, design, and 
 sustain systems.
+
 Use the authoritative source of truth as 
 the technical baseline 
+
 Stakeholders should use the authoritative 
 source of truth to make informed and 
 timely decisions to manage cost, schedule, 
@@ -696,9 +912,11 @@ to the development, operation, and
 execution of the system, thereby avoiding 
 technical and management barriers to 
 mission success.
+
 Use the authoritative source of truth 
 to produce digital artifacts, support 
 reviews, and inform decisions
+
 As the technical baseline matures, 
 preserving the knowledge across 
 programs and lifecycle phases is essential. 
@@ -711,7 +929,9 @@ from the authoritative source of truth.
 Digital artifacts provide visibility of 
 appropriate information across functional 
 domains, disciplines, and organizations. 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
 The Army is 
 implementing a 
 lifecycle approach 
@@ -719,6 +939,7 @@ for the extensive and
 complex product 
 data required in the 
 engineering design, 
+
 acquisition, and sustainment of military 
 systems. The Lifecycle Product Data 
 Management and enterprise Product 
@@ -727,18 +948,28 @@ system provides an authoritative
 source of truth that Army will use to 
 manage all weapon system and end 
 item data throughout the lifecycle.
+
 Lifecycle Product Data Management 
 (LPDM) and Enterprise Product Data 
+
 Management (LPDM/ePDM)
+
 EXAMPLE: Provide and Enduring 
+
 Authoritative Source of Truth (Goal 2)
+
 U . S .  A R M Y
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 11
+
 Collaborate and communicate using the 
 authoritative source of truth
+
 The authoritative source of truth will 
 enable teams to work collaboratively, 
 with access to up-to-date models, 
@@ -760,6 +991,7 @@ propose alternative solutions, collaborate
 between teams, and promote reuse and 
 increase productivity, while analyzing the 
 impact of change. 
+
 •  Information Technology
 •  Lifecycle Logistics
 •  Production, Quality & Manufacturing
@@ -768,6 +1000,7 @@ impact of change.
 •  Science & Technology 
  Management
 •  Test & Evaluation
+
 •  Auditing
 •  BusinessCost Estimating
 •  Business Financial Management
@@ -776,10 +1009,15 @@ impact of change.
 •  Facilities Engineering
 •  Industrial Contract Property 
  Management
-12  	
-	
-G O A L  3
+
+
+12   
+ 
+
+G O A L  3 
+
 Incorporate Technological Innovation to Improve the Engineering Practice
+
 This goal is designed to enable DoD 
 organizations to maintain technological 
 superiority by innovating rapidly and 
@@ -799,12 +1037,16 @@ leverage technologies that learn, adapt,
 and act autonomously. Figure 6 illustrates 
 examples that will enable a digitally 
 connected enterprise and drive innovation 
+
 to transform the practice of engineering. 
 Examples include advanced computing, 
 big data analytics, artificial intelligence, 
 autonomous systems, robotics, and so on.
-3.1	 Establish an end-to-end digital 
+
+3.1 Establish an end-to-end digital 
+
 engineering enterprise 
+
 DoD’s vision is to have an engineering 
 enterprise that connects the digital 
 and physical worlds across a system’s 
@@ -817,12 +1059,18 @@ activities from concept to disposal. In the
 earlier phases of the lifecycle, the focus 
 is on evaluating concepts, engaging the 
 user, and identifying tradeoffs using a 
+
 Figure 6: Technological Innovation Examples
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 13
+
 The A-10 aircraft was 
 designed in the 1970s 
 using 2-D drawings. 
@@ -830,6 +1078,7 @@ The A-10 Wing
 Replacement Program 
 (WRP) infused 3-D 
 model-based design 
+
 (MBD). The program developed 
 approximately 10,000 unique models 
 that required new methods to allow 
@@ -842,11 +1091,17 @@ A-10 to construct the digital thread for
 the sustainment phase of the lifecycle 
 and identify the authoritative source 
 of truth for A-10 engineering data.
+
 A-10 Thunderbolt II
+
 EXAMPLE: Incorporate Technological 
+
 Innovation (Goal 3)
+
 U . S .  A I R  F O R C E
+
 A-10 Thunderbolt II
+
 digital representation of the system of 
 interest.  Later in the lifecycle, the focus is 
 on production, delivery and sustainment 
@@ -855,10 +1110,14 @@ evolve the digital representation
 alongside the end item, gaining 
 continuous insight and knowledge from 
 the operational environment. 
-14  	
-	
+
+
+14   
+ 
+
 Infuse technological innovations to 
 enable the end-to-end digital enterprise
+
 DoD’s strategy is to improve its 
 technology insertion processes to support 
 cutting-edge technology infusion that 
@@ -871,9 +1130,12 @@ enterprise. DoD will implement rigorous
 processes to support cost-effective 
 technology development and selection 
 decisions. 
-3.2	Use technological innovations to 
+
+3.2 Use technological innovations to 
+
 improve the digital engineering 
 practice 
+
 Advances in data analytics can help gain 
 greater insights from existing model data. 
 Stakeholders should use technological 
@@ -886,8 +1148,10 @@ communicate and collaborate with each
 other and with humans, and will use the 
 strengths of both humans and machines 
 to improve the engineering practice. 
+
 Make use of data to improve awareness, 
 insights, and decision making
+
 There has been an exponential growth 
 of data from various formats, data 
 structures, and sources. Technological 
@@ -896,6 +1160,7 @@ now make it possible to not only to help
 warfighters on the battlefield but also to 
 make better use of the vast and growing 
 amount data across each phase of the 
+
 lifecycle to help inform the lifecycle 
 processes. DoD’s vision is to build an 
 enterprise capability that securely 
@@ -906,7 +1171,9 @@ continuously assessing data as the design
 evolves, potential improvements and 
 options can be compared and optimized 
 in short periods of time.
+
 Advance human-machine interactions 
+
 Realizing an end-to-end digital enterprise, 
 automating tasks and processes, and 
 making smarter, faster decisions all 
@@ -931,13 +1198,19 @@ awareness of these technologies,
 evaluating opportunities to pilot them, 
 and demonstrating options for creating 
 value with them.
+
  
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
-	
-	
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
+ 
+ 
 15
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 This goal focuses on building digital 
 engineering infrastructures and 
 environments to support all of the 
@@ -954,33 +1227,46 @@ a more consolidated, collaborative
 trusted environment. DoD will provide 
 infrastructure solutions at the enterprise 
 and program level that support realization 
-G O A L  4
+
+G O A L  4 
+
 Establish a Supporting Infrastructure and Environments to Perform 
+
 Activities, Collaborate, and Communicate Across Stakeholders
+
 of the digital engineering objectives. 
 Figure 7 shows core elements of the 
-infrastructures and environments 
+infrastructures and environments  
 that will keep pace with technology, 
 enhance cybersecurity and intellectual 
 property protections, and improve 
 information sharing. 
-4.1	 Develop, mature, and use digital 
+
+4.1 Develop, mature, and use digital 
+
 engineering IT infrastructures
+
 Digital engineering IT infrastructures 
 include a collection of hardware, software, 
 networks, and related equipment. 
 They span geographical locations and 
 organizations, and they must satisfy 
 security requirements. Digital engineering 
+
 Figure 7: Digital Engineering Infrastructure & Environments
-16  	
-	
-IT infrastructures are a crucial enabler 
+
+
+16   
+ 
+
+IT infrastructures are a crucial enabler  
 and foundation for advancing the state of 
 the practice. 
+
 Provide secure connected information 
 networks to perform digital engineering 
 activities
+
 Reliable, available, secure, and connected 
 information networks are necessary to 
 perform digital engineering activities 
@@ -993,8 +1279,10 @@ of truth. The networks help improve
 collaboration, enhance learning, facilitate 
 information sharing, and enable data-
 driven decision making. 
+
 Provide hardware and software to 
 perform digital engineering activities
+
 The DoD will plan, resource, and deploy 
 digital engineering hardware and 
 software solutions to meet the needs 
@@ -1009,8 +1297,11 @@ enterprise. The DoD, will incorporate
 adoption of commercial cloud platforms, 
 technologies, and Service solutions when 
 appropriate. 
-4.2	Develop, mature, and use digital 
+
+4.2 Develop, mature, and use digital 
+
 engineering methodologies
+
 Effective use of a model-based enterprise 
 requires transforming from a document-
 based approach to a digital approach. 
@@ -1020,10 +1311,12 @@ and deliver solutions. To take advantage
 of technical capabilities, the DoD must 
 evolve in the way engineers work, 
 manage, engineer, and deliver solutions.  
+
 Develop, mature, and implement 
 methods and processes to support 
 digital engineering activities across the 
 enterprise and lifecycle 
+
 The DoD will support this effort by 
 developing, maturing, and implementing 
 engineering methods and processes 
@@ -1038,8 +1331,10 @@ authoritative sources of truth, formalized
 modeling, workforce, and cultural 
 opportunities to improve quality, 
 productivity, and acquisition efficiency. 
+
 Develop, mature, and implement digital 
 engineering tools
+
 The DoD will evaluate and identify 
 digital engineering tools for stakeholders 
 based on current and future needs. 
@@ -1048,11 +1343,16 @@ enterprise-ready solutions that meet
 the requirements of stakeholders across 
 disciplines and domains. Stakeholders 
 should consider license agreements 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 17
+
 and data exchange requirements when 
 selecting tools. DoD’s strategy is to 
 focus on standards, data, formats, and 
@@ -1067,6 +1367,7 @@ maturing, and implementing innovative
 digital engineering tools will help bind 
 people and technology in ways that 
 increase engineering efficiency.
+
 ERS is a DoD joint program to 
 develop an integrated suite of modern 
 computational engineering tools 
@@ -1081,14 +1382,23 @@ designs using the ERS tools. ERS
 uses cost versus capability analysis to 
 determine the affordable capability 
 space for a future surface combatant.
+
 Engineered Resilient Systems (ERS)
+
 EXAMPLE: Establish Infrastructure 
+
 and Environments (Goal 4)
+
 J O I N T
-18  	
-	
-4.3	Secure IT infrastructure and 
+
+
+18   
+ 
+
+4.3 Secure IT infrastructure and 
+
 protect intellectual property
+
 The digital engineering transformation 
 relies on the protection of models and 
 data classification, availability, and 
@@ -1101,8 +1411,10 @@ and industrial base will ensure intellectual
 property and sensitive information are 
 protected, while promoting collaboration 
 between industry and government. 
+
 Secure IT infrastructure while facilitating 
 realization of digital engineering goals
+
 The DoD will integrate cybersecurity into 
 all phases of digital engineering planning 
 and execution. Digital engineering 
@@ -1119,9 +1431,11 @@ Methods, processes, and tools will be
 updated and developed to address the 
 unique challenges of collaboration among 
 different networks and levels of security. 
+
 Protect intellectual property while using 
 models to collaborate throughout a 
 program lifecycle
+
 The DoD will update its methods, 
 processes, and tools to enable data 
 and model exchanges while protecting 
@@ -1138,12 +1452,17 @@ information while simultaneously
 facilitating the free flow of relevant 
 information throughout the lifecycle 
 between stakeholders. 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
-	
-	
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
+ 
+ 
 19
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 The fifth goal takes a deliberate and 
 systematic approach to planning, 
 implementing, and supporting the DoD’s 
@@ -1156,9 +1475,13 @@ shared values, beliefs, and behaviors of
 an organization. These norms and beliefs 
 fundamentally influence how people 
 behave and perform operations. 
-G O A L  5
+
+G O A L  5 
+
 Transform the Culture and Workforce to Adopt and Support Digital 
+
 Engineering Across the Lifecycle
+
 To succeed at implementing digital 
 engineering, the DoD needs to make 
 a deliberate effort to transform the 
@@ -1167,11 +1490,17 @@ Some of these efforts include training,
 education, strategic communication, 
 leadership and continuous improvements 
 as depicted in Figure 8.
+
 Figure 8: Digital Engineering Culture and Workforce Enablers
-20  	
-	
-5.1	 Improve the digital engineering 
+
+
+20   
+ 
+
+5.1 Improve the digital engineering 
+
 knowledge base
+
 The digital engineering knowledge base 
 is evolving at various levels of maturity. 
 The DoD documents this knowledge in a 
@@ -1181,8 +1510,10 @@ that detail silos of digital engineering
 excellence. A concerted effort is needed 
 to continually improve, update, and 
 further organize this knowledge base.
+
 Advance digital engineering policy, 
 guidance, specifications, and standards 
+
 The DoD uses policy, guidance, 
 specifications, and standards to ensure 
 consistency and discipline across 
@@ -1203,12 +1534,15 @@ digital engineering across engineering
 activities. To identify the gaps, the DoD 
 should begin by evaluating current policy, 
 guidance, specifications, and standards to 
-determine what changes are necessary 
+determine what changes are necessary  
 to implement digital engineering.
+
 Streamline contracting, procurement, 
 legal, and business practices
+
 The DoD’s procurement practices guide 
 and transform behavior and support 
+
 effective performance on contracts. 
 The existing processes are paper-based 
 and need to transition to a model-
@@ -1224,13 +1558,16 @@ Statement of Work (SOW), Contract
 Data Requirements Lists (CDRL), and any 
 accompanying Data Item Descriptions 
 (DID). This evolution will require engaging 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
 The Naval Air Systems 
 Command (NAVAIR) 
 Systems Engineering 
 (SE) Transformation 
 initiative aims 
 to modernize 
+
 how systems engineers use new 
 technologies and model-based 
 approaches to specify, develop, and 
@@ -1243,17 +1580,27 @@ and experimental pilot projects and
 demonstrations. NAVAIR’s objective 
 is to improve throughput and reduce 
 cycle time to develop weapon systems.
+
 Systems Engineering Transformation
-EXAMPLE: Transform Culture 
+
+EXAMPLE: Transform Culture  
+
 and Workforce (Goal 5)
+
 U . S .  N A V Y
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 21
+
 contracting and legal teams to streamline 
 business and contracting practices.
+
 Establish and share best practices 
+
 To help organizations solve challenges 
 and institutionalize digital engineering, 
 the DoD will advance existing initiatives 
@@ -1276,9 +1623,12 @@ policy, guidance, and standards, it will
 include establishing and sharing best 
 practices across the defense acquisition 
 community.
-5.2	Lead and support digital 
+
+5.2 Lead and support digital 
+
 engineering transformation 
 efforts
+
 By definition, transformation requires 
 management of change. Driving a culture 
 of innovation, experimentation, and 
@@ -1290,8 +1640,11 @@ transformation process by encouraging
 and energizing people to contribute and 
 grow. Such leaders provide the framework 
 for change.  
-22  	
-	
+
+
+22   
+ 
+
 These leaders seek to engage people to 
 accept and embrace changes through 
 communicating and executing a vision 
@@ -1299,9 +1652,11 @@ and strategy; building and leveraging a
 wide range of knowledge and innovation; 
 and demonstrating and rewarding 
 tangible results. 
+
 Communicate and execute the digital 
 engineering vision, strategy, and 
 implementation 
+
 Digital engineering is a fundamental 
 change to the way people work and 
 operate. To encourage participation, 
@@ -1324,14 +1679,17 @@ implementation of the digital engineering
 vision and strategy. There should be a 
 mechanism for people to ask questions 
 and provide feedback.
+
 Build alliances, coalitions, and 
 partnerships across government, 
 industry, and academia
+
 A wide range of stakeholders are 
 developing solutions within various 
 aspects of the digital engineering 
 enterprise. Tapping into stakeholders’ 
 skills, ingenuity, and advancements can 
+
 bring insights and ideas that contribute 
 to collectively advancing the state of 
 practice. The DoD can use alliances, 
@@ -1345,10 +1703,12 @@ government, international partners,
 Services, academia, federally funded 
 research and development centers 
 (FFRDC), and industry. 
+
 Establish accountability to measure, 
 foster, demonstrate, and improve 
 tangible results across programs and the 
 enterprise
+
 Organizations should identify 
 leadership teams (e.g., champions, 
 sponsors, etc.) that are accountable to 
@@ -1361,7 +1721,9 @@ should define metrics and the criteria for
 success, as a means to create incentives, 
 monitor, reward, take corrective action, 
 and improve results across the enterprise. 
-5.3	Build and prepare the workforce
+
+5.3 Build and prepare the workforce
+
 The workforce of the future is geo-
 graphically dispersed, multidisciplinary, 
 and multigenerational. A new generation 
@@ -1372,15 +1734,22 @@ DoD will need the junior engineers to
 operate alongside the SMEs and carry on 
 into the future. It has become increasingly 
 important to transfer knowledge, 
-V.	DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+V. DIGITAL ENGINEERING GOALS AND FOCUS AREAS
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 23
+
 competence, and skills by training and 
 educating the workforce at all levels.
+
 Develop knowledge, competence, and 
 skills for the workforce
+
 Workforce training and education are 
 a critical component to developing the 
 knowledge, competence, and skills for 
@@ -1394,10 +1763,12 @@ team, and organization as a whole. The
 DoD will need to holistically educate and 
 train the workforce in new concepts and 
 methods, processes, and tools. 
+
 Ensure active participation and 
 engagement across the workforce 
 in planning and implementing 
 transformation efforts
+
 Training and education are not the only 
 driver of organizational culture change. 
 The DoD must encourage the application 
@@ -1409,30 +1780,38 @@ gaining experience and adapting to
 new ways of operating. Engaging 
 stakeholders, whether internal or external 
 to the organization, allows for active 
-participation in deciding, designing, 
+participation in deciding, designing,  
 and delivering digital capabilities across 
 the lifecycle. 
-24  	
-	
+
+
+24   
+ 
+
 T 
-	he ODASD(SE) and the DoD 
+
+ he ODASD(SE) and the DoD 
 Components will collaborate on the 
 digital engineering transformation 
-through the implementation of this 
+
+through the implementation of this  
 Digital Engineering Strategy. Although 
 the DoD Components will own their 
 digital engineering implementation plans, 
-the ODASD(SE) will coordinate efforts 
+the ODASD(SE) will coordinate efforts  
 to ensure the DoD engineering enterprise 
 progresses to improve the engineering 
-practice. As the DoD Components 
+practice. As the DoD Components  
 create, share, and execute their 
 implementation plans, the ODASD(SE) 
 will work to close gaps, eliminate 
 duplication, and share best practices. The 
 next steps include the following:
-1.	 Coordinate DoD Digital 
+
+1. Coordinate DoD Digital  
+
 Engineering Efforts. 
+
 ODASD(SE) will convene a 
 digital engineering summit with 
 representative leaders from the 
@@ -1448,15 +1827,20 @@ exchange and collaboration, align
 technical initiatives, propose policy and 
 guidance, and pursue cross-cutting 
 issue resolution.
+
 VI. NEXT STEPS
-2.	Develop DoD Implementation Plans.
+
+2. Develop DoD Implementation Plans.
+
 The DoD Components, supported 
 by ODASD(SE), will develop digital 
-engineering implementation plans 
-that show desired outcomes to 
+engineering implementation plans  
+that show desired outcomes to  
 achieve the goals in this Digital 
 Engineering Strategy.
-3.	Implement Pilot Programs. 
+
+3. Implement Pilot Programs. 
+
 DoD Components will implement a 
 number of digital engineering pilot 
 programs to identify barriers and 
@@ -1468,37 +1852,49 @@ engineering pilots is to learn, measure,
 and optimize digital approaches 
 for engineering efficiencies and 
 effectiveness. 
-4.	Sustain Digital Engineering 
+
+4. Sustain Digital Engineering 
+
 Transformation. 
+
 The DoD will implement policy, 
 guidance, training, and continuous 
 improvement initiatives to 
 institutionalize digital engineering 
 across government, industry, and 
 academia.
+
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
-	
-	
+
+ 
+ 
 25
+
 VII. CONCLUSION
+
 W
+
 e live in a time of growing 
-threats to U.S. interests at 
+threats to U.S. interests at  
 home and abroad. Our military 
+
 must have the ability to equip the 
 warfighter in a timely fashion in the face 
 of ever-changing landscapes and threats. 
 The current engineering practice limits 
 that ability, with stove-piped processes 
 and schedule overruns.
+
 Transforming to digital engineering 
 will allow for risk taking in a digital 
 environment and increased rapid fielding 
 of prototypes. Sectors of private industry 
-and engineering centers in the DoD 
+and engineering centers in the DoD  
 have embraced this transition, 
 implementing digital engineering 
 activities to great benefit.
+
 The goals identified in this strategy 
 present a plan for DoD to improve its 
 engineering capabilities to continue to 
@@ -1515,10 +1911,14 @@ collaboration, business and cultural
 change across DoD, with the private 
 sector, with U.S. allies and partners, and 
 within the evolving future workforce.
-26  	
-	
+
+
+26   
+ 
+
 GOALS
 FOCUS AREAS
+
 Formalize the 
 development, 
 integration, and 
@@ -1527,72 +1927,101 @@ to inform
 enterprise 
 and program 
 decision making
-•	 Formalize the planning for models to support engineering 
+
+• Formalize the planning for models to support engineering 
+
 activities and decision making across the lifecycle
---
+ -
 Formally develop plans to digitally represent the system 
 of interest
-•	 Formally develop, integrate, and curate models
---
+
+• Formally develop, integrate, and curate models
+
+ -
 Develop and ensure models are accurate, complete, 
 trusted, and reusable
---
+
+ -
 Integrate and curate models across disciplines to 
 support cohesive model-driven lifecycle activities
-•	 Use models to support engineering activities and decision 
+
+• Use models to support engineering activities and decision 
+
 making across the lifecycle
---
+ -
 Use models to communicate, collaborate, and perform 
 model-driven lifecycle activities
+
 Provide an 
 enduring, 
 authoritative 
 source of truth
-•	 Define the authoritative source of truth
---
+
+• Define the authoritative source of truth
+
+ -
 Plan and develop the authoritative source of truth
-•	 Govern the authoritative source of truth
---
+
+• Govern the authoritative source of truth
+
+ -
 Establish access and controls for the authoritative 
 source of truth
---
+
+ -
 Execute governance of the authoritative source of truth
-•	 Use the authoritative source of truth across the lifecycle
---
+
+• Use the authoritative source of truth across the lifecycle
+
+ -
 Use the authoritative source of truth as the technical 
 baseline
---
+
+ -
 Use the authoritative source of truth to produce digital 
 artifacts, support reviews, and inform decisions
---
+
+ -
 Collaborate and communicate using the authoritative 
 source of truth
+
 Incorporate 
 technological 
 innovation to 
 improve the 
 engineering 
 practice
-•	 Establish an end-to-end digital engineering enterprise
---
+
+• Establish an end-to-end digital engineering enterprise
+
+ -
 Infuse technological innovations to enable the end-to-
 end digital enterprise
-•	 Use technological innovations to improve the digital 
+
+• Use technological innovations to improve the digital 
+
 engineering practice
---
+ -
 Make use of data to improve awareness, insights and 
 decision making
---
+
+ -
 Advance human-machine interactions
-APPENDIX 1 
+
+APPENDIX 1  
 DIGITAL ENGINEERING GOALS AND FOCUS AREAS
-	
-	
+
+
+ 
+ 
 27
+
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
 D I G I T A L  E N G I N E E R I N G  S T R A T E G Y
+
 GOALS
 FOCUS AREAS
+
 Establish a 
 supporting 
 infrastructure 
@@ -1603,27 +2032,37 @@ collaborate, and
 communicate 
 across 
 stakeholders
-•	 Develop, mature, and use digital engineering IT infrastructures
---
+
+• Develop, mature, and use digital engineering IT infrastructures
+
+ -
 Provide secure connected information networks to 
 perform digital engineering activities
---
+
+ -
 Provide hardware and software to perform digital 
 engineering activities
-•	 Develop, mature, and use digital engineering methodologies
---
+
+• Develop, mature, and use digital engineering methodologies
+
+ -
 Develop, mature, and implement methods and 
 processes to support digital engineering activities 
 across the enterprise and lifecycle
---
+
+ -
 Develop, mature, and implement digital engineering tools
-•	 Secure IT infrastructure and protect intellectual property
---
+
+• Secure IT infrastructure and protect intellectual property
+
+ -
 Secure IT infrastructure while facilitating realization of 
 digital engineering goals
---
+
+ -
 Protect intellectual property while using models to 
 collaborate throughout a program lifecycle
+
 Transform the 
 culture and 
 workforce to 
@@ -1632,43 +2071,62 @@ support digital
 engineering 
 across the 
 lifecycle
-•	 Improve the digital engineering knowledge base
---
+
+• Improve the digital engineering knowledge base
+
+ -
 Advance digital engineering policy, guidance, 
 specifications, and standards
---
+
+ -
 Streamline contracting, procurement, legal, and business 
 practices
---
+
+ -
 Establish and share best practices
-•	 Lead and support digital engineering transformation efforts
---
+
+• Lead and support digital engineering transformation efforts
+
+ -
 Communicate and execute the digital engineering 
 vision, strategy, and implementation
---
+
+ -
 Build alliances, coalitions, and partnerships across 
 government, industry, and academia
---
+
+ -
 Establish accountability to measure, foster, demonstrate, 
 and improve tangible results across programs and the 
 enterprise
-•	 Build and prepare the workforce
---
+
+• Build and prepare the workforce
+
+ -
 Develop knowledge, competence, and skills for the 
 workforce
---
-Ensure active participation and engagement across 
+
+ -
+Ensure active participation and engagement across  
 the workforce in planning and implementing 
 transformation efforts
+
+
  
-Department of Defense 
+
+Department of Defense  
 Digital Engineering Strategy
-Deputy Assistant Secretary of Defense
-Systems Engineering
-3030 Defense Pentagon
-3C167
+
+Deputy Assistant Secretary of Defense 
+Systems Engineering 
+3030 Defense Pentagon 
+3C167 
 Washington, DC 20301-3030
-E-mail: osd.atl.asd-re.se@mail.mil
+
+E-mail: osd.atl.asd-re.se@mail.mil 
 Website: www.acq.osd.mil/se
-Distribution Statement A: 
+
+Distribution Statement A:  
 Approved for public release. Distribution is unlimited.
+
+

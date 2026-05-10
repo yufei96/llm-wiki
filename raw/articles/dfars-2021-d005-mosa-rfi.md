@@ -1,71 +1,477 @@
----
-title: "Modular Open Systems Approaches (DFARS Case 2021-D005)"
-source_url: "https://www.federalregister.gov/documents/2023/11/17/2023-25407/defense-federal-acquisition-regulation-supplement-modular-open-systems-approaches-dfars-case"
-downloaded: 2026-04-26
----
+Part 207 - ACQUISITION PLANNING
 
-# Summary: Defense Federal Acquisition Regulation Supplement: Modular Open Systems Approaches (DFARS Case 2021-D005)
+Subpart 207.1 - ACQUISITION PLANS
 
-**Source:** Federal Register, 88 FR 80258, Published November 17, 2023
-**Document Number:** 2023-25407
-**Agency:** Defense Acquisition Regulations System, Department of Defense (DoD)
-**Action:** Advance Notice of Proposed Rulemaking (ANPRM)
-**RIN:** 0750-AL24
+207.102 Policy.
 
-## Key Information
+207.103 Agency-head responsibilities.
 
-*   **Purpose:** DoD is seeking public input to develop revisions to the Defense Federal Acquisition Regulation Supplement (DFARS) to implement requirements from the National Defense Authorization Acts (NDAAs) for FY 2012, 2017, and 2021. These requirements establish contract terms that enable **Modular Open System Approaches (MOSA)**.
-*   **Statutory Basis:** The rule implements sections 804 (FY 2021), 809 (FY 2017), and 815 (FY 2012) of the NDAAs, which amend 10 U.S.C. 3771 and 4401.
-*   **Applicability:** These statutes apply **only to the Department of Defense**.
-*   **Status:** This is an **Advance Notice of Proposed Rulemaking (ANPRM)**, not a final rule. DoD is gathering information before drafting a proposed rule.
+207.104 General procedures.
 
-## Critical Dates & Actions
+207.105 Contents of written acquisition plans.
 
-*   **Comment Period Closed:** January 16, 2024.
-*   **Public Meeting:** Held virtually on December 14, 2023. Registration was required by December 7, 2023.
-*   **Related Document:** The comment period was extended via a separate notice published on December 27, 2023 (Document 2023-28415).
+207.106 Additional requirements for major systems.
 
-## Summary of Proposed DFARS Revisions
+207.108 Additional requirements for telecommuting.
 
-The DoD is considering revisions to 48 CFR Parts 207, 215, 227, and 252. An initial draft ("strawman") was made available for public review.
+207.170 Reserved.
 
-### A. New/Updated Terms and Definitions
-DoD proposes to add or update MOSA-related terms in the DFARS, including:
-*   **New Terms:** "desired modularity," "interfaces," "major system component," "major system platform," "modular open system approach," "modular system," "modular system interface," "interface specification," "interface implementation data (IID)," and "interface implementation software (IIS)."
-*   **Updated Terms:** "form, fit, and function data" and "form, fit, and function software" are being expanded to include characteristics that enable MOSA (e.g., architecture, logical, interface, interoperability, compatibility characteristics).
-*   **Key Definitions:**
-    *   **Interface Implementation Data (IID):** Technical data describing the detailed steps, sequences, characteristics, and conditions used to implement an interface, with sufficient detail to permit segregation or reintegration of items/processes.
-    *   **Interface Implementation Software (IIS):** Computer software with the same detailed description and segregation/reintegration capability as IID.
+207.171 Component breakout.
 
-### B. License Rights for Interface Data and Software
-Revisions to license rights clauses (DFARS 252.227-7013, -7014, -7015, -7018) are under consideration:
-*   **Limited Rights & Restricted Rights:** The definitions are revised to permit disclosure of **IID and IIS** outside the Government when necessary for segregation/reintegration activities, subject to existing protections (e.g., nondisclosure agreements).
-*   **Government Purpose Rights:** The Government will receive a "Government Purpose Rights" license to IID or IIS pertaining to a modular system interface if it is:
-    1.  Used in a MOSA.
-    2.  For a modular system connected to a weapon system, major system, or major system component.
-    3.  Developed exclusively at private expense.
-    4.  Identified in a solicitation or contract.
-*   **Unlimited Rights:** The Government will have an unlimited rights license in "form, fit, and function software."
+207.171-1 Scope.
 
-### C. MOSA Requirements for Acquisition Plans
-New requirements are proposed for DFARS 207.103(i):
-*   Solicitations and contracts for new or existing systems must, to the maximum extent practicable, identify modular system interfaces and require delivery of certain MOSA-related technical data or software.
-*   This requirement also applies to bilateral contract modifications for existing contracts that lack these terms.
+207.171-2 Definition.
 
-### D. Contractor Assertions of Rights Restrictions
-Revisions to clauses (DFARS 252.227-7013(e), -7014(e), -7017(d), -7018(e)) are proposed to:
-*   Reflect that the Government has a government purpose rights license to IID/IIS as described above.
-*   Require offerors and contractors to identify and describe modular system interfaces, if applicable.
+207.171-3 Policy.
 
-### E. Request for Public Comment
-DoD specifically sought public comment on:
-1.  The substance of the initial draft DFARS revisions.
-2.  Any anticipated changes in burden (costs or savings) for contractors/subcontractors resulting from compliance with the new rules compared to the current DFARS.
+207.171-4 Procedures.
 
-## How to Access the Draft
-The initial draft ("strawman") of the DFARS revisions was available at:
-*   **Regulations.gov:** Search for "DFARS Case 2021-D005" under "Supporting & Related Material."
-*   **DoD Website:** `https://www.acq.osd.mil/dpap/dars/change_notices.html`
+207.172 Human research.
 
+Subpart 207.3 - CONTRACTOR VERSUS GOVERNMENT PERFORMANCE
 
-[... summary truncated for context management ...]
+207.302 Policy.
+
+Subpart 207.4 - EQUIPMENT ACQUISITION
+
+207.401 Acquisition considerations.
+
+207.470 Statutory requirements.
+
+207.471 Funding requirements.
+
+Subpart 207.5 - INHERENTLY GOVERNMENTAL FUNCTIONS
+
+207.500 Scope of subpart.
+
+207.503 Policy.
+
+Subpart 207.70 - BUY-TO-BUDGET - ADDITIONAL QUANTITIES OF END ITEMS
+
+207.7001 Definition.
+
+207.7002 Authority to acquire additional quantities of end items.
+
+
+207.7003 Limitation.
+
+Parent topic: Defense Federal Acquisition Regulation
+
+Subpart 207.1 - ACQUISITION PLANS
+
+207.102 Policy.
+
+(a)(1) See 212.102 regarding requirements for a written determination that the commercial product
+or commercial service definition has been met when using FAR part 12 procedures.
+
+207.103 Agency-head responsibilities.
+
+(d)(i) Prepare written acquisition plans for—
+
+(A) Acquisitions for development, as defined in FAR 35.001, when the total cost of all contracts for
+the acquisition program is estimated at $10 million or more;
+
+(B) Acquisitions for production or services when the total cost of all contracts for the acquisition
+program is estimated at $50 million or more for all years or $25 million or more for any fiscal year;
+and
+
+(C) Any other acquisition considered appropriate by the department or agency.
+
+(ii) Written plans are not required in acquisitions for a final buy out or one-time buy. The terms "final
+buy out" and "one-time buy" refer to a single contract that covers all known present and future
+requirements. This exception does not apply to a multiyear contract or a contract with options or
+phases.
+
+(e) Prepare written acquisition plans for acquisition programs meeting the thresholds of paragraphs
+(d)(i)(A) and (B) of this section on a program basis. Other acquisition plans may be written on either
+a program or an individual contract basis.
+
+(g) The program manager, or other official responsible for the program, has overall responsibility for
+acquisition planning.
+
+(h) For procurement of conventional ammunition, as defined in DoDD 5160.65, Single Manager for
+Conventional Ammunition (SMCA), the SMCA will review the acquisition plan to determine if it is
+consistent with retaining national technology and industrial base capabilities in accordance with 10
+U.S.C. 3204(a)(3) and section 806 of Pub. L. 105-261. The department or agency—
+
+(i) Shall submit the acquisition plan to the address in PGI 207.103 (h); and
+
+(ii) Shall not proceed with the procurement until the SMCA provides written concurrence with the
+acquisition plan. In the case of a non-concurrence, the SMCA will resolve issues with the Army
+Office of the Executive Director for Conventional Ammunition.
+
+
+207.104 General procedures.
+
+In developing an acquisition plan, agency officials shall take into account the requirement for
+scheduling and conducting a Peer Review in accordance with 201.170 .
+
+207.105 Contents of written acquisition plans.
+
+In addition to the requirements of FAR 7.105, planners shall follow the procedures at PGI 207.105 .
+
+207.106 Additional requirements for major systems.
+
+(b)(1)(A) The contracting officer is prohibited by 10 U.S.C. 3208(d)(1) from requiring offers for
+development or production of major systems that would enable the Government to use technical
+data to competitively reprocure identical items or components of the system if the item or
+component were developed exclusively at private expense, unless the contracting officer determines
+that—
+
+(1) The original supplier of the item or component will be unable to satisfy program schedule or
+delivery requirements;
+
+(2) Proposals by the original supplier of the item or component to meet mobilization requirements
+are insufficient to meet the agency's mobilization needs; or
+
+(3) The Government is otherwise entitled to unlimited rights in technical data.
+
+(B) If the contracting officer makes a determination, under paragraphs (b)(1)(A)(1) and (2) of this
+section, for a competitive solicitation, 10 U.S.C. 3208(d)(2) requires that the evaluation of items
+developed at private expense be based on an analysis of the total value, in terms of innovative
+design, life-cycle costs, and other pertinent factors, of incorporating such items in the system.
+
+(S-70)(1) In accordance with 10 U.S.C. 3774(a) and DoD policy requirements, acquisition plans for
+major weapon systems and subsystems of major weapon systems shall—
+
+(i) Assess the long-term technical data and computer software needs of those systems and
+subsystems; and
+
+(ii) Establish acquisition strategies that provide for the technical data and computer software
+deliverables and associated license rights needed to sustain those systems and subsystems over
+their life cycle. The strategy may include—
+
+(A) The development of maintenance capabilities within DoD; or
+
+(B) Competition for contracts for sustainment of the systems or subsystems.
+
+(2) Assessments and corresponding acquisition strategies developed under this section shall—
+
+(i) Be developed before issuance of a solicitation for the weapon system or subsystem;
+
+(ii) In accordance with 10 U.S.C. 4328, to emphasize reliability and maintainability in weapon system
+
+
+design, ensure that reliability and maintainability are included in the performance attributes of the
+key performance parameters on sustainment during the development of capabilities requirements.
+For additional guidance see PGI 207.105 (b)(14)(ii)(2);
+
+(iii) Address the merits of including a priced contract option for the future delivery of technical data
+and computer software, and associated license rights, that were not acquired upon initial contract
+award;
+
+(iv) Address the potential for changes in the sustainment plan over the life cycle of the weapon
+system or subsystem; and
+
+(v) Apply to weapon systems and subsystems that are to be supported by performance-based
+logistics arrangements as well as to weapon systems and subsystems that are to be supported by
+other sustainment approaches.
+
+(S-71) See 209.570 for policy applicable to acquisition strategies that consider the use of lead
+system integrators.
+
+(S-72)(1) In accordance with section 202 of the Weapon Systems Acquisition Reform Act of 2009
+(Pub. L. 111-23), acquisition plans for major defense acquisition programs as defined in 10 U.S.C.
+4201, shall include measures that—
+
+(i) Ensure competition, or the option of competition, at both the prime contract level and subcontract
+level (at such tier or tiers as are appropriate) throughout the program life cycle as a means to
+improve contractor performance; and
+
+(ii) Document the rationale for the selection of the appropriate subcontract tier or tiers under
+paragraph (S-72)(1)(i) of this section, and the measures which will be employed to ensure
+competition, or the option of competition.
+
+(2) Measures to ensure competition, or the option of competition, may include, but are not limited to,
+cost-effective measures intended to achieve the following:
+
+(i) Competitive prototyping.
+
+(ii) Dual-sourcing.
+
+(iii) Unbundling of contracts.
+
+(iv) Funding of next-generation prototype systems or subsystems.
+
+(v) Use of modular, open architectures to enable competition for upgrades.
+
+(vi) Use of build-to-print approaches to enable production through multiple sources.
+
+(vii) Acquisition of complete technical data packages.
+
+(viii) Periodic competitions for subsystem upgrades.
+
+(ix) Licensing of additional suppliers.
+
+(x) Periodic system or program reviews to address long-term competitive effects of program
+decisions.
+
+
+(3) In order to ensure fair and objective “make-or-buy” decisions by prime contractors, acquisition
+strategies and resultant solicitations and contracts shall—
+
+(i) Require prime contractors to give full and fair consideration to qualified sources other than the
+prime contractor for the development or construction of major subsystems and components of major
+weapon systems;
+
+(ii) Provide for Government surveillance of the process by which prime contractors consider such
+sources and determine whether to conduct such development or construction in-house or through a
+subcontract; and
+
+(iii) Provide for the assessment of the extent to which the prime contractor has given full and fair
+consideration to qualified sources in sourcing decisions as a part of past performance evaluations.
+
+(4) Whenever a source-of-repair decision results in a plan to award a contract for the performance of
+maintenance and sustainment services on a major weapon system, to the maximum extent
+practicable and consistent with statutory requirements, the acquisition plan shall prescribe that
+award will be made on a competitive basis after giving full consideration to all sources (including
+sources that partner or subcontract with public or private sector repair activities).
+
+(5) In accordance with 10 U.S.C. 4328, acquisition plans for engineering manufacturing and
+development and production of major systems as defined in 10 U.S.C. 3041(a) and 4202 and for
+major defense acquisition programs as defined in 202.101 , shall include performance measures that
+are developed using best practices for responding to the positive or negative performance of a
+contractor for the engineering and manufacturing development or production of a weapon system,
+including embedded software. At a minimum the contracting officer shall—
+
+(i) Encourage the use of incentive fees and penalties as appropriate; and
+
+(ii) Allow the program manager or comparable requiring activity official exercising program
+management responsibilities, to base determinations of a contractor’s performance on reliability and
+maintainability data collected during the program. Such data collection and associated evaluation
+metrics shall be described in detail in the contract; and to the maximum extent practicable, the data
+shall be shared with appropriate contractor and Government organizations.
+
+(S-73) In accordance with section 815 of the National Defense Authorization Act for Fiscal Year 2009
+(Pub. L. 110-417) and DoD policy requirements, acquisition plans for major weapons systems shall
+include a plan for the preservation and storage of special tooling associated with the production of
+hardware for major defense acquisition programs through the end of the service life of the related
+weapons system. The plan shall include the identification of any contract clauses, facilities, and
+funding required for the preservation and storage of such tooling. The Under Secretary of Defense
+for Acquisition and Sustainment (USD(A&S)) may waive this requirement if USD(A&S) determines
+that it is in the best interest of DoD.
+
+(S–74) When selecting contract type for a major defense acquisition program, see 234.004
+Acquisition strategy. https://www.govinfo.gov/link/plaw/112/public/239.
+
+207.108 Additional requirements for telecommuting.
+
+See PGI 207.108 for additional guidance concerning places of performance.
+
+
+207.170 Reserved.
+
+207.171 Component breakout.
+
+207.171-1 Scope.
+
+(a) This section provides policy for breaking out components of end items for future acquisitions so
+that the Government can purchase the components directly from the manufacturer or supplier and
+furnish them to the end item manufacturer as Government-furnished material.
+
+ 
+
+(b) This section does not apply to—
+
+ 
+
+(1) The initial decisions on Government-furnished equipment or contractor-furnished equipment that
+are made at the inception of an acquisition program; or
+
+ 
+
+(2) Breakout of parts for replenishment (see Appendix E).
+
+207.171-2 Definition.
+
+“Component,” as used in this section, includes subsystems, assemblies, subassemblies, and other
+major elements of an end item; it does not include elements of relatively small annual acquisition
+value.
+
+ 
+
+207.171-3 Policy.
+
+DoD policy is to break out components of weapons systems or other major end items under certain
+circumstances.
+
+ 
+
+(a) When it is anticipated that a prime contract will be awarded without adequate price competition,
+and the prime contractor is expected to acquire any component without adequate price competition,
+the agency shall break out that component if—
+
+ 
+
+(1) Substantial net cost savings probably will be achieved; and
+
+ 
+
+
+(2) Breakout action will not jeopardize the quality, reliability, performance, or timely delivery of the
+end item.
+
+ 
+
+(b) Even when either or both the prime contract and the component will be acquired with adequate
+price competition, the agency shall consider breakout of the component if substantial net cost
+savings will result from—
+
+ 
+
+(1) Greater quantity acquisitions; or
+
+ 
+
+(2) Such factors as improved logistics support (through reduction in varieties of spare parts) and
+economies in operations and training (through standardization of design).
+
+ 
+
+(c) Breakout normally is not justified for a component that is not expected to exceed $1 million for
+the current year's requirement.
+
+207.171-4 Procedures.
+
+Agencies shall follow the procedures at PGI 207.171-4 for component breakout.
+
+207.172 Human research.
+
+Any DoD component sponsoring research involving human subjects—
+
+(a) Is responsible for oversight of compliance with 32 CFR Part 219, Protection of Human Subjects;
+and
+
+(b) Must have a Human Research Protection Official, as defined in the clause at 252.235-7004 ,
+Protection of Human Subjects, and identified in the DoD component’s Human Research Protection
+Management Plan. This official is responsible for the oversight and execution of the requirements of
+the clause at 252.235-7004 and shall be identified in acquisition planning.
+
+Subpart 207.3 - CONTRACTOR VERSUS GOVERNMENT
+PERFORMANCE
+
+207.302 Policy.
+
+See PGI 207.302 for information on the Governmentwide moratorium and restrictions on public-
+private competitions conducted pursuant to Office of Management and Budget (OMB) Circular A-76.
+
+
+Subpart 207.4 - EQUIPMENT ACQUISITION
+
+207.401 Acquisition considerations.
+
+If the equipment will be leased for more than 60 days, the requiring activity must prepare and
+provide the contracting officer with the justification supporting the decision to lease or purchase.
+
+207.470 Statutory requirements.
+
+(a) Requirement for authorization of certain contracts relating to vessels, aircraft, and combat
+vehicles. The contracting officer shall not enter into any contract for the lease or charter of any
+vessel, aircraft, or combat vehicle, or any contract for services that would require the use of the
+contractor’s vessel, aircraft, or combat vehicle, unless the Secretary of the military department
+concerned has satisfied the requirements of 10 U.S.C. 3671-3677, when—
+
+(1) The contract will be a long-term lease or charter as defined in 10 U.S.C. 3674(a)(1); or
+
+(2) The terms of the contract provide for a substantial termination liability as defined in 10 U.S.C.
+3674(b). Also see PGI 207.470 .
+
+(b) Limitation on contracts with terms of 18 months or more. As required by 10 U.S.C. 3678, the
+contracting officer shall not enter into any contract for any vessel, aircraft, or vehicle, through a
+lease, charter, or similar agreement with a term of 18 months or more, or extend or renew any such
+contract for a term of 18 months or more, unless the head of the contracting activity has—
+
+(1) Considered all costs of such a contract (including estimated termination liability); and
+
+(2) Determined in writing that the contract is in the best interest of the Government.
+
+(c) Leasing of commercial vehicles and associated equipment. Except as provided in paragraphs (a)
+and (b) of this section, the contracting officer may use leasing in the acquisition of commercial
+vehicles and associated equipment whenever the contracting officer determines that leasing of such
+vehicles is practicable and efficient (10 U.S.C. 3681).
+
+207.471 Funding requirements.
+
+(a) Fund leases in accordance with DoD Financial Management Regulation (FMR) 7000.14-R,
+Volume 2A, Chapter 1.
+
+(b) DoD leases are either capital leases or operating leases. See FMR 7000.14-R, Volume 4, Chapter
+6, Section 060206.
+
+(c) Use procurement funds for capital leases, as these are essentially installment purchases of
+property.
+
+
+Subpart 207.5 - INHERENTLY GOVERNMENTAL
+FUNCTIONS
+
+207.500 Scope of subpart.
+
+This subpart also implements 10 U.S.C. 4508.
+
+207.503 Policy.
+
+(e) The written determination required by FAR 7.503(e), that none of the functions to be performed
+by contract are inherently governmental—
+
+(i) Shall be prepared using DoD Instruction 1100.22, Guidance for Determining Workforce Mix; and
+
+(ii) Shall include a determination that none of the functions to be performed are exempt from private
+sector performance, as addressed in DoD Instruction 1100.22.
+
+(S-70) Contracts for acquisition functions.
+
+(1) In accordance with 10 U.S.C. 2383, the head of an agency may enter into a contract for
+performance of the acquisition functions closely associated with inherently governmental functions
+that are listed at FAR 7.503(d) only if—
+
+(i) The contracting officer determines that appropriate military or civilian DoD personnel—
+
+(A) Cannot reasonably be made available to perform the functions;
+
+(B) Will oversee contractor performance of the contract; and
+
+(C) Will perform all inherently governmental functions associated with the functions to be performed
+under the contract; and
+
+(ii) The contracting officer ensures that the agency addresses any potential organizational conflict of
+interest of the contractor in the performance of the functions under the contract (see FAR Subpart
+9.5).
+
+(2) See related information at PGI 207.503 (S-70).
+
+Subpart 207.70 - BUY-TO-BUDGET - ADDITIONAL
+QUANTITIES OF END ITEMS
+
+207.7001 Definition.
+
+“End item,” as used in this subpart, means a production product assembled, completed, and ready
+for issue or deployment.
+
+
+207.7002 Authority to acquire additional quantities of end items.
+
+10 U.S.C. 3069 authorizes DoD to use funds available for the acquisition of an end item to acquire a
+higher quantity of the end item than the quantity specified in a law providing for the funding of that
+acquisition, if the head of an agency determines that—
+
+(a) The agency has an established requirement for the end item that is expected to remain
+substantially unchanged throughout the period of the acquisition;
+
+(b) It is possible to acquire the higher quantity of the end item without additional funding because of
+production efficiencies or other cost reductions;
+
+(c) The amount of funds used for the acquisition of the higher quantity of the end item will not
+exceed the amount provided under that law for the acquisition of the end item; and
+
+(d) The amount provided under that law for the acquisition of the end item is sufficient to ensure
+that each unit of the end item acquired within the higher quantity is fully funded as a complete end
+item.
+
+207.7003 Limitation.
+
+For noncompetitive acquisitions, the acquisition of additional quantities is limited to not more than
+10 percent of the quantity approved in the justification and approval prepared in accordance with
+FAR Part 6 for the acquisition of the end item.
+
+
