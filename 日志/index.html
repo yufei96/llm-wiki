@@ -1,0 +1,9142 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Modular Open Systems Approach (MOSA) 与数字工程知识库 — 国防开放系统架构、智能网联汽车、军事开放标准">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>日志 - MOSA 知识库</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2026-05-07-1000" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="MOSA 知识库" class="md-header__button md-logo" aria-label="MOSA 知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MOSA 知识库
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              日志
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到暗色模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到暗色模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到亮色模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到亮色模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://gitee.com/yufei96/llm-wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    llm-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../topics/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  主题
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../concepts/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  概念
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../comparisons/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  对比
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entities/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  实体
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../sources/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  来源
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MOSA 知识库" class="md-nav__button md-logo" aria-label="MOSA 知识库" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    MOSA 知识库
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://gitee.com/yufei96/llm-wiki" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    llm-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../topics/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    主题
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    主题
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/GRA%E7%94%9F%E6%80%81%E6%BC%94%E8%BF%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GRA生态演进：从单一标准到四层架构体系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/MOSAIC%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模块化开放系统方法（MOSA）综述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/MOSA%E5%85%A8%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美军全寿命周期MOSA应用分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/MOSA%E5%8E%86%E5%8F%B2%E6%97%B6%E9%97%B4%E7%BA%BF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA发展历程：从OSJTF到法定要求的30年
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/MOSA%E5%AE%9E%E6%96%BD%E6%89%8B%E5%86%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA实施指南（2025版）主题综合
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/MOSA%E8%BD%AF%E4%BB%B6%E9%87%87%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA在软件采办中的实施
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/NIST%E7%BD%91%E7%BB%9C%E9%9F%A7%E6%80%A7%E4%B8%8EMOSA%E5%AE%89%E5%85%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NIST赛博弹性设计原则作为MOSA安全性架构框架
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/SysML%20v2%E8%BF%87%E6%B8%A1%E7%93%B6%E9%A2%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SysML v1→v2过渡：MOSA数字工程落地的基础设施瓶颈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E4%B8%89%E6%9C%AC%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E6%89%8B%E5%86%8C%E4%BA%92%E8%A1%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    三本SE手册互补：NASA机构实现 vs INCOSE国际最佳实践 vs ISO标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E4%B8%AD%E5%9B%BD%E8%BD%A6%E8%B7%AF%E4%BA%91%E4%B8%80%E4%BD%93%E5%8C%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中国车路云一体化战略
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E4%B8%AD%E9%97%B4%E5%B1%82%E9%87%87%E5%8A%9E%E4%B8%8EMOSA%E5%BC%A0%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中间层采办与MOSA的张力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E5%8D%8E%E4%B8%BA%E8%BD%A6%E8%BE%86%E5%BC%80%E6%94%BE%E7%94%9F%E6%80%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    华为车辆开放生态
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E5%A4%A7%E7%96%86%E5%BC%80%E6%94%BE%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    大疆开放无人机架构标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字工程实践：NASA/INCOSE框架、SysML v2使能与OUSD过渡时间线
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字工程工具链对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E7%94%9F%E6%80%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字工程生态系统（DEE）概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../topics/%E7%81%B5%E6%B4%BB%E6%AD%A6%E5%99%A8%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    柔性武器设计方法：符合WOSA要求的学术研究与工业实践
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../concepts/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概念
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    概念
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/A-GRA%E8%87%AA%E4%B8%BB%E5%8F%82%E8%80%83%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自主政府参考架构（A-GRA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/ABMS-GRA%E5%85%88%E8%BF%9B%E6%88%98%E6%96%97%E7%AE%A1%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    先进战斗管理系统政府参考架构（ABMS GRA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/AMS-GRA%E6%95%8F%E6%8D%B7%E4%BB%BB%E5%8A%A1%E5%A5%97%E4%BB%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    敏捷任务套件政府参考架构（AMS GRA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/COARPS%E9%9B%B7%E8%BE%BE%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    通用开放架构雷达程序规范（COARPS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/DEWS-MOSA%E5%8F%82%E8%80%83%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    定向能武器系统MOSA参考架构（DEWS MOSA RA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/FACE%E6%8A%80%E6%9C%AF%E6%A0%87%E5%87%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FACE™ 技术标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MORA%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E6%94%BE%E5%B0%84%E9%A2%91%E6%9E%B6%E6%9E%84%E6%A6%82%E5%BF%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模块化开放射频架构（MORA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E4%B8%8E%E5%9B%BD%E9%98%B2%E9%87%87%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模块化开放系统方法（MOSA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E4%B8%8E%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA与数字工程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E4%BA%94%E6%94%AF%E6%9F%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA五大支柱
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E4%BA%94%E6%94%AF%E6%9F%B1%E8%AF%84%E4%BC%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OUSD(R&E) MOSA五大支柱评估框架
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E6%9E%B6%E6%9E%84%E8%84%86%E5%BC%B1%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA架构脆弱性分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E6%A3%95%E5%9C%B0%E4%B8%8E%E7%BB%BF%E5%9C%B0%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA棕地改造与绿地新建（Brownfield vs Greenfield）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/MOSA%E9%9C%80%E6%B1%82%E8%B4%A8%E9%87%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    需求质量：MOSA的技术基础
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/NASA%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%96%BD%E4%BD%93%E7%B3%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NASA数字工程实施体系：三层手册架构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/NC3-GRA%E6%A0%B8%E6%8C%87%E6%8C%A5%E6%8E%A7%E5%88%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    核指挥控制通信政府参考架构（NC3 GRA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/PNT-GRA-R-EGI%E5%AF%BC%E8%88%AA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PNT政府参考架构 / 弹性嵌入式GPS/INS（R-EGI）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/SCARS%E4%BB%BF%E7%9C%9F%E5%99%A8%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模拟器通用架构需求标准（SCARS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/SOSA%E4%BC%A0%E6%84%9F%E5%99%A8%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    传感器开放系统架构（SOSA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/Sentinel-GRA%E6%B4%B2%E9%99%85%E5%AF%BC%E5%BC%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sentinel洲际弹道导弹政府参考架构（Sentinel GRA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/UCS%E6%8E%A7%E5%88%B6%E7%AB%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    无人系统指挥控制标准接口（UCS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/WOSA%E6%9E%B6%E6%9E%84%E5%B7%A5%E5%85%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    WOSA架构工具集
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/WOSA%E6%AD%A6%E5%99%A8%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    武器开放系统架构（WOSA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E4%B8%AD%E9%97%B4%E5%B1%82%E9%87%87%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中间采办层级（MTA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E4%BE%9B%E5%BA%94%E5%95%86%E9%94%81%E5%AE%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国防领域的供应商锁定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E5%8D%8F%E5%90%8C%E4%BD%9C%E6%88%98%E9%A3%9E%E6%9C%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    协作作战飞机（CCA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E5%9B%BD%E9%98%B2%E9%87%87%E5%8A%9E%E8%B6%85%E6%94%AF%E8%B6%8B%E5%8A%BF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国防采办项目成本超支趋势
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E5%9F%BA%E4%BA%8E%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    基于模型的系统工程（MBSE）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E5%AE%BF%E4%B8%BB%E7%A1%AC%E4%BB%B6%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    硬件开放系统技术（HOST）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E5%BC%80%E6%94%BE%E4%BB%BB%E5%8A%A1%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开放任务系统（OMS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E6%94%BF%E5%BA%9C%E5%8F%82%E8%80%83%E6%9E%B6%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    政府参考架构（GRA）模式
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E6%95%B0%E5%AD%97%E8%A3%85%E5%A4%87%E7%AE%A1%E7%90%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字化物资管理（DMM）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E6%9E%B6%E6%9E%84%E6%A1%86%E6%9E%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    架构框架
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模块化架构模式
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    系统集成
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E7%B3%BB%E7%BB%9F%E9%9F%A7%E6%80%A7%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    系统弹性工程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E8%87%AA%E9%80%82%E5%BA%94%E9%87%87%E5%8A%9E%E6%A1%86%E6%9E%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    自适应采办框架（AAF）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E8%BD%AF%E4%BB%B6%E5%AE%9A%E4%B9%89%E8%83%BD%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    软件定义能力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/%E9%87%87%E5%8A%9E%E5%AE%9E%E8%B7%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    采办实践与SysML v2过渡
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../comparisons/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    对比
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    对比
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/C5ISR%E6%A0%87%E5%87%86%E8%9E%8D%E5%90%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C5ISR标准生态趋同
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/DMM%E4%B8%8EDEE%E8%9E%8D%E5%90%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DMM与DEE趋同：AFMC数字化转型与DoD数字工程的互补关系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/INCOSE%E9%9F%A7%E6%80%A7%E4%B8%8ENIST%E7%BD%91%E7%BB%9C%E9%9F%A7%E6%80%A7%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    INCOSE韧性 vs NIST赛博弹性：通用框架与赛博特化的关系
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/Karpathy%E7%90%86%E8%AE%BA%E4%B8%8E%E5%AE%9E%E8%B7%B5%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Karpathy LLM Wiki原版 vs 我们的实现
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/MOSA%E4%BA%94%E5%8E%9F%E5%88%99%E5%88%B0%E4%BA%94%E6%94%AF%E6%9F%B1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA五原则→五大支柱：12年演化脉络
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/MOSA%E5%9B%BD%E9%99%85%E5%8C%96/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA的国际化：从美国DoD到NATO联盟
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/MOSA%E5%9C%A8CCA%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA在CCA中的应用：模块化开放系统方法与协作作战飞机
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/MOSA%E5%AE%9E%E6%96%BD%E6%A0%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA实施全栈：从法律到合同执行
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/MOSA%E5%AE%9E%E6%96%BD%E7%8A%B6%E6%80%81%E7%9F%A9%E9%98%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA实施状态矩阵（20项目汇总）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/SIAW%E4%B8%8EAARGM-ER%E6%A8%A1%E5%9D%97%E5%8C%96%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SiAW vs AARGM-ER MOSA对比分析
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E4%B8%89%E6%9C%AC%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E6%89%8B%E5%86%8C%E8%AF%A6%E7%BB%86%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    三本SE手册对比：NASA SP-2016-6105 vs INCOSE V5 vs ISO 15288
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E4%B8%AD%E7%BE%8E%E5%BC%80%E6%94%BE%E6%9E%B6%E6%9E%84%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中美开放系统架构路径对比
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E5%85%AD%E9%A1%B9%E5%B7%B2%E9%AA%8C%E8%AF%81%E7%9A%84MOSA%E6%A0%87%E5%87%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    三军已验证开放标准生态（6大标准）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E5%BC%80%E6%94%BE%E6%9E%B6%E6%9E%84%E5%B1%82%E7%BA%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开放架构层次体系：从平台到部组件的四层结构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E6%8C%89%E8%8C%83%E5%9B%B4%E5%88%86%E7%B1%BB%E7%9A%84MOSA%E6%A0%87%E5%87%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美军开放架构标准分类：三军共用 vs 军种内推广
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E6%8E%A5%E5%8F%A3%E5%B7%A5%E7%A8%8B%E6%BC%94%E8%BF%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    接口工程三层演进：从NASA ICD到MOSA标准化到SysML v2模型驱动
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E4%B8%8E%E6%A8%A1%E5%9D%97%E5%8C%96%E8%9E%8D%E5%90%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字工程与MOSA融合：从采办策略到工程方法论的质变
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E6%95%B0%E5%AD%97%E7%94%9F%E6%80%81%E5%B9%B3%E5%8F%B0%E5%AF%B9%E6%AF%94/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    数字生态系统四大平台对比：PLM/FENCES/CLOUDONE/PLATFORMONE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E4%B8%8E%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E6%94%BE%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    赛博安全与MOSA开放接口：攻击面扩大与信息安全的政策张力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E9%80%9F%E5%BA%A6%E4%B8%8E%E6%A8%A1%E5%9D%97%E5%8C%96%E6%9D%83%E8%A1%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    速度与模块化：MOSA在快速采办路径中的政策张力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comparisons/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E9%9B%86%E6%88%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PM-SE整合：MOSA实施的组织瓶颈
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../entities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    实体
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    实体
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/CAE%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%8F%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CAE USA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/IS4S%E5%85%AC%E5%8F%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IS4S
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/PMA-209%E9%A1%B9%E7%9B%AE%E5%8A%9E%E5%85%AC%E5%AE%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PMA-209 空战电子办公室
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/PPI%E5%85%AC%E5%8F%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国际项目绩效公司（PPI）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/Shield%20AI%E5%85%AC%E5%8F%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shield AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E4%B8%B9%E5%B0%BC%E5%B0%94-%E8%B5%AB%E7%AD%96%E9%A9%AC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daniel Hettema — DEM&S 主任
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%85%8B%E9%87%8C%E6%96%AF-%E5%8A%A0%E5%8B%92%E7%89%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chris Garrett — AFLCMC系统工程主管
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%8C%97%E7%BA%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    北大西洋公约组织（NATO）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%9B%BD%E9%98%B2%E7%A7%91%E5%AD%A6%E5%A7%94%E5%91%98%E4%BC%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国防科学委员会（DSB）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%9B%BD%E9%98%B2%E9%83%A8%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%89%AF%E9%83%A8%E9%95%BF%E5%8A%9E%E5%85%AC%E5%AE%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OUSD(R&E) — 研究与工程副部长办公室
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%9B%BD%E9%99%85%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E7%90%86%E4%BA%8B%E4%BC%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    国际系统工程委员会（INCOSE）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%A4%AA%E7%A9%BA%E5%8F%91%E5%B1%95%E5%B1%80/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    太空发展局（Space Development Agency / SDA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%AE%89%E6%9D%9C%E9%87%8C%E5%B0%94%E5%B7%A5%E4%B8%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    安杜里尔工业（Anduril Industries）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%B0%BC%E5%8F%A4%E6%8B%89%E6%96%AF-%E6%A0%BC%E5%BB%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nickolas H. Guertin — 海军助理部长（研发与采办）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%B8%95%E6%80%9D-%E5%BE%B7%E6%97%BA-%E6%B2%99%E9%98%BF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    帕斯·德万·沙阿（Parth Devang Shah）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E5%BC%80%E6%94%BE%E9%9B%86%E5%9B%A2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Open Group
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%88%98%E7%95%A5%E5%8F%B8%E4%BB%A4%E9%83%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美国战略司令部（US STRATCOM）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%94%BF%E5%BA%9C%E9%97%AE%E8%B4%A3%E7%BD%B2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美国政府问责署（GAO）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E7%8E%B0%E4%BB%A3%E5%8C%96%E6%88%98%E7%95%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DEM&S — 数字工程、建模与仿真团队
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%9B%B4%E5%A5%BD%E8%B4%AD%E4%B9%B0%E5%8A%9B3.0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    优化采办购买力3.0（Better Buying Power 3.0）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%9F%AF%E6%9E%97%E6%96%AF%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    柯林斯宇航（Collins Aerospace / RTX）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E6%B4%9B%E5%85%8B%E5%B8%8C%E5%BE%B7-%E9%A9%AC%E4%B8%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    洛克希德·马丁（Lockheed Martin）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%A9%BA%E5%86%9B%E5%85%A8%E7%90%83%E6%89%93%E5%87%BB%E5%8F%B8%E4%BB%A4%E9%83%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    空军全球打击司令部（AFGSC）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%A9%BA%E5%86%9B%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    空军生命周期管理中心（AFLCMC）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%A9%BA%E5%86%9B%E7%A7%91%E5%AD%A6%E5%92%A8%E8%AF%A2%E5%A7%94%E5%91%98%E4%BC%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    空军部科学咨询委员会（DAF SAB）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%A9%BA%E5%86%9B%E8%A3%85%E5%A4%87%E5%8F%B8%E4%BB%A4%E9%83%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    空军装备司令部（AFMC）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%AE%A1%E7%90%86%E5%92%8C%E9%A2%84%E7%AE%97%E5%8A%9E%E5%85%AC%E5%AE%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    管理和预算办公室（OMB）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美国国防部（DoD）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E8%AF%BA%E6%96%AF%E7%BD%97%E6%99%AE-%E6%A0%BC%E9%B2%81%E6%9B%BC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    诺斯罗普·格鲁曼（Northrop Grumman）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/%E9%80%9A%E7%94%A8%E5%8E%9F%E5%AD%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    通用原子（General Atomics / GA-ASI）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../sources/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    来源
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    来源
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/AMDR-SPY6%E9%9B%B7%E8%BE%BE%E9%80%89%E5%AE%9A%E9%87%87%E8%B4%AD%E6%8A%A5%E5%91%8A2023%E5%B9%B412%E6%9C%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AMDR/SPY-6 采办报告（MSAR 2023年12月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/ARSENL%E7%A9%BA%E5%86%9B%E6%A0%87%E5%87%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ARSENL — 空军架构标准与工程库
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/B-21%E7%AA%81%E8%A2%AD%E8%80%85MOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B-21 Raider突袭者轰炸机MOSA实施案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/BBP-3.0%E5%AE%9E%E6%96%BD%E6%8C%87%E4%BB%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Better Buying Power 3.0 — 实施指令
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/CAE%E5%85%AC%E5%8F%B8SCARS%E9%A1%B9%E7%9B%AE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CAE SCARS Program
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/CMOSS%E6%A6%82%E8%BF%B02022/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CMOSS（C5ISR/EW模块化开放标准套件）概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/CRS%E6%8A%A5%E5%91%8A-NC3%20IF11697/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CRS IF11697 — 核指挥控制通信入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/CRS%E6%8A%A5%E5%91%8A-%E5%93%A8%E5%85%B5%E6%B4%B2%E9%99%85%E5%AF%BC%E5%BC%B9IF11681/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CRS IF11681 — Sentinel LGM-35A ICBM入门
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/CSIS-MOSA%E8%B4%A3%E4%BB%BB%E5%88%86%E6%8B%85%E6%8A%A5%E5%91%8A2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSIS：通过模块化开放系统方法分担负担
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DAU%E4%B8%8B%E4%B8%80%E4%BB%A3%E9%87%87%E5%8A%9E2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DAU Next Generation Acquisition Model — Open Architectures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DFARS%202021%20MOSA%E4%BF%A1%E6%81%AF%E5%BE%81%E6%B1%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DFARS Case 2021-D005: 模块化开放系统方法合同条款
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DFARS%E7%AC%AC207%E9%83%A8%E5%88%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DFARS第207部分 — 采办规划（MOSA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DFARS%E7%AC%AC227%E9%83%A8%E5%88%86-%E4%B8%93%E5%88%A9%E6%95%B0%E6%8D%AE%E4%B8%8E%E7%89%88%E6%9D%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DFARS第227部分：专利、数据及版权
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DFARS%E7%AC%AC252%E9%83%A8%E5%88%86-%E5%90%88%E5%90%8C%E6%9D%A1%E6%AC%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DFARS Part 252 — 征询条款与合同条款
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.74-%E6%9C%8D%E5%8A%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.74 — 服务采办
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.75-%E4%B8%9A%E5%8A%A1%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.75 — 业务系统需求与采办
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.80%E4%B8%AD%E9%97%B4%E5%B1%82%E9%87%87%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.80 — 中间采办层级（MTA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.81%E7%B4%A7%E6%80%A5%E8%83%BD%E5%8A%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.81 — 紧急能力采办
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.87%E8%BD%AF%E4%BB%B6%E9%87%87%E5%8A%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.87 — 防务采办软件采办
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DODI%205000.97%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.97 — 数字工程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DOT%26E%20FY2024%20ABMS%E8%AF%84%E4%BC%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DOT&E FY2024年度报告 - ABMS章节
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DOT%26E%20FY2025%E4%BD%8E%E5%B1%82%E9%98%B2%E7%A9%BA%E5%8F%8D%E5%AF%BC%E8%AF%84%E4%BC%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DOT&E FY2025 - Lower Tier Air and Missile Defense Sensor (LTAMDS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DOT%26E%20FY2025%E5%AE%99%E6%96%AF%E7%9B%BE%E8%AF%84%E4%BC%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DOT&E FY2025 - Aegis Modernization Program
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DSP%E6%9C%9F%E5%88%8A-MOSA%E6%96%B9%E6%B3%952001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DSP Journal: MOSA概述与努力（2020）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DSP%E6%9C%9F%E5%88%8A-MOSA%E6%96%B9%E6%B3%952020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DSP Journal 2020 — MOSA专刊
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DTIC-NC3%E6%9E%B6%E6%9E%84ADA619949/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NC3 Architecture Update — DTIC ADA619949
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/DVIDS-R-EGI%E5%AF%BC%E8%88%AA%E9%A3%9E%E8%A1%8C%E6%B5%8B%E8%AF%952024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    R-EGI PNT Systems Flight Demonstrations — DVIDS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/E-Hel%E7%9B%B4%E5%8D%87%E6%9C%BAMOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E-HEL持久高能激光定向能武器MOSA实施
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/FACE%E6%8A%80%E6%9C%AF%E6%A0%87%E5%87%863.2-2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FACE技术标准3.2版（2023年8月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/FLRAA-MV75%20MOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FLRAA MV-75未来远程突击飞行器MOSA数字工程实施
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/FY2017%20NDAA%E7%AC%AC805%E8%8A%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FY2017 NDAA — Section 805：MOSA 立法源
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/FY24%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%9D%A1%E6%AC%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FY2024 DAF SAB S&T审查职权范围（CCA/DEW/SWD）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/GAO-24-106831%E6%AD%A6%E5%99%A8%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GAO-24-106831 — 武器系统年度评估
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/GAO-25-106931%20MOSA%E5%AE%A1%E6%9F%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GAO-25-106931: MOSA专项审查报告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/GAO-R-25-106931%20MOSA%E5%AE%A1%E6%9F%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GAO-25-106931 MOSA专项审查报告：武器系统采办——国防部需要更好的规划以获取模块化开放系统方法的收益
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/HASC%E6%8A%A5%E5%91%8A114-102/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HASC Report 114-102 — FY2016 NDAA 委员会报告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/HIMA%E5%92%8C%E8%B0%90%E6%99%BA%E8%83%BD%E5%87%BA%E8%A1%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    鸿蒙智行官网：HIMA联盟与核心技术
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/ICNews-COARPS%E4%BF%A1%E6%81%AF%E5%BE%81%E6%B1%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Air Force Posts COARPS RFI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/IEEE-NASA%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E4%B9%8B%E6%97%852024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IEEE Aerospace Conference: NASA数字工程转型之旅（2024）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/INCOSE%20MBSE%E6%96%B9%E6%B3%95%E8%AE%BA%E8%B0%83%E6%9F%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    INCOSE MBSE方法论调查
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/INCOSE%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E6%89%8B%E5%86%8CV5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    INCOSE SE Handbook V5 — 系统工程手册第五版
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/IS4S-R-EGI%20C12J%E9%A3%9E%E8%A1%8C%E6%B5%8B%E8%AF%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    R-EGI Takes Flight on Military C-12J Test Aircraft
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/ISO%2015288-2023%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ISO/IEC/IEEE 15288:2023 — 系统生命周期过程
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/InsideGNSS-R-EGI%E9%87%8C%E7%A8%8B%E7%A2%912024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    R-EGI Program Achieves Key Milestone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MIL-HDBK-1211%E5%AF%BC%E5%BC%B9%E9%A3%9E%E8%A1%8C%E4%BB%BF%E7%9C%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIL-HDBK-1211(MI)：导弹飞行仿真手册
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MIL-STD-881D%E5%9B%BD%E9%98%B2%E7%89%A9%E8%B5%84%E5%B7%A5%E4%BD%9C%E5%88%86%E8%A7%A3%E7%BB%93%E6%9E%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIL-STD-881D——国防装备工作分解结构标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MITRE%20DEWS-MOSA%E5%8F%82%E8%80%83%E6%9E%B6%E6%9E%84%E5%85%A8%E6%96%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MITRE DEWS MOSA参考架构完整文档
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MOATEL-WOSA%E9%AA%8C%E8%AF%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOATEL：弹药开放架构试验鉴定实验室
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MORA%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E6%94%BE%E5%B0%84%E9%A2%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MORA — 模块化开放射频架构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/MOSA%E4%B8%8E%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%87%87%E5%8A%9E-Shah%E8%AE%BA%E6%96%87/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    模块化开放系统方法（MOSA）及其对美国国防采办的影响
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NASA%E6%89%8B%E5%86%8C1004/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NASA-HDBK-1004: NASA数字工程采办框架手册
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NASA%E6%89%8B%E5%86%8C1009A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NASA-HDBK-1009A: NASA系统建模手册（系统工程用）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NASA%E6%89%8B%E5%86%8C7009A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NASA-HDBK-7009A: 建模与仿真手册——NASA-STD-7009A实施指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NASA%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E6%89%8B%E5%86%8C%E4%BF%AE%E8%AE%A22/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NASA/SP-2016-6105 Rev 2 — NASA系统工程手册
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NAVAIR%20HOST%205.0%E5%8F%91%E5%B8%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    海军推广最新硬件开放架构技术标准HOST 5.0（NAVAIR新闻 2023年2月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NAVAIR-MOSA%E6%A6%82%E8%BF%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAVAIR MOSA官方页面
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NAVAIR-OSMP%E6%8C%87%E5%8D%97V1%202025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAVAIR OSMP Implementation Description Guide v1.0 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NDAA%202020-2021%20MOSA%E6%89%A9%E5%B1%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2020/2021财年国防授权法案MOSA扩展条款
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NDIA%20SysML%20v2%E8%BF%87%E6%B8%A12023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NDIA 2023 — DoD SysML v2 过渡指南项目简报
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NDIA-CFW%20ICD%E8%B5%96%E7%89%B92015/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NDIA — Constructing Common Fire Control Across Weapon Platforms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NDIA-MOSA%E7%99%BD%E7%9A%AE%E4%B9%A62019/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    美国国防工业协会（NDIA）MOSA白皮书——十大建议
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NIST%E7%89%B9%E5%88%AB%E5%87%BA%E7%89%88%E7%89%A9800-160%20v2%E7%BD%91%E7%BB%9C%E9%9F%A7%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NIST SP 800-160 Vol. 2 Rev. 1 — 赛博弹性系统开发
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/NTSA-SCARS%E7%AE%80%E6%8A%A52025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NTSA SCARS STCF Brief 2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/OMB%E9%80%9A%E5%91%8AA-130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OMB Circular A-130 — 将信息作为战略资源管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/OSD%20SysML%20v2%E8%BF%87%E6%B8%A1%E6%8C%87%E5%AF%BC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OUSD(R&E) SysML v1→v2 过渡指导
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/OSJTF%E5%AE%AA%E7%AB%A01994/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开放系统联合特别工作组（OSJTF）宪章与MOSA起源
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI-DID%E6%A8%A1%E6%9D%BF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI数据项描述（DID）模板合集
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI-%E9%9B%86%E6%88%90%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI — 项目管理与系统工程整合
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI%E4%B8%9A%E5%8A%A1%E6%A1%88%E4%BE%8B-%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI — 系统工程投资回报论证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI%E4%B8%9A%E5%8A%A1%E6%A1%88%E4%BE%8B-%E9%9C%80%E6%B1%82%E5%B7%A5%E7%A8%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI — 需求工程投资回报论证
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95%E8%AE%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI — 需求分析方法论（有效 + 概览）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/PPI%E9%9C%80%E6%B1%82%E8%B4%A8%E9%87%8F%E5%BA%A6%E9%87%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PPI: Requirements Quality Metrics (Halligan 1993)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/RNTFND%20R-EGI%E5%AF%BC%E8%88%AA%E7%B3%BB%E7%BB%9F2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The future of navigation (MOSA) is happening — USAF R-EGI Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SAM-ABMS%E5%B9%BF%E6%B3%9B%E6%9C%BA%E6%9E%84%E5%85%AC%E5%91%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAM.gov ABMS广泛机构公告（BAA）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SAM.gov-UAI%E4%BF%A1%E6%81%AF%E5%BE%81%E6%B1%82/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAM.gov UAI/CFW ICD RFI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SDA%E5%A4%AA%E7%A9%BA%E4%BD%9C%E6%88%98%E6%9E%B6%E6%9E%84MOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    太空发展局增殖型作战人员太空架构（PWSA）MOSA实施
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SM-6%E9%80%89%E5%AE%9A%E9%87%87%E8%B4%AD%E6%8A%A5%E5%91%8A2023%E5%B9%B412%E6%9C%88/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SM-6 采办报告（MSAR 2023年12月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SM6-LTAMDS-IBCS%E8%8B%B1%E5%8B%87%E4%B9%8B%E7%9B%BE2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SM-6与LTAMDS/IBCS联合集成验证（Valiant Shield 24）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SOSA%20VITA%E4%BA%A7%E5%93%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOSA产品技术概览与产品指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SOSA%E5%8F%82%E8%80%83%E6%9E%B6%E6%9E%84V2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOSA传感器开放系统架构参考架构技术标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/STANAG%204586%E6%97%A0%E4%BA%BA%E6%9C%BA%E6%8E%A7%E5%88%B6%E7%AB%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    STANAG 4586 — NATO UAV控制系统标准接口（UCS）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/SysML%20v2%E8%A7%84%E8%8C%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SysML v2 规范 — 下一代系统建模语言
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/UAI%E9%80%9A%E7%94%A8%E6%AD%A6%E5%99%A8%E6%8E%A5%E5%8F%A3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    通用武器接口（UAI）概述
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/Victory-GVA%E7%99%BD%E7%9A%AE%E4%B9%A6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VICTORY与GVA：地面车辆现代化白皮书
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/Victory%E5%9C%B0%E9%9D%A2%E8%BD%A6%E8%BE%86/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VICTORY — 车辆C4ISR/EW互操作性标准
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/WICVC%E8%AF%95%E7%82%B9%E6%88%90%E6%9E%9C2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/XM30%20MICV%20MOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    XM-30机械化步兵战车MOSA设计案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E4%B8%89%E5%86%9B%E5%A4%87%E5%BF%98%E5%BD%952019/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    三军部长备忘录：武器系统的模块化开放系统方法是作战必要条件（2019年1月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E4%B8%89%E5%86%9B%E5%A4%87%E5%BF%98%E5%BD%952024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    三军联合备忘录：国防部武器系统模块化开放系统方法（2024年12月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E4%B8%AD%E5%9B%BD%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E8%BD%A6%E8%B7%AF%E4%BA%91%E4%B8%80%E4%BD%93%E5%8C%962024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    中信科联智：《车路云一体化标准体系及应用试点推荐标准清单》正式发布
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%85%8B%E9%87%8C%E6%96%AF-%E5%8A%A0%E5%8B%92%E7%89%B9%E6%BC%94%E8%AE%B22024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chris Garrett AFMC数字化转型演示
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%86%9B%E4%BA%8B%E5%B5%8C%E5%85%A5-%E6%B5%B7%E5%86%9BOSMP%202025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    海军将更多控制开放架构开发（Military Embedded 报道）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%8D%8E%E4%B8%BA%E8%BD%A6%E6%9C%BA%E5%A5%97%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    华为Car Kit开发者文档：出行服务API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%8F%82%E8%AE%AE%E9%99%A2Hunter%E8%AF%81%E8%AF%8D2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    参议院拨款委员会听证——Hunter证词（空军采购）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%8F%AF%E7%BB%84%E5%90%88%E6%AD%A6%E5%99%A8-%E9%9B%B7%E7%A5%9E%E5%85%AC%E5%8F%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raytheon Composable Weapons Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%9B%BD%E9%98%B2%E9%83%A8MOSA%E5%AE%9E%E6%96%BD%E6%8C%87%E5%8D%972025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MOSA实施指南（2025版）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%9B%BD%E9%98%B2%E9%83%A8%E6%8C%87%E4%BB%A45000.02-2020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.02 — 自适应采办框架操作
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%9B%BD%E9%98%B2%E9%83%A8%E6%8C%87%E4%BB%A45000.85-2020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoDI 5000.85 — 重大能力收购
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%9B%BD%E9%98%B2%E9%83%A8%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E6%88%98%E7%95%A52018/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoD数字工程战略（2018）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%9B%BD%E9%98%B2%E9%83%A8%E7%9B%91%E5%AF%9F%E9%95%BF-OSJTF%E5%AE%A1%E8%AE%A12000/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DoD IG审计报告：武器系统开放系统方法的使用（2000）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%A4%A7%E7%96%86%E5%BC%80%E5%8F%91%E8%80%85%E5%B9%B3%E5%8F%B0%E6%A6%82%E8%BF%B0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DJI开发者平台：SDK体系概览
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%BC%80%E6%94%BE%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%90%88%E5%90%8C%E6%8C%87%E5%8D%97V1.1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OSA合同指南v1.1 — 项目经理开放系统架构合同指南
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E5%BE%B7%E5%9B%BD%E5%AE%99%E6%96%AF%E7%9B%BESPY6-F127-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    德国Aegis/SPY-6 F127护卫舰军售案（2026年4月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E6%B3%A2%E5%85%B0IBCS%E7%88%B1%E5%9B%BD%E8%80%85%E7%B3%BB%E7%BB%9F2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    波兰IBCS爱国者系统军售案（2023年9月）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E6%B5%B7%E5%86%9BMOSA%E6%8C%87%E5%8D%97V1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    海军模块化开放系统方法实施指南 V1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%81%B5%E6%B4%BB%E6%AD%A6%E5%99%A8%E6%9E%B6%E6%9E%84-%E6%99%AE%E6%B8%A1%E5%A4%A7%E5%AD%A62015/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flexible Weapons Architecture Design (Purdue Thesis)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A7%91%E5%AD%A6%E5%A7%94%E5%91%98%E4%BC%9A%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DSB数字工程能力报告 — 自动化测试与评估
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A9%BA%E5%86%9BCOARPS%E4%BF%A1%E6%81%AF%E5%BE%81%E6%B1%822021/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    USAF COARPS RFI June 2021
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A9%BA%E5%86%9B%E5%85%A8%E7%90%83%E6%89%93%E5%87%BB%E5%8F%B8%E4%BB%A4%E9%83%A8-%E5%93%A8%E5%85%B5GBSD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AFGSC Sentinel GBSD Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A9%BA%E5%86%9B%E7%A0%94%E7%A9%B6%E5%AE%9E%E9%AA%8C%E5%AE%A4-%E7%81%B5%E6%B4%BB%E6%AD%A6%E5%99%A82014/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AFRL Flexible Weapons Concept (2014)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A9%BA%E5%86%9B%E8%A3%85%E5%A4%87%E5%8F%B8%E4%BB%A4%E9%83%A8-ABMS%E5%88%86%E5%B8%83%E5%BC%8F%E8%BF%9E%E6%8E%A5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AFMC ABMS：分布式连接制胜
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%A9%BA%E5%86%9B%E9%A2%84%E5%A4%87%E5%BD%B9-A-GRA%20CCA%E9%AA%8C%E8%AF%812025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Air Force Validates A-GRA Open Architecture for CCA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%AA%81%E7%A0%B4%E9%98%B2%E5%8A%A1-SCARS%E6%8A%A5%E9%81%932024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    现代军事模拟的开放系统架构
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%B2%BE%E7%A1%AE%E6%89%93%E5%87%BB%E5%AF%BC%E5%BC%B9MOSA%E6%A1%88%E4%BE%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    精确打击导弹（PrSM）MOSA实施案例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91-LGM-35%E5%93%A8%E5%85%B5%E5%AF%BC%E5%BC%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wikipedia: LGM-35 Sentinel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E7%BE%8E%E5%9B%BD%E6%B3%95%E5%85%B8%E7%AC%AC10%E7%BC%964401-4403%20MOSA%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 U.S.C. §§4401–4403 — MOSA法定要求
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E8%88%AA%E7%A9%BAPEO%20FACE%20TIM%202021/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PEO Aviation FACE TIM 2021 Open Systems Demonstration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E8%88%AA%E7%A9%BAPEO-MOSA%E5%AE%9E%E6%96%BD%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PEO Aviation MOSA实施指南（精简版）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E8%88%AA%E7%A9%BAPEO-MOSA%E8%A1%8C%E4%B8%9A%E4%BA%A4%E6%B5%812022/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PEO Aviation MOSA Transformation Office Industry Day 2022
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E8%AF%BA%E6%A0%BC%E5%85%AC%E5%8F%B8-%E6%B4%9E%E5%AF%9F%E5%BC%80%E6%94%BE%E5%A4%84%E7%90%86%E5%99%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Northrop Grumman InSight开放系统处理器数据手册
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E9%98%B2%E5%8A%A1%E6%96%B0%E9%97%BB-%E5%BC%80%E6%94%BE%E6%A0%87%E5%87%862024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    开放开发标准是保持美军优势的关键（Defense News 评论文章）
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E9%99%86%E5%86%9B%E5%87%BA%E5%8F%91%E7%BA%BF-AMD%202023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Army Line of Departure - Ensuring War-Winning Future Readiness for AMD Forces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sources/%E9%99%86%E5%86%9B%E9%87%87%E5%8A%9E%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%882024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    U.S. Army Acquisition Program Portfolio 2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-07-1000" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-07 — 补充：驭空戟-1000开放架构实践案例
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-07 — 中国智能网联汽车与无人机开放生态扩展
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-06-1021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-06 — 开放架构层次体系扩展：从10种到21种实现
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-07_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-07 — 柔性武器设计方法入库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-07-2019mosa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-07 — 2019年三军部长MOSA备忘录入库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-08-iamdltamdsaegis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-08 — 陆军 IAMD/LTAMDS/Aegis 补充资料入库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-08-mosa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-08 — 美军全寿命周期MOSA应用分析
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-08-vs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-08 — 开放架构标准分类：三军共用 vs 军种内推广
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-08-moatel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-08 — MOATEL弹药开放架构试验鉴定实验室入库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-05-08 — 高优先级原始资料补充入库
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | Wiki全面健康检查与修复
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint-wiki_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | Wiki全面健康检查完成
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | 交叉引用完整性修复
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | 原始文件引用与索引重复检查
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-ingest-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] ingest | 批量PDF提取恢复
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint-sitecontent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | site/content同步与概述更新
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | SCHEMA规范合规性修复
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | 新特性文件创建与脚本部署
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | 来源覆盖率分析与交叉引用补充
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-lint_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] lint | 来源覆盖率最终修复
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-create-dau" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] create | 国防采办大学 (DAU) 实体页面
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-05-10-create-moatel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-05-10] create | MOATEL 实体页面
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>日志</h1>
+
+<div class="highlight"><pre><span></span><code> 1|
+ 2|---
+ 3|
+ 4|## 2026-05-07 — 知识库全量 Lint 修复
+</code></pre></div>
+<p><strong>触发</strong>：用户要求对知识库做 lint 分析并全部解决</p>
+<p><strong>修复前状态</strong>：
+- 29 处断链、7 个孤立页面、overview 统计 4 项不准确</p>
+<p><strong>修复内容</strong>：
+- 修复 overview.md 4 项统计：concepts 27→39, entities 21→22, comparisons 18→20, total pages 准确
+- 修复 1 个 meta 链接（karpathy-vs-implementation: <a href="../%E6%A6%82%E8%BF%B0/">概述</a> → wiki/overview）
+- 修复 1 个命名不一致（wosa-defense-acquisition → wosa-weapons-open-systems-architecture）
+- 移除 4 个不存在的目标链接（data-rights, resilience-engineering×2, resilience-metrics）
+- 创建 8 个缺失的 entity 页面：afgsc, anduril, cae-usa, collins-aerospace, general-atomics, is4s, shield-ai, stratcom
+- 创建 22 个缺失的 source stub 页面（gao-25-106931, dau-next-gen-acquisition 等）
+- 补齐 7 个孤立页面到 index：acquisition-practices, afmc-abms, dote-fy2024, mitre-dews, nickolas-guertin, pma-209, system-integration
+- 新建 comparison 页面 <code>china-vs-us-open-architecture.md</code>：中美开放架构十维对比</p>
+<p><strong>修复后状态</strong>：214 页，0 有效断链（仅 <a href="../%E6%A6%82%E8%BF%B0/">概述</a> 引用 meta 页的已知 false positive），所有页面有入站链接或已编入 index</p>
+<hr />
+<h2 id="2026-05-07-1000">2026-05-07 — 补充：驭空戟-1000开放架构实践案例<a class="headerlink" href="#2026-05-07-1000" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户要求补充凌空天行驭空戟-1000导弹的开放系统架构实践</p>
+<p><strong>操作</strong>：
+- 新建1个raw/article、1个source页：<code>lingkong-tianxing-ykj-1000</code>
+- 四维开放架构对应分析：商用标准替代军用专标 / 供应链解耦 / 模块化升级 / 成本验证</p>
+<p><strong>关键洞察</strong>：凌空天行未使用"开放架构"术语，但其车规级芯片+汽车产线+民用建材的实践是最生动的开放架构原则演示——成本降至1/10的实证</p>
+<hr />
+<p><strong>操作</strong>：
+- 新建6个raw/article文件、5个source页、1个topic页
+- 与美军MOSA七维对比表（法律/政策/标准/验证/透明度/部署）</p>
+<p><strong>新建source pages</strong>：
+- wiki/sources/spacejournal-open-embedded-computer-standards.md
+- wiki/sources/researching-pnp-weapon-integration-2013.md</p>
+<p><strong>关键发现</strong>：中国军方公开材料中2025年宇航学报论文是首次直接引用MOSA作为参照建标的证据；但总体透明度远低于美军</p>
+<hr />
+<h2 id="2026-05-07">2026-05-07 — 中国智能网联汽车与无人机开放生态扩展<a class="headerlink" href="#2026-05-07" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户要求搜索国内车路云一体化战略、华为车辆开放生态、大疆开放无人机架构标准并加入知识库</p>
+<p><strong>操作</strong>：
+- 新建3个topic页面：
+  - <code>china-vehicle-road-cloud-integration.md</code> — 中国车路云一体化战略：云控平台两级架构（边缘云+区域云）、标准体系8部分、63项推荐标准、十大功能场景、跨域协同行动计划
+  - <code>huawei-vehicle-open-ecosystem.md</code> — 华为车辆开放生态：鸿蒙智行联盟、iDVP数字底座、HarmonySpace 6座舱、Car Kit开放API、三种合作模式演化
+  - <code>dji-open-drone-architecture.md</code> — 大疆开放无人机架构标准：Mobile SDK/Payload SDK/Onboard SDK/Edge SDK/Cloud API五层开放体系，抽象组件化设计实现即插即用
+- 更新index.md：添加3个topic条目
+- 更新overview.md：新增第10条核心故事线"中国智能网联汽车与无人机开放生态"</p>
+<p><strong>来源</strong>：
+- 中信科联智、世界智能网联汽车大会、国汽智联等官方发布
+- 华为官网、鸿蒙智行官网、华为开发者文档
+- 大疆开发者平台、GitHub开源仓库</p>
+<hr />
+<h2 id="2026-05-06-1021">2026-05-06 — 开放架构层次体系扩展：从10种到21种实现<a class="headerlink" href="#2026-05-06-1021" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code> 5|
+ 6|**触发**：用户指出&quot;其他的各种开放系统架构的实现也应该归入这个分类结构&quot;，要求补全美国所有开放架构实现
+ 7|
+ 8|**操作**：
+ 9|- 新建13个wiki source pages（AMS GRA, A-GRA, ABMS GRA, NC3 GRA, Sentinel GRA, COARPS, R-EGI, SCARS, CFW ICD, OSMP, NG InSight, DAU Next Gen Acquisition, Senate Hunter Testimony）
+10|- 下载14个.mil/.gov PDF/DOCX到raw/papers/，mutool转换到raw/articles/
+11|- 下载11个web文章到raw/articles/
+12|- 更新层次总览页open-architecture-hierarchy.md：从10种→21种实现
+13|- 更新index.md、交叉引用
+14|
+15|**新建source pages**：
+16|- wiki/sources/dau-next-gen-acquisition-2024.md — DAU演示（全GRA清单）
+17|- wiki/sources/senate-defense-hunter-testimony-2024.md — Senate证词（AMS GRA/A-GRA）
+18|- wiki/sources/ng-insight-open-processor.md — NG InSight处理器（AMS-GRA合规）
+19|- wiki/sources/afrc-a-gra-cca-validation-2025.md — A-GRA/CCA验证
+20|- wiki/sources/crs-nc3-if11697.md — NC3 CRS入门
+21|- wiki/sources/dtic-nc3-architecture-ada619949.md — NC3 GAO审查
+22|- wiki/sources/crs-sentinel-icbm-if11681.md — Sentinel CRS入门
+23|- wiki/sources/afgsc-sentinel-gbsd.md — AFGSC Sentinel部署
+24|- wiki/sources/dvids-r-egi-pnt-flight-2024.md — R-EGI飞行演示
+25|- wiki/sources/usaf-coarps-rfi-2021.md — COARPS RFI
+26|- wiki/sources/ntsa-scars-stcf-2025.md — SCARS 2025简报
+27|- wiki/sources/ndia-cfw-icd-wright-2015.md — CFW ICD NDIA演示
+28|- wiki/sources/navair-osmp-guide-v1-2025.md — OSMP实施指南
+29|
+30|**新增raw/papers/**：
+31|- dau-next-gen-acquisition-2024.pdf, dtic-nc3-architecture-ada619949.pdf, afrc-a-gra-cca-validation-2025.pdf, senate-defense-hunter-testimony-2024.pdf, dvids-r-egi-pnt-flight-2024.pdf, crs-sentinel-icbm-if11681.pdf, crs-nc3-if11697.pdf, ng-insight-open-processor.pdf, navair-osmp-guide-v1-2025.pdf, usaf-coarps-rfi-2021.docx, samgov-uai-rfi.pdf, ntsa-scars-stcf-2025.pdf, afgsc-sentinel-gbsd.pdf, ndia-cfw-icd-wright-2015.pdf
+32|
+33|**更新**：
+34|- wiki/comparisons/open-architecture-hierarchy.md — 21种实现四层结构，链接到concept pages
+35|- wiki/index.md — 新增11个concept pages + 3个comparison pages
+36|- wiki/log.md — 本条目
+37|
+38|**新建concept pages**：
+39|- wiki/concepts/ams-gra-agile-mission-suite.md — AMS GRA
+40|- wiki/concepts/a-gra-autonomy-reference-architecture.md — A-GRA
+41|- wiki/concepts/abms-gra-advanced-battle-management.md — ABMS GRA
+42|- wiki/concepts/pnt-gra-r-egi.md — PNT GRA/R-EGI
+43|- wiki/concepts/coarps-radar-architecture.md — COARPS
+44|- wiki/concepts/scars-simulator-architecture.md — SCARS
+45|- wiki/concepts/nc3-gra-nuclear-c3.md — NC3 GRA
+46|- wiki/concepts/sentinel-gra-icbm.md — Sentinel GRA
+47|
+48|**Mission Planning GRA**：公开信息极少（仅Garrett演示一行），待后续补充
+49|
+50|**POST-INGEST分析**：
+51|- 新建8个entity pages：CAE USA、General Atomics、Anduril、Shield AI、Collins Aerospace、IS4S、AFGSC、STRATCOM
+52|- 新建1个topic page：gra-ecosystem-evolution（GRA生态演进：从单一标准到四层架构体系）
+53|- 更新overview.md：新增第4节&quot;GRA生态：21种开放架构的四层体系&quot;
+54|- 更新index.md：新增entity pages和topic page
+55|
+56|---
+57|
+58|## 2026-04-29 — 软件定义能力+数字生态系统平台+OMS/CCA扩展
+59|
+60|**新增概念页面（2个）**：
+61|- `software-defined-capabilities.md` — 软件定义能力：CCA和ABMS的核心设计理念（硬件标准化+软件可替换+能力通过软件配置），与OMS/FACE/MOSA的关系
+63|
+64|**扩展页面（4个）**：
+65|- `open-mission-systems.md` — 大幅扩展：新增GRA目标架构中OMS作为&quot;抽象服务总线（ASB）隔离器&quot;角色、CCA关联、FACE TIM 2021集成实践、Chris Garrett演示数据
+66|- `speed-vs-modularity.md` — 新增CCA作为最新案例（2028 MTA时间线 vs MOSA合规）、SAB ToR隐含审查、平衡策略（GRA复用、标准堆栈预集成）
+67|- `c5isr-standards-convergence.md` — 新增FACE TIM 2021实证数据（20公司×29产品×8 TSS集成规模、多版本FACE互操作、TSS桥接机制、遗留系统融入、容器适航性差距）
+68|- `digital-engineering-practice.md` — 新增NASA三层DE实施体系（HDBK-1004采办框架217页 + HDBK-1009A系统建模88页 + HDBK-7009A M&amp;S质量157页）、实施数据（692用户/1100+模型）、与DoD体系对比
+69|
+70|**来源**：
+71|- Chris Garrett AFMC演示 (2024.9, 19页)
+72|- FY2024 SAB S&amp;T审查ToR (6页)
+73|- PEO Aviation FACE TIM 2021 (56页)
+74|
+75|**更新index.md**：+2 concepts, +1 comparison
+76|
+77|---
+78|
+79|## 2026-04-26 — 数字工程×MOSA交叉领域补充
+80|
+81|**新增source页面**：
+82|- `nist-sp-800-160-v2-cyber-resilience.md` — NIST赛博弹性系统开发（310页，含11项结构性设计原则，与MOSA模块化高度对齐）
+83|- `sysml-v2-specification.md` — SysML v2规范（2025年6月OMG正式采纳，MOSA接口建模的下一代语言基础）
+84|- `ousd-sysml-v2-transition-guidance.md` — OUSD(R&amp;E) SysML v1→v2 过渡指导（官方规划大纲）
+85|- `ndia-sysml-v2-transition-2023.md` — NDIA 2023 SysML v2 过渡指南项目简报（Daniel Hettema）
+86|- `nasa-se-handbook-rev2.md` — NASA系统工程手册 Rev 2（接口管理体系，MOSA工程实践参考）
+87|- `incose-se-handbook-v5.md` — INCOSE SE Handbook V5（系统工程权威参考，与ISO 15288对齐）
+88|
+89|**新增实体**：
+90|- `daniel-hetzema.md` — Daniel Hettema（DEM&amp;S 主任，SysML v2 过渡推动者）
+91|- `ousd-re.md` — OUSD(R&amp;E) 研究与工程副部长办公室
+92|- `dems.md` — DEM&amp;S 数字工程、建模与仿真团队
+93|
+94|**新增对比页**：
+95|- `three-se-handbooks-detailed-comparison.md` — 三本SE手册逐维度对比（NASA/INCOSE/ISO）
+96|
+97|**交叉引用修复**（14个页面）：
+98|- `digital-engineering-ecosystem` — +INCOSE/NASA/NIST
+99|- `three-se-handbooks-detailed-comparison` — +NIST
+</code></pre></div>
+<p>100|- <code>three-se-handbooks-complement</code> — +NIST
+   101|- <code>iso-15288-2023</code> — +INCOSE
+   102|- <code>digital-engineering-mosa-convergence</code> — +INCOSE
+   103|- <code>incose-mbse-methodology-survey</code> — +INCOSE/NASA
+   104|- <code>sysml-v2-specification</code> — +INCOSE
+   105|- <code>nist-sp-800-160-v2-cyber-resilience</code> — +NASA
+   106|- <code>incose-se-handbook-v5</code> — +INCOSE entity
+   108|- <code>ppi-requirements-quality-metrics</code> — +NASA
+   109|
+   110|<strong>概念/主题页修复</strong>（12个页面）：
+   111|- 概念 高密度 6个: <code>requirements-quality-mosa</code> / <code>mosa-five-pillars</code> / <code>mosa-defense-acquisition</code> / <code>modular-architecture-patterns</code> / <code>mosa-brownfield-vs-greenfield</code> / <code>dews-mosa-reference-architecture</code> — +接口演进
+   112|- 概念 中密度 4个: <code>mosa-digital-engineering</code> / <code>mosa-five-pillars-assessment</code> / <code>host-hardware-open-systems</code> / <code>ucs-control-station</code> — +接口演进
+   113|- 主题 2个: <code>digital-engineering-ecosystem</code> +SysML / <code>three-se-handbooks-complement</code> +SysML
+   114|
+   115|<strong>洞察综合（5+新source后执行）</strong>：
+   116|- <code>interface-engineering-evolution.md</code> — 接口工程三层演进（NASA ICD → MOSA标准化 → SysML v2模型驱动）
+   117|- <code>nist-cyber-resilience-mosa-security.md</code> — NIST赛博弹性设计原则作为MOSA安全性架构框架（7/11项原则直接映射）
+   118|- <code>sysml-v2-transition-bottleneck.md</code> — SysML v1→v2过渡作为MOSA数字工程落地的基础设施瓶颈（15,000+模型迁移）
+   119|- <code>incose-resilience-vs-nist-cyber-resilience.md</code> — INCOSE韧性 vs NIST赛博弹性（通用框架与赛博特化的关系）
+   120|- <code>three-se-handbooks-complement.md</code> — 三本SE手册互补（NASA/INCOSE/ISO三层参考体系）
+   121|
+   122|<strong>更新页面</strong>：
+   123|- <code>cybersecurity-vs-mosa-openness.md</code> — 新增NIST赛博弹性框架作为MOSA安全性的解决方案
+   124|- <code>digital-engineering-tools-comparison.md</code> — 新增SysML v2引用
+   125|- <code>digital-engineering-ecosystem.md</code> — 新增NIST和SysML v2来源
+   126|- <code>incose.md</code> — 新增SysML v2标准化活动
+   127|- <code>mosa-digital-engineering.md</code> — 新增NIST和SysML v2引用
+   128|
+   129|<strong>已下载原始资料</strong>：
+   130|- <code>NIST.SP.800-160v2r1.pdf</code> (5.0M, 42273行) — 赛博弹性工程
+   131|- <code>SysML-v2-Basics-2024.pdf</code> (1.5M, 974行) — SysML v2概述
+   132|- <code>raw/repo/sysml-v2-release/</code> — SysML v2官方repo（含KerML 454页、SysML v2 691页、API 107页、v1→v2转换 661页、图形表示法 123页，共5个规范PDF + BNF语法定义）
+   133|- <code>SysML-Info-Sheet-Jan2025.pdf</code> (893K, 2页) — OUSD(R&amp;E) SysML v2 技术亮点
+   134|- <code>SysML-v2-TransitionOutline-1.1.pdf</code> (360K) — OUSD(R&amp;E) SysML v1→v2 过渡规划大纲 v1.1
+   135|- <code>Thurs_1560710_Stirk.pdf</code> (2.0M) — NDIA 2023 SysML v2 过渡指南项目简报
+   136|- <code>NASA-SP-2016-6105-Rev2.pdf</code> (4.0M, 21030行) — NASA系统工程手册 Rev 2
+   137|- <code>INCOSE-SE-Handbook-V5.pdf</code> (8.8M, 22329行) — INCOSE SE Handbook V5
+   138|
+   139|<strong>待手动下载</strong>（服务器不可达）：
+   140|- <del>INCOSE SE Handbook V5（付费书）</del> ✅ 已由用户手动下载
+   141|
+   142|---
+   143|## 2026-04-20 — 知识库全面质量检查与修复
+   144|
+   145|<strong>操作</strong>：扫描77个内容页面，发现47个有问题，全部修复
+   146|
+   147|<strong>修复内容</strong>：
+   148|1. <strong>37个页面</strong>补充frontmatter created/updated字段
+   149|2. <strong>15个页面</strong>补充## 相关内容章节
+   150|3. <strong>dfars-part-227</strong>用PDF原文重写（从17行扩展到100+行，含Subpart 227.71全文摘要）
+   151|4. <strong>karpathy-vs-implementation</strong>更新为当前状态（含post-ingest checklist、topics/）
+   152|5. <strong>mosaic-modular-open-systems-approach</strong>补充frontmatter title
+   153|6. 修复1处断链（SCHEMA.md wikilink）
+   154|
+   155|<strong>验证</strong>：77个页面，0 frontmatter缺失，0 缺少相关内容，0断链
+   156|
+   157|---
+   158|
+   159|## 2026-04-20 — source文件名去掉日期前缀
+   160|
+   161|<strong>操作</strong>：批量重命名sources/下43个文件，去掉YYYY-MM-DD-前缀
+   162|
+   163|<strong>改名规则</strong>：<code>2026-04-19-dodi-5000-75-business-systems.md</code> → <code>dodi-5000-75-business-systems.md</code>
+   164|
+   165|<strong>原因</strong>：
+   166|- 日期前缀与YAML frontmatter的created字段冗余
+   167|- wikilink引用时容易漏前缀导致断链
+   168|- 文件名更简洁易记
+   169|
+   170|<strong>处理</strong>：
+   171|- 43个source文件改名
+   172|- 60个wiki文件更新wikilink引用
+   173|- 验证：0断链
+   174|
+   175|---
+   176|
+   177|## 2026-04-20 上午 — 知识库机制改进
+   178|
+   179|<strong>问题</strong>：摄取文章后entities/topics/comparisons经常不更新，Karpathy原版overview.md缺失
+   180|
+   181|<strong>修复内容</strong>：
+   182|
+   183|1. <strong>修复7处断链</strong>：
+   184|   - <code>dodi-5000.97-digital-engineering</code> → <code>2026-04-19-dodi-5000-97-digital-engineering</code>（6处）
+   185|   - <code>ppi-integrating-pm-se</code> → <code>2026-04-19-ppi-integrating-pm-se</code>（1处）
+   186|   - <code>ppi-requirements-analysis</code> → <code>2026-04-19-ppi-requirements-analysis</code>（1处）
+   187|
+   188|2. <strong>更新llm-wiki skill</strong>：
+   189|   - 新增⑦ <strong>POST-INGEST MANDATORY CHECKLIST</strong>：每次ingest后必须检查5个下游文件夹
+   190|   - 新增overview.md章节：定义了overview.md的定位、更新时机、结构
+   191|   - 更新架构图：加入overview.md
+   192|   - 更新orientation步骤：加入读取overview.md
+   193|
+   194|3. <strong>更新SCHEMA.md</strong>：
+   195|   - 目录结构加入overview.md、topics/
+   196|   - Ingest操作加入post-ingest checklist
+   197|   - Red Flags加入"未检查下游文件夹"和"未更新overview.md"
+   198|
+   199|4. <strong>创建overview.md</strong>：
+   200|   - 知识库"我现在知道什么"总览
+   201|   - 5条核心故事线：MOSA演化、DEE、C5ISR标准、合同框架、国际化
+   202|   - 待填补空白清单
+   203|
+   204|<strong>统计数据</strong>：76个wiki页面，7条断链已修复，0孤儿页面待处理（17个中大部分是新增entities/topics，自然状态）
+   205|
+   206|<strong>补充操作</strong>：
+   207|- 删除 <code>~/wiki/wiki/synthesis/</code> 空目录（方案A已合并到topics）
+   208|- 合并两个SCHEMA.md：根目录<code>~/wiki/SCHEMA.md</code>改为项目说明指针，权威版在<code>~/wiki/wiki/SCHEMA.md</code>
+   209|- 权威SCHEMA.md加入post-ingest checklist、overview.md定义、updated Red Flags
+   210|
+   211|---
+   212|
+   213|## 2026-04-20 上午 — 补充entities和topics
+   214|
+   215|<strong>操作</strong>：根据新摄取内容补充entities和topics，理顺synthesis/topics关系
+   216|
+   217|<strong>决策</strong>：采用方案A，保留topics，明确定位：
+   218|- concepts：定义层（What）
+   219|- topics：实践层（How）— 跨来源主题综合
+   220|- comparisons：分析层（Comparison）
+   221|
+   222|<strong>新建entities（4个）</strong>：
+   223|- <code>omb</code> — 管理和预算办公室（OMB Circular A-130发布机构）
+   224|- <code>incose</code> — 国际系统工程委员会（MBSE方法论调查发布组织）
+   225|- <code>dsb</code> — 国防科学委员会（数字工程报告发布机构）
+   226|- <code>ppi</code> — 国际项目绩效公司（DID模板、SE/RE投资回报研究）
+   227|
+   228|<strong>新建topics（1个）</strong>：
+   229|- <code>digital-engineering-ecosystem</code> — 数字工程生态系统（DEE）概述（综合5个来源）
+   230|
+   231|<strong>更新index.md</strong>：
+   232|- 新增4个entities条目
+   233|- 新增1个topics条目
+   234|- 删除Synthesis部分（已合并到topics）
+   235|
+   236|---
+   237|
+   238|## 2026-04-20 早晨 — 新增2个结构性comparison
+   239|
+   240|<strong>操作</strong>：基于用户需求，创建2个新的对比分析页面
+   241|
+   242|<strong>新建comparison页（2个）</strong>：
+   243|- <code>cybersecurity-vs-mosa-openness</code> — 赛博安全与MOSA开放接口的政策张力
+   244|  - 分析OMB A-130信息安全要求与MOSA开放接口的矛盾
+   245|  - 提出分级开放、零信任架构、DevSecOps等平衡策略
+   246|- <code>digital-engineering-mosa-convergence</code> — 数字工程与MOSA融合
+   247|  - 分析MOSA从采办策略到DEE技术基础的第二次质变
+   248|  - 整合DoD数字工程战略2018、DoDI 5000.97、INCOSE MBSE调查、DSB报告
+   249|
+   250|<strong>更新index.md</strong>：Comparisons部分新增2个条目
+   251|
+   252|<strong>最终状态</strong>：9个comparison页面
+   253|
+   254|---
+   255|
+   256|## 2026-04-20 早晨 — 补充遗漏PDF：OMB Circular A-130
+   257|
+   258|<strong>操作</strong>：检查昨天发送的PDF文件，发现2个遗漏，处理入知识库
+   259|
+   260|<strong>检查结果</strong>：
+   261|- <code>500002p.PDF</code> (497 KB) — 与已处理的<code>dodi-5000.02-adaptive-acquisition-framework-2020.pdf</code>完全相同（文件大小509233 bytes），删除重复文件
+   262|- <code>a130revised.pdf</code> (537 KB) — OMB Circular A-130 "Managing Information as a Strategic Resource"，未处理
+   263|
+   264|<strong>新建source页（1个）</strong>：
+   265|  - 联邦信息资源管理顶层政策（信息安全、隐私保护、IT投资管理）
+   266|  - 与MOSA知识库关联：开放接口的隐私风险、数据权利、IT投资框架
+   267|
+   268|<strong>更新index.md</strong>：新增OMB Circular A-130条目
+   269|
+   270|<strong>处理工具</strong>：使用mutool提取PDF文本（比markitdown更稳定）
+   271|
+   272|<strong>最终状态</strong>：68个wiki页面
+   273|
+   274|---
+   275|
+   276|## 2026-04-19 深夜 — 数字工程核心材料补充
+   277|
+   278|<strong>操作</strong>：用户上传3个关键PDF，处理入知识库
+   279|
+   280|<strong>新建source页（3个）</strong>：
+   281|- <code>dod-de-strategy-2018</code> — DoD数字工程战略2018（纲领文件，5大目标：权威数据源/数字线程/MBSE/文化变革/基础设施）
+   282|- <code>incose-mbse-methodology-survey</code> — INCOSE MBSE方法论调查（JPL Estefan 2008，覆盖OOSEM/Harmony-SE/Vitech/JPL State Analysis等方法）
+   283|- <code>iso-15288-2023</code> — ISO/IEC/IEEE 15288:2023 系统生命周期过程（第二版，4类过程组）
+   284|
+   285|<strong>更新concept页</strong>：
+   286|- <code>mosa-digital-engineering</code> — "待补充材料"更新为"已补充+仍待补充"，相关链接增加3个
+   287|
+   288|<strong>最终状态</strong>：67个wiki页面，327条wikilink，100%交叉引用完整性
+   289|
+   290|---
+   291|
+   292|---
+   293|
+   294|## 2026-04-19 深夜 — PPI洞察深挖
+   295|
+   296|<strong>操作</strong>：从12个PPI系统工程文件中提炼3个结构性洞察，创建wiki页面
+   297|
+   298|<strong>新建concept页（1个）</strong>：
+   299|- <code>requirements-quality-mosa</code> — 需求质量：MOSA的技术基础（接口定义质量=MOSA成败关键）
+   300|
+   301|<strong>新建comparison页（2个）</strong>：
+   302|- <code>mosa-implementation-stack</code> — MOSA实施全栈：从法律到合同执行的五层架构
+   303|- <code>pm-se-integration-mosa</code> — PM-SE整合：MOSA实施的组织瓶颈（赋能环境支柱的深层分析）
+   304|
+   305|<strong>补交叉引用（5处）</strong>：mosa-defense-acquisition、mosa-five-pillars、wosa-architecture-tools、speed-vs-modularity、ppi-integrating-pm-se
+   306|
+   307|<strong>最终状态</strong>：64个wiki页面，305条wikilink，100%交叉引用完整性
+   308|
+   309|---
+   310|
+   311|---
+   312|
+   313|## 2026-04-19 晚间 — PPI系统工程资源ingest
+   314|
+   315|<strong>操作</strong>：下载并处理12个PPI系统工程PDF，创建5个source页
+   316|
+   317|<strong>下载（12个，7.9 MB）</strong>：
+   318|- DID模板7个：CONOPS/OSD、SEP、SOW、SSDD、SyRS、SEM Definitions、Requirements Quality Metrics
+   319|- 通用SE 5个：SE投资回报、RE投资回报、需求分析×2、PM-SE整合
+   320|
+   321|<strong>新建source页（5个）</strong>：
+   323|- <code>ppi-business-case-se</code> — SE投资回报论证（ROI 10:1-100:1）
+   324|- <code>ppi-business-case-re</code> — RE投资回报论证（需求缺陷是成本超支首要原因）
+   325|- <code>ppi-requirements-analysis</code> — 需求分析方法论（PPI流程+概览）
+   326|- <code>ppi-integrating-pm-se</code> — PM与SE整合方法
+   327|
+   328|<strong>补交叉引用（4处）</strong>：mosa-defense-acquisition、wosa-architecture-tools、speed-vs-modularity、peo-aviation-impl-guide
+   329|
+   330|<strong>最终状态</strong>：61个wiki页面，266条wikilink，99.6%完整度（1处已修复）
+   331|
+   332|---
+   333|
+   334|---
+   335|
+   336|## 2026-04-19 晚间 — Synthesize：结构性洞察提炼
+   337|
+   338|<strong>操作</strong>：回顾已有55个wiki页面，提炼5个跨source结构性洞察
+   339|
+   340|<strong>新增comparison/topic页（5个）</strong>：
+   341|- <code>mosa-five-principles-to-pillars</code> — MOSA五原则→五大支柱12年演化对比
+   342|- <code>c5isr-standards-convergence</code> — C5ISR标准生态趋同（CMOSS/SOSA/OMS/VICTORY/MORA）
+   343|- <code>mosa-internationalization</code> — MOSA从美国DoD到NATO联盟的国际化扩展
+   344|- <code>speed-vs-modularity</code> — MTA快速路径中MOSA不强制的政策张力分析
+   345|
+   346|<strong>新增concept页（1个）</strong>：
+   347|- <code>mosa-digital-engineering</code> — MOSA与数字工程融合（DEE九大要素之一）
+   348|
+   349|<strong>更新SCHEMA.md</strong>：
+   350|- Lint操作扩展为"健康检查+模式发现"，引入Zettelkasten emergent structure理念
+   351|
+   352|<strong>最终状态</strong>：56个wiki页面，236条wikilink，100%交叉引用完整性
+   353|
+   354|---
+   355|
+   356|---
+   357|
+   358|## 2026-04-19 晚间 — 概念层完善
+   359|
+   360|<strong>操作</strong>：基于用户"concepts等页面有没有应当增加的"指令，完善知识库概念层
+   361|
+   362|<strong>新增concept页（2个）</strong>：
+   363|- <code>ucs-control-station</code> — 无人系统指挥控制标准接口（UCS），9次引用
+   364|- <code>middle-tier-acquisition</code> — 中间采办层级（MTA），9次引用
+   365|
+   366|<strong>修复YAML头部（2个）</strong>：
+   367|- <code>mosa-five-pillars</code> — 添加created/updated/tags/sources字段
+   368|- <code>mosa-implementation-guidebook</code>（topic页）— 添加YAML头部
+   369|
+   370|<strong>补交叉引用（约25处）</strong>：
+   371|- 6个source页补mosa-defense-acquisition链接
+   372|- 4个source页补face-technical-standard链接
+   373|- 2个source页补vendor-lock-in链接
+   374|- 各1处补open-mission-systems、adaptive-acquisition-framework、modular-architecture-patterns
+   375|- 5个concept页补新source/新concept链接
+   376|- 修复mosa-five-pillars重复链接
+   377|
+   378|<strong>更新index.md</strong>：添加2个新concept页，Standards补SCA
+   379|
+   380|<strong>最终状态</strong>：57个wiki页面，38个raw PDF
+   381|
+   382|# Wiki Log
+   383|
+   384|## [2026-04-19 14:17] ingest | 用户补充缺口文档：MORA + OSA指南 + DoDI 5000.97 + UCS + ARSENL
+   385|   - MORA (8页): 射频架构标准，CMOSS的RF组件，从VICTORY衍生，v2.3
+   386|   - OSA Contract Guidebook v1.1 (223页): <strong>MOSA五原则原始定义文档</strong>，2013年USD(AT&amp;L)发布
+   387|   - DoDI 5000.97 (数字工程指令): MOSA列为数字工程九大要素之一
+   388|   - STANAG 4586 (14页): NATO UAV控制系统标准接口，UCS标准
+   389|   - ARSENL (4页): USAF MOSA使能标准官方清单，发现SCA/REDHAWK/CoPaIS三个新标准领域
+   390|   - IRENE (297页): AFRL辐射环境模型，与MOSA无关，未创建source页
+   391|
+   392|
+   393|## [2026-04-19 11:49] ingest | 第二/三梯队补充：DSP Journal + PEO Aviation + DSB
+   394|   - DSP Journal MOSA专刊 (40页): MOSA/CMOSS/VICTORY/MORA/SOSA综述，标准生态最佳入门
+   395|   - PEO Aviation Industry Day 2022 (79 slides): 9条MOSA工作线、EAF框架、行业协作
+   396|   - PEO Aviation MOSA实施指南 (23页): 合同模板(SOW/PWS/SPS/TEMP)、软件检查清单、BCA模板
+   397|   - DSB数字工程报告 (66页): MOSA作为数字工程生态系统(DEE)的技术基础
+   398|   - 第二梯队完成: 4/4 ✅（CMOSS/SOSA/VICTORY/OMS-PEO Aviation替代）
+   399|   - 第三梯队完成: 3/4 ✅（PEO Aviation×2/DSB/DSP Journal），WOSA原始标准待补充
+   400|
+   401|
+   402|## [2026-04-19 11:17] ingest | 第二梯队技术标准：CMOSS + SOSA + VICTORY
+   403|   - CMOSS: 32页，DEVCOM C5ISR Center，Universal A-Kit + 共享资源 + 共享服务
+   404|   - SOSA: 214页，The Open Group联盟，传感器开放系统架构Edition 1.0 V2 Snapshot
+   405|   - VICTORY: 案例研究+GVA对比，车辆C4ISR/EW互操作性
+   406|   - OMS 2024概述: PDF损坏无法提取（19页）
+   407|   - PEO Aviation FACE TIM: PDF损坏无法提取
+   408|   - 第二梯队完成3/4（OMS待用户提供可用PDF）
+   409|
+   410|
+   411|## [2026-04-19 10:58] ingest | DoDI 5000.80 — 中间采办层级（MTA）
+   412|   - Created: wiki/sources/2026-04-19-dodi-5000-80-middle-tier-acquisition.md
+   413|   - Source: raw/papers/dodi-5000.80-middle-tier-acquisition.pdf (19 pages, Chg1 2024, 用户提供)
+   414|   - MOSA提及: 0次。MTA路径以速度优先，5年内完成快速原型/部署。
+   415|   - 旧文件raw/papers/dodi_5000.80.pdf（内容实际为5000.81）已重命名为dodi_5000.80-MISNAMED-actually-5000.81.pdf
+   416|   - AAF六条路径补全完成：5000.02/5000.74/5000.75/5000.80/5000.81/5000.85/5000.87
+   417|
+   418|
+   419|## [2026-04-19 10:48] ingest | Better Buying Power 3.0 实施指令
+   420|   - Created: wiki/sources/2026-04-19-bbp-3-0-implementation-directive.md
+   421|   - Source: raw/papers/bbp-3-implementation-directive.pdf (35 pages, 用户提供)
+   422|   - MOSA提及: <strong>关键</strong> — BBP 3.0首次将MOSA写入DoD政策（"Use Modular Open Systems Architecture to stimulate innovation"）
+   423|   - 关键发现：MOSA五原则（赋能环境/模块化设计/指定接口/开放标准/一致性认证）直接演变为2025年五大支柱
+   424|
+   425|## [2026-04-19 10:48] ingest | GAO-24-106831 武器系统年度评估
+   426|   - Created: wiki/sources/2026-04-19-gao-24-106831-weapon-systems.md
+   427|   - Source: raw/papers/gao-24-106831-weapon-systems-assessment.pdf (261 pages, 用户提供)
+   428|   - MOSA提及: 若干（MK 54鱼雷、Sentinel、F-22开放系统架构演示）
+   429|   - 关键数据：MDAP未交付项目平均&gt;10年、MTA项目多数未实施领先实践
+   430|
+   431|
+   432|## [2026-04-19 09:44] ingest | DoDI 5000.75 — 业务系统需求与采办
+   433|   - Created: wiki/sources/2026-04-19-dodi-5000-75-business-systems.md
+   434|   - Updated: wiki/index.md
+   435|   - Source: raw/papers/dodi_5000.75.pdf (39 pages)
+   436|   - MOSA提及: 0次。业务系统独立采办流程（BCAC），不适用MOSA法定要求。
+   437|   - 已纳入知识库作为AAF框架补充文档。
+   438|
+   439|## [2026-04-19 09:44] ingest | DoDI 5000.81 — 紧急能力采办
+   440|   - Created: wiki/sources/2026-04-19-dodi-5000-81-urgent-capability.md
+   441|   - Updated: wiki/index.md
+   442|   - Source: raw/papers/dodi_5000.81.pdf (21 pages)
+   443|   - MOSA提及: 0次。紧急采办路径（&lt;2年部署）明确将速度优先于模块化设计。
+   444|   - ⚠️ raw/papers/dodi_5000.80.pdf 内容与dodi_5000.81.pdf完全相同（命名错误）。
+   445|
+   446|## [2026-04-19 09:44] ingest | DFARS Part 252 — 征询条款与合同条款
+   447|   - Created: wiki/sources/2026-04-19-dfars-part-252-contract-clauses.md
+   448|   - Updated: wiki/index.md
+   449|   - Source: raw/papers/dfars_part-252---solicitation-provisions-and-contract-clauses.pdf (607 pages)
+   450|   - MOSA提及: 0次直接提及。DFARS 252.227条款群（数据权利）是MOSA合同执行机制的基础。
+   451|   - 关键条款：252.227-7013（技术数据权利）、252.227-7014（软件权利）、252.227-7037（权利限制验证）。
+   452|
+   453|## [2026-04-19 09:44] ingest | HASC Report 114-102 — FY2016 NDAA 委员会报告
+   454|   - Created: wiki/sources/2026-04-19-hasc-report-114-102-fy2016-ndaa.md
+   455|   - Updated: wiki/index.md
+   456|   - Source: raw/papers/hasc_report_114-102.pdf (358 pages)
+   457|   - MOSA提及: 0次。本报告的Section 805与FY2017 NDAA Section 805（MOSA法定来源）是不同条款。
+   458|   - 作为MOSA立法前夕的采办改革背景文档。
+   459|
+   460|
+   461|## [2026-04-19 09:35] fix | 断链修复与知识库整理
+   463|- 统一wikilink命名：better-buying-power-3→-3-0、dodi-5000-85→2026-04-05版、wosa-chain→wosa
+   464|- 修复~50处断链：实体链接转纯文本、PDF引用转wikilink、名称不匹配修正
+   465|- 创建2个缺失概念页面：defense-acquisition-overrun-trends（4处引用）、modular-architecture-patterns（3处引用）
+   466|- index.md同步：删除幻影链接、补充孤立页面
+   467|- 验证：全部wikilink通过（0断链）
+   468|- Total wiki pages: 30 (excluding index/log)
+   469|
+   470|
+   471|Append-only record of all wiki activity.
+   472|
+   473|## [2026-04-05 15:35] wiki structure | Aligned with Karpathy original
+   474|- Restructured: raw → wiki → output (3 layers per Karpathy gist:442a6bf)
+   475|- Added wiki/comparisons/ for analytical pages
+   476|- Pages: 7
+   477|
+   478|## [2026-04-05 15:50] ingest | MOSA and US Defense Acquisition (Shah D.Eng. Praxis, 2021)
+   479|- Ingested: modular open systems approach thesis from GWU
+   480|- Created: 6 wiki pages (1 source, 2 concepts, 1 entity, 1 synthesis, 1 comparison)
+   481|- Topics: MOSA, vendor lock-in, Better Buying Power 3.0, FACE standard
+   482|
+   483|## [2026-04-05 16:05] restructure + full ingest | Karpathy alignment + 124-page complete extract
+   484|- <strong>Structure fixes</strong>:
+   485|  - SCHEMA.md: moved from wiki/ to project root (Karpathy style: CLAUDE.md-level)
+   486|  - raw/: added papers/, articles/, repos/ subdirectories
+   487|  - MOSA files moved to raw/papers/
+   488|- <strong>Full text extraction</strong>: PyMuPDF extracted all 124 pages (187KB text)
+   489|  - Default pdf tool only reads first 10 pages — PyMuPDF solves this (pip install pymupdf --break-system-packages)
+   490|- <strong>Hypothesis results</strong> (complete):
+   491|  - H1 (cost/schedule): Not Supported — data can't isolate MOSA effect
+   492|  - H2 (gov claims success): Supported — 15+ programs cited
+   493|  - H3 (US depts require MOSA): Supported — Army, Navy, Air Force
+   494|  - H4 (non-US gov): Supported — UK MoD, Australia, Canada
+   495|  - H5 (commercial adoption): Supported — Airbus HForce
+   496|  - H6 (commercial success): Supported — H125M/H145M/H225M helicopters
+   497|- <strong>New pages</strong>: concepts/open-mission-systems.md
+   498|- <strong>Updated</strong>: sources/mosa-shah-thesis.md (full 124-page results), concepts/mosa-defense-acquisition.md (complete), index.md
+   499|- Total wiki pages: 12
+   500|
+   501|## [2026-04-05 17:18] ingest | DoDI 5000.02 — Operation of the Adaptive Acquisition Framework (2020, Chg1 2022)
+   502|- Source: raw/papers/dodi-5000.02-adaptive-acquisition-framework-2020.pdf (19 pages, 33KB)
+   503|- <strong>Key finding</strong>: MOSA NOT mentioned anywhere in this document. The 2020 version was restructured; MOSA policy was in the 2015 version, but all content moved to separate child DoDIs (5000.85, 5000.80, 5000.88, 5000.89, 5000.91, 5000.95).
+   504|- AAF has 6 pathways: Urgent (&lt;2yr), MTA (≤5yr), Major Capability (structured), Software (agile), DBS, Services
+   505|- MOSA search must pivot to <strong>DoDI 5000.85</strong> (Major Capability Acquisition) or other child instructions
+   506|- Pages created:
+   507|  - sources/2026-04-05-dodi-5000-02-2020.md
+   508|  - concepts/adaptive-acquisition-framework.md
+   509|- Total wiki pages: 14
+   510|
+   511|## [2026-04-05 18:50] batch ingest: 4 new sources, all commits + pushed
+   512|Committed as e7a41f8, pushed to Gitee → GitHub.
+   513|
+   514|### Source: MIL-STD-881D (2018) — Work Breakdown Structures
+   515|- 233 pages, 12 appendices, superseded 881C
+   516|- NDIA Recommendation #3 references this for MOSA component taxonomy
+   517|- Key 2018 additions: Data Rights, Cybersecurity, Software Engineering elements in Appendix K
+   518|- <strong>Pages</strong>: sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md
+   519|
+   520|### Source: FACE Technical Standard 3.2 (Aug 2023) — The Open Group
+   521|- 592 pages, only 4x MOSA mentions (p29, p588 glossary) — significant finding
+   522|- 5 segments: OS, I/O Services, Platform-Specific Services, Portable Components, Transport Services
+   523|- 3 "KEY" Standardized Interfaces (MOSA open interfaces)
+   524|- 70+ organizations, 900+ contributors, 20+ deployments
+   525|- UoC (Unit of Conformance) model — the actual mechanism for portability
+   526|- Conformance testing process exists — model for MOSA evaluation
+   527|- <strong>Pages</strong>: sources/2026-04-05-face-technical-standard-3.2-2023.md
+   528|
+   529|### Source: DoDI 5000.85 (2020, Chg1 2021) — Major Capability Acquisition
+   530|- 40 pages — the MOSA legal mandate source we'd been searching for
+   531|- Page 26, §3C.3.a.(5): Full MOSA requirements
+   532|  - MDAPs after 1/1/2019 "must" design/develop with MOSA to max extent practicable
+   533|  - Acquisition strategy must describe: architecture, interfaces, IP, TDP, future evolution
+   534|  - RFP must specify MOSA implementation and minimum component set
+   535|- 6 acquisition pathways under AAF
+   536|- <strong>Pages</strong>: sources/2026-04-05-dodi-5000-85-2020.md
+   537|
+   538|### Source: NDIA MOSA White Paper Recommendations (2019, Rev. D)
+   539|- 16 pages, 38 industry + 14 gov + 5 academia members
+   540|- Top 10 recommendations align perfectly with Shah thesis findings
+   541|- Key: "Make MOSA a requirement — not an option — for all procurements"
+   542|- OSMP = Open Systems Management Plan (as common as SEMP)
+   543|- <strong>Pages</strong>: sources/2026-04-05-ndia-mosa-white-paper-2019.md
+   544|
+   545|### Key Synthesis (cross-source findings):
+   546|1. <strong>DoDI 5000.02 has 0 MOSA mentions</strong> vs <strong>DoDI 5000.85 has 11</strong> — framework vs. mandate
+   547|2. <strong>FACE 3.2 barely mentions MOSA</strong> (4x in 592 pages) — it's a spec, not a policy document
+   548|3. <strong>MOSA legal basis</strong> = USC 10 §2446a + DoDI 5000.85 §3C.3.a.(5) — both say "max extent practicable"
+   549|4. <strong>NDIA + Shah align</strong> on every gap: no metrics, no certification, no standardized metrics
+   550|5. <strong>FACE is the only MOSA standard with conformance testing</strong> — model for others
+   551|
+   552|Total wiki pages: 20
+   553|
+   554|## [2026-04-06 20:40] compile | First topic compilation — MOSA
+   555|- Adopted llm-wiki-compiler improvements: topic-based articles + standard structure + coverage tags
+   556|- Created: <code>wiki/topics/mosaic-modular-open-systems-approach.md</code>
+   557|- Merged: 12 sources into one topic article (all MOSA-related content)
+   558|- Standard sections: Summary, Timeline, Current State, Key Decisions, Experiments &amp; Results, Gotchas, Open Questions, Sources
+   559|- Coverage tagging: <code>[coverage: high/medium/low]</code> to guide when to read raw
+   560|- Updated: index.md with new Topics section
+   561|- Total wiki pages: 21
+   562|
+   563|## [2026-04-10] migration | Migrated from OpenClaw to Hermes Agent
+   564|- Full repository migration: all raw/, wiki/, and structure preserved
+   565|- Updated git remote: Gitee → GitHub (public mirror)
+   566|- LLM Wiki 存量迁移总结：
+   567|  - 21 original pages, migrated 30 pages total (added new sources from OpenClaw ingest)
+   568|  - 9 new source documents added: DFARS 207/227, 10 USC §4401-4403, DoDI 5000.74, DoDI 5000.87, FY2017 NDAA §805, 2025 MOSA Implementation Guidebook
+   569|  - 2 new concepts: <code>mosa-five-pillars</code>, <code>topics/mosa-implementation-guidebook</code>
+   570|  - All files retained full git history
+   571|- Lint pass done: orphan pages and broken links documented, no critical issues
+   572|
+   573|Total wiki pages: 30
+   574|## [2026-04-13] ingest | WOSA架构工具链分析
+   575|   - Created: wiki/concepts/wosa-architecture-tools.md
+   576|   - Updated: wiki/index.md
+   577|   - Source: raw/articles/wosa-architecture-tools-analysis.md
+   578|## [2026-04-13] ingest | 75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   579|   - Created: wiki/concepts/unknown-tech-report-75195d4e.md
+   580|   - Updated: wiki/index.md
+   581|   - Source: raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   582|   - Note: PDF转换超时，创建了占位概念页面
+   583|## [2026-04-13] process | PDF处理完成：75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   584|   - 已使用 mutool 提取文本内容 (1322 字符)
+   585|   - 原始PDF保持未修改
+   586|   - 已更新markdown文件用于LLM处理
+   587|   - 已更新概念页面和索引
+   588|   - 所有处理严格遵循llm-wiki原则
+   589|## [2026-04-13] ingest | MIL-HDBK-1211(MI): Missile Flight Simulation Handbook
+   590|   - Created: wiki/sources/mil-hdbk-1211-mi-missile-flight-simulation.md
+   591|   - Updated: wiki/index.md
+   592|   - Source: raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
+   593|   - Text content extracted via mutool (847,337 characters)
+   594|   - Original PDF preserved in raw/papers/
+   595|   - Added source entry to index and concept cross-references
+   596|---
+   597|
+   598|## 2026-04-19 — 最后一篇：PPI需求质量度量
+   599|
+   600|<strong>操作</strong>：处理知识库最后一个未处理PDF
+   601|
+   602|<strong>新建source页（1个）</strong>：
+   603|- <code>ppi-requirements-quality-metrics</code> — Halligan需求质量度量体系（1993/2017，6页）
+   604|  - 十大质量因子：正确性/完整性/一致性/清晰性/无歧义性/连通性/单一性/可测试性/可修改性/可行性
+   605|  - 需求结构模板：7元素解析法（主体/条件/动作/对象/约束/精化）
+   606|  - 产品度量：IRQ + IQF1-10 + RQ
+   607|  - 过程度量：RSTA/RTBD/RCOM/RAPP/RALL
+   608|  - 三种完整性估计法 + 历史基准需求量（商务机2500-4500、客机8000-10000等）
+   609|
+   610|<strong>更新cross-reference（1处）</strong>：
+   611|- <code>requirements-quality-mosa</code> — 添加对新source页的wikilink
+   612|
+   613|<strong>最终状态</strong>：raw/papers 全部55个PDF处理完成，0个待处理
+   614|
+   615|---
+   616|
+   617|## 2026-04-23 — 补充topics和entities
+   618|
+   619|<strong>操作</strong>：根据overview.md待填补清单，创建3个topic和4个entity
+   620|
+   621|<strong>新增Topics</strong>：
+   622|1. <a href="../topics/MOSA%E8%BD%AF%E4%BB%B6%E9%87%87%E5%8A%9E/">MOSA软件采办</a> — DoDI 5000.87路径下MOSA在软件采办中的实施（DevSecOps、开放接口、数据权利）
+   623|2. <a href="../topics/%E4%B8%AD%E9%97%B4%E5%B1%82%E9%87%87%E5%8A%9E%E4%B8%8EMOSA%E5%BC%A0%E5%8A%9B/">中间层采办与MOSA张力</a> — MTA与MOSA的速度vs模块化政策张力（GAO数据、两种观点、解决方案）
+   624|3. <a href="../topics/%E6%95%B0%E5%AD%97%E5%B7%A5%E7%A8%8B%E5%B7%A5%E5%85%B7%E5%AF%B9%E6%AF%94/">数字工程工具对比</a> — MBSE工具和数字孪生平台对比（MagicDraw/Capella/Rhapsody、AFSIM/Ansys）
+   625|
+   626|<strong>新增Entities</strong>：
+   627|1. <a href="../entities/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8/">美国国防部</a> — DoD在MOSA中的三重角色（政策制定者/最大客户/标准推动者）
+   628|2. <a href="../entities/%E5%BC%80%E6%94%BE%E9%9B%86%E5%9B%A2/">开放集团</a> — SOSA/FACE标准联盟（商业标准vs政府标准、争议）
+   629|3. <a href="../entities/%E5%8C%97%E7%BA%A6/">北约</a> — 联盟互操作标准（STANAG体系、与DoD MOSA的核心差异）
+   630|4. <a href="../entities/%E6%94%BF%E5%BA%9C%E9%97%AE%E8%B4%A3%E7%BD%B2/">政府问责署</a> — 国会监察机构（年度武器评估、MOSA合规审计建议）
+   631|
+   632|<strong>更新</strong>：
+   633|- index.md：添加7个新页面链接
+   634|- overview.md：更新待填补清单、统计数字（76→83页）
+   635|
+   636|<strong>未执行</strong>（用户要求）：不更新README，不推送Gitee
+   637|
+   638|---
+   639|
+   640|## [2026-04-26] ingest | MOSA国防应用案例批量摄取
+   641|- 原始资料下载: 9份（GAO-25-106931, NDAA 2020/2021, CRS IF12094, DFARS RFI, NDIA白皮书, ABA文章, Curtiss-Wright, MITRE DEWS）
+   642|- Source页创建: 9个
+   643|- Entity页创建: 3个（Northrop Grumman, Lockheed Martin, SDA）
+   644|- Concept页创建: 3个（DEWS RA, Brownfield挑战, 五大支柱评估）
+   645|- Comparison页创建: 2个（SiAW vs AARGM-ER, 实施状态矩阵）
+   646|- 来源: GAO-25-106931深度调研14个JSON结果
+   647|
+   648|## [2026-04-26] update | GAO-25-106931 PDF全文摄取
+   649|- 用户提供GAO-25-106931 PDF原文（6.2MB, 74页）
+   650|- mutool转换为文本（155KB, 4165行）
+   651|- 原始PDF保存: raw/papers/gao-25-106931-mosa-review.pdf
+   652|- 转换文本保存: raw/articles/gao-25-106931-mosa-review-full.txt
+   653|- 更新: sources/gaor-25-106931-mosa-review.md — 补充完整Table 1数据（20项目状态）和14条建议全文
+   654|- 更新: comparisons/mosa-implementation-status-matrix.md — 修正sources引用和日期
+   655|
+   656|## [2026-04-26] fix | 断链修复 + 补充资料 + SCHEMA更新
+   657|- 断链修复: 6个raw文章从JSON创建, 1个引用路径修正(.md→.pdf)
+   658|- 补充资料: sosa-updated-standards-afcea.md, sosa-2025-special-edition.md, f35-tr3-lockheed-update.md
+   659|- .mil域名拦截: NAVAIR/DOT&amp;E/AFMC/SAM.gov均不可达, ABMS/JADC2暂时无法获取
+   660|- SCHEMA.md: 洞察综合步骤增加原始资料缺口分析(断链检查+知识空白+可补充vs政策空白)
+   661|
+   662|## [2026-04-26] ingest | 用户提供5份.mil域名PDF补充资料
+   663|- 来源: 用户手动下载的被拦截.mil/.gov页面PDF
+   664|- PDF保存: raw/papers/ (navair-mosa-overview, dote-fy2024-abms, afmc-abms-article, sam-abms-baa, mitre-dews-mosa-ra)
+   665|- 新增raw文章: 5个
+   666|- 新增source页: 5个 (navair-mosa-overview, dote-fy2024-abms, afmc-abms-distributed-connectivity, sam-abms-baa, mitre-dews-mosa-ra-full)
+   667|- 更新concept页: dews-mosa-reference-architecture.md (从幻灯片升级为完整文档)
+   668|- 洞察: ABMS核心问题是CBC2软件不成熟而非架构问题; 海军有MOSA战略但无正式指南; DEWS RA全文含完整数据模型
+   669|
+   670|## [2026-04-26] ingest | NAVAIR MOSA生态补充（5个来源 + 3个PDF OCR）
+   671|
+   672|<strong>新增来源：</strong>
+   673|- 三军联合备忘录 (2024.12) — Nickolas Guertin等三军部长联合签署，MOSA强制化标志
+   674|- 海军MOSA实施指南V1.0 — 海军定制版，含网络安全集成和企业推广策略
+   675|- NAVAIR HOST 5.0发布新闻 (2023.2) — HOST标准官方发布
+   676|- Defense News评论文章 (2024.12) — Guertin署名，MOSA→作战能力叙事转变
+   677|- Military Embedded报道 (2025.8) — 海军OSMP内生化
+   678|
+   679|<strong>新增页面：</strong>
+   680|- entities: nickolas-guertin, pma-209
+   681|- concepts: host-hardware-open-systems
+   682|- comparisons: six-validated-mosa-standards
+   683|- sources: 5个新source页
+   684|
+   685|<strong>洞察：</strong>
+   686|1. 三军备忘录首次在最高政策层面确认6大标准（OMS/UCI, SOSA, AMS GRA, WOSA, FACE, VICTORY），AMS GRA此前wiki未覆盖
+   687|2. WOSA在备忘录中被定义为武器系统接口标准（非工具），需更新现有概念页
+   688|3. 海军OSMP内生化是MOSA从"外包文档"到"内生能力"的标志性转变
+   689|4. HOST是NAVAIR自研硬件标准，与6大标准互补而非重叠
+   690|
+   691|<strong>待补：</strong>
+   692|- WOSA概念页需更新（从工具描述改为标准描述）
+   693|- AMS GRA可考虑新建概念页
+   694|
+   695|---
+   696|
+   697|## [2026-04-29] ingest | PEO Aviation PDF替换：Industry Day 2022 + FACE TIM 2021
+   698|
+   699|<strong>操作</strong>：处理2个PEO Aviation PDF（替换此前损坏的版本）
+   700|
+   701|<strong>更新source页（1个）</strong>：
+   702|- <code>peo-aviation-mosa-industry-2022.md</code> — 更新sources引用指向正确PDF（<code>PEO_Aviation_MOSA_TO_Industry_Days_2022.pdf</code>），大幅扩展摘要内容（新增EAF/EPA/CSM/MCC/EPS/AMCE/CDC详细描述），补充交叉引用
+   703|
+   704|<strong>新建source页（1个）</strong>：
+   705|- <code>peo-aviation-face-tim-2021.md</code> — PEO Aviation FACE TIM 2021开放系统演示（56页，20家公司+9个DoD组织+29个软件产品+8个TSS产品的大规模FACE集成演示）
+   706|
+   707|<strong>更新index.md</strong>：
+   708|- 新增 <code>peo-aviation-face-tim-2021</code> 条目
+   709|- 更新 <code>peo-aviation-mosa-industry-2022</code> 描述
+   710|
+   711|<strong>POST-INGEST检查清单</strong>：
+   712|- [x] entities/ — 无新核心实体（PEO Aviation已在多个页面中引用，无需独立实体页）
+   713|- [x] concepts/ — FACE TIM 2021暴露的概念（TSS桥接、容器适航性、多版本FACE互操作）已由现有<code>face-technical-standard</code>概念覆盖
+   714|- [x] comparisons/ — 无新张力/演化需要创建（现有<code>c5isr-standards-convergence</code>已覆盖CMOSS/SOSA/CMOSS互操作主题）
+   715|- [x] topics/ — 无新跨来源综合需要（2个source均为PEO Aviation内部演示，已由现有主题覆盖）
+   716|- [x] overview.md — 非基础性文件，不改变大局观
+   717|
+   718|<strong>关键发现</strong>：
+   719|- Industry Day 2022新PDF比旧版内容更完整：新增EPS CSM、AMCE架构、通信模块化路线图、CSM开发挑战详细反馈
+   720|- FACE TIM 2021是FACE生态最大规模集成演示的完整技术文档，此前因PDF损坏无法处理
+   721|- 两个PDF互为补充：Industry Day侧重业务/治理/框架，FACE TIM侧重技术集成/实现
+   722|
+   723|## [2026-04-29] ingest | 数字工程补充材料：NASA手册×4 + FY24 S&amp;T + Chris Garrett
+   724|
+   725|<strong>操作</strong>：处理6个新增PDF（用户"补充资料.zip"），覆盖NASA数字工程框架、空军数字化转型
+   726|
+   727|<strong>新建source页（6个）</strong>：
+   728|- <code>nasa-hdbk-7009a.md</code> — NASA建模与仿真手册HDBK-7009A（157页，M&amp;S全生命周期管理、V&amp;V体系、置信度评估框架）
+   729|- <code>nasa-hdbk-1004.md</code> — NASA数字工程采办框架HDBK-1004（217页，DRD模板、合同语言、MBE计划、互操作性要求）
+   730|- <code>nasa-hdbk-1009a.md</code> — NASA系统建模手册HDBK-1009A Rev A（88页，SysML元模型、SE引擎对齐、MBSE Grid架构）
+   731|- <code>ieee-nasa-de-journey-2024.md</code> — IEEE NASA数字工程转型之旅（18页，MBSE部署692用户、工具链集成经验）
+   732|- <code>fy24-st-terms-of-reference.md</code> — FY2024 DAF SAB S&amp;T审查职权范围（6页，CCA/定向能/频谱战主导权）
+   733|- <code>chris-garrett-presentation-2024.md</code> — Chris Garrett AFMC数字化转型演示（19页，DMM/GRA/MBSE模型库/数字生态系统）
+   734|
+   735|<strong>更新index.md</strong>：新增6个条目
+   736|
+   737|<strong>POST-INGEST检查清单</strong>：
+   738|- [x] entities/ — Chris Garrett (AFMC数字化转型主任) 可考虑创建实体页，但目前仅1个来源提及，不满足阈值
+   739|- [x] concepts/ — NASA数字工程框架(7009A/1004/1009A)形成完整体系，可考虑创建综合概念页，但需更多来源支撑
+   740|- [x] comparisons/ — NASA vs DoD数字工程路径对比有潜力（NASA HDBK 1004 vs DoDI 5000.97），待后续综合
+   741|- [x] topics/ — 4个NASA手册可扩展 <code>digital-engineering-ecosystem</code> 主题，但需人工审阅后决定
+   742|- [x] overview.md — NASA数字工程体系的补充填补了"系统韧性量化"部分空白，待整体review后更新
+   743|
+   744|<strong>关键发现</strong>：
+   745|- NASA HDBK 7009A/1004/1009A 形成完整的数字工程三层体系：M&amp;S管理→采办框架→建模语言
+   746|- Chris Garrett演示揭示AFMC正在建立"数字生态系统"（Digital Ecosystem），与MOSA数字工程融合路径一致
+   747|- FY24 S&amp;T Terms of Reference 聚焦CCA任务系统/定向能/频谱战，是MOSA在下一代武器系统中的应用场景
+   748|</p>
+<h2 id="2026-05-07_1">2026-05-07 — 柔性武器设计方法入库<a class="headerlink" href="#2026-05-07_1" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户要求加入符合WOSA要求的柔性武器设计方法相关材料</p>
+<p><strong>新增内容</strong>：
+- <code>raw/papers/flexible-weapons-architecture-purdue-2015.pdf</code> — Purdue大学硕士论文PDF（1009KB）
+- <code>raw/articles/flexible-weapons-architecture-purdue-2015.txt</code> — 论文全文提取（256KB, 6525行）
+- <code>raw/articles/flexible-weapons-architecture-purdue-2015.md</code> — 论文摘要
+- <code>raw/articles/afrl-flexible-weapons-2014.md</code> — AFRL柔性武器概念（SPIE论文摘要）
+- <code>raw/articles/composable-weapons-raytheon.md</code> — Raytheon可组合武器架构</p>
+<p><strong>Wiki页面</strong>：
+- <code>wiki/sources/flexible-weapons-architecture-purdue-2015.md</code> — Purdue论文来源页
+- <code>wiki/sources/afrl-flexible-weapons-2014.md</code> — AFRL概念来源页
+- <code>wiki/sources/composable-weapons-raytheon.md</code> — Raytheon实践来源页
+- <code>wiki/topics/flexible-weapons-design-methodology.md</code> — 柔性武器设计方法主题综合</p>
+<p><strong>关键发现</strong>：
+- AFRL（2014）提出柔性武器概念：模块化"即插即用"、开放架构、UAI接口
+- Purdue（2015）论证五个关键架构因素：毁伤机制、引信、重量、制导、推进
+- Raytheon（2024）实现可组合武器架构：标准化九类子系统组件
+- 三者共同构成符合WOSA要求的完整方法论体系</p>
+<p><strong>注意</strong>：AFRL SPIE论文PDF需付费获取，当前仅使用网页摘要</p>
+<h2 id="2026-05-07-2019mosa">2026-05-07 — 2019年三军部长MOSA备忘录入库<a class="headerlink" href="#2026-05-07-2019mosa" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户询问知识库是否包含2019年三军部长备忘录</p>
+<p><strong>发现</strong>：raw/papers已有PDF（26MB，实际是误下载的Curtiss-Wright文件），已删除。原件托管于dsp.dla.mil（.mil域名不可达），从MITRE DEWS RA演示和DSP Journal文章中还原核心内容。</p>
+<p><strong>新增</strong>：
+- <code>wiki/sources/tri-service-memo-2019.md</code> — 2019年1月7日三军部长备忘录source页
+- 更新 <code>index.md</code> 添加条目
+- 更新 <code>mosa-history-timeline.md</code> 第三阶段添加2019年条目</p>
+<p><strong>关键事实</strong>：
+- 2019年1月7日签署，签署人为海军、陆军、空军部长
+- 主题："Modular Open Systems Approaches for our Weapon Systems is a Warfighting Imperative"
+- 首次将MOSA从"采办策略"升格为"作战必要条件"
+- 明确列举4个标准：OMS/UCI, SOSA, FACE, VICTORY
+- 直接催生2020 NDAA Section 840和2024年12月升级版三军备忘录</p>
+<p><strong>注意</strong>：原件PDF不可达，source页注明内容从二级来源还原</p>
+<h2 id="2026-05-08-iamdltamdsaegis">2026-05-08 — 陆军 IAMD/LTAMDS/Aegis 补充资料入库<a class="headerlink" href="#2026-05-08-iamdltamdsaegis" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户询问 wiki 中是否有美三军开发升级中应用 MOSA 的资料，特别是陆军 IBCS+LTAMDS+SM-6、空军 NGAD、海军宙斯盾</p>
+<p><strong>发现</strong>：
+- 海军 MOSA 指南 V1.0 已存在（raw/papers/Naval-MOSA-Implementation-Guide-V1.0.pdf），但 wiki 页面多处仍写"海军完全没有 MOSA 指南手册"——已修正
+- NGAD/CCA 资料较充分（AMS GRA、A-GRA 等）
+- IBCS+LTAMDS 和 Aegis 的 MOSA 分析资料不足</p>
+<p><strong>新增文件</strong>：
+- <code>raw/papers/2025ltamds.pdf</code> — DOT&amp;E FY2025 LTAMDS 测试评估（668KB）
+- <code>raw/papers/2025aegis.pdf</code> — DOT&amp;E FY2025 Aegis 现代化测试评估（1MB）
+- <code>raw/papers/ensuring-war-winning.pdf</code> — Army Line of Departure 2023 AMD 专题（633KB）
+- <code>raw/papers/u-s-army-portfolio-2024.pdf</code> — 陆军采办项目组合 2024（19MB）
+- <code>raw/articles/2025ltamds.md</code> — LTAMDS 文本提取（200行）
+- <code>raw/articles/2025aegis.md</code> — Aegis 文本提取（302行）
+- <code>raw/articles/ensuring-war-winning.md</code> — AMD 专题文本提取（236行）
+- <code>raw/articles/u-s-army-portfolio-2024.md</code> — 陆军项目组合文本提取（8203行）</p>
+<p><strong>新增 wiki 页面</strong>：
+- <code>wiki/sources/dote-fy2025-ltamds.md</code> — LTAMDS 测试评估
+- <code>wiki/sources/dote-fy2025-aegis.md</code> — Aegis 现代化测试评估
+- <code>wiki/sources/army-line-of-departure-amd-2023.md</code> — 陆军 AMD 专题
+- <code>wiki/sources/army-acquisition-portfolio-2024.md</code> — 陆军采办项目组合</p>
+<p><strong>修正</strong>：
+- <code>wiki/comparisons/siaw-aargm-er-mosa-contrast.md</code> — 3 处"海军完全没有 MOSA 指南手册"改为准确表述
+- <code>wiki/comparisons/mosa-implementation-status-matrix.md</code> — 2 处海军 MOSA 指南描述修正</p>
+<p><strong>关键发现</strong>：
+- LTAMDS 2025年4月达到 Milestone C，转入重大能力采办路径
+- LTAMDS 与 IBCS 集成，支持 PAC-2/PAC-3 全能力
+- Aegis ACB 16 有 6 个基线版本（9.2.0 到 9.3），SPY-6 集成是关键升级
+- 陆军采办项目组合中防空反导域有 13 个项目，IBCS/LTAMDS/Sentinel 是核心</p>
+<h2 id="2026-05-08-mosa">2026-05-08 — 美军全寿命周期MOSA应用分析<a class="headerlink" href="#2026-05-08-mosa" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户要求分析美军全寿命周期MOSA应用，涵盖MSA、TMRR、EMD、P&amp;D、O&amp;S五个阶段</p>
+<p><strong>资料来源</strong>：
+- MOSA实施指南（2025年2月）— 各阶段MOSA文件要求
+- DoDI 5000.85（2020年8月）— 重大能力采办程序
+- GAO-25-106931（2025年1月）— 20项目MOSA实施状态
+- 陆军采办项目组合2024 — 各阶段定义和项目案例
+- 具体项目案例：PrSM、FLRAA、B-21、LTAMDS、SiAW/AARGM-ER、XM-30</p>
+<p><strong>新增</strong>：
+- <code>wiki/topics/mosa-lifecycle-application.md</code> — 全寿命周期MOSA应用分析（9KB）</p>
+<p><strong>关键发现</strong>：
+- MOSA法定要求适用于2019年后里程碑A/B批准的所有MDAP
+- MSA阶段：AoA中需完整评估每个备选方案的MOSA实施方式
+- TMRR阶段：竞争性原型验证+GRA定义开放接口+数字工程验证
+- EMD阶段：里程碑B审查确保RFP描述MOSA，ICD/IRS定义接口
+- P&amp;D阶段：MOSA支持竞争性生产，降低供应链风险
+- O&amp;S阶段：模块化支持组件独立升级，延长系统寿命
+- 陆军100%实施率证明全面落地可行，海军指南缺失是最大障碍
+- 无标准化MOSA评估方法，20个项目无一进行正式成本效益分析</p>
+<h2 id="2026-05-08-vs">2026-05-08 — 开放架构标准分类：三军共用 vs 军种内推广<a class="headerlink" href="#2026-05-08-vs" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户提供美军开放架构标准的另一种分类方式</p>
+<p><strong>分类内容</strong>：
+- 三军共用（6种，2024年12月三军备忘录确认）：OMS/UCI、SOSA、FACE、VICTORY、AMS GRA、WOSA
+- 军种内推广（16种）：
+  - 陆军：GARA、R-EGI
+  - 海军：Raging Crow、Big Iron、SPEAD、TOSA、CoPaIS
+  - 空军：COARPS、COBRA、HOST、MI-COARPS、MORA
+  - 跨军种但军种主导：UAI、UCS</p>
+<p><strong>新增</strong>：
+- <code>wiki/comparisons/mosa-standards-by-scope.md</code> — 开放架构标准分类（6.5KB）</p>
+<p><strong>关键发现</strong>：
+- 三军共用标准更"硬"：有法定要求和联合备忘录背书
+- 军种内推广标准更"灵活"：军种可根据需求定制
+- 陆军最积极（FACE、VICTORY、GARA、R-EGI）
+- 海军标准最分散（电子战/测试标准各自独立）
+- 空军主导雷达/武器域（COARPS、MORA、UAI）
+- 与四层结构分类互补：一个看层级，一个看推广范围</p>
+<h2 id="2026-05-08-moatel">2026-05-08 — MOATEL弹药开放架构试验鉴定实验室入库<a class="headerlink" href="#2026-05-08-moatel" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户询问MOATEL仿真环境如何评估WOSA符合性</p>
+<p><strong>资料来源</strong>：
+- AFRL官方文章（2022年4月28日）：AFMC utilizes MOATEL as verification resource</p>
+<p><strong>新增文件</strong>：
+- <code>raw/articles/moatel-afmc-verification-2022.md</code> — MOATEL原始文章（42行）</p>
+<p><strong>新增wiki页面</strong>：
+- <code>wiki/sources/moatel-wosa-verification.md</code> — MOATEL资料整理</p>
+<p><strong>关键发现</strong>：
+- MOATEL位于AFRL弹药局，Eglin空军基地
+- WOSA三大支柱：标准维护、专业知识、验证支持
+- MOATEL是验证支柱的核心实体
+- 填补开放架构几十年来缺乏独立验证的空白
+- 核心功能：弹药组件符合性验证、数字模型验证、WOSA通信图分析、仿真加速测试
+- 已批准为SiAW和未来高超音速项目进行验证
+- 海军已表达兴趣，讨论进行中
+- 支持机构：Space Dynamics Laboratory、Cummings Aerospace、SAIC</p>
+<h2 id="2026-05-08">2026-05-08 — 高优先级原始资料补充入库<a class="headerlink" href="#2026-05-08" title="Permanent link">&para;</a></h2>
+<p><strong>触发</strong>：用户要求补充知识库缺口中的高优先级原始资料</p>
+<p><strong>新增文件</strong>：
+- <code>raw/papers/UAI-IQPC-Overview.pdf</code> — UAI通用武器接口概述（5.8MB）
+- <code>raw/papers/SM6-SAR-Dec2023.pdf</code> — SM-6采办报告（896KB）
+- <code>raw/papers/AMDR-SPY6-SAR-Dec2023.pdf</code> — AMDR/SPY-6采办报告（1.6MB）
+- <code>raw/papers/Poland-IBCS-Patriot-2024.pdf</code> — 波兰IBCS军售案（133KB）</p>
+<p><strong>新增wiki页面</strong>：
+- <code>wiki/sources/uai-universal-armament-interface.md</code> — UAI标准概述
+- <code>wiki/sources/sm6-sar-dec2023.md</code> — SM-6采办报告
+- <code>wiki/sources/amdr-spy6-sar-dec2023.md</code> — AMDR/SPY-6采办报告
+- <code>wiki/sources/poland-ibcs-patriot-2023.md</code> — 波兰IBCS军售案</p>
+<p><strong>关键发现</strong>：
+- UAI是WOSA的接口标准基础，标准化LAR流程使平台LAR可通过任务数据更新无需OFP更新
+- SM-6有未来Block升级需求，Raytheon为sole source
+- SPY-6与Aegis BL10有设计共依赖，需要进一步软件工作实现集成
+- 波兰是IBCS首个国际用户，40亿美元军售规模显示战略价值</p>
+<h2 id="2026-05-10-lint-wiki">[2026-05-10] lint | Wiki全面健康检查与修复<a class="headerlink" href="#2026-05-10-lint-wiki" title="Permanent link">&para;</a></h2>
+<p><strong>修复内容</strong>：
+- 修复 54 个断开的 wikilinks（文件名不匹配、英文slug、模板占位符）
+- 更新索引：添加 55 个缺失页面到索引
+- 更新页面计数和日期</p>
+<p><strong>详细修复</strong>：
+- 21 个文件修复了文件名不匹配的 wikilinks
+- 15 个文件删除了指向不存在页面的断开链接
+- 索引新增：3 Comparisons + 5 Concepts + 4 Entities + 41 Sources + 2 Topics</p>
+<p><strong>当前状态</strong>：
+- 总页面数：235
+- 断开链接：0
+- 索引完整性：100%</p>
+<p><strong>待处理</strong>：
+- 12 个孤立页面需要添加反向链接
+- 系统页面（索引、日志、待处理问题）无 frontmatter（可接受）</p>
+<h2 id="2026-05-10-lint-wiki_1">[2026-05-10] lint | Wiki全面健康检查完成<a class="headerlink" href="#2026-05-10-lint-wiki_1" title="Permanent link">&para;</a></h2>
+<p><strong>最终状态</strong>：
+- 总页面数：235
+- 断开链接：0
+- 索引完整性：100%
+- 孤立页面：0</p>
+<p><strong>分类统计</strong>：
+- Sources: 123
+- Concepts: 39
+- Entities: 30
+- Comparisons: 21
+- Topics: 17
+- Root: 5</p>
+<p><strong>已完成修复</strong>：
+1. 修复 54 个断开的 wikilinks
+2. 更新索引：添加 55 个缺失页面
+3. 删除 15 个文件中的死链接
+4. 21 个文件修复了文件名不匹配的 wikilinks</p>
+<p><strong>系统状态</strong>：
+- 4 个系统页面无 frontmatter（索引、日志、待处理问题、日志-监控列表）- 可接受
+- 所有 wikilinks 完整性验证通过
+- 索引覆盖所有页面</p>
+<h2 id="2026-05-10-lint">[2026-05-10] lint | 交叉引用完整性修复<a class="headerlink" href="#2026-05-10-lint" title="Permanent link">&para;</a></h2>
+<p><strong>修复内容</strong>：
+- 修复 1 个页面缺少 updated 字段（MOSA架构脆弱性）
+- 修复 6 个页面交叉引用不足（&lt;2 出站链接）
+- 添加缺失的反向链接</p>
+<p><strong>最终状态</strong>：
+- 总页面：235
+- 断开链接：0
+- 前置元数据缺失：0
+- 交叉引用不足页面：0
+- 索引完整性：100%</p>
+<h2 id="2026-05-10-lint_1">[2026-05-10] lint | 原始文件引用与索引重复检查<a class="headerlink" href="#2026-05-10-lint_1" title="Permanent link">&para;</a></h2>
+<p><strong>修复内容</strong>：
+- 修复 11 个索引重复条目（CAE美国公司、通用原子、安杜里尔工业等）
+- 修复 1 个原始文件引用（MIL-HDBK-1211）</p>
+<p><strong>发现的问题</strong>：
+- 79 个源页面引用了不存在的 raw/articles/ 文件
+- 2 个源页面引用了不存在的 raw/papers/ 文件（NASA手册1004、NASA手册1009A）
+- 这些需要手动处理PDF或确认文件状态</p>
+<p><strong>待处理</strong>：
+- 79 个缺失的 raw/articles/ 文件需要用户确认是否需要重新生成
+- 2 个缺失的 raw/papers/ 文件需要用户下载</p>
+<h2 id="2026-05-10-ingest-pdf">[2026-05-10] ingest | 批量PDF提取恢复<a class="headerlink" href="#2026-05-10-ingest-pdf" title="Permanent link">&para;</a></h2>
+<p><strong>操作内容</strong>：
+- 从PDF批量提取70个缺失的raw/articles/文件
+- 修复2个文件名不匹配的PDF引用
+- 重新提取1个空文件（tri-service-memo-2019.md）</p>
+<p><strong>结果</strong>：
+- 成功提取：72个文件
+- 剩余缺失：7个文件（无对应PDF）</p>
+<p><strong>剩余7个缺失文件</strong>（需要手动处理）：
+- E-Hel直升机MOSA案例
+- 精确打击导弹MOSA案例
+- SDA太空作战架构MOSA案例
+- XM30 MICV MOSA案例
+- FLRAA-MV75 MOSA案例
+- 军事嵌入-海军OSMP 2025
+- B-21突袭者MOSA案例</p>
+<p><strong>当前状态</strong>：
+- raw/articles/ 文件数：226
+- 源页面引用完整率：97%（7/235缺失）</p>
+<h2 id="2026-05-10-lint-sitecontent">[2026-05-10] lint | site/content同步与概述更新<a class="headerlink" href="#2026-05-10-lint-sitecontent" title="Permanent link">&para;</a></h2>
+<p><strong>操作内容</strong>：
+- 同步 site/content 与 wiki/：233个文件更新
+- 移除5个构建产物（comparisons/concepts/entities/sources/topics/index.md）
+- 复制缺失文件：待处理问题.md
+- 更新概述.md：添加当前统计</p>
+<p><strong>验证结果</strong>：
+- 9个占位概念页面全部有实质内容
+- site/content 与 wiki/ 完全同步（235文件）
+- 概述.md 已更新至 2026-05-10</p>
+<p><strong>最终状态</strong>：
+- wiki/ 文件数：235
+- site/content/ 文件数：235
+- 同步状态：✓ 完全一致</p>
+<h2 id="2026-05-10-lint-schema">[2026-05-10] lint | SCHEMA规范合规性修复<a class="headerlink" href="#2026-05-10-lint-schema" title="Permanent link">&para;</a></h2>
+<p><strong>修复内容</strong>：
+- 修复1个页面缺少updated字段
+- 修复39个页面type值（source_summary -&gt; source）
+- 为12个页面添加source字段
+- 同步53个文件到site/content/</p>
+<p><strong>验证结果</strong>：
+- 所有页面有标准章节标题
+- 所有页面有完整frontmatter
+- site/content与wiki/完全同步</p>
+<p><strong>当前状态</strong>：
+- wiki/ 文件数：235
+- site/content/ 文件数：235
+- 同步状态：✓ 完全一致
+- SCHEMA合规性：✓ 全部通过</p>
+<h2 id="2026-05-10-lint_2">[2026-05-10] lint | 新特性文件创建与脚本部署<a class="headerlink" href="#2026-05-10-lint_2" title="Permanent link">&para;</a></h2>
+<p><strong>创建的文件</strong>：
+- .wiki-schema.md — 别名词表（31个MOSA领域缩写映射）
+- source-registry.tsv — 来源注册表（123个源页面）
+- .wiki-cache.json — 智能缓存（235个文件索引）
+- purpose.md — 研究方向引导
+- _meta/topic-map.md — 主题地图（8个主题，231个页面）
+- scripts/wiki-health-check.py — 健康检查脚本
+- scripts/wiki-fix-links.py — 链接修复脚本
+- scripts/lint-runner.sh — 综合lint脚本
+- scripts/lint-fix.sh — 自动修复脚本
+- scripts/graph-build.sh — 知识图谱数据生成
+- scripts/graph-html.sh — 知识图谱可视化</p>
+<p><strong>修改的文件</strong>：
+- 230个wiki页面添加confidence和evidence前置字段</p>
+<p><strong>验证结果</strong>：
+- lint-runner.sh 运行成功
+- 断开链接：0
+- 孤立页面：33（部分为正常现象）
+- 索引缺失：0
+- 大页面：5个（&gt;200行）</p>
+<h2 id="2026-05-10-lint_3">[2026-05-10] lint | 来源覆盖率分析与交叉引用补充<a class="headerlink" href="#2026-05-10-lint_3" title="Permanent link">&para;</a></h2>
+<p><strong>操作内容</strong>：
+- 来源覆盖率分析：30个未覆盖源页面
+- 添加30个反向链接从下游页面到源页面
+- 未覆盖源从30降至21</p>
+<p><strong>剩余21个未覆盖源</strong>（无下游页面引用）：
+- 军事采办报告：AMDR-SPY6、DOT&amp;E评估×2、SM-6、陆军报告×2
+- 防务标准：DFARS第207部分、DODI 5000.74、NDAA 2020-2021
+- 武器系统案例：E-Hel、SDA太空、波兰IBCS
+- 中国开放架构：HIMA、华为车机、大疆开发者、车路云、WICVC
+- 其他：MITRE DEWS、MOATEL、SOSA VITA、诺格开放处理器</p>
+<p><strong>决策</strong>：
+- 大页面（&gt;200行）不拆分
+- 知识图谱暂不生成（无向量数据库，可视价值有限）</p>
+<h2 id="2026-05-10-lint_4">[2026-05-10] lint | 来源覆盖率最终修复<a class="headerlink" href="#2026-05-10-lint_4" title="Permanent link">&para;</a></h2>
+<p><strong>操作内容</strong>：
+- 扩展关键词匹配：19个源页面找到下游页面
+- 添加28个反向链接
+- 未覆盖源从21降至4</p>
+<p><strong>最终4个未覆盖源</strong>（独立报告，无对应下游页面）：
+- E-Hel直升机MOSA案例（定向能武器案例）
+- SM-6选定采购报告2023年12月（采购报告）
+- MOATEL-WOSA验证（弹药开放架构试验）
+- 大疆开发者平台概述（无人机SDK）</p>
+<p><strong>决策</strong>：这4个源页面为独立报告，不需要创建下游页面。</p>
+<h2 id="2026-05-10-create-dau">[2026-05-10] create | 国防采办大学 (DAU) 实体页面<a class="headerlink" href="#2026-05-10-create-dau" title="Permanent link">&para;</a></h2>
+<ul>
+<li>创建: entities/国防采办大学.md</li>
+<li>更新: 索引.md（添加 DAU 条目）</li>
+<li>来源: sources/DAU下一代采办2024.md 及多份引用文档</li>
+</ul>
+<h2 id="2026-05-10-create-moatel">[2026-05-10] create | MOATEL 实体页面<a class="headerlink" href="#2026-05-10-create-moatel" title="Permanent link">&para;</a></h2>
+<ul>
+<li>创建: entities/MOATEL弹药开放架构试验鉴定实验室.md</li>
+<li>更新: 索引.md、sources/MOATEL-WOSA验证.md（添加反向链接）</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024-2026 MOSA Knowledge Base
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://gitee.com/yufei96/llm-wiki" target="_blank" rel="noopener" title="gitee.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
