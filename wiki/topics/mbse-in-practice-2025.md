@@ -1,0 +1,163 @@
+---
+title: "MBSE in Practice 2025 会议综合分析"
+created: 2026-05-17
+updated: 2026-05-17
+type: topic
+tags: [MBSE, 数字工程, 系统工程, 国防, SEI, CMU]
+sources: [
+  "wiki/sources/全生命周期MBSE应用.md",
+  "wiki/sources/通用动力任务系统数字化转型经验.md",
+  "wiki/sources/MBSE与MBT连接需求到测试执行.md",
+  "wiki/sources/迈入数字未知.md",
+  "wiki/sources/MBSynergy场景化MBSE改进方法.md",
+  "wiki/sources/基于模型的安全关键系统保障.md",
+  "wiki/sources/初始架构分析.md",
+  "wiki/sources/主动式网络安全威胁架构分析.md",
+  "wiki/sources/MBSE定义DevSecOps能力成熟度.md"
+]
+confidence: VERIFIED
+evidence: "基于9篇会议论文的综合分析"
+---
+
+# MBSE in Practice 2025 会议综合分析
+
+## 会议概况
+
+**MBSE in Practice Conference 2025** 由卡内基梅隆大学软件工程研究所（CMU SEI）主办，2025年8月19-21日举行。会议聚焦**基于模型的系统工程（MBSE）在国防和航空航天领域的实际应用**。
+
+## 核心主题
+
+### 1. MBSE 的历史演进与成熟度
+
+**SPEC Innovations 的 30 年实践**（Steven H. Dam）：
+- MBSE 概念可追溯到 1960 年代
+- 1969 年 TRW 的 SREM 是最早的 MBSE 方法论之一
+- INCOSE 在 2007 年正式定义 MBSE 术语
+- 早期工具：Ascent Logic RDD-100、Vitech Core（现 Genesys）
+- 关键认识：**MBSE 需要数据库工具支撑**
+
+**演进路径**（迈入数字未知）：
+```
+机电产品 → 网络化产品 → 智能互联产品 → 产品体系 → 体系之系统（SoS）
+```
+- 从静态产品到智能系统的范式转移
+- INCOSE SE Vision 2035 指导未来方向
+
+### 2. 数字化转型实践
+
+**通用动力任务系统（GDMS）经验**（Valentin M. Bustamante）：
+- 核心理念：从文档驱动转向模型驱动
+- 价值主张：
+  - 设计、测试、迭代更快
+  - 错误更少、协作更好
+  - 实时更新和共享的交互式模型
+- **DoD 指令要求**：数字化转型不是最佳实践，而是国防指令
+- 已与 30+ 团队合作推进 DE 采用
+
+### 3. MBSE 与测试工程的融合
+
+**ALPI 的 MBSE+MBT 方法**（Andrew Pollner, Katherine Pilat）：
+- 解决测试三大挑战：
+  - 理解领域
+  - 确保测试设计的严谨性
+  - 确保测试执行的可重复性
+- 能力覆盖：
+  - 测试流程改进（MBSE, MBT）
+  - 测试自动化框架
+  - ISTQB 认证培训（AI 测试、基于模型的测试）
+  - DevSecOps 工具开发与培训
+
+### 4. 架构分析方法
+
+**CMU SEI 的架构分析框架**：
+
+#### 初始架构分析（Greg Shevchenko）
+- 建模方法论
+- 场景和模型示例
+- 组织功能域映射
+- 业务目标对齐
+
+#### 主动式网络安全威胁架构分析（Alexander Vesey, Natasha Shevchenko）
+- **PAACT-BUS 方法**：主动式架构分析
+- 核心问题：
+  - 什么是 MBSE？
+  - 能用白板进行威胁狩猎吗？
+  - 全生命周期的安全分析与建模
+- 将威胁建模嵌入 MBSE 流程
+
+### 5. 安全关键系统保障
+
+**基于模型的契约与论证**（Dionisio de Niz）：
+- 核心方法：多个保证声明 + 多个分析
+- 关键活动：
+  - 组合多个分析结果
+  - 验证假设
+  - 解决假设冲突
+- **模型驱动工程**：多声明-多分析框架
+
+### 6. MBSE 改进方法论
+
+**MBSynergy 场景化方法**（Jerome Hugues, Will Hayes）：
+- 背景：
+  - OUSD(R&E) 数字工程战略（2018）
+  - DoD 5000.97 强制要求部署 DE 和 MBSE
+- 方法：基于场景的 MBSE 改进
+- 目标：通过场景驱动评估和提升组织 MBSE 成熟度
+
+### 7. DevSecOps 能力成熟度
+
+**MBSE 定义 DevSecOps 成熟度**（Timothy A. Chick）：
+- 议程：
+  - DevSecOps 的复杂性
+  - 理解复杂性
+  - 能力成熟度模型
+  - DevSecOps 能力成熟度可视化
+- **核心创新**：用 MBSE 方法定性定义 DevSecOps 能力成熟度
+
+## 跨领域洞察
+
+### 共性主题
+
+| 主题 | 涉及论文 | 核心观点 |
+|------|----------|----------|
+| **模型驱动 vs 文档驱动** | GDMS、迈入数字未知 | 模型是真相来源，文档是派生品 |
+| **全生命周期视角** | SPEC、MBSynergy、PAACT-BUS | MBSE 不仅是设计阶段工具 |
+| **安全左移** | 安全关键系统、PAACT-BUS | 安全分析前移到架构阶段 |
+| **成熟度评估** | MBSynergy、DevSecOps | 需要量化评估 MBSE 实施效果 |
+| **DoD 合规要求** | GDMS、MBSynergy | DoDI 5000.97 强制要求 |
+
+### 关键差距与挑战
+
+1. **工具碎片化**：多工具协同困难
+2. **人员技能缺口**：MBSE 需要新技能组合
+3. **文化阻力**：从文档习惯转向模型思维
+4. **度量缺失**：如何量化 MBSE 的 ROI？
+5. **遗留系统集成**：老系统如何融入 MBSE 生态
+
+## 对中国军工/航空航天的启示
+
+### 可借鉴的最佳实践
+
+1. **渐进式采用**：GDMS 的 30+ 团队经验表明，分阶段推进更可行
+2. **场景驱动**：MBSynergy 的方法可直接用于评估国内军工院所的 MBSE 成熟度
+3. **测试集成**：ALPI 的 MBSE+MBT 方法可提升验证效率
+4. **安全嵌入**：PAACT-BUS 的威胁建模方法适用于武器系统网络安全
+
+### 需要注意的差异
+
+1. **合规框架不同**：中国有自己的军用标准体系（GJB）
+2. **工具生态差异**：国内工具链与 DoD 体系不完全兼容
+3. **数据主权**：模型数据的安全管控要求不同
+
+## 参考资源
+
+- [INCOSE MBSE Initiative](https://www.incose.org/communities/working-groups-initiatives/mbse-initiative)
+- [DoD Digital Engineering Strategy](https://www.acq.osd.mil/se/initiatives/init_digital-engineering.html)
+- [CMU SEI](https://www.sei.cmu.edu/)
+- [INCOSE SE Vision 2035](https://www.incose.org/)
+
+## 相关页面
+
+- [[wiki/topics/omg-mbse-sysml-v2-transition-guide|SysML v2 过渡指南]]
+- [[wiki/topics/omg-mbse-initiative|MBSE 倡议与组织架构]]
+- [[wiki/topics/omg-mbse-digital-ecosystems|数字生态系统挑战团队 (DECO)]]
