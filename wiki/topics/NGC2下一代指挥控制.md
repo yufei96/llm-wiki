@@ -4,7 +4,7 @@ created: 2026-05-12
 updated: 2026-05-12
 type: topic
 tags: [NGC2, Army, MOSA, C2, 指挥控制, 地面作战, 航空平台, 开放架构]
-sources: [raw/articles/sam-gov-ngc2-mosa-rfi.md]
+sources: [raw/articles/陆军NGC2-MOSA信息征求.md]
 confidence: EXTRACTED
 evidence: "基于SAM.gov RFI (W15P7T-25-R-RFI)"
 ---
@@ -81,4 +81,4 @@ NGC2是陆军的平台级C2系统，在开放架构四层体系（[[开放架构
 ---
 
 - [[ABMS-GRA先进战斗管理]]
-- [[NAVAIR-OSMP指南V1 2025]]
+- [[NAVAIR-OSMP实施指南V1]]

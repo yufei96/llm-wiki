@@ -6,6 +6,7 @@ tags: [SCARS, 模拟器, 开放架构, 训练]
 source: raw/articles/breaking-defense-scars-2024.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # 现代军事模拟的开放系统架构

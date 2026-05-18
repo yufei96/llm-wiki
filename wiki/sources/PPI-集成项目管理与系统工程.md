@@ -54,7 +54,7 @@ Robert J. Halligan：
 
 ## 相关内容
 
-- [[PPI-DID模板]] — PPI DID模板（SEP/SOW等）
+- [[PPI数据项描述模板]] — PPI DID模板（SEP/SOW等）
 - [[PPI业务案例-系统工程]] — SE投资回报论证
 - [[航空PEO-MOSA实施指南]] — PEO Aviation MOSA合同模板
 - [[MOSA五支柱]] — MOSA五大支柱（赋能环境支柱涉及PM-SE整合）

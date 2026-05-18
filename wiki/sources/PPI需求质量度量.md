@@ -5,14 +5,6 @@ updated: 2026-04-19
 type: source
 tags: [requirements-engineering, metrics, quality, systems-engineering]
 sources: [raw/papers/ppi-requirements-quality-metrics.pdf, raw/articles/ppi-requirements-quality-metrics.md]
-## 相关内容
-
-- [[自适应采办框架]] — DoD自适应采办框架
-- [[MOSA与国防采办]] — MOSA核心概念
-- [[PPI-集成项目管理与系统工程]]
-- [[PPI需求分析方法论]]
-- [[MOSA需求质量]] — 需求质量与MOSA
-
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---

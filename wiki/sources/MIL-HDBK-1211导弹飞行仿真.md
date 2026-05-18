@@ -6,6 +6,7 @@ tags: [导弹仿真, 国防手册, 空气动力学, 制导控制]
 sources: [raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf, raw/articles/未命名文档-75195d4e.md]
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # MIL-HDBK-1211(MI)：导弹飞行仿真手册

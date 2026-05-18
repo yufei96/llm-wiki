@@ -106,7 +106,7 @@ PEO Aviation是**陆军最大的MOSA实施推动者**。这份文件展示了：
 
 ## 相关内容
 - [[航空PEO-MOSA实施指南]] — PEO Aviation MOSA实施指南
-- [[航空PEO FACE TIM 2021]] — PEO Aviation FACE TIM 2021开放系统演示
+- [[航空PEO-FACE-TIM开放系统演示2021]] — PEO Aviation FACE TIM 2021开放系统演示
 - [[MOSA与国防采办]] — MOSA核心概念
 - [[MOSA五支柱]] — MOSA五大支柱
 - [[FACE技术标准]] — FACE技术标准

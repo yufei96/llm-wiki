@@ -6,6 +6,7 @@ tags: [MOSA, 国防采办, 模块化, 系统工程, DoD]
 sources: 12个原始文件
 confidence: INFERRED
 evidence: "基于多源综合分析"
+type: topic
 ---
 
 # 国防采办中的模块化开放系统方法（MOSA）
@@ -130,4 +131,4 @@ MOSA依靠几个关键标准进行实施：
 
 ---
 
-- [[NDIA-MOSA白皮书2019]]
+- [[NDIA-MOSA白皮书十建议]]

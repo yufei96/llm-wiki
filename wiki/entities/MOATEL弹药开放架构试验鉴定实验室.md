@@ -5,7 +5,7 @@ updated: 2026-05-10
 type: entity
 tags: [MOATEL, WOSA, AFRL, 弹药, 验证, 测试, 评估实验室]
 sources:
-  - sources/MOATEL-WOSA验证.md
+  - sources/MOATEL弹药开放架构验证.md
 confidence: EXTRACTED
 evidence: "AFRL 官方新闻发布"
 ---

@@ -47,5 +47,5 @@ Robert J. Halligan，PPI Managing Director。2018年更新版（48页）。Halli
 - [[速度与模块化权衡]] — 速度与模块化政策张力
 - [[国防采办超支趋势]] — 国防采办成本超支趋势
 - [[MOSA与国防采办]] — MOSA核心概念
-- [[PPI-DID模板]] — PPI DID模板合集
-- [[GAO-24-106831武器系统]] — GAO武器系统绩效数据
+- [[PPI数据项描述模板]] — PPI DID模板合集
+- [[GAO武器系统年度评估2024]] — GAO武器系统绩效数据

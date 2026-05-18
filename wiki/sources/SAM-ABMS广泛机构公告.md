@@ -68,5 +68,5 @@ BAA的发布机构经历了多次调整：
 
 ## 相关页面
 
-- [[GAO-R-25-106931 MOSA审查]] — GAO MOSA专项审查
+- [[GAO-MOSA专项审查报告全文]] — GAO MOSA专项审查
 - [[MOSAIC方法]] — MOSA总体方法论

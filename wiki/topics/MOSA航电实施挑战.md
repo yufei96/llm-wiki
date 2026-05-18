@@ -4,7 +4,7 @@ created: 2026-05-12
 updated: 2026-05-12
 type: topic
 tags: [MOSA, 航电, 认证, DO-178C, DO-254, OpenVPX, FACE, SOSA, 集成, 网络安全, 实施挑战]
-sources: [raw/articles/mil-embedded-mosa-avionics-2026.md, raw/articles/navair-2026-mosa-defense-summit.md]
+sources: [raw/articles/空军航电MOSA实施六大摩擦点.md, raw/articles/NAVAIR第三届MOSA峰会2026.md]
 confidence: EXTRACTED
 evidence: "基于Military Embedded Systems 2026年5月文章"
 ---
@@ -83,7 +83,7 @@ MOSA改变了集成风险分配：
 - PMA-209演示的**OpenVPX + VNX+混合背板**是海军应对"硬件刷新周期vs商业计算"挑战的工程回应
 - 三军协作（空军Liu + 海军Hair）表明MOSA从各军种独立推进转向三军协同
 - 知识产权模型与开放架构的调和仍是关键挑战
-- 来源：[[navair-2026-mosa-defense-summit]]
+- 来源：[[NAVAIR第三届MOSA峰会2026]]
 
 ## 需要改变什么
 
@@ -94,7 +94,7 @@ MOSA改变了集成风险分配：
 
 ## 与MOSA实施状态矩阵的关系
 
-本文揭示的挑战与[[MOSA实施状态矩阵]]中"检查清单式合规 vs 实质性开放"的发现一致。GAO 2025年审查（[[GAO-25-106931 MOSA审查]]）和2000年DoD IG审计发现的问题惊人相似，表明实施差距是MOSA的结构性挑战。
+本文揭示的挑战与[[MOSA实施状态矩阵]]中"检查清单式合规 vs 实质性开放"的发现一致。GAO 2025年审查（[[GAO-MOSA专项审查2025]]）和2000年DoD IG审计发现的问题惊人相似，表明实施差距是MOSA的结构性挑战。
 
 ## 相关页面
 
@@ -105,7 +105,7 @@ MOSA改变了集成风险分配：
 - [[SOSA传感器开放系统架构]] — SOSA标准
 - [[FACE技术标准]] — FACE标准
 - [[MOSA软件采办]] — 软件采办中的MOSA
-- [[GAO-25-106931 MOSA审查]] — GAO审查报告
+- [[GAO-MOSA专项审查2025]] — GAO审查报告
 
 ---
 

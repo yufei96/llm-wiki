@@ -130,15 +130,15 @@ NC3 GRA与[[MOSA与国防采办|MOSA原则]]的关系具有特殊性：
 
 ### 与Sentinel GRA的关系
 
-NC3 GRA与[[Sentinel-GRA洲际导弹|Sentinel GRA]]是核力量体系的两大核心架构：
+NC3 GRA与[[Sentinel洲际导弹政府参考架构|Sentinel GRA]]是核力量体系的两大核心架构：
 - NC3 GRA覆盖指挥控制通信层
 - Sentinel GRA覆盖武器投射层
 - 两者必须在架构层面协调——NC3的命令必须可靠传达至Sentinel导弹
 
 ## 参考来源
 
-- [[CRS报告-NC3 IF11697]] — CRS IF11697：NC3入门（2025年5月更新）
-- [[DTIC-NC3架构ADA619949]] — GAO-15-584R：NC3现代化审查（2015年）
+- [[CRS-NC3核指挥通信入门]] — CRS IF11697：NC3入门（2025年5月更新）
+- [[DTIC-NC3架构更新]] — GAO-15-584R：NC3现代化审查（2015年）
 
 ## 笔记
 
