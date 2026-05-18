@@ -37,7 +37,7 @@ PPI的DID模板是MOSA合同执行层的关键工具——通过DID将MOSA原则
 
 ## 相关内容
 
-- [[PPI-DID模板]] — PPI DID模板合集
+- [[PPI数据项描述模板]] — PPI DID模板合集
 - [[PPI业务案例-系统工程]] — SE投资回报论证
 - [[INCOSE系统工程手册V5]] — INCOSE SE Handbook V5（PPI方法论的标准化参考）
 - [[PPI业务案例-需求工程]] — RE投资回报论证

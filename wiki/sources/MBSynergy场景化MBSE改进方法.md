@@ -26,4 +26,4 @@ CMU SEI提出的基于场景的MBSE改进方法MBSynergy。通过场景驱动的
 
 ## 相关内容
 
-[[wiki/topics/mbse-in-practice-2025|MBSE in Practice 2025 会议综合分析]]
+[[wiki/sources/MBSE实践大会2025|MBSE in Practice 2025 会议综合分析]]

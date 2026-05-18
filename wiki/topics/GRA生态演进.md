@@ -87,8 +87,8 @@ A-GRA的架构设计使这种竞争成为可能——政府定义接口标准，
 - [[A-GRA自主参考架构]] — A-GRA概念
 - [[ABMS-GRA先进战斗管理]] — ABMS GRA概念
 - [[NC3-GRA核指挥控制]] — NC3 GRA概念
-- [[Sentinel-GRA洲际导弹]] — Sentinel GRA概念
-- [[PNT-GRA-R-EGI导航]] — PNT GRA/R-EGI概念
+- [[Sentinel洲际导弹政府参考架构]] — Sentinel GRA概念
+- [[PNT政府参考架构-R-EGI导航]] — PNT GRA/R-EGI概念
 - [[COARPS雷达架构]] — COARPS概念
 - [[SCARS仿真器架构]] — SCARS概念
 - [[MOSA在CCA中的应用]] — CCA中的MOSA应用

@@ -6,6 +6,7 @@ tags: [MOSA, CSIS, 联盟, 负担分担]
 source: raw/articles/csis-mosa-burden-sharing-2025.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # CSIS：通过模块化开放系统方法分担负担

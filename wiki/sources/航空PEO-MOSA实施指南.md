@@ -77,7 +77,7 @@ evidence: "直接从原始文档提取"
 - [[MOSA五支柱]] — MOSA五大支柱
 - [[DFARS第227部分-专利数据与版权]] — 数据权利法律基础
 - [[国防部MOSA实施指南2025]] — 2025年MOSA指南
-- [[PPI-DID模板]] — PPI DID模板（SOW/SEP基础）
+- [[PPI数据项描述模板]] — PPI DID模板（SOW/SEP基础）
 
 ---
 *23页。MOSA合同落地的实操模板集。*

@@ -8,6 +8,7 @@ source:
   - raw/articles/afgsc-sentinel-gbsd.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # AFGSC Sentinel GBSD Overview
@@ -29,6 +30,6 @@ evidence: "直接从原始文档提取"
 
 ## 相关内容
 
-- [[Sentinel-GRA洲际导弹]] — Sentinel GRA 洲际弹道导弹
+- [[Sentinel洲际导弹政府参考架构]] — Sentinel GRA 洲际弹道导弹
 - [[空军全球打击司令部]] — 空军全球打击司令部
 - [[NC3-GRA核指挥控制]] — NC3 GRA 核指挥控制通信

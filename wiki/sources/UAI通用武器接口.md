@@ -70,7 +70,7 @@ UAI（Universal Armament Interface）是美国国防部和NATO倡议，旨在开
 ## 相关页面
 
 - [[WOSA武器开放系统架构]] — WOSA武器开放系统架构
-- [[MOATEL-WOSA验证]] — MOATEL弹药开放架构试验鉴定实验室
+- [[MOATEL弹药开放架构验证]] — MOATEL弹药开放架构试验鉴定实验室
 - [[按范围分类的MOSA标准]] — UAI作为军种内推广标准
 - [[SIAW与AARGM-ER模块化对比]] — SiAW项目（采用WOSA/UAI）
 

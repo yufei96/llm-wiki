@@ -129,7 +129,7 @@ COARPS是[[政府参考架构|GRA体系]]中传感器GRA的雷达分支，与以
 ## 参考来源
 
 - [[空军COARPS信息征求2021]] — 空军COARPS RFI原文（SAM.gov）
-- [[ICNews-COARPS信息征求]] — Intelligence Community News报道
+- [[空军COARPS信息征求报道]] — Intelligence Community News报道
 
 ## 笔记
 

@@ -50,7 +50,7 @@ SCA和REDHAWK代表了MOSA在**通信/SDR领域**的延伸，CoPaIS代表了MOSA
 - [[FACE技术标准]] — FACE标准
 - [[SOSA参考架构V2]] — SOSA
 - [[MOSA与国防采办]] — MOSA概念
-- [[DSP期刊-MOSA方法2020]] — DSP Journal综述
+- [[DSP期刊MOSA专刊2020]] — DSP Journal综述
 
 ---
 *4页。USAF MOSA使能标准的官方清单，发现SCA/REDHAWK/CoPaIS三个新标准领域。*

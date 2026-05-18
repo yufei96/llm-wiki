@@ -8,6 +8,7 @@ source:
   - raw/articles/DoD-IG-OSJTF-Audit-2000.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # DoD IG审计报告：武器系统开放系统方法的使用（2000）
@@ -53,7 +54,7 @@ evidence: "直接从原始文档提取"
 
 ## 相关内容
 
-- [[OSJTF宪章1994]] — OSJTF宪章与MOSA起源（1994）
+- [[OSJTF宪章与MOSA起源1994]] — OSJTF宪章与MOSA起源（1994）
 - [[MOSA与国防采办]] — MOSA核心概念
-- [[GAO-25-106931 MOSA审查]] — GAO 2025年MOSA专项审查（25年后对照）
+- [[GAO-MOSA专项审查2025]] — GAO 2025年MOSA专项审查（25年后对照）
 - [[MOSA实施状态矩阵]] — MOSA实施状态矩阵

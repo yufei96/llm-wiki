@@ -6,6 +6,7 @@ tags: [SCARS, CAE, 模拟器, 训练系统]
 source: raw/articles/cae-scars-program.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # CAE SCARS Program

@@ -65,7 +65,7 @@ NAVAIR PMA-209与陆军PEO Aviation、AFLCMC合作的TSOA-ID演示中：
 ## 与其他标准的关系
 
 - [[SOSA传感器开放系统架构]] — SOSA定义传感器模块化架构，MORA定义RF链内部标准
-- [[CMOSS概述2022]] — MORA是CMOSS标准套件的RF组件层
+- [[CMOSS模块化标准概述]] — MORA是CMOSS标准套件的RF组件层
 - [[宿主硬件开放系统]] — HOST定义嵌入式计算硬件，MORA定义RF硬件
 - [[MOSA与国防采办]] — MORA是MOSA在射频领域的具体实施
 - [[Victory地面车辆]] — VICTORY是MORA的源头架构

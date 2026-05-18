@@ -8,6 +8,7 @@ source:
   - raw/articles/afrc-a-gra-cca-validation-2025.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # Air Force Validates A-GRA Open Architecture for CCA

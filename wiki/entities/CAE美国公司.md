@@ -6,6 +6,7 @@ updated: 2026-05-07
 tags: [SCARS, 模拟器, 训练]
 confidence: EXTRACTED
 evidence: "基于原始文档综合"
+type: entity
 ---
 
 # CAE USA

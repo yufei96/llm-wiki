@@ -6,6 +6,7 @@ tags: [Sentinel, ICBM, 维基百科]
 source: raw/articles/wikipedia-lgm35-sentinel.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # Wikipedia: LGM-35 Sentinel
@@ -29,5 +30,5 @@ evidence: "直接从原始文档提取"
 
 ## 相关内容
 
-- [[Sentinel-GRA洲际导弹]] — Sentinel GRA 洲际弹道导弹
+- [[Sentinel洲际导弹政府参考架构]] — Sentinel GRA 洲际弹道导弹
 - [[空军全球打击司令部]] — 空军全球打击司令部

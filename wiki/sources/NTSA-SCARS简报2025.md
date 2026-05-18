@@ -8,6 +8,7 @@ source:
   - raw/articles/ntsa-scars-stcf-2025.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # NTSA SCARS STCF Brief 2025

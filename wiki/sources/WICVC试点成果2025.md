@@ -6,6 +6,7 @@ tags: [车路云一体化, 智能网联汽车, 试点城市, 十大功能场景]
 source: raw/articles/wicvc-pilot-results-2025.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
+type: source
 ---
 
 # 2025世界智能网联汽车大会：车路云一体化应用试点阶段性成果

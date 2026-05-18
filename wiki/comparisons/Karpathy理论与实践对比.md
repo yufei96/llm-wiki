@@ -19,10 +19,10 @@ evidence: "基于多源综合分析"
 | **raw/组织** | articles/、papers/、repos/、assets/ | articles/、papers/、assets/ | ✅ 已对齐 |
 | **wiki/页面** | 概念、实体、对比、概述、综合、摘要 | concepts/、entities/、comparisons/、topics/、sources/ | ✅ 已对齐 |
 | **Schema文件** | CLAUDE.md / AGENTS.md（顶层代理指令） | SCHEMA.md（项目根目录） | ✅ 已对齐 |
-| **overview.md** | 单一综合叙事 | wiki/overview.md（5条故事线） | ✅ 已对齐 |
-| **index.md** | 内容目录 | wiki/index.md（按类别组织） | ✅ 已对齐 |
-| **log.md** | 仅追加日志 | wiki/log.md（可解析条目） | ✅ 已对齐 |
-| **topics/** | 原版无此文件夹（综合在overview.md中） | 跨来源主题综合 | ➕ 我们扩展的 |
+| **overview.md** | 单一综合叙事 | wiki/概述.md（10条故事线） | ✅ 已对齐 |
+| **索引.md** | 内容目录 | wiki/索引.md（按类别组织） | ✅ 已对齐 |
+| **日志.md** | 仅追加日志 | wiki/日志.md（可解析条目） | ✅ 已对齐 |
+| **topics/** | 原版无此文件夹（综合在概述.md中） | 跨来源主题综合 | ➕ 我们扩展的 |
 | **entities/** | 实体页面 | 实体页面 | ✅ 已对齐 |
 
 ## 操作对齐

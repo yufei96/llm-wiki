@@ -53,7 +53,7 @@ VICTORY与CMOSS/SOSA的关系：VICTORY关注**车辆平台**，CMOSS关注**C5I
 ## 相关内容
 - [[开放架构层级]] — 开放架构四层体系（VICTORY为设备级）
 - [[MOSA与国防采办]] — MOSA概念
-- [[CMOSS概述2022]] — CMOSS（与VICTORY共享MORA射频标准）
+- [[CMOSS模块化标准概述]] — CMOSS（与VICTORY共享MORA射频标准）
 - [[SOSA传感器开放系统架构]] — SOSA传感器架构
 - [[模块化架构模式]] — 模块化架构模式
 - [[XM30 MICV MOSA案例]] — XM-30地面车辆MOSA设计案例
