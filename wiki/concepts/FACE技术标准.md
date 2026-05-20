@@ -4,9 +4,9 @@ created: 2026-04-05
 updated: 2026-04-05
 type: concept
 tags: [FACE, 航空电子, 开放架构]
-sources: [raw/mosa-us-defense-acquisition-shah-2021.pdf]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [MOSA与国防采办, 开放任务系统, 宿主硬件开放系统, SOSA传感器开放系统架构, FACE技术标准3.2版, 航空PEO-MOSA行业交流2022, 开放架构层级, 六项已验证的MOSA标准]
+confidence: SYNTHESIZED
+evidence: "基于8个wiki页面的多源综合——Shah论文/NDIA建议的FACE定性验证、GRA架构中FACE/SOSA/OMS的层次关系、TIM 2021多供应商集成演示、以及三军备忘录的标准确认"
 ---
 # FACE™ — 未来机载能力环境
 由**开放群组（The Open Group）**维护，是航空电子系统的技术标准，支持软件组件在不同平台和供应商之间的可移植性。

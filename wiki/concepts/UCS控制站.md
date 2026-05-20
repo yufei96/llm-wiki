@@ -4,9 +4,9 @@ created: 2026-04-19
 updated: 2026-04-19
 type: concept
 tags: [UCS, 无人系统, 指挥控制, STANAG 4586, NATO, 互操作]
-sources: [raw/papers/stanag-4586-2nd-draft.pdf]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [开放任务系统, 模块化架构模式, 六项已验证的MOSA标准, MOSA与国防采办]
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——无人系统指挥控制标准与OMS的接口互补、三军备忘录标准确认、以及模块化架构模式在无人域的映射"
 ---
 
 # 无人系统指挥控制标准接口（UCS）

@@ -4,9 +4,9 @@ created: 2026-04-05
 updated: 2026-04-05
 type: concept
 tags: [WOSA, 工具链, 架构评估]
-sources: [raw/articles/wosa-architecture-toolset.md]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [WOSA武器开放系统架构, MOSA与数字工程, MOSA五支柱, DoDI-5000.97数字工程, 科学委员会数字工程2024]
+confidence: SYNTHESIZED
+evidence: "基于5个wiki页面的多源综合——WOSA工具链四大功能（合规扫描/一致性检查/成本估算/报告生成）与DSB 2024推荐集成至DE工作流的前景"
 ---
 # WOSA架构工具集
 美国国防部开发的开源开放架构评估工具链，用于帮助项目团队评估系统的MOSA合规程度，自动生成合规性报告。

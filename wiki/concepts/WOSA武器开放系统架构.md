@@ -4,9 +4,9 @@ created: 2026-05-06
 updated: 2026-05-06
 type: concept
 tags: [WOSA, 武器系统, 开放架构, MOSA, UAI, 超音速武器, 三军联合]
-sources: [raw/articles/Chris-Garrett-Presentation-Sep-2024.md, raw/articles/defense-news-open-standards-2024.md, raw/articles/Tri-Service-Memo-Signed-17Dec2024.md, raw/articles/wosa-architecture-tools-analysis.md]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [政府参考架构, 克里斯-加勒特演讲2024, 三军备忘录2024, 六项已验证的MOSA标准, 开放任务系统, DEWS-MOSA参考架构, MOSA与国防采办, 超音速武器与数字工程]
+confidence: SYNTHESIZED
+evidence: "基于8个wiki页面的多源综合——GRA体系中武器GRA定位、三军联合备忘录标准确认（超音速武器对齐）、Defense News分析、以及DEWS定向能武器整合"
 ---
 
 # 武器开放系统架构（WOSA）

@@ -6,12 +6,12 @@ type: concept
 level: 设备级
 tags: [R-EGI, PNT, GPS, INS, MOSA, GRA, AFLCMC, 导航, 弹性, GPS拒止, 开放架构]
 sources:
-  - raw/articles/insidegnss-r-egi-milestone-2024.md
-  - raw/articles/dvids-r-egi-pnt-flight-2024.md
-  - raw/articles/is4s-r-egi-c12j-flight.md
-  - raw/articles/rntfnd-r-egi-mosa-2024.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - SOSA传感器开放系统架构
+  - 开放任务系统
+  - FACE技术标准
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——GRA体系中最小粒度的设备级架构、R-EGI的GPS/SOSA/OMS/FACE四标准集成、以及C-12J飞行验证（2024）的实际性能数据"
 ---
 
 # PNT政府参考架构 / 弹性嵌入式GPS/INS（R-EGI）

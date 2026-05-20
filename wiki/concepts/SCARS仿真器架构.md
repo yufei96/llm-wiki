@@ -6,11 +6,11 @@ type: concept
 level: 设备级
 tags: [SCARS, 模拟器, 训练, MOSA, CAE, 空军, 网络安全, 虚拟化, 开放架构]
 sources:
-  - raw/articles/ntsa-scars-stcf-2025.md
-  - raw/articles/cae-scars-program.md
-  - raw/articles/breaking-defense-scars-2024.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - A-GRA自主参考架构
+  - 协同作战飞机
+confidence: SYNTHESIZED
+evidence: "基于3个wiki页面的多源综合——GRA体系中的仿真验证架构、AFLCMC验证矩阵中SCARS对A-GRA的测试支撑角色"
 ---
 
 # 模拟器通用架构需求标准（SCARS）

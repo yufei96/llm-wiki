@@ -3,9 +3,9 @@ title: "MOSA架构脆弱性分析"
 created: 2026-04-26
 type: concept
 tags: [mosa, vulnerability, structural-analysis, conservation-law, defense-acquisition]
-sources: [gao-25-106931-mosa-review, dodi-5000-85, better-buying-power-3-0, mosa-implementation-stack]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [GAO-MOSA专项审查2025, DoDI-5000.85重大能力收购, 更好购买力3.0, MOSA实施栈, MOSA五支柱, MOSA需求质量, SysML-v2过渡瓶颈, 模块化架构模式, 接口工程演进, 中间层采办, 速度与模块化权衡, 自适应采办框架]
+confidence: SYNTHESIZED
+evidence: "基于12个wiki页面的结构性分析——GAO审计发现、DoDI政策文本、NDIA建议、SysML v2实施数据、架构模式理论、接口工程历史演进的多源交叉验证"
 ---
 
 # MOSA 架构脆弱性分析

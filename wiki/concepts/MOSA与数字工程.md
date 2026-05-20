@@ -4,9 +4,9 @@ created: 2026-04-19
 updated: 2026-04-19
 type: concept
 tags: [MOSA, 数字工程, DEE, MBSE, 数字孪生, 基于模型]
-sources: [raw/papers/dodi-5000.97-digital-engineering-2023.pdf, raw/papers/dsb-digital-engineering-2024.pdf, raw/papers/NIST.SP.800-160v2r1.pdf, raw/papers/SysML-v2-Basics-2024.pdf]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [DoDI-5000.97数字工程, 科学委员会数字工程2024, 国防部数字工程战略2018, WOSA架构工具, 接口工程演进, 基于模型的系统工程, 数字工程生态, 模块化架构模式]
+confidence: SYNTHESIZED
+evidence: "基于8个wiki页面的多源综合——DoDI 5000.97九大要素中MOSA定位、DSB 2024报告推荐WOSA集成至DE工作流、2018战略至2023指令的政策演进、以及DMM/DEE框架的互补验证"
 ---
 
 # MOSA与数字工程

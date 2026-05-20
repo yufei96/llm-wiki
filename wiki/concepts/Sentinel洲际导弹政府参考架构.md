@@ -6,11 +6,12 @@ type: concept
 level: 分系统级
 tags: [Sentinel, LGM-35A, ICBM, GBSD, GRA, 核武器, Northrop Grumman, Minuteman III, 开放系统架构]
 sources:
-  - raw/articles/crs-sentinel-icbm-if11681.md
-  - raw/articles/afgsc-sentinel-gbsd.md
-  - raw/articles/wikipedia-lgm35-sentinel.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - MOSA与国防采办
+  - 供应商锁定
+  - NC3-GRA核指挥控制
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——GRA体系中的分系统级架构（陆基ICBM）、Sentinel从Minuteman III的整体式替换到模块化架构的转型挑战、以及CRS/AFGSC/Wikipedia三源交叉验证"
 ---
 
 # Sentinel洲际弹道导弹政府参考架构（Sentinel GRA）

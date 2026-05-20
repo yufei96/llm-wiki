@@ -11,7 +11,7 @@ type: topic
 
 # 国防采办中的模块化开放系统方法（MOSA）
 
-## 摘要 [覆盖率：高]
+## 摘要
 
 **MOSA（模块化开放系统方法）**是美国国防部自2015年起在"更好采购力3.0"倡议下授权的采办和系统设计策略。它要求武器系统采用**模块化架构**和**公开发布的标准化接口**设计，目标是防止供应商锁定、实现经济可承受的技术插入、增加竞争并降低生命周期成本。
 
@@ -19,7 +19,7 @@ type: topic
 
 尽管各军种都有广泛的授权和定性成功案例，**MOSA成本/进度效益的定量证据仍然难以获得**。研究（Shah 2021）发现，由于混杂变量，现有MDAP数据无法隔离MOSA的因果效应。该领域广泛认为关键未满足的需求是**标准化评估方法和指标**，以评估项目是否真正符合MOSA并衡量其效益。
 
-## 时间线 [覆盖率：高]
+## 时间线
 
 - **1995年** — DoD发布政策鼓励武器系统电子设备采用开放系统规范（距今30年）
 - **2010年** — 国防部发布更好采购力2.0，为开放系统奠定概念基础
@@ -29,7 +29,7 @@ type: topic
 - **2020年** — DoDI 5000.02重组为自适应采办框架；MOSA政策移至单独指令（DoDI 5000.85）
 - **2021年** — Parth Devang Shah发表GWU博士论文，提供首次整体定量评估，确认测量差距
 
-## 当前状态 [覆盖率：高]
+## 当前状态
 
 - **授权**：所有美国重大国防采办项目必须采用MOSA原则
 - **采用**：所有三个军种（陆军/海军/空军）都有活跃的MOSA项目和标准
@@ -39,7 +39,7 @@ type: topic
 - **关键差距**：没有标准化评估/认证标准，没有公认的衡量模块化或量化效益的指标
 - **制度性失败**：GAO-25-106931指出，DoD 30年前就开始鼓励开放系统规范，但实施一直不一致，说明这是制度性失败而非新问题
 
-## 关键决策 [覆盖率：高]
+## 关键决策
 
 1. **为所有采购授权MOSA** — 国防部长办公室已将MOSA作为要求而非选项
    - 理由：解决成本增长和供应商锁定的根本原因
@@ -57,15 +57,15 @@ type: topic
    - 理由：通过重用成熟设计加速采用
    - 状态：已推荐但尚未在全国防部实施
 
-## 实验与结果 [覆盖率：中]
+## 实验与结果
 
 | 研究/实验 | 结果 | 来源 |
 |-----------|------|------|
-| Shah（2021）— 86个MDAP的6个假设 | H1（可衡量的成本改进）**不支持**；H2-H6均**支持** | [Shah 2021](sources/2026-04-05-mosa-shah-thesis.md) |
-| NDIA（2019）— 行业/政府工作组 | 就10项关键建议达成共识；与Shah识别的差距一致 | [NDIA 2019](sources/2026-04-05-ndia-mosa-white-paper-2019.md) |
-| FACE联盟（航空） | 70+组织、900贡献者、20+生产采购证明生态系统成功 | [concepts/face-technical-standard](concepts/face-technical-standard.md) |
+| Shah（2021）— 86个MDAP的6个假设 | H1（可衡量的成本改进）**不支持**；H2-H6均**支持** | [Shah 2021](sources/MOSA与美国国防采办-Shah论文) |
+| NDIA（2019）— 行业/政府工作组 | 就10项关键建议达成共识；与Shah识别的差距一致 | [NDIA 2019](sources/NDIA-MOSA白皮书十建议) |
+| FACE联盟（航空） | 70+组织、900贡献者、20+生产采购证明生态系统成功 | [concepts/face-technical-standard](concepts/FACE技术标准) |
 
-## 关键标准与框架 [覆盖率：高]
+## 关键标准与框架
 
 MOSA依靠几个关键标准进行实施：
 
@@ -78,19 +78,19 @@ MOSA依靠几个关键标准进行实施：
 | **VICTORY** | 地面车辆 | 车载C4ISR/EW互操作性 |
 | **SOSA/CMOSS** | C4ISR | 传感器开放系统架构 |
 
-## 陷阱与已知问题 [覆盖率：中]
+## 陷阱与已知问题
 
-1. **测量问题** — 没有公认的量化MOSA合规性或其效益的方法论。这阻碍了有意义的激励结构和ROI跟踪。[覆盖率：高]
+1. **测量问题** — 没有公认的量化MOSA合规性或其效益的方法论。这阻碍了有意义的激励结构和ROI跟踪。
 
-2. **数据权利与知识产权** — 开放接口需要清晰的技术数据权利，但知识产权政策仍在追赶MOSA原则。[覆盖率：中]
+2. **数据权利与知识产权** — 开放接口需要清晰的技术数据权利，但知识产权政策仍在追赶MOSA原则。
 
-3. **混杂变量** — 即使有好的数据，在多年项目中隔离MOSA对成本/进度的影响实际上很困难。其他因素（需求蔓延、低估）占主导。[覆盖率：高]
+3. **混杂变量** — 即使有好的数据，在多年项目中隔离MOSA对成本/进度的影响实际上很困难。其他因素（需求蔓延、低估）占主导。
 
-4. **文化变革** — MOSA要求改变政府和行业的业务方式。合同中的激励措施尚未适当调整。[覆盖率：中]
+4. **文化变革** — MOSA要求改变政府和行业的业务方式。合同中的激励措施尚未适当调整。
 
-5. **软件分类法差距** — MIL-STD-881D适用于硬件，但软件缺乏用于MOSA分区的等效标准化分类法。[覆盖率：中]
+5. **软件分类法差距** — MIL-STD-881D适用于硬件，但软件缺乏用于MOSA分区的等效标准化分类法。
 
-## 开放问题 [覆盖率：低]
+## 开放问题
 
 1. 什么定量指标最能捕捉实践中的模块化和开放性？
 2. 如何激励项目办公室在短期预算压力下优先考虑MOSA投资？
@@ -98,21 +98,21 @@ MOSA依靠几个关键标准进行实施：
 4. 鉴于开放接口增加的攻击面，MOSA如何最好地与现代赛博安全实践集成？
 5. 什么程度的模块化是"足够的"？是否存在收益递减点？
 
-## 来源 [覆盖率：不适用]
+## 来源
 
 所有来源材料都在wiki中有摘要：
 
-- [sources/2026-04-05-mosa-shah-thesis.md](sources/2026-04-05-mosa-shah-thesis.md) — Parth Devang Shah，GWU博士论文（2021）
-- [sources/2026-04-05-ndia-mosa-white-paper-2019.md](sources/2026-04-05-ndia-mosa-white-paper-2019.md) — NDIA SE部（2019）
-- [sources/2026-04-05-dodi-5000-02-2020.md](sources/2026-04-05-dodi-5000-02-2020.md) — DoDI 5000.02自适应采办框架（2020）
-- [sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md](sources/2026-04-05-mil-std-881d-wbs-defense-materiel.md) — MIL-STD-881D（2018）
-- [sources/2026-04-05-face-technical-standard-3.2-2023.md](sources/2026-04-05-face-technical-standard-3.2-2023.md) — FACE 3.2技术标准（2023）
-- [concepts/mosa-defense-acquisition.md](concepts/mosa-defense-acquisition.md) — 原始概念页
-- [concepts/adaptive-acquisition-framework.md](concepts/adaptive-acquisition-framework.md) — AAF概念页
-- [concepts/vendor-lock-in.md](concepts/vendor-lock-in.md) — 供应商锁定概念
-- [concepts/open-mission-systems.md](concepts/open-mission-systems.md) — OMS概念
-- [entities/parth-devang-shah.md](entities/parth-devang-shah.md) — 作者实体
-- [entities/better-buying-power-3-0.md](entities/better-buying-power-3-0.md) — BBP 3.0实体
+- [sources/MOSA与美国国防采办-Shah论文.md](sources/MOSA与美国国防采办-Shah论文) — Parth Devang Shah，GWU博士论文（2021）
+- [sources/NDIA-MOSA白皮书十建议.md](sources/NDIA-MOSA白皮书十建议) — NDIA SE部（2019）
+- [sources/DoDI-5000.02自适应采办框架操作.md](sources/DoDI-5000.02自适应采办框架操作) — DoDI 5000.02自适应采办框架（2020）
+- [sources/MIL-STD-881D国防物资工作分解结构.md](sources/MIL-STD-881D国防物资工作分解结构) — MIL-STD-881D（2018）
+- [sources/FACE技术标准3.2版.md](sources/FACE技术标准3.2版) — FACE 3.2技术标准（2023）
+- [concepts/MOSA与国防采办.md](concepts/MOSA与国防采办) — 原始概念页
+- [concepts/自适应采办框架.md](concepts/自适应采办框架) — AAF概念页
+- [concepts/供应商锁定.md](concepts/供应商锁定) — 供应商锁定概念
+- [concepts/开放任务系统.md](concepts/开放任务系统) — OMS概念
+- [entities/帕思-德旺-沙阿.md](entities/帕思-德旺-沙阿) — 作者实体
+- [entities/更好购买力3.0.md](entities/更好购买力3.0) — BBP 3.0实体
 
 ## 相关主题
 

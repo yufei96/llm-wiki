@@ -5,11 +5,13 @@ updated: 2026-05-06
 type: concept
 tags: [ABMS, ABMS-GRA, GRA, CJADC2, BATTLE-NETWORK, C2, CBC2, 作战管理, 平台级, 数字基础设施]
 sources:
-  - raw/articles/afmc-abms-distributed-connectivity.md
-  - raw/articles/dote-fy2024-abms.md
-  - raw/articles/senate-defense-hunter-testimony-2024.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - 开放任务系统
+  - 软件定义能力
+  - DOT&E年度报告2025
+  - 数字工程生态
+confidence: SYNTHESIZED
+evidence: "基于5个wiki页面的多源综合——GRA体系中最复杂的平台级架构（CJADC2/CBC2）、DOT&E 2024评估的连通性验证、以及分布式C2对数字基础设施的依赖"
 ---
 
 # 先进战斗管理系统政府参考架构（ABMS GRA）

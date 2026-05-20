@@ -4,9 +4,9 @@ created: 2026-05-06
 updated: 2026-05-06
 type: concept
 tags: [SOSA, 传感器, C4ISR, 开放架构, The Open Group, MOSA, OpenVPX, VITA]
-sources: [raw/articles/curtiss-wright-mosa-sosa-cmoss.md, raw/articles/Chris-Garrett-Presentation-Sep-2024.md, raw/articles/Tri-Service-Memo-Signed-17Dec2024.md, raw/articles/SOSA快速SDR开发案例2022.md]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [政府参考架构, FACE技术标准, 宿主硬件开放系统, DEWS-MOSA参考架构, 六项已验证的MOSA标准, 开放任务系统, C5ISR标准融合, MORA模块化开放射频架构概念]
+confidence: SYNTHESIZED
+evidence: "基于8个wiki页面的多源综合——GRA体系中跨域硬件基座定位、FACE/SOSA双支柱关系、DEWS武器整合（12/7/13模块分类）、TSOA-ID三军互操作验证（10x加速）、以及2026 MOSA峰会最新演示"
 ---
 
 # 传感器开放系统架构（SOSA）

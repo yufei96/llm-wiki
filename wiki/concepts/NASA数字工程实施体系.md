@@ -4,9 +4,9 @@ created: 2026-04-29
 updated: 2026-04-29
 type: concept
 tags: [NASA, 数字工程, MBSE, M&S, 采办框架, DRD, V&V, SysML, 系统建模, 质量管理]
-sources: [raw/papers/nasa_hdbk_1004_approved.pdf, raw/papers/NASA-HDBK-1009A.pdf, raw/papers/nasa-hdbk-7009a.pdf, raw/papers/IEEE_NASAs_DE_Journey_3-09-24.pdf]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [基于模型的系统工程, 数字工程生态, 国防部数字工程战略2018, DoDI-5000.97数字工程, 系统韧性工程]
+confidence: SYNTHESIZED
+evidence: "基于5个wiki页面的多源综合——NASA三层手册架构（1004/1009A/7009A）与DoD数字工程九大要素的双轨对比"
 ---
 
 # NASA数字工程实施体系：三层手册架构
