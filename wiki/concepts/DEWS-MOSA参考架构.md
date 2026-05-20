@@ -5,10 +5,12 @@ updated: 2026-04-26
 type: concept
 tags: [MOSA, 定向能武器, 参考架构, SOSA, MITRE, DEWS, MBSE, 数字工程]
 sources:
-  - /root/mosa-defense-applications/results/DEWS_MOSA参考架构.json
-  - raw/papers/mitre-dews-mosa-ra.pdf
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - SOSA传感器开放系统架构
+  - WOSA武器开放系统架构
+  - 政府参考架构
+  - 六项已验证的MOSA标准
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——定向能武器领域MOSA参考架构、与SOSA整合的12/7/13模块分类、以及三军备忘录的定向能标准确认"
 ---
 
 # 定向能武器系统MOSA参考架构（DEWS MOSA RA）

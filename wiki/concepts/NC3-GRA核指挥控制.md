@@ -6,10 +6,12 @@ type: concept
 level: 分系统级
 tags: [NC3, 核指挥控制, GRA, STRATCOM, OSD, 核武器, C3, 现代化, SBIRS, AEHF, TACAMO, SAOC]
 sources:
-  - raw/articles/crs-nc3-if11697.md
-  - raw/articles/dtic-nc3-architecture-ada619949.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - NC3现代化与数字工程
+  - MOSA与国防采办
+  - STRATCOM核任务C3
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——GRA体系中NC3域的特殊性（生存性>开放性）、CRS/DTIC两份架构文档的交叉验证、以及核现代化对MOSA的特殊约束"
 ---
 
 # 核指挥控制通信政府参考架构（NC3 GRA）

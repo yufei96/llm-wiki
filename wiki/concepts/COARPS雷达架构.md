@@ -6,10 +6,11 @@ type: concept
 level: 设备级
 tags: [COARPS, 雷达, 开放架构, MOSA, ABMS, GMTI, AFLCMC, AWACS, 雷达模式, 独立采购]
 sources:
-  - raw/articles/usaf-coarps-rfi-2021.md
-  - raw/articles/icnews-coarps-rfi.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - WOSA武器开放系统架构
+  - SOSA传感器开放系统架构
+confidence: SYNTHESIZED
+evidence: "基于3个wiki页面的多源综合——GRA体系中武器GRA子架构（通用开放架构雷达处理器套件）、与WOSA/SOSA的接口层次关系"
 ---
 
 # 通用开放架构雷达程序规范（COARPS）

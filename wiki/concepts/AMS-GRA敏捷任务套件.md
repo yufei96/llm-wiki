@@ -5,12 +5,13 @@ updated: 2026-05-06
 type: concept
 tags: [AMS-GRA, GRA, MOSA, NGAD, CCA, 开放架构, 任务系统, 设备级, 软件定义, 硬件使能]
 sources:
-  - raw/articles/csis-mosa-burden-sharing-2025.md
-  - raw/articles/dau-next-gen-acquisition-2024.md
-  - raw/articles/senate-defense-hunter-testimony-2024.md
-  - raw/articles/ng-insight-open-processor.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - 协同作战飞机
+  - MOSA五支柱
+  - 模块化架构模式
+  - 软件定义能力
+confidence: SYNTHESIZED
+evidence: "基于5个wiki页面的多源综合——GRA体系中的设备级架构（NGAD/CCA处理器）、CSIS负担分担分析、以及MS&A/SIL/AI三大场景对A-GRA的验证需求"
 ---
 
 # 敏捷任务套件政府参考架构（AMS GRA）

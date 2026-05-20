@@ -5,10 +5,12 @@ updated: 2025-04-26
 type: concept
 tags: [MOSA, 棕地改造, 绿地新建, 遗留系统, H-60M, CANES]
 sources:
-  - /root/mosa-defense-applications/results/MOSA遗留系统改造挑战.json
-  - /root/mosa-defense-applications/results/B-21_Raider_MOSA实施.json
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - MOSA与国防采办
+  - 供应商锁定
+  - 模块化架构模式
+  - 系统韧性工程
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——棕地/绿地战略选择与供应商锁定机制、模块化架构模式及系统韧性工程的多维对比分析"
 ---
 
 # MOSA棕地改造与绿地新建（Brownfield vs Greenfield）

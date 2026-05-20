@@ -5,12 +5,13 @@ updated: 2026-05-06
 type: concept
 tags: [A-GRA, GRA, MOSA, CCA, 自主, 开放架构, 设备级, NGAD, 算法市场, 供应商锁定]
 sources:
-  - raw/articles/afrc-a-gra-cca-validation-2025.md
-  - raw/articles/executivegov-a-gra-cca-2025.md
-  - raw/articles/csis-mosa-burden-sharing-2025.md
-  - raw/articles/dau-next-gen-acquisition-2024.md
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - 政府参考架构
+  - 协同作战飞机
+  - 供应商锁定
+  - MOSA五支柱
+  - 模块化架构模式
+confidence: SYNTHESIZED
+evidence: "基于5个wiki页面的多源综合——GRA体系中最具反锁定野心的设备级架构（算法市场）、AFLCMC验证矩阵中A-GRA对CCA的作用、以及自主算法供应商竞争的机制设计"
 ---
 
 # 自主政府参考架构（A-GRA）

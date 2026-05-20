@@ -4,9 +4,9 @@ created: 2026-05-06
 updated: 2026-05-06
 type: concept
 tags: [MORA, 射频, CMOSS, SOSA, MOSA, 开放架构, RF链]
-sources: [raw/articles/mora-modular-open-rf-architecture.md, raw/articles/navair-mosa-overview.md]
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+sources: [SOSA传感器开放系统架构, 模块化架构模式, C5ISR标准融合, 六项已验证的MOSA标准]
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——射频域模块化与SOSA/CMOSS/C5ISR标准的交叉、VITA 49.x接口体系、以及三军备忘录的射频标准确认"
 ---
 
 # 模块化开放射频架构（MORA）

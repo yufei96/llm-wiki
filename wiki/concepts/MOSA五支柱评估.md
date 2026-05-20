@@ -5,10 +5,12 @@ updated: 2025-04-26
 type: concept
 tags: [MOSA, 评估标准, OUSD, 五大支柱, 合规认证, 采办政策]
 sources:
-  - /root/mosa-defense-applications/results/OUSD_RE_MOSA评估标准.json
-  - /root/mosa-defense-applications/results/MOSA实施状态矩阵.json
-confidence: EXTRACTED
-evidence: "基于原始文档综合"
+  - MOSA五支柱
+  - MOSA架构脆弱性
+  - MOSA需求质量
+  - 国防部MOSA实施指南2025
+confidence: SYNTHESIZED
+evidence: "基于4个wiki页面的多源综合——五支柱的GAO评估方法论、架构脆弱性分析中各支柱的张力、以及2025实施指南的评估框架"
 ---
 
 # OUSD(R&E) MOSA五大支柱评估框架
