@@ -25,8 +25,3 @@ CAE公司官方页面介绍其作为SCARS（模拟器通用架构需求标准）
 
 - https://www.cae.com/defense-security/program-highlights/simulator-common-architecture-requirements-standards-scars/
 - 原始文件: `raw/articles/cae-scars-program.md`
-
-## 相关内容
-
-- [[SCARS仿真器架构]] — SCARS 模拟器通用架构需求标准
-- [[CAE美国公司]] — CAE USA

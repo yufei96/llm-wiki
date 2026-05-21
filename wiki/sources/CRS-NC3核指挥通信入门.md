@@ -28,9 +28,3 @@ type: source
 
 - https://www.congress.gov/crs_external_products/IF/PDF/IF11697/IF11697.5.pdf
 - 原始文件: `raw/papers/crs-nc3-if11697.pdf`, `raw/articles/crs-nc3-if11697.md`
-
-## 相关内容
-
-- [[NC3-GRA核指挥控制]] — NC3 GRA 核指挥控制通信
-- [[战略司令部]] — 美国战略司令部
-- [[Sentinel洲际导弹政府参考架构]] — Sentinel GRA 洲际弹道导弹

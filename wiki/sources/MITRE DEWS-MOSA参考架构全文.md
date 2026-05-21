@@ -13,7 +13,7 @@ evidence: "直接从原始文档提取"
 
 ## 概述
 
-这是MITRE Corporation受PEO IWS（综合作战系统项目执行办公室）委托开发的定向能武器系统MOSA参考架构（DEWS MOSA RA）完整会议简报文档（33页），作者Keegan Merkert，发布于2023年6月Kitty Hawk Week会议。该文档是[[DEWS-MOSA参考架构]]概念页面的原始来源，提供了架构开发方法论、模块定义、数据模型、SOSA整合和数字工程交付物的全面技术细节。
+这是MITRE Corporation受PEO IWS（综合作战系统项目执行办公室）委托开发的定向能武器系统MOSA参考架构（DEWS MOSA RA）完整会议简报文档（33页），作者Keegan Merkert，发布于2023年6月Kitty Hawk Week会议。该文档是DEWS-MOSA参考架构概念页面的原始来源，提供了架构开发方法论、模块定义、数据模型、SOSA整合和数字工程交付物的全面技术细节。
 
 文档编号：PRS-23-1891，合同号W56KGU-18-D-0004，公开发布无限制。
 
@@ -115,9 +115,3 @@ Power模块对比揭示了DEWS和SOSA在电力管理上的根本差异：
 - **内容深度**: ★★★★★ — 33页完整技术简报，包含模块定义、数据模型、活动图等
 - **时效性**: ★★★★☆ — 2023年6月发布，V1.1版本
 - **独特价值**: 这是DEWS MOSA RA最完整的公开技术文档，远超之前的幻灯片摘要
-
-## 相关页面
-
-- [[DEWS-MOSA参考架构]] — DEWS MOSA RA概念页面（将更新）
-- [[MOSAIC方法]] — MOSA总体方法论
-- [[SOSA参考架构V2]] — SOSA参考架构，DEWS整合的核心标准

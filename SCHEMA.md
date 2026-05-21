@@ -66,13 +66,47 @@ wiki/                           # 项目根目录（git仓库）
 
 ## 页面格式
 
+### sources/ 层 — 单文档摘要（EXTRACTED）
+
+禁止 `## 相关内容` 节和 `[[wikilink]]`。sources/ 是单文档的结构化摘要，知识网络是 topics/ 和 concepts/ 的职责。
+
 ```markdown
 ---
 title: "页面标题"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 tags: [标签1, 标签2]
-source: [raw/源文件.md]
+source: [raw/papers/xxx.pdf, raw/articles/xxx.md]
+confidence: EXTRACTED
+type: source
+---
+
+# [标题]
+
+## 概述
+本文档是什么，来自哪个机构，何时发布。
+
+## 核心内容
+按章节/主题的结构化摘要。
+
+## 关键数据（可选）
+文档中的定量数据点。
+
+## 笔记（可选）
+自由格式的笔记、注意事项。
+```
+
+### topics/ / concepts/ / comparisons/ 层 — 跨来源综合（SYNTHESIZED / INFERRED / VERIFIED）
+
+这些层可以包含 `## 相关内容` 和 `[[wikilink]]` 建立知识网络。
+
+```markdown
+---
+title: "页面标题"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [标签1, 标签2]
+confidence: SYNTHESIZED
 ---
 
 # [标题]
@@ -90,6 +124,44 @@ source: [raw/源文件.md]
 ## 笔记
 自由格式的笔记、矛盾、注意事项。
 ```
+
+### confidence 字段含义
+
+| 值 | 含义 | 适用层 |
+|----|------|--------|
+| `EXTRACTED` | 机器提取的结构化摘要 | sources/ |
+| `SYNTHESIZED` | 人工/LLM策展的综合知识 | topics/ concepts/ |
+| `VERIFIED` | 已人工验证 | 所有层 |
+| `INFERRED` | 从多源推断 | topics/ comparisons/ |
+| `MISSING` | 缺 confidence 字段 | 待修复 |
+
+## sources/ 页面质量标准
+
+**目标**：每页 2.5-6KB，使长篇幅/关键源文件的比例合理。
+
+### 强制检查清单（写入前逐一核对）
+
+| # | 检查项 | 标准 |
+|---|--------|------|
+| 1 | **YAML 完整性** | `title`（必须有）、`created`、`updated`、`tags`、`source`、`confidence:EXTRACTED`、`type:source` |
+| 2 | **概述深度** | 不是一句"本文档来自XX机构"，需含：全称、发布方、发布日期、核心定位 |
+| 3 | **核心内容结构化** | 至少2-3个子节，用表格/列表/分类组织，不是纯文本段落堆砌 |
+| 4 | **数据密度** | 有具体数字（页数、项目数、金额等），而非"多个""若干"的模糊表述 |
+| 5 | **笔记价值** | 不只是"本文档对MOSA有意义"，需含分析性洞察：与哪些文件互补/矛盾、历史意义、战略启示 |
+| 6 | **无越界引用** | 零 `[[wikilink]]`、零 `## 相关内容` 节 |
+| 7 | **来源链接** | `source:` 字段指向 raw/ 下实际存在的文件 |
+| 8 | **体积** | 新页 2.5-6KB，重写页小于1KB的页面必须大幅扩充 |
+
+### 常见质量问题
+
+| 问题 | 表现 | 修复 |
+|------|------|------|
+| YAML缺 title | `check-yaml.py` 报 `missing required field 'title'` | 补 `title: "..."` |
+| 概述浮于表面 | "本文档是XX机构发布的YY" | 补充：全称、版本、日期、核心论点的**一句话概括** |
+| 核心内容欠缺 | 只有 ## 概述 无 ## 核心内容 | 从原文提取章节结构，用表格/列表组织 |
+| 笔记无分析 | "本文档很重要" | 写：与哪个文件互补、揭示什么模式、有何战略意义 |
+| 数据缺失 | 只说"多个项目" | 查原文，填具体数字 |
+| 越界引用 | 含 `[[GAO-MOSA]]` 等 | 删除所有 `[[*]]` 和 `## 相关内容`
 
 ## 操作
 

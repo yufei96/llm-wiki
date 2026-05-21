@@ -1,107 +1,80 @@
 ---
-title: "NASA/SP-2016-6105 Rev 2 — NASA系统工程手册"
-created: 2026-04-26
-updated: 2026-04-26
-type: source
-sources: [raw/papers/NASA-SP-2016-6105-Rev2.pdf]
-author: "NASA (Linda Bromley, ed.)"
-tags: [NASA, 系统工程, SE, 接口管理, 生命周期, V&V]
+title: "NASA系统工程手册 Rev2"
+created: 2026-05-21
+updated: 2026-05-21
+tags: [NASA, 系统工程, 手册, SE引擎, 生命周期, 设计过程]
+source: [raw/papers/NASA-SP-2016-6105-Rev2.pdf, raw/articles/NASA特别出版物2016-6105修订2.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# NASA/SP-2016-6105 Rev 2 — NASA系统工程手册
+# NASA系统工程手册 Rev2
 
-## 文档概况
-- **全称**：NASA Systems Engineering Handbook, Revision 2
-- **编号**：NASA/SP-2016-6105 Rev 2
-- **发布者**：NASA Headquarters
-- **发布日期**：2016年（Rev 2）
-- **页数**：~260页（含附录）
-- **前版**：SP-6105 Rev 1（2007）、SP-6105（1995）
+## 概述
 
-## 核心内容
+NASA Systems Engineering Handbook Rev 2（NASA/SP-2016-6105 Rev2），NASA的**机构级系统工程标准**。不同于INCOSE SEH（行业通用）和DoDI 5000.02（采办框架），这是NASA为航天任务定制的系统工程实践指南。分为Part 1（过程指南）和Part 2（技术附录），是NASA SE的"圣经"级文档。
 
-### 结构
-1. **引言** — 目的、范围
-2. **系统工程基础** — SE引擎、通用技术过程、产品验证vs确认
-3. **NASA项目生命周期** — Pre-Phase A 到 Phase F（概念研究→退役）
-4. **技术过程** — 利益攸关方期望→技术需求→逻辑分解→设计解决方案→产品实现→产品集成→V&V
-5. **技术管理过程** — TPM、风险管理、配置管理、技术数据管理、技术评估、决策分析
-6. **交叉领域过程** — 接口管理、技术风险管理
+## 手册结构
 
-### NASA项目生命周期阶段
+### Part 1：系统工程项目管理
 
-- **Pre-Phase A**：概念研究
-- **Phase A**：概念与技术开发
-- **Phase B**：初步设计与技术完成
-- **Phase C**：最终设计与制造
-- **Phase D**：系统装配、集成与测试、发射
-- **Phase E**：运行与保障
-- **Phase F**：收尾
+| 章节 | 内容 |
+|------|------|
+| **1. Introduction** | 目的、范围与深度 |
+| **2. Fundamentals of SE** | SE引擎、通用技术过程、验证vs确认、成本效益、人因系统集成 |
+| **3. NASA项目生命周期** | Phase A-F全生命周期（概念研究→退役）、预算周期、NPR 7123.1裁剪 |
 
-### SE引擎（核心框架）
+### Part 2：系统设计过程（17个过程）
 
-SE引擎是一个迭代递归的过程框架，贯穿所有项目阶段：
-1. 利益攸关方期望定义
-2. 技术需求定义
-3. 逻辑分解
-4. 设计解决方案
-5. 产品实现
-6. 产品集成
-7. 产品验证
-8. 产品确认
+| 章节 | 过程 |
+|------|------|
+| **4.0** | 系统设计过程概述 |
+| **4.1** | Stakeholder Expectations Definition（利益相关方期望定义） |
+| **4.2** | Technical Requirements Definition（技术需求定义） |
+| **4.3** | Logical Decomposition（逻辑分解） |
+| **4.4** | Design Solution Definition（设计方案定义） |
 
-## 接口管理（Section 6.3）— 与MOSA最相关
+### 技术管理过程
 
-### 定义
-接口管理是控制产品开发的过程，当工作由多方（政府、承包商、地理分散的技术团队等）分工时，定义和维护产品间的互操作性。
+| 章节 | 过程 |
+|------|------|
+| **5.1** | Technical Planning（技术规划） |
+| **5.2** | Requirements Management（需求管理） |
+| **5.3** | Interface Management（接口管理） |
+| **5.4** | Technical Risk Management（技术风险管理） |
+| **5.5** | Configuration Management（配置管理） |
+| **5.6** | Technical Data Management（技术数据管理） |
+| **5.7** | Technical Assessment（技术评估） |
+| **5.8** | Decision Analysis（决策分析） |
 
-### 基本任务
-- 定义接口
-- 识别接口特征（物理、电气、机械、人机等）
-- 确保所有定义接口的兼容性
-- 在设计、建造、运行等阶段严格控制接口过程
+### 产品实现与评估
 
-### 接口控制文档
-- **IRD**（Interface Requirements Document）— 接口需求文档
-- **ICD**（Interface Control Document/Drawing）— 接口控制文档/图
-- **IDD**（Interface Definition Document）— 接口定义文档
-- **ICP**（Interface Control Plan）— 接口控制计划
+| 章节 | 过程 |
+|------|------|
+| **6.1-6.8** | 产品实现（采购、集成、验证、确认、转移） |
+| **7.0** | 产品评估（Product Transition、Validation等） |
 
-### 接口工作组（IWG）
-由接口各方的技术代表组成，负责接口活动的规划、调度和执行。
+## NASA SE引擎
 
-## 与MOSA的关系
+NASA手册的核心模型：**SE引擎**——一个迭代循环，包含三大过程组：
+1. **系统设计过程**（4章）→ 从期望到设计
+2. **技术管理过程**（8章）→ 规划、控制、评估
+3. **产品实现过程**（6-7章）→ 从设计到产品
 
-### NASA接口管理 = MOSA接口规范的工程实践版
-NASA的接口管理体系为MOSA提供了**经过验证的工程实践**：
+SE引擎按项目阶段（Phase A-F）递归运行，每个阶段深度递增。
 
-| NASA接口管理 | MOSA对应 |
-|-------------|----------|
-| ICD（接口控制文档） | [[WOSA架构工具]] — WOSA接口标准 |
-| IWG（接口工作组） | [[三军备忘录2024]] — 三军协调机制 |
-| 接口特征定义（物理/电气/机械） | [[SOSA参考架构V2]] — SOSA接口规范 |
-| 接口变更控制 | [[MOSA五支柱]] — 持续竞争的制度保障 |
+## 与INCOSE SEH V5的异同
 
-### 关键差异
-- NASA是**单一机构**内部的接口管理，MOSA是**跨军种/跨供应商**的接口标准化
-- NASA强调**控制**，MOSA强调**开放**——但两者都需要严格的接口定义和变更管理
+| 维度 | NASA SEH Rev2 | INCOSE SEH V5 |
+|------|--------------|---------------|
+| **定位** | 机构定制 | 行业通用 |
+| **焦点** | 航天任务（发射、运行） | 全行业 |
+| **生命周期** | NASA Phase A-F | ISO/IEC 15288 |
+| **核心模型** | SE引擎 | 技术过程+协议过程 |
+| **权威性** | NASA标准 | 行业共识 |
 
-## 在知识库中的位置
+## 笔记
 
-本文档补充了系统工程实践层，与现有政策/标准层形成互补：
-
-- [[ISO-15288系统生命周期过程]] — ISO/IEC/IEEE 15288（NASA SE的国际标准基础）
-- [[INCOSE MBSE方法论调查]] — INCOSE MBSE方法论调查
-- [[数字工程生态]] — 数字工程生态系统
-- [[WOSA架构工具]] — WOSA接口标准
-- [[INCOSE系统工程手册V5]] — INCOSE SE Handbook V5（通用SE方法论，与NASA手册互补）
-- [[三本系统工程手册详细对比]] — 三本SE手册详细对比
-
-## 待补充
-
-（无）
-
----
-
+- NASA手册是HDBK-1009A（系统建模手册）和HDBK-1004（数字工程采办）的基础参考
+- SE引擎模型是理解和实施MOSA的关键——MOSA的模块化设计必须在SE引擎的"逻辑分解"和"设计方案定义"阶段嵌入
+- Rev2版本时间（2016年）早于DoD数字工程战略（2018年）——NASA是先驱

@@ -1,34 +1,62 @@
 ---
-title: "NTSA SCARS STCF Brief 2025"
-created: 2026-05-07
-updated: 2026-05-07
-tags: [SCARS, NTSA, 模拟器, 训练技术]
-source:
-  - raw/papers/ntsa-scars-stcf-2025.md
-  - raw/articles/ntsa-scars-stcf-2025.md
+title: "NTSA SCARS 2025 — 模拟器通用架构与需求标准"
+created: 2026-05-17
+updated: 2026-05-21
+tags: [SCARS, 模拟器, 训练, 空军, MOSA, CAE, 开放架构, NTSA]
+source: [raw/papers/NTSA模拟器通用架构与需求简报2025.pdf, raw/articles/NTSA模拟器通用架构与需求简报2025.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
 type: source
 ---
 
-# NTSA SCARS STCF Brief 2025
+# NTSA SCARS 2025 — 模拟器通用架构与需求标准
 
-## 摘要
+## 概述
 
-国家训练与模拟协会（NTSA）2025年模拟训练联合论坛（STCF）上发布的SCARS简报。介绍SCARS最新进展、技术架构和行业参与情况。注意：此文件为markdown格式（非PDF），399行文本。
+国家训练与模拟协会（NTSA）2025年模拟训练联合论坛（STCF）上发布的SCARS简报（2025年4月16日）。由Lt Col Virmil Delgadillo（作战训练基础设施材料负责人）和Michael Baker（SCARS首席工程师）主讲。SCARS是美国空军将**MOSA应用于飞行模拟器**的持续保障倡议，主承包商为CAE USA。
 
-## 关键信息
+## 项目基本信息
 
-- 2025年STCF会议简报
-- SCARS技术架构更新
-- 行业参与和各供应商状态
+| 属性 | 值 |
+|------|-----|
+| **项目赞助方** | HAF/A3T（空军总部/训练） |
+| **支持的MAJCOM** | ACC、AFGSC、AFRC、AFSOC、AMC、PACAF、USAFE（9个） |
+| **采办路径** | 持续保障倡议（Sustainment Initiative） |
+| **主承包商** | CAE USA |
+| **合同类型** | IDIQ |
+| **合同期** | 5年基础（2020-2025）+ 5个1年选项（2025-2030） |
 
-## 原文来源
+## 问题陈述
 
-- https://www.ntsa.org/-/media/sites/ntsa/events/2025/51a0/scars-stcf-brief.pdf
-- 原始文件: `raw/papers/ntsa-scars-stcf-2025.md`, `raw/articles/ntsa-scars-stcf-2025.md`
+- **>2400台训练设备**（50+平台），配置各异——几乎没有复用
+- **网络威胁**持续演进，频率和严重性增加——需符合DoD风险管理框架（RMF）
+- 训练系统需求增加——**更高保真度和更大互操作性**
+- 缺乏标准和通用架构限制训练效能
 
-## 相关内容
+## SCARS关键组件
 
-- [[SCARS仿真器架构]] — SCARS 模拟器通用架构需求标准
-- [[CAE美国公司]] — CAE USA
+| 组件 | 描述 |
+|------|------|
+| **安全运营中心（SOC）** | OPE和SCARS WAN的远程管理 |
+| **仪表板** | 集中管理和企业视图 |
+| **SCARS帮助台** | 支持服务 |
+| **本地设备（OPE）** | 本地云承载仿真应用，可扩展 |
+
+## 三阶段方法
+
+1. **阶段1**：建立基线架构和标准
+2. **阶段2**：增量迁移遗留模拟器到通用架构
+3. **阶段3**：全企业推广和持续优化
+
+## 与MOSA的关联
+
+- SCARS明确定义为**模拟器领域的MOSA实施**
+- 目标与MOSA核心原则一致：模块化、开放标准、降低生命周期成本、加速能力更新
+- 与网络安全（RMF）集成——MOSA的安全维度
+- 是MOSA从作战系统扩展到训练系统的典型案例
+
+## 笔记
+
+- SCARS是"保障倡议"而非新研项目——体现了对遗留训练系统进行MOSA改造的思路
+- CAE作为主承包商——与CAE公司SCARS项目页面（官方概述）互补
+- >2400台训练设备是一个惊人的数字——说明美军训练系统的规模
+- IDIQ合同（不定交付/不定数量）体现了持续改进的采办策略

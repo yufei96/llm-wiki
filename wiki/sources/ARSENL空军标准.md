@@ -1,56 +1,55 @@
 ---
-title: "ARSENL — 空军架构标准与工程库"
+title: "ARSENL — 空军架构标准工程库"
 created: 2026-04-19
-updated: 2026-04-19
-type: source
-sources: [raw/papers/arsenl.pdf, raw/articles/arsenl.md]
-author: "AFMC / AFLCMC"
-tags: [ARSENL, MOSA标准, USAF, 标准库, 参考架构]
+updated: 2026-05-21
+tags: [ARSENL, 空军, AFMC, GRA, MOSA, 参考架构, 标准库, AFRL]
+source: [raw/papers/arsenl.pdf, raw/articles/ARSENL项目.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# ARSENL — 架构标准与工程库
+# ARSENL — 空军架构标准工程库
 
-## 文档概况
-- **全称**：Architectures, Standards and Engineering Library (A.R.S.EN.L)
-- **发布者**：Air Force Materiel Command (AFMC)
-- **URL**：`https://www.vdl.afrl.af.mil/programs/arsenl/standards.php`
-- **页数**：4（概览文档，实际标准库在线访问需VDL账号）
-- **类型**：标准库索引
+## 概述
 
-## 核心内容
+**Architectures, Reference, Standards and Engineering Library**（架构、参考、标准和工程图书馆），由空军装备司令部（AFMC）在虚拟分布式实验室（VDL）网站上维护。是**空军政府参考架构（GRA）和MOSA使能标准的集中知识库**。为空军系统接口信息提供权威参考。访问需VDL账户和政府赞助商审核。
 
-ARSENL是AFMC建立的**USAF MOSA使能标准的官方索引**，包含政府参考架构、MOSA使能标准和系统接口信息。
+## 核心功能
 
-### USAF认可的MOSA使能标准清单
+- **政府参考架构（GRA）库**：空军所有GRA的集中存储
+- **MOSA使能标准清单**：公开可发布标准的官方列表
+- **系统接口信息**：空军系统间接口的标准定义
 
-ARSENL列出了USAF官方认可的MOSA标准：
-1. **FACE Technical Standard** — 航电开放架构
-2. **SOSA** — 传感器开放系统架构
-3. **SCA (Software Communications Architecture)** — 软件定义无线电架构（JTNC发布）
-4. **REDHAWK** — SDR框架，支持实时软件无线电应用开发部署
-5. **CoPaIS (Common Payload Interface Standard)** — 标准化航天器总线-载荷接口
+## MOSA使能标准清单（公开部分）
 
-### 访问方式
-- 公开标准：VDL公开页面可访问
-- 分销限制/ITAR材料：需VDL账号+政府赞助人
-- 流程：VDL注册 → 请求ARSENL项目访问 → 政府代表审批
+| 标准 | 描述 |
+|------|------|
+| **FACE技术标准** | 航电软件架构标准，定义参考架构的段和接口 |
+| **SOSA** | 传感器开放系统架构——通信、EO/IR、EW、雷达、SIGINT |
+| **SCA（软件通信架构）** | JTNC的软件定义无线电标准 |
+| **REDHAWK** | SDR框架——支持实时软件无线电应用开发和管理 |
+| **CoPaIS** | 通用载荷接口标准——标准化航天器总线-载荷接口 |
+| **VICTORY** | 地面车辆C4ISR/EW互操作标准 |
+| **CMOSS** | C5ISR/EW模块化开放标准套件 |
+| **MORA** | 模块化开放射频架构 |
 
-## 对MOSA的意义
+## 访问流程
 
-ARSENL是理解**USAF MOSA标准生态官方视图**的关键文档。它告诉我们USAF实际采用的标准组合：
-- **FACE + SOSA** 作为两大支柱（与我们的分析一致）
-- **SCA + REDHAWK** 补充了软件定义无线电领域（我们之前未覆盖）
-- **CoPaIS** 补充了航天领域（我们之前未覆盖）
+1. 在公共VDL页面申请账户（需政府赞助商）
+2. 赞助商通过邮件确认申请人资格（ITAR/分发限制）
+3. 获得VDL访问后，申请ARSENL VDL项目
+4. 政府ARSENL代表批准访问
 
-SCA和REDHAWK代表了MOSA在**通信/SDR领域**的延伸，CoPaIS代表了MOSA在**航天领域**的延伸。
+## 在MOSA生态中的独特价值
 
-## 相关内容
-- [[FACE技术标准]] — FACE标准
-- [[SOSA参考架构V2]] — SOSA
-- [[MOSA与国防采办]] — MOSA概念
-- [[DSP期刊MOSA专刊2020]] — DSP Journal综述
+- ARSENL是**唯一由空军官方维护的GRA和标准集中库**
+- 回答了"空军承认哪些MOSA标准"的问题
+- 与DAU下一代采办（2024）中列出的GRA清单互补
+- VDL平台意味着部分内容受分发限制——公开可见的仅是冰山一角
 
----
-*4页。USAF MOSA使能标准的官方清单，发现SCA/REDHAWK/CoPaIS三个新标准领域。*
+## 笔记
+
+- ARSENL的存在回答了GAO-25-106931的一个隐含批评：接口存储库建设——AFMC至少建立了集中知识库
+- "A.R.S.EN.L"是递进缩写——体现从架构到标准到工程的层次
+- 访问限制（需政府赞助商）意味着完整内容无法公开获取——对知识库的深度覆盖有限制
+- AFRL（空军研究实验室）托管VDL——暗示ARSENL与空军科研体系的关联

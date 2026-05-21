@@ -28,8 +28,3 @@ DTIC收录的GAO对核指挥控制通信（NC3）架构的审查报告（ADA6199
 
 - https://apps.dtic.mil/sti/citations/ADA619949
 - 原始文件: `raw/papers/dtic-nc3-architecture-ada619949.pdf`, `raw/articles/dtic-nc3-architecture-ada619949.md`
-
-## 相关内容
-
-- [[NC3-GRA核指挥控制]] — NC3 GRA 核指挥控制通信
-- [[政府问责署]] — 美国政府问责署

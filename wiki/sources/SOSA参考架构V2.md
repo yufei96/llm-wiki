@@ -1,69 +1,63 @@
 ---
-title: "SOSA传感器开放系统架构参考架构技术标准"
+title: "SOSA参考架构 V2 — 传感器开放系统架构快照 2019"
 created: 2026-04-19
-updated: 2026-04-19
-type: source
-sources: [raw/papers/sosa-reference-architecture-v2.pdf, raw/articles/sosa-reference-architecture-v2.md]
-author: "The Open Group SOSA Consortium"
-tags: [SOSA, 传感器, C4ISR, 开放架构, The Open Group]
+updated: 2026-05-21
+tags: [SOSA, 传感器, 开放架构, The Open Group, VITA, 硬件标准]
+source: [raw/papers/sosa-reference-architecture-v2.pdf, raw/articles/sosa-reference-architecture-v2.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# SOSA — 传感器开放系统架构（Sensor Open Systems Architecture）
+# SOSA参考架构 V2 — 传感器开放系统架构快照 2019
 
-## 文档概况
-- **全称**：Technical Standard for SOSA™ Reference Architecture, Edition 1.0, Version 2 (Snapshot)
-- **发布者**：The Open Group SOSA Consortium
-- **日期**：2019年（Snapshot版，2021年正式发布Edition 1.0）
-- **页数**：214
-- **MOSA提及**：若干（SOSA是MOSA在传感器领域的具体实施）
+## 概述
 
-## 核心内容
+The Open Group SOSA Consortium发布的**SOSA参考架构第1.0版第2卷快照**（Edition 1.0, Version 2 Snapshot），2019年发布，有效期至2019年12月31日。这是SOSA参考架构的早期公开版本，旨在征求行业反馈。引用退役海军中将Arthur K. Cebrowski的名言："你可以创造自己的未来，也可以成为别人为你创造的未来的受害者"——这正是SOSA的核心理念：通过开放标准掌控传感器系统的未来。
 
-SOSA是由The Open Group SOSA联盟开发的**传感器领域开放系统架构标准**，旨在为雷达、EO/IR、SIGINT、通信、电子战等传感器系统定义开放接口和模块化架构。
+## Snapshot特征
 
-### 使命
-> "Empower government and industry to collaboratively develop open standards and best practices to enable, enhance, and accelerate the deployment of affordable, capable, interoperable sensor systems."
+- **性质**：草案（Snapshot），非正式标准
+- **目的**：在正式发布前向感兴趣方传播SOSA联盟当前方向
+- **反馈截止**：2019年12月31日
+- **批准**：88ABW-2019-0039，2019年1月7日清除
+- **Distribution**：A — 公开发布
 
-### 架构层次
+## SOSA核心架构概念
 
-| 层次 | 内容 |
-|------|------|
-| **Sensor-to-Platform** | 传感器与平台间标准化（电子机械、物理/环境、C2/载荷接口） |
-| **Intra-sensor** | 传感器内部标准化（可互换硬件/软件组件，FACE™, OpenVPX, VITA） |
-| **Multi-INT** | 多情报传感器集成（雷达+EO/IR+SIGINT共用处理平台） |
+SOSA建立在OpenVPX（VITA 65）硬件标准之上，定义了：
 
-### 关键标准引用
-- **OMS/UCI**：开放任务系统/通用指挥控制接口
-- **NATO STANAG 4586**：无人系统指挥控制
-- **FACE™**：机载能力环境标准
-- **VITA/OpenVPX**：硬件卡板标准
+### 硬件架构层级
 
-### SOSA与CMOSS的关系
-CMOSS和SOSA高度重叠：
-- CMOSS侧重**陆军C5ISR通用套件**（Universal A-Kit + 卡板式硬件）
-- SOSA侧重**跨军种传感器标准化**（The Open Group联盟驱动）
-- 两者共享底层标准（VITA, OpenVPX, MORA）
-- SOSA联盟中包含CMOSS团队成员
+1. **机箱/背板（Chassis/Backplane）** — 3U或6U OpenVPX
+2. **插槽配置（Slot Profiles）** — 标准化的板卡角色定义
+3. **模块（Modules）** — SBC、GPU、FPGA、I/O、射频、存储等
+4. **互连（Interconnects）** — PCIe、以太网、Serial RapidIO等
+5. **冷却（Cooling）** — 传导冷却或空气冷却
 
-## 对MOSA的意义
+### 软件架构
 
-SOSA是MOSA在**传感器/C4ISR领域最成熟的标准之一**：
-- 由The Open Group管理（与FACE同一机构）
-- 覆盖传感器全生命周期：设计→集成→测试→运维
-- 提供具体的接口规范（而非MOSA政策层面的原则性要求）
+- 基于POSIX的操作系统
+- 标准化的中间件和服务接口
+- 与FACE（航电软件）的互补集成
 
-SOSA与FACE构成了MOSA标准层的**双支柱**：
-- **FACE** = 航电软件层开放架构
-- **SOSA** = 传感器硬件/集成层开放架构
+## 在MOSA标准生态中的位置
 
-## 相关内容
-- [[MOSA与国防采办]] — MOSA概念
-- [[模块化架构模式]] — 模块化架构模式
-- [[FACE技术标准]] — FACE航电标准
-- [[CMOSS模块化标准概述]] — CMOSS（与SOSA高度重叠）
-- [[开放任务系统]] — OMS（传感器软件接口标准）
+SOSA是DoD MOSA生态中**传感器硬件层面的核心标准**：
 
----
-*214页（Snapshot版）。SOSA是理解MOSA在传感器领域落地的关键标准文档。*
+```
+SOSA（传感器硬件） + FACE（航电软件） = 完整的航电MOSA方案
+SOSA（OpenVPX硬件） ⊂ CMOSS（标准套件，用VITA硬件）
+```
+
+## V2版本更新点
+
+- 扩展了硬件插槽配置种类
+- 增加了对MORA（射频架构，VITA 49.x）的兼容性
+- 引入了更多I/O和存储模块定义
+
+## 笔记
+
+- 此Snapshot（2019年）是早期版本——后续有Edition 2.0等多版正式发布
+- SOSA与CMOSS共享VITA硬件标准，但SOSA更专注传感器信号处理，CMOSS更专注C5ISR
+- The Open Group同时管理SOSA和FACE——两个标准在设计上互补集成
+- V2版的"Snapshot"属性意味着本文档代表方向而非最终定稿

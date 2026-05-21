@@ -1,75 +1,71 @@
 ---
-title: "FACE技术标准3.2版（2023年8月）"
-created: 2026-04-05
-updated: 2026-04-05
-type: source
-sources: [raw/papers/face-technical-standard-edition-3.2.pdf, raw/articles/face-technical-standard-edition-3.2.md]
-author: "开放群组（The Open Group）——FACE联盟"
-tags: [FACE, MOSA, 航电, 开放架构, 技术标准, 机载, 一致性单元, 合规性]
+title: "FACE技术标准 V3.2"
+created: 2026-04-19
+updated: 2026-05-21
+tags: [FACE, 航电, 开放标准, The Open Group, 软件架构, 互操作]
+source: [raw/papers/face-technical-standard-edition-3.2.pdf, raw/articles/face-technical-standard-edition-3.2.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
-# FACE技术标准——3.2版（2023年8月）
-## 文档信息
-- **全称**：FACE™技术标准3.2版
-- **发布方**：开放群组，2023年8月
-- **文档编号**：C232 | ISBN：1-957866-29-1
-- **联盟构成**：70+机构、900+贡献者（来自沙阿博士论文）
-- **共592页**
-- **提及MOSA次数**：4次（第29页：架构描述，第588页：术语表）
-## 与MOSA的关系
-FACE是国防领域**最成熟的MOSA落地实践**。尽管FACE标准仅两次提及MOSA（在架构描述和术语表中），但它是美国国防部所有开放系统标准中，以最详细、最具技术指导性的形式体现MOSA原则的标准。
-## 5个FACE架构段
-本标准将机载软件划分为**5个段**，通过**3个FACE标准化接口**（即MOSA要求的"关键"接口）连接，这些接口就是MOSA要求的**开放接口**。
-### 1. 操作系统段（OSS）
-- 兼容POSIX标准的操作系统抽象层
-- 硬件无关接口层
-### 2. I/O服务段（IOSS）
-- I/O设备驱动和数据访问
-- 硬件专属的数据采集服务
-### 3. 平台专属服务段（PSSS）
-- 平台专属服务（图形、平台服务）
-- 系统专属服务
-### 4. 可移植组件段（PCS）
-- 任务应用软件
-- "可移植"层——组件可以在符合FACE标准的系统之间迁移
-### 5. 传输服务段（TSS）
-- 进程间通信
-- 数据分发和消息传递
-## 3个关键接口（MOSA开放接口）
-3个FACE标准化接口连接5个架构段，是实现组件可移植性的**开放、公开接口**——这是FACE实现MOSA目标的核心机制。
-## 一致性单元（UoC）
-FACE组件可移植性的原子单元：
-- 每个一致性单元定义了具备标准化接口的软件组件
-- 一致性单元必须符合FACE规范才能兼容
-- 实现航电软件"一次构建，随处部署"
-## 一致性测试
-FACE运行正式的一致性测试程序：
-- 对照FACE规范测试组件
-- 第三方一致性验证
-- 一致性状态记录在FACE注册表中
-## 对MOSA研究的意义
-1. **FACE=MOSA实践范本**：政策文件仅抽象要求MOSA，而FACE给出了具体实现。这份592页的标准恰好填补了MOSA政策缺失的**技术细节**。
-2. **接口标准化**：FACE展示了如何通过详细的接口规范、一致性单元定义和一致性测试，落地MOSA的"开放接口"要求。
-3. **仅聚焦软件**：FACE瞄准航电软件可移植性，不涉及硬件模块化或商业实践，这比MOSA的全部要求范围更窄（DoDI 5000.85要求架构+接口+商业实践）。
-4. **一致性测试解决沙阿H1假设的缺口**：FACE有成熟的一致性流程，而多数MOSA领域没有，这是MOSA评估可以参考的模型。
-5. **符合NDIA建议第4条（软件MOSA）**：FACE是NDIA提出的"为软件架构应用MOSA并定义分类体系"建议的具体体现。
-## 相关概念
-- [[MOSA与国防采办]]
-- [[开放任务系统]]
-- [[自适应采办框架]]
-- [[供应商锁定]]
-## 相关实体
-- The Open Group
-- [[帕思-德旺-沙阿]]
-## 相关内容
 
-- [[自适应采办框架]] — DoD自适应采办框架
-- [[FACE技术标准]] — FACE航空电子标准
-- [[MOSA与国防采办]] — MOSA核心概念
-- [[开放任务系统]] — OMS军用任务互操作性
-- [[帕思-德旺-沙阿]]
-- [[供应商锁定]] — 供应商锁定问题
+# FACE技术标准 V3.2
 
----
-*共592页，2023年8月，3.2版。仅4次提及MOSA——FACE作为技术规范有独立的运行体系。*
+## 概述
+
+Future Airborne Capability Environment（FACE）技术标准第3.2版，由The Open Group FACE Consortium于2023年8月发布（文档编号C232，ISBN 1-957866-29-1）。这是航空电子领域最重要的**开放软件架构标准**，定义了航电软件的可移植性和互操作性技术规范。是DoD MOSA生态中**软件层面最核心的标准之一**。
+
+## 标准定位
+
+- **领域**：航空电子（机载软件）
+- **层级**：DoD MOSA标准生态 → 平台/系统级 → **FACE（软件）**
+- **管理方**：The Open Group FACE Consortium（行业联盟）
+- **状态**：V3.2为当前最新稳定版（2023年8月）
+
+## MOSA标准生态中的位置
+
+```
+MOSA（DoD政策框架）
+├── 平台级：SOSA（传感器硬件）、CMOSS（C5ISR）、VICTORY（地面车辆）
+├── 软件级：FACE（航电软件）★
+├── 接口级：UAI（武器接口）、MORA（射频）
+└── 建模级：SysML v2、UAF
+```
+
+## FACE架构核心概念
+
+### 架构分层（Segment）
+
+FACE架构将航电软件系统分为多个段（Segments），通过标准化接口隔离：
+
+1. **Operating System Segment (OSS)** — 操作系统层
+2. **I/O Services Segment (IOSS)** — I/O服务层
+3. **Platform-Specific Services Segment (PSSS)** — 平台特定服务层
+4. **Transport Services Segment (TSS)** — 传输服务层
+5. **Portable Components Segment (PCS)** — 可移植组件层
+
+### 关键目标
+
+- **软件可移植性**：不同供应商的航电应用可在不同平台上运行
+- **组件可复用性**：已验证的软件组件可在新项目中复用
+- **供应商竞争**：通过标准接口解锁供应商锁定
+- **快速能力插入**：新功能可快速集成到现有航电系统
+
+## V3.2版本更新
+
+- 2023年8月发布
+- 兼容前一版V3.1
+- 持续演进中——The Open Group标注了"Future Directions"
+
+## 应用的MOSA案例项目
+
+- **FLRAA** (Bell V-280 Valor) — 陆军未来远程突击机，明确要求FACE对齐
+- **F-35 TR3** (Technology Refresh 3) — 洛马正在推进FACE兼容性
+- **B-21 Raider** — GAO认证的完整MOSA计划项目
+- PEO Aviation FACE TIM演示（2021）— 20家公司参与
+
+## 笔记
+
+- FACE V3.2是航电软件领域的"通信协议"——不是规定怎么做，而是规定不同模块之间如何对话
+- The Open Group同时管理FACE和SOSA两个标准——硬件（SOSA）+软件（FACE）=完整航电MOSA方案
+- V3.2的"Future Directions"章节暗示了与SysML v2和数字工程的进一步集成
+- 对于非航电领域的参考价值：FACE的分层架构模型对其他领域的模块化设计有示范意义

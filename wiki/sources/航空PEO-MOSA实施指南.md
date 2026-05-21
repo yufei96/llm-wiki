@@ -1,83 +1,67 @@
 ---
-title: "PEO Aviation MOSA实施指南（精简版）"
+title: "PEO航空 MOSA实施指南 2021"
 created: 2026-04-19
-updated: 2026-04-19
-type: source
-sources: [raw/papers/peo-aviation-mosa-implementation-guide.pdf, raw/articles/peo-aviation-mosa-implementation-guide.md]
-author: "PEO Aviation MOSA Transformation Office"
-tags: [PEO Aviation, MOSA实施, 合同模板, 检查清单]
+updated: 2026-05-21
+tags: [PEO航空, MOSA, 实施指南, 陆军, 航电, 企业架构]
+source: [raw/papers/peo-aviation-mosa-implementation-guide.pdf, raw/articles/peo-aviation-mosa-implementation-guide.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# PEO Aviation MOSA实施指南（Skinny版）
+# PEO航空 MOSA实施指南 2021
 
-## 文档概况
-- **全称**：PEO Aviation MOSA Implementation Guide Skinny
-- **发布者**：PEO Aviation MOSA Transformation Office
-- **日期**：2021年8月
-- **页数**：23
-- **适用范围**：PEO Aviation所有项目（APEO、PM等）
+## 概述
 
-## 核心内容
+美国陆军航空项目执行办公室（PEO Aviation）MOSA转型办公室2021年8月发布的**MOSA实施指南精简版**（"Skinny"版）。为PEO Aviation下属所有项目提供一致的MOSA实施指导。此指南与ASA(ALT) MOSA实施指南和其他DoD级指南对接，但**聚焦陆军航空领域的特定需求**。
 
-### 适用对象
-- 助理PEO（APEO）及参谋
+## 适用范围
+
+适用于PEO Aviation全部元素：
+- 助理PEO（APEO）和其他参谋
 - 项目经理（PM）
-- 采办团队
+- 支持PEO Aviation产品和服务的组织
 
-### 实施附录体系（16个附录）
+## 指南回答的核心问题
 
-| 附录 | 内容 |
-|------|------|
-| A | 缩略语表 |
-| B | 术语表 |
-| C | **软件检查清单** |
-| D | **采办与合同文档模板** |
-| E | 合同附加考虑 |
-| F | **MOSA BCA模板**（商业模式分析） |
-| G | **ASA(ALT) MOSA检查清单** |
+1. MOSA标准有哪些？如何应用于PEO Aviation项目？
+2. 关键架构决策是什么？主要系统组件（MSC）之间的关系？
+3. 采办文档需要什么变化来传达MOSA需求？
+4. 如何从现状过渡到MOSA为中心的项目？
+5. 如何评估政府已有的软件再投资？
+6. 业务案例分析（BCA）在多大程度上足够支撑企业级考虑？
 
-### 合同文档模板（附录D）
-1. D-1: 采办策略
-2. D-2: 系统工程计划（SEP）
-3. D-3: 工作说明书（SOW/PWS）
-4. D-4: 系统性能规范（SPS）
-5. D-5: Section H建议
-6. D-6: Section L&M建议
-7. D-7: 测试与评估总计划（TEMP）
-8. D-8: **开放系统管理计划**
-9. D-9: 全生命周期保障计划
-10. D-10: 架构标准合规性
-11. D-11: **数据权利**
+## 12章结构
 
-### 合同附加考虑（附录E）
-- E-1: 合同目标与策略
-- E-2: **敏捷合同**
-- E-3: **模块化合同**
-- E-4: 战略采购与品类管理
-- E-5: 其他合同需求
-- E-6: 激励与惩罚指南
+| # | 章节 | 内容 |
+|---|------|------|
+| 1 | **Introduction** | 背景：FY21 NDAA要求所有项目考虑MOSA |
+| 2 | **MOSA Governance and Management** | 治理和管理架构 |
+| 3 | **Collaborative Digital Environment (CDE)** | 协同数字环境 |
+| 4 | **Enterprise Architecture Framework (EAF)** | 企业架构框架 |
+| 5 | **Hardware** | 硬件层面MOSA实施 |
+| 6 | **Software** | 软件层面MOSA实施 |
+| 7 | **Conformance** | 一致性验证 |
+| 8 | **Business Case Analysis (BCA)** | 业务案例分析 |
+| 9 | **Acquisition and Contracts** | 采办与合同 |
+| 10 | **Standard Certification and Qualification** | 标准认证与资格认定效率 |
+| 11 | **Strategic Communications** | 战略沟通 |
+| 12 | **Appendices** | 附录 |
 
-## 对MOSA的意义
+## 关键特点
 
-**这是MOSA从原则到合同条款的最具体桥梁。**
+- **"Skinny"版本**：精简版——暗示存在更详细的完整版
+- **企业级视角**：强调EAF（企业架构框架）和跨项目通用MSC
+- **法律驱动**：明确依据FY21 NDAA Section 804——所有项目（不论大小）必须考虑MOSA
+- **参考外部指南**：不是独立文档——与ASA(ALT)指南和其他外部参考形成层级关系
 
-2025年MOSA实施指南提到了"合同语言范例"和"实施检查清单"但内容不完整。这份PEO Aviation指南提供了：
-- 完整的合同模板体系（SOW/PWS/SPS/TEMP等）
-- 软件专项检查清单
-- BCA模板（如何证明MOSA投资合理）
-- 敏捷/模块化合同策略
+## 对MOSA知识库的价值
 
-**关键发现**：这份指南直接体现了BBP 3.0中"指定关键接口"和"一致性认证"原则的合同执行方式。
+- 这是**军种级具体PEO**的实施指南——区别于DoD级指南和军种备忘录
+- EAF和CDE是PEO Aviation指南的两个独特贡献——其他指南中较少覆盖
+- "Skinny"版本体现了实用主义——先出精简版覆盖基本要求，细节留给完整版和外部参考
 
-## 相关内容
-- [[MOSA与国防采办]] — MOSA核心概念
-- [[航空PEO-MOSA行业交流2022]] — PEO Aviation Industry Day
-- [[MOSA五支柱]] — MOSA五大支柱
-- [[DFARS第227部分-专利数据与版权]] — 数据权利法律基础
-- [[国防部MOSA实施指南2025]] — 2025年MOSA指南
-- [[PPI数据项描述模板]] — PPI DID模板（SOW/SEP基础）
+## 笔记
 
----
-*23页。MOSA合同落地的实操模板集。*
+- 2021年8月的时间点：FY21 NDAA刚签署（2020年12月）后，陆军航空率先响应
+- PEO Aviation负责FLRAA（未来远程突击机）——这是GAO认证的完整MOSA计划项目
+- 指南的12章结构与DoD 5000.97（数字工程）要求高度对齐
