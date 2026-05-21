@@ -36,11 +36,3 @@ type: source
 
 - DSP Journal: https://www.dsp.dla.mil
 - 原始文件: `raw/papers/DSP-Journal-MOSA-2001.pdf`, `raw/articles/DSP-Journal-MOSA-2001.md`
-
-## 相关内容
-
-- [[OSJTF宪章与MOSA起源1994]] — OSJTF宪章与MOSA起源（1994）
-- [[MOSA与国防采办]] — MOSA核心概念
-- [[NDAA第805节MOSA立法2017]] — FY2017 NDAA Section 805
-- [[MOSA五原则到五支柱]] — MOSA五原则→五大支柱
-- [[开放架构层级]] — 开放架构层次体系

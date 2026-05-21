@@ -1,29 +1,65 @@
 ---
-title: "MBSynergy场景化MBSE改进方法"
+title: "MBSynergy — 基于场景的MBSE改进方法"
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-21
+tags: [MBSE, SEI, CMU, 数字工程, 组织变革, 场景驱动, UAF, 成熟度]
+source: [raw/papers/mbse定义devsecops能力成熟度.pdf, raw/articles/mbsynergy场景化mbse改进方法.md]
+confidence: EXTRACTED
 type: source
-tags: [MBSE, 方法论, CMU, SEI, 成熟度]
-sources: [raw/papers/MBSynergy场景化MBSE改进方法.pdf, raw/articles/mbsynergy场景化mbse改进方法.md]
-confidence: VERIFIED
-evidence: "从原文提取，2026-05-17"
 ---
 
-# MBSynergy场景化MBSE改进方法
+# MBSynergy — 基于场景的MBSE改进方法
 
-## 摘要
+## 概述
 
-CMU SEI提出的基于场景的MBSE改进方法MBSynergy。通过场景驱动的方式评估和改进组织的MBSE实践，提供结构化的成熟度提升路径。DoD合同资助（FA8702-15-D-0002），公开发布。
+卡内基梅隆大学软件工程研究所（CMU SEI）Jerome Hugues（首席研究员）和Will Hayes（首席工程师）在MBSE in Practice 2025上的演讲（2025年3月）。提出**MBSynergy项目**：一种基于场景的方法来改进组织的MBSE部署。DoD合同FA8702-15-D-0002资助。核心主张：MBSE部署同时是**组织变革问题**和**技术采用问题**——两者必须共同解决。
 
-## 来源
+## 核心论点（BLUF）
 
-- **作者:** Jerome Hugues, Will Hayes (Carnegie Mellon University SEI)
-- **会议:** MBSE in Practice Conference 2025, March 2025
+1. **OUSD(R&E)数字工程战略（2018）**建立了愿景
+2. **DoDI 5000.97**是部署DE和MBSE的**强制要求**
+3. MBSE部署 ≠ 买工具——需要组织变革和技术采用双重推进
+4. MBSynergy方法：从敏捷转型中继承的组织变革和文化变革经验
 
-## 关键要点
+## DoD数字工程五目标（回顾）
 
+| # | 目标 |
+|---|------|
+| 1 | **模型正规化**——正式化模型的开发、集成和使用，支撑企业和项目决策 |
+| 2 | **权威真相源**——提供持久、权威的信息来源 |
+| 3 | **技术创新**——将技术创新融入工程实践 |
+| 4 | **基础设施**——建立支持活动、协作和沟通的基础设施和环境 |
+| 5 | **文化转型**——转变文化和劳动力，在全生命周期中采纳和支持数字工程 |
 
+MBSynergy特别关注目标5（文化转型）——这是最难实现的目标。
 
-## 相关内容
+## MBSynergy方法
 
-[[wiki/sources/MBSE实践大会2025|MBSE in Practice 2025 会议综合分析]]
+- **场景驱动**（Scenario-Based）：通过描述MBSE过程的具体场景来推动改进
+- **组织转型**：借鉴敏捷转型中的组织变革经验
+- **UAF建模**：使用统一架构框架（UAF）捕获、沟通和优化模型生命周期
+- **成熟度提升**：结构化地评估和改进组织的MBSE成熟度
+
+## 方法流程
+
+1. 捕获当前MBSE实践（As-Is场景）
+2. 定义目标状态（To-Be场景）
+3. 识别差距和改进机会
+4. 制定场景驱动的改进路线图
+5. 用UAF模型管理模型生命周期
+
+## 与初始架构分析的互补
+
+| 维度 | 初始架构分析 | MBSynergy |
+|------|------------|-----------|
+| **焦点** | 系统架构评估 | MBSE组织部署 |
+| **方法** | 8步建模框架 | 场景驱动改进 |
+| **产出** | 架构决策支持 | 成熟度提升路线图 |
+| **共同点** | 都是SEI的系统化方法、都面向DoD | 同左 |
+
+## 笔记
+
+- MBSynergy是从"组织变革"角度审视MBSE——与大多数"技术工具"视角的MBSE研究形成鲜明对比
+- 演讲中提到"Of Models and Men"——暗示数字工程不仅关乎模型，更关乎人
+- UAF的使用是方法的关键创新——用架构框架管理MBSE改进过程本身
+- 此演讲与David Long的"迈入数字未知"、NASA的数字工程之旅形成"行业-机构-方法"三位一体

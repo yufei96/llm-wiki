@@ -27,9 +27,3 @@ type: source
 
 - https://www.afrc.af.mil/News/Article/4405471/
 - 原始文件: `raw/papers/afrc-a-gra-cca-validation-2025.pdf`, `raw/articles/afrc-a-gra-cca-validation-2025.md`
-
-## 相关内容
-
-- [[A-GRA自主参考架构]] — A-GRA 自主政府参考架构
-- [[协同作战飞机]] — 协作作战飞机
-- [[开放架构层级]] — 开放架构层次体系

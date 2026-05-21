@@ -11,7 +11,13 @@ import os
 import subprocess
 import sys
 import yaml
+from urllib.parse import quote
 from pathlib import Path
+
+def quote_path(path: str) -> str:
+    """URL-encode non-ASCII characters in a path, preserving / separators."""
+    parts = path.split('/')
+    return '/'.join(quote(p, safe='') for p in parts)
 
 ROOT = Path(__file__).parent.parent
 WIKI_SRC = ROOT / "wiki"
@@ -76,7 +82,14 @@ def convert_wiki_links(content: str, current_file: Path, page_index: dict, wiki_
             return f"[{display}]({target}.md)"
 
     pattern = r'\[\[([^\]]+)\]\]'
-    return re.sub(pattern, replace_link, content)
+    result = re.sub(pattern, replace_link, content)
+    # URL-encode non-ASCII chars in markdown links (for Cloudflare Pages compatibility)
+    result = re.sub(
+        r'(\[[^\]]*\]\()([^)]*[\u4e00-\u9fff][^)]*)(\))',
+        lambda m: m.group(1) + quote_path(m.group(2)) + m.group(3),
+        result
+    )
+    return result
 
 def extract_title(md_file: Path) -> str:
     """Extract title from YAML frontmatter or first heading."""
@@ -427,6 +440,20 @@ def main():
             md_file.write_text(new, encoding='utf-8')
     if md_stripped:
         print(f"Stripped .md from {md_stripped} regular markdown links")
+    # Count before URL-encoding
+    encoded_links = 0
+    for md_file in BUILD_DIR.rglob("*.md"):
+        orig = md_file.read_text(encoding='utf-8')
+        new = re.sub(
+            r'(\[[^\]]*\]\()([^)]*[\u4e00-\u9fff][^)]*)(\))',
+            lambda m: m.group(1) + quote_path(m.group(2)) + m.group(3),
+            orig
+        )
+        if new != orig:
+            md_file.write_text(new, encoding='utf-8')
+            encoded_links += 1
+    if encoded_links:
+        print(f"URL-encoded Chinese paths in {encoded_links} files")
 
     # Create mkdocs.yml for build (paths relative to site/ cwd)
     mkdocs_content = MKDOCS_YML.read_text(encoding='utf-8')
@@ -476,6 +503,39 @@ def main():
         print(f"  Updated {MKDOCS_YML}")
 
     MKDOCS_BUILD_YML.write_text(mkdocs_content, encoding='utf-8')
+
+    # ── Orphan page detection (files in content/ not listed in nav) ──
+    # Reverse of stale nav filter — catches pages that exist but have no nav entry
+    nav_file_set = set()
+    def collect_nav_files(items):
+        for item in items:
+            if isinstance(item, dict):
+                for key, val in item.items():
+                    if isinstance(val, list):
+                        collect_nav_files(val)
+                    elif isinstance(val, str) and val.endswith('.md'):
+                        parts = val.rsplit('/', 1)
+                        nav_file_set.add(parts[-1] if len(parts) > 1 else val)
+            elif isinstance(item, str) and item.endswith('.md'):
+                nav_file_set.add(item)
+    collect_nav_files(config.get('nav', []))
+
+    orphans = []
+    for section in ['topics', 'concepts', 'comparisons', 'entities', 'sources']:
+        section_dir = BUILD_DIR / section
+        if not section_dir.is_dir():
+            continue
+        for f in sorted(section_dir.glob('*.md')):
+            if f.name == 'index.md':
+                continue
+            if f.name not in nav_file_set:
+                orphans.append(str(f.relative_to(BUILD_DIR)))
+
+    if orphans:
+        print(f"  ⚠️  Orphan pages ({len(orphans)}) — exist in content/ but NOT in mkdocs.yml nav:")
+        for o in orphans:
+            print(f"     - {o}")
+        print(f"  Hint: add them to mkdocs.yml or they will 404 on the site")
 
     # Build
     print("\nBuilding MkDocs site...")

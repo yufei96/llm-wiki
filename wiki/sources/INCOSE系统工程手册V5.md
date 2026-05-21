@@ -1,112 +1,70 @@
 ---
-title: "INCOSE SE Handbook V5 — 系统工程手册第五版"
-created: 2026-04-26
-updated: 2026-04-26
-type: source
-sources: [raw/papers/INCOSE-SE-Handbook-V5.pdf]
-author: "David D. Walden, Thomas M. Shortell, Garry J. Roedler, Bernardo A. Delicado, Odile Mornas, Yip Yew-Seng, David Endler (INCOSE)"
-tags: [INCOSE, 系统工程, SE, ISO 15288, 生命周期, 架构, MBSE, 接口管理]
+title: "INCOSE系统工程手册 V5"
+created: 2026-05-21
+updated: 2026-05-21
+tags: [INCOSE, 系统工程, 手册, SEH, 生命周期, 过程, MBSE]
+source: [raw/papers/INCOSE-SE-Handbook-V5.pdf, raw/articles/INCOSE系统工程手册V5.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# INCOSE SE Handbook V5 — 系统工程手册第五版
+# INCOSE系统工程手册 V5
 
-## 文档概况
-- **全称**：INCOSE Systems Engineering Handbook, Fifth Edition
-- **编号**：INCOSE-TP-2003-002-05
-- **出版**：Wiley, 2023
-- **前版**：第四版（2015）、第三版（2006）
-- **页数**：~700页（含附录）
-- **定位**：系统工程最佳实践的权威参考，与 ISO/IEC/IEEE 15288:2023 对齐
+## 概述
 
-## 核心结构
+国际系统工程理事会（INCOSE）出版的**系统工程领域权威参考手册**，第五版于2023年由Wiley出版。主编David D. Walden（ESEP），副主编Thomas M. Shortell（CSEP），联合全球6位编辑。编号INCOSE-TP-2003-002-05。这是全球系统工程实践者的"圣经"级参考，定义了系统工程的标准术语、过程和实践。
 
-### 第1章：系统工程基础
-- 系统定义、系统科学、系统思维
-- 利益攸关方、系统生命周期、使能系统
+## 手册结构
 
-### 第2章：系统生命周期过程（核心）
-与 ISO/IEC/IEEE 15288 完全对齐，共4类过程：
+### 第1章：系统工程导论
+- 什么是系统工程？为什么重要？
+- 系统概念：边界、涌现、互操作系统
+- 系统工程基础：不确定性、认知偏差、SE原则与启发式
+- 系统科学与系统思维
 
-**协议过程（Agreement Processes）**
-- 采办过程
-- 供应过程
+### 第2章：系统生命周期概念、模型和过程
+- 生命周期术语与特征
+- 典型生命周期阶段与决策门
+- 技术审查与审计
+- 三种生命周期模型：顺序、增量、进化
+- **系统生命周期过程**（核心）：
+  - 协议过程：采办过程、供应过程
+  - 组织级项目使能过程：生命周期模型管理、基础设施、组合管理、人力资源、质量管理、知识管理
+  - 技术管理过程：项目规划、评估与控制、决策管理、风险管理、配置管理、信息管理、测量、质量保证
+  - 技术过程：业务或任务分析、利益相关方需求定义、系统需求定义、架构定义、设计定义、系统分析、实现、集成、验证、转移、确认、运行、维护、退役
 
-**组织项目使能过程（Organizational Project-Enabling Processes）**
-- 生命周期模型管理、基础设施管理、组合管理
-- 人力资源管理、质量管理、知识管理
+### 第3章-第8章（预期结构）
+- 第3章：生命周期过程详细说明
+- 第4章：专业技术领域（可靠性、安全性、保障性等）
+- 第5章：系统工程与专业工程集成
+- 第6章：系统工程管理
+- 第7章：系统工程应用领域
+- 第8章：案例研究
 
-**技术管理过程（Technical Management Processes）**
-- 项目规划、项目评估与控制、决策管理
-- 风险管理、配置管理、信息管理、度量、质量保证
+## 与前版对比
 
-**技术过程（Technical Processes）**
-- 任务/使命分析 → 利益攸关方需求定义 → 系统需求定义
-- **系统架构定义** → 设计定义 → 系统分析
-- 实现 → **集成** → 验证 → 转换 → 确认 → 运行 → 维护 → 退役
+- **V4 (2015)** → **V5 (2023)**：8年间隔，反映了MBSE和数字工程的兴起
+- V5强调了系统思维、涌现性、复杂性科学
+- 增加了数字化和敏捷方法的内容
+- 更新了ISO/IEC/IEEE 15288:2015对齐
 
-### 第3章：生命周期分析与方法
-- 质量特性：可负担性、敏捷性、互操作性、RAM、弹性、安全性等
-- MBSE方法、架构框架、建模与仿真
+## 与DoD/MOSA的关联
 
-### 第4章：系统工程实践
-- 技术规划、需求管理、接口管理
-- 配置管理、技术数据管理、技术评估
-- 决策分析、系统工程培训
+- 是DoD系统工程的基础理论来源
+- DoDI 5000.02（AAF）和DoDI 5000.97（数字工程）均引用了INCOSE SEH
+- NASA系统工程手册（NASA/SP-2016-6105 Rev2）是INCOSE SEH的NASA定制版
+- MOSA实施指南中引用的"系统工程最佳实践"根源在SEH
 
-## 与MOSA最相关的内容
+## 关键数据
 
-### 系统架构定义过程（Section 2.3.5.4）
-架构定义关注**开放性、模块化、可扩展性和任务有效性**：
-- 架构特征包括：dimensions, environmental resilience, availability, robustness, learnability, execution efficiency, **openness, modularity, scalability**, and mission effectiveness
-- 架构框架：ISO/IEC/IEEE 42020, ISO/IEC/IEEE 42010
-- 架构评估：ISO/IEC/IEEE 42030
+- 版本：第五版（2023）
+- 主编：David D. Walden, ESEP
+- 出版：John Wiley & Sons
+- 页数：约340页
+- 上一版：V4（2015）
 
-### 集成过程（Section 2.3.5.8）
-集成过程关注**接口的正确性**：
-- 验证系统元素间接口的静态和动态方面
-- 检查物理、逻辑、人机接口和交互
-- 建立集成检查点，确保接口正确实现
-- 与验证/确认过程迭代
+## 笔记
 
-### MBSE与数字工程
-- MBSE方法采用持续增长（Section 4.2.1）
-- 数字工程方法中数据透明、跨领域协作优化
-- 配置管理在MBSE中确保产品/系统与其需求一致
-
-### 模块化与适应性
-- 适应性、灵活性和模块化应在早期架构周期中考虑
-- 架构应通过模块化、封装、共性/重用实现并发
-
-## 与NASA SE Handbook的对比
-
-| 维度 | NASA SE Handbook | INCOSE SE Handbook V5 |
-|------|-----------------|----------------------|
-| 范围 | NASA特定 | 通用（与ISO 15288对齐） |
-| 接口管理 | 独立章节（6.3），详细ICD体系 | 融入集成过程，更抽象 |
-| 架构 | 未单独成章 | 独立过程（2.3.5.4），强调开放性/模块化 |
-| MBSE | 未深入 | 专节讨论，与数字工程衔接 |
-| 生命周期 | 7阶段（Pre-A到F） | 14个技术过程，更通用 |
-
-## 在知识库中的位置
-
-本文档是系统工程方法论的**权威顶层参考**，与 ISO 15288 直接对齐：
-
-- [[ISO-15288系统生命周期过程]] — ISO/IEC/IEEE 15288（INCOSE SEH的标准化基础）
-- [[国际系统工程理事会]] — INCOSE 组织（本手册发布者）
-- [[NASA系统工程手册修订2]] — NASA SE手册（机构特定实现）
-- [[国际系统工程理事会]] — INCOSE 组织页
-- [[数字工程生态]] — 数字工程生态系统
-- [[接口工程演进]] — 接口工程三层演进
-- [[三本系统工程手册详细对比]] — 三本SE手册详细对比
-- [[SysML-v2规范]] — SysML v2（MBSE工具基础）
-
-## 关键引用
-
-> "Architecture definition focuses on achieving associated missions and characterizing the operational concepts... utilizing architectural principles and concepts to define the high-level structure of a system and its elements."
-
-> "System entities may possess characteristics such as dimensions, environmental resilience, availability, robustness, learnability, execution efficiency, openness, modularity, scalability, and mission effectiveness."
-
----
-
+- V5是系统工程领域最重要的单一参考——几乎所有DoD/NASA系统工程文件都根植于此
+- 对MOSA知识库的核心价值：提供系统工程过程的"宪法"级参考，帮助理解MOSA如何在SE框架内运作
+- 手册强调"系统思维"而非"流程执行"——这是与ISO 15288纯过程标准的关键区别

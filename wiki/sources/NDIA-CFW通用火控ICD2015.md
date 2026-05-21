@@ -1,35 +1,65 @@
 ---
-title: "NDIA — Constructing Common Fire Control Across Weapon Platforms"
+title: "NDIA — 跨武器平台通用火控ICD（2015）"
 created: 2026-05-07
-updated: 2026-05-07
-tags: [CFW, ICD, 火控, 武器, NDIA]
+updated: 2026-05-21
+tags: [CFW, ICD, 火控, 武器, NDIA, 互操作性, 通用接口, 跨平台, MOSA]
 source:
   - raw/papers/ndia-cfw-icd-wright-2015.pdf
-  - raw/articles/ndia-cfw-icd-wright-2015.md
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+evidence: "从原始文档提取，2026-05-21"
 type: source
 ---
 
-# NDIA — Constructing Common Fire Control Across Weapon Platforms
+# NDIA — 跨武器平台通用火控ICD（2015）
 
-## 摘要
+## 概述
 
-2015年NDIA军备会议上Wright发表的关于通用火控武器（CFW）接口控制文档（ICD）的演示。展示如何通过标准化火控接口实现跨武器平台的通用性——一枚导弹可以使用不同平台的火控系统进行目标引导，这是MOSA在武器发射端最直观的应用。
+- **标题**: Constructing Common Fire Control Across Weapon Platforms
+- **作者**: Wright
+- **会议**: 2015年NDIA军备会议（NDIA Armament Conference）
+- **日期**: 2015年
+- **主题**: 通过标准化的通用火控接口控制文档（ICD）实现跨武器平台的火控互操作性
+- **URL**: https://ndia.dtic.mil/wp-content/uploads/2015/armament/tues17345_Wright.pdf
 
-## 关键信息
+## 核心概念
 
-- 通用火控接口ICD设计
-- 跨平台武器互操作性验证
-- 2015年NDIA军备会议演示
-- 1.2MB原始PDF，614行转换文本
+通用火控武器（Common Fire Control Weapon, CFW）是MOSA在**武器发射端**最直观的应用——通过标准化火控接口，使**一枚导弹可以使用不同平台的火控系统进行目标引导**。
 
-## 原文来源
+### 传统火控模式的局限性
 
-- https://ndia.dtic.mil/wp-content/uploads/2015/armament/tues17345_Wright.pdf
-- 原始文件: `raw/papers/ndia-cfw-icd-wright-2015.pdf`, `raw/articles/ndia-cfw-icd-wright-2015.md`
+- 每种武器/平台组合需要专用的火控接口
+- 平台升级或武器更换需要重新开发集成
+- 供应商锁定导致采办成本持续攀升
+- 不同军种的武器与发射平台之间缺乏互操作性
 
-## 相关内容
+### 通用火控ICD的价值主张
 
-- [[开放架构层级]] — 开放架构层次体系
-- [[WOSA武器开放系统架构]] — WOSA武器开放系统架构
+| 维度 | 传统模式 | CFW ICD模式 |
+|------|----------|-------------|
+| **接口** | 平台-武器一对一专用 | 标准化通用接口 |
+| **武器互换** | 需要重新集成 | 即插即用式互换 |
+| **平台升级** | 火控系统重新认证 | 保持接口兼容即可 |
+| **多军种互操作** | 通常不可能 | 支持跨军种使用 |
+| **竞争** | 供应商锁定 | 多供应商符合ICD即可 |
+
+## ICD设计要素
+
+- **接口控制文档（ICD）**是定义平台与武器之间所有交互（物理、电气、逻辑、协议）的正式规范
+- 通用火控ICD定义了一个标准化的消息集、数据格式和时序协议
+- 武器只需满足ICD规范即可与任何符合ICD的发射平台协同工作
+- 核心挑战：在**通用性**（支持多平台多武器）和**特异性**（满足特定武器/平台需求）之间取得平衡
+
+## MOSA上下位关系
+
+CFW ICD是MOSA战略在武器火控领域的**具体实例化**：
+
+- **MOSA（顶层策略）** → 模块化设计 + 开放标准 + 关键接口定义
+- **CFW ICD（域级实现）** → 火控域的标准接口规范
+- 与UAI（通用武器接口）、WOSA（武器开放系统架构）等互补标准协同
+
+## 数据质量评估
+
+- **来源可靠性**: ★★★★★ — NDIA官方会议演示
+- **时效性**: ★★★☆☆ — 2015年，已有一个多十年（但CFW概念仍然是武器MOSA的基础思想）
+- **独特价值**: 提供了CFW跨平台火控互操作性的早期概念框架
+- **原始文件**: 1.2MB PDF, 614行转换文本

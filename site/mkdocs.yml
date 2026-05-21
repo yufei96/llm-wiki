@@ -82,6 +82,15 @@ nav:
   - 数字工程工具链对比: topics/数字工程工具对比.md
   - 数字工程生态系统（DEE）概述: topics/数字工程生态.md
   - 柔性武器设计方法：符合WOSA要求的学术研究与工业实践: topics/灵活武器设计方法论.md
+  - 新项目MOSA实施操作步骤: topics/新项目MOSA实施操作步骤.md
+  - MBSE 安全性与架构分析方法: topics/MBSE安全架构分析方法.md
+  - MBSE 数字化转型路径: topics/MBSE数字化转型路径.md
+  - MOSA航电实施挑战：从概念到能力到合规: topics/MOSA航电实施挑战.md
+  - NGC2：下一代指挥与控制系统的MOSA需求: topics/NGC2下一代指挥控制.md
+  - OMG MBSE 倡议：工作组与标准族: topics/OMG-MBSE工作组与标准族.md
+  - SysML v1 到 v2 过渡指南: topics/SysML过渡指南.md
+  - 数字生态系统挑战团队 (DECO): topics/DECO数字生态系统挑战团队.md
+  - 美军MOSA政策法规汇编: topics/美军MOSA政策法规汇编.md
 - 概念:
   - index: concepts/index.md
   - 自主政府参考架构（A-GRA）: concepts/A-GRA自主参考架构.md
@@ -121,12 +130,13 @@ nav:
   - 自适应采办框架（AAF）: concepts/自适应采办框架.md
   - 软件定义能力: concepts/软件定义能力.md
   - 采办实践与SysML v2过渡: concepts/采办实践.md
+  - PNT政府参考架构 / 弹性嵌入式GPS/INS（R-EGI）: concepts/PNT政府参考架构-R-EGI导航.md
+  - Sentinel洲际弹道导弹政府参考架构（Sentinel GRA）: concepts/Sentinel洲际导弹政府参考架构.md
 - 对比:
   - index: comparisons/index.md
   - C5ISR标准生态趋同: comparisons/C5ISR标准融合.md
   - DMM与DEE趋同：AFMC数字化转型与DoD数字工程的互补关系: comparisons/DMM与DEE融合.md
   - INCOSE韧性 vs NIST赛博弹性：通用框架与赛博特化的关系: comparisons/INCOSE韧性与NIST网络韧性对比.md
-  - Karpathy LLM Wiki原版 vs 我们的实现: comparisons/Karpathy理论与实践对比.md
   - MOSA五原则→五大支柱：12年演化脉络: comparisons/MOSA五原则到五支柱.md
   - MOSA的国际化：从美国DoD到NATO联盟: comparisons/MOSA国际化.md
   - MOSA在CCA中的应用：模块化开放系统方法与协作作战飞机: comparisons/MOSA在CCA中的应用.md
@@ -257,3 +267,76 @@ nav:
   - 全生命周期MBSE应用 — SPEC Innovations 30年实践: sources/全生命周期MBSE应用.md
   - 迈入数字未知 — MBSE与数字工程的演进: sources/迈入数字未知.md
   - 通用动力数字化转型经验: sources/通用动力数字化转型经验.md
+  - 2020/2021财年国防授权法案MOSA扩展条款: sources/NDAA-MOSA扩展条款2020-2021.md
+  - Air Force Posts COARPS RFI: sources/空军COARPS信息征求报道.md
+  - CMOSS（C5ISR/EW模块化开放标准套件）概述: sources/CMOSS模块化标准概述.md
+  - CRS IF11697 — 核指挥控制通信入门: sources/CRS-NC3核指挥通信入门.md
+  - 'DFARS Case 2021-D005: 模块化开放系统方法合同条款': sources/DFARS-MOSA合同条款信息征求2021.md
+  - DFARS采办规划MOSA条款 — 采办规划（MOSA）: sources/DFARS采办规划MOSA条款.md
+  - DOT&E FY2024年度报告 - ABMS章节: sources/DOT&E年度报告ABMS章节2024.md
+  - DOT&E FY2025 - Aegis Modernization Program: sources/DOT&E年度报告宙斯盾章节2025.md
+  - DSP Journal 2020 — MOSA专刊: sources/DSP期刊MOSA专刊2020.md
+  - 'DSP Journal: MOSA概述与努力（2020）': sources/DSP期刊MOSA概述2001.md
+  - DoDI 5000.02 — 自适应采办框架操作: sources/DoDI-5000.02自适应采办框架操作.md
+  - DoDI 5000.74 — 服务采办: sources/DoDI-5000.74服务采办.md
+  - DoDI 5000.75 — 业务系统需求与采办: sources/DoDI-5000.75业务系统采办.md
+  - DoDI 5000.80 — 中间采办层级（MTA）: sources/DoDI-5000.80中间层采办.md
+  - DoDI 5000.81 — 紧急能力采办: sources/DoDI-5000.81紧急能力采办.md
+  - DoDI 5000.85 — 重大能力收购: sources/DoDI-5000.85重大能力收购.md
+  - DoDI 5000.87 — 防务采办软件采办: sources/DoDI-5000.87软件采办.md
+  - DoDI 5000.97 — 数字工程: sources/DoDI-5000.97数字工程.md
+  - FACE技术标准3.2版（2023年8月）: sources/FACE技术标准3.2版.md
+  - FY2017 NDAA — Section 805：MOSA 立法源: sources/NDAA第805节MOSA立法2017.md
+  - GAO-24-106831 — 武器系统年度评估: sources/GAO武器系统年度评估2024.md
+  - GAO-25-106931 MOSA专项审查报告：武器系统采办——国防部需要更好的规划以获取模块化开放系统方法的收益: sources/GAO-MOSA专项审查报告全文.md
+  - 'GAO-25-106931: MOSA专项审查报告': sources/GAO-MOSA专项审查2025.md
+  - HASC Report 114-102 — FY2016 NDAA 委员会报告: sources/HASC-FY2016NDAA委员会报告.md
+  - ISO/IEC/IEEE 15288:2023 — 系统生命周期过程: sources/ISO-15288系统生命周期过程.md
+  - MBSE in Practice 2025 会议综合分析: sources/MBSE实践大会2025.md
+  - MBSE定义DevSecOps能力成熟度: sources/MBSE定义DevSecOps能力成熟度.md
+  - MBSynergy场景化MBSE改进方法: sources/MBSynergy场景化MBSE改进方法.md
+  - MOATEL：弹药开放架构试验鉴定实验室: sources/MOATEL弹药开放架构验证.md
+  - Making MOSA Work in Avionics — 航电MOSA实施六大摩擦点: sources/空军航电MOSA实施六大摩擦点.md
+  - 'NASA-HDBK-1004: NASA数字工程采办框架手册': sources/NASA手册1004数字工程采办框架.md
+  - 'NASA-HDBK-1009A: NASA系统建模手册（系统工程用）': sources/NASA手册1009A系统建模.md
+  - 'NASA-HDBK-7009A: 建模与仿真手册——NASA-STD-7009A实施指南': sources/NASA手册7009A建模与仿真.md
+  - NAVAIR MOSA官方页面: sources/NAVAIR-MOSA官方概述.md
+  - NAVAIR OSMP Implementation Description Guide v1.0 2025: sources/NAVAIR-OSMP实施指南V1.md
+  - NC3 Architecture Update — DTIC ADA619949: sources/DTIC-NC3架构更新.md
+  - NDIA 2023 — DoD SysML v2 过渡指南项目简报: sources/NDIA-SysML-v2过渡指南2023.md
+  - NDIA — Constructing Common Fire Control Across Weapon Platforms: sources/NDIA-CFW通用火控ICD2015.md
+  - OMB Circular A-130 — 将信息作为战略资源管理: sources/OMB通告A-130信息管理.md
+  - OUSD(R&E) SysML v1→v2 过渡指导: sources/OSD-SysML-v2过渡指导.md
+  - Open Standards Takes Center Stage at 2026 MOSA Defense Summit: sources/NAVAIR第三届MOSA峰会2026.md
+  - PEO Aviation FACE TIM 2021 Open Systems Demonstration: sources/航空PEO-FACE-TIM开放系统演示2021.md
+  - PPI数据项描述（DID）模板合集: sources/PPI数据项描述模板.md
+  - R-EGI PNT Systems Flight Demonstrations — DVIDS: sources/R-EGI导航飞行测试2024.md
+  - R-EGI Program Achieves Key Milestone: sources/R-EGI里程碑达成2024.md
+  - R-EGI Takes Flight on Military C-12J Test Aircraft: sources/R-EGI-C12J飞行测试.md
+  - SAM.gov UAI/CFW ICD RFI: sources/SAM-gov-UAI信息征求.md
+  - SM-6与LTAMDS/IBCS联合集成验证（Valiant Shield 24）: sources/SM-6与LTAMDS-IBCS联合验证2024.md
+  - SOSA's Rubber Is Meeting the Road — SOSA对齐SDR两周开发案例: sources/SOSA快速SDR开发案例2022.md
+  - SOSA产品技术概览与产品指南: sources/SOSA-VITA产品概览.md
+  - SysML v2 规范 — 下一代系统建模语言: sources/SysML-v2规范.md
+  - The future of navigation (MOSA) is happening — USAF R-EGI Project: sources/R-EGI导航系统未来展望.md
+  - VICTORY与GVA：地面车辆现代化白皮书: sources/VICTORY-GVA白皮书.md
+  - 主动式网络安全威胁架构分析: sources/主动式网络安全威胁架构分析.md
+  - 初始架构分析: sources/初始架构分析.md
+  - 基于模型的安全关键系统保障: sources/基于模型的安全关键系统保障.md
+  - 尼克·博顿 SOSA架构V1概述 WInnComm 2021: sources/尼克-博顿-SOSA-WInnComm-2021.md
+  - 开放系统联合特别工作组（OSJTF）宪章与MOSA起源: sources/OSJTF宪章与MOSA起源1994.md
+  - 德国Aegis/SPY-6 F127护卫舰军售案（2026年4月）: sources/德国宙斯盾SPY-6-F127军售2026.md
+  - 模块化开放式系统方法参考框架在国防采办项目中的应用: sources/模块化开放式系统方法参考框架在国防采办项目中的应用.md
+  - 海军推广最新硬件开放架构技术标准HOST 5.0（NAVAIR新闻 2023年2月）: sources/NAVAIR-HOST-5.0发布.md
+  - 美国国防工业协会（NDIA）MOSA白皮书——十大建议: sources/NDIA-MOSA白皮书十建议.md
+  - CSBA — 强化方阵：印太多层一体化防空反导（2023年）: sources/CSBA-强化方阵-印太IAMD-2023.md
+  - UAI IQPC 通用武器接口技术概述: sources/UAI-IQPC概述.md
+  - IAMD CoE 北约一体化防空反导年刊（2023年）: sources/IAMD-CoE年刊2023.md
+  - DSB 数字工程能力最终报告 2024: sources/DSB数字工程测试评估最终报告2024.md
+  - FY2017 NDAA 公法114-328（含§805 MOSA条款）: sources/FY2017 NDAA公法114-328.md
+  - FY2017 国防授权法案（Public Law 114-328）全文: sources/FY2017国防授权法案全文.md
+  - NDAA 2020 公法116-92: sources/NDAA 2020公法116-92.md
+  - NDAA 2021 公法116-283（含§804）: sources/NDAA 2021公法116-283.md
+  - NDAA 2021 第804节 MOSA扩展要求: sources/NDAA 2021第804节.md
+  - NPS 宙斯盾作战系统现代化论文 2025: sources/NPS宙斯盾作战系统现代化论文2025.md
+  - MIL-HDBK-1211 导弹飞行仿真手册: sources/MIL-HDBK-1211导弹飞行仿真手册.md

@@ -1,71 +1,61 @@
 ---
-title: "CMOSS（C5ISR/EW模块化开放标准套件）概述"
+title: "CMOSS — C5ISR/EW模块化开放标准套件概述"
 created: 2026-04-19
-updated: 2026-04-19
-type: source
-sources: [raw/papers/cmoss-overview-2022.pdf, raw/articles/cmoss-overview-2022.md]
-author: "Jason Dirner, DEVCOM C5ISR Center"
-tags: [CMOSS, MOSA, C5ISR, 通用套件, 陆军]
+updated: 2026-05-21
+tags: [CMOSS, C5ISR, 电子战, 模块化标准, 陆军, DEVCOM, MOSA]
+source: [raw/papers/cmoss-overview-2022.pdf, raw/articles/cmoss-overview-2022.md]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+type: source
 ---
 
-# CMOSS — C5ISR/EW模块化开放标准套件
+# CMOSS — C5ISR/EW模块化开放标准套件概述
 
-## 文档概况
-- **全称**：C5ISR/EW Modular Open Suite of Standards (CMOSS) Overview
-- **发布者**：U.S. Army DEVCOM C5ISR Center, MOSA Management Office
-- **作者**：Jason Dirner, MOSA Chief Engineer
-- **日期**：2022年3月18日
-- **页数**：32
+## 概述
 
-## 核心概念
+美国陆军作战能力发展司令部（DEVCOM）C5ISR中心2022年3月发布的CMOSS官方概述简报，由MOSA首席工程师Jason Dirner（MOSA管理办公室）主讲。**CMOSS是C5ISR和电子战系统的模块化开放标准套件**，目标是减少尺寸/重量/功耗（SWaP），同时增加灵活性和适应性。这是了解CMOSS最权威的首手资料。
 
-CMOSS是一个**标准套件**，旨在减少C5ISR和电子战系统的尺寸、重量和功耗（SWaP），同时增加灵活性和适应性。其核心理念是通过**通用硬件平台**实现多个功能的集成。
+## CMOSS核心目标
 
-### 三大核心组件
+| 目标 | 说明 |
+|------|------|
+| **通用A-Kit** | 项目经理以"卡片"形式将能力部署到通用机箱中 |
+| **射频资源共享** | 通信、电子战（EW）、信号情报（SIGINT）共用天线和放大器 |
+| **处理资源共享** | 共享计算机和显示器等处理资源 |
+| **数据服务共享** | 共享定位导航授时（PNT）等基础数据服务 |
+| **增强互操作性** | 为C5ISR系统间增强的互操作性和同时性奠定基础 |
+| **降低生命周期成本** | 通过增加竞争、减少后勤保障、通用备件实现 |
+| **快速技术插入** | 快速插入新技术/新能力 |
 
-1. **Universal A-Kit（通用套件）**
-   - PM将能力作为**卡板**插入通用机箱
-   - 消除了平台特定集成的需求
-   - 大幅减少后勤保障负担
+## CMOSS架构价值
 
-2. **Pooled Resources（共享资源）**
-   - **天线和放大器**共享：通信、电子战（EW）、信号情报（SIGINT）系统共用
-   - **处理资源**共享：计算机和显示器
-   - **数据服务**共享：定位、导航和授时（PNT）
+- **减少SWaP**：通过共享硬件（天线/放大器）减少C4ISR系统物理占用
+- **通用A-Kit**：消除平台特定集成——使用现有布线的通用机箱
+- **最佳品种能力**：用最佳能力应对新兴需求
+- **减少后勤**：通用备件消除"停产前大批量采购"，支持每5-10年硬件现代化
+- **增强互操作性和同时性**：C4ISR能力之间的协同
 
-3. **Shared Services（共享服务）**
-   - 增强C5ISR系统间的互操作性和同时性
-   - 通过共同备件减少全生命周期成本
-   - 最新硬件替换时实现快速技术插入
+## CMOSS发展历程
 
-### 与其他标准的关系
+| 时间 | 里程碑 |
+|------|--------|
+| 2014年9月 | MORA V1.1发布 |
+| 2015年4月 | CMOSS实验室演示 |
+| 2016年1月 | MORA V2.0发布 |
+| 2017年4月 | CMOSS实验室演示（第二次） |
+| 2017年10月 | **CMOSS车载演示**——关键里程碑 |
+| — | MORA V2.1 |
 
-CMOSS是**多个标准的集成框架**：
-- **MORA**（模块化开放射频架构）：射频前端标准化
-- **VICTORY**：车辆C4ISR/EW互操作性
-- **SOSA**：传感器开放系统架构
-- **VITA/OpenVPX**：硬件卡板标准
+## CMOSS在MOSA标准生态中的位置
 
-### 对MOSA的意义
+CMOSS由多个标准组成：
+- **VITA**（硬件标准，OpenVPX/VNX）
+- **MORA**（模块化开放射频架构，VITA 49.x）
+- **VICTORY**（地面车辆C4ISR/EW互操作——但CMOSS和VICTORY是互补标准）
+- **SOSA**（传感器开放系统架构——与CMOSS在物理层共享VITA标准）
 
-CMOSS是MOSA理念在**硬件层面最具体的落地形式**。当MOSA要求"模块化设计"和"开放接口"时，CMOSS提供了：
-- 物理层的模块化（卡板式硬件）
-- 接口层的标准化（OpenVPX, MORA射频接口）
-- 实际的通用后勤保障模型
+## 笔记
 
-CMOSS证明了MOSA不是抽象概念——它在C5ISR领域已经产生了可度量的SWaP减少和后勤简化效果。
-
-## 相关内容
-- [[开放架构层级]] — 开放架构四层体系（CMOSS为设备级集成框架）
-- [[MOSA与国防采办]] — MOSA概念
-- [[FACE技术标准]] — FACE航电标准（软件层对等）
-- [[SOSA传感器开放系统架构]] — SOSA传感器架构
-- [[MORA模块化开放射频架构概念]] — MORA射频架构
-- [[Victory地面车辆]] — VICTORY车辆标准
-- [[模块化架构模式]] — 模块化架构模式
-- [[MOSA五支柱]] — MOSA五大支柱
-
----
-*32页。CMOSS是理解MOSA硬件实施的关键文档。*
+- CMOSS是**陆军主导**的C5ISR/EW标准，与SOSA（多军种传感器）和FACE（空军/航电软件）形成互补
+- "卡片"（cards）概念是CMOSS的核心隐喻——像PC机箱插卡一样在车辆平台上插入不同C5ISR能力
+- 车载演示（2017年10月）是CMOSS从实验室到实战的关键一步——证明在真实车辆环境中的可行性
+- PNT共享是CMOSS被低估的价值——统一的时间空间参考对C5ISR协同至关重要

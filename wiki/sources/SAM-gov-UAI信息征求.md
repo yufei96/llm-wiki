@@ -27,8 +27,3 @@ type: source
 
 - https://sam.gov/opp/71a7c60afc4546d39f6c7f73944c215b/view
 - 原始文件: `raw/papers/samgov-uai-rfi.pdf`, `raw/articles/samgov-uai-rfi.md`
-
-## 相关内容
-
-- [[开放架构层级]] — 开放架构层次体系
-- [[WOSA武器开放系统架构]] — WOSA武器开放系统架构

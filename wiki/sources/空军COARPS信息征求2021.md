@@ -27,8 +27,3 @@ type: source
 
 - https://sam.gov/opp/48da7c685db04ea394080bfc784d9b68/view
 - 原始文件: `raw/papers/usaf-coarps-rfi-2021.docx`, `raw/articles/usaf-coarps-rfi-2021.md`
-
-## 相关内容
-
-- [[COARPS雷达架构]] — COARPS 通用开放架构雷达规范
-- [[开放架构层级]] — 开放架构层次体系

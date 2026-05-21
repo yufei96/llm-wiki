@@ -49,14 +49,3 @@ VICTORY是MOSA在**地面车辆领域**的具体实施。当MOSA要求"模块化
 - 多厂商子系统互操作（竞争性采购支持）
 
 VICTORY与CMOSS/SOSA的关系：VICTORY关注**车辆平台**，CMOSS关注**C5ISR通用套件**，SOSA关注**传感器**——三者在不同的抽象层级上实现MOSA原则。
-
-## 相关内容
-- [[开放架构层级]] — 开放架构四层体系（VICTORY为设备级）
-- [[MOSA与国防采办]] — MOSA概念
-- [[CMOSS模块化标准概述]] — CMOSS（与VICTORY共享MORA射频标准）
-- [[SOSA传感器开放系统架构]] — SOSA传感器架构
-- [[模块化架构模式]] — 模块化架构模式
-- [[XM30 MICV MOSA案例]] — XM-30地面车辆MOSA设计案例
-
----
-*案例研究2页 + GVA对比白皮书。VICTORY是地面车辆MOSA实施的参考案例。*

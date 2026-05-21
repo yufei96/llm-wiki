@@ -25,9 +25,3 @@ type: source
 
 - https://www.csis.org/analysis/burden-sharing-modular-open-systems-approaches-collaborative-path-affordable-mass
 - 原始文件: `raw/articles/csis-mosa-burden-sharing-2025.md`
-
-## 相关内容
-
-- [[MOSA国际化]] — MOSA国际化
-- [[MOSA与国防采办]] — MOSA核心概念
-- [[开放架构层级]] — 开放架构层次体系

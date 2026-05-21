@@ -39,8 +39,3 @@ type: source
 
 - 鸿蒙智行官网: https://hima.auto/
 - 原始文件: `raw/articles/hima-harmony-intelligent-mobility.md`
-
-## 相关内容
-
-- [[华为车辆开放生态]] — 华为车辆开放生态（跨来源主题综合）
-- [[华为车机套件开发者指南]] — 华为Car Kit开发者文档

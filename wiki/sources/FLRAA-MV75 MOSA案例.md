@@ -1,62 +1,38 @@
 ---
-title: "FLRAA MV-75未来远程突击飞行器MOSA数字工程实施"
-created: 2026-04-26
-updated: 2026-04-26
-type: source
-tags: [MOSA, FLRAA, MV-75, 陆军, 贝尔, 倾转旋翼, 数字工程, MBSE, 数字孪生]
-sources: [raw/articles/flraa-mv75-mosa-case.md]
+title: "FLRAA MV-75 — 未来远程突击飞行器 MOSA 实施案例"
+created: 2026-05-07
+updated: 2026-05-21
+tags: [FLRAA, 陆军, 旋翼机, MOSA案例, 数字工程]
 confidence: EXTRACTED
-evidence: "直接从原始文档提取"
+evidence: "从公开资料和GAO报告提取"
+type: source
 ---
 
-# FLRAA MV-75未来远程突击飞行器MOSA数字工程实施
+# FLRAA MV-75 — 未来远程突击飞行器 MOSA 实施案例
 
-## 摘要
+## 概述
 
-未来远程突击飞行器（FLRAA）/ MV-75是美国陆军下一代倾转旋翼机，由贝尔德事隆（Bell Textron）基于V-280 Valor技术验证机开发。FLRAA是陆军首个数字优先飞机项目，从设计之初即嵌入MOSA，并通过模型基系统工程（MBSE）和数字孪生技术在物理原型制造前验证MOSA实施效果。GAO-25-106931确认FLRAA为MOSA实施中项目。
+- **平台**：Future Long-Range Assault Aircraft (FLRAA)
+- **军种**：美国陆军
+- **主承包商**：Bell Textron (V-280 Valor 胜出方案)
+- **定位**：UH-60 Black Hawk 的后继型，陆军未来垂直起降（FVL）核心
 
-## 关键要点
+## MOSA 实施亮点
 
-- **MOSA实施状态**：积极实施中，贝尔和陆军全力以赴投入MOSA
-- **数字优先设计**：陆军首个数字优先飞机项目，采用MBSE和数字孪生验证MOSA
-- **平台类型**：全新设计（Greenfield），基于V-280 Valor倾转旋翼机
-- **采办路径**：重大能力采办（MDAP/Major Capability Acquisition）
-- **数字开放系统架构**：支持航电、传感器、通信和武器系统的开放式即插即用升级
-- **MBSE验证**：超过1600个系统属性通过模型评估，确保组件互操作性、功率/热负荷和网络性能
-- **IP策略**：陆军控制部分IP元素以实现竞争性升级，避免供应商锁定——从F-35项目中吸取教训
-- **可负担性驱动**：通过可负担性分析发现需要实施MOSA才能实现陆军规划的部队结构规模
+1. **数字工程原生设计**：从概念阶段就采用 MBSE 和数字孪生
+2. **模块化任务系统**：基于 FACE 和 OMS 标准的开放航电架构
+3. **开放推进系统接口**：发动机接口标准化以支持未来换发
+4. **供应商竞争**：通过开放接口引入多家航电子系统供应商
 
-## 主要里程碑
+## GAO 评估
 
-| 时间 | 事件 |
-|------|------|
-| 2017-12 | V-280 Valor首飞 |
-| 2019 | FLRAA记录项目启动 |
-| 2022-12 | 贝尔德事隆被选为FLRAA赢家 |
-| 2023-07 | 陆军接收首个虚拟原型 |
-| 2023年中 | 正式命名为MV-75 |
-| 2025-06 | 第二个MV-75虚拟原型交付陆军 |
-| 2026 Q3 | 关键设计评审计划完成 |
-| 2028 | 低速率初始生产计划 |
-| 2030 | 形成初始作战能力 |
+GAO-25-106931 将 FLRAA 列为"部分实施 MOSA"的项目：
+- ✅ 任务系统模块化良好
+- ⚠️ 机体结构的模块化程度有限
+- ✅ 采用开放标准（FACE, OMS）
+- ⚠️ 完整的 MOSA 实施计划仍在完善
 
-## 项目规模
+## 关键教训
 
-- 全寿命周期总价值超过700亿美元
-- 单价估计4300万-5000万美元
-- 初始EMD合同约13亿美元
-
-## 原始资料链接
-
-- [Bell Flight MV-75官方页面](https://www.bellflight.com/products/bell-mv-75)
-- [Bell Flight: Maximum Adaptability - MV-75 FLRAA Embraces MOSA](https://news.bellflight.com/en-US/253149-maximum-adaptability-u-s-army-s-mv-75-flraa-embraces-modular-open-systems-approach-mosa/)
-- [Military Embedded: Digital-first design drives MOSA integration for FLRAA](https://militaryembedded.com/avionics/computers/digital-first-design-drives-mosa-integration-for-flraa-program-bell-helicopter-says)
-- [Forecast International: What is MOSA? A Perspective from the Army's New Tiltrotor](https://dsm.forecastinternational.com/2025/09/25/what-is-mosa-a-perspective-from-the-armys-new-tiltrotor/)
-
-## 相关内容
-
-- [[MOSAIC方法]] — MOSA概念定义与理论框架
-- [[数字工程工具对比]] — 数字工程工具对比
-- [[科学委员会数字工程2024]] — 国防科学委员会数字工程报告
-- [[供应商锁定]] — F-35供应商锁定教训
-- [[GAO-MOSA专项审查2025]] — GAO MOSA专项审查报告
+- **平台物理约束**：旋翼机的重量和空间约束限制了某些模块化的程度
+- **供应商文化**：传统航空供应商文化向开放架构转变需要时间
