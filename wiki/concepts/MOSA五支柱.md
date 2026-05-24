@@ -27,6 +27,27 @@ evidence: "基于知识库多源综合分析"
 
 五大支柱是 DoD 对「如何有效实施 MOSA」的结构化回答。它从 2013年OSA合同指南的「五原则」演化而来——核心变化是**从纯技术框架扩展为组织+技术+治理的综合体系**。详见 [[MOSA五原则到五支柱]]。
 
+```mermaid
+graph TB
+    P1["① 赋能环境\n文化与组织·流程采办\n数字工程·领导力"]
+    P2["② 模块化设计\n功能单元拆分\nRFP前完成划分"]
+    P3["③ 指定接口\n解耦接口与服务\n六步法管理"]
+    P4["④ 开放标准\n基于共识标准\n互操作性验证"]
+    P5["⑤ 一致性认证\n评分体系·验证闭环\n<70分不得生产"]
+
+    P1 -->|基础设施| P2
+    P1 -->|基础设施| P3
+    P2 & P3 -->|技术核心| P4
+    P4 -->|实现手段| P5
+    P5 -.->|反馈| P1
+
+    style P1 fill:#8c5a2a,color:#fff
+    style P2 fill:#2a5a8c,color:#fff
+    style P3 fill:#2a5a8c,color:#fff
+    style P4 fill:#2a8c5a,color:#fff
+    style P5 fill:#8c2a5a,color:#fff
+```
+
 理解五大支柱的三条主线：
 
 - **为什么要有五大支柱**：2013年五原则聚焦技术层面（模块化/接口/标准），但实施教训表明 MOSA 失败主因不在技术——在组织不会用、领导不承诺、采办流程不对齐。五大支柱通过新增「赋能环境」支柱和大幅扩展验证/治理维度来解决这个问题。
@@ -114,6 +135,36 @@ evidence: "基于知识库多源综合分析"
 
 五大支柱贯穿 MOSA 的六层实施架构：
 
+```mermaid
+graph LR
+    subgraph Legal["法律层"]
+        L["10 USC §4401\n模块化·标准接口\n开放标准"]
+    end
+    subgraph Policy["政策层"]
+        Po["DoDI/实施指南\n赋能环境·认证\n**支柱①⑤**"]
+    end
+    subgraph Service["军种指令层"]
+        S["PEO协调\n组织赋能\n**支柱①**"]
+    end
+    subgraph Standard["标准层"]
+        St["FACE/OMS/SOSA\nVICTORY/WOSA\n**支柱④**"]
+    end
+    subgraph Contract["合同层"]
+        C["DFARS/OSA指南\n接口所有权\n数据权利\n**支柱③**"]
+    end
+    subgraph Doc["文档层"]
+        D["PPI DID\n设计文档\n验证记录\n**支柱②⑤**"]
+    end
+
+    Legal --> Policy --> Service --> Standard --> Contract --> Doc
+    style Legal fill:#1a3a5c,color:#fff
+    style Policy fill:#2a5a8c,color:#fff
+    style Service fill:#3a7abc,color:#fff
+    style Standard fill:#2a8c5a,color:#fff
+    style Contract fill:#8c5a2a,color:#fff
+    style Doc fill:#5a2a8c,color:#fff
+```
+
 | 实施层 | 对应支柱 |
 |---|---|
 | 法律层（10 USC） | 支柱②③④ — 法律要求模块化设计/标准接口/开放标准 |
@@ -136,3 +187,4 @@ evidence: "基于知识库多源综合分析"
 - [[开放系统架构合同指南V1.1]] — 五原则原始定义
 - [[三军备忘录2019]] / [[三军备忘录2024]]
 - [[项目管理与系统工程集成]] — 赋能环境支柱的组织维度
+- [[MOSA五原则到五支柱]] — 五原则到五支柱的演变脉络
