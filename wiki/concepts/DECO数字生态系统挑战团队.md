@@ -1,9 +1,8 @@
 ---
 title: "数字生态系统挑战团队 (DECO)"
-type: topic
+type: concept
 date: 2026-05-17
-sources:
-  - raw/articles/omg-mbse-deco-ecosystems.md
+sources: []
 tags: [MBSE, systems-engineering, OMG, INCOSE]
 ---
 

@@ -23,6 +23,56 @@ evidence: "基于多源综合分析"
 
 ---
 
+## Mermaid 分类图：MOSA标准层级分类
+
+```mermaid
+graph TB
+    subgraph 法律层["法律层 (Statutory)"]
+        L1["10 USC §4401<br/>MOSA 法定要求"]
+    end
+    subgraph 政策层["政策层 (Policy)"]
+        P1["2024年12月<br/>三军联合备忘录"]
+        P2["NDAA<br/>年度国防授权法"]
+    end
+    subgraph 军种层["军种层 (Service)"]
+        S1["陆军 Army"]
+        S2["海军 Navy"]
+        S3["空军 Air Force"]
+    end
+    subgraph 标准层["标准层 (Standards)"]
+        ST1["三军共用标准 (6种)<br/>OMS/UCI, SOSA, FACE<br/>VICTORY, AMS GRA, WOSA"]
+        ST2["军种内推广标准 (16种)<br/>GARA, R-EGI, COARPS<br/>MORA, HOST, UAI 等"]
+    end
+    subgraph 合同层["合同层 (Contract)"]
+        C1["MDAP 采办项目<br/>合同约束"]
+        C2["军种采办项目<br/>合同要求"]
+    end
+    subgraph 文档层["文档层 (Documentation)"]
+        D1["一致性测试<br/>认证文档"]
+        D2["接口控制文档<br/>ICD"]
+    end
+    
+    L1 --> P1
+    L1 --> P2
+    P1 --> S1
+    P1 --> S2
+    P1 --> S3
+    S1 --> ST1
+    S2 --> ST1
+    S3 --> ST1
+    S1 --> ST2
+    S2 --> ST2
+    S3 --> ST2
+    ST1 --> C1
+    ST2 --> C2
+    C1 --> D1
+    C1 --> D2
+    C2 --> D1
+    C2 --> D2
+```
+
+---
+
 ## 一、三军共用标准（6种）
 
 2024年12月三军联合备忘录首次在最高政策层面明确列举的已验证开放标准。这是MOSA标准生态的权威清单。
@@ -166,6 +216,43 @@ evidence: "基于多源综合分析"
 - [[MOSAIC方法]] — MOSA总体方法论
 - [[MOSA全生命周期应用]] — 全寿命周期MOSA应用分析
 - [[三军备忘录2024]] — 2024年12月三军联合备忘录
+
+---
+
+## Mermaid 生态系统图：MOSA标准关系
+
+```mermaid
+graph TB
+    subgraph 核心枢纽["核心枢纽"]
+        OMS["OMS/UCI<br/>通用指挥控制接口"]
+    end
+    subgraph 传感器域["传感器域"]
+        SOSA["SOSA<br/>传感器开放架构"]
+        CMOSS["CMOSS<br/>C5ISR/EW 模块化开放标准套件"]
+    end
+    subgraph 航空电子域["航空电子域"]
+        FACE["FACE<br/>未来机载能力环境"]
+    end
+    subgraph 车辆域["车辆域"]
+        VICTORY["VICTORY<br/>车辆C4ISR/EW集成"]
+    end
+    subgraph 武器域["武器域"]
+        WOSA["WOSA<br/>武器开放系统架构"]
+    end
+    subgraph 任务系统域["任务系统域"]
+        AMS["AMS GRA<br/>敏捷任务套件参考架构"]
+    end
+    
+    OMS -->|指控接口| FACE
+    OMS -->|指控接口| SOSA
+    OMS -->|指控接口| VICTORY
+    OMS -->|指控接口| WOSA
+    OMS -->|任务协同| AMS
+    SOSA -->|传感器数据| CMOSS
+    VICTORY -->|车辆集成| CMOSS
+    SOSA -->|硬件共用| FACE
+    FACE -->|航空电子| WOSA
+```
 
 ---
 

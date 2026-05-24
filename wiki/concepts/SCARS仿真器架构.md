@@ -153,6 +153,10 @@ SCARS在MOSA生态中有独特定位：
 - [[CAE公司SCARS项目]] — CAE USA SCARS项目概述
 -  — Breaking Defense SCARS报道（2024年2月）
 
+## 相关组织
+
+- [[CAE美国公司]]
+
 ## 笔记
 
 - SCARS的"三阶段渐进方法"是MOSA实施的最佳实践——从网络安全（最紧迫）→通用架构→标准应用，逐步深化
