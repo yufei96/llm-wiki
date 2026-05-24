@@ -3,7 +3,7 @@ title: "UAI IQPC 概述 — 通用武器接口技术与实施"
 created: 2026-05-21
 updated: 2026-05-21
 tags: [UAI, 通用武器接口, 空军, 航电, 武器集成, NATO, 标准化]
-source: [raw/papers/UAI-IQPC-Overview.pdf, raw/articles/UAI-IQPC概述.md]
+source: [raw/papers/UAI-IQPC概述.pdf, raw/articles/UAI-IQPC概述.md]
 confidence: EXTRACTED
 type: source
 ---

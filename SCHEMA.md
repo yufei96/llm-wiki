@@ -17,6 +17,22 @@
 
 **source 页引用规则**：两者都写。格式 `sources: [raw/papers/xxx.pdf, raw/articles/xxx.md]`。
 例外：网页来源（无 PDF）只写 article。
+
+### raw/ 文件命名约束
+
+- **文件名必须用简明中文**，禁止纯英文文件名
+- 不允许使用 `原文`、`源文本`、`英文` 等冗余标签区分版本——文件名本身应能自然标识文档
+- 允许保留常见英文缩写（见下文白名单），缩写与中文之间用 `-` 连接
+- 文档编号/标准号保留原名（如 `DoDI-5000-74`、`MIL-STD-881D`）
+- 示例：`国防部MOSA实施指南2025.pdf` ✅ | `DoDI-5000-97数字工程.md` ✅ | `mosa-implementation-guidebook.pdf` ❌ | `gao-24-106831.pdf` ❌
+
+### raw/ 文件去重规则
+
+- 相同内容的文件禁止以不同名称重复存在
+- 判断标准：去空白后 body-MD5 一致即判定为重复
+- 新文件入库前先检查是否有同名/同内容文件
+- 同一份文档仅保留一个版本，删除格式/空白差异的副本
+- 同一原始材料的中英文版本文件，若内容不同（如英文原文 vs 中文文章），分别是独立文档，不属于重复
 | **wiki/** | LLM生成的Markdown页面（摘要、概念、实体、对比） | LLM完全拥有此层。只读。 |
 | **output/** | 派生可交付物（Marp幻灯片、图表、报告） | 从wiki生成，可归档回wiki。 |
 
@@ -58,6 +74,7 @@ wiki/                           # 项目根目录（git仓库）
 ## 命名约定
 
 - **文件名**：**中文为主**，允许嵌入常见英文缩写（如 `DoDI-5000.85重大能力收购`、`GAO-MOSA专项审查2025`）。禁止纯英文文件名
+- **raw/ 文件**：简明中文名，保留文档编号/标准号。中英文成对文件保留中文名版本
 - **常见缩写白名单**：MOSA、MBSE、DoDI、NDAA、DFARS、GAO、CRS、DOT&E、NASA、NDIA、NAVAIR、FACE、SOSA、CMOSS、OMS、UCI、VICTORY、HOST、CCA、OMG、INCOSE、SysML、DECO、GRA、DOTE、AFMC、DMM、IBCS、LTAMDS、R-EGI、NC3、DEW、PNT、SAM、DTIC、HASC、OMB、ISO
 - **分隔符**：缩写之间、缩写与中文之间用 `-` 连接（如 `NDIA-SysML-v2过渡指南2023`）
 - **Source文件名**：不加日期前缀，直接用文档标识符，日期在YAML frontmatter中记录

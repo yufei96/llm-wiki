@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [NC3, 核力量, CRS, 国会研究服务]
 source:
-  - raw/papers/crs-nc3-if11697.pdf
-  - raw/articles/crs-nc3-if11697.md
+  - raw/papers/CRS报告-NC3 IF11697.pdf
+  - raw/articles/CRS报告-NC3 IF11697.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -27,4 +27,4 @@ type: source
 ## 原文来源
 
 - https://www.congress.gov/crs_external_products/IF/PDF/IF11697/IF11697.5.pdf
-- 原始文件: `raw/papers/crs-nc3-if11697.pdf`, `raw/articles/crs-nc3-if11697.md`
+- 原始文件: `raw/papers/CRS报告-NC3 IF11697.pdf`, `raw/articles/CRS报告-NC3 IF11697.md`

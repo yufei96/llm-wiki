@@ -4,7 +4,7 @@ created: 2026-04-20
 updated: 2026-04-20
 type: source
 tags: [联邦政策, 信息管理, 信息安全, 隐私, IT投资, 赛博安全]
-sources: [raw/papers/a130revised.pdf, raw/articles/a130revised.md]
+sources: [raw/papers/OMB通告A-130修订版.pdf, raw/articles/OMB通告A-130修订版.md]
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---
@@ -13,7 +13,7 @@ evidence: "直接从原始文档提取"
 
 ## 文档元数据
 
-- **文件名**: a130revised.pdf (550 KB)
+- **文件名**: OMB通告A-130修订版.pdf (550 KB)
 - **全称**: Circular No. A-130, "Managing Information as a Strategic Resource"
 - **发布机构**: 美国行政管理和预算办公室 (OMB)
 - **适用范围**: 执行部门所有联邦机构的信息资源管理活动

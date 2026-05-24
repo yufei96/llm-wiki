@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: topic
 tags: [SysML, MBSE, 数字工程, MOSA, 过渡, 瓶颈, DoDI 5000.97]
-sources: [raw/papers/SysML-v2-Basics-2024.pdf, raw/papers/Thurs_1560710_Stirk.pdf, raw/papers/SysML-v2-TransitionOutline-1.1.pdf, raw/papers/SysML-Info-Sheet-Jan2025.pdf, raw/papers/dsb-digital-engineering-2024.pdf]
+sources: [raw/papers/SysML v2基础2024.pdf, raw/papers/星期四-Stirk演讲.pdf, raw/papers/SysML v2过渡纲要1.1.pdf, raw/papers/SysML信息页2025年1月.pdf, raw/papers/科学委员会数字工程2024.pdf]
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

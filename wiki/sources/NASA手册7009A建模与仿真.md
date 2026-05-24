@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-21
 tags: [NASA, NASA手册, M&S, 建模与仿真, 验证, 确认, V&V, 可信度, 不确定性量化, MOSA]
 source:
-  - raw/papers/NASA-HDBK-7009A.pdf
-  - raw/articles/nasa-hdbk-7009a.md
+  - raw/papers/NASA手册7009A-有限元分析.pdf
+  - raw/articles/NASA手册7009A-有限元分析.md
 confidence: EXTRACTED
 evidence: "从NASA-HDBK-7009A原始PDF（2019年Revision A, 157页）深度提取"
 type: source

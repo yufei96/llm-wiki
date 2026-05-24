@@ -1,10 +1,20 @@
+![llm-wiki](https://socialify.git.ci/yufei96/llm-wiki/image?description=1&font=JetBrains+Mono&language=1&name=1&owner=1&pattern=Signal&stargazers=1&theme=Auto)
+
+[![license](https://img.shields.io/github/license/yufei96/llm-wiki)](LICENSE)
+[![website](https://img.shields.io/website?url=https%3A%2F%2Fwiki.05132024.xyz)](https://wiki.05132024.xyz)
+[![last commit](https://img.shields.io/github/last-commit/yufei96/llm-wiki)](https://github.com/yufei96/llm-wiki)
+[![repo size](https://img.shields.io/github/repo-size/yufei96/llm-wiki)](https://github.com/yufei96/llm-wiki)
+[![stars](https://img.shields.io/github/stars/yufei96/llm-wiki?style=social)](https://github.com/yufei96/llm-wiki)
+
+Forked from [karpathy/llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+
 # MOSA 知识库
 
 **Modular Open Systems Approach (MOSA) 与数字工程知识库**
 
 国防开放系统架构、智能网联汽车、军事开放标准的中文知识库。涵盖 MOSA、GRA、FACE、SOSA、CMOSS、WOSA、OMS 等标准体系。
 
-📊 当前规模：**266 篇知识页面** · **255 篇原始文档** · **1,874+ 交叉引用**
+📊 当前规模：**272 篇知识页面** · **167 篇原始文档** · **1,874+ 交叉引用**
 
 ## 快速开始
 
@@ -17,7 +27,7 @@
 ### 📥 下载使用
 
 ```bash
-git clone https://gitee.com/yufei96/llm-wiki.git
+git clone https://github.com/yufei96/llm-wiki.git
 cd llm-wiki
 ```
 
@@ -77,6 +87,7 @@ llm-wiki/
 │   └── wiki-health-check.py# 健康检查（死链/孤儿页/标签覆盖率）
 ├── Makefile                 # 一键构建部署
 ├── SCHEMA.md                # 知识库规范
+├── 缩略语词典.md            # MOSA 领域缩写对照
 └── mkdocs.yml               # 网站配置
 ```
 
@@ -115,24 +126,6 @@ raw/（原始 PDF/文本，不可变）
 | `comparisons/` | 有什么区别 | 跨标准/跨方法对比分析 |
 | `sources/` | 文档说了什么 | 单篇摘要、提取关键论点 |
 
-## 构建特性
-
-### Mermaid 图表支持
-
-核心概念页使用 Mermaid 图表（`block-beta`、`graph TB`、`graph LR`）展示架构关系。当前覆盖：SOSA 三层架构、A-GRA 四层体系、MOSA 五大支柱、GRA 变体关系、标准层级分类。
-
-### 健康检查
-
-```bash
-make check   # 自动检测：死链、孤儿页、标签覆盖率、YAML 完整性
-```
-
-当前状态：**0 死链** · **8 孤儿页**（均为低频来源文档）· **161 个标签映射**
-
-### 标签分类
-
-每个 section 有独立的标签→分类映射（`doc_config.py`），确保导航和索引按语义分组而非按字母排列。
-
 ## 数据来源
 
 - 美国国防部公开报告（DOTE、GAO、CRS、DSB）
@@ -156,25 +149,9 @@ make check   # 自动检测：死链、孤儿页、标签覆盖率、YAML 完整
 - 所有页面必须有 YAML frontmatter（`type`、`tags`、`sources`、`confidence`）
 - 使用 `[[wikilinks]]` 建立交叉引用
 
-## 项目结构演进
-
-- **2026-05-24**：拆分 `build-site.py` → `doc_config.py` + `link_converter.py` + `site_builder.py`；新增 `Makefile`；nav 自动生成；Mermaid 图表支持
-- **2026-05-16**：新增 `wiki-ingest.py` 批量入库管道；`wiki-health-check.py` 健康检查
-- **2026-05-10**：`check-yaml.py` YAML 完整性预检；`build-site.py` 自动索引生成
-
 ## 许可证
 
 [CC BY-SA 4.0](LICENSE)
-
-## 相关项目
-
-- [LLM Wiki](https://github.com/karpathy/llm-wiki) — Andrej Karpathy 的知识库模式
-- [MOSA 官方资源](https://www.acq.osd.mil/se/mosa/) — 美国国防部 MOSA 资源
-
-## 联系方式
-
-- 问题反馈：[Issues](https://gitee.com/yufei96/llm-wiki/issues)
-- 讨论交流：[Discussions](https://gitee.com/yufei96/llm-wiki/discussions)
 
 ---
 

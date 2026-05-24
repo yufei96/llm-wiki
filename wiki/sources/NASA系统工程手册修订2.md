@@ -3,7 +3,7 @@ title: "NASA系统工程手册 Rev2"
 created: 2026-05-21
 updated: 2026-05-21
 tags: [NASA, 系统工程, 手册, SE引擎, 生命周期, 设计过程]
-source: [raw/papers/NASA-SP-2016-6105-Rev2.pdf, raw/articles/NASA特别出版物2016-6105修订2.md]
+source: [raw/papers/NASA特别出版物2016-6105修订2.pdf, raw/articles/NASA特别出版物2016-6105修订2.md]
 confidence: EXTRACTED
 type: source
 ---

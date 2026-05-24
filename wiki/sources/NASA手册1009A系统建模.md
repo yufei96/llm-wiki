@@ -3,7 +3,7 @@ title: "NASA-HDBK-1009A — NASA系统建模手册"
 created: 2026-05-07
 updated: 2026-05-21
 tags: [NASA, 系统建模, SysML, MBSE, 系统工程, 手册, 元模型]
-source: [raw/papers/2025-03-12-NASA-HDBK-1009A.pdf, raw/articles/2025-03-12-NASA-HDBK-1009A.md]
+source: [raw/papers/NASA手册1009A-非金属材料控制.pdf, raw/articles/NASA手册1009A-非金属材料控制.md]
 confidence: EXTRACTED
 type: source
 ---

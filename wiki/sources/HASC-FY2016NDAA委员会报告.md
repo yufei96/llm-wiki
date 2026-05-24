@@ -3,7 +3,7 @@ title: "HASC Report 114-102 — FY2016 NDAA 委员会报告"
 created: 2026-04-19
 updated: 2026-04-19
 type: source
-sources: [raw/papers/hasc_report_114-102.pdf, raw/articles/hasc_report_114-102.md]
+sources: [raw/papers/HASC报告114-102.pdf, raw/articles/HASC报告114-102.md]
 author: "众议院军事委员会"
 tags: [NDAA, FY2016, 采办改革, 国会报告]
 confidence: EXTRACTED

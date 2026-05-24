@@ -3,7 +3,7 @@ title: "CAE SCARS Program"
 created: 2026-05-07
 updated: 2026-05-07
 tags: [SCARS, CAE, 模拟器, 训练系统]
-source: raw/articles/cae-scars-program.md
+source: raw/articles/CAE公司SCARS项目.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -24,4 +24,4 @@ CAE公司官方页面介绍其作为SCARS（模拟器通用架构需求标准）
 ## 原文来源
 
 - https://www.cae.com/defense-security/program-highlights/simulator-common-architecture-requirements-standards-scars/
-- 原始文件: `raw/articles/cae-scars-program.md`
+- 原始文件: `raw/articles/CAE公司SCARS项目.md`

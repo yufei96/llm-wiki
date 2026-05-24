@@ -3,7 +3,7 @@ title: "OUSD(R&E) SysML v1→v2 过渡指导"
 created: 2026-04-26
 updated: 2026-04-26
 type: source
-sources: [raw/papers/SysML-Info-Sheet-Jan2025.pdf, raw/papers/SysML-v2-TransitionOutline-1.1.pdf]
+sources: [raw/papers/SysML信息页2025年1月.pdf, raw/papers/SysML v2过渡纲要1.1.pdf]
 author: "OUSD(R&E) SE&A Digital Engineering, Modeling & Simulation (DEM&S)"
 tags: [SysML, MBSE, 数字工程, 过渡指导, OUSD, DoDI 5000.97]
 confidence: EXTRACTED

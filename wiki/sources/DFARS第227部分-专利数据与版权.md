@@ -4,7 +4,7 @@ created: 2026-04-05
 updated: 2026-04-20
 type: source
 tags: [DFARS, 数据权, 专利, 版权, MOSA合同执行]
-sources: [raw/papers/dfars_part-227---patents--data--and-copyrights.pdf, raw/articles/dfars_part-227---patents--data--and-copyrights.md]
+sources: [raw/papers/DFARS第227部分-专利数据与版权.pdf, raw/articles/DFARS第227部分-专利数据与版权.md]
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---

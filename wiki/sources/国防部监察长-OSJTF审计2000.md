@@ -54,4 +54,4 @@ type: source
 ## 来源
 
 - DoD IG Report No. D-2000-149, "Use of an Open Systems Approach for Weapon Systems," June 14, 2000
-- 原始文件：raw/papers/DoD-IG-OSJTF-Audit-2000.pdf, raw/articles/DoD-IG-OSJTF-Audit-2000.md
+- 原始文件：raw/papers/国防部监察长-OSJTF审计2000.pdf, raw/articles/国防部监察长-OSJTF审计2000.md

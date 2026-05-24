@@ -3,7 +3,7 @@ title: "SOSA VITA产品概览 — 传感器开放系统架构硬件指南"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [SOSA, VITA, OpenVPX, Elma, 硬件标准, 模块化, 传感器]
-source: [raw/papers/sosa-vita-products-capabilities.pdf, raw/articles/SOSA VITA产品能力.md]
+source: [raw/papers/SOSA VITA产品能力.pdf, raw/articles/SOSA VITA产品能力.md]
 confidence: EXTRACTED
 type: source
 ---

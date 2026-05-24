@@ -1,6 +1,6 @@
 site_name: MOSA 知识库
 site_description: Modular Open Systems Approach (MOSA) 与数字工程知识库 — 国防开放系统架构、智能网联汽车、军事开放标准
-repo_url: https://gitee.com/yufei96/llm-wiki
+repo_url: https://github.com/yufei96/llm-wiki
 repo_name: llm-wiki
 docs_dir: site/content
 site_dir: site/build
@@ -58,6 +58,6 @@ markdown_extensions:
 extra:
   social:
   - icon: fontawesome/brands/git-alt
-    link: https://gitee.com/yufei96/llm-wiki
+    link: https://github.com/yufei96/llm-wiki
   generator: false
 copyright: Copyright &copy; 2024-2026 MOSA Knowledge Base

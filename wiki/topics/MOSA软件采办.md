@@ -4,7 +4,7 @@ created: 2026-04-23
 updated: 2026-04-23
 type: topic
 tags: [MOSA, 软件采办, DevSecOps, DoDI 5000.87, 开放接口, 数据权利]
-sources: [raw/papers/dodi_5000.87.pdf]
+sources: [raw/papers/DoDI-5000-87.pdf]
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

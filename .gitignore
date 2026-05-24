@@ -1,38 +1,5 @@
-.git-credentials
-
-# Giant mutool text extraction outputs (>5MB) — can be regenerated from PDFs
-raw/articles/ndaa-2021-pl116-283.md
-raw/articles/ndaa-2020-pl116-92.md
-raw/articles/fy_2017_national_defense_authorization_act.md
-raw/articles/dfars_part-252---solicitation-provisions-and-contract-clauses.md
-raw/articles/face-technical-standard-edition-3.2.md
-raw/articles/gao-24-106831-weapon-systems-assessment.md
-raw/articles/hasc_report_114-102.md
-raw/articles/75195d4e-741e-4cee-8e1e-72ec9bc966ab.md
-raw/articles/peo-aviation-mosa-industry-2022.md
-raw/articles/mil-std-881d-wbs-defense-materiel-2018.md
-raw/articles/sosa-reference-architecture-v2.md
-raw/articles/dsp-journal-mosa-200101.md
-raw/articles/osa-contract-guidebook-v1.1-2013.md
-raw/articles/mosa-us-defense-acquisition-shah-2021.md
-raw/articles/a130revised.md
-raw/articles/mora-modular-open-rf-architecture.md
-raw/articles/dau-next-gen-acquisition-2024.md
-raw/articles/navair-osmp-guide-v1-2025.md
-raw/articles/ndia-cfw-icd-wright-2015.md
-raw/articles/ntsa-scars-stcf-2025.md
-raw/articles/crs-nc3-if11697.md
-raw/articles/dtic-nc3-architecture-ada619949.md
-raw/articles/senate-defense-hunter-testimony-2024.md
-raw/articles/crs-sentinel-icbm-if11681.md
-raw/articles/dvids-r-egi-pnt-flight-2024.md
-raw/articles/samgov-uai-rfi.md
-raw/articles/afgsc-sentinel-gbsd.md
-
-# MkDocs build output (keep scripts/config, exclude generated HTML)
+raw/
 site/build/
-
-# Build artifacts
 site/content/
 site/__pycache__/
 *.zip

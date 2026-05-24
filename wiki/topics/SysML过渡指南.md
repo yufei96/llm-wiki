@@ -3,12 +3,12 @@ title: "SysML v1 到 v2 过渡指南"
 type: topic
 date: 2026-05-17
 sources:
-  - raw/articles/omg-mbse-sysml-v2-transition.md
-  - raw/articles/omg-mbse-sysml-v2-faq.md
-  - raw/articles/omg-mbse-sysml-v2-transition-plan.md
-  - raw/articles/omg-mbse-sysml-v2-tool-checklist.md
-  - raw/articles/omg-mbse-sysml-v2-env-setup.md
-  - raw/articles/omg-mbse-sysml-v2-model-conversion.md
+  - raw/articles/SysML-v2迁移体系.md
+  - raw/articles/SysML-v2迁移体系.md
+  - raw/articles/SysML-v2迁移体系.md
+  - raw/articles/SysML-v2迁移体系.md
+  - raw/articles/SysML-v2迁移体系.md
+  - raw/articles/SysML-v2迁移体系.md
 tags: [MBSE, systems-engineering, OMG, INCOSE]
 ---
 
@@ -46,9 +46,9 @@ SysML v2 的标准化 API 和服务接口与模块化开放系统方法（MOSA�
 
 ## 来源
 
-- [[raw/articles/omg-mbse-sysml-v2-transition.md]]
-- [[raw/articles/omg-mbse-sysml-v2-faq.md]]
-- [[raw/articles/omg-mbse-sysml-v2-transition-plan.md]]
-- [[raw/articles/omg-mbse-sysml-v2-tool-checklist.md]]
-- [[raw/articles/omg-mbse-sysml-v2-env-setup.md]]
-- [[raw/articles/omg-mbse-sysml-v2-model-conversion.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]
+- [[raw/articles/SysML-v2迁移体系.md]]

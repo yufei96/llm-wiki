@@ -4,7 +4,7 @@ created: 2026-05-07
 updated: 2026-05-21
 tags: [SysML, SysML v2, OMG, 建模语言, MBSE, 标准]
 source:
-  - raw/papers/SysML-v2-specification.pdf
+  - raw/papers/SysML v2基础2024.pdf
 confidence: EXTRACTED
 evidence: "从原始PDF和OMG公开资料综合提取"
 type: source

@@ -34,4 +34,4 @@ tags: [MBSE, systems-engineering, OMG, INCOSE]
 
 ## 来源
 
-- [[raw/articles/omg-mbse-deco-ecosystems.md]]
+- [[raw/articles/OMG-MBSE体系.md]]

@@ -9,7 +9,7 @@ sources:
   - raw/articles/NAVAIR-OSMP指南V1 2025.md
   - raw/articles/海军MOSA实施指南V1.0.md
   - raw/articles/NDIA-MOSA白皮书2020.md
-  - raw/articles/GAO-25-106931-mosa-review.md
+  - raw/articles/GAO-25-106931 MOSA审查.md
   - raw/articles/WOSA架构工具分析.md
   - raw/articles/可组合武器-雷神公司.md
   - raw/articles/空军研究实验室-灵活武器2014.md
@@ -242,7 +242,7 @@ MSA              TMRR              EMD              P&D              O&S
 - [[六项已验证的MOSA标准]] — 三军备忘录确认的6大标准
 - [[国防部MOSA实施指南2025]] — DoD 2025实施指南原文
 - [[GAO-MOSA专项审查报告全文]] — GAO审查20项目报告
-- [[raw/articles/海军MOSA实施指南V1.0|海军MOSA实施指南V1]] — 海军指南（含灰盒原则原文）
+- [[raw/articles/海军MOSA实施指南V1.0.md]] — 海军指南（含灰盒原则原文）
 - [[可组合武器-雷神公司]] — Raytheon 9子系统实践
 - [[空军研究实验室-灵活武器2014]] — AFRL柔性武器概念
 - [[灵活武器架构-普渡大学2015]] — Purdue架构论文

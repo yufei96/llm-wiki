@@ -2,7 +2,7 @@
 title: "Making MOSA Work in Avionics — 航电MOSA实施六大摩擦点"
 type: source
 created: 2026-05-18
-source: [raw/articles/空军航电MOSA实施六大摩擦点.md]
+source: [raw/articles/军事嵌入式-MOSA航电2026.md]
 tags: [MOSA, 航电, 航空, Military Embedded]
 confidence: EXTRACTED
 ---

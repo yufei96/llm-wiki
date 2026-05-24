@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [UAI, CFW, ICD, 武器接口, SAM.gov]
 source:
-  - raw/papers/samgov-uai-rfi.pdf
-  - raw/articles/samgov-uai-rfi.md
+  - raw/papers/SAM.gov-UAI信息征求.pdf
+  - raw/articles/SAM.gov-UAI信息征求.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -26,4 +26,4 @@ type: source
 ## 原文来源
 
 - https://sam.gov/opp/71a7c60afc4546d39f6c7f73944c215b/view
-- 原始文件: `raw/papers/samgov-uai-rfi.pdf`, `raw/articles/samgov-uai-rfi.md`
+- 原始文件: `raw/papers/SAM.gov-UAI信息征求.pdf`, `raw/articles/SAM.gov-UAI信息征求.md`

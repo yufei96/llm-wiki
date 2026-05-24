@@ -4,8 +4,8 @@ created: 2026-05-21
 updated: 2026-05-21
 tags: [MIL-HDBK-1211, 导弹仿真, 地空导弹, 飞行仿真, 陆军手册, 数学建模]
 source:
-  - raw/papers/75195d4e-741e-4cee-8e1e-72ec9bc966ab.pdf
-  - raw/articles/未命名文档-75195d4e.md
+  - raw/papers/MIL-HDBK-1211导弹飞行仿真.pdf
+  - raw/articles/MIL-HDBK-1211导弹飞行仿真.md
 confidence: EXTRACTED
 evidence: "从PDF提取MIL-HDBK-1211(MI)全文内容"
 type: source

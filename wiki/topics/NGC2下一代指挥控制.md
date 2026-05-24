@@ -4,7 +4,7 @@ created: 2026-05-12
 updated: 2026-05-12
 type: topic
 tags: [NGC2, Army, MOSA, C2, 指挥控制, 地面作战, 航空平台, 开放架构]
-sources: [raw/articles/陆军NGC2-MOSA信息征求.md]
+sources: [raw/articles/SAM-GOV-NGC2-MOSA信息征求.md]
 confidence: EXTRACTED
 evidence: "基于SAM.gov RFI (W15P7T-25-R-RFI)"
 ---

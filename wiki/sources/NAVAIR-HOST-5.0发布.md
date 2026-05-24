@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-05-21
 type: source
 tags: [HOST, NAVAIR, PMA-209, 硬件标准, 开放架构, 嵌入式计算, MOSA, 元器件淘汰]
-sources: [raw/papers/Navypromoteslatestha.pdf, raw/articles/Navypromoteslatestha.md]
+sources: [raw/papers/海军推进最新HOST硬件架构.pdf, raw/articles/海军推进最新HOST硬件架构.md]
 confidence: EXTRACTED
 evidence: "从原始文档深度提取，2026-05-21"
 ---

@@ -4,7 +4,7 @@ created: 2026-05-12
 updated: 2026-05-12
 type: topic
 tags: [MOSA, 航电, 认证, DO-178C, DO-254, OpenVPX, FACE, SOSA, 集成, 网络安全, 实施挑战]
-sources: [raw/articles/空军航电MOSA实施六大摩擦点.md, raw/articles/NAVAIR第三届MOSA峰会2026.md]
+sources: [raw/articles/军事嵌入式-MOSA航电2026.md, raw/articles/NAVAIR-2026-MOSA研讨会.md]
 confidence: EXTRACTED
 evidence: "基于Military Embedded Systems 2026年5月文章"
 ---

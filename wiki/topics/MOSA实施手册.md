@@ -4,7 +4,7 @@ created: 2026-04-05
 updated: 2026-04-20
 type: topic
 tags: [MOSA, 实施指南, 五大支柱, OUSD-R&E, 合同]
-sources: [raw/papers/mosa-implementation-guidebook-2025.pdf, raw/papers/osa-contract-guidebook-v1.1-rev1.pdf]
+sources: [raw/papers/国防部MOSA实施指南2025.pdf, raw/papers/开放系统架构合同指南文章2013.pdf]
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

@@ -11,11 +11,16 @@ stats:
 	@python3 $(ROOT)/scripts/update-stats.py
 
 # ── Health checks ──
-check: check-yaml lint
+check: check-yaml lint verify-refs
 
 check-yaml:
 	@echo "=== YAML Integrity Check ==="
 	@python3 $(ROOT)/site/check-yaml.py && echo "OK"
+
+verify-refs:
+	@echo "=== Raw Reference Verification ==="
+	@python3 $(ROOT)/scripts/verify-refs.py
+	@echo "  OK"
 
 lint:
 	@echo "=== Wiki Lint ==="
@@ -34,7 +39,7 @@ graph:
 # ── Deploy — builds fresh, auto-updates stats, checks, then deploys ──
 deploy: all
 	@echo "=== Deploy to Cloudflare ==="
-	@source ~/.bashrc && cd $(ROOT) && wrangler pages deploy --commit-message "EN" --commit-dirty=true
+	@source ~/.bashrc && cd $(ROOT)/site && wrangler pages deploy --commit-message "EN" --commit-dirty=true
 	@echo "✓ Deployed"
 
 # ── Local preview ──

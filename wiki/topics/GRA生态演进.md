@@ -5,16 +5,16 @@ updated: 2026-05-06
 type: topic
 tags: [GRA, MOSA, 架构体系, 生态演进, CCA, 领域扩张]
 sources:
-  - raw/articles/Chris-Garrett-Presentation-Sep-2024.md
-  - raw/articles/dau-next-gen-acquisition-2024.md
-  - raw/articles/csis-mosa-burden-sharing-2025.md
-  - raw/articles/afrc-a-gra-cca-validation-2025.md
-  - raw/articles/senate-defense-hunter-testimony-2024.md
-  - raw/articles/crs-nc3-if11697.md
-  - raw/articles/crs-sentinel-icbm-if11681.md
-  - raw/articles/dvids-r-egi-pnt-flight-2024.md
-  - raw/articles/usaf-coarps-rfi-2021.md
-  - raw/articles/ntsa-scars-stcf-2025.md
+  - raw/articles/克里斯-加勒特演讲2024年9月.md
+  - raw/articles/DAU下一代采办2024.md
+  - raw/articles/CSIS-MOSA责任分担报告2025.md
+  - raw/articles/空军预备役-A-GRA CCA验证2025.md
+  - raw/articles/参议院Hunter证词2024.md
+  - raw/articles/CRS报告-NC3 IF11697.md
+  - raw/articles/CRS报告-哨兵洲际导弹IF11681.md
+  - raw/articles/DVIDS-R-EGI导航飞行测试2024.md
+  - raw/articles/空军COARPS信息征求2021.md
+  - raw/articles/NTSA模拟器通用架构与需求简报2025.md
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

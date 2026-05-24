@@ -5,14 +5,14 @@ updated: 2026-05-08
 type: topic
 tags: [MOSA, 全寿命周期, 采办阶段, MSA, TMRR, EMD, P&D, O&S, 10 USC 4401, DoDI 5000.85]
 sources:
-  - raw/articles/mosa-implementation-guidebook-27feb2025-cleared.md
-  - raw/articles/dodi-5000.85-major-capability-acquisition-2020.md
-  - raw/articles/gao-25-106931-mosa-review.md
-  - raw/articles/u-s-army-portfolio-2024.md
-  - raw/articles/prsm-mosa-case.md
-  - raw/articles/flraa-mv75-mosa-case.md
-  - raw/articles/b21-raider-mosa-case.md
-  - raw/articles/xm30-micv-mosa.md
+  - raw/articles/国防部MOSA实施指南2025.md
+  - raw/articles/DoDI-5000-85重大能力采办2020.md
+  - raw/articles/GAO-25-106931 MOSA审查.md
+  - raw/articles/美国陆军投资组合2024.md
+  - raw/articles/精确打击导弹MOSA案例.md
+  - raw/articles/FLRAA-MV75 MOSA案例.md
+  - raw/articles/B-21突袭者MOSA案例.md
+  - raw/articles/CRS报告IF12094-XM30 MICV.md
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

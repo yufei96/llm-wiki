@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: topic
 tags: [NIST, 赛博弹性, MOSA, 安全性, 架构设计, 模块化, 设计原则]
-sources: [raw/papers/NIST.SP.800-160v2r1.pdf, raw/papers/a130revised.pdf, raw/papers/dodi-5000.97-digital-engineering.pdf]
+sources: [raw/papers/NIST特别出版物800-160v2r1.pdf, raw/papers/OMB通告A-130修订版.pdf, raw/papers/DoDI-5000-97数字工程.pdf]
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

@@ -4,7 +4,7 @@ created: 2026-05-17
 updated: 2026-05-21
 type: source
 tags: [MBSE, DevSecOps, 成熟度, CMU, SEI, CERT, PIM, 管道, 能力评估]
-sources: [raw/papers/MBSE定义DevSecOps能力成熟度.pdf, raw/articles/mbse定义devsecops能力成熟度.md]
+sources: [raw/papers/mbse定义devsecops能力成熟度.pdf, raw/articles/mbse定义devsecops能力成熟度.md]
 confidence: EXTRACTED
 evidence: "从原文深度提取，2026-05-21"
 ---

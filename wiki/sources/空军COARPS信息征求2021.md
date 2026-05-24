@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [COARPS, RFI, 雷达, USAF]
 source:
-  - raw/papers/usaf-coarps-rfi-2021.docx
-  - raw/articles/usaf-coarps-rfi-2021.md
+  - raw/repos/usaf-coarps-rfi-2021.docx
+  - raw/articles/空军COARPS信息征求2021.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -26,4 +26,4 @@ type: source
 ## 原文来源
 
 - https://sam.gov/opp/48da7c685db04ea394080bfc784d9b68/view
-- 原始文件: `raw/papers/usaf-coarps-rfi-2021.docx`, `raw/articles/usaf-coarps-rfi-2021.md`
+- 原始文件: `raw/repos/usaf-coarps-rfi-2021.docx`, `raw/articles/空军COARPS信息征求2021.md`

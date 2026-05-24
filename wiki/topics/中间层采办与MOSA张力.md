@@ -4,7 +4,7 @@ created: 2026-04-23
 updated: 2026-04-26
 type: topic
 tags: [MTA, 中间采办, MOSA, 速度, 模块化, DoDI 5000.80, 政策张力]
-sources: [raw/papers/dodi-5000.80-middle-tier-acquisition.pdf, raw/papers/gao-24-106831-weapon-systems-assessment.pdf]
+sources: [raw/papers/DoDI-5000-80中间层采办.pdf, raw/papers/GAO-24-106831武器系统评估.pdf]
 confidence: INFERRED
 evidence: "基于多源综合分析"
 ---

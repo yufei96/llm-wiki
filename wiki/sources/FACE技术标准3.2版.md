@@ -3,7 +3,7 @@ title: "FACE技术标准 V3.2"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [FACE, 航电, 开放标准, The Open Group, 软件架构, 互操作]
-source: [raw/papers/face-technical-standard-edition-3.2.pdf, raw/articles/face-technical-standard-edition-3.2.md]
+source: [raw/papers/FACE技术标准3.2版.pdf, raw/articles/FACE技术标准3.2版.md]
 confidence: EXTRACTED
 type: source
 ---

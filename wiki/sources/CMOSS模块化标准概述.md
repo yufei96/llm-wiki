@@ -3,7 +3,7 @@ title: "CMOSS — C5ISR/EW模块化开放标准套件概述"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [CMOSS, C5ISR, 电子战, 模块化标准, 陆军, DEVCOM, MOSA]
-source: [raw/papers/cmoss-overview-2022.pdf, raw/articles/cmoss-overview-2022.md]
+source: [raw/papers/CMOSS概述2022.pdf, raw/articles/CMOSS概述2022.md]
 confidence: EXTRACTED
 type: source
 ---

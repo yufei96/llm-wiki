@@ -3,7 +3,7 @@ title: "鸿蒙智行官网：HIMA联盟与核心技术"
 created: 2026-05-07
 updated: 2026-05-07
 tags: [华为, 鸿蒙智行, 智能座舱, ADS, 智能汽车]
-source: raw/articles/hima-harmony-intelligent-mobility.md
+source: raw/articles/HIMA和谐智能出行.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -38,4 +38,4 @@ type: source
 ## 原文来源
 
 - 鸿蒙智行官网: https://hima.auto/
-- 原始文件: `raw/articles/hima-harmony-intelligent-mobility.md`
+- 原始文件: `raw/articles/HIMA和谐智能出行.md`

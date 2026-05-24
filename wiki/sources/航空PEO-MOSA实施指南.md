@@ -3,7 +3,7 @@ title: "PEO航空 MOSA实施指南 2021"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [PEO航空, MOSA, 实施指南, 陆军, 航电, 企业架构]
-source: [raw/papers/peo-aviation-mosa-implementation-guide.pdf, raw/articles/peo-aviation-mosa-implementation-guide.md]
+source: [raw/papers/航空PEO-MOSA实施指南.pdf, raw/articles/航空PEO-MOSA实施指南.md]
 confidence: EXTRACTED
 type: source
 ---

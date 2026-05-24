@@ -3,7 +3,7 @@ title: "DSP Journal 2020 — MOSA专刊"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [MOSA, CMOSS, VICTORY, MORA, 标准化, DSPO, 综述, OSD, tiger team]
-source: [raw/papers/dsp-journal-mosa-200101.pdf, raw/articles/dsp-journal-mosa-200101.md]
+source: [raw/papers/DSP期刊-MOSA方法2001年1月.pdf, raw/articles/DSP期刊-MOSA方法2001年1月.md]
 confidence: EXTRACTED
 type: source
 ---

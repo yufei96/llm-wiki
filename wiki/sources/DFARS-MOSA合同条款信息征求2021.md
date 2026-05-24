@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [MOSA, DFARS, 合同, 采办法规]
-sources: [raw/articles/dfars-2021-d005-mosa-rfi.md]
+sources: [raw/articles/DFARS 2021 MOSA信息征求.md]
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---

@@ -48,4 +48,4 @@ type: source
 ## 来源
 
 - AFGSC Sentinel官方网站：https://www.afgsc.af.mil/Sentinel-GBSD/
-- 原始文件：raw/papers/afgsc-sentinel-gbsd.pdf, raw/articles/afgsc-sentinel-gbsd.md
+- 原始文件：raw/papers/空军全球打击司令部-哨兵GBSD.pdf, raw/articles/GovConWire-哨兵GBSD.md

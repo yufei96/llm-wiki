@@ -5,7 +5,7 @@ updated: 2026-05-08
 type: source
 tags: [MOATEL, WOSA, AFRL, 弹药, 验证, 测试, 数字孪生, SiAW, 高超音速]
 sources:
-  - raw/articles/moatel-afmc-verification-2022.md
+  - raw/articles/MOATEL空军装备司令部验证2022.md
   - https://afresearchlab.com/afmc-utilizes-moatel-as-verification-resource/
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"

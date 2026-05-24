@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [A-GRA, CCA, 自主系统, 飞行验证]
 source:
-  - raw/papers/afrc-a-gra-cca-validation-2025.pdf
-  - raw/articles/afrc-a-gra-cca-validation-2025.md
+  - raw/papers/空军预备役-A-GRA CCA验证2025.pdf
+  - raw/articles/空军预备役-A-GRA CCA验证2025.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -26,4 +26,4 @@ type: source
 ## 原文来源
 
 - https://www.afrc.af.mil/News/Article/4405471/
-- 原始文件: `raw/papers/afrc-a-gra-cca-validation-2025.pdf`, `raw/articles/afrc-a-gra-cca-validation-2025.md`
+- 原始文件: `raw/papers/空军预备役-A-GRA CCA验证2025.pdf`, `raw/articles/空军预备役-A-GRA CCA验证2025.md`

@@ -3,7 +3,7 @@ title: "Wikipedia: LGM-35 Sentinel"
 created: 2026-05-07
 updated: 2026-05-07
 tags: [Sentinel, ICBM, 维基百科]
-source: raw/articles/wikipedia-lgm35-sentinel.md
+source: raw/articles/维基百科-LGM-35哨兵导弹.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -26,4 +26,4 @@ type: source
 ## 原文来源
 
 - https://en.wikipedia.org/wiki/LGM-35_Sentinel
-- 原始文件: `raw/articles/wikipedia-lgm35-sentinel.md`
+- 原始文件: `raw/articles/维基百科-LGM-35哨兵导弹.md`

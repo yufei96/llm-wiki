@@ -3,7 +3,7 @@ title: "INCOSE系统工程手册 V5"
 created: 2026-05-21
 updated: 2026-05-21
 tags: [INCOSE, 系统工程, 手册, SEH, 生命周期, 过程, MBSE]
-source: [raw/papers/INCOSE-SE-Handbook-V5.pdf, raw/articles/INCOSE系统工程手册V5.md]
+source: [raw/papers/INCOSE系统工程手册V5.pdf, raw/articles/INCOSE系统工程手册V5.md]
 confidence: EXTRACTED
 type: source
 ---

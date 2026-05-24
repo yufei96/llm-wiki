@@ -4,7 +4,7 @@ created: 2026-04-20
 updated: 2026-04-20
 type: entity
 tags: [系统工程, 培训, 咨询, 需求工程, DID模板]
-sources: [raw/papers/ppi-did-*.pdf, raw/papers/ppi-business-case-*.pdf]
+sources: [PPI-DID数据项描述系列, PPI业务案例工作说明书系列]
 confidence: EXTRACTED
 evidence: "基于原始文档综合"
 ---

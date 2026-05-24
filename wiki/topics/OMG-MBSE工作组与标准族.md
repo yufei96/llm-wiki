@@ -3,12 +3,12 @@ title: "OMG MBSE 倡议：工作组与标准族"
 type: topic
 date: 2026-05-18
 sources:
-  - raw/articles/omg-mbse-overview.md
-  - raw/articles/omg-mbse-modelmgt.md
-  - raw/articles/omg-mbse-methodology.md
-  - raw/articles/omg-mbse-standards.md
-  - raw/articles/omg-mbse-modsim.md
-  - raw/articles/OMG-MBSE工作组与标准族.md
+  - raw/articles/OMG-MBSE体系.md
+  - raw/articles/OMG-MBSE体系.md
+  - raw/articles/OMG-MBSE体系.md
+  - raw/articles/OMG-MBSE体系.md
+  - raw/articles/OMG-MBSE体系.md
+  - raw/articles/OMG-MBSE体系.md
 tags: [MBSE, systems-engineering, OMG, INCOSE, SysML]
 ---
 

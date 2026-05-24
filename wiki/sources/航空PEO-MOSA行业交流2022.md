@@ -3,7 +3,7 @@ title: "PEO Aviation MOSA Transformation Office Industry Day 2022"
 created: 2026-04-19
 updated: 2026-04-29
 type: source
-sources: [raw/papers/PEO_Aviation_MOSA_TO_Industry_Days_2022.pdf, raw/articles/PEO_Aviation_MOSA_TO_Industry_Days_2022.md]
+sources: [raw/papers/航空PEO-MOSA行业日2022.pdf, raw/articles/航空PEO-MOSA行业交流2022.md]
 author: "Matt Sipe (MOSA Director), Scott Dennis (Chief Technical Architect), Wren Keith, Jesse Givens, Mark Chess, Jeff Belanger, Greg Bordelon, Mark Hasemeyer"
 tags: [PEO Aviation, MOSA实施, 陆军航空, 行业合作, 企业架构, CSM, EAF, MOSA一致性]
 confidence: EXTRACTED

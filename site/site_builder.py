@@ -197,7 +197,37 @@ def main():
         shutil.copy2(f, SITE_OUT / f.name)
         print(f"  Copied root file: {f.name}")
 
-    # Symlink individual raw/ .md files
+    # ── Inject GitHub Release PDF download links into source pages ──
+    RELEASE_URL = "https://github.com/yufei96/llm-wiki/releases/download/raw-v2-aligned"
+    RELEASE_MAP = ROOT / "raw" / "release-map.tsv"
+    release_map = {}  # ChineseName → ReleaseName
+    if RELEASE_MAP.exists():
+        for line in RELEASE_MAP.read_text(encoding='utf-8').strip().split('\n')[1:]:
+            parts = line.split('\t')
+            if len(parts) == 2:
+                release_map[parts[0]] = parts[1]
+
+    release_links_added = 0
+    if release_map:
+        for md_file in sorted(BUILD_DIR.rglob("*.md")):
+            content = md_file.read_text(encoding='utf-8')
+            new_content = content
+            # Look for raw/papers/xxx.pdf references and append Release link
+            for m in re.finditer(r'raw/papers/([^\s\)\]\"\'\]\[,]+)', content):
+                pdf_name = m.group(1).rstrip('`').rstrip('\u3002')
+                if pdf_name in release_map and release_map[pdf_name]:
+                    en_name = release_map[pdf_name]
+                    release_url = f"{RELEASE_URL}/{en_name}"
+                    download_line = f"\n- 📄 [PDF原文]({release_url})"
+                    if download_line not in new_content:
+                        new_content += download_line
+                        release_links_added += 1
+            if new_content != content:
+                md_file.write_text(new_content, encoding='utf-8')
+    if release_links_added:
+        print(f"  Injected {release_links_added} Release download links into source pages")
+
+    # Symlink raw/ text files (no PDFs — served via GitHub Release links)
     raw_link_root = SITE_OUT / "raw"
     if RAW_SRC.exists():
         if raw_link_root.exists() or raw_link_root.is_symlink():
@@ -206,13 +236,17 @@ def main():
             else:
                 shutil.rmtree(raw_link_root)
         raw_linked = 0
-        for md_file in RAW_SRC.rglob("*.md"):
-            dst = raw_link_root / md_file.relative_to(RAW_SRC)
+        for f in RAW_SRC.rglob("*"):
+            if f.is_dir():
+                continue
+            if f.suffix.lower() in ('.pdf', '.png', '.jpg', '.jpeg', '.svg'):
+                continue
+            dst = raw_link_root / f.relative_to(RAW_SRC)
             dst.parent.mkdir(parents=True, exist_ok=True)
             if not dst.exists():
-                dst.symlink_to(os.path.relpath(md_file, dst.parent))
+                dst.symlink_to(os.path.relpath(f, dst.parent))
                 raw_linked += 1
-        print(f"  Symlinked {raw_linked} raw/*.md files to build output")
+        print(f"  Symlinked {raw_linked} raw/ files (text only; PDFs via Release links)")
 
     # Count output
     if SITE_OUT.exists():

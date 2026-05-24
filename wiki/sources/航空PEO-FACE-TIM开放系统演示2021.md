@@ -3,7 +3,7 @@ title: "PEO Aviation FACE TIM 2021 Open Systems Demonstration"
 created: 2026-04-29
 updated: 2026-04-29
 type: source
-sources: [raw/papers/peo-avn-face-tim-2021-presentation.pdf, raw/articles/peo-avn-face-tim-2021-presentation.md]
+sources: [raw/papers/航空PEO FACE TIM 2021演示.pdf, raw/articles/航空PEO FACE TIM 2021演示.md]
 author: "Christopher Edwards, PEO Aviation MOSA Transformation Office"
 tags: [PEO Aviation, FACE标准, 开放系统演示, TIM, MOSA一致性, TSS, ARINC-661, AMCE]
 confidence: EXTRACTED

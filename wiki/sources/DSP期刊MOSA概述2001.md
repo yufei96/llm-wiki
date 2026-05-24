@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-07
 tags: [MOSA, DSP, 标准化, MOSWG, MOSS]
 source:
-  - raw/papers/DSP-Journal-MOSA-2001.pdf
-  - raw/articles/DSP-Journal-MOSA-2001.md
+  - raw/papers/DSP期刊-MOSA方法2001.pdf
+  - raw/articles/DSP期刊-MOSA方法2001年1月.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 type: source
@@ -35,4 +35,4 @@ type: source
 ## 原文来源
 
 - DSP Journal: https://www.dsp.dla.mil
-- 原始文件: `raw/papers/DSP-Journal-MOSA-2001.pdf`, `raw/articles/DSP-Journal-MOSA-2001.md`
+- 原始文件: `raw/papers/DSP期刊-MOSA方法2001.pdf`, `raw/articles/DSP期刊-MOSA方法2001年1月.md`

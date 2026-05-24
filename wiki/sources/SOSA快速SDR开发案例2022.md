@@ -2,7 +2,7 @@
 title: "SOSA's Rubber Is Meeting the Road — SOSA对齐SDR两周开发案例"
 type: source
 created: 2026-05-18
-source: [raw/articles/SOSA快速SDR开发案例2022.md]
+source: [raw/articles/SOSA快速SDR开发2022.md]
 tags: [SOSA, SDR, 快速开发, Military Embedded]
 confidence: EXTRACTED
 ---

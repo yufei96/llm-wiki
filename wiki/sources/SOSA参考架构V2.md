@@ -3,7 +3,7 @@ title: "SOSA参考架构 V2 — 传感器开放系统架构快照 2019"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [SOSA, 传感器, 开放架构, The Open Group, VITA, 硬件标准]
-source: [raw/papers/sosa-reference-architecture-v2.pdf, raw/articles/sosa-reference-architecture-v2.md]
+source: [raw/papers/SOSA参考架构V2.pdf, raw/articles/SOSA参考架构V2.md]
 confidence: EXTRACTED
 type: source
 ---

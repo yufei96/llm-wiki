@@ -3,7 +3,7 @@ title: "CSBA — 强化方阵：印太多层防空反导"
 created: 2026-05-21
 updated: 2026-05-21
 tags: [CSBA, 防空反导, IAMD, 印太, 齐射竞争, 关岛防御, HPM, CMD]
-source: [raw/papers/CSBA-Strengthening-Phalanx.pdf]
+source: [raw/papers/CSBA-加强方阵.pdf]
 confidence: EXTRACTED
 type: source
 ---

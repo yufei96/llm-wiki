@@ -4,8 +4,8 @@ created: 2026-05-07
 updated: 2026-05-21
 tags: [OSMP, NAVAIR, MOSA, 实施指南, 合同语言, 采办策略]
 source:
-  - raw/papers/navair-osmp-guide-v1-2025.pdf
-  - raw/articles/navair-osmp-guide-v1-2025.md
+  - raw/papers/NAVAIR-OSMP指南V1 2025.pdf 2025.pdf 2025.pdf
+  - raw/articles/NAVAIR-OSMP指南V1 2025.md
 confidence: EXTRACTED
 evidence: "从原始文档逐节提取关键框架、RFP语言模板和常见错误"
 type: source

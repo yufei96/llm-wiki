@@ -3,7 +3,7 @@ title: "IEEE-NASA 数字工程之旅 2024"
 created: 2026-05-07
 updated: 2026-05-21
 tags: [NASA, 数字工程, 数字化转型, IEEE, 航空航天, MBSE]
-source: [raw/papers/IEEE_NASAs_DE_Journey_3-09-24.pdf, raw/articles/IEEE_NASAs_DE_Journey_3-09-24.md]
+source: [raw/papers/IEEE-NASA数字工程之旅2024年3月.pdf, raw/articles/IEEE-NASA数字工程之旅2024年3月.md]
 confidence: EXTRACTED
 type: source
 ---

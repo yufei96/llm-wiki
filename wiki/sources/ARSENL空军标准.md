@@ -3,7 +3,7 @@ title: "ARSENL — 空军架构标准工程库"
 created: 2026-04-19
 updated: 2026-05-21
 tags: [ARSENL, 空军, AFMC, GRA, MOSA, 参考架构, 标准库, AFRL]
-source: [raw/papers/arsenl.pdf, raw/articles/ARSENL项目.md]
+source: [raw/papers/ARSENL项目.pdf, raw/articles/ARSENL项目.md]
 confidence: EXTRACTED
 type: source
 ---

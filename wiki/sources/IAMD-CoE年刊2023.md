@@ -3,7 +3,7 @@ title: "IAMD CoE 年刊 2023 — 北约一体化防空反导"
 created: 2026-05-21
 updated: 2026-05-21
 tags: [IAMD, NATO, 防空反导, 期刊, 高超音速, 无人机, 建模与仿真, IBCS]
-source: [raw/papers/IAMD-CoE-Journal-2023.pdf]
+source: [raw/papers/IAMD卓越中心期刊2023.pdf]
 confidence: EXTRACTED
 type: source
 ---

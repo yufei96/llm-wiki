@@ -5,8 +5,8 @@ updated: 2026-05-08
 type: source
 tags: [LTAMDS, DOTE, 陆军, IBCS, IAMD, PAC-3, 雷达, MOSA, 测试评估]
 sources:
-  - raw/papers/2025ltamds.pdf
-  - raw/articles/2025ltamds.md
+  - raw/papers/2025年低层防空反导系统.pdf
+  - raw/articles/2025年低层防空反导系统.md
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---

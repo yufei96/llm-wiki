@@ -4,7 +4,7 @@ created: 2026-04-26
 updated: 2026-04-26
 type: source
 tags: [DEWS, MOSA, 参考架构, MITRE, 定向能武器, SOSA, MBSE, 数字工程, HEL, HPM]
-sources: [raw/papers/mitre-dews-mosa-ra.pdf, raw/articles/mitre-dews-mosa-ra-full.md]
+sources: [raw/papers/MITRE DEWS-MOSA参考架构.pdf, raw/articles/MITRE DEWS-MOSA参考架构.md]
 confidence: EXTRACTED
 evidence: "直接从原始文档提取"
 ---

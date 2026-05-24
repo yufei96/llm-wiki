@@ -4,7 +4,7 @@ created: 2026-05-07
 updated: 2026-05-21
 tags: [CFW, ICD, 火控, 武器, NDIA, 互操作性, 通用接口, 跨平台, MOSA]
 source:
-  - raw/papers/ndia-cfw-icd-wright-2015.pdf
+  - raw/papers/NDIA-CFW ICD赖特2015.pdf
 confidence: EXTRACTED
 evidence: "从原始文档提取，2026-05-21"
 type: source

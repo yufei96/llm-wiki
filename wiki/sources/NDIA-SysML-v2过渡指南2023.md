@@ -3,7 +3,7 @@ title: "NDIA 2023 — DoD SysML v2 过渡指南项目简报"
 created: 2026-04-26
 updated: 2026-04-26
 type: source
-sources: [raw/papers/Thurs_1560710_Stirk.pdf]
+sources: [raw/papers/星期四-Stirk演讲.pdf]
 author: "Daniel Hettema (Director, DEM&S, OUSD(R&E))"
 tags: [SysML, MBSE, NDIA, 过渡, 数字工程, OUSD]
 confidence: EXTRACTED

@@ -1,6 +1,6 @@
 site_name: MOSA 知识库
 site_description: Modular Open Systems Approach (MOSA) 与数字工程知识库 — 国防开放系统架构、智能网联汽车、军事开放标准
-repo_url: https://gitee.com/yufei96/llm-wiki
+repo_url: https://github.com/yufei96/llm-wiki
 repo_name: llm-wiki
 docs_dir: content
 site_dir: build
@@ -58,7 +58,7 @@ markdown_extensions:
 extra:
   social:
   - icon: fontawesome/brands/git-alt
-    link: https://gitee.com/yufei96/llm-wiki
+    link: https://github.com/yufei96/llm-wiki
   generator: false
 copyright: Copyright &copy; 2024-2026 MOSA Knowledge Base
 nav:
@@ -251,6 +251,9 @@ nav:
     - SAM-ABMS广泛机构公告: sources/SAM-ABMS广泛机构公告.md
     - 美国陆军采办项目组合 2024: sources/陆军采办投资组合2024.md
   - 其他:
+    - DoDI-5000.74: sources/DoDI-5000.74.md
+    - DoDI-5000.75: sources/DoDI-5000.75.md
+    - F-35 TR3技术更新: sources/F-35 TR3技术更新.md
     - ISO/IEC/IEEE 15288:2023 — 系统生命周期过程: sources/ISO-15288系统生命周期过程.md
     - MIL-HDBK-1211(MI) — 导弹飞行仿真军事手册: sources/MIL-HDBK-1211导弹飞行仿真手册.md
     - OMB Circular A-130 摘要: sources/OMB通告A-130信息管理.md
@@ -258,9 +261,14 @@ nav:
     - PEO Aviation MOSA Transformation Office Industry Day 2022: sources/航空PEO-MOSA行业交流2022.md
     - PPI — 需求分析方法论（真正有效的需求分析）: sources/PPI需求分析方法论.md
     - SDA PWSA — 增殖型作战人员太空架构 MOSA 实施: sources/SDA太空作战架构MOSA案例.md
+    - SEC. 840. IMPLEMENTATION GUIDANCE FOR USE OF A MODULAR OPEN SYSTEM APPROACH: sources/NDAA
+        2020第840节-MOSA条款.md
+    - Section 804 - Implementation of Modular Open Systems Approaches and Rights in Interface Software: sources/NDAA
+        2021第804节-MOSA条款.md
     - 克里斯·加勒特 — USAF数字化转型演讲（2024年9月）: sources/克里斯-加勒特演讲2024.md
     - 海军将更多控制开放架构开发——OSMP内部化转型: sources/军事嵌入-海军OSMP 2025.md
     - 海军模块化开放系统方法（MOSA）实施指南 V1.0: sources/海军MOSA指南V1.md
+    - 确保战争胜利-防空反导现代化2023: sources/确保战争胜利-防空反导现代化2023.md
   - 国防部采办条例:
     - DAU下一代采办模型 — 开放架构: sources/DAU下一代采办2024.md
     - DoDI 5000.02 — 自适应采办框架操作: sources/DoDI-5000.02自适应采办框架操作.md
