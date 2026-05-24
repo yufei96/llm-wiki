@@ -1,9 +1,14 @@
 SHELL := /bin/bash
 ROOT := $(realpath $(dir $(lastword $(MAKEFILE_LIST))))
 
-.PHONY: all check build graph deploy serve clean
+.PHONY: all check build graph deploy serve clean stats
 
 all: check build graph
+
+# ── Stats auto-update (prerequisite for build + deploy) ──
+stats:
+	@echo "=== Updating Wiki Stats ==="
+	@python3 $(ROOT)/scripts/update-stats.py
 
 # ── Health checks ──
 check: check-yaml lint
@@ -16,8 +21,8 @@ lint:
 	@echo "=== Wiki Lint ==="
 	@bash $(ROOT)/scripts/lint-runner.sh $(ROOT)
 
-# ── Site build ──
-build: check-yaml
+# ── Site build (stats auto-update first) ──
+build: stats check-yaml
 	@echo "=== Site Build ==="
 	@python3 $(ROOT)/site/site_builder.py
 
@@ -26,10 +31,10 @@ graph:
 	@echo "=== Knowledge Graph ==="
 	@bash $(ROOT)/scripts/graph-html.sh $(ROOT)
 
-# ── Deploy ──
+# ── Deploy — builds fresh, auto-updates stats, checks, then deploys ──
 deploy: all
 	@echo "=== Deploy to Cloudflare ==="
-	@cd $(ROOT) && wrangler pages deploy --commit-message "EN"
+	@source ~/.bashrc && cd $(ROOT) && wrangler pages deploy --commit-message "EN" --commit-dirty=true
 	@echo "✓ Deployed"
 
 # ── Local preview ──
@@ -47,10 +52,11 @@ help:
 	@echo "MOSA Wiki Build System"
 	@echo ""
 	@echo "Targets:"
-	@echo "  make build   — Build the site (YAML check + conversion + mkdocs)"
-	@echo "  make check   — Health check only (lint + YAML)"
-	@echo "  make graph   — Generate interactive knowledge graph"
-	@echo "  make all     — Build + graph"
-	@echo "  make deploy  — All of the above + deploy to Cloudflare"
-	@echo "  make serve   — Local mkdocs preview at http://localhost:8000"
-	@echo "  make clean   — Remove build artifacts"
+	@echo "  make stats    — Auto-update 概述.md + README.md with current counts"
+	@echo "  make build    — stats + YAML check + site build"
+	@echo "  make check    — Health check only (lint + YAML)"
+	@echo "  make graph    — Generate interactive knowledge graph"
+	@echo "  make all      — stats + check + build + graph"
+	@echo "  make deploy   — all of the above + deploy to Cloudflare"
+	@echo "  make serve    — Local mkdocs preview at http://localhost:8000"
+	@echo "  make clean    — Remove build artifacts"
