@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>研究工作台流程原型</title>
+<style>
+body{font:16px/1.65 system-ui,sans-serif;max-width:960px;margin:40px auto;padding:0 24px;background:#f6f7f9;color:#202a36}h1{font-size:28px}h2{font-size:19px}section{background:white;border:1px solid #dce2e9;border-radius:10px;padding:22px;margin:18px 0}button{font:inherit;padding:8px 14px;margin:4px;border:1px solid #b8c8d7;border-radius:6px;background:white;cursor:pointer}button:hover,button[aria-selected=true]{background:#e7f0fa}button:focus-visible{outline:3px solid #3675b7}dt{font-weight:650}dd{margin:0 0 12px}blockquote{border-left:3px solid #3675b7;margin:12px 0;padding:6px 14px;background:#f4f7fb}.muted{color:#596675}#notice{color:#215688}input{font:inherit;width:95%;padding:10px;border:1px solid #b8c8d7;border-radius:5px}a{color:#215688}
+</style>
+<h1>从问题到可保存的研究结论</h1>
+<p>临时流程原型：检验在 Codex 中完成提问、核验证据、修改范围和确认保存是否顺畅。此页面用于演示交互，不代表需要新建网站。</p>
+<p class="muted">全部内容均为虚构示例。操作只改变当前页面内存，不调用模型、不读写知识库，刷新即重置。</p>
+<section><h2>研究问题</h2><label for="question">问题或新的研究范围</label><p><input id="question" value="某种工程方法的适用条件与现实阻力是什么？"></p></section>
+<section aria-live="polite"><h2 id="stage"></h2><dl id="state"></dl><div id="answer"></div><p id="notice"></p></section>
+<section><h2>自由尝试</h2><div id="actions"></div><p class="muted">可尝试直接保存，或在查看保存预览后修改研究范围，观察保护行为。</p></section>
+<section><h2>引导场景</h2><div id="scenarios" role="tablist" aria-label="引导场景"></div><p id="scenarioHelp"></p><div id="steps"></div></section>
+<section><h2>你的研究入口</h2><p>Codex：提问、综合、关键摘录、来源定位、范围修正、保存预览和确认。保存预览优先展示已有页面的变更差异；没有合适页面时再新建。Markdown 知识库持久保存结论与来源关联，Obsidian 可用于本地浏览。</p></section>
+<section><h2>其他人的网页阅读入口</h2><p>读者无需 Codex 或其他 Agent，通过现有网站导航和搜索查找已发布的知识页面。页面本身呈现结论、关键证据、来源定位、适用范围与未解决问题，不依赖作者的聊天记录。首版不提供网页问答或编辑。</p><blockquote>页面示例（虚构）：某工程方法在限定条件下观察到改善。<br>关键证据：「在限定条件下观察到改善。」<br>来源：示例文档甲，第 3 节。真实页面应提供读者可访问的原始网页或 PDF 链接；此示例没有真实来源，不提供虚假链接。<br>边界：尚缺成本数据，不能据此量化收益。</blockquote><p>无法公开访问的原文应明确说明限制，不以作者电脑上的本地路径代替公共引用。读者无法打开原文时，页面不能声称已提供完整核验能力。</p></section>
+<section><h2>保存与发布</h2><p>确认保存只更新本地知识库。网站继续展示最近一次已发布版本；公开发布是单独的操作。发布后才向网页读者呈现新的页面内容。</p></section>
+<script>
+// PROTOTYPE: simulated research and saving only; no persistence or external requests.
+const labels={ask:'生成示例回答',evidence:'查看关键摘录与定位',revise:'按输入内容修正范围',preview:'预览保存内容',save:'确认保存（模拟）',reset:'重新开始'};
+const modes={normal:'来源充分',missing:'证据不足',conflict:'来源冲突'};
+function initial(mode='normal'){return {mode,phase:'待提问',question:'',version:0,previewVersion:null,savedVersion:null,evidence:false,note:'请输入问题，开始研究。'};}
+function transition(s,action,question){
+ if(action==='reset')return initial(s.mode);
+ if(action==='ask'||action==='revise'){
+  if(!question.trim())return {...s,note:'请先填写研究问题。'};
+  return {...s,question:question.trim(),phase:'待核验',version:s.version+1,previewVersion:null,evidence:false,note:action==='revise'?'范围已修改，旧预览失效；请重新核验当前回答。':'示例回答已生成，尚未写入知识库。'};
+ }
+ if(!s.version)return {...s,note:'请先生成回答。'};
+ if(action==='evidence')return {...s,evidence:true,note:'已展开关键摘录和来源位置；打开引用不等于已经人工验证。'};
+ if(action==='preview')return {...s,phase:'待确认保存',previewVersion:s.version,note:'拟保存研究结论、来源、争议与证据缺口，并维护索引和日志。请核对后确认。'};
+ if(action==='save'){
+  if(s.previewVersion!==s.version)return {...s,note:'当前回答尚无有效保存预览，请先预览。'};
+  if(s.savedVersion===s.version)return {...s,note:'当前版本已模拟保存，不重复写入。'};
+  return {...s,phase:'已保存（模拟）',savedVersion:s.version,note:'模拟保存完成。真实流程应返回保存位置和变更摘要；不会自动提交或发布。'};
+ }
+ return s;
+}
+const scenarios=[
+ {name:'正常研究',mode:'normal',help:'生成回答，核验证据，然后查看保存预览并确认。',steps:['ask','evidence','preview','save']},
+ {name:'证据不足',mode:'missing',help:'允许保存带缺口的阶段性结论，不能把缺失数据补成确定判断。',steps:['ask','evidence','preview','save']},
+ {name:'来源冲突',mode:'conflict',help:'并列保留不同条件下的结果，未解决的冲突随结论一起保存。',steps:['ask','evidence','preview','save']},
+ {name:'预览后改范围',mode:'normal',help:'修改范围会使旧保存预览失效；再次预览后才能保存新版本。',steps:['ask','preview','revise','save','preview','save']}
+];
+let state=initial(),selected=0,step=0;
+const $=id=>document.getElementById(id);
+function button(text,fn){const b=document.createElement('button');b.textContent=text;b.onclick=fn;return b;}
+function act(action){state=transition(state,action,$('question').value);render();}
+function field(label,value){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('state').append(dt,dd);}
+function render(){
+ $('stage').textContent=state.phase;$('state').replaceChildren();
+ field('当前问题',state.question||'尚未提出');field('资料情况',modes[state.mode]);field('回答版本',String(state.version));
+ field('保存预览',state.previewVersion===state.version&&state.version?'对应当前回答':'无有效预览');field('已保存版本',state.savedVersion===null?'无':String(state.savedVersion));
+ $('answer').replaceChildren();
+ if(state.version){
+  const p=document.createElement('p');p.textContent=state.mode==='normal'?'示例结论：该方法的效果依赖实施条件；现有案例仅支持限定范围内的判断。':state.mode==='missing'?'阶段性结论：现有资料能说明实施条件，但缺乏可比成本数据，无法量化收益。':'存在分歧：来源甲报告收益，来源乙未观察到收益；对象和观察时期不同，目前不能得出统一结论。';$('answer').append(p);
+  if(state.evidence){const q=document.createElement('blockquote');q.textContent='虚构证据摘录：「在限定条件下观察到改善。」来源甲，示例文档，第 3 节；仅供展示定位格式。';$('answer').append(q);const p2=document.createElement('p');p2.textContent='综合推断：适用条件可能影响结果，仍需其他案例验证。'+(state.mode==='conflict'?' 来源乙的相反观察同时保留。':'');$('answer').append(p2);}
+  if(state.previewVersion===state.version){const p3=document.createElement('p');p3.textContent='保存预览：研究问题、当前结论、依据及位置、推断标识、适用范围、未解决问题。优先更新相关知识页面；目标页面和实际变更应在真实保存前列出。';$('answer').append(p3);}
+ }
+ $('notice').textContent=state.note;
+ $('actions').replaceChildren(...Object.entries(labels).map(([key,value])=>button(value,()=>act(key))));
+ $('scenarios').replaceChildren(...scenarios.map((s,i)=>{const b=button(s.name,()=>{selected=i;step=0;state=initial(s.mode);render();});b.setAttribute('role','tab');b.setAttribute('aria-selected',String(i===selected));return b;}));
+ $('scenarioHelp').textContent=scenarios[selected].help;
+ $('steps').replaceChildren(...scenarios[selected].steps.map((key,i)=>{const b=button(`${i+1}．${labels[key]}`,()=>{act(key);step=i+1;render();});b.disabled=i!==step;return b;}));
+}
+render();
+</script>
+</html>
