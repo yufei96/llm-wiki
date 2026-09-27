@@ -144,11 +144,14 @@ def preview(plan_path):
         if temp.exists():
             temp.unlink()
     for item in files:
-        print("".join(difflib.unified_diff(
+        for line in difflib.unified_diff(
             (item["before_content"] or "").splitlines(keepends=True),
             item["content"].splitlines(keepends=True),
             fromfile=item["path"], tofile=item["path"],
-        )), end="")
+        ):
+            print(line, end="")
+            if not line.endswith("\n"):
+                print("\n\\ No newline at end of file")
     print(f"PREVIEW {token}")
 
 

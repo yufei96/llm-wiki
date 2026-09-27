@@ -507,8 +507,28 @@ def test_rejected_handle_does_not_close_reused_descriptor(root: Path):
     assert (root / "other.txt").read_bytes() == b"still open"
 
 
+def test_preview_marks_missing_final_newlines(root: Path):
+    page, index, _, _ = prepare(root)
+    page.write_bytes(b"old page")
+    index.write_bytes(b"old index")
+    plan = make_plan(root)
+    plan["page"]["content"] = "new page"
+    plan["index"] = "new index"
+    token, output = preview(root, plan)
+    marker = "\\ No newline at end of file\n"
+    for line in ("-old page", "+new page", "-old index", "+new index"):
+        assert line + "\n" + marker in output, output
+    assert "\n--- wiki/索引.md\n" in output
+    assert "\n--- wiki/日志.md\n" in output
+    saved = run(root, "confirm", token)
+    assert saved.returncode == 0, saved.stderr
+    assert page.read_bytes() == b"new page"
+    assert index.read_bytes() == b"new index"
+
+
 if __name__ == "__main__":
     tests = (
+        test_preview_marks_missing_final_newlines,
         test_rejected_handle_does_not_close_reused_descriptor,
         test_save_and_duplicate_confirmation,
         test_stale_target_is_preserved,
