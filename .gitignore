@@ -3,7 +3,5 @@ site/build/
 site/content/
 site/__pycache__/
 *.zip
-.scratch/research-workbench/ticket8-active-save.json
-.scratch/research-workbench/ticket8-save-recovery.json
-.scratch/research-workbench/.ticket8-active-save.json.*
-.scratch/research-workbench/.ticket8-save-recovery.json.*
+/.scratch/
+__pycache__/

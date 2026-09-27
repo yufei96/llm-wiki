@@ -29,9 +29,7 @@ link_converter = importlib.util.module_from_spec(spec_lc)
 spec_dc.loader.exec_module(doc_config)
 spec_lc.loader.exec_module(link_converter)
 
-generate_section_indexes = doc_config.generate_section_indexes
-generate_nav = doc_config.generate_nav
-_SECTION_CFG = doc_config._SECTION_CFG
+generate_navigation = doc_config.generate_navigation
 build_page_index = link_converter.build_page_index
 convert_wiki_links = link_converter.convert_wiki_links
 quote_path = link_converter.quote_path
@@ -69,7 +67,8 @@ def main():
 
     # Generate section index pages
     print("Generating section indexes...")
-    generate_section_indexes(BUILD_DIR)
+    nav = generate_navigation(BUILD_DIR)
+    print(f"Generated nav: {len(nav)} sections")
 
     # Use overview.md as homepage
     overview = BUILD_DIR / "概述.md"
@@ -80,22 +79,8 @@ def main():
         print("Copied overview.md → index.md (homepage)")
 
     # Build index and convert
-    page_index = build_page_index(BUILD_DIR)
-
-    # Also index raw/ files
     RAW_SRC = ROOT / "raw"
-    if RAW_SRC.exists():
-        raw_files = 0
-        for md_file in RAW_SRC.rglob("*.md"):
-            rel = f"raw/{md_file.relative_to(RAW_SRC)}"
-            name = md_file.stem
-            page_index[name] = rel
-            parent = md_file.relative_to(RAW_SRC).parent
-            if parent != Path('.'):
-                page_index[f"{parent.as_posix()}/{name}"] = rel
-            page_index[f"raw/{md_file.relative_to(RAW_SRC).with_suffix('')}"] = rel
-            raw_files += 1
-        print(f"Indexed {raw_files} raw/ files")
+    page_index = build_page_index(BUILD_DIR, RAW_SRC)
     print(f"Index: {len(page_index)} pages")
 
     converted = 0
@@ -108,11 +93,9 @@ def main():
             continue
 
         link_count = content.count('[[')
-        new_content = convert_wiki_links(content, md_file, page_index, BUILD_DIR)
-
-        remaining = re.findall(r'\[\[([^\]]+)\]\]', new_content)
-        for r in remaining:
-            unresolved.append((md_file.relative_to(BUILD_DIR), r))
+        missing = []
+        new_content = convert_wiki_links(content, md_file, page_index, BUILD_DIR, missing)
+        unresolved.extend((md_file.relative_to(BUILD_DIR), target) for target in missing)
 
         if new_content != content:
             converted += 1
@@ -121,7 +104,9 @@ def main():
 
     print(f"Converted {converted} files, {total_links} links")
     if unresolved:
-        print(f"Unresolved: {len(unresolved)} links (will be plain links)")
+        print(f"Unresolved: {len(unresolved)} links (rendered as plain text)")
+        for source, target in unresolved:
+            print(f"  {source}: [[{target}]]")
 
     # ── Health check: run wiki-health-check on source ──
     print("\nRunning health check...")
@@ -163,10 +148,6 @@ def main():
     if encoded_links:
         print(f"URL-encoded Chinese paths in {encoded_links} files")
 
-    # ── Auto-generate nav from filesystem ──
-    nav = generate_nav(BUILD_DIR, _SECTION_CFG)
-    print(f"Generated nav: {len(nav)} sections")
-
     # Build mkdocs.yml for build (paths relative to site/ cwd)
     mkdocs_content = MKDOCS_YML.read_text(encoding='utf-8')
     mkdocs_content = mkdocs_content.replace('docs_dir: site/content', 'docs_dir: content')
@@ -177,6 +158,35 @@ def main():
     mkdocs_content = yaml.dump(config, allow_unicode=True, default_flow_style=False, sort_keys=False)
 
     MKDOCS_BUILD_YML.write_text(mkdocs_content, encoding='utf-8')
+
+    # Prepare PDF download links before MkDocs renders the content.
+    RELEASE_URL = "https://github.com/yufei96/llm-wiki/releases/download/raw-v2-aligned"
+    RELEASE_MAP = ROOT / "raw" / "release-map.tsv"
+    release_map = {}
+    if RELEASE_MAP.exists():
+        for line in RELEASE_MAP.read_text(encoding='utf-8').strip().split('\n')[1:]:
+            parts = line.split('\t')
+            if len(parts) == 2:
+                release_map[parts[0]] = parts[1]
+
+    release_links_added = 0
+    if release_map:
+        for md_file in sorted(BUILD_DIR.rglob("*.md")):
+            content = md_file.read_text(encoding='utf-8')
+            new_content = content
+            for m in re.finditer(r'raw/papers/([^\s\)\]\"\'\]\[,]+)', content):
+                pdf_name = m.group(1).rstrip('`').rstrip('\u3002')
+                if pdf_name in release_map and release_map[pdf_name]:
+                    en_name = release_map[pdf_name]
+                    release_url = f"{RELEASE_URL}/{en_name}"
+                    download_line = f"\n- 📄 [PDF原文]({release_url})"
+                    if download_line not in new_content:
+                        new_content += download_line
+                        release_links_added += 1
+            if new_content != content:
+                md_file.write_text(new_content, encoding='utf-8')
+    if release_links_added:
+        print(f"  Injected {release_links_added} Release download links into source pages")
 
     # Build
     print("\nBuilding MkDocs site...")
@@ -196,36 +206,6 @@ def main():
             continue
         shutil.copy2(f, SITE_OUT / f.name)
         print(f"  Copied root file: {f.name}")
-
-    # ── Inject GitHub Release PDF download links into source pages ──
-    RELEASE_URL = "https://github.com/yufei96/llm-wiki/releases/download/raw-v2-aligned"
-    RELEASE_MAP = ROOT / "raw" / "release-map.tsv"
-    release_map = {}  # ChineseName → ReleaseName
-    if RELEASE_MAP.exists():
-        for line in RELEASE_MAP.read_text(encoding='utf-8').strip().split('\n')[1:]:
-            parts = line.split('\t')
-            if len(parts) == 2:
-                release_map[parts[0]] = parts[1]
-
-    release_links_added = 0
-    if release_map:
-        for md_file in sorted(BUILD_DIR.rglob("*.md")):
-            content = md_file.read_text(encoding='utf-8')
-            new_content = content
-            # Look for raw/papers/xxx.pdf references and append Release link
-            for m in re.finditer(r'raw/papers/([^\s\)\]\"\'\]\[,]+)', content):
-                pdf_name = m.group(1).rstrip('`').rstrip('\u3002')
-                if pdf_name in release_map and release_map[pdf_name]:
-                    en_name = release_map[pdf_name]
-                    release_url = f"{RELEASE_URL}/{en_name}"
-                    download_line = f"\n- 📄 [PDF原文]({release_url})"
-                    if download_line not in new_content:
-                        new_content += download_line
-                        release_links_added += 1
-            if new_content != content:
-                md_file.write_text(new_content, encoding='utf-8')
-    if release_links_added:
-        print(f"  Injected {release_links_added} Release download links into source pages")
 
     # Symlink raw/ text files (no PDFs — served via GitHub Release links)
     raw_link_root = SITE_OUT / "raw"
