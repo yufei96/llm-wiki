@@ -3,3 +3,5 @@ site/build/
 site/content/
 site/__pycache__/
 *.zip
+/.scratch/
+__pycache__/

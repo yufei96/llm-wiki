@@ -211,19 +211,20 @@ def extract_tags(md_file: Path) -> list:
         if fm_match:
             tag_match = re.search(r'^tags:\s*\[(.*?)\]', fm_match.group(1), re.MULTILINE)
             if tag_match:
-                return [t.strip().strip('"').strip("'") for t in tag_match.group(1).split(',')]
+                return [t.strip().strip('"').strip("'") for t in tag_match.group(1).split(',') if t.strip()]
     except Exception:
         pass
     return []
 
 
-def generate_section_indexes(content_dir: Path, section_cfg: dict = None):
-    """Auto-generate index.md for each section directory with tag-based grouping."""
+def generate_navigation(content_dir: Path, section_cfg: dict = None) -> list:
+    """Write section indexes and return MkDocs nav from the same grouped pages."""
     if section_cfg is None:
         section_cfg = _SECTION_CFG
     section_titles = section_cfg['titles']
     section_descs = section_cfg['descs']
     category_maps = section_cfg['category_maps']
+    nav = [{'首页': '概述.md'}]
 
     for section in SECTIONS:
         section_dir = content_dir / section
@@ -277,63 +278,20 @@ def generate_section_indexes(content_dir: Path, section_cfg: dict = None):
                 lines.append(f'- [{title}]({stem})')
             lines.append('')
 
+        section_items = [f"{section}/index.md"]
+        for cat_name in sorted(grouped.keys()):
+            items = [
+                {title: f"{section}/{stem}.md"}
+                for stem, title in sorted(grouped[cat_name], key=lambda x: x[1])
+            ]
+            if len(grouped) > 1:
+                section_items.append({cat_name: items})
+            else:
+                section_items.extend(items)
+        nav.append({section_title: section_items})
+
         index_path = section_dir / "index.md"
         index_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
         grouped_count = len(grouped)
         print(f"  Generated {section}/index.md ({len(articles)} articles, {grouped_count} groups)")
-
-
-def generate_nav(content_dir: Path, section_cfg: dict) -> list:
-    """Auto-generate mkdocs nav from filesystem + YAML frontmatter + tag category maps.
-
-    Returns nav list compatible with mkdocs.yml format.
-    Replaces the manual 278-line nav section in mkdocs.yml.
-    """
-    section_titles = section_cfg['titles']
-    category_maps = section_cfg['category_maps']
-
-    nav = [{'首页': '概述.md'}]
-
-    for section in SECTIONS:
-        section_dir = content_dir / section
-        if not section_dir.is_dir():
-            continue
-
-        # Collect pages with tags
-        articles = []
-        for md_file in sorted(section_dir.glob("*.md")):
-            if md_file.name == "index.md":
-                continue
-            title = extract_title(md_file)
-            tags = extract_tags(md_file)
-            articles.append((md_file.name, title, tags))
-
-        if not articles:
-            continue
-
-        # Group by tag category (same maps as generate_section_indexes)
-        tag_map = category_maps.get(section, {})
-        grouped = {}
-        for filename, title, tags in articles:
-            category = '其他'
-            for tag in tags:
-                if tag in tag_map:
-                    category = tag_map[tag]
-                    break
-            grouped.setdefault(category, []).append((title, filename))
-
-        # Build section nav structure
-        section_items = [f"{section}/index.md"]
-        for cat_name in sorted(grouped.keys()):
-            if len(grouped) > 1:
-                sub_items = []
-                for title, filename in sorted(grouped[cat_name], key=lambda x: x[0]):
-                    sub_items.append({title: f"{section}/{filename}"})
-                section_items.append({cat_name: sub_items})
-            else:
-                for title, filename in sorted(grouped[cat_name], key=lambda x: x[0]):
-                    section_items.append({title: f"{section}/{filename}"})
-
-        nav.append({section_titles[section]: section_items})
-
     return nav
